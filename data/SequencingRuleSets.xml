@@ -1,0 +1,16 @@
+<SequencingRuleSets>
+<PersistentData Type="SequencingRuleSet">
+  <ID>2</ID>
+  <Name>RuleSetTest</Name>
+  <Rules>
+    <e0 Type="ConstSequencingRule">
+      <TagID>12311</TagID>
+      <Weight>2312</Weight>
+      <Min>-100</Min>
+      <Max>100</Max>
+      <ValidRounds>-1</ValidRounds>
+    </e0>
+  </Rules>
+</PersistentData>
+
+</SequencingRuleSets>

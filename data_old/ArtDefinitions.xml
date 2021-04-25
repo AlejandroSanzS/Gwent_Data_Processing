@@ -1,0 +1,1138 @@
+<ArtDefinitions>
+<ArtDefinition Type="CardArtDefinition" ArtId="1007" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1008" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1009" SharedArtId="0" ArtistName="Marek Madej" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1010" SharedArtId="0" ArtistName="Marta Dettlaff" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1011" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="3" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1012" ArtistName="Marek Madej" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1013" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1014" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1015" SharedArtId="0" ArtistName="Studio Grafit" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1016" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1017" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1018" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1019" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1020" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1021" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1022" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1023" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1024" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1025" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1026" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1027" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1028" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1029" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1030" SharedArtId="0" ArtistName="Marta Dettlaff" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1031" SharedArtId="0" ArtistName="Aleksandra Wojtas" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1032" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1033" SharedArtId="0" ArtistName="Alicja Kapustka" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1034" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1035" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1036" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1037" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1038" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1039" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1040" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1041" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1042" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1043" SharedArtId="0" ArtistName="Bruno Biazotto" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1044" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1045" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1046" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1047" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1048" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1049" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1050" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1051" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1052" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1053" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1054" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1055" SharedArtId="0" ArtistName="Alicja Kapustka" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1056" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1057" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1058" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1059" SharedArtId="0" ArtistName="Aleksandra Wojtas" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1060" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1061" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1062" SharedArtId="0" ArtistName="Nemanja Stankovic " StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1063" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1064" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1065" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1068" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1073" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1074" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1075" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1797" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80045" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80083" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1078" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1079" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1080" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1081" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1082" SharedArtId="0" ArtistName="Tokkun Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1083" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1084" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1085" SharedArtId="0" ArtistName="Form Language Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1086" SharedArtId="0" ArtistName="Paweł Świeżak, Bartłomiej Gaweł" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1087" SharedArtId="0" ArtistName="Lasahido Lius" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1088" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="3" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1089" SharedArtId="0" ArtistName="Hugo Richard, Marek Madej" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1090" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1091" SharedArtId="0" ArtistName="Filipe Pagliuso" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1092" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1093" SharedArtId="0" ArtistName="Darek Zabrocki" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1094" SharedArtId="0" ArtistName="Ilker Serdar Yildiz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1095" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1096" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1097" SharedArtId="0" ArtistName="Noah Bradley" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1098" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1099" SharedArtId="0" ArtistName="Noah Bradley" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1107" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1108" SharedArtId="0" ArtistName="Filipe Pagliuso" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1109" SharedArtId="0" ArtistName="Marta Dettlaff" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1111" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1113" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1114" SharedArtId="0" ArtistName="Lasahido Lius" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1115" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1116" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1118" SharedArtId="0" ArtistName="Marta Dettlaff" StandardMask="1" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1120" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1121" SharedArtId="0" ArtistName="Form Language Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1122" SharedArtId="0" ArtistName="Katarzyna Redesiuk" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1123" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1124" SharedArtId="0" ArtistName="Bruno Biazotto" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1125" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1127" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1128" SharedArtId="0" ArtistName="Marta Dettlaff" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1130" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1131" ArtistName="Marek Madej" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1132" ArtistName="Marek Madej" StandardMask="3" PremiumMask="1" PremiumTexMask="3"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80021" RegionMask="3" /><e1 Type="VanitySkinDefinition" VanityId="80049" RegionMask="3" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1133" SharedArtId="0" ArtistName="Marek Madej" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1134" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1135" SharedArtId="0" ArtistName="Marek Madej" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1136" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1137" SharedArtId="0" ArtistName="Paweł Brudniak" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1138" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1139" SharedArtId="0" ArtistName="Adrian Smith" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1140" SharedArtId="0" ArtistName="Adrian Smith" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1141" SharedArtId="0" ArtistName="Marta Dettlaff" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1142" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1143" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1144" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1145" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1146" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1147" SharedArtId="0" ArtistName="Bayard Wu" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1148" SharedArtId="0" ArtistName="Adrian Smith" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1149" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1150" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1151" SharedArtId="0" ArtistName="Marta Dettlaff" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1152" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1153" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1154" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1155" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1157" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1158" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1159" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1160" SharedArtId="0" ArtistName="Alejandro Mirabal" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1161" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1162" SharedArtId="0" ArtistName="Katarzyna Redesiuk" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1163" SharedArtId="0" ArtistName="Adrian Smith" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1164" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1165" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1166" SharedArtId="0" ArtistName="Marta Dettlaff" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1168" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1170" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1171" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1172" SharedArtId="0" ArtistName="Adrian Smith" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1173" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1174" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1175" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1176" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1177" ArtistName="Bayard Wu" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1178" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1179" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1180" SharedArtId="0" ArtistName="Ilker Serdar Yildiz, Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1181" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1182" SharedArtId="1182" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1588" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1184" SharedArtId="0" ArtistName="Marta Dettlaff" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1188" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1189" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1190" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1191" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1192" SharedArtId="0" ArtistName="James Daly" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1193" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1194" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1195" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1196" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1197" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1198" SharedArtId="0" ArtistName="Ilker Serdar Yildiz" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1199" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1200" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1201" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1202" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1203" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1204" SharedArtId="0" ArtistName="Miles Johnston" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1205" SharedArtId="0" ArtistName=" Nemanja Stankovic" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1206" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1207" SharedArtId="0" ArtistName="Paweł Świeżak" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1208" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1209" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1210" SharedArtId="0" ArtistName="Ilker Serdar Yildiz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1211" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1212" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1213" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1214" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1215" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1216" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1217" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1218" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1219" SharedArtId="0" ArtistName="Ilker Serdar Yildiz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1220" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1221" SharedArtId="0" ArtistName="Ilker Serdar Yildiz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1222" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1223" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1224" SharedArtId="0" ArtistName="Ilker Serdar Yildiz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1225" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1226" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1227" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1228" SharedArtId="0" ArtistName="Marta Dettlaff" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1229" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1233" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1234" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1235" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1236" SharedArtId="0" ArtistName="Katarzyna Redesiuk, Grafit Studio " StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1237" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1238" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1239" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1240" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1241" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1242" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1243" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="3" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1244" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1245" SharedArtId="0" ArtistName="Bruno Biazotto" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1246" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1247" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1248" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1249" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1250" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1251" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1252" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1253" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1254" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1255" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1256" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1257" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1258" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1260" SharedArtId="1259" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1262" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1263" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1264" SharedArtId="0" ArtistName="Anna Podedworna, Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1265" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1266" ArtistName="Marek Madej" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1267" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1268" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1269" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1270" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1271" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1273" SharedArtId="1273" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="3" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1276" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1277" SharedArtId="0" ArtistName="Katarzyna Redesiuk" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1278" SharedArtId="0" ArtistName="Alicja Użarowska" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1279" SharedArtId="0" ArtistName="Alicja Użarowska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1280" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1281" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1285" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1286" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1287" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1288" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="3" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1289" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1290" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1291" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1292" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1293" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1294" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1295" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1296" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1297" ArtistName="Diego de Almeida Peres" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1298" SharedArtId="0" ArtistName="Chris Rallis" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1299" ArtistName="Chris Rallis" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1300" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1301" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1302" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1303" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1304" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1305" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1306" SharedArtId="0" ArtistName="Alicja Kapustka" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1307" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1308" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1309" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1310" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1311" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1312" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1313" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1314" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1315" SharedArtId="0" ArtistName="Marta Dettlaff" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1316" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1317" ArtistName="Bruno Biazotto" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1318" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1319" SharedArtId="0" ArtistName="Bruno Biazotto" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1320" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1321" SharedArtId="0" ArtistName="Sławomir Maniak" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1322" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1323" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1324" SharedArtId="0" ArtistName="James Daly" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1325" SharedArtId="0" ArtistName="Bruno Biazotto" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1326" SharedArtId="0" ArtistName="Alicja Kapustka" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1327" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1066" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1330" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1331" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1332" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1333" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1002" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1334" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1335" SharedArtId="0" ArtistName="Sławomir Maniak" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1003" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1336" ArtistName="Marek Madej" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1337" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1338" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1340" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1341" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1342" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1343" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1344" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1345" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1346" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1347" SharedArtId="0" ArtistName="Alicja Kapustka" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1348" SharedArtId="0" ArtistName="Bruno Biazotto" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1350" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1351" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1352" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1353" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1355" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1356" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1358" ArtistName="Diego de Almeida Peres" StandardMask="1" PremiumMask="3" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80010" RegionMask="3" /><e1 Type="VanitySkinDefinition" VanityId="80033" RegionMask="1" /><e2 Type="VanitySkinDefinition" VanityId="80039" RegionMask="1" /><e3 Type="VanitySkinDefinition" VanityId="80051" RegionMask="3" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1359" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1361" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1365" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1374" SharedArtId="0" ArtistName="Chris Rallis" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1376" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1381" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1382" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1383" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1384" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1386" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1390" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1391" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1392" SharedArtId="0" ArtistName="Alexandre Mokhov" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1394" SharedArtId="0" ArtistName="Bruno Biazotto" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1401" SharedArtId="0" ArtistName="Bruno Biazotto" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1405" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1406" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1407" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1408" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1416" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1419" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1420" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1423" SharedArtId="0" ArtistName="Bruno Biazotto" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1429" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1440" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1441" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1443" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1444" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1449" SharedArtId="0" ArtistName="Manuel Castañón" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1450" SharedArtId="0" ArtistName=" Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1451" SharedArtId="0" ArtistName=" Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1452" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1454" SharedArtId="0" ArtistName="Karol Bem" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1458" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1230" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80002" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80072" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1231" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80005" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80073" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1232" ArtistName="Tokkun Studio" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1282" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80011" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80012" RegionMask="1" /><e2 Type="VanitySkinDefinition" VanityId="80054" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1283" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80022" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80055" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1284" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80020" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80056" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1185" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80016" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80066" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1186" ArtistName="Dário Coelho" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80009" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80069" RegionMask="3" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1187" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80003" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80004" RegionMask="1" /><e2 Type="VanitySkinDefinition" VanityId="80068" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1070" ArtistName="Stanton Feng" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80015" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80060" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1072" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="1" PremiumTexMask="3"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80019" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80062" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1459" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1460" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1461" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1462" SharedArtId="0" ArtistName="Bruno Biazotto" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1463" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1464" SharedArtId="0" ArtistName="Adrian Smith" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1465" SharedArtId="0" ArtistName="Adrian Smith" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1466" SharedArtId="0" ArtistName="Adrian Smith" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1467" SharedArtId="0" ArtistName="Katarzyna Redesiuk" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1468" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1469" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1470" SharedArtId="0" ArtistName="Marta Dettlaff" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1555" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1473" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1101" SharedArtId="0" ArtistName="Marta Dettlaff" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1474" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1475" SharedArtId="0" ArtistName="Chris Rallis" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1476" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="3" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1487" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1488" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1489" SharedArtId="0" ArtistName="Adrian Smith" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1490" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1492" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1493" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1494" SharedArtId="0" ArtistName="Marek Madej" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1498" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1512" SharedArtId="0" ArtistName="Devos Florian" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1514" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1499" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1515" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1522" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1453" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1507" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1472" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1478" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1511" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1593" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1534" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1629" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1577" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1592" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1516" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1513" SharedArtId="0" ArtistName="Alicja Użarowska" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1594" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1595" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1596" ArtistName="Bruno Biazotto" StandardMask="3" PremiumMask="3" PremiumTexMask="3"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80023" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80057" RegionMask="3" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1597" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1598" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1599" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1600" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1601" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1602" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1378" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80014" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80067" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1366" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="3" PremiumTexMask="3"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80000" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80063" RegionMask="3" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1363" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80008" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80075" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1603" SharedArtId="0" ArtistName=" Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1418" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1402" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1604" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1605" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1537" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1529" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1530" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1606" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1533" ArtistName="Nemanja Stankovic" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1360" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1607" SharedArtId="0" ArtistName=" Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1425" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1608" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1609" ArtistName="Nemanja Stankovic" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1585" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1610" SharedArtId="0" ArtistName="Manuel Castañón" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1611" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1339" SharedArtId="0" ArtistName="Bruno Biazotto" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1612" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1613" SharedArtId="0" ArtistName="Manuel Castañón" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1614" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1615" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1484" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1616" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1617" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1618" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1619" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1563" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1621" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1579" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1622" SharedArtId="0" ArtistName="Dário Coelho" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1589" SharedArtId="0" ArtistName="Bruno Biazotto, Katarzyna Redesiuk" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1538" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1517" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1624" SharedArtId="0" ArtistName="Manuel Castañón" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1539" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1004" SharedArtId="0" ArtistName="Studio Grafit" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1625" ArtistName="Manuel Castañón" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1620" SharedArtId="0" ArtistName="Alicja Kapustka" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1626" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1584" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1562" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1581" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1627" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1001" SharedArtId="0" ArtistName="Marta Dettlaff" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1628" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1586" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1531" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1630" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1632" SharedArtId="0" ArtistName="Manuel Castañón" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1633" SharedArtId="0" ArtistName="Maciej Łaszkiewicz" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1634" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1510" SharedArtId="0" ArtistName="Gwent Art Team" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1635" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1067" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1636" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1637" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1638" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1639" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80001" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80050" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1069" SharedArtId="0" ArtistName="Katarzyna Redesiuk" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1558" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1640" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1631" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1641" SharedArtId="0" ArtistName="Dave Rapoza" StandardMask="1" PremiumMask="3" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1644" SharedArtId="0" ArtistName="Lorenzo Mastroianni " StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1645" SharedArtId="0" ArtistName="Monika Zawistowska" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1647" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1648" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1650" SharedArtId="0" ArtistName="Bartłomiej Gaweł " StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1651" SharedArtId="0" ArtistName="Grzegorz Rutkowski" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1652" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1354" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1688" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1575" SharedArtId="0" ArtistName="Alicja Kapustka" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1578" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1005" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1483" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1520" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1503" SharedArtId="0" ArtistName="Bruno Biazotto" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1480" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1502" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1536" SharedArtId="0" ArtistName=" Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1501" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1477" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1576" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1572" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1525" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1504" SharedArtId="0" ArtistName="Diego de Almeida Peres" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1524" SharedArtId="0" ArtistName="Michael Mac Rae" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1479" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1573" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1703" SharedArtId="0" ArtistName="Christof Grobelski" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1505" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80030" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80070" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1566" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80027" RegionMask="3" /><e1 Type="VanitySkinDefinition" VanityId="80064" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1535" ArtistName="Anna Podedworna " StandardMask="3" PremiumMask="1" PremiumTexMask="3"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80031" RegionMask="3" /><e1 Type="VanitySkinDefinition" VanityId="80052" RegionMask="3" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1532" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="3" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80029" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80058" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1506" ArtistName="Bogna Gawrońska" StandardMask="3" PremiumMask="3" PremiumTexMask="3"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80028" RegionMask="3" /><e1 Type="VanitySkinDefinition" VanityId="80076" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1519" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1540" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1497" SharedArtId="0" ArtistName="Gwent Art Team" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1006" ArtistName="Manuel Castañón" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1375" ArtistName="Nemanja Stankovic" StandardMask="3" PremiumMask="1" PremiumTexMask="3"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80006" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80007" RegionMask="1" /><e2 Type="VanitySkinDefinition" VanityId="80061" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1708" SharedArtId="0" ArtistName="Manuel Castañón" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1719" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1000" ArtistName="Nemanja Stankovic" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1689" SharedArtId="0" ArtistName="Volmi Games" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1559" SharedArtId="0" ArtistName="Bruno Biazotto " StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1523" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1541" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1521" SharedArtId="0" ArtistName="Maciej Łaszkiewicz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1481" SharedArtId="0" ArtistName="Maciej Łaszkiewicz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1569" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1496" SharedArtId="0" ArtistName="Gwent Art Team" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1779" SharedArtId="0" StandardMask="3" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1831" SharedArtId="0" StandardMask="3" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1832" SharedArtId="0" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1833" SharedArtId="0" ArtistName="Katarzyna Bekus" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1367" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80037" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80053" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1373" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80036" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80059" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1834" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80035" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80065" RegionMask="0" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1721" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80034" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80071" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1665" ArtistName="Manuel Castanon" StandardMask="3" PremiumMask="1" PremiumTexMask="3"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80038" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80077" RegionMask="3" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1835" SharedArtId="0" ArtistName="Christof Grobelski" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1698" SharedArtId="0" ArtistName="Manuel Castanon" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1702" SharedArtId="0" ArtistName="Manuel Castanon" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1701" SharedArtId="0" ArtistName="Manuel Castanon" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1368" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1695" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1697" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1680" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1397" SharedArtId="0" ArtistName="Diego de Almeida" StandardMask="1" PremiumMask="3" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1675" SharedArtId="0" ArtistName="Grosnez" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1700" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1687" SharedArtId="0" ArtistName="Volmi Games" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1657" SharedArtId="0" ArtistName="Grafit Art" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1655" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1696" SharedArtId="0" ArtistName="Maciej Łaszkiewicz" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1686" SharedArtId="0" ArtistName="Grafit Art" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1694" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1693" SharedArtId="0" ArtistName="Maciej Łaszkiewicz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1643" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1692" SharedArtId="0" ArtistName="Manuel Castanon" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1691" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1690" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1491" SharedArtId="0" ArtistName="Grafit Art / Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1678" SharedArtId="0" ArtistName="Volmi Games" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1770" SharedArtId="0" ArtistName="Maciej Łaszkiewicz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1771" SharedArtId="0" ArtistName="Valeriy Vegera" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1772" SharedArtId="0" ArtistName="Karol Bem" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1773" SharedArtId="0" ArtistName="Aleksandra Wojtas" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1699" SharedArtId="0" ArtistName="Volmi Games" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1583" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1683" SharedArtId="0" ArtistName="Bryan Sola/ Bartłomiej Gaweł" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1393" SharedArtId="0" ArtistName="Bryan Sola/ Bartłomiej Gaweł" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1677" SharedArtId="0" ArtistName="Rudy Siswanto" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1661" SharedArtId="0" ArtistName="Jason Kang / Lorenzo Mastroianni" StandardMask="3" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1681" SharedArtId="0" ArtistName="Diego de Almeida" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1656" SharedArtId="0" ArtistName="Alicja Kapustka" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1412" SharedArtId="0" ArtistName="Nemanja Stankovic" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1411" SharedArtId="0" ArtistName="Diego de Almeida" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1385" SharedArtId="0" ArtistName="Diego de Almeida" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1660" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1676" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1410" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1398" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1704" ArtistName="Nemanja Stankovic" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1396" SharedArtId="0" ArtistName="Nemanja Stankievic" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1395" SharedArtId="0" ArtistName="Grafit Art / Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1682" SharedArtId="0" ArtistName="Alicja Kapustka" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1706" SharedArtId="0" ArtistName="Alicja Kapustka" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1388" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1424" SharedArtId="0" ArtistName="Marta Dettlaff" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1428" SharedArtId="0" ArtistName="Marta Dettlaff" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1422" SharedArtId="0" ArtistName="Bruno Biazzoto" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1426" ArtistName="Alicja Kapustka" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1421" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1427" SharedArtId="0" ArtistName="Grafit Art" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1778" SharedArtId="0" ArtistName="Valeriy Vegera" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1717" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1707" SharedArtId="0" ArtistName="Diego de Almeida" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1766" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1718" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1716" SharedArtId="0" ArtistName="Alicja Kapustka" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1720" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1654" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1715" SharedArtId="0" ArtistName="Alicja Kapustka" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1711" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1710" SharedArtId="0" ArtistName="Manuel Castanon" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1713" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1714" SharedArtId="0" ArtistName="Manuel Castanon" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1712" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1777" SharedArtId="0" ArtistName="Danel Valaisis" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1403" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1362" SharedArtId="0" ArtistName="Diego de Almeida" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1725" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1371" SharedArtId="0" ArtistName="Grafit Art / Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1404" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1447" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1724" SharedArtId="0" ArtistName="Diego de Almeida" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1722" SharedArtId="0" ArtistName="Diego de Almeida" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1448" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1439" SharedArtId="0" ArtistName="Diego de Almeida" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1438" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1349" SharedArtId="0" ArtistName="Diego de Almeida" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1679" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1746" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1666" SharedArtId="0" ArtistName="Manuel Castanon" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1667" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1668" SharedArtId="0" ArtistName="Maciej Łaszkiewicz" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1669" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1670" SharedArtId="0" ArtistName="Karol Bem" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1671" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1674" SharedArtId="0" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1455" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1774" SharedArtId="0" ArtistName="Karol Bem" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1673" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1775" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1590" SharedArtId="0" ArtistName="Diego de Almeida" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1776" SharedArtId="0" ArtistName="Valeriy Vegera" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1372" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1380" SharedArtId="0" ArtistName="Bartłomiej Gaweł" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1909" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1908" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1399" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1907" SharedArtId="0" ArtistName="Daniel Valaisis" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1377" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1850" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1851" SharedArtId="0" ArtistName="Christof Grobelski" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1906" SharedArtId="0" ArtistName="Aleksandra Wojtas" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1760" SharedArtId="0" ArtistName="Manuel Castanon" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1836" ArtistName="Daniel Valaisis" StandardMask="3" PremiumMask="3" PremiumTexMask="3"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80042" RegionMask="3" /><e1 Type="VanitySkinDefinition" VanityId="80082" RegionMask="3" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1804" SharedArtId="0" ArtistName="Christof Grobelski" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1853" SharedArtId="0" ArtistName="Daniel Valaisis" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1905" SharedArtId="0" ArtistName="Aleksandra Wojtas" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1737" ArtistName="Ørjan Ruttenborg Svendsen" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1904" SharedArtId="0" ArtistName="Daniel Valaisis" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1753" ArtistName="Ørjan Ruttenborg Svendsen" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1903" SharedArtId="0" ArtistName="Maciej Łaszkiewicz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1400" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1842" SharedArtId="0" ArtistName="Daniel Valaisis" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1902" SharedArtId="0" ArtistName="Daniel Valaisis" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1733" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1901" SharedArtId="0" ArtistName="Yama Orce" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1744" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1900" SharedArtId="0" ArtistName="Aleksandra Wojtas" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1436" SharedArtId="0" ArtistName="Alicja Kapustka" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1899" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1437" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1898" SharedArtId="0" ArtistName="Daniel Valaisis" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1734" SharedArtId="0" ArtistName="Alicja Kapustka" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1841" SharedArtId="0" ArtistName="Daniel Valaisis" StandardMask="1" PremiumMask="3" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1897" SharedArtId="0" ArtistName="Valeriy Vegera" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1896" SharedArtId="0" ArtistName="Sandra Chlewińska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1837" SharedArtId="0" ArtistName="Maciej Łaszkiewicz" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1895" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80043" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80081" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1894" SharedArtId="0" ArtistName="Christof Grobelski" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1839" ArtistName="Valeriy Vegera" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1893" SharedArtId="0" ArtistName="Maciej Łaszkiewicz" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1840" SharedArtId="0" ArtistName="Karol Bem" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1838" SharedArtId="0" ArtistName="Katarzyna Bekus" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1892" SharedArtId="0" ArtistName="Daniel Valaisis" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1855" SharedArtId="0" ArtistName="Maciej Łaszkiewicz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1891" SharedArtId="0" ArtistName="Valeriy Vegera" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1738" SharedArtId="0" ArtistName="Alicja Kapustka" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1856" SharedArtId="0" ArtistName="Sandra Chlewińska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1890" SharedArtId="0" ArtistName="Maciej Łaszkiewicz" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1857" SharedArtId="0" ArtistName="Katarzyna Bekus" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1755" ArtistName="VOLMI Games" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1843" SharedArtId="0" ArtistName="Karol Bem" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1858" SharedArtId="0" ArtistName="Sandra Chlewińska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1889" SharedArtId="0" ArtistName="Katarzyna Bekus" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1859" SharedArtId="0" ArtistName="Zuzanna Kapuścińska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1888" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1759" ArtistName="Manuel Castanon" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80041" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80078" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1860" SharedArtId="0" ArtistName="Katarzyna Bekus" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1741" SharedArtId="0" ArtistName="Diego Almeida" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1861" SharedArtId="0" ArtistName="Bartlomiej Gawel" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1844" SharedArtId="0" ArtistName="Karol Bem" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1862" SharedArtId="0" ArtistName="Daniel Valaisis" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1791" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1750" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1887" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1863" SharedArtId="0" ArtistName="Christof Grobelski" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1845" SharedArtId="0" ArtistName="Maciej Łaszkiewicz" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1886" SharedArtId="0" ArtistName="Yama Orce" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1910" SharedArtId="0" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1846" ArtistName="Bryan Sola" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1885" SharedArtId="0" ArtistName="Karol Bem" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1434" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1847" SharedArtId="0" ArtistName="Valeriy Vegera" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1884" SharedArtId="0" ArtistName="Christof Grobelski" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1431" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1749" SharedArtId="0" ArtistName="Maciej Laszkiewicz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1883" SharedArtId="0" ArtistName="Daniel Valaisis" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1848" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1823" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1882" SharedArtId="0" ArtistName="Yama Orce" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1849" SharedArtId="0" ArtistName="Valeriy Vegera" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1743" SharedArtId="0" ArtistName="Bogna Gawrońska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1881" ArtistName="Aleksandra Wojtas" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80044" RegionMask="3" /><e1 Type="VanitySkinDefinition" VanityId="80080" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1864" SharedArtId="0" ArtistName="Aleksandra Wojtas" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1880" SharedArtId="0" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1865" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1879" SharedArtId="0" ArtistName="Daniel Valaisis" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1878" SharedArtId="0" ArtistName="Yama Orce" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1877" SharedArtId="0" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1876" SharedArtId="0" ArtistName="Katarzyna Bekus" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1875" SharedArtId="0" ArtistName="Christof Grobelski" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1874" ArtistName="Yama Orce" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1873" SharedArtId="0" ArtistName="Diego de Almeida" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1872" SharedArtId="0" ArtistName="Igloo" StandardMask="1" PremiumMask="3" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1871" SharedArtId="0" ArtistName="Karol Bem" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1870" SharedArtId="0" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1869" SharedArtId="0" ArtistName="Sandra Chlewinska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1868" SharedArtId="0" ArtistName="Christof Grobelski" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1867" ArtistName="Yama Orce" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1866" ArtistName="Daniel Valaisis" StandardMask="1" PremiumMask="1" PremiumTexMask="1"><VanitySkins><e0 Type="VanitySkinDefinition" VanityId="80040" RegionMask="1" /><e1 Type="VanitySkinDefinition" VanityId="80079" RegionMask="1" /></VanitySkins></ArtDefinition>
+<ArtDefinition Type="CardArtDefinition" ArtId="1911" SharedArtId="0" ArtistName="Zuzanna Kapuścińska" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1912" SharedArtId="0" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1968" ArtistName="Katarzyna Bekus" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1916" ArtistName="Manuel Castanon" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1684" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1785" ArtistName="Anna Podedworna" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1742" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1925" ArtistName="Kasia Bekus" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1926" ArtistName="Christof Grobelski" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1795" ArtistName="Bartlomiej Gawel" StandardMask="1" PremiumMask="3" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1803" ArtistName="Manuel Castanon" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1928" ArtistName="Oleksandr Kozachenko" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1929" ArtistName="Christof Grobelski" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1930" ArtistName="Christof Grobelski" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1552" ArtistName="VOLMI Games" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1947" ArtistName="Kasia Bekus" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1948" ArtistName="Tomas Duchek" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1949" ArtistName="Maciej Laszkiewicz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1950" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1664" ArtistName="Karol Bem" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1556" ArtistName="VOLMI Games" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1560" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1557" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1951" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1076" ArtistName="Diego de Almeida" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1794" ArtistName="Grosnez" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1805" ArtistName="Christof Grobelski" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1739" ArtistName="Maciej Laszkiewicz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1817" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1754" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1752" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1816" ArtistName="Bartlomiej Gawel" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1756" ArtistName="Grosnez" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1740" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1761" ArtistName="Maciej Laszkiewicz" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1822" ArtistName="Bartlomiej Gawel" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1821" ArtistName="Alicja Kapustka" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1435" ArtistName="Diego de Almeida" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1967" ArtistName="Grafit Studio" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1913" ArtistName="Christof Grobelski" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1924" ArtistName="Diego de Almeida" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1927" ArtistName="Maciej Laszkiewicz" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1918" ArtistName="Christof Grobelski" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1915" ArtistName="Karol Bem" StandardMask="3" PremiumMask="3" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1952" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1953" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1954" ArtistName="Diego de Almeida" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1914" ArtistName="Christof Grobelski" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1955" ArtistName="Alicja Kapustka" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1932" ArtistName="Oleksandr Kozachenko" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1933" ArtistName="Oleksandr Kozachenko" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1934" ArtistName="Yamandu Orce" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1935" ArtistName="Oleksandr Kozachenko" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1936" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1956" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1957" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1958" ArtistName="Maciej Laszkiewicz" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1959" ArtistName="Manuel Castanon" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1960" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1917" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1937" ArtistName="Valeriy Vegera" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1938" ArtistName="Maciej Laszkiewicz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1939" ArtistName="Christof Grobelski" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1940" ArtistName="Christof Grobelski" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1961" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1962" ArtistName="Sandra Chlewinska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1963" ArtistName="Aleksandra Wojtas" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1964" ArtistName="Karol Bem" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1965" ArtistName="Kasia Bekus" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1919" ArtistName="Yamandu Orce" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1920" ArtistName="Manuel Castanon" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1921" ArtistName="Yamandu Orce" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1922" ArtistName="Yamandu Orce" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1923" ArtistName="Sandra Chlewinska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1941" ArtistName="Karol Bem" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1942" ArtistName="Christof Grobelski" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1943" ArtistName="Christof Grobelski" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1944" ArtistName="Aleksandra Wojtas" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1945" ArtistName="Christof Grobelski" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1946" ArtistName="Yamandu Orce" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1969" ArtistName="Kasia Bekus" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1970" ArtistName="Kasia Bekus" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1433" ArtistName="Nemanja Stankovic" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2002" ArtistName="Yamandu Orce" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2003" ArtistName="Karol Bem" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2004" ArtistName="Sandra Chlewinska" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1977" ArtistName="Astor Alexander" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1978" ArtistName="Astor Alexander" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2005" ArtistName="Zuzanna Kapuscinska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2031" ArtistName="Anton Nazarenko" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2032" ArtistName="Oleksandr Kozachenko" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2033" ArtistName="Kasia Bekus" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2034" ArtistName="Kasia Bekus" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2035" ArtistName="Aleksandra Wojtas" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2036" ArtistName="Maciej Laszkiewicz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2037" ArtistName="Zuzanna Kapuscinska" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2038" ArtistName="Karol Bem" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2039" ArtistName="Kasia Bekus" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2040" ArtistName="Valeriy Vegera" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1998" ArtistName="Zuzanna Kapuscinska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1999" ArtistName="Oleksandr Kozachenko" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2000" ArtistName="Manuel Castanon" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1976" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2001" ArtistName="Anton Nazarenko" StandardMask="3" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1981" ArtistName="Bruno Biazotto" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2025" ArtistName="Maciej Laszkiewicz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2026" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1982" ArtistName="Bruno Biazotto" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1983" ArtistName="Valeriy Vegera" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1984" ArtistName="Kevin Zamir Goeke" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1985" ArtistName="Maciej Laszkiewicz" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1971" ArtistName="Kevin Zamir Goeke" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1986" ArtistName="Oleksandr Kozachenko" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2011" ArtistName="Aleksandra Wojtas" StandardMask="3" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2012" ArtistName="Yamandu Orce" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2013" ArtistName="Kasia Bekus" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2014" ArtistName="Zuzanna Kapuscinska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2006" ArtistName="Yamandu Orce" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1387" ArtistName="Alicja Kapustka" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2008" ArtistName="Valeriy Vegera" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1389" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2010" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1409" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2028" ArtistName="Maciej Laszkiewicz" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1414" ArtistName="Alicja Kapustka" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1413" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1987" ArtistName="Valeriy Vegera" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1988" ArtistName="Sandra Chlewinska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1989" ArtistName="Sandra Chlewinska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1990" ArtistName="Manuel Castanon" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1972" ArtistName="Astor Alexander" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2015" ArtistName="Kasia Bekus" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2016" ArtistName="Manuel Castanon" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2017" ArtistName="Astor Alexander" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2018" ArtistName="Karol Bem" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1991" ArtistName="Maciej Laszkiewicz" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1992" ArtistName="Ivan Vilmant" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1993" ArtistName="Kasia Bekus" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1973" ArtistName="Tomas Duchek" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1974" ArtistName="Tomas Duchek" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2019" ArtistName="Maxim Kostin" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2020" ArtistName="Kevin Zamir Goeke" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1979" ArtistName="Tomas Duchek" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2021" ArtistName="Kevin Zamir Goeke" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1994" ArtistName="Aleksandra Wojtas" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1995" ArtistName="Maxim Kostin" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1996" ArtistName="Astor Alexander" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1975" ArtistName="Mauro Belfiore" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1997" ArtistName="Astor Alexander" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1980" ArtistName="Andrew Kuzinskiy" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2022" ArtistName="Karol Bem" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2023" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2024" ArtistName="Yamandu Orce" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2045" ArtistName="Valeriy Vegera" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2046" ArtistName="Aleksandra Wojtas" StandardMask="3" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2043" ArtistName="Maciej Laszkiewicz" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2044" ArtistName="Sandra Chlewinska" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2378" ArtistName="Anton Nazarenko" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2299" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2284" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2281" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2285" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2282" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2283" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2286" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2298" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2300" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2229" ArtistName="Valeriy Vegera" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2245" ArtistName="Karol Bem" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1852" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1762" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2247" ArtistName="Dario Jelusic" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2248" ArtistName="Maciej Łaszkiewicz" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2249" ArtistName="Zuzanna Kapuścińska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2250" ArtistName="Maciej Łaszkiewicz" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2251" ArtistName="Anna Podedworna" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2252" ArtistName="Karol Bem" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2253" ArtistName="Aleksandra Wojtas" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2185" ArtistName="Aleksandra Wojtas" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2186" ArtistName="Valeriy Vegera" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2187" ArtistName="Katarzyna Bekus" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2189" ArtistName="Katarzyna Bekus" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2190" ArtistName="Oleksandr Kozachenko" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2191" ArtistName="Maciej Łaszkiewicz" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2192" ArtistName="Maciej Łaszkiewicz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2195" ArtistName="Anton Nazarenko" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2193" ArtistName="Anton Nazarenko" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2194" ArtistName="Karol Bem" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2196" ArtistName="Karol Bem" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2232" ArtistName="Anton Nazarenko" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2233" ArtistName="Oleksandr Kozachenko" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2235" ArtistName="Katarzyna Bekus" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2236" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2237" ArtistName="Sandra Chlewinska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2238" ArtistName="Anton Nazarenko" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2239" ArtistName="Maciej Łaszkiewicz" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2241" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2240" ArtistName="Oleksandr Kozachenko" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2242" ArtistName="Anton Nazarenko" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2243" ArtistName="Katarzyna Bekus" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2063" ArtistName="Sandra Chlewinska" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2065" ArtistName="Anotn Nazarenko" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2197" ArtistName="Katarzyna Bekus" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1357" ArtistName="Bryan Sola" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2198" ArtistName="Bogdan Rezunenko" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1780" ArtistName="Bartłomiej Gaweł" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2200" ArtistName="Bogdan Rezunenko" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1793" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1751" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2201" ArtistName="Bogdan Rezunenko" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1430" ArtistName="Ilker Serdar Yildiz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1758" ArtistName="VOLMI Games" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="1812" ArtistName="Maciej Łaszkiewicz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2204" ArtistName="Grafit Studio" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2231" ArtistName="Bruno Biazotto" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2217" ArtistName="Karol Bem" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2218" ArtistName="Anton Nazarenko" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2219" ArtistName="Sandra Chlewinska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2223" ArtistName="Zuzanna Kapuścińska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2221" ArtistName="Maciej Łaszkiewicz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2220" ArtistName="Maciej Łaszkiewicz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2222" ArtistName="Anton Nazarenko" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2225" ArtistName="Katarzyna Bekus" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2224" ArtistName="Lorenzo Mastroianni" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2226" ArtistName="Bogdan Rezunenko" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2227" ArtistName="Oleksndr Kozachenko" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2228" ArtistName="Valeriy Vegera" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2058" ArtistName="Karol Bem" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2070" ArtistName="Katarzyna Bekus" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2071" ArtistName="Anton Nazarenko" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2072" ArtistName="Karol Bem" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2073" ArtistName="Anton Nazarenko" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2074" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2075" ArtistName="Maciej Łaszkiewicz" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2076" ArtistName="Valeriy Vegera" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2184" ArtistName="Valeriy Vegera" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2078" ArtistName="Karol Bem" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2077" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="3" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2081" ArtistName="Sandra Chlewinska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2080" ArtistName="Aleksandra Wojtas" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2183" ArtistName="Oleksandr Kozachenko" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2056" ArtistName="Valeriy Vegera" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2205" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2206" ArtistName="Zuzanna Kapuścińska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2207" ArtistName="Sandra Chlewinska" StandardMask="3" PremiumMask="3" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2208" ArtistName="Oleksandr Kozachenko" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2209" ArtistName="Zuzanna Kapuścińska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2210" ArtistName="Sandra Chlewinska" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2211" ArtistName="Karol Bem" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2212" ArtistName="Oleksandr Kozachenko" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2213" ArtistName="Katarzyna Bekus" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2215" ArtistName="Katarzyna Bekus" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2214" ArtistName="Bogdan Rezunenko" StandardMask="3" PremiumMask="1" PremiumTexMask="3" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2216" ArtistName="Zuzanna Kapuścińska" StandardMask="1" PremiumMask="1" PremiumTexMask="1" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2061" ArtistName="Lorenzo Mastroianni" StandardMask="3" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="CardArtDefinition" ArtId="2060" ArtistName="Karol Bem" StandardMask="1" PremiumMask="0" PremiumTexMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2083" VanityId="80088" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2099" VanityId="80114" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2082" VanityId="80085" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2109" VanityId="80054" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2110" VanityId="80012" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2111" VanityId="80011" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2084" VanityId="80050" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2085" VanityId="80001" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2287" VanityId="80119" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2086" VanityId="80052" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2087" VanityId="80031" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2112" VanityId="80057" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2113" VanityId="80023" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2373" VanityId="80122" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2088" VanityId="80053" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2089" VanityId="80037" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2114" VanityId="80058" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2115" VanityId="80029" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2090" VanityId="80051" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2093" VanityId="80010" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2091" VanityId="80039" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2092" VanityId="80033" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2116" VanityId="80059" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2118" VanityId="80036" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2117" VanityId="80089" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2119" VanityId="80056" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2120" VanityId="80020" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2121" VanityId="80055" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2122" VanityId="80022" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2123" VanityId="80060" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2124" VanityId="80015" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2094" VanityId="80049" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2095" VanityId="80021" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2126" VanityId="80084" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2127" VanityId="80046" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2128" VanityId="80047" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2129" VanityId="80065" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2130" VanityId="80035" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2131" VanityId="80062" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2132" VanityId="80019" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2133" VanityId="80063" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2134" VanityId="80000" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2135" VanityId="80064" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2136" VanityId="80027" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2137" VanityId="0" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2138" VanityId="80061" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2139" VanityId="80006" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2140" VanityId="80007" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2376" VanityId="80126" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2141" VanityId="80071" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2142" VanityId="80034" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2182" VanityId="80091" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2143" VanityId="80066" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2144" VanityId="80016" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2145" VanityId="80070" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2146" VanityId="80030" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2147" VanityId="80067" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2148" VanityId="80014" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2149" VanityId="80087" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2150" VanityId="80068" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2151" VanityId="80003" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2152" VanityId="80004" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2153" VanityId="80069" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2154" VanityId="80009" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2374" VanityId="80123" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2155" VanityId="80072" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2156" VanityId="80002" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2158" VanityId="80073" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2159" VanityId="80005" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2160" VanityId="80086" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2161" VanityId="80074" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2162" VanityId="80017" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2375" VanityId="80124" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2163" VanityId="80075" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2164" VanityId="80008" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2165" VanityId="80076" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2166" VanityId="80028" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2167" VanityId="80077" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2168" VanityId="80038" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2169" VanityId="80081" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2170" VanityId="80043" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2171" VanityId="80078" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2172" VanityId="80041" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2244" VanityId="80092" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2173" VanityId="80083" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2174" VanityId="80045" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2175" VanityId="80079" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2176" VanityId="80040" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2177" VanityId="80080" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2178" VanityId="80044" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2179" VanityId="80082" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2180" VanityId="80042" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2097" VanityId="80048" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2098" VanityId="80013" RegionMask="2" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2377" VanityId="80125" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2181" VanityId="0" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2256" VanityId="80093" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2255" VanityId="80094" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2258" VanityId="80096" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2254" VanityId="80095" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2257" VanityId="80097" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2261" VanityId="80110" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2259" VanityId="80100" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2260" VanityId="80099" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2262" VanityId="80098" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2263" VanityId="80116" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2264" VanityId="80109" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2268" VanityId="80111" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2269" VanityId="80102" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2266" VanityId="80101" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2267" VanityId="80103" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2265" VanityId="80108" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2273" VanityId="80112" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2275" VanityId="80115" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2272" VanityId="80106" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2276" VanityId="80104" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2279" VanityId="80117" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2278" VanityId="80107" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2277" VanityId="80113" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2274" VanityId="80105" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2270" VanityId="80118" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2372" VanityId="80120" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2371" VanityId="80121" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2379" VanityId="80127" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2380" VanityId="80128" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2383" VanityId="80131" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2382" VanityId="80130" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2381" VanityId="80129" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2406" VanityId="80154" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2384" VanityId="80132" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2385" VanityId="80133" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2386" VanityId="80134" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2388" VanityId="80136" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2389" VanityId="80137" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2391" VanityId="80139" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2390" VanityId="80138" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2387" VanityId="80135" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2392" VanityId="80140" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2394" VanityId="80142" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2395" VanityId="80143" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2407" VanityId="80155" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2393" VanityId="80141" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2405" VanityId="80153" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2396" VanityId="80144" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2398" VanityId="80146" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2399" VanityId="80147" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2400" VanityId="80148" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2401" VanityId="80149" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2402" VanityId="80150" RegionMask="0" />
+<ArtDefinition Type="LeaderSkinTrinketVanityArtDefinition" ArtId="2403" VanityId="80151" RegionMask="0" />
+</ArtDefinitions>

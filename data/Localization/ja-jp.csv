@@ -1,7 +1,7 @@
 ﻿1_name_b;n/a
 1_name_lt;霜
 1_name_sa;TEST
-1_tooltip_lt;所有者のターン開始時、配置列にある最も戦力値の高いユニット1体に{Damage}ダメージを与える。
+1_tooltip_lt;所有者のターン開始時、配置列にある最高戦力値ユニット1体に{Damage}ダメージを与える。
 10_name_b;Ignore.
 10_name_sa;Ignore.
 100_fluff;大陸に住む者の中には、王侯貴族に従わない者がいる。だからと言って、彼らがずっしりと重い金貨袋を受け付けないわけではない。程度の差はあれ、求めるモノは誰もが同じだ
@@ -24,7 +24,7 @@
 11_name_sa;Ignore.
 112101_fluff;私は好きな時に、どこへでも行けるの
 112101_name;シリ
-112101_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット{MaxTargets}体を無作為に選んで{Damage}ずつダメージを与える。\nあなたがラウンドに敗北するたび、このユニットを自軍手札に戻す。
+112101_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット{MaxTargets}体に{Damage}ずつダメージを与える。\nあなたがラウンドに敗北するたび、このユニットを自軍手札に戻す。
 112102_fluff;ウィッチャーは指を交差させるだけで明かりを灯せる。ろうそくではなく、敵を焼き払うことも可能だ
 112102_name;ゲラルト：イグニ
 112102_tooltip;<keyword=deploy>配備</keyword>：合計戦力値が{Power2}以上の何れかの敵陣列にある全ての最高戦力値ユニットを破壊する。\n<keyword=initiative>初動</keyword>：代わりに合計戦力値が{Power}以上の何れかの敵陣列にある全ての最高戦力値ユニットを破壊する。
@@ -33,7 +33,7 @@
 112103_tooltip;<keyword=deploy>配備</keyword>：戦力値{power}以上の敵軍ユニット1体を破壊する。
 112104_fluff;私を怪物と呼ぶ者がいる。血に飢えた、野蛮な怪物とね
 112104_name;レジス
-112104_tooltip;<keyword=deploy>配備</keyword>：敵陣列にある全てのユニットに{Damage}ずつダメージを与える。\n<keyword=initiative>初動</keyword>：1体でも破壊された場合、このアビリティを繰り返す。
+112104_tooltip;<keyword=deploy>配備</keyword>：何れかの敵陣列にある全てのユニットに{Damage}ずつダメージを与える。\n<keyword=initiative>初動</keyword>：1体でも破壊された場合、このアビリティを繰り返す。
 112105_fluff;彼は姿を消し、その眼差しで相手を深い眠りに誘う。腹いっぱいになるまで血を飲み干すと、蝙蝠に姿を変えて誰にも気づかれずに飛び去るのだ
 112105_name;レジス：上級吸血鬼
 112105_tooltip;<keyword=order>命令</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体からそのユニットが持つブースト量に等しい戦力値を<keyword=drain>吸収</keyword>する。
@@ -60,19 +60,19 @@
 112112_tooltip;<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自軍デッキにあるアーティファクト1個をプレイする。
 112113_fluff;優秀な女魔術師は、氷と炎の魔法を完璧に使い分ける
 112113_name;イェネファー：魔術師
-112113_tooltip;<keyword=order>命令</keyword>：全ての敵軍最高戦力値ユニットに{Damage}ずつダメージを与える。（<keyword=cooldown>クールダウン</keyword>：{Cooldown}）
+112113_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：全ての敵軍最高戦力値ユニットに{Damage}ずつダメージを与える。（<keyword=cooldown>クールダウン</keyword>：{Cooldown}）
 112201_fluff;ミミック、チェンジリング、ダブリングなど、彼の種族を指す言葉はたくさんある。とりわけドップラーと呼ばれることが多いようだ
 112201_name;ドゥードゥー
 112201_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体の同名カードに変身する。
 112202_fluff;俺はあんたと違って普通のウィッチャーだ。ドラゴンと戦ったり、王に仕えたり、女魔術師と寝たりはしないさ
 112202_name;エスケル
-112202_tooltip;<keyword=deploy>配備</keyword>：自軍デッキにある《ヴェセミル》と《ランバート》を配置列に<keyword=summon>召喚</keyword>する。
+112202_tooltip;<keyword=deploy>配備</keyword>（<keyword=adrenaline>熱狂</keyword>（{Adrenaline}））：デッキから《ヴェセミル》と《ランバート》を<keyword=summon>召喚</keyword>する。
 112203_fluff;首を吊られそうになったら、最後の一杯を要求しろ。その間に策を講じればいい
 112203_name;ヴェセミル
-112203_tooltip;<keyword=deploy>配備</keyword>：自軍デッキにある《エスケル》と《ランバート》を配置列に<keyword=summon>召喚</keyword>する。
+112203_tooltip;<keyword=deploy>配備</keyword>（<keyword=adrenaline>熱狂</keyword>（{Adrenaline}））：デッキから《エスケル》と《ランバート》を<keyword=summon>召喚</keyword>する。
 112204_fluff;これこそ、俺の好きな類の“交渉”だよ
 112204_name;ランバート
-112204_tooltip;<keyword=deploy>配備</keyword>：自軍デッキにある《エスケル》と《ヴェセミル》を配置列に<keyword=summon>召喚</keyword>する。
+112204_tooltip;<keyword=deploy>配備</keyword>（<keyword=adrenaline>熱狂</keyword>（{Adrenaline}））：デッキから《エスケル》と《ヴェセミル》を<keyword=summon>召喚</keyword>する。
 112205_fluff;ドラゴンの親子にだけは絶対に関わるな
 112205_name;マイグタブラック
 112205_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット{MaxTargets}体に{Damage}ずつダメージを与える。
@@ -123,7 +123,7 @@
 112405_tooltip;<keyword=deploy>配備</keyword>：自軍手札にある<keyword=deathwish>遺言</keyword>アビリティを持つ全てのユニットに{Boost}ずつブーストを与える。
 113101_fluff;〈終末の時代〉が到来せん折、ヘムダールが現れ、ミョルフォグの地より生まれしあらゆる邪悪と混沌に立ち向かうであろう
 113101_name;ラグ・ナ・ログ
-113101_tooltip;{counter}ターンの間、何れかの敵陣列に<keyword=cataclysm>大変動</keyword>を<keyword=spawn>生成</keyword>する。
+113101_tooltip;何れかの敵陣列に<keyword=cataclysm>大変動</keyword>（{counter}ターン持続）を<keyword=spawn>生成</keyword>する。
 113102_fluff;善いジンは、3つの願いを叶える。ひとたび解放されると、未知なる次元へ姿を消す
 113102_name;最後の願い
 113102_tooltip;自軍デッキの一番上にあるカード{Maxtargets}枚を見た後、1枚をプレイし、もう1枚を<keyword=banish>消滅</keyword>させる。
@@ -135,16 +135,16 @@
 113202_tooltip;敵軍ユニット{Maxtargets}体に{Damage}ずつダメージを与える。
 113203_fluff;これはただの嵐じゃない。神々の怒りだ
 113203_name;スケリッジの嵐
-113203_tooltip;{counter}ターンの間、何れかの敵陣列に<keyword=storm>嵐</keyword>を<keyword=spawn>生成</keyword>する。
+113203_tooltip;何れかの敵陣列に<keyword=storm>嵐</keyword>（{counter}ターン持続）を<keyword=spawn>生成</keyword>する。
 113204_fluff;スタメルフォードは、彼が住む塔の見晴らしを邪魔する山を動かした。そんな芸当ができたのも、彼がダオ、すなわち土のエレメンタルを使役していたからだ
 113204_name;スタメルフォードの激震
 113204_tooltip;全ての敵軍ユニットに{Damage}ずつダメージを与える。
 113205_fluff;ウィッチハンターに欠かせない装備品。どれだけ恐ろしい魔術師も、瞬時に切り分けられるのを待つポークゼリーの塊に変えてしまう
 113205_name;ディメリティウム爆弾
-113205_tooltip;アーティファクト1個を破壊する。
+113205_tooltip;ユニット1体に{Damage}ダメージと<keyword=veil>遮蔽</keyword>を与える。
 113206_fluff;お前はテッド・デリーダ、すなわち〈終末の時代〉を前にしている。ここは〈白き霜〉によって崩壊してしまった世界なのだ
-113206_name;白き霜
-113206_tooltip;全てのアーティファクトを破壊する。
+113206_name;吹雪
+113206_tooltip;最低戦力値ユニット1体を破壊する。\n<keyword=initiative>初動</keyword>：全ての最低戦力値ユニットを破壊する。
 113207_fluff;士気が上がると、その分聞きわけがなくなるものだ
 113207_name;指揮官の角笛
 113207_tooltip;隣り合わせのユニット{maxtargets}体に{Boost}ずつブーストを与える。
@@ -159,13 +159,13 @@
 113301_tooltip;ユニット1体に{Damage}ダメージを与える。
 113302_fluff;冬の何がいいかって？ 死体が腐臭を放たずにすむだろう
 113302_name;氷霜
-113302_tooltip;{counter}ターンの間、何れかの敵陣列に<keyword=frost>霜</keyword>を<keyword=spawn>生成</keyword>する。
+113302_tooltip;何れかの敵陣列に<keyword=frost>霜</keyword>（{counter}ターン持続）を<keyword=spawn>生成</keyword>する。
 113303_fluff;今日はいい天気だよ、ドロムル！ まだ希望があるのかもしれないね…
 113303_name;晴天
 113303_tooltip;何れかの自陣列にある全てのユニットに{boost}ずつブーストを与える。
 113305_fluff;有能な指揮官は霧を喜び、無能な指揮官は霧を怖れる
 113305_name;濃霧
-113305_tooltip;{Counter}ターンの間、何れかの敵陣列に<keyword=fog>霧</keyword>を<keyword=spawn>生成</keyword>する。
+113305_tooltip;何れかの敵陣列に<keyword=fog>霧</keyword>（{Counter}ターン持続）を<keyword=spawn>生成</keyword>する。
 113306_fluff;ひとたび毒が回ると、ニルフガード皇帝の称号を略さず言い切るよりも早く命を奪う
 113306_name;マンティコアの毒
 113306_tooltip;敵軍ユニット{MaxTargets}体に{Damage}ずつダメージを与える。
@@ -183,13 +183,13 @@
 113310_tooltip;ユニット1体に{Boost}ブーストを与える。
 113311_fluff;そのウィッチャーの顔がよ、まるで人間じゃないみたいな、恐ろしい表情に変わったんだ
 113311_name;雷光
-113311_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>自軍ユニット1体に{Boost}ブーストを与える。（<keyword=charge>チャージ</keyword>：{Charges}）
+113311_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：自軍ユニット1体に{Boost}ブーストを与える。（<keyword=charge>チャージ</keyword>：{Charges}）
 113312_fluff;この地では、雨すら小便の臭いがする
 113312_name;豪雨
-113312_tooltip;{counter}ターンの間、何れかの敵陣列に<keyword=rain>雨</keyword>を<keyword=spawn>生成</keyword>する。
+113312_tooltip;何れかの敵陣列に<keyword=rain>雨</keyword>（{counter}ターン持続）を<keyword=spawn>生成</keyword>する。
 113313_fluff;スケリッジ人なら老若男女問わず敵を斧で切り裂くすべを心得ているが、その雄叫びで耳をつんざける者はそう多くはない
 113313_name;アン・クライトの鯨波兵
-113313_tooltip;<keyword=Bloodthirst>狂騒</keyword>（{Bloodthirst}）：自ターン終了時、{boost}ブーストを得る。
+113313_tooltip;<keyword=Bloodthirst>狂騒</keyword>（{Bloodthirst}）：自軍ターン終了時、{boost}ブーストを得る。
 113315_fluff;深淵を覗くとき、深淵もまたそなたを覗いているのだ
 113315_name;ベッカーの邪鏡
 113315_tooltip;ユニット1体を選ぶ。それがブーストを得ている場合、ブースト量の2倍に等しいダメージを与える。それがダメージを負っている場合、ダメージ量の2倍に等しいブーストを与える。
@@ -224,7 +224,7 @@
 122107_tooltip;<keyword=deploy>配備</keyword>：自軍手札にあるユニット1体を無作為に選んで{Boost}ブーストを与える。
 122108_fluff;今日死ぬかもしれないんだから、綺麗にしておきたいの
 122108_name;キーラ・メッツ
-122108_tooltip;<keyword=deploy>配備</keyword>：両隣のユニットに<keyword=vitality>活力</keyword>（それぞれベース戦力値の合計値に等しい期間持続）を与える。
+122108_tooltip;<keyword=deploy>配備</keyword>：両隣のユニットに<keyword=vitality>活力</keyword>（それぞれベース戦力値に等しい期間持続）を与える。
 122201_fluff;ダンディリオン、お前は皮肉屋で、好色で、嘘つきで、俺の最高の友人だ
 122201_name;ダンディリオン
 122201_tooltip;<keyword=ranged>間接</keyword>：自軍ユニットが<keyword=charge>チャージ</keyword>を得るたび、得た<keyword=charge>チャージ</keyword>1つにつき、それに{Boost}ブーストを与える。
@@ -260,13 +260,13 @@
 122211_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：敵軍ユニット1体に<keyword=lock>封印</keyword>を与える。
 122212_fluff;ネネッケを越える癒しの腕前を持つ者は少ない
 122212_name;ネネッケ
-122212_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>（<keyword=ranged>間接</keyword>）：ユニット1体に{Boost}ブーストを与える。 （<keyword=charge>チャージ</keyword>：{Charges}）
+122212_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>（<keyword=ranged>間接</keyword>）：ユニット1体に{Boost}ブーストを与える。（<keyword=charge>チャージ</keyword>：{Charges}）
 122213_fluff;オードリン無しの宴会なんて、櫂無しで船に乗るようなものだ
 122213_name;オードリン
 122213_tooltip;<keyword=resupply>補給</keyword>：{Boost}ブーストを得る。\n<keyword=inspired>奮起</keyword>：代わりに{Boost2}ブーストを得る。
 122214_fluff;足を止めるな、このクソ共！ もしまた止まったら、ニルフガード人どもにすがりたくなるような目にあわせるぞ！
 122214_name;ケイドウェン軍の兵士長
-122214_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：自軍ユニット1体に{Boost}ブーストを与える。（<keyword=charge>チャージ</keyword>：{Charges}）
+122214_tooltip;【<keyword=formation>陣形</keyword>】\n<keyword=order>命令</keyword>：自軍ユニット1体に{Boost}ブーストを与える。（<keyword=charge>チャージ</keyword>：{Charges}）
 122216_fluff;ノヴィグラドで商いを行う者には二つの選択肢がある。クリーヴァーにみかじめ料を払うか、自身の膝に永久に口づけをするかだ
 122216_name;カルロ・ヴァリーズ
 122216_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：自軍手札にあるカード1枚につき、敵軍ユニット1体に{Damage}ダメージを与える。
@@ -305,7 +305,7 @@
 122314_tooltip;【<keyword=shield>シールド</keyword>】\nこのユニットは<keyword=shield>シールド</keyword>を失うたび、{Boost}ブーストを得る。
 122315_fluff;感じるか？ こいつが岩を放つたびに、大地が震えるのを
 122315_name;強化トレビュシェット
-122315_tooltip;<keyword=ranged>間接</keyword>：毎自軍ターン終了時、<keyword=ranged>間接</keyword>列にある敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。
+122315_tooltip;<keyword=ranged>間接</keyword>：毎自軍ターン終了時、<keyword=ranged>間接</keyword>列にある敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。\n<keyword=crew>乗組員</keyword>：代わりに敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。
 122316_fluff;テメリア！ テメリア！ 神々のご加護があらんことを！ その悲哀の拳で、仇なす者を無に還さんことを！
 122316_name;テメリア軍の歩兵
 122316_tooltip;<keyword=deploy>配備</keyword>：配置列にあるブーストを得ているユニット1体につき、敵軍ユニット1体に{Damage}ダメージを与える。
@@ -314,7 +314,7 @@
 122317_tooltip;<keyword=deploy>配備</keyword>：{Boost}ブーストを得る。\n<keyword=exposed>無防備</keyword>：自身の戦力値を初期化する。
 122318_fluff;目標を外すのは一度だけだ
 122318_name;攻城団長
-122318_tooltip;<keyword=deploy>配備</keyword>：自軍ユニット1体に{Boost}ブーストを与える。\n<keyword=resupply>補給</keyword>：両隣の「攻城兵器」ユニットに{Boost2}ずつブーストを与える。
+122318_tooltip;<keyword=order>命令</keyword>：自軍ユニット1体に{Boost}ブーストを与える。\n<keyword=resupply>補給</keyword>：両隣の「攻城兵器」ユニットに{Boost2}ずつブーストを与える。
 122401_fluff;過ちを認めて正しく埋葬しないと、甦ってお前に取り憑くぞ
 122401_name;ボッチリング
 122401_tooltip;毎自軍ターン終了時、敵軍最高戦力値ユニット1体に{Damage}ダメージを与える。\n<keyword=order>命令</keyword>：《ラバーキン》に変身する。
@@ -331,7 +331,7 @@
 13_name_sa;Ignore.
 131101_fluff;無様な姿を晒すな。結末は分かっているはずだ
 131101_name;鉄壁
-131101_tooltip;<keyword=order>命令</keyword>：自軍ユニット1体に{Boost}ブーストと<keyword=shield>シールド</keyword>を与える。（<keyword=charge>チャージ</keyword>：{Charges}）\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+131101_tooltip;<keyword=order>命令</keyword>：自軍ユニット1体に{Boost}ブーストを与える。それが『モンスター』ユニットの場合、さらに<keyword=veil>遮蔽</keyword>を与える。（<keyword=charge>チャージ</keyword>：{Charges}）\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 131102_fluff;絵画が伝えるのは感情で、言葉ではない
 131102_name;ゲールズ
 131102_tooltip;<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自軍デッキにある『ワイルドハント』スペシャルカード1枚をプレイする。
@@ -343,7 +343,7 @@
 132102_tooltip;自軍最高戦力値ユニットの戦力値に等しいダメージを敵軍ユニット1体に与える。\n自陣に《イムレリス》がある場合、代わりに敵軍ユニット1体を破壊する。
 132103_fluff;俺たちゃ森で狩りはしない。たとえ、それで村全体が飢えに苦しむとしてもな
 132103_name;自然の力
-132103_tooltip;<keyword=order>命令</keyword>：自軍手札にあるユニット1体に{Boost}ブーストを与える。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+132103_tooltip;<keyword=order>命令</keyword>：《森の精霊》を<keyword=spawn>生成</keyword>してプレイする。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 132104_fluff;まぎれもない天才として生み出されたが、悪の道を選んだ
 132104_name;カランシール
 132104_tooltip;<keyword=deploy>配備</keyword>：自軍手札にある「モンスター」ユニット1体の同名カード1枚（但し戦力値は{Power}とする）を配置列に<keyword=spawn>生成</keyword>する。
@@ -358,7 +358,7 @@
 132107_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：自軍ユニット1体を<keyword=consume>捕食</keyword>する。（<keyword=charge>チャージ</keyword>：{Charges}）
 132108_fluff;どうして戦うの？ 有り余る精力を解放する方法は、他にもたくさんあるじゃない…
 132108_name;ミルナ
-132108_tooltip;<keyword=deathwish>遺言</keyword>：戦力値{Power}以下の敵軍ユニット1体を<keyword=seize>強奪</keyword>する。
+132108_tooltip;<keyword=deathwish>遺言</keyword>：戦力値{Power}以下の敵軍ユニット1体を無作為に選んで<keyword=seize>強奪</keyword>する。
 132201_fluff;言うなれば、蟹と蜘蛛… それに山を掛け合わせたような怪物だ
 132201_name;アラキス・ベヒモス
 132201_tooltip;<keyword=deploy>配備</keyword>：《ドローン》{MaxTargets}体を<keyword=spawn>生成</keyword>し、配置列にある自身を除く全ての「昆虫種」ユニットに{Boost}ずつブーストを与える。
@@ -409,7 +409,7 @@
 132216_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：戦力値{Power}以下のユニット1体を<keyword=consume>捕食</keyword>する。
 132217_fluff;普通ハーピーは死肉を餌とするが、セライノ・ハーピーは… 夢を食らう
 132217_name;セライノ・ハーピー
-132217_tooltip;<keyword=deploy>配備</keyword>：自軍ユニット1体を<keyword=consume>捕食</keyword>する。
+132217_tooltip;<keyword=deploy>配備</keyword>：自軍ユニット1体を<keyword=consume>捕食</keyword>する。\n<keyword=bonded>結束</keyword>：配置列にハーピーの卵を<keyword=spawn>生成</keyword>する。
 132218_fluff;起こすべからず
 132218_name;オールド・スピアチップ：睡眠
 132218_tooltip;【<keyword=veil>遮蔽</keyword>】
@@ -472,7 +472,7 @@
 132404_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。
 132405_fluff;岩にそっくりのため、見誤った多くのトロールが図らずも命を落としている
 132405_name;狂乱するダオ
-132405_tooltip;<keyword=deploy>配備</keyword>：敵軍アーティファクト1個を破壊する。
+132405_tooltip;<keyword=deploy>配備</keyword>：ユニット1体を他列に移動させる。
 132406_fluff;奴らの前じゃ門だの壁だのは役に立たねえ。ほんの小さな隙間があるだけで、そこから入ってくるんだからな
 132406_name;メイロローン
 132406_tooltip;<keyword=deploy>配備</keyword>：自軍ブロンズユニット1体の<keyword=deathwish>遺言</keyword>アビリティを実行させる。
@@ -516,19 +516,19 @@
 142107_tooltip;<keyword=deploy>配備</keyword>：自軍手札にある『スコイア＝テル』ユニット1体に{Boost}ブーストを与える。
 142108_fluff;死神と対面する時が来たようだな
 142108_name;シーヒル
-142108_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：自身および自身と同じ戦力値を持つ全てのユニットを破壊する。
+142108_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：自身及び自身と同じ戦力値を持つ全てのユニットを破壊する。
 142201_fluff;俺に指図するのはよしてくれ、命令のこなし方なら心得てる
 142201_name;デニス・クランメル
 142201_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：両隣のユニットに{Boost2}ずつブーストを与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：配置列にある自身を除く全てのユニットに{Boost}ずつブーストを与える。
 142202_fluff;私は賢者です。私の力は知識を専有することで保たれているのです
 142202_name;アイダ・エミアン
-142202_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：ユニット1体を<keyword=purify>浄化</keyword>する。\n <keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自軍ユニット1体に<keyword=vitality>活力</keyword>（{Vitality}ターン）を与える。
+142202_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：ユニット1体を<keyword=purify>浄化</keyword>する。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自軍ユニット1体に<keyword=vitality>活力</keyword>（{Vitality}ターン）を与える。
 142203_fluff;我々はやがて嵐となる雨の一滴一滴だ
 142203_name;ヤエヴィン
 142203_tooltip;<keyword=Deploy>配備</keyword>：配置列にある「エルフ」ユニット数に等しいダメージを敵軍ユニット1体に与える。
 142204_fluff;私は貴様の目を見ながら貴様を殺せるが、そう怯えて目をそらされてはな
 142204_name;トルヴィエル
-142204_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：何れかの列の両端にある敵軍ユニットに{Damage}ずつダメージを与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：敵陣列にある全てのユニットに{Damage2}ずつダメージを与える。
+142204_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：何れかの列の両端にある敵軍ユニットに{Damage}ずつダメージを与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：何れかの敵陣列にある全てのユニットに{Damage2}ずつダメージを与える。
 142205_fluff;俺が人生で経験した恐怖を挙げろって？ カトリオナの疫病、ヴェンガーバーグの虐殺、あとはヴリヘッド旅団の竜騎兵だな
 142205_name;ヴリヘッド旅団の竜騎兵
 142205_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体を敵陣他列に移動させる。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自軍ユニット1体を自陣他列に移動させる。
@@ -564,10 +564,10 @@
 142301_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：自軍ユニット1体に{Boost}ブーストを与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自軍ユニット1体を{Boost2}<keyword=heal>回復</keyword>させる。
 142302_fluff;「ヴリヘッド？ どういう意味だ？」 『さあな』
 142302_name;ヴリヘッド旅団
-142302_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。\n《ヴリヘッド旅団》が他列に移動するたび、この<keyword=deploy>配備</keyword>アビリティを繰り返す。
+142302_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。\n移動するたび、敵軍ユニット1体を無作為に選んで{damage}ダメージを与える。
 142303_fluff;憎悪はいかなる炎よりも熱く燃え、いかなる刃よりも深い傷を残す
 142303_name;ヴリヘッド旅団の将校
-142303_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自軍ユニット1体に{Boost}ブーストを与える。
+142303_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自軍ユニット1体に{Boost}ブーストを与える。\n<keyword=bonded>結束</keyword>：両方のアビリティを使用する。
 142304_fluff;猟犬のように追跡し、鹿のように走り、冷血な悪魔のように対象を殺す
 142304_name;ドル・ブラサンナの爆弾使い
 142304_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット{MaxTargets}体を無作為に選んで{Damage}ずつダメージを与える。
@@ -591,7 +591,7 @@
 142310_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：ユニット{MaxTargets}体に{Damage2}ずつダメージを与える。
 142311_fluff;いけすかねえ奴の頭を潰して金をもらえるんだぜ、天職だろ
 142311_name;ドワーフの傭兵
-142311_tooltip;<keyword=deploy>配備</keyword>：自軍手札にある「ドワーフ」でないユニット1体につき、自身に{Damage}ダメージを与える。
+142311_tooltip;<keyword=deploy>配備</keyword>：自軍手札にある「ドワーフ」でないユニット1体につき、{Damage}ダメージを負う。
 142312_fluff;金を持ってる限り、エルフだろうが、ドワーフだろうが差別はしない
 142312_name;ハヴカーの支援
 142312_tooltip;<keyword=deploy>配備</keyword>：自軍ユニット1体に{Boost}ブーストを与える。自陣にアーティファクトがある場合、代わりに{Boost2}ブーストを与える。
@@ -606,7 +606,7 @@
 142315_tooltip;<keyword=melee>近接</keyword>：毎自軍ターン終了時、自軍手札にあるユニット1体を無作為に選んで{Boost}ブーストを与える。
 142316_fluff;報せを受けて駆け付けた頃には、既に手遅れだった…
 142316_name;青色山脈の精鋭
-142316_tooltip;<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：敵軍ユニット1体に{Damage}ダメージを与える（それがその列にある唯一のユニットである場合に限る）。
+142316_tooltip;<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：敵軍ユニット1体に{Damage}ダメージを与える（そのユニットの同列に他のユニットがいない場合に限る）。
 142317_fluff;マハカムの平穏を破った者への罰は一つしかない。脳天への鉄槌さ
 142317_name;マハカムの守衛
 142317_tooltip;<keyword=deploy>配備</keyword>：配置列にある自軍「ドワーフ」ユニット数に等しいブーストを得る。
@@ -615,7 +615,7 @@
 142401_tooltip;<keyword=deploy>配備</keyword>：自身の同名カード1枚を<keyword=spawn>生成</keyword>して自陣他列に<keyword=summon>召喚</keyword>する。
 143201_fluff;大地から恵みを奪い取ることなかれ。自然を愛せ、然れば大地は花を咲かせ、果実をなし、自ら施しを与えん
 143201_name;毒蛇の罠
-143201_tooltip;<keyword=ambush>伏兵</keyword>：対戦相手がスペシャルカードをプレイすると、最高戦力値を持つ敵軍ユニット1体を破壊する。
+143201_tooltip;<keyword=ambush>伏兵</keyword>：対戦相手がスペシャルカードをプレイすると、敵軍最高戦力値ユニット1体を破壊する。\n<keyword=spring>奇襲</keyword>：敵軍最低戦力値1体を破壊する。
 143301_fluff;気をつけろ…！ あと一歩踏み出してたら、今頃灰になってたぞ
 143301_name;火炎の罠
 143301_tooltip;<keyword=Spring>奇襲</keyword>：ユニット1体に{damage2}ダメージを与える。\n<keyword=ambush>伏兵</keyword>：対戦相手が次に敵陣にプレイするユニットに{damage}ダメージを与える。
@@ -662,7 +662,7 @@
 152206_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>（<keyword=ranged>間接</keyword>）：ユニット1体を<keyword=purify>浄化</keyword>する。\nあなたが「錬金術」カードをプレイするたび、このアビリティを再度利用可能にする。
 152207_fluff;奴の一物が永遠に役に立たなくなることを祈って、皇帝に乾杯！
 152207_name;オルガー・ブラックハンド
-152207_tooltip;あなたが「船」ユニットをプレイするたび、それに{Boost}ブーストを与える。\nあなたが「海賊」ユニットをプレイするたび、敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。
+152207_tooltip;<keyword=deploy>配備</keyword>：ユニット1体に{damage2}ダメージを与える。\nあなたが「船」ユニットをプレイするたび、それに{Boost}ブーストを与える。\nあなたが「海賊」ユニットをプレイするたび、敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。
 152208_fluff;人々は彼女を“鉄の乙女”と呼ぶ
 152208_name;ジュッタ・アン・ディムン
 152208_tooltip;<keyword=deploy>配備</keyword>：《ジュッタ・アン・ディムン》が最高戦力値ユニットである場合、{Damage}ダメージを負う。
@@ -674,7 +674,7 @@
 152210_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=Deploy>配備</keyword>：自軍墓地にある《獰猛な熊》1体につき、{Charges2}<keyword=charge>チャージ</keyword>を得る。\n<keyword=order>命令</keyword>：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{bleed}ターン）を与える。（<keyword=charge>チャージ</keyword>：{Charges}）
 152211_fluff;ひざまづき、モッドロン・フラヤ様に許しを乞うのです
 152211_name;シグルドリファの儀式
-152211_tooltip;自軍墓地にある『スケリッジ』ユニット1体を自陣列に<keyword=summon>召喚</keyword>する。
+152211_tooltip;自軍墓地にある『スケリッジ』ユニット1体を何れかの自陣列に<keyword=summon>召喚</keyword>する。
 152213_fluff;皇帝ですら、最初は彼が運だけで王になったと思い込んでいた。最初はな
 152213_name;スヴァンリッジ・テルショック
 152213_tooltip;<keyword=deploy>配備</keyword>、<keyword=bloodthirst>狂騒</keyword>（{Bloodthirst}）：{Boost}ブーストを得る。
@@ -692,10 +692,10 @@
 152303_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleed}）を与える。墓地からプレイされた場合、代わりに敵軍ユニット1体に{Damage}ダメージを与える。
 152304_fluff;俺たちだって狩りをする。問題は、スピカローグにはあまり獲物がいないことだ…
 152304_name;ブロクヴァルの狩人
-152304_tooltip;<keyword=order>命令</keyword>：ユニット1体に{damage}ダメージを与える。（<keyword=cooldown>クールダウン</keyword>：{Cooldown}）\nあなたがカード1枚を<keyword=discard>破棄</keyword>するたび、<keyword=cooldown>クールダウン</keyword>を{Cooldown2}ずつ減らす。
+152304_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>（<keyword=ranged>間接</keyword>）：ユニット1体に{damage}ダメージを与える。（<keyword=cooldown>クールダウン</keyword>：{Cooldown}）\nあなたが「野獣」ユニットをプレイするたび、<keyword=cooldown>クールダウン</keyword>を{Cooldown2}減らす。
 152305_fluff;奴らの目に恐怖が見えるぞ。俺と… ディムン一族への恐怖がな！
 152305_name;ディムンの海賊
-152305_tooltip;<keyword=deploy>配備</keyword>：自軍デッキの一番上にあるカード1枚を自軍墓地に移動させる。\n自陣に「船」ユニットがある場合、アビリティをキャンセルする。
+152305_tooltip;<keyword=deploy>配備</keyword>：自軍デッキの一番上にあるカード1枚を自軍墓地に移動させる。\n自陣に「船」ユニットがある場合、配備アビリティを実行しない。
 152306_fluff;お前ら、旗をあげろ！
 152306_name;ディムンの海賊長
 152306_tooltip;<keyword=Deploy>配備</keyword>：敵軍ユニット1体に{damage}ダメージを与える。\n<keyword=Bloodthirst>狂騒</keyword>（{Bloodthirst}）：代わりに{damage2}ダメージを与える。
@@ -737,7 +737,7 @@
 152318_tooltip;このユニットはダメージを受けると、自軍デッキにある自身の同名カード全てを配置列に<keyword=summon>召喚</keyword>する。
 152402_fluff;〈白き霜〉の時が来れば、ヘムダールが戦いの声を上げる
 152402_name;ヘムダール
-152402_tooltip;<keyword=deploy>配備</keyword>：何れかの列にある敵軍ユニットに、その列にあるユニット数に等しい回数、無作為に{Damage}ダメージを与える。
+152402_tooltip;<keyword=deploy>配備</keyword>：何れかの列にある敵軍ユニットに、その列にあるユニット数に等しい回数、無作為に{Damage}ずつダメージを与える。
 152403_fluff;「ザトウクジラにしちゃでかすぎる。ありゃナガスクジラだな」『あんなに口が短いナガスクジラがいるかってんだ。草が頭に回っちまったようだな！』
 152403_name;精神錯乱
 152403_tooltip;何れかの敵陣列にある全てのユニットに{Damage}ダメージを無作為に分け与える。
@@ -811,10 +811,10 @@
 162210_tooltip;【<keyword=disloyal>不忠</keyword>】\n<keyword=deploy>配備</keyword>：敵軍デッキの一番上にあるカード1枚をプレイする。
 162211_fluff;ヴァーデン方面軍を率いたド・ヴェット公爵を言い表す言葉としては、“無能”ですら生ぬるい
 162211_name;ヨアキム・ド・ヴェット
-162211_tooltip;【<keyword=disloyal>不忠</keyword>】\n<keyword=deploy>配備</keyword>：自軍デッキの一番上にある<keyword=disloyal>不忠</keyword>を持たないユニット1体をプレイした後、それに{Boost}ブーストを与える。
+162211_tooltip;【<keyword=disloyal>不忠</keyword>】\n<keyword=deploy>配備</keyword>：自軍デッキの一番上にある<keyword=disloyal>不忠</keyword>を持たないユニット1体をプレイし、それに{Boost}ブーストを与える。
 162212_fluff;「ここにおったか…」皇帝は心中で呟いた。「偽りの姫にして、偽りのシントラ女王。ヤラ河口の偽りの統治者にして、帝国の後継者よ」
 162212_name;シリの影武者
-162212_tooltip;<keyword=Deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体を他列に移動させる。\n<keyword=Deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：「諜報員」ユニット1体に{Boost}ブーストを与える。
+162212_tooltip;<keyword=deploy>配備</keyword>：全ての自軍「諜報員」ユニットに{Boost}ずつブーストを与える。
 162213_fluff;「殿下…」だしぬけに家宰が口を開いた。その瞬間まで、彼はその場に居た全ての者に認識すらされていなかった。「恐れながら、我が愚息、カヒルは…」
 162213_name;シラク・ディフリン
 162213_tooltip;<keyword=deploy>配備</keyword>：配置列にある全ての自軍ユニットを<keyword=purify>浄化</keyword>する。
@@ -838,19 +838,19 @@
 162306_tooltip;<keyword=order>命令</keyword>：ユニット1体に{Damage}ダメージを与える。（<keyword=charge>チャージ</keyword>：{Charges}）\nあなたが「戦術」カードをプレイするたび、{Charges2}<keyword=charge>チャージ</keyword>を得る。
 162307_fluff;禁衛旅団は降伏したことがない。一度たりとも
 162307_name;禁衛旅団
-162307_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：自軍デッキにある自身の同名カード全てを配置列に<keyword=summon>召喚</keyword>する。
+162307_tooltip;<keyword=deploy>配備</keyword>：自陣に「兵士」ユニットがある場合、自軍デッキにある自身の同名カード全てを配置列に<keyword=summon>召喚</keyword>する。
 162308_fluff;ニルフガード皇帝直属の親衛隊は、その身が朽ちるまで戦い続ける
 162308_name;禁衛旅団の執行官
-162308_tooltip;<keyword=order>命令</keyword>：敵軍ユニット1体に{damage}ダメージを与える。（<keyword=charge>チャージ</keyword>：{Charges}）\n敵軍ユニットが<keyword=spying>密偵</keyword>を得るたび、{Charges2}<keyword=charge>チャージ</keyword>を得る。
+162308_tooltip;【<keyword=zeal>勇躍</keyword>】<keyword=order>命令</keyword>：敵軍ユニット1体に{damage}ダメージを与える。（<keyword=charge>チャージ</keyword>：{Charges}）\n敵軍ユニットが<keyword=spying>密偵</keyword>を得るたび、{Charges2}<keyword=charge>チャージ</keyword>を得る。
 162309_fluff;皇帝陛下が北方の野蛮人どもに規律を教えてくださるのだ
 162309_name;ナウジカ旅団の兵士長
 162309_tooltip;あなたが<keyword=deploy>配備</keyword>アビリティを持つユニットをプレイするたび、{Boost}ブーストを得る。
 162310_fluff;我々は死神旅団とも呼ばれる。なぜだか知りたいか？
 162310_name;ナウジカ旅団
-162310_tooltip;<keyword=deploy>配備</keyword>：ブーストを得た敵軍ユニット1体に{Damage}ダメージを与える。
+162310_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{Damage2}ダメージを与える。\n敵軍ユニットがブーストを得ている場合、代わりに{Damage}ダメージを与える。
 162311_fluff;エムヒル・ヴァル・エムレイス皇帝陛下に忠誠を誓わなければ、生きては帰れんぞ
 162311_name;アルバ師団の長槍兵
-162311_tooltip;<keyword=melee>近接</keyword>：毎自軍ターン終了時、近接列にある敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。
+162311_tooltip;<keyword=melee>近接</keyword>：毎自軍ターン終了時、<keyword=melee>近接</keyword>列にある敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。\n<keyword=bonded>結束</keyword>：代わりに敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。
 162312_fluff;死して栄光をつかまん！
 162312_name;アルバ師団の槍兵
 162312_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。隣接する「兵士」ユニット1体につき、ダメージ量を{Damage2}増やす。
@@ -894,7 +894,7 @@
 2_name_b;n/a
 2_name_lt;霧
 2_name_sa;Ignore.
-2_tooltip_lt;所有者のターン開始時、配置列にある最も戦力値の低いユニット1体に{Damage}ダメージを与える。
+2_tooltip_lt;所有者のターン開始時、配置列にある最低戦力値ユニット1体に{Damage}ダメージを与える。
 20_name_sa;Ignore.
 200008_fluff;ペトリは数多くの発明品を世に残した、百年に一人の逸材だ。大陸では“魔法薬のアイツ”と呼ばれることが多い
 200008_name;ペトリの魔法薬
@@ -946,7 +946,7 @@
 200039_tooltip;<keyword=melee>近接</keyword>：敵軍ユニットが移動するたび、それに{Damage}ダメージを与える。\n<keyword=ranged>間接</keyword>：自軍ユニットが移動するたび、それに{Boost}ブーストを与える。
 200040_fluff;笑わせてくれるな、北方人！ 持ち上げることすらできぬのに、如何に我を貫こうと言うのだ！
 200040_name;アン・クライトの大剣使い
-200040_tooltip;反対列にある敵軍ユニットがダメージを負うたび、{Boost}ブーストを得る。
+200040_tooltip;<keyword=deploy>配備</keyword>：{Damage}ダメージを負う。\n敵軍ユニットがダメージを負うたび、自身を{Heal}<keyword=heal>回復</keyword>させる。
 200041_fluff;都市を奪うには向かないが、灰にするには向いている
 200041_name;大型弩砲ヘルゲ
 200041_tooltip;【<keyword=shield>シールド</keyword>】\n<keyword=order>命令</keyword>：ユニット1体に{Damage}ダメージを与える。（<keyword=charge>チャージ</keyword>：{Charges}）\nあなたが「戦術」カードをプレイするたび、{Charges2}<keyword=charge>チャージ</keyword>を得る。
@@ -967,7 +967,7 @@
 200048_tooltip;<keyword=deploy>配備</keyword>：自軍「魔術師」ユニット1体に{Boost}ブーストを与える。
 200049_fluff;開かない？ ならもっと強く押すしかない
 200049_name;破城鎚
-200049_tooltip;<keyword=order>命令</keyword>（<keyword=ranged>間接</keyword>）《破城鎚》を<keyword=melee>近接</keyword>列に移動させた後、敵軍最高戦力値ユニット1体に{Damage}ダメージを与える。\n<keyword=crew>乗組員</keyword>：<keyword=zeal>勇躍</keyword>を得る。
+200049_tooltip;<keyword=order>命令</keyword>（<keyword=ranged>間接</keyword>）：《破城鎚》を<keyword=melee>近接</keyword>列に移動させた後、敵軍最高戦力値ユニット1体に{Damage}ダメージを与える。\n<keyword=crew>乗組員</keyword>：<keyword=zeal>勇躍</keyword>を得る。
 200050_fluff;安心しろ、たとえ私が貴様らを皆殺しにしたとしても、〈大いなる太陽〉が北方に息吹きをもたらしてくれるさ！
 200050_name;ヴリームド
 200050_tooltip;<keyword=deploy>配備</keyword>：自軍「兵士」ユニット1体と、その同名カード全てに{Boost}ずつブーストを与える。
@@ -978,8 +978,8 @@
 200053_name;小縮魔術
 200053_tooltip;ユニット1体の戦力値を初期化し<keyword=lock>封印</keyword>を与える。
 200055_fluff;〈見えざる者〉がどれくらい昔からこの世界に存在しているか、上級吸血鬼にすら詳しく知る者はいないという。ただ吸血鬼が絶対に破らないルールが一つだけある。どんな状況でも、決して彼の意志に抗わないということだ
-200055_name;死の影
-200055_tooltip;<keyword=order>命令</keyword>：自軍「モンスター」ユニット1体を破壊した後、その同名カード1枚を<keyword=spawn>生成</keyword>してプレイする。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+200055_name;白き霜
+200055_tooltip;<keyword=order>命令</keyword>：敵軍ユニット1体を他列に移動させ、その列に<keyword=frost>霜</keyword>（{counter}ターン持続）を<keyword=spawn>生成</keyword>する。（<keyword=charge>チャージ</keyword>: {Charge}）\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 200056_fluff;“アンテリオン”って知ってるかい？ “狼人間”の対義語だと言えば理解できるかな。つまり、人間の姿に変身できる獣のことさ
 200056_name;アグアラ：真実の姿
 200056_tooltip;<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：スペシャルカード1枚（勢力不問）を<keyword=create>入手</keyword>してプレイする。
@@ -1036,10 +1036,10 @@
 200104_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体にその戦力値の半分に等しいダメージを与える。
 200105_fluff;ディムン一族の戦闘艦は、軽量で高い機動力を備えている。鈍足の商船を追い回すにはうってつけだ
 200105_name;ディムンの軍船
-200105_tooltip;<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：敵軍ユニット1体に{Damage}ダメージを3回与える。
+200105_tooltip;あなたが「海賊」ユニットをプレイするたび、自身と無作為に選んだ敵軍ユニット1体に{Damage}ずつダメージを与える。\n<keyword=deathwish>遺言</keyword>：自軍墓地にあるブロンズ「海賊」ユニット1体を無作為に選んで配置列に<keyword=summon>召喚</keyword>する。
 200112_fluff;伝説によると、セイレーンはその歌声で船乗りを誘き寄せるという。だが実際のところ、彼らを引き寄せるのは、もっと別の魅力のようだ
 200112_name;セイレーン
-200112_tooltip;<keyword=deploy>配備</keyword>：<keyword=deathwish>遺言</keyword>アビリティを持つ自軍ユニット1体に{Boost}ブーストを与える。
+200112_tooltip;<keyword=deploy>配備</keyword>：自軍ユニット1体に{boost}ブーストを与える。それが「野獣」ユニットである場合、代わりに{boost2}ブーストを与える。
 200114_fluff;狼憑きは人に感染すると言われる。人狼に嚙まれた者は、その仲間になってしまうと信じられているのだ。だがウィッチャーはそれが迷信だと知っている。人狼とは、強力な呪いの産物なのだから
 200114_name;人狼・強
 200114_tooltip;【<keyword=immune>耐性</keyword>】【<keyword=thrive>成長</keyword>】
@@ -1050,7 +1050,7 @@
 200118_name;潜入工作員
 200118_tooltip;<keyword=melee>近接</keyword>：ラウンド終了時、敵軍デッキの無作為な場所に移動する。
 200124_fluff;〈蛇流派〉の再興… レソの夢だ
-200124_name;蛇流派ウィッチャー
+200124_name;王殺し
 200124_tooltip;<keyword=deploy>配備</keyword>：敵軍デッキの一番上にあるカード1枚を<keyword=reveal>公開</keyword>し、<keyword=banish>消滅</keyword>させる。
 200135_fluff;その危険性ゆえ、マハカムでも一目置かれている職業。中でもミッケル・ベイと呼ばれるドワーフの右に出るものはいないという
 200135_name;火薬技師
@@ -1072,7 +1072,7 @@
 200145_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleed}ターン）を与える。（<keyword=cooldown>クールダウン</keyword>：{Cooldown}）\nあなたが「船」ユニットをプレイするたび、<keyword=cooldown>クールダウン</keyword>を{Cooldown2}減らす。
 200146_fluff;スピカローグには何もねえ。だが関係ねえんだ。必要なものは、他所から奪えばすむんだからな
 200146_name;ディムンの密売人
-200146_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：ユニット1体に{Damage}ダメージを与えた後、それに{Boost}ブーストを与える。
+200146_tooltip;<keyword=deploy>配備</keyword>：「船」ユニットの隣にプレイされた場合、配置列に自身の同名カード1枚を<keyword=spawn>生成</keyword>する。\n<keyword=order>命令</keyword>：ユニット1体に{Damage}ダメージを与える。
 200147_fluff;女性ドルイドの中でも、もっとも位が高い者は巫女長と呼ばれる。誰からも尊敬され、並外れた力を持つ
 200147_name;ヘイマイの巫女長
 200147_tooltip;自軍ターン終了時、配置列にある自身を除く全てのユニットを{Boost}ずつ<keyword=heal>回復</keyword>させる。
@@ -1083,8 +1083,8 @@
 200154_name;勅令
 200154_tooltip;自軍デッキにあるユニット1体をプレイする。
 200159_fluff;何者もブラン王の代わりにはなれないが、志すだけなら当人の自由だ
-200159_name;献身的犠牲
-200159_tooltip;<keyword=order>命令</keyword>：カード1枚を<keyword=discard>破棄</keyword>した後、カード1枚を引く。\nラウンド開始時に、このアビリティは再度利用可能になる。\nあなたがカード1枚を<keyword=discard>破棄</keyword>するたび、敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+200159_name;戦いの熱狂
+200159_tooltip;<keyword=order>命令</keyword>：《マードローメ》を<keyword=spawn>生成</keyword>してプレイする。\nあなたが「錬金術」カードをプレイするたび、無作為に選んだ自軍ユニット1体を{boost}<keyword=heal>回復</keyword>する。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 200160_fluff;ニルフガード人は、彼をティルス・イス・ムイア、つまり〈海イノシシ〉と呼ぶ。子供を躾ける時に利用するのさ！
 200160_name;猛攻撃
 200160_tooltip;<keyword=order>命令</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。（<keyword=cooldown>クールダウン</keyword>：{Cooldown}）\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
@@ -1092,20 +1092,20 @@
 200161_name;風切連撃
 200161_tooltip;<keyword=order>命令</keyword>：全ての敵軍ユニットに{Damage}ダメージを無作為に分け与える（<keyword=armor>アーマー</keyword>を無視）。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 200162_fluff;余に忍耐強さを問う者はいない。二度と何も問えない姿になるからな
-200162_name;戦略的撤退
-200162_tooltip;<keyword=order>命令</keyword>：自軍『ニルフガード』ユニット1体を自軍手札に移動させ、それに{Boost}ブーストを与えた後、カード1枚をプレイする。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+200162_name;監禁
+200162_tooltip;<keyword=order>命令</keyword>：敵軍ユニット1体に<keyword=lock>封印</keyword>と{damage}ダメージを与える。（<keyword=charge>チャージ</keyword>：{Charges}）\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 200163_fluff;アルバ河の穏やかな水面に映る真夏の太陽、それが私のニルフガードだ
 200163_name;帝国陣形
-200163_tooltip;<keyword=order>命令</keyword>自軍ユニット1体に{Boost}ブーストを与える。（<keyword=charge>チャージ</keyword>：{Charges}）\n<keyword=charge>チャージ</keyword>を使い切ると、自軍デッキにある「兵士」ユニット1体をデッキの一番上に移動させる。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+200163_tooltip;<keyword=order>命令</keyword>：自軍ユニット1体に{Boost}ブーストを与える。（<keyword=charge>チャージ</keyword>：{Charges}）\n全ての<keyword=charge>チャージ</keyword>を使い切ると、自軍デッキにある「兵士」ユニット1体をデッキの一番上に移動させる。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 200164_fluff;剣は君主が用いる多くの武器の一つでしかない
 200164_name;名采配
-200164_tooltip;<keyword=order>命令</keyword>：自軍デッキの一番上にあるカード{MaxTargets}枚を見て、1枚をプレイする。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+200164_tooltip;<keyword=order>命令</keyword>：《モルヴラン・ヴーヒス》を<keyword=spawn>生成</keyword>してプレイする。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 200165_fluff;平和は流血によってのみ得られる。人間による抑圧の時代が、残酷に終わる時が来た
-200165_name;神秘の残響
-200165_tooltip;<keyword=order>命令</keyword>：自軍墓地にある『スコイア＝テル』スペシャルカード1枚をプレイする。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+200165_name;自然の贈り物
+200165_tooltip;【<keyword=symbiosis>共生</keyword>】\n<keyword=order>命令</keyword>：自軍ユニット1体に<keyword=vitality>活力</keyword>（{Vitality}）を与える。（<keyword=charge>チャージ</keyword>{Charges}）\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 200166_fluff;ドリアードの女王の瞳は白銀のように輝き、心は鋼のように冷たいという
 200166_name;急所攻撃
-200166_tooltip;<keyword=order>命令</keyword>ユニット1体に{Damage}ダメージを与える。（<keyword=charge>チャージ</keyword>：{Charges}）\n全ての<keyword=charge>チャージ</keyword>を使い切ると、《ブロキロンの歩哨》を<keyword=spawn>生成</keyword>してプレイする。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+200166_tooltip;<keyword=order>命令</keyword>ユニット1体に{damage}ダメージを与える。（<keyword=charge>チャージ</keyword>：{Charges}）\n全ての<keyword=charge>チャージ</keyword>を使い切ると、《ブロキロンの歩哨》を<keyword=spawn>生成</keyword>してプレイする。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 200167_fluff;あの老いぼれがどうかしたって？ ひょっとすると人形かもな！
 200167_name;ゲリラ戦術
 200167_tooltip;<keyword=order>命令</keyword>：ユニット1体を他列に移動させる。それが敵軍の場合{Damage}ダメージを与え、自軍の場合は{Boost}ブーストを与える。（<keyword=charge>チャージ</keyword>: {Charges}）\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
@@ -1114,7 +1114,7 @@
 200168_tooltip;<keyword=order>命令</keyword>：自軍『北方諸国』ユニット1体に{Boost}ブーストと<keyword=zeal>勇躍</keyword>を与える。（<keyword=charge>チャージ</keyword>：{Charges}）\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 200170_fluff;ヘンセルト王は盗人のような見た目をしているわけではなかったが、やっていたことは盗人そのものだ
 200170_name;動員
-200170_tooltip;<keyword=order>命令</keyword>：自軍ユニット1体の同名カード1枚を自軍デッキからプレイする。それに{Boost}ブーストと<keyword=zeal>勇躍</keyword>を与える。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+200170_tooltip;<keyword=order>命令</keyword>：自軍「兵士」ブロンズユニットの配置列に同名カード1枚を<keyword=spawn>生成</keyword>して{boost}ブーストを与える。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 200171_fluff;トライダムの先代男爵に忠実だった兵士は皆ファリバーと共に城を離れ、反逆者と呼ばれるようになった
 200171_name;トライダムの歩兵
 200171_tooltip;このユニットはブーストを得るたび、敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。
@@ -1123,7 +1123,7 @@
 200177_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：配置列に《ドラムンドの盾乙女》1体を<keyword=spawn>生成</keyword>する。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：配置列に《ドラムンドの女王近衛兵》1体を<keyword=spawn>生成</keyword>する。
 200209_fluff;王だの称号だのに興味はないが、東には王冠を被るにふさわしい人物がいる
 200209_name;サスキア
-200209_tooltip;<keyword=deploy>配備</keyword>：配置列に《エルフの名射手》、《粗暴なドワーフ》、《若きドリアード》の何れか1体を<keyword=spawn>生成</keyword>する。\n<keyword=spawn>生成</keyword>したユニットに応じて追加効果を得る。\n《エルフの名射手》 - 敵軍ユニット1体を無作為に選んで{damage}ダメージを与える。\n《粗暴なドワーフ》 - {boost}ブーストと{Armor}<keyword=armor>アーマー</keyword>を与える。\n《若きドリアード》 - <keyword=vitality>活力</keyword> （{Vitality}）を与える。
+200209_tooltip;【<keyword=harmony>調和</keyword>】\n<keyword=deploy>配備</keyword>：配置列に《エルフの名射手》《粗暴なドワーフ》《若きドリアード》の何れか1体を<keyword=spawn>生成</keyword>する。\n<keyword=spawn>生成</keyword>したユニットに応じて追加の効果を得る。\nエルフの名射手 - 敵軍ユニット1体を無作為に選んで{damage}ダメージを与える。\n粗暴なドワーフ - それに{boost}ブーストと{Armor}<keyword=armor>アーマー</keyword>を与える。\n若きドリアード - それに<keyword=vitality>活力</keyword>（{Vitality}ターン）を与える。
 200212_fluff;あの男の名を島の歴史から消し去るのだ！ 決して奴に寝床や食事を与えてはならんぞ！
 200212_name;スヒャール
 200212_tooltip;<keyword=berserk>狂戦士</keyword>（{Berserk}）：自身を破壊する。
@@ -1144,7 +1144,7 @@
 200223_tooltip;ユニット1体を初期化する。
 200224_fluff;この薬草に因んで“カラスの眼”と名乗った、とある有名な海賊がいる。ただ、彼の武勇伝が語られるとき、この事実は端折られることが多い
 200224_name;カラスの眼
-200224_tooltip;自軍ユニット1体を<keyword=purify>浄化</keyword>させ、{Boost}ブーストを与える。
+200224_tooltip;自軍ユニット1体を<keyword=purify>浄化</keyword>し、{Boost}ブーストを与える。
 200225_fluff;フリンギラ・ヴィゴが手懐けられない獣はいない
 200225_name;ヴィゴの口輪
 200225_tooltip;戦力値{Power}以下の敵軍ユニット1体に<keyword=lock>封印</keyword>を与え、<keyword=seize>強奪</keyword>する。
@@ -1153,7 +1153,7 @@
 200226_tooltip;偶数戦力値を持つ全てのユニットに{Damage}ずつダメージを与えるか、奇数戦力値を持つ全てのユニットに{Damage}ずつダメージを与える。
 200228_fluff;単純で安上りだが、効果的な罠だ。スコイア＝テルが好んで用いるのも当然だな
 200228_name;落とし穴の罠
-200228_tooltip;<keyword=ambush>伏兵</keyword>：対戦相手がカードをプレイすると、その構築コストに等しいダメージを全ての敵軍ユニットに分け与える。
+200228_tooltip;<keyword=ambush>伏兵</keyword>：対戦相手がカードをプレイすると、その構築コストに等しいダメージを全ての敵軍ユニットに無作為に分け与える。\n<keyword=spring>奇襲</keyword>：すべての敵軍ユニットに{Damage}ダメージを無作為に分け与える。
 200233_fluff;コカトリスが攻撃するのは、肝臓直下にある脊椎の隙間か、大動脈と決まっている。つまり、獲物を必ず一撃で仕留めようとするのだ
 200233_name;コカトリス
 200233_tooltip;<keyword=deploy>配備</keyword>：隣接する「野獣」ユニット1体につき、敵軍ユニット1体に{Damage}ダメージを与える。
@@ -1168,7 +1168,7 @@
 200236_tooltip;<keyword=melee>近接</keyword>：毎自軍ターン終了時、{Boost}ブーストを得る。
 200237_fluff;怪物退治は、軽い気持ちでやれる仕事じゃない。シリが我々の仲間になるなら、それを学んでもらう
 200237_name;ヴェセミル：指導者
-200237_tooltip;<keyword=deploy>配備</keyword>：手札、デッキ、戦場にある全ての自軍「ウィッチャー」ユニットに{Boost}ずつブーストを与える。
+200237_tooltip;<keyword=deploy>配備</keyword>：盤上の全ての自軍ウィッチャーに{Boost}ブーストを与える。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：手札とデッキのウィッチャーにもブーストを与える。
 200293_fluff;「いいか、このまま指をくわえて黙って見てりゃ、人間どもがやってきて娘っ子をみんな攫っちまうんだぞ！」
 200293_name;ドワーフの扇動者
 200293_tooltip;<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自軍手札にある「ドワーフ」ユニット1体に{Boost}ブーストを与える。
@@ -1204,7 +1204,7 @@
 200519_tooltip;ユニット1体に{Boost}ブーストを与え、<keyword=lock>封印</keyword>を取り除く。
 200520_fluff;ハットリが打つ剣に匹敵するのは、彼が作る団子だけだ
 200520_name;エイブヒア・ハットリ
-200520_tooltip;<keyword=order>命令</keyword>：自軍墓地にあるブロンズアーティファクト1個をプレイする。
+200520_tooltip;<keyword=deploy>配備</keyword>：自軍デッキに最初から組み込まれている「罠」カード1枚を<keyword=create>入手</keyword>してプレイする。
 200523_fluff;トゥサンを守る“光の騎士”… ってのは少し言いすぎかな
 200523_name;ゲルメイン・ピカント
 200523_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：自身の右側に《牛》{Counter}体を<keyword=spawn>生成</keyword>した後、自身の左側に《牛》{Counter}体を<keyword=spawn>生成</keyword>する。
@@ -1237,7 +1237,7 @@
 201523_tooltip;<keyword=deploy>配備</keyword>：何れかの列にある全てのユニットの戦力値を初期化する。
 201559_fluff;イヤッハー！ いいか、ケツを磨いて待っとけ！ すぐに俺たちの時代が来る。そしたらそのケツを蹴り上げて、泣きっ面をおがませてもらうからよ！
 201559_name;マハカムの義勇兵
-201559_tooltip;<keyword=deploy>配備</keyword>：配置列に「ドワーフ」ユニットがある場合、自軍デッキにある自身の同名カード全てを配置列に<keyword=summon>召喚</keyword>する。
+201559_tooltip;<keyword=deploy>配備</keyword>：自陣に「ドワーフ」ユニットがある場合、自軍デッキにある自身の同名カード全てを配置列に<keyword=summon>召喚</keyword>する。
 201574_fluff;背の高いのがウィルマー。その右がウィルフレッド。無口なのがウィルヘルムだ
 201574_name;ハラルドの仲間
 201574_tooltip;<keyword=doomed>破滅</keyword>\n<keyword=deathwish>遺言</keyword>：敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。
@@ -1252,7 +1252,7 @@
 201579_tooltip;ラウンド開始時、《不死鳥》が自軍墓地にある場合、それを<keyword=banish>消滅</keyword>させた後、《不死鳥の幼生》を<keyword=spawn>生成</keyword>して無作為に選んだ自陣列に<keyword=summon>召喚</keyword>する。
 201580_fluff;血筋によって皇位が決まるなど、わしは認めぬ
 201580_name;封鎖
-201580_tooltip;バトル開始時、バトルが終了するまで敵軍リーダーを無効化する。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+201580_tooltip;<keyword=order>命令</keyword>：このラウンドの間、対戦相手のリーダーアビリティを無効化する。対戦相手のリーダーに<keyword=charge>チャージ</keyword>が残されていないか、<keyword=cooldown>クールダウン</keyword>中の場合、代わりに《工作員》{MaxTargets}体を自陣<keyword=melee>近接</keyword>列に<keyword=spawn>生成</keyword>する。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 201581_fluff;オフィルのルーン使いは、石を組み合わせて強力なルーン文字を作り出す
 201581_name;ストリボグのルーン石
 201581_tooltip;ブロンズ『スケリッジ』カード1枚を<keyword=create>入手</keyword>してプレイする。
@@ -1275,11 +1275,11 @@
 201589_name;奮起
 201589_tooltip;<keyword=order>命令</keyword>：自軍手札にある全てのユニットに{Boost}ずつブーストを与える。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 201595_fluff;彼女の呪いは解かれた… しかし、好物の生肉だけは忘れられないようだ
-201595_name;邪悪な刃
-201595_tooltip;<keyword=order>命令</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=deathblow>追撃</keyword>：両隣のユニットに<keyword=bleeding>出血</keyword>（ダメージの超過分に等しい期間持続）を与える。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+201595_name;盾の壁
+201595_tooltip;<keyword=order>命令</keyword>：自軍ユニット1体に{Boost}ブーストと<keyword=shield>シールド</keyword>を与える。（<keyword=charge>チャージ</keyword>：{Charges}）\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 201597_fluff;アイストがシントラに足を運んだ理由は、クラフ・アン・クライトとパヴェッタ王女の婚姻を取り計らうためだ。だが結末は、彼自身がパヴェッタ王女の母親の心を射止めるという数奇な運命に取って代わられた
-201597_name;再活性
-201597_tooltip;<keyword=order>命令</keyword>：自軍墓地にある構築コスト{Provision}以下の『スケリッジ』ユニット1体をプレイする。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+201597_name;海の怒り
+201597_tooltip;<keyword=order>命令</keyword>：何れかの敵陣列に<keyword=rain>雨</keyword>（{Counter}ターン持続）を<keyword=spawn>生成</keyword>し、その反対列に《絶叫のセイレーン》1体を<keyword=spawn>生成</keyword>する。（<keyword=charge>チャージ</keyword>：{Charges}）\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 201598_fluff;何気ないモノにこそ、得てして強力な力が宿るものだ
 201598_name;骨の魔除け
 201598_tooltip;全ての自軍ユニットに{Boost}ずつブーストを与える。
@@ -1294,13 +1294,13 @@
 201601_tooltip;敵軍ユニット1体を自軍デッキの一番上に置く。
 201603_fluff;この僧はどうして鋲付きの手袋を身に着けているのだ？
 201603_name;レソ：王殺し
-201603_tooltip;<keyword=deploy>配備</keyword>：戦場にある自身を除くユニットに変身する（但し戦力値を維持）。
+201603_tooltip;<keyword=deploy>配備</keyword>：ユニット1体の同名カードに変身する（但し戦力値を維持）。
 201606_fluff;フォークテイルと戦う時は、地面に杭を打ち、そこに山羊をつなぎ、急いで近くの植え込みに隠れるとよい
 201606_name;フォークテイル
 201606_tooltip;<keyword=deploy>配備</keyword>：自身を除く全てのユニットに{Damage}ずつダメージを与える。
 201609_fluff;身体を傷つけるより、心を挫くほうが効果的だ
 201609_name;奴隷狩り
-201609_tooltip;【<keyword=assimilate>同化</keyword>】\n<keyword=deploy>配備</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。
+201609_tooltip;【<keyword=assimilate>同化</keyword>】\n<keyword=order>命令</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。
 201610_fluff;自由な者には選択肢があるが、奴隷には選択肢が与えられるだけだ
 201610_name;戦奴
 201610_tooltip;<keyword=deploy>配備</keyword>：自軍ユニット1体を《戦奴》に変身させる。
@@ -1339,7 +1339,7 @@
 201622_tooltip;デッキからプレイされるか<keyword=summon>召喚</keyword>されると、{Boost}ブーストを得る。
 201623_fluff;普通、森で巨大な猪を見かけたら、小便を漏らして近くの木に抱きつくだろ。だがスケリッジ人は、代わりに涎を垂らすんだ
 201623_name;巨大猪
-201623_tooltip;<keyword=Deploy>配備</keyword>（<keyword=melee>近接</keyword>）：ダメージを受けているユニット1体につき{Boost}ブーストを得る。\n<keyword=Deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：ダメージを受けている敵軍ユニット1体のダメージ量に等しいブーストを得る。
+201623_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：ダメージを受けているユニット1体につき{Boost}ブーストを得る。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：ダメージを受けているユニット1体のダメージ量に等しいブーストを得る。
 201624_fluff;さながらシアンファネリ銀行の行員のように、変わらぬ毎日を永遠に繰り返す運命に囚われてしまった
 201624_name;ケイドウェン軍の亡霊兵
 201624_tooltip;<keyword=order>命令</keyword>：ユニット1体に{Damage}ダメージを与える。\n<keyword=deathblow>追撃</keyword>：《ケイドウェン軍の亡霊兵》1体を<keyword=spawn>生成</keyword>して配置列に<keyword=summon>召喚</keyword>する。
@@ -1357,7 +1357,7 @@
 201628_tooltip;敵軍ユニット1体に{Damage}ダメージを与える。 \n<keyword=deathblow>追撃</keyword>：《ケイドウェン軍の亡霊兵》1体を<keyword=spawn>生成</keyword>し、無作為に選んだ自陣列に<keyword=summon>召喚</keyword>する。
 201630_fluff;サブリナの呪いは、見境なく兵士たちを襲った。その中には、彼女と同じ魔術師たちも含まれたのだ
 201630_name;黄泉の女魔術師
-201630_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：ユニット1体の<keyword=shield>シールド</keyword>を取り除き、{Boost}ブーストを得る。
+201630_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：ユニット1体の<keyword=shield>シールド</keyword>を破壊した後、{Charge}ブーストを得る。（<keyword=charge>チャージ</keyword>：{Charge}）
 201631_fluff;人間はドップラーを嫌う。単なる処刑では飽き足らず、木の杭に縛り付けて、全身に粘土を塗りたくって、火をつけるくらいに
 201631_name;ドップラー
 201631_tooltip;<keyword=deploy>配備</keyword>：自軍手札にあるユニット1体を選んだ後、自軍手札にあるそのユニットと同じ第1カテゴリを持つユニット数に等しいブーストを得る。
@@ -1378,7 +1378,7 @@
 201636_tooltip;【<keyword=harmony>調和</keyword>】\n<keyword=deploy>配備</keyword>：《エルフの名射手》1体を配置列に<keyword=spawn>生成</keyword>する。
 201637_fluff;ゼリカニアでは、竜は絶対的な存在として崇められる。故に多くの武器が、竜に因んで名づけられるという
 201637_name;竜の夢
-201637_tooltip;{counter}ターンの間、何れかの敵陣列に<keyword=dragons_dream>竜の夢</keyword>を<keyword=spawn>生成</keyword>する。
+201637_tooltip;何れかの敵陣列に<keyword=dragons_dream>竜の夢</keyword>（{counter}ターン持続）を<keyword=spawn>生成</keyword>する。
 201638_fluff;エルフは雪上に痕跡を残さないと言うが、どうせ無知な田舎者がでっち上げたほら話だろ
 201638_name;エルフの斥候
 201638_tooltip;自軍「罠」カードが実行されるたび、{Boost}ブーストを得る。
@@ -1393,7 +1393,7 @@
 201645_tooltip;<keyword=Spring>奇襲</keyword>：何れかの列にある全てのユニットに{damage2}ずつダメージを与える。\n<keyword=ambush>伏兵</keyword>：{counter}ターン後（自軍ターン終了時）、ユニット数が一番多い列にある全ての敵軍ユニットに{damage}ずつダメージを与える。
 201646_fluff;こんなことを仕出かす奴は、化け物に違いない…
 201646_name;デラン
-201646_tooltip;<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自軍デッキにあるカード1枚を自軍墓地に移動させる。
+201646_tooltip;<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自身に3ダメージを与え、自軍デッキにあるカード1枚を自軍墓地に移動させる。
 201647_fluff;長く生きてりゃ、岩に押しつぶされるくらいのこともある
 201647_name;岩なだれ
 201647_tooltip;敵軍ユニット1体に{Damage}ダメージを与え、他列に移動させる。
@@ -1423,7 +1423,7 @@
 201661_tooltip;<keyword=order>命令</keyword>：隣接するユニット1体に<keyword=shield>シールド</keyword>を与える。
 201662_fluff;屍毒を刃にたっぷり塗れば、この世界で生きていくのが少しは楽になるぞ
 201662_name;屍毒
-201662_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：《屍毒》の<keyword=charge>チャージ</keyword>量に等しい戦力値を持つ全てのユニットと自身を破壊する。（<keyword=charge>チャージ</keyword>：{Charges2}）\n毎自軍ターン開始時、及びあなたが「戦術」カードをプレイするたび、{Charges}<keyword=charge>チャージ</keyword>を得る。
+201662_tooltip;敵軍ユニット1体に<keyword=poison>毒</keyword>を与えた後、そのユニットの同名カード1枚を反対列に<keyword=spawn>生成</keyword>する
 201664_fluff;「目には目を」と言うが、それを繰り返すと、最終的には世界から光が失われる
 201664_name;ヴライエフ
 201664_tooltip;<keyword=deploy>配備</keyword>：両隣のブロンズ「兵士」ユニットの<keyword=deploy>配備</keyword>アビリティを実行させる。
@@ -1432,7 +1432,7 @@
 201676_tooltip;<keyword=order>命令</keyword>（<keyword=ranged>間接</keyword>）：ユニット1体に{Damage}ダメージを与える。自陣に『スコイア＝テル』ユニットしかない場合、代わりにユニット1体に{Damage2}ダメージを与える。（<keyword=cooldown>クールダウン</keyword>：{Cooldown}）
 201696_fluff;ケツを動かせ！ こいつは罠だ！
 201696_name;ポーリー・ダールバーグ
-201696_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：自軍ユニット1体を他列に移動させる。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自軍ユニット1体に{Armor}<keyword=armor>アーマー</keyword>を与える。
+201696_tooltip;<keyword=deploy>配備</keyword>：ユニット1体を他列に移動させる。\n<keyword=order>命令</keyword>：自軍ユニット1体に2<keyword=armor>アーマー</keyword>を与える。
 201697_fluff;吸血鬼界隈では、この霊薬の使用はスポーツマンシップに反するとされている
 201697_name;黒い血
 201697_tooltip;次に敵軍ユニットがブーストを得ると、そのユニットと自身を破壊する。
@@ -1465,7 +1465,7 @@
 201727_tooltip;<keyword=deploy>配備</keyword>：ユニット1体を無作為に選んで反対列に移動させる。
 201728_fluff;仲間のトロールからはおかしな奴だと思われている。岩よりもカラフルな紙切れが好きなトロールは彼くらいしかいないのだから、当然だ
 201728_name;ショープ：魔術師
-201728_tooltip;<keyword=deploy>配備</keyword>：{counter}ターンの間、列効果を無作為に選んで敵陣両列に<keyword=spawn>生成</keyword>する。
+201728_tooltip;<keyword=deploy>配備</keyword>：全ての列に無作為に選んだ列効果（{counter}ターン持続）を<keyword=spawn>生成</keyword>する。
 201729_fluff;仲間のトロールからはおかしな奴だと思われている。岩よりもカラフルな紙切れが好きなトロールは彼くらいしかいないのだから、当然だ
 201729_name;ショープ：魔術師
 201729_tooltip;<keyword=deploy>配備</keyword>：戦場にある自身を除く全てのユニットに{Damage}ダメージを無作為に分け与える。
@@ -1483,13 +1483,13 @@
 201733_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット{MaxTargets}体を無作為に選んで{Damage}ずつダメージを与える。
 201734_fluff;仲間のトロールからはおかしな奴だと思われている。岩よりもカラフルな紙切れが好きなトロールは彼くらいしかいないのだから、当然だ
 201734_name;ショープ：狩人
-201734_tooltip;<keyword=deploy>配備</keyword>：<keyword=resilient>継戦</keyword>を得る。
+201734_tooltip;<keyword=deploy>配備</keyword>：敵軍アーティファクト1個を破壊する。
 201735_fluff;仲間のトロールからはおかしな奴だと思われている。岩よりもカラフルな紙切れが好きなトロールは彼くらいしかいないのだから、当然だ
 201735_name;ショープ：狩人
 201735_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体を無作為に選んで破壊する。
 201736_fluff;仲間のトロールからはおかしな奴だと思われている。岩よりもカラフルな紙切れが好きなトロールは彼くらいしかいないのだから、当然だ
 201736_name;ショープ：狩人
-201736_tooltip;<keyword=deploy>配備</keyword>：{counter}ターンの間、何れかの敵陣列に列効果1つを無作為に選んで<keyword=spawn>生成</keyword>する。
+201736_tooltip;<keyword=deploy>配備</keyword>：何れかの敵陣列に無作為に選んだ列効果（{counter}ターン持続）を<keyword=spawn>生成</keyword>する。
 201737_fluff;仲間のトロールからはおかしな奴だと思われている。岩よりもカラフルな紙切れが好きなトロールは彼くらいしかいないのだから、当然だ
 201737_name;ショープ：騎士
 201737_tooltip;ショープを帝立士官学校へ送り出す。
@@ -1504,13 +1504,13 @@
 201740_tooltip;<keyword=deploy>配備</keyword>：自軍手札にあるユニット1体を無作為に選んで{Boost}ブーストを与える。
 201741_fluff;仲間のトロールからはおかしな奴だと思われている。岩よりもカラフルな紙切れが好きなトロールは彼くらいしかいないのだから、当然だ
 201741_name;ショープ：騎士
-201741_tooltip;<keyword=deploy>配備</keyword>：敵軍アーティファクト1個を破壊する。
+201741_tooltip;<keyword=deploy>配備</keyword>：<keyword=resilient>継戦</keyword>を得る。
 201742_fluff;仲間のトロールからはおかしな奴だと思われている。岩よりもカラフルな紙切れが好きなトロールは彼くらいしかいないのだから、当然だ
 201742_name;ショープ：騎士
 201742_tooltip;<keyword=deploy>配備</keyword>：自軍ユニット1体に{Boost}ブーストを与える。
 201743_fluff;女王の美しさは、子供たちに脈々と受け継がれている
 201743_name;アラキスの群れ
-201743_tooltip;<keyword=order>命令</keyword>：自陣列に《ドローン》1体を<keyword=spawn>生成</keyword>する。（<keyword=charge>チャージ</keyword>：{Charges}）\nあなたが「オーガニック」カードをプレイするたび、無作為に選んだ自陣列に《ドローン》1体を<keyword=spawn>生成</keyword>する。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+201743_tooltip;<keyword=order>命令</keyword>：何れかの自陣列に《ドローン》1体を<keyword=spawn>生成</keyword>する。（<keyword=charge>チャージ</keyword>：{Charges}）\nあなたが「オーガニック」カードをプレイするたび、無作為に選んだ自陣列に《ドローン》1体を<keyword=spawn>生成</keyword>する。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 201744_fluff;大陸の風にのって飛び回り、あちこちで狂気と穢れをまき散らす
 201744_name;胞子
 201744_tooltip;ユニットの戦力値を初期化する
@@ -1546,7 +1546,7 @@
 201780_tooltip;<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自軍デッキにあるユニット1体を無作為に選んで<keyword=reveal>公開</keyword>し、その戦力値に等しいブーストを自軍ユニット1体に与える。
 201781_fluff;貴様が来ることは、妖婆たちから聞いている。水面を通して見たとな
 201781_name;イムレリス
-201781_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：『モンスター』ユニット1体を<keyword=discard>破棄</keyword>し、その戦力値に等しいブーストを得た後、カード1枚を引く。
+201781_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：カード1枚を引いた後、カード1枚を<keyword=discard>破棄</keyword>する。<keyword=discard>破棄</keyword>したカードがユニットの場合、その戦力値に等しいブーストを得る。
 201817_fluff;「そんな、嘘でしょ…」シリは思わず言葉に詰まった。「この世界では、ユニコーンは絶滅したはずなのに」
 201817_name;イフアラクアックス
 201817_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：両プレイヤーはそれぞれデッキにある最高構築コストユニット1体を近接列に<keyword=summon>召喚</keyword>する。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：両プレイヤーはそれぞれデッキにある最低構築コストユニット1体を間接列に<keyword=summon>召喚</keyword>する。
@@ -1555,7 +1555,7 @@
 202044_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に{Damage}ダメージを与え、その同名カード全てに{Damage2}ずつダメージを与える。
 202054_fluff;粉チーズをかけるのが一般的。お好みで眼球を添え、温かいまま召し上がれ
 202054_name;エルフ＆オニオンスープ
-202054_tooltip;同じ枠色を持つ自軍ユニット{Maxtargets}体を破壊した後、その枠色のユニット1体を自身の勢力又はニュートラルから<keyword=create>入手</keyword>してプレイする。
+202054_tooltip;同じ枠色を持つ自軍ユニット{Maxtargets}体を破壊した後、その枠色のユニット1体を自軍勢力又はニュートラルから<keyword=create>入手</keyword>してプレイする。
 202064_fluff;俺は感情には欠けてるかもしれんが、理性までは失っちゃいない
 202064_name;ベルハーヴェンのイヴォ
 202064_tooltip;<keyword=order>命令</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に{Damage}ダメージを与える。（<keyword=cooldown>クールダウン</keyword>：{Cooldown}）\nあなたが「ウィッチャー」ユニットをプレイするたび、<keyword=cooldown>クールダウン</keyword>を{Cooldown2}減らす。
@@ -1588,7 +1588,7 @@
 202101_tooltip;毎自軍ターン終了時、敵陣自陣を問わず最高戦力値ユニットがある列に移動する（自身は除く）。
 202102_fluff;あんたんとこの技師、顔はいまいちだが、仕事の腕はぴか一だな、間違いねえ
 202102_name;ザヴィエル・レメンス
-202102_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍墓地にあるカード最大{MaxTargets}枚を<keyword=banish>消滅</keyword>させる。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自軍墓地にあるカード最大{MaxTargets}枚を<keyword=banish>消滅</keyword>させる。
+202102_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>（<keyword=melee>近接</keyword>）：敵軍墓地にあるカード1枚を<keyword=banish>消滅</keyword>させる。\n<keyword=order>命令</keyword>（<keyword=ranged>間接</keyword>）：自軍墓地にあるカード1枚を<keyword=banish>消滅</keyword>させる。\n（<keyword=cooldown>クールダウン</keyword>：{Cooldown}）
 202103_fluff;あいつがここにやってきたとき、フェレンク家は一世紀近くも戦った。だがやがて、どこにも行くつもりがないってことに気づいたんだ。ドラゴンも戦いに飽き始めてたから、取引することになった。手を出さない代わりに、貢物をするってな
 202103_name;ケルトゥリス
 202103_tooltip;<keyword=melee>近接</keyword>：毎自軍ターン終了時、より多くのユニットを所持している側の陣にある最低戦力値ユニット1体を破壊する。
@@ -1627,13 +1627,13 @@
 202114_tooltip;【<keyword=doomed>破滅</keyword>】【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：《不死鳥》に変身する。
 202115_fluff;私は反対したのですが、かつて、我が君がエルデインに使者を送られたことがありました… 翌日には両目をくり抜かれ、白旗を喉に詰められた死体が戻って来たのです
 202115_name;闇討ち
-202115_tooltip;<keyword=order>命令</keyword>：《エルフの名射手》1体を自陣列に<keyword=spawn>生成</keyword>する。（<keyword=charge>チャージ</keyword>：{Charges}）\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+202115_tooltip;<keyword=order>命令</keyword>：何れかの自陣列に《エルフの名射手》1体を<keyword=spawn>生成</keyword>する。（<keyword=charge>チャージ</keyword>：{Charges}）\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 202116_fluff;いくさで君主がやるべきは、最善を尽くすことではない。剣と盾を持ち、民を守るために先陣を切らねばならぬ
 202116_name;王の激励
 202116_tooltip;<keyword=order>命令</keyword>：自軍ユニット1体に{Boost}ブーストを与える。<keyword=cooldown>クールダウン</keyword>：{Cooldown}）\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 202117_fluff;地下墓地の壁画には、アングレンの沼地と、そこに巣食う怪物の絵が描かれていた。その中でも特に巨大な化け物の絵に、“グヴェルン・イチェル”という言葉が刻み込まれている
 202117_name;ヤスギスの果実
-202117_tooltip;<keyword=order>命令</keyword>：自陣列に《ゲルニコラの果実》を<keyword=spawn>生成</keyword>する。\n自軍ターン開始時に自陣に《ゲルニコラの果実》がない場合、このアビリティを再度利用可能にする。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+202117_tooltip;<keyword=order>命令</keyword>：何れかの自陣列に《ゲルニコラの果実》1体を<keyword=spawn>生成</keyword>する。\n自軍ターン開始時に自陣に《ゲルニコラの果実》がない場合、このアビリティをリセットする。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 202118_fluff;文明的な我が国においては、軍を指揮するのが将軍の仕事だ。先頭で狂犬のように暴れ回るのはその役目ではない
 202118_name;奴隷化
 202118_tooltip;<keyword=order>命令</keyword>：戦力値{Power}以下の敵軍ユニット1体を<keyword=seize>強奪</keyword>する。\n自軍デッキに最初から組み込まれている「戦術」カード{Counter}枚につき、この値の上限を{Counter2}増やす。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
@@ -1645,7 +1645,7 @@
 202121_tooltip;<keyword=deploy>配備</keyword>：ユニット1体を他列に移動させる。
 202122_fluff;若い夫婦が契りを結んだ直後に別れたらしい。馬車でいったいどんな“爆弾”発言をしたのやら
 202122_name;爆弾担ぎ
-202122_tooltip;<keyword=deploy>配備</keyword>：敵軍アーティファクト1個を破壊する。
+202122_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に1ダメージを与える。\n自軍手札に「爆弾」カードがある場合、代わりに3ダメージを与える。
 202124_fluff;言うなれば、蟹と蜘蛛… それに山を掛け合わせたような怪物だ
 202124_name;アラキス・ベヒモス
 202124_tooltip;アビリティを有していない。
@@ -1726,7 +1726,7 @@
 202150_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>（<keyword=ranged>間接</keyword>）：ユニット1体に{Boost}ブーストを与える。（<keyword=charge>チャージ</keyword>：{Charges}）\n何れかのプレイヤーがカードをプレイするたび、{Charges2}<keyword=charge>チャージ</keyword>を得る。
 202151_fluff;遠目ではまるで熊のように見える男だ。近寄ると… まあ、でかい熊だな
 202151_name;ファリバー
-202151_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=deathblow>追撃</keyword>：<keyword=deploy>配備</keyword>アビリティを繰り返し、ダメージ量を{Damage2}減らす。
+202151_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=deathblow>追撃</keyword>：<keyword=deploy>配備</keyword>アビリティをダメージ量を{Damage2}減らして繰り返す。
 202152_fluff;アンナは男爵をひどく嫌っていた。彼と、彼がアンナの中に宿した子供から解放されるためなら、悪魔に魂を売ることさえ厭わなかったのだ
 202152_name;アンナ・ストレンガー
 202152_tooltip;毎自軍ターン終了時、右隣のユニット1体に{Boost}ブーストを与える。\n<keyword=inspired>奮起</keyword>：代わりに両隣のユニットに{Boost}ずつブーストを与える。
@@ -1735,7 +1735,7 @@
 202153_tooltip;あなたが<keyword=order>命令</keyword>アビリティを持つユニットをプレイするたび、{Boost}ブーストを得る。
 202154_fluff;歩兵なら歩兵らしく勝負してやる！
 202154_name;リヴィア軍の長槍兵
-202154_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=resupply>補給</keyword>：{Boost}ブーストを得る。
+202154_tooltip;<keyword=order>命令</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=resupply>補給</keyword>：{Boost}ブーストを得る。
 202155_fluff;百歩先から急所を狙い撃てるんだぜ！ 一発で命中させるのはさすがに難しいが…
 202155_name;ライリア軍の弩弓兵
 202155_tooltip;<keyword=order>命令</keyword>：ユニット1体に{Damage}ダメージを与える。（<keyword=charge>チャージ</keyword>：{Charges}）\nあなたが<keyword=order>命令</keyword>アビリティを持つカードをプレイするたび、{Charges2}<keyword=charge>チャージ</keyword>を得る。
@@ -1756,7 +1756,7 @@
 202160_tooltip;アビリティを有していない。
 202161_fluff;我らが民は、田畑を耕すだけがとりえではない
 202161_name;ライリア軍の鎌使い
-202161_tooltip;<keyword=deploy>配備</keyword>：ブーストを得ている自軍ユニット1体につき、{Boost}ブーストを得る。
+202161_tooltip;<keyword=deploy>配備</keyword>：配置列にあるブーストを得ているユニット1体につき、{Boost}を得る。
 202162_fluff;生死は問わん。このエルフは俺のものだ
 202162_name;隊商の統率者
 202162_tooltip;アビリティを有していない。
@@ -1834,16 +1834,16 @@
 202186_tooltip;<keyword=order>命令</keyword>：敵軍手札にあるカード1枚を<keyword=create>入手</keyword>してプレイする。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 202187_fluff;人々は彼女のことを“シントラの雌獅子”と呼ぶ。もちろん根拠あってのことだ
 202187_name;挟撃
-202187_tooltip;<keyword=order>命令</keyword>：自軍手札にある『北方諸国』カード1枚をプレイした後、任意のカード1枚を引く。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+202187_tooltip;<keyword=order>命令</keyword>：任意の『北方諸国』カード1枚を引いた後、自軍手札にあるカード1枚をデッキの無作為な場所に戻す。引いたカードがユニットだった場合、それに{Boost}ブーストを与える。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 202188_fluff;〈黄金髪の女神〉と呼ばれしかの神は、花に包まれ、草木、獣を従えて姿を現す
 202188_name;調和の呼び声
-202188_tooltip;<keyword=order>命令</keyword>：構築コストが{power}以下の『スコイア＝テル』カード1枚をプレイする。この値はあなたのデッキに最初から組み込まれている『スコイア＝テル』カードの重複しない第1カテゴリ1つにつき、1増える。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+202188_tooltip;<keyword=order>命令</keyword>：《ダナ・メービ》を<keyword=spawn>生成</keyword>してプレイする。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 202189_fluff;あの方が我々にお命じになる… ただ「殺せ」と
 202189_name;熊の儀式
-202189_tooltip;<keyword=order>命令</keyword>自軍ユニット1体に{Damage}ダメージを与える。（<keyword=charge>チャージ</keyword>：{Charges}）\n<keyword=charge>チャージ</keyword>を使い切ると、無作為に選んだ自陣列に《熊》1体を<keyword=spawn>生成</keyword>する。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+202189_tooltip;<keyword=order>命令</keyword>：自軍ユニット1体に{Damage}ダメージを与える。（<keyword=charge>チャージ</keyword>：{Charges}）\n全ての<keyword=charge>チャージ</keyword>を使い切ると、無作為に選んだ自陣列に《異形の熊》1体を<keyword=spawn>生成</keyword>する。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 202190_fluff;月が紅く染まったら、扉に掛けがねをかけて、寝台には子羊を寝かせろ…
 202190_name;紅き血の呪縛
-202190_tooltip;{Counter}ターンの間、何れかの敵陣列に<keyword=blood_moon>血染めの月</keyword>を<keyword=spawn>生成</keyword>した後、 反対列に《エキムマーラ》{Counter2}体を<keyword=spawn>生成</keyword>する。
+202190_tooltip;何れかの敵陣列に<keyword=blood_moon>血染めの月</keyword>（{Counter}ターン持続）を<keyword=spawn>生成</keyword>した後、 反対列に《エキムマーラ》{Counter2}体を<keyword=spawn>生成</keyword>する。
 202191_fluff;一千年の月日が経ってもなお、血を求めて輝き続ける
 202191_name;テシャム・ムナの剣
 202191_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。それが<keyword=shield>シールド</keyword>を持つ場合、代わりに破壊する。
@@ -1867,7 +1867,7 @@
 202197_tooltip;<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自軍デッキにある任意のカード1枚をデッキの一番上に移動させる。
 202198_fluff;鳥のように自由に生きたい？ ヴィヴィアン・ド・タブリスに話を聞いてみな
 202198_name;ヴィヴィアン：ウグイス
-202198_tooltip;<keyword=deploy>配備</keyword>：敵軍アーティファクト1個を破壊した後、その構築コストに等しいブーストを得る。
+202198_tooltip;<keyword=deploy>配備</keyword>：右隣にあるユニットの構築コストと同じ分だけブーストを得る。
 202199_fluff;グレゴアール？ 鎧詰めにされた筋肉の塊だろ。知ってるぞ。有名人だ！
 202199_name;グレゴアール・ド・ゴルゴン
 202199_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=deathblow>追撃</keyword>：{Boost}ブーストと<keyword=shield>シールド</keyword>を得る。
@@ -1876,7 +1876,7 @@
 202200_tooltip;<keyword=deploy>配備</keyword>：<keyword=shield>シールド</keyword>、<keyword=doomed>破滅</keyword>、<keyword=resilient>継戦</keyword>、<keyword=poison>毒</keyword>の何れかを無作為に得る。
 202201_fluff;人によって好き嫌いが分かれる
 202201_name;門
-202201_tooltip;<keyword=deploy>配備</keyword>：自軍デッキにある構築コスト{Counter}のユニットを無作為に選び、自身の両隣に1体ずつ<keyword=summon>召喚</keyword>する。
+202201_tooltip;<keyword=deploy>配備</keyword>：自軍デッキから無作為に選んだ構築コスト{Counter}のユニット1体を、このカードの左に<keyword=summon>召喚</keyword>する。\n3ターン後、デッキから無作為に選んだ構築コスト{Counter}のユニット1体を、このカードの右に<keyword=summon>召喚</keyword>する。
 202202_fluff;ヘンリエッタ公爵のみが、高級品たるサングリールの風味を味わうことができる。頻繁に口にされるそうだ
 202202_name;サングリール
 202202_tooltip;ユニット1体に{Boost}ブーストと<keyword=shield>シールド</keyword>を与える。
@@ -1891,7 +1891,7 @@
 202205_tooltip;何れかの敵陣列の両端にあるユニットに{Damage}ずつダメージを与える。
 202206_fluff;素晴らしい眺めだよ… 目の前で爆発する直前まではね
 202206_name;踊る星
-202206_tooltip;アーティファクト1個を破壊するか、ユニット1体に{Damage}ダメージを与える。
+202206_tooltip;敵軍ユニット1体に{damage}ダメージを与える。\n<keyword=deathblow>追撃</keyword>：その右隣にあるユニットに{damage2}少ないダメージを与える。
 202207_fluff;致死的なだけでなく、ひどい臭いを放つ
 202207_name;悪魔のホコリタケ
 202207_tooltip;敵軍ユニット1体に<keyword=poison>毒</keyword>を与える。\n<keyword=deathblow>追撃</keyword>：その両隣のユニットに{Damage}ずつダメージを与える。
@@ -1900,7 +1900,7 @@
 202208_tooltip;ユニット1体に{Damage}ダメージを与える。\n<keyword=deathblow>追撃</keyword>：さらに<keyword=banish>消滅</keyword>させる。
 202209_fluff;人狼は銀粉まみれになった頭を上げたかと思うと、苦痛のうめき声を発した
 202209_name;月の粉
-202209_tooltip;ユニット1体を<keyword=purify>浄化</keyword>させ、{Damage}ダメージを与える。
+202209_tooltip;ユニット1体を<keyword=purify>浄化</keyword>し、{Damage}ダメージを与える。
 202210_fluff;ゼリカニアの錬金術師は、灼熱の砂嵐のエネルギーを魔法の化合物内に閉じ込めるすべを会得した
 202210_name;サマム
 202210_tooltip;ユニット1体に{Damage}ダメージを与える。\n<keyword=deathblow>追撃</keyword>：さらにその両隣のユニットを他列に移動させる。
@@ -1939,7 +1939,7 @@
 202222_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（自軍「吸血鬼」ユニット数に等しい期間持続）を与える。\n<keyword=ranged>間接</keyword>：毎自軍ターン終了時、<keyword=bleeding>出血</keyword>を持つ敵軍ユニット数に等しいブーストを得る。
 202223_fluff;生息地域が大陸でもごく一部に限られるため、絶滅の危機に瀕していると考えられている。どうか、このまま死に絶えてくれますように…
 202223_name;プロトフレダー
-202223_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=dominance>支配</keyword>：代わりに{Drain}<keyword=drain>吸収</keyword>する。
+202223_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleed}ターン）を与えた後、そのユニットが持つ<keyword=bleeding>出血</keyword>の量に等しいブーストを得る。
 202224_fluff;天井には血痕、壁にははらわた… ガルカインの仕業だな
 202224_name;ガルカイン
 202224_tooltip;毎自軍ターン終了時、<keyword=bleeding>出血</keyword>を持つ敵軍ユニットがある場合、{Boost}ブーストを得る。
@@ -1951,13 +1951,13 @@
 202227_tooltip;敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleed}ターン）を与える。
 202228_fluff;吸血鬼は何年かおきに絶食をするという。だが再び狩りを始めると、血に酔うまで捕食を止めない
 202228_name;血の宴
-202228_tooltip;敵軍ユニット1体を<keyword=purify>浄化</keyword>して{Damage}ダメージを与える。\n  自陣に「吸血鬼」ユニットがある場合、さらに<keyword=bleeding>出血</keyword>（{Bleed}ターン）を与える。
+202228_tooltip;敵軍ユニット1体を<keyword=purify>浄化</keyword>し、{Damage}ダメージを与える。\n自陣に「吸血鬼」ユニットがある場合、さらに<keyword=bleeding>出血</keyword>（{Bleed}ターン）を与える。
 202229_fluff;夜の落とし子は、神々から遣わされた我々への罰なのだ！ 魔法使いや非人間族がもたらす穢れを甘受しすぎた我々への！ 懺悔せよ！ 魂が腐りきる前に懺悔せよ！
 202229_name;フレダー
-202229_tooltip;<keyword=deploy>配備</keyword>：自軍ユニット1体を破壊し、<keyword=vitality>活力</keyword>（{Vitality}ターン）を得る。
+202229_tooltip;敵軍ユニットが<keyword=bleeding>出血</keyword>を得るたび、<keyword=vitality>活力</keyword>（等しい期間持続）を得る。
 202230_fluff;その街の人々は、毎日恐ろしい悪夢に苛まれていた。「ふむ… アルプの仕業に違いない」と呟くウィッチャー
 202230_name;アルプ
-202230_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleed}ターン）を与える。
+202230_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleed}ターン）を与える。\n<keyword=order>命令</keyword>：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleed2}ターン）を与える。
 202231_fluff;一匹だけなら大したことはないが、群れで襲われたら神様にでも祈るんだな
 202231_name;プルマード
 202231_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleed}ターン）を与える。\n<keyword=bonded>結束</keyword>：代わりに<keyword=bleeding>出血</keyword>（{Bleed2}ターン）を与える。
@@ -1972,22 +1972,22 @@
 202235_tooltip;<keyword=deploy>配備</keyword>：ユニット1体の戦力値を構築コストと同じ値に変える。
 202236_fluff;ボークレールのためになればと思ったのだ
 202236_name;ダミエン・デ・ラ・トゥール
-202236_tooltip;<keyword=order>命令</keyword>（<keyword=melee>近接</keyword>）：自軍リーダーのアビリティを再度利用可能にする。
+202236_tooltip;<keyword=order>命令</keyword>（<keyword=melee>近接</keyword>）：自軍のリーダーアビリティを再度利用可能にする。
 202237_fluff;噂によると、誇り高きパルメリン・ド・ローンファル男爵がサキュバスとの姦通に走ったというのだ。だがヘンリエッタ公爵は耳を貸さなかった
 202237_name;パルメリン・ド・ローンファル
-202237_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=deathblow>追撃</keyword>：自身の両隣の自軍ユニットに<keyword=shield>シールド</keyword>を与える。自軍手札に《ミルトン・ド・ペイラック・ペイラン》がある場合、ユニットが破壊されなくても、この<keyword=deathblow>追撃</keyword>アビリティを実行する。
+202237_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{damage}ダメージを与える。\n<keyword=deathblow>追撃</keyword>：両隣の敵軍ユニットに<keyword=spying>密偵</keyword>を与える。\n自軍手札に《ミルトン・ド・ペイラック・ペイラン》がある場合、必ず<keyword=deathblow>追撃</keyword>アビリティを実行する。
 202238_fluff;白い雄牛の頭を描いた盾と、ボークレールの陽の光に照らし出されたその姿を見れば、男がかのミルトン卿であることは明白だった
 202238_name;ミルトン・ド・ペイラック・ペイラン
-202238_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=deathblow>追撃</keyword>：さらにその両隣の敵軍ユニットに{Damage2}ずつダメージを与える。自軍手札に《パルメリン・ド・ローンファル》がある場合、ユニットが破壊されなくても、この<keyword=deathblow>追撃</keyword>アビリティを実行する。
+202238_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{damage}ダメージを与える。\n<keyword=deathblow>追撃</keyword>：さらにその両隣の敵軍ユニットに{damage2}ずつダメージを与える。\n自軍手札に《パルメリン・ド・ローンファル》がある場合、必ず<keyword=deathblow>追撃</keyword>アビリティを実行する。
 202239_fluff;自ら作り出した幻像があまりに真実味を帯びていたため、現実と幻の区別がつかなくなってしまったという…
 202239_name;アルトリウス・ヴィゴ
-202239_tooltip;【<keyword=assimilate>同化</keyword>】\n<keyword=deploy>配備</keyword>：自軍デッキに最初から組み込まれているブロンズユニットの同名カード1枚（但し戦力値{Set}）を<keyword=create>入手</keyword>してプレイする。
+202239_tooltip;【<keyword=assimilate>同化</keyword>】\n<keyword=deploy>配備</keyword>：自軍デッキに最初から組み込まれているブロンズユニットの同名カード1枚（但し戦力値は{Set}とする）を<keyword=create>入手</keyword>してプレイする。
 202240_fluff;ロデリックはまさに世捨て人。世間を避け、数人の騎士のみをそばに置いています… いえ、騎士という表現は正しくないですね
 202240_name;ダン・タインのロデリック
 202240_tooltip;【<keyword=disloyal>不忠</keyword>】\n<keyword=deploy>配備</keyword>：自軍デッキにあるゴールドカード{MaxTargets1}枚を無作為に選んで見た後、その内の{MaxTargets2}枚をプレイする。
 202241_fluff;あんな危険な怪物を大勢の観客のすぐそばで放すだと？ あまりに無責任だ
 202241_name;大会用シェルマール
-202241_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍『ニルフガード』ユニット1体に{Damage}ダメージを与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自身とは異なる勢力に属する自陣ユニット1体につき、{Boost}ブーストを得る。
+202241_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍『ニルフガード』ユニット1体に{Damage}ダメージを与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自身とは異なる勢力に属する自軍ユニット1体につき、{Boost}ブーストを得る。
 202242_fluff;トーナメントで勝利の栄冠を掴み取ることができれば、この上ない名声を得ることができる！
 202242_name;馬上試合
 202242_tooltip;敵軍ユニット1体から<keyword=shield>シールド</keyword>を取り除いて{Damage}ダメージを与えるか、自軍ユニット1体に<keyword=shield>シールド</keyword>と{Boost}ブーストを与える。
@@ -2056,7 +2056,7 @@
 202263_tooltip;<keyword=deploy>配備</keyword>：自軍デッキにある「自然」カード1枚をプレイする。
 202264_fluff;ブロキロンの木々は、時折ざわめき立つ。憎しみで心を腐らせた古代のオーク木を悲観してのことだ
 202264_name;巨大オーク樹
-202264_tooltip;<keyword=deploy>配備</keyword>：《巨大オーク樹》の左側にあるカードの枚数に等しいダメージを敵軍ユニット1体に与えた後、右側にあるカードの枚数に等しいブーストを得る。
+202264_tooltip;<keyword=deploy>配備</keyword>：《巨大オーク樹》の左側に配置されたカードの枚数に等しいダメージを敵軍ユニット1体に与えた後、右側に配置されたカードの枚数に等しいブーストを得る。
 202265_fluff;“嘆きの柳”ともいわれるらしいが、決して木が嘆くのではない
 202265_name;枝垂れ柳
 202265_tooltip;【<keyword=harmony>調和</keyword>】\n<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：<keyword=shield>シールド</keyword>を得る。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：敵軍ユニット1体に<keyword=poison>毒</keyword>を与える。
@@ -2071,7 +2071,7 @@
 202268_tooltip;<keyword=Deploy>配備</keyword>：自陣に「ドリアード」ユニットがある場合、<keyword=zeal>勇躍</keyword>を得る。\n<keyword=order>命令</keyword>（<keyword=melee>近接</keyword>）：自身を<keyword=ranged>間接</keyword>列に移動させ、<keyword=heal>回復</keyword>させる。\n<keyword=order>命令</keyword>（<keyword=ranged>間接</keyword>）：自身を<keyword=melee>近接</keyword>列に移動させ、敵軍ユニット1体に{Damage}ダメージを与える。\n（<keyword=cooldown>クールダウン</keyword>：{Cooldown}）
 202269_fluff;シーッ… エヴェリン・ヴァ・ミース、エライン・ブラス…
 202269_name;ドリアードの愛撫
-202269_tooltip;自軍ユニット1体を<keyword=purify>浄化</keyword>させ、{Boost}ブーストを与える。\n自陣に「ドリアード」ユニットがある場合、さらにその自軍ユニット1体に<keyword=vitality>活力</keyword>（{Vitality}ターン）を与える。
+202269_tooltip;自軍ユニット1体を<keyword=purify>浄化</keyword>し、{Boost}ブーストを与える。\n自陣に「ドリアード」ユニットがある場合、さらにその自軍ユニット1体に<keyword=vitality>活力</keyword>（{Vitality}ターン）を与える。
 202270_fluff;ブロキロンの花は一年に七回も花を咲かせるって話、本当なの！？
 202270_name;ドリアードの森番
 202270_tooltip;<keyword=deploy>配備</keyword>：自軍ユニット1体に<keyword=vitality>活力</keyword>（自身を除く自軍「ドリアード」ユニット数に等しい期間持続）を与える。
@@ -2176,7 +2176,7 @@
 202303_tooltip;<keyword=order>命令：</keyword>敵軍ユニット1体に{Damage}ダメージを与えた後、超過分のダメージ量に等しい<keyword=coin>コイン</keyword>を得る。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 202304_fluff;おいカート、メリゴールドが何を騒ぎ立ててるのか調べてくれ。舌に熱い鉄でも押し付けるのはどうだ？
 202304_name;カート
-202304_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：ユニット1体に<keyword=lock>封印</keyword>を与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：ユニット1体を<keyword=purify>浄化</keyword>する。
+202304_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に<keyword=bounty>懸賞金</keyword>を与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：ユニット1体を<keyword=purify>浄化</keyword>する。
 202305_fluff;一部のウィッチハンターは、魔術師を排除すればより良い世の中になると信じていた者もいた。だがモリールセにそのような高尚な理由など必要なかった
 202305_name;モリールセ
 202305_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=tribute>貢物</keyword>（{Tribute-B.P.BB_Tribute}）：代わりに破壊する。
@@ -2185,17 +2185,17 @@
 202306_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：自軍ユニット1体を<keyword=heal>回復</keyword>させる。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自軍ユニット1体に{Boost}ブーストを与える。\n<keyword=tribute>貢物</keyword>（{Tribute-B.P.BB_Tribute}）：代わりに両方の<keyword=deploy>配備</keyword>アビリティの効果を発動させる。
 202307_fluff;私のオークション会場は他とは一線を画す。エリートの中のエリートが集まる場所だ
 202307_name;ホースト・ボルソディ
-202307_tooltip;【<keyword=profit>利益</keyword>（{Income}）】\n自軍墓地に《エワルド・ボルソディ》がある場合、このカードの初期<keyword=profit>利益</keyword>を{Income2}増やす。\n<keyword=fee>謝礼</keyword>（{cost}）（<keyword=ranged>間接</keyword>）：自軍ユニット1体に{Boost}ブーストを与える。
+202307_tooltip;<keyword=deploy>配備</keyword>：{Coins}<keyword=coin>コイン</keyword>を得る。\n《エワルド・ボルソディ》が自軍墓地にある場合、代わりに{Coins2}<keyword=coin>コイン</keyword>を得る。
 202308_fluff;甘い言葉ほど、失ったときに苦く感じる
 202308_name;狡猾な悪女
 202308_tooltip;<keyword=fee>謝礼</keyword>（{Cost}）：<keyword=shield>シールド</keyword>を得る。\n対戦相手がユニットをプレイするたび、{Boost}ブーストを得る。\n<keyword=bonded>結束</keyword>：対戦相手がカードをプレイするたび、{Boost}ブーストを得る。
 202309_fluff;一年以上この計画を練っていたが、ついにその時がきた。手を貸してくれるか？
 202309_name;エワルド・ボルソディ
-202309_tooltip;【<keyword=profit>利益</keyword>（{Income}）】\n自軍墓地に《ホースト・ボルソディ》がある場合、このカードの初期<keyword=profit>利益</keyword>を{Income2}増やす。\n<keyword=fee>謝礼</keyword>（{cost}）（<keyword=melee>近接</keyword>）：敵軍ユニット1体に{Damage}ダメージを与える。
+202309_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{damage}ダメージを与える。\n《ホースト・ボルソディ》が自軍墓地にある場合、代わりに{damage2}ダメージを与える。
 202310_fluff;失礼… 昔から不注意でね、本当に
 202310_name;スリ
 202310_tooltip;【<keyword=profit>利益</keyword>（{Income}）】
-202311_fluff;炎の熱によって心臓に火が点けば、力は漲り、あなたを真実の道へと導いてくれるでしょう
+202311_fluff;炎の熱によって心臓に火が点けば、力はみなぎり、あなたを真実の道へと導いてくれるでしょう
 202311_name;タマラ・ストレンガー
 202311_tooltip;<keyword=deploy>配備</keyword>：全ての自軍「ウィッチハンター」ユニットに{Boost}ずつブーストを与える。\n<keyword=tribute>貢物</keyword>（{Tribute-B.P.BB_Tribute}）：代わりに手札、デッキ、戦場にある全ての自軍「ウィッチハンター」ユニットに{Boost}ずつブーストを与える。
 202312_fluff;この父にしてこの子あり
@@ -2215,7 +2215,7 @@
 202316_tooltip;【<keyword=profit>利益</keyword>（{Income}）】\n<keyword=fee>謝礼</keyword>（{Cost}）：自軍ユニット1体に<keyword=vitality>活力</keyword>（{Vitality}ターン）を与える。
 202317_fluff;蜂は昔から苦手だ
 202317_name;リコ・メイヤーズドルフ
-202317_tooltip;自軍手札に《リコ・メイヤーズドルフ》がある間に対戦相手がユニットをプレイするたび、《リコ・メイヤーズドルフ》の戦力値をそのユニットのベース戦力値と同じ値に変える。
+202317_tooltip;自軍手札に《リコ・メイヤーズドルフ》がある間に対戦相手がユニットをプレイするたび、《リコ・メイヤーズドルフ》の戦力値をそのユニットの戦力値と同じ値に変える。
 202318_fluff;その美しい髪は切るにはあまりにも惜しい
 202318_name;ウィッチハンターの処刑人
 202318_tooltip;【<keyword=profit>利益</keyword>（{Income}）】\n<keyword=fee>謝礼</keyword>（{Cost}）：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleed}ターン）を与える。それが<keyword=bounty>懸賞金</keyword>を持つ場合、代わりに{Damage}ダメージを与える。
@@ -2227,13 +2227,13 @@
 202320_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に<keyword=bounty>懸賞金</keyword>を与える。
 202321_fluff;私たちはレダニア軍の兵舎にいる全兵士よりも多くの男と寝たわ
 202321_name;マダム・ルイザ
-202321_tooltip;【<keyword=intimidate>恫喝</keyword>】\n<keyword=order>命令</keyword>：あなたがこのラウンドで次に使用する<keyword=tribute>貢物</keyword>アビリティのコストを{Cost}に変える。
+202321_tooltip;【<keyword=intimidate>恫喝</keyword>】\n<keyword=tribute>貢物</keyword>（{Tribute-B.P.BB_Tribute}）：<keyword=zeal>勇躍<keyword=order>を得る。\n</keyword>命令</keyword>：あなたがこのラウンドで次に使用する<keyword=tribute>貢物</keyword>アビリティのコストを{Cost}に変える。
 202322_fluff;大きな瞳、カチカチ鳴る歯、狂った笑い声… それがフィスティックさ
 202322_name;フィスティック
 202322_tooltip;【<keyword=profit>利益</keyword>（{Income}）】\nユニット1体に<keyword=poison>毒</keyword>を与える。
 202323_fluff;左コーナーには血に飢えたシェルマール、右コーナー――おいおい… 中止だ、賭けは持ち越しだ！
 202323_name;イゴール“フック”
-202323_tooltip;【<keyword=insanity>狂気</keyword>】\n <keyword=fee>謝礼</keyword>（{Cost}）：自軍ブロンズユニットの同名カード1枚を<keyword=spawn>生成</keyword>して《イゴール“フック”》の列に<keyword=summon>召喚</keyword>する。 （<keyword=cooldown>クールダウン</keyword>：{Cooldown}）
+202323_tooltip;【<keyword=insanity>狂気</keyword>】\n<keyword=fee>謝礼</keyword>（{Cost}）：自軍ブロンズユニットの同名カード1枚を<keyword=spawn>生成</keyword>して配置列に<keyword=summon>召喚</keyword>する。 （<keyword=cooldown>クールダウン</keyword>：{Cooldown}）
 202324_fluff;ティンボイの父親は精錬工だった。シラフの日はスズを精錬し、飲んだ日は、息子の顔を精錬した
 202324_name;ティンボイ
 202324_tooltip;<keyword=deploy>配備</keyword>：何れかの列にある全ての敵軍ユニットに{Damage}ずつダメージを与える。\n<keyword=tribute>貢物</keyword> （{Tribute-B.P.BB_Tribute}）：代わりに全ての敵軍ユニットに{Damage}ずつダメージを与える。
@@ -2251,7 +2251,7 @@
 202329_tooltip;【<keyword=profit>利益</keyword>（{Income}）】\n敵軍ユニット1体に{Damage}ダメージを与える。
 202330_fluff;こ、これで有り金全部だって！
 202330_name;給料日
-202330_tooltip;敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=deathblow>追撃</keyword>：{Coins}<keyword=coin>コイン</keyword>を得る。
+202330_tooltip;敵軍ユニット1体に{damage}ダメージを与える。超過分の1ダメージにつき、1<keyword=coin>コイン</keyword>を得る。
 202331_fluff;かつて外洋で恐れられたその身は、身動きすることなく金で肥え、港を離れられずにいる
 202331_name;引き潮団の隠れ家
 202331_tooltip;<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自軍手札にある「海賊」ユニット1体につき自軍ユニット1体に{Boost}ブーストを与える。
@@ -2269,10 +2269,10 @@
 202335_tooltip;毎自軍ターン終了時、このユニットは<keyword=poison>毒</keyword>を持つ場合、{Boost}ブーストを得る。
 202336_fluff;このまま港で腐らせるのはもったいない。これはあいつらのためでもあるんだ
 202336_name;夕闇の荒事
-202336_tooltip;<keyword=coin>コイン</keyword>{Coins}枚を得る。敵陣にアーティファクトがある場合、代わりに<keyword=coin>コイン</keyword>{Coins2}枚を得る。
+202336_tooltip;{Coins}<keyword=coin>コイン</keyword>を得る。敵陣にアーティファクトがある場合、代わりに{Coins2}<keyword=coin>コイン</keyword>を得る。
 202337_fluff;浮かない顔でどうした？
 202337_name;ホアソンの見世物
-202337_tooltip;【<keyword=insanity>狂気</keyword>】\n<keyword=fee>謝礼</keyword>（{Cost}）：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleed}ターン）を与える。<keyword=insanity>狂気</keyword>アビリティが使用された場合、代わりに敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。
+202337_tooltip;【<keyword=profit>利益</keyword>（{income}）】\n<keyword=fee>謝礼</keyword>（{cost}）（<keyword=melee>近接</keyword>）：敵軍ユニット1体に{damage}ダメージを与える。
 202338_fluff;お前の目には人として映ってるかもしれないが、俺には毛刈りが必要な羊の群れにしか見えないね
 202338_name;市民
 202338_tooltip;あなたが<keyword=coin>コイン</keyword>を得るたび、{Boost}ブーストを得る。
@@ -2302,19 +2302,19 @@
 202346_tooltip;<keyword=order>命令</keyword>（<keyword=melee>近接</keyword>）：ユニット1体に{Damage}ダメージを与える。 （<keyword=cooldown>クールダウン</keyword>：{Cooldown}）\n<keyword=hoard>備蓄</keyword>（{Hoard-B.P.BB_Hoard}）：代わりに敵軍ユニット1体に{Damage2}ダメージを与える。
 202347_fluff;〈永遠の炎〉教団の大祭司、闘技場の熱狂者、饗宴の大食漢、そして娼婦の切望者
 202347_name;集会
-202347_tooltip;<keyword=order>命令</keyword>：自陣列に《炎誓いの狂信者》1体を<keyword=spawn>生成</keyword>し、<keyword=coin>コイン</keyword>{Coins}枚を得る。（<keyword=charge>チャージ</keyword>：{Charges}）\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+202347_tooltip;<keyword=order>命令</keyword>：何れかの自陣列に《炎誓いの狂信者》1体を<keyword=spawn>生成</keyword>し、{Coins}<keyword=coin>コイン</keyword>を得る。（<keyword=charge>チャージ</keyword>：{Charges}）\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 202348_fluff;汝の唯一の審判と君主は汝自身であり、その行動を決めるのもまた汝自身である
 202348_name;預言者レビオダ
-202348_tooltip;あなたが《預言者レビオダ》の隣にユニットをプレイするたび、そのユニットに<keyword=shield>シールド</keyword>を与える。
+202348_tooltip;あなたが《預言者レビオダ》の隣にユニットをプレイするたび、それに<keyword=shield>シールド</keyword>を与える。
 202349_fluff;感じるか？ 暖かさの奥に、何かがある…
 202349_name;聖なる炎
-202349_tooltip;<keyword=deploy>配備</keyword>：自身の両隣に《炎誓いの狂信者》1体ずつを<keyword=spawn>生成</keyword>する。\n<keyword=order>命令</keyword>：配置列にある全てのユニットに{Boost}ずつブーストを与える。
+202349_tooltip;<keyword=deploy>配備</keyword>：自身の両隣に《炎誓いの狂信者》1体ずつを<keyword=spawn>生成</keyword>する。\n<keyword=order>命令</keyword>：全ての自軍「炎誓い」ユニットに{boost}ブーストを与える。
 202350_fluff;罪深き者は炎がもたらす運命から逃れられない。それだけは確かだ
 202350_name;大尋問官ヘルヴィード
 202350_tooltip;【<keyword=profit>利益</keyword>（{Income}）】\n<keyword=fee>謝礼</keyword>（{Cost}）：配置列に《炎誓いの狂信者》1体を<keyword=spawn>生成</keyword>する。
 202351_fluff;雄牛の如き力強さをもち、芋虫の如く愚かでもある
 202351_name;闘技場のエンドレガ
-202351_tooltip;【<keyword=insanity>狂気</keyword>】\n<keyword=fee>謝礼</keyword>（{Cost}）敵軍ユニット1体に{Damage}ダメージ与える。（<keyword=cooldown>クールダウン</keyword>：{Cooldown}）
+202351_tooltip;【<keyword=insanity>狂気</keyword>】\n<keyword=fee>謝礼</keyword>（{Cost}）：敵軍ユニット1体に{Damage}ダメージ与える。（<keyword=cooldown>クールダウン</keyword>：{Cooldown}）
 202352_fluff;臭くて息ができない！ 悪党どもを焼くならよそでやってくれないか？
 202352_name;天罰
 202352_tooltip;隣り合わせの敵軍ユニット{Maxtargets}体に{Damage}ずつダメージを与える。\n<keyword=deathblow>追撃</keyword>：そうして破壊された敵軍ユニット1体につき、反対列に《炎誓いの狂信者》1体を<keyword=spawn>生成</keyword>する。
@@ -2401,7 +2401,7 @@
 202379_tooltip;【<keyword=profit>利益</keyword>（{Income}）】\n<keyword=fee>謝礼</keyword>（{Cost}）：自軍ユニット1体に{Boost}ブーストを与える。
 202380_fluff;羊の毛を刈る方法は無数にある。クリーヴァーの手下はそれを知り尽くしていた
 202380_name;詐欺
-202380_tooltip;【<keyword=profit>利益</keyword>（{Income} - {Income2}）】\n自軍の「割れ銭組」ユニット1体につき、最低量を{income3}上げる。
+202380_tooltip;【<keyword=profit>利益</keyword>（{Income} - {Income2}）】\n自陣にある「割れ銭組」ユニット1体につき、最低量を{income3}増やす。
 202381_fluff;クリーヴァーを騙そうとする者はしっぺ返しを食らう… ただではすまないだろう
 202381_name;クリーヴァーの用心棒
 202381_tooltip;【<keyword=shield>シールド</keyword>】
@@ -2413,7 +2413,7 @@
 202383_tooltip;<keyword=deploy>配備</keyword>：{Boost}ブーストを得る。\nあなたがこの試合中にプレイしたスペシャルカード1枚につき、ブースト量を{Counter}増やす。
 202384_fluff;腕を掴まれて身動きが取れないって？ まだ足があるだろ。どうした、俺のケツに蹴りでも入れてみな
 202384_name;ノヴィグラド流の正義
-202384_tooltip;自陣<keyword=melee>近接</keyword>列に《クリーヴァーの用心棒》1体を<keyword=spawn>生成</keyword>し、自軍デッキにあるブロンズ「ドワーフ」ユニット1体をプレイする。
+202384_tooltip;自軍デッキにあるブロンズの「ドワーフ」又は「割れ銭組」ユニット1体をプレイする。\n自陣に既に「ドワーフ」または「割れ銭組」ユニットがある場合、さらに自陣<keyword=melee>近接</keyword>列に《クリーヴァーの用心棒》1体を<keyword=spawn>生成</keyword>する。
 202385_fluff;来たぞ！ 甲冑を着た騎士様だ！
 202385_name;串刺し卿
 202385_tooltip;【<keyword=intimidate>恫喝</keyword>（{Intimidate}）】\n<keyword=tribute>貢物</keyword>（{Tribute-B.P.BB_Tribute}）：<keyword=immune>耐性</keyword>を得る。
@@ -2430,8 +2430,8 @@
 202389_name;彫刻士ファーコ
 202389_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：自軍デッキにある「犯罪」カード1枚をプレイする。
 202390_fluff;お前のおかげで今夜はイノシシたちが腹を空かすこともなさそうだ
-202390_name;ワイルドカード
-202390_tooltip;<keyword=order>命令</keyword>：自軍デッキにある『シンジケート』スペシャルカード1枚をプレイする。その構築コストが{Counter}以下である場合、{Coins}<keyword=coin>コイン</keyword>を得る。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
+202390_name;海賊の入り江
+202390_tooltip;<keyword=order>命令</keyword>：何れかの自陣列に《海の野盗》1体を<keyword=spawn>生成</keyword>した後、{Coins}<keyword=coin>コイン</keyword>を得る。\n\nこのアビリティは、あなたのデッキの構築コスト上限値を{Template.Provision}増やす。
 202392_fluff;ウソを糧とする街では、真実は武器となる
 202392_name;ウォルター・ヴェリタス
 202392_tooltip;<keyword=deploy>配備</keyword>：ブロンズ『シンジケート』カード1枚を入手してプレイする。
@@ -2473,7 +2473,7 @@
 202405_tooltip;ユニット1体に{Boost}ブーストと{Armor}<keyword=armor>アーマー</keyword>を与える。
 202406_fluff;白旗を振ることは決して恥ずべき行為ではない
 202406_name;降伏
-202406_tooltip;何れかの列にある全てのユニットから{Damage}ずつ<keyword=armor>アーマー</keyword>を取り除き、{Damage2}ずつダメージを与える。
+202406_tooltip;何れかの列にある全てのユニットから{Damage}ずつ<keyword=armor>アーマー</keyword>を取り除き、それらに{Damage2}ずつダメージを与える。
 202407_fluff;ドゥオインはどんなものも武器に変えられる。ごく普通の荷馬車でさえ…
 202407_name;装甲馬車
 202407_tooltip;<keyword=barricade>防塞</keyword>：毎自軍ターン終了時、両隣のユニットに{Armor}ずつ<keyword=armor>アーマー</keyword>を与える。
@@ -2494,7 +2494,7 @@
 202412_tooltip;<keyword=deploy>配備</keyword>：自陣に「盗賊」ユニットがある場合、<keyword=zeal>勇躍</keyword>を得る。\n<keyword=order>命令</keyword>：自軍ユニット1体に{Armor}<keyword=armor>アーマー</keyword>を与える。
 202413_fluff;盾と防柵の間に生まれた、落とし子のようなものだ
 202413_name;矢盾
-202413_tooltip;<keyword=melee>近接</keyword>：あなたがユニット1体をプレイするたび、{Armor}<keyword=armor>アーマー</keyword>を与える。\n<keyword=barricade>防塞</keyword>：代わりに{Armor2}<keyword=armor>アーマー</keyword>を与える。
+202413_tooltip;<keyword=melee>近接</keyword>：あなたがユニット1体をプレイするたび、それに{Armor}<keyword=armor>アーマー</keyword>を与える。\n<keyword=barricade>防塞</keyword>：代わりに{Armor2}<keyword=armor>アーマー</keyword>を与える。
 202414_fluff;どこでも好きに狙えばいい。飛び散った破片がどうにかしてくれる
 202414_name;工兵
 202414_tooltip;<keyword=deploy>配備</keyword>：ユニット1体から<keyword=armor>アーマー</keyword>を取り除く。
@@ -2518,7 +2518,7 @@
 202420_tooltip;自軍ユニット1体に{Boost}ブーストと{Armor}<keyword=armor>アーマー</keyword>を与える。\n自陣に「騎士」ユニットがある場合、さらに<keyword=vitality>活力</keyword>（{Counter}ターン）を与える。
 202421_fluff;彼らは王のためなら何でもする。拒んだらどうなるかをよく知っているからだ
 202421_name;ラドヴィッドの近衛兵
-202421_tooltip;【<keyword=formation>陣形</keyword>】\n<keyword=order>命令</keyword>：自軍ユニット1体に{Boost}ブーストを与える。\n<keyword=inspired>奮起</keyword>: さらに{Armor}<keyword=armor>アーマー</keyword>を与える。
+202421_tooltip;【<keyword=formation>陣形</keyword>】\n<keyword=order>命令</keyword>：自軍ユニット1体に{Boost}ブーストを与える。\n<keyword=inspired>奮起</keyword>：さらに{Armor}<keyword=armor>アーマー</keyword>を与える。
 202422_fluff;弾かれた弓が音を立てる。それがこの世で聞く最期の音だ
 202422_name;レダニアの射手
 202422_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>（<keyword=ranged>間接</keyword>）：敵軍ユニット1体に{Damage}ダメージを与える。（<keyword=charge>チャージ</keyword>：{Charges}）\n<keyword=barricade>防塞</keyword>：毎自軍ターン終了時、{Charges2}<keyword=charge>チャージ</keyword>を得る。
@@ -2555,7 +2555,7 @@
 202436_fluff;トロールは小さな脳みそと大きな胃袋を持っている。非常に危険な組み合わせだ
 202436_name;洞穴トロール
 202436_tooltip;【<keyword=defender>守護者</keyword>】
-202437_fluff;別名スコロペンドロモーフ。しかし言おうとするとツバが飛び散るため、この名は滅多に使われない
+202437_fluff;別名スコロペンドロモーフ。その名を口にするとツバが飛び散るため、あまり使われない
 202437_name;イギャーン
 202437_tooltip;<keyword=deploy>配備</keyword>：自軍手札の枚数に等しい<keyword=armor>アーマー</keyword>を得る。\nこのユニットは<keyword=armor>アーマー</keyword>を持たない場合、自身を破壊する。
 202438_fluff;エンドレガ・クイーンは腹部の特徴的な色彩で見分けがつく。あるいは、その巨体を見れば明らかかもしれない
@@ -2567,13 +2567,13 @@
 202440_fluff;でっぷりと肥え… 血に飢えている
 202440_name;エンドレガの幼虫
 202440_tooltip;【<keyword=thrive>成長</keyword>】\n<keyword=deploy>配備</keyword>：自身の同名カード1枚を<keyword=spawn>生成</keyword>して配置列に<keyword=summon>召喚</keyword>する。
-202441_fluff;故郷では、悪い狼やバーバ・ヤーガを恐れる者はいなかった。その代わり、村の外の茂みにはエンドレガの巣があった
+202441_fluff;故郷では、おとぎ話に出てくる悪い狼やバーバ・ヤーガを恐れる者はいなかった。その代わり、村の外の茂みにはエンドレガの巣があった
 202441_name;エンドレガ・ウォリアー
 202441_tooltip;<keyword=deploy>配備</keyword>：両隣のユニットを<keyword=consume>捕食</keyword>する。捕食した「昆虫種」ユニット1体につき、《ドローン》1体を配置列に<keyword=spawn>生成</keyword>する。
 202442_fluff;強い者が生き残る。つまりお前はここまでだ
 202442_name;自然淘汰
 202442_tooltip;敵軍ユニット1体に{Damage}ダメージを与えた後、超過分の1ダメージにつき、《ドローン》1体を無作為に選んだ自陣列に<keyword=spawn>生成</keyword>する。
-202443_fluff;この生き物は鎧を着けた人間を1分とかからず骨に変えるという。果たしてそれが本当なのか、確かめたくもない
+202443_fluff;この生き物は鎧を着けた人間を瞬時に骨に変えるという。それが本当なのか、確かめたくもない
 202443_name;キキモア・ワーカー
 202443_tooltip;<keyword=melee>近接</keyword>：あなたが「昆虫種」ユニットをプレイするたび、{Armor}<keyword=armor>アーマー</keyword>を得る。\n<keyword=exposed>無防備</keyword>：自身を破壊する。
 202444_fluff;この卵を見かけたら、森ごと焼き払って全速力で逃げるのが賢明だ
@@ -2623,7 +2623,7 @@
 202459_tooltip;敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleed}ターン）を与え、自軍デッキにあるブロンズ「船」ユニット1体を無作為に選んでプレイする。
 202460_fluff;いかに巨大な船であっても、小さな穴ひとつで海に沈む
 202460_name;テラーオブシーズ号
-202460_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：全ての<keyword=armor>アーマー</keyword>を失い、敵軍ユニット1体に失った量に等しいダメージを与える。\nあなたが「海賊」ユニットをプレイするたび、{Armor}<keyword=armor>アーマー</keyword>を得る。
+202460_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：全ての<keyword=armor>アーマー</keyword>を失い、失った量に等しいダメージを敵軍ユニット1体に与える。\nあなたが「海賊」ユニットをプレイするたび、{Armor}<keyword=armor>アーマー</keyword>を得る。
 202461_fluff;川上に運ぶことはできなくとも、帝国艦隊の追跡に向かわせることはできる
 202461_name;装甲ドラッカー船
 202461_tooltip;自軍ターン終了時、《装甲ドラッカー船》が<keyword=armor>アーマー</keyword>を持たない場合、{Armor}<keyword=armor>アーマー</keyword>を得る。\n<keyword=exposed>無防備</keyword>：{Boost}ブーストを得る。\n<keyword=Bloodthirst>狂騒</keyword>（{Bloodthirst}）：代わりに{Boost2}ブーストを得る。
@@ -2653,10 +2653,10 @@
 202470_tooltip;【<keyword=defender>守護者</keyword>】\n<keyword=deploy>配備</keyword>：配置列に《粗暴なドワーフ》を<keyword=spawn>生成</keyword>する。
 202471_fluff;彼らは互いのためなら炎に身を投じ、そのことを笑い合うことができる
 202471_name;ゾルタンの仲間たち
-202471_tooltip;何れかの自陣列に《粗暴なドワーフ》{Counter}体を<keyword=spawn>生成</keyword>する。
+202471_tooltip;何れかの自陣列に《粗暴なドワーフ》{Counter}体を<keyword=spawn>生成</keyword>する。\n自陣に《ゾルタン》がある場合、その列にある全ての「ドワーフ」ユニットに{Armor}ずつ<keyword=armor>アーマー</keyword>を付与する。
 202472_fluff;ドワーフたちよ、描くだけなら何でも描ける。だがなんでも作り出せるというわけにはいかない
 202472_name;ドワーフの戦車
-202472_tooltip;<keyword=deploy>配備</keyword>：配置列に《粗暴なドワーフ》1体を<keyword=spawn>生成</keyword>する。\n<keyword=bonded>結束</keyword>：代わりに配置列に《粗暴なドワーフ》{Counter}体を<keyword=spawn>生成</keyword>する。
+202472_tooltip;<keyword=deploy>配備</keyword>：配置列に《粗暴なドワーフ》1体を<keyword=spawn>生成</keyword>する。\n<keyword=order>命令</keyword>：自軍ユニット1体に{Armor}<keyword=armor>アーマー</keyword>を与える。（<keyword=cooldown>クールダウン</keyword>：{Cooldown}）
 202473_fluff;ドワーフの鋼は強靭だ。ドワーフ自身と同じように
 202473_name;焼き戻し
 202473_tooltip;自軍ユニット1体に{Boost}ブーストを与える。それが「ドワーフ」ユニットである場合、さらに{Armor}<keyword=armor>アーマー</keyword>を与える。
@@ -2689,7 +2689,7 @@
 202482_tooltip;<keyword=deploy>配備</keyword>：自陣に《デュラ・カマーニ》がある場合、配置列に《砂漠の財宝》を<keyword=spawn>生成</keyword>する。
 202483_fluff;虎は危険な生き物だ。特に人間の味を覚えた虎は…
 202483_name;サエル・クアン
-202483_tooltip;自軍{Counter}ターン後、ターン終了時に{Boost}ブーストを得る。
+202483_tooltip;{Counter}自軍ターン後、ターン終了時に{Boost}ブーストを得る。
 202484_fluff;絶えず変化する砂丘では、進むべき方向を見失いやすい…
 202484_name;隊商の前衛
 202484_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：{Boost}ブーストを得る。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：配置列に自身の同名カード1枚を<keyword=spawn>生成</keyword>する。\n<keyword=bonded>結束</keyword>：両方のアビリティを使用する。
@@ -2728,10 +2728,10 @@
 202503_tooltip;<keyword=order>命令</keyword>：両隣のユニットに{Damage}ずつダメージを与えた後、ダメージを負ったユニット1体につき、{Boost}ブーストを得る。\n<keyword=crew>乗組員</keyword>：代わりに{boost2}ブーストを得る。
 202504_fluff;落とせぬ砦などない。落とす価値のない砦があるだけだ
 202504_name;包囲攻撃
-202504_tooltip;脚本：あなたが「攻城兵器」ユニットをプレイするたび、進行する。\n序章：自軍間接列に《強化トレビュシェット》1体を<keyword=spawn>生成</keyword>する。\n第一章：自軍間接列に《破城鎚》1体を<keyword=spawn>生成</keyword>する。\n第二章：《一斉射》を<keyword=spawn>生成</keyword>してプレイする。
+202504_tooltip;【<keyword=doomed>破滅</keyword>】\n脚本：あなたが「攻城兵器」ユニットをプレイするたび、進行する。\n序章：自軍<keyword=ranged>間接</keyword>列に《強化トレビュシェット》1体を<keyword=spawn>生成</keyword>する。\n第一章：自軍<keyword=ranged>間接</keyword>列に《破城鎚》1体を<keyword=spawn>生成</keyword>する。\n第二章：《一斉射》を<keyword=spawn>生成</keyword>してプレイする。
 202505_fluff;戦車に突っ込まれた敵の一群は、小麦が刈り取られるように倒れていった
 202505_name;戦車
-202505_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleeding}ターン）を与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：敵軍ユニット1体を他列に移動させる。\n<keyword=crew>乗組員</keyword>：両方の<keyword=deploy>配備</keyword>アビリティを組み合わせる。
+202505_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleeding}ターン）を与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：敵軍ユニット1体を他列に移動させる。\n<keyword=crew>乗組員</keyword>：両方の<keyword=deploy>配備</keyword>アビリティの効果を発動させる。
 202506_fluff;1人が倒れても、新たな1人が現れる
 202506_name;不死隊
 202506_tooltip;【<keyword=shield>シールド</keyword>】\n<keyword=melee>近接</keyword>：<keyword=shield>シールド</keyword>を失うたび、2ブーストを得る。\n自軍ターン終了時、<keyword=shield>シールド</keyword>を得る。
@@ -2746,17 +2746,17 @@
 202510_tooltip;<keyword=Deploy>配備</keyword>、<keyword=crew>乗組員</keyword>：{Armor}<keyword=Armor>アーマー</keyword>を得る。\n<keyword=order>命令</keyword>（<keyword=ranged>間接</keyword>）：敵軍ユニット1体に{Damage}ダメージを与える。
 202511_fluff;肌に良くない
 202511_name;煮え立つ油
-202511_tooltip;敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=deathblow>追撃</keyword>：両隣のユニットを<keyword=purify>浄化</keyword>させる。
+202511_tooltip;敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=deathblow>追撃</keyword>：両隣のユニットを<keyword=purify>浄化</keyword>する。
 202512_fluff;時間は流れるのではなく、循環する。過去は未来となり、祖先はその子孫の過ちを繰り返す
 202512_name;ウロボロスの仮面
 202512_tooltip;<keyword=order>命令</keyword>：カード1枚を引いた後、カード1枚を<keyword=discard>破棄</keyword>し、自陣<keyword=melee>近接</keyword>列に《鴉》1体を<keyword=spawn>生成</keyword>する。
 202513_fluff;統治者はその下で冠を授かり、反逆者はその枝に吊るされる
 202513_name;ゲディニース
-202513_tooltip;脚本：あなたが「ドルイド」ユニットをプレイするたび、進行する。\n序章：配置列に《鴉族の説教師》1体を<keyword=spawn>生成</keyword>する。\n第一章：《カラスの眼の根茎》を<keyword=spawn>生成</keyword>してプレイする。\n第二章：《マードローメ》を<keyword=spawn>生成</keyword>してプレイする。
+202513_tooltip;【<keyword=doomed>破滅</keyword>】\n脚本：あなたが「ドルイド」ユニットをプレイするたび、進行する。\n序章：配置列に《鴉族の説教師》1体を<keyword=spawn>生成</keyword>する。\n第一章：《カラスの眼の根茎》を<keyword=spawn>生成</keyword>してプレイする。\n第二章：《マードローメ》を<keyword=spawn>生成</keyword>してプレイする。
 202514_fluff;一部には人の言葉を解すカラスが存在し、カラスの言葉を解す人間も存在する
 202514_name;鴉族女首長
 202514_tooltip;<keyword=deploy>配備</keyword>：配置列に《鴉》{Counter}体を<keyword=spawn>生成</keyword>する。\nあなたが「錬金術」カードをプレイするたび、無作為に選んだ自陣列に自軍墓地にある《鴉族女首長》を<keyword=summon>召喚</keyword>する。
-202515_fluff;致死量は？ 一滴で事足りる
+202515_fluff;致死量？ 一滴で事足りる
 202515_name;ギガスコーピオンの変異抽出液
 202515_tooltip;ユニット1体に{Damage}ダメージを6回与える。
 202516_fluff;叡知を孕む彼の言葉は、往々にしてその狂気によってかき消される
@@ -2787,12 +2787,12 @@
 202525_name;ザ・ビースト
 202525_tooltip;毎自軍ターン終了時、このユニットが戦場にある最高戦力値ユニットではない場合、2ブーストを得る。
 202526_fluff;何でも残さず食べないと、幽霊に食べられちゃうぞ！
-202526_name;ハウント
-202526_tooltip;脚本：あなたが<keyword=deathwish>遺言</keyword>アビリティを持つユニットをプレイするたび、進行する。\n序章：配置列に《砂漠のバンシー》1体を<keyword=spawn>生成</keyword>する。\n第一章：《バーゲスト》1体を<keyword=spawn>生成</keyword>してプレイする。\n第二章：《ナイトレイス》1体を<keyword=spawn>生成</keyword>してプレイする。
-202527_fluff;バーゲストはワイルドハントの前衛とも、復讐の化身とも言われている。しかし皆の意見が一致するのは、彼らが生者に情けをかけないという点だ
+202526_name;お化け
+202526_tooltip;【<keyword=doomed>破滅</keyword>】\n脚本：あなたが<keyword=deathwish>遺言</keyword>アビリティを持つユニットをプレイするたび、進行する。\n序章：配置列に《砂漠のバンシー》1体を<keyword=spawn>生成</keyword>する。\n第一章：《バーゲスト》1体を<keyword=spawn>生成</keyword>してプレイする。\n第二章：《ナイトレイス》1体を<keyword=spawn>生成</keyword>してプレイする。
+202527_fluff;バーゲストはワイルドハントの前衛とも、復讐の化身とも言われている。しかし皆の意見が一致するのは、奴らが生者に情けをかけないという点だ
 202527_name;バーゲスト
 202527_tooltip;<keyword=deploy>配備</keyword>：自軍ユニット1体を<keyword=consume>捕食</keyword>する。\n<keyword=order>命令</keyword>、<keyword=dominance>支配</keyword>：自軍ユニット1体を<keyword=consume>捕食</keyword>する。
-202529_fluff;砂漠では喉の渇きが命取りになる？ そんなことはない。どうせそこまで生きてはいられない
+202529_fluff;砂漠では喉の渇きが命取りになる？ そんな状態になる前に命を落とすから、安心しろ
 202529_name;砂漠のバンシー
 202529_tooltip;<keyword=order>命令</keyword>：自軍ユニット1体を<keyword=consume>捕食</keyword>する。\nあなたが<keyword=deathwish>遺言</keyword>アビリティを持つユニットをプレイするたび、{boost}ブーストを得る。
 202530_fluff;農民は昼の熱気から逃れるため、仕事を中断して身を隠す。広く信じられているこの話は事実ではない。彼らはヌーンレイスから隠れているのだ
@@ -2809,16 +2809,16 @@
 202533_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。\n自陣に《ムアレガ》がある場合、代わりに{Damage2}ダメージを与える。
 202534_fluff;毛長の耳を持ち、歯には人間の血がついている
 202534_name;ムアレガ
-202534_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。\n自陣に《エトリエル》がある場合、さらに両隣にあるユニット{Damage2}ずつダメージを与える。
+202534_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。\n自陣に《エトリエル》がある場合、さらに両隣のユニットに{Damage2}ずつダメージを与える。
 202535_fluff;森に住んでいるのは、守衛隊長の言う「毛むくじゃらの化け物」ではなく、スコイア＝テルのゲリラ兵だった。彼らを率いたのはベルノシエルという名の人物らしい…
 202535_name;ベルノシエル
 202535_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：自軍《エルフの名射手》1体につき、敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：配置列に《エルフの名射手》{Count}体を<keyword=spawn>生成</keyword>する。
 202536_fluff;罠を仕掛ける際は身を隠すのが常道だ。しかし… 時には例外も存在する
 202536_name;死んだふり
-202536_tooltip;脚本：あなたが「エルフ」ユニットをプレイするたび、進行する。\n序章：配置列に《エルフの名射手》1体を<keyword=spawn>生成</keyword>する。\n第一章：配置列に《エルフの名射手》2体を<keyword=spawn>生成</keyword>する。\n第二章：《待ち伏せ》を<keyword=spawn>生成</keyword>してプレイする。
+202536_tooltip;【<keyword=doomed>破滅</keyword>】\n脚本：あなたが「エルフ」ユニットをプレイするたび、進行する。\n序章：配置列に《ベルノシエルの精鋭兵》1体を<keyword=spawn>生成</keyword>する。\n第一章：配置列に《エルフの名射手》2体を<keyword=spawn>生成</keyword>する。\n第二章：《待ち伏せ》を<keyword=spawn>生成</keyword>してプレイする。
 202537_fluff;聞こえたのは風を切る音のみ… 次の瞬間には6人の男たちの死体が転がっている
 202537_name;ベルノシエルの精鋭兵
-202537_tooltip;自軍ターン終了時、自陣に「エルフ」ユニットしかない場合、{Boost}ブーストを得る。\n自陣に《ベルノシエル》がある場合、条件を無視する。
+202537_tooltip;自軍ターン終了時、自陣に「エルフ」ユニットしかない場合、{Boost}ブーストを得る。自陣に《ベルノシエル》がある場合、この条件を無視する。
 202538_fluff;門を閉めるよう指令が下った… が、門はびくともしない
 202538_name;ヴリヘッド旅団の破壊工作員
 202538_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：自軍手札にある「エルフ」ユニット1体に{Boost}ブーストを与える。
@@ -2830,20 +2830,20 @@
 202540_tooltip;【<keyword=harmony>調和</keyword>】\n<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：敵軍ユニット1体を他列に移動させる。
 202542_fluff;ムーアレヘム家に借金をした者には2つの選択肢がある。奴隷となるか、自ら命を絶つかだ。賢い者は後者を選ぶ
 202542_name;首輪
-202542_tooltip;<keyword=order>命令</keyword>：敵軍ユニット1体に<keyword=lock>封印</keyword>を与え、{Damage}ダメージを与える。
+202542_tooltip;<keyword=order>命令</keyword>：敵軍ユニット1体に<keyword=lock>封印</keyword>と{Damage}ダメージを与える。
 202543_fluff;誰もがムーアレヘム家とは距離を置こうとする。収税官でさえもだ
 202543_name;ヴィンセント・ヴァン・ムーアレヘム
 202543_tooltip;<keyword=deploy>配備</keyword>：状態を持つ敵軍ユニット1体を破壊する。
 202544_fluff;オフェリー・ヴァン・ムーアレヘムは盛大な祭りの開催を好む。出席者の一部が忽然と姿を消している点については、誰も気にしていないようだ…
 202544_name;仮面舞踏会
-202544_tooltip;脚本：あなたが「貴族」ユニットをプレイするたび、進行する。\n序章：配置列に《喉の乾いた女》1体を<keyword=spawn>生成</keyword>する。\n第一章：《帝国の毒牙》を<keyword=spawn>生成</keyword>してプレイする。\n第二章：《帝国の毒牙》を<keyword=spawn>生成</keyword>してプレイする。
+202544_tooltip;【<keyword=doomed>破滅</keyword>】\n脚本：あなたが「貴族」ユニットをプレイするたび、進行する。\n序章：配置列に《喉の乾いた女》1体を<keyword=spawn>生成</keyword>する。\n第一章：《帝国の毒牙》を<keyword=spawn>生成</keyword>してプレイする。\n第二章：《帝国の毒牙》を<keyword=spawn>生成</keyword>してプレイする。
 202545_fluff;ヴィンセント・ヴァン・ムーアレヘムにも恐れる人物が1人だけいると言う。それはエムヒル・ヴァル・エムレイスでも、リヴィアのゲラルトでもない。彼自身の息子だ
 202545_name;フィリップ・ヴァン・ムーアレヘム
 202545_tooltip;<keyword=order>命令</keyword>（<keyword=ranged>間接</keyword>）：ユニット1体に{Damage}ダメージを与える。（<keyword=cooldown>クールダウン</keyword>：{Cooldown}）\n標的が状態を持つ場合、代わりに{Damage2}ダメージを与える。
 202546_fluff;得意料理？ タルタルですね。何のって？ それは主人の気分によります…
 202546_name;ヴァン・ムーアレヘムの酌人
 202546_tooltip;【<keyword=assimilate>同化</keyword>】\n<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：ユニット1体に<keyword=poison>毒</keyword>を与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：ユニット1体を<keyword=purify>浄化</keyword>する。
-202547_fluff;獣よりも密猟者の追跡を好むが、最近は宮殿周辺の森に人が入ってくることは少なくなった…
+202547_fluff;獣よりも密猟者の狩りを好むが、最近は宮殿周辺の森に人が入ってくることは少なくなった…
 202547_name;ヴァン・ムーアレヘムの狩人
 202547_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleed}ターン）を与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：ユニット1体に<keyword=lock>封印</keyword>を与える。
 202549_fluff;ヴァン・ムーアレヘムの猟犬は、極めて鋭い嗅覚と極めて鋭い牙を持つ
@@ -2857,19 +2857,19 @@
 202551_tooltip;敵軍ユニットが状態を得るたび、{Boost}ブーストを得る。
 202552_fluff;ガチョウの卵大のダイヤモンド。小国を買えるほどの価値がある
 202552_name;虎目石
-202552_tooltip;<keyword=order>命令</keyword>：<keyword=coin>コイン</keyword>{Coins}枚を得る。
+202552_tooltip;<keyword=order>命令</keyword>：{Coins}<keyword=coin>コイン</keyword>を得る。
 202553_fluff;この街には黄金がたっぷりある。少なくとも我々には十分な黄金が
 202553_name;共謀
-202553_tooltip;自陣にギャングカテゴリを持つユニットがある場合：\n盲目結社 - 他の全ての効果を1増やす。\n割れ銭組 - 最低戦力値を持つ自軍ユニット1体に{Boost}ブーストを与える。\n道化同盟 - 最高戦力値を持つ敵軍ユニット1体に{Damage}ダメージを与える。\n炎誓い - 無作為に選んだ自陣列に《炎誓いの狂信者》{Counter}体を<keyword=spawn>生成</keyword>する\n引き潮団 - <keyword=coin>コイン</keyword>{Coins}枚を得る。
+202553_tooltip;自陣にギャングカテゴリを持つユニットがある場合：\n盲目結社 - 他の全ての効果を1増やす。\n割れ銭組 - 自軍最低戦力値ユニット1体に{Boost}ブーストを与える。\n道化同盟 - 敵軍最高戦力値ユニット1体に{Damage}ダメージを与える。\n炎誓い - 無作為に選んだ自陣列に《炎誓いの狂信者》{Counter}体を<keyword=spawn>生成</keyword>する\n引き潮団 - {Coins}<keyword=coin>コイン</keyword>を得る。
 202554_fluff;ここには〈永遠の炎〉教会よりも多くの巡礼者がやって来る…
 202554_name;パシフローラ
-202554_tooltip;脚本：あなたが「盲目結社 」ユニットをプレイするたび、進行する。\n序章：配置列に《狡猾な悪女》1体を<keyword=spawn>生成</keyword>する。\n第一章：配置列に《パシフローラの美女》を<keyword=spawn>生成</keyword>する。\n第二章：<keyword=coin>コイン</keyword>{Coins}枚を得る。
+202554_tooltip;【<keyword=doomed>破滅</keyword>】\n脚本：あなたが「盲目結社 」ユニットをプレイするたび、進行する。\n序章：配置列に《パシフローラの美女》1体を<keyword=spawn>生成</keyword>する。\n第一章：{Coins}<keyword=coin>コイン</keyword>を得る。\n第二章：配置列に《狡猾な悪女》1体を<keyword=spawn>生成</keyword>する。
 202555_fluff;底知れぬ財力と漆黒の魂を持つ目利き
 202555_name;ソウル・ド・ナヴァレッテ
 202555_tooltip;<keyword=hoard>備蓄</keyword>（{Hoard-B.P.BB_Hoard}）：自軍ターン終了時、{Boost}ブーストを得る。\n<keyword=hoard>備蓄</keyword>（{Hoard2-B.P.BB_Hoard}）：自軍ターン終了時、代わりに{Boost2}ブーストを得る。\n<keyword=hoard>備蓄</keyword>（{Hoard3-B.P.BB_Hoard}）：自軍ターン終了時、代わりに{Boost3}ブーストを得る。
-202556_fluff;彼は自分の母親すら売る男だと言われている。だがそれを買う者はいない
+202556_fluff;彼は自分の母親すら売る男だと言われている。だが実際に買った者はいない
 202556_name;ルドヴィクス・ブルーネンバウム
-202556_tooltip;{Counter}ターン後、<keyword=coin>コイン</keyword>{Coins}枚を得る。\n<keyword=tribute>貢物</keyword>（{Tribute-B.P.BB_Tribute}）：即座に<keyword=coin>コイン</keyword>{Coins}枚を得る。
+202556_tooltip;{Counter}ターン後、{Coins}<keyword=coin>コイン</keyword>を得る。\n<keyword=tribute>貢物</keyword>（{Tribute-B.P.BB_Tribute}）：即座に{Coins}<keyword=coin>コイン</keyword>を得る。
 202557_fluff;奴らを殺したら、次はお前だからな！
 202557_name;血塗られた友情
 202557_tooltip;【<keyword=insanity>狂気</keyword>】\n<keyword=fee>謝礼</keyword>（{Cost}）：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleed}ターン）を与える。それがブーストを受けている場合、代わりに{Damage}ダメージを与える。
@@ -2902,7 +2902,7 @@
 202568_tooltip;【<keyword=doomed>破滅</keyword>】
 202569_fluff;財宝ってのは埋めるよりかは掘り起こす方がずっといい
 202569_name;砂漠の財宝
-202569_tooltip;【<keyword=doomed>破滅</keyword>】【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：任意勢力のレジェンダリーユニット1体を無作為に選んで<keyword=spawn>生成</keyword>してプレイする。
+202569_tooltip;【<keyword=doomed>破滅</keyword>】【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：レジェンダリーユニット1体（勢力不問）を無作為に選んで<keyword=spawn>生成</keyword>してプレイする。
 202570_fluff;Ignore.
 202570_name;ユールの幽鬼
 202570_tooltip;Ignore.
@@ -2920,13 +2920,13 @@
 202576_name;輝かしき栄光
 202576_tooltip;<keyword=order>命令</keyword>：自軍デッキにある『スケリッジ』ユニット1体を自軍墓地に移動させた後、その戦力値に等しいダメージを敵軍ユニット1体に与える。\n\nこのアビリティは自軍デッキの構築コスト上限を{Template.Provision}増やす。
 202577_name;隠し物資
-202577_tooltip;<keyword=order>命令</keyword>：<keyword=coin>コイン</keyword>{Coins}枚を得る。\nラウンド開始時、このアビリティを再度利用可能にする。\nあなたの<keyword=hoard>備蓄</keyword>アビリティに必要な<keyword=coin>コイン</keyword>を{Hoard}減らす。\n\nこのアビリティは自軍デッキの構築コスト上限を{Template.Provision}増やす。
+202577_tooltip;<keyword=order>命令</keyword>：{Coins}<keyword=coin>コイン</keyword>を得る。\nラウンド開始時、このアビリティを再度利用可能にする。\nあなたの<keyword=hoard>備蓄</keyword>アビリティに必要な<keyword=coin>コイン</keyword>を{Hoard}減らす。\n\nこのアビリティは自軍デッキの構築コスト上限を{Template.Provision}増やす。
 202592_fluff;歴史の決定的瞬間に関りながらも影に徹し、決して表に出ようとしない者がいる。中でもとある一人の人物は徹底している。
 202592_name;鏡の達人
 202592_tooltip;【<keyword=veil>遮蔽</keyword>】\n<keyword=deploy>配備</keyword>：自軍手札の左端にあるカードを、自身の勢力に属する無作為に選ばれたレジェンダリーカード1枚（自軍デッキに最初から組み込まれているカードは除く）に変身させる。\n自軍手札の右端のカードをプレイするたびに、このアビリティを繰り返す。
 202593_fluff;彼女が見る最悪の悪夢は、彼女だけのものとは限らない
 202593_name;幽玄
-202593_tooltip;【<keyword=doomed>破滅</keyword>】\n自軍ターン終了時、右隣にあるユニットが「悪魔」でない場合、自身の同名カードに変身させる。
+202593_tooltip;【<keyword=doomed>破滅</keyword>】\n<keyword=deploy>配備</keyword>：<keyword=zeal>勇躍</keyword>を得る。\n<keyword=order>命令</keyword>：右隣にあるユニット1体を自身の同名カードに変身させる。
 202594_fluff;夢に現れる過去や未来を読み解くことは、熟達者にとっても決して容易なことではない
 202594_name;夢占い
 202594_tooltip;【<keyword=echo>残響</keyword>】\n自軍デッキにある任意のカード1枚をプレイする。
@@ -2955,35 +2955,35 @@
 202602_name;占い師
 202602_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：ユニット1体に<keyword=doomed>破滅</keyword>を与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：ユニット1体に<keyword=veil>遮蔽</keyword>を与える。
 202603_fluff;ひとつの世界の終焉は、別の世界の始まりとなり得る
-202603_name;王者オーベロン
+202603_name;オーベロン：王者
 202603_tooltip;<keyword=deploy>配備</keyword>：ブロンズ「ワイルドハント」ユニット1体を無作為に選んで<keyword=spawn>生成</keyword>しプレイする。\nラウンド開始時に手札かデッキにある場合は変身する。
 202604_fluff;服従せぬなら、駆逐するまで！
-202604_name;侵略者オーベロン
+202604_name;オーベロン：侵略者
 202604_tooltip;<keyword=deploy>配備</keyword>：ブロンズ「ワイルドハント」ユニット1体を<keyword=create>入手</keyword>してプレイする。\n<keyword=devotion>献身</keyword>：ラウンド開始時に手札かデッキにある場合は変身する。
 202605_fluff;650年も生きていると、もはや気持ちの昂ることなどそうそうない
-202605_name;征服者オーベロン
+202605_name;オーベロン：征服者
 202605_tooltip;【<keyword=veil>遮蔽</keyword>】\n<keyword=deploy>配備</keyword>：ブロンズ「ワイルドハント」ユニット1体を<keyword=create>入手</keyword>してプレイする。\nあなたが「ワイルドハント」ユニットをプレイするたび、それに{boost}ブーストを与える。
 202606_fluff;言い残すことは？
 202606_name;エレディン・ブレアック・グラス
-202606_tooltip;<keyword=deploy>配備</keyword>：{Counter}ターンの間、何れかの敵陣列に<keyword=frost>霜</keyword>を<keyword=spawn>生成</keyword>する。\n<keyword=dominance>支配</keyword>：<keyword=frost>霜</keyword>が与えるダメージを{Damage}増加させる。
+202606_tooltip;<keyword=deploy>配備</keyword>：何れかの敵陣列に<keyword=frost>霜</keyword>（{Counter}ターン持続）を<keyword=spawn>生成</keyword>する。\n<keyword=dominance>支配</keyword>：<keyword=frost>霜</keyword>が与えるダメージを{Damage}増加させる。
 202607_fluff;次元間を渡り歩き、世界に終末をもたらしたい旅人にうってつけだ
 202607_name;アード・ガイス
-202607_tooltip;【<keyword=echo>残響</keyword>】\n{counter}ターンの間、敵陣両列に<keyword=frost>霜</keyword>を<keyword=spawn>生成</keyword>する。
+202607_tooltip;【<keyword=echo>残響</keyword>】\n敵陣両列に<keyword=frost>霜</keyword>（{counter}ターン持続）を<keyword=spawn>生成</keyword>する。
 202608_fluff;真実は氷の破片に過ぎない
 202608_name;冬の女王
 202608_tooltip;<keyword=devotion>献身</keyword>：<keyword=thrive>成長</keyword>を得る。\n自軍ターン終了時、敵陣両列に<keyword=frost>霜</keyword>が生成されている場合、自軍デッキからこのユニットを<keyword=ranged>間接</keyword>列に<keyword=summon>召喚</keyword>する。
-202609_fluff;さあ、いい子はどこだ？ 彼じゃないのは確かだ
+202609_fluff;お利巧さんはどーこだ？  あいつじゃないのは確かだ
 202609_name;ミツバチの亡霊
 202609_tooltip;【<keyword=veil>遮蔽</keyword>】【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に{Damage}ダメージを与える。\n自軍ターン終了時、<keyword=order>命令</keyword>アビリティが使用されていない場合、{boost}ブーストを得る。
 202610_fluff;彼らは空を雪で塗りつぶし、大地を炎で染めた
 202610_name;赤の騎兵団
-202610_tooltip;何れかを選択：\n{counter}ターンの間、何れかの敵陣列に<keyword=frost>霜</keyword>を<keyword=spawn>生成</keyword>する。\n{counter2}ターンの間、敵陣両列に<keyword=frost>霜</keyword>を<keyword=spawn>生成</keyword>する。
+202610_tooltip;何れかを選択：\n何れかの敵陣列に<keyword=frost>霜</keyword>（{counter}ターン持続）を<keyword=spawn>生成</keyword>する。\n敵陣両列に<keyword=frost>霜</keyword>（{counter2}ターン持続）を<keyword=spawn>生成</keyword>する。
 202611_fluff;死者の頭蓋骨で生者の頭蓋骨を叩き割る――彼にはそれが、最高のジョークに思えるのだ
 202611_name;ワイルドハントの荒くれ者
-202611_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体を他列に移動させる。<keyword=frost>霜</keyword>が生成している列に移動させた場合、{Damage}ダメージを与える。
+202611_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体を他列に移動させる。<keyword=frost>霜</keyword>が発生している列に移動させた場合、{Damage}ダメージを与える。
 202612_fluff;人間はナグルファーの力の源を知らない。いったい何が魔力を生み出しているのか？ その真相に気づいた時は、もう手遅れだ
 202612_name;ナグルファーの乗組員
-202612_tooltip;<keyword=deploy>配備</keyword>：{counter}ターンの間、何れかの敵陣列に<keyword=frost>霜</keyword>を <keyword=spawn>生成</keyword>する。\n自軍ターン終了時、反対列に<keyword=frost>霜</keyword>が生成している場合、{boost}ブーストを得る。
+202612_tooltip;<keyword=deploy>配備</keyword>：何れかの敵陣列に<keyword=frost>霜</keyword>（{counter}ターン持続）を<keyword=spawn>生成</keyword>する。\n自軍ターン終了時、反対列に<keyword=frost>霜</keyword>が発生している場合、{boost}ブーストを得る。
 202613_fluff;害虫たる人間の生命力を搾り取り、船の運航を維持することが彼女の役目だ
 202613_name;ナグルファーの作業監督
 202613_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体を<keyword=purify>浄化</keyword>する。\n<keyword=dominance>支配</keyword>：代わりにユニット1体を<keyword=purify>浄化</keyword>する。
@@ -2994,10 +2994,10 @@
 202615_name;ハラルド・アン・クライト
 202615_tooltip;<keyword=deploy>配備</keyword>：自軍墓地にあるブロンズ「戦士」ユニット1体をプレイし、それに<keyword=doomed>破滅</keyword>と{Damage}ダメージを与える。\nラウンド開始時に手札かデッキにある場合は変身する。
 202616_fluff;絶え間ない苦しみに抗うことで、彼の中に渇望が生まれた。同じ苦しみを他者に与えたいという渇望が
-202616_name;戦争狂ハラルド
+202616_name;ハラルド：戦争狂
 202616_tooltip;<keyword=deploy>配備</keyword>：自軍墓地にあるブロンズ「戦士」ユニット1体をプレイし、それに<keyword=doomed>破滅</keyword>を与える。\n<keyword=devotion>献身</keyword>：ラウンド開始時に手札かデッキにある場合は変身する。
 202617_fluff;彼は決して止まらなかった。島々をその手中に収め、首長の首を切り落とすまで
-202617_name;不具のハラルド
+202617_name;ハラルド：不具
 202617_tooltip;【<keyword=veil>遮蔽</keyword>】\n<keyword=deploy>配備</keyword>：自軍墓地にあるブロンズ「戦士」ユニット1体をプレイし、それに<keyword=doomed>破滅</keyword>を与える。\nあなたが「戦士」カードをプレイするたび、敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。
 202618_fluff;勝者の側につけば、それは裏切りとみなされない
 202618_name;トリッグヴィ・テルショック
@@ -3006,8 +3006,8 @@
 202619_name;血の鷲
 202619_tooltip;【<keyword=echo>残響</keyword>】\n敵軍ユニット1体に{damage}ダメージを与えた後、自軍デッキにある「戦士」ユニット（構築コスト{provision} 以下）1体をプレイする。\n<keyword=deathblow>追撃</keyword>：代わりに自軍デッキから「戦士」ユニット1体をプレイする。\n<keyword=bloodthirst>狂騒</keyword>（{Bloodthirst}）：必ず<keyword=deathblow>追撃</keyword>アビリティを実行する。
 202620_fluff;彼は名誉を重んじ、それが破滅の原因となった
-202620_name;スクヨルダル・ドラムンド
-202620_tooltip;<keyword=devotion>献身</keyword>：<keyword=veteran>古参兵</keyword>を得る。\n<keyword=deploy>配備</keyword>：敵軍ユニット1体に《スクヨルダル》のベース戦力値分のダメージを与える。
+202620_name;ショーダル・ドラムンド
+202620_tooltip;<keyword=devotion>献身</keyword>：<keyword=veteran>古参兵</keyword>を得る。\n<keyword=deploy>配備</keyword>：敵軍ユニット1体に《ショーダル・ドラムンド》のベース戦力値分のダメージを与える。
 202621_fluff;彼女は一族と族長、そして父親への忠誠を貫いた――最期のその時まで
 202621_name;ハージャ・ドラムンド
 202621_tooltip;【<keyword=veil>遮蔽</keyword>】【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>（<keyword=melee>近接</keyword>）：何れかの列にある敵軍ユニットに{damage}ダメージを無作為に分け与える。\n自軍ターン終了時、<keyword=order>命令</keyword>アビリティが使用されていない場合、敵軍ユニット1体を無作為に選んで{Damage2}ダメージを与える。
@@ -3025,17 +3025,17 @@
 202625_tooltip;<keyword=deploy>配備</keyword>：右隣のユニット1体に<keyword=bleeding>出血</keyword>（{Bleed}）を与えた後、敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleed2}）を与える。
 202626_fluff;ただのかすり傷だ、そうだろ？
 202626_name;ドラムンドの狂戦士
-202626_tooltip;自軍ターン終了時、自身および無作為に選ばれた敵軍ユニット1体に{Damage}ずつダメージを与える。 \n<keyword=berserk>狂戦士</keyword>（{Berserk}）：《異形の熊》に変身する。
+202626_tooltip;自軍ターン終了時、自身と無作為に選ばれた敵軍ユニット1体に{Damage}ずつダメージを与える。 \n<keyword=berserk>狂戦士</keyword>（{Berserk}）：《異形の熊》に変身する。
 202629_fluff;子供の頃、彼には好きなことが2つあった。オモチャの兵隊で遊ぶことと、「エルフを殺せ」という遊びだ
-202629_name;奇跡の子ジャック
+202629_name;ジャック：奇跡の子
 202629_tooltip;【<keyword=profit>利益</keyword>（{Income}）】\n<keyword=tribute>貢物</keyword>（{Tribute-B.P.BB_Tribute}）：配置列に《炎誓いの狂信者》{counter}体を<keyword=spawn>生成</keyword>する。\nラウンド開始時に手札かデッキにある場合は変身する。
 202630_fluff;ジャックは未来の展望に戦慄し、強くならねばという決意を固めた
 202630_name;ジャック・ド・アルダースバーグ
 202630_tooltip;【<keyword=profit>利益</keyword>（{Income}）】\n<keyword=tribute>貢物</keyword>（{Tribute-B.P.BB_Tribute}）：配置列に《炎の薔薇の歩兵》{Counter}体を<keyword=spawn>生成</keyword>する。\n<keyword=fee>謝礼</keyword>（{cost}）：{boost}ブーストを得る。\n<keyword=devotion>献身</keyword>：ラウンド開始時に手札かデッキにある場合は変身する。
 202631_fluff;全てを救うべく、騎士団長はどんな方法も恐れず試みた
-202631_name;騎士団長ジャック
+202631_name;ジャック：騎士団長
 202631_tooltip;【<keyword=veil>遮蔽</keyword>】【<keyword=profit>利益</keyword>（{Income}）】\n<keyword=tribute>貢物</keyword>（{Tribute-B.P.BB_Tribute}）：配置列に《炎の薔薇の歩兵》{Counter}体を<keyword=spawn>生成</keyword>する。\n<keyword=fee>謝礼</keyword>（{cost}）：{boost}ブーストを得る。\nあなたが「炎誓い」カードをプレイするたび、{Coin}<keyword=coin>コイン</keyword>を得る。
-202632_fluff;〈炎の薔薇の騎士団〉の解散後、ウィッチハンターに加わらなかった者たちによって〈落ちし騎士団〉が結成され、ウルリッヒはその団長となった
+202632_fluff;〈炎の薔薇の騎士団〉の解散後、ウィッチハンターに加わらなかった者たちは徒党を組み、ウルリッヒはその団長となった
 202632_name;ウルリッヒ
 202632_tooltip;【<keyword=intimidate>恫喝</keyword>】\n<keyword=deploy>配備</keyword>：自軍手札にあるブロンズ「炎誓い」ユニットの同名カード1枚を<keyword=spawn>生成</keyword>してプレイする。\n<keyword=devotion>献身</keyword>：{Boost}ブーストを与える。
 202633_fluff;〈永遠の炎〉の正当なる怒り！ 炎の薔薇が正義を為す！
@@ -3043,52 +3043,52 @@
 202633_tooltip;【<keyword=echo>残響</keyword>】\n敵軍ユニット1体に{damage}ダメージを与え、全ての自軍「炎誓い」ユニットに{boost}ずつブーストを与える。\n<keyword=deathblow>追撃</keyword>：代わりに全ての自軍ユニットにブーストを与える。
 202634_fluff;ド・ヴェット伯爵は恐ろしく不快で横柄な人物だが、ポーカーダイスを嗜む一面を持っている
 202634_name;ロデリック・ド・ヴェット
-202634_tooltip;【<keyword=veil>遮蔽</keyword>】【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>（<keyword=melee>近接</keyword>）：配置列に《炎の薔薇の歩兵》1体を<keyword=spawn>生成</keyword>する。\n自軍ターン終了時、<keyword=order>命令</keyword>アビリティが使用されていない場合、<keyword=coin>コイン</keyword>{Coins}枚を得る。
+202634_tooltip;【<keyword=veil>遮蔽</keyword>】【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>（<keyword=melee>近接</keyword>）：配置列に《炎の薔薇の歩兵》1体を<keyword=spawn>生成</keyword>する。\n自軍ターン終了時、<keyword=order>命令</keyword>アビリティが使用されていない場合、{Coins}<keyword=coin>コイン</keyword>を得る。
 202635_fluff;騎士団の没落は、彼にとってそれほど大きな問題ではなかった。商品や物資の管理をしなければならないのは今も同じだが、少なくとも以前より制約がなくなったため、仕事はやり易くなっている
 202635_name;フォン・ハースト副長
 202635_tooltip;<keyword=hoard>備蓄</keyword>（{Hoard-B.P.BB_Hoard}）：自軍ターン終了時、配置列に《炎誓いの狂信者》1体を<keyword=spawn>生成</keyword>する。\n<keyword=fee>謝礼</keyword>（{Cost}）：《炎誓いの狂信者》1体を《炎の薔薇の歩兵》に変身させる。
 202636_fluff;死人は何の役にも立たないって？ 密輸品を隠すのに最適じゃないか。
 202636_name;密輸
 202636_tooltip;【<keyword=profit>利益</keyword>（{Income}）】\n何れかの自陣列に《炎の薔薇の歩兵》1体を<keyword=spawn>生成</keyword>する。
-202637_fluff;顔には目が2つ、耳が2つ、舌が1つある。口を使うよりも2倍目を凝らし耳を澄ませということだ
+202637_fluff;顔には目と耳が2つずつあるが、舌は1つしかない。口を使う回数の倍は目を凝らし耳を澄ませということだ
 202637_name;炎の薔薇の聖職者
 202637_tooltip;【<keyword=profit>利益</keyword>（{Income}）】\n<keyword=tribute>貢物</keyword>（{Tribute-B.P.BB_Tribute}）：配置列に《炎誓いの狂信者》1体を<keyword=spawn>生成</keyword>する。\n<keyword=fee>謝礼</keyword>（{Cost}）：《炎誓いの狂信者》1体を《炎の薔薇の歩兵》に変身させる。
 202638_fluff;正義の戦いを投げ出し、彼の心の炎はずっと昔に消えてしまった
-202638_name;落ちし騎士
-202638_tooltip;【<keyword=veil>遮蔽</keyword>】【<keyword=intimidate>恫喝</keyword>】\nあなたがユニットを<keyword=spawn>生成</keyword>するたび、<keyword=spawn>生成</keyword>したユニット1体ごとに{Boost}ブーストを得る。
+202638_name;堕落した騎士
+202638_tooltip;【<keyword=veil>遮蔽</keyword>】【<keyword=intimidate>恫喝</keyword>】\nあなたが自陣にユニットを<keyword=spawn>生成</keyword>するたび、<keyword=spawn>生成</keyword>したユニット1体につき{Boost}ブーストを得る。
 202639_fluff;正義の戦いを続ける限り、騎士団とその炎は消え去らない
 202639_name;孤独な王者
-202639_tooltip;【<keyword=immune>耐性</keyword>】\n<keyword=deploy>配備</keyword>：配置列にある全ての「炎誓い」トークンを破壊した後、それらの戦力値を合計した値のブーストを得る。
+202639_tooltip;【<keyword=immune>耐性</keyword>】\n<keyword=deploy>配備</keyword>：配置列にある全ての「炎誓い」トークンを破壊した後、それらの戦力値の合計に等しいブーストを得る。
 202640_fluff;私は真の科学者だ。視野の狭いオクセンフルトの教授たちが、私の研究方法を理解できぬと言うのなら、もはや仕方あるまい
 202640_name;変異の創造主
-202640_tooltip;<keyword=deploy>配備</keyword>：自軍ユニット1体を破壊した後、<keyword=coin>コイン</keyword>{Coins}枚を得る。\n<keyword=devotion>献身</keyword>：代わりに<keyword=coin>コイン</keyword>{Coins2}枚を得る。
+202640_tooltip;<keyword=deploy>配備</keyword>：自軍ユニット1体を破壊した後、{Coins}<keyword=coin>コイン</keyword>を得る。\n<keyword=devotion>献身</keyword>：代わりに無条件に{Coins2}<keyword=coin>コイン</keyword>を得る。
 202641_fluff;騎士団には誰でも加わることができる。騎士でも、農民でも、ウィッチャーでさえも
 202641_name;炎の薔薇の歩兵
 202641_tooltip;【<keyword=doomed>破滅</keyword>】
 202642_fluff;親というものは子供の強さと活力を羨ましく思うものだ。そしてほとんどの場合、子供はそれに気づかない
-202642_name;王子ヴィラクサス
-202642_tooltip;<keyword=order>命令</keyword>：自軍『北方諸国』ユニット1体の<keyword=order>命令</keyword>アビリティを初期化する。\nラウンド開始時に手札かデッキにある場合は変身する。
-202643_fluff;ベロハンが取り戻しようのない若さ、生命力、強さを持つために、ヴィラクサスは追放された
-202643_name;追放者ヴィラクサス
-202643_tooltip;【<keyword=formation>陣形</keyword>】\n<keyword=order>命令</keyword>：自軍『北方諸国』ユニット1体の<keyword=order>命令</keyword>アビリティを初期化し、<keyword=zeal>勇躍</keyword>を与える。\n<keyword=devotion>献身</keyword>：ラウンド開始時に手札かデッキにある場合は変身する。
+202642_name;ヴィラサス：王子
+202642_tooltip;<keyword=order>命令</keyword>：自軍『北方諸国』ユニット1体の<keyword=order>命令</keyword>アビリティを再度利用可能にする。\nラウンド開始時に手札かデッキにある場合は変身する。
+202643_fluff;ベロハンが取り戻しようのない若さ、生命力、強さを持つために、ヴィラサスは追放された
+202643_name;ヴィラサス：追放者
+202643_tooltip;【<keyword=formation>陣形</keyword>】\n<keyword=order>命令</keyword>：自軍『北方諸国』ユニット1体の<keyword=order>命令</keyword>アビリティを再度利用可能にし、<keyword=zeal>勇躍</keyword>を与える。\n<keyword=devotion>献身</keyword>：ラウンド開始時に手札かデッキにある場合は変身する。
 202644_fluff;復讐という料理は、2人前で出してこそ味わいが増す
-202644_name;王者ヴィラクサス
-202644_tooltip;【<keyword=veil>遮蔽</keyword>】【<keyword=formation>陣形</keyword>】\n<keyword=order>命令</keyword>：自軍『北方諸国』ユニット1体の<keyword=order>命令</keyword>アビリティを初期化し、<keyword=zeal>勇躍</keyword>を与える。\nあなたが「兵士」ユニットをプレイするたび、{Boost}ブーストを得る。
+202644_name;ヴィラサス：王者
+202644_tooltip;【<keyword=veil>遮蔽</keyword>】【<keyword=formation>陣形</keyword>】\n<keyword=order>命令</keyword>：自軍『北方諸国』ユニット1体の<keyword=order>命令</keyword>アビリティを再度利用可能にし、<keyword=zeal>勇躍</keyword>を与える。\nあなたが「兵士」ユニットをプレイするたび、{Boost}ブーストを得る。
 202645_fluff;間近に迫った2人の婚姻を祝い、イルディコからベロハン王へ首輪が贈られた。愚か者の首を締めることで、その問題は無事解決された
 202645_name;イルディコ
 202645_tooltip;<keyword=order>命令</keyword>：自軍ユニット1体に{Boost}ブーストを与える。\n<keyword=inspired>奮起</keyword>：あなたが『北方諸国』ユニットをプレイするたび、それに<keyword=zeal>勇躍</keyword>を与える。
 202646_fluff;船が一隻、あちらにもう一隻、これで王国は我らのものだ！
 202646_name;強襲上陸
-202646_tooltip;【<keyword=echo>残響</keyword>】\n自軍デッキにある構築コストが{provision}以下の『北方諸国』ユニット1体をプレイする。コスト上限を下回っている値×{Boost}ブーストを得る。
+202646_tooltip;【<keyword=echo>残響</keyword>】\n自軍デッキにある構築コストが{provision}以下の『北方諸国』ユニット1体をプレイし、それにコスト上限を下回っている値×{Boost}ブーストを与える。
 202647_fluff;もっともなことだが、王は誰のことも信用しなかった。また、彼を出し抜ける者など存在しないと考えていた。その思い込みが仇となったのだ
 202647_name;ベロハン王
-202647_tooltip;あなたが戦力値{Boost}未満のユニットをプレイするたび、それの戦力値を{Boost}に変える。\n<keyword=devotion>献身</keyword>：戦力値上限が{boost2}に上昇する。
+202647_tooltip;あなたが戦力値{Boost}未満のユニットをプレイするたび、そのユニットの戦力値を{Boost}に変える。\n<keyword=devotion>献身</keyword>：戦力値の上限が{boost2}に上昇する。
 202648_fluff;父親からはまったく信用されていなかったイグマンドにとって、彼を裏切ることは、ごく単純な決断であった
 202648_name;イグマンド
 202648_tooltip;【<keyword=veil>遮蔽</keyword>】【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に{Damage}ダメージを与える。\n自軍ターン終了時、<keyword=order>命令</keyword>アビリティが使用されていない場合、右隣のユニット1体に{Boost}ブーストを与える。
 202649_fluff;火には火を、人にも火を、人ならざる者にも火を… 相手が誰であれ何であろうと、火に勝るものはない！
 202649_name;炙り出せ！
-202649_tooltip;何れかの自陣列に《志願兵》{Counter}体を<keyword=spawn>生成</keyword>し、それぞれに{Boost}ブーストを与える。
+202649_tooltip;何れかの自陣列に《志願兵》{Counter}体を<keyword=spawn>生成</keyword>する。 \n自陣にブーストを得ているユニットがある場合、<keyword=spawn>生成</keyword>した《志願兵》に{Boost}ずつブーストを与える。
 202650_fluff;「船を買おう」と、ケラックの猫は言った… と、酔っ払いの詩人は言っている
 202650_name;ケラックのフリゲート艦
 202650_tooltip;<keyword=order>命令</keyword>：配置列に《志願兵》1体を<keyword=spawn>生成</keyword>する。\n<keyword=crew>乗組員</keyword>：自軍ターン終了時、このアビリティを再度利用可能にする。
@@ -3105,17 +3105,17 @@
 202654_name;志願兵
 202654_tooltip;【<keyword=doomed>破滅</keyword>】
 202655_fluff;彼はごく普通の兵士であった。周囲の狂気に心を開くまでは
-202655_name;将校簒奪者
+202655_name;簒奪者：士官
 202655_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=deploy>配備</keyword>：何れかの敵陣列に《工作員》1体を<keyword=spawn>生成</keyword>する。\n<keyword=order>命令</keyword>：<keyword=spying>密偵</keyword>を持つ全ての《工作員》を<keyword=seize>強奪</keyword>する。\nラウンド開始時に手札かデッキにある場合は変身する。
 202656_fluff;将軍には優れた才能があった。馬鹿げた指令さえ、素晴らしい作戦行動に変えてみせる才能が
-202656_name;将軍簒奪者
+202656_name;簒奪者：将軍
 202656_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=deploy>配備</keyword>：敵陣各列に《工作員》を1体ずつ<keyword=spawn>生成</keyword>する。\n<keyword=order>命令</keyword>：<keyword=spying>密偵</keyword>を持つ全ての《工作員》を<keyword=seize>強奪</keyword>する。\n<keyword=devotion>献身</keyword>：ラウンド開始時に手札かデッキにある場合は変身する。
 202657_fluff;選択肢は2つしかなかった。愚かな指令によって流れた血を洗い流すか、愚か者の血を洗い流すか。答えは明白であった
-202657_name;皇帝簒奪者
+202657_name;簒奪者：皇帝
 202657_tooltip;【<keyword=veil>遮蔽</keyword>】【<keyword=zeal>勇躍</keyword>】\n<keyword=deploy>配備</keyword>：敵陣各列に《工作員》を1体ずつ<keyword=spawn>生成</keyword>する。\n<keyword=order>命令</keyword>：<keyword=spying>密偵</keyword>を持つ全ての《工作員》を<keyword=seize>強奪</keyword>する。\n「諜報員」ユニットをプレイするたび、{Boost}ブーストを得る。
-202658_fluff;エムヒルの名がニルフガード語で「アーケオン」を意味する語に似ていたため、ブラーゼンスは彼をアーケオンにしてしまった。それから何年もが経ち、彼は魔術師に仕返しをする。ブラーゼンスは黒焦げになって見つかったという。
+202658_fluff;ニルフガード語でのエムヒルの名が「アーケオン」、すなわち“ハリネズミ”を意味する語に似ていたため、ブラーゼンスは彼をハリネズミのような姿に変えてしまった。それから何年もが経ち、彼は魔術師に仕返しをする。ブラーゼンスは黒焦げになって見つかったという
 202658_name;ブラーゼンス
-202658_tooltip;【<keyword=assimilate>同化</keyword>】\n<keyword=deploy>配備</keyword>：<keyword=disloyal>不忠</keyword>を持つブロンズ『ニルフガード』ユニット1枚を<keyword=create>入手</keyword>してプレイする。
+202658_tooltip;【<keyword=assimilate>同化</keyword>】\n<keyword=deploy>配備</keyword>：自軍デッキに最初から組み込まれているブロンズ<keyword=disloyal>不忠</keyword>ユニットを<keyword=create>入手</keyword>してプレイする。
 202659_fluff;苦しみから解放するため、慈悲の心で殺すこともある
 202659_name;とどめの一撃
 202659_tooltip;【<keyword=echo>残響</keyword>】\n敵軍ユニット1体に{Damage}ダメージを与える。\n<keyword=deathblow>追撃</keyword>：破壊したユニットの同名カード1枚を<keyword=spawn>生成</keyword>してプレイする。\n<keyword=conspiracy>陰謀</keyword>：必ず<keyword=deathblow>追撃</keyword>アビリティを実行する。
@@ -3123,7 +3123,7 @@
 202660_name;ファーガス・ヴァル・エムレイス
 202660_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に<keyword=spying>密偵</keyword>を与える。\n<keyword=devotion>献身</keyword>：代わりに敵軍ユニット{MaxTargets}体に<keyword=spying>密偵</keyword>を与える。
 202661_fluff;これがお前のよく知る私の姿だ、キャランセ。ログナー王は、誓約について語る際、こうした細部も漏らさず話したことだろう
-202661_name;アーレンウォルドのハリネズミ
+202661_name;エルレンウォルドのハリネズミ
 202661_tooltip;【<keyword=veil>遮蔽</keyword>】【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>（<keyword=melee>近接</keyword>）：《ダニー》に変身する。\n自軍ターン終了時、自軍ユニット1体を無作為に選んで{Boost}ブーストを与える。
 202662_fluff;呪いが解けたのち、ダニーはその原因や首謀者を知らないと語っている。もちろんそれは嘘であった
 202662_name;ダニー
@@ -3147,11 +3147,11 @@
 202669_name;工作員
 202669_tooltip;【<keyword=doomed>破滅</keyword>】
 202670_fluff;以前の彼女は、人間を襲う前に何度か警告をするようドリアードたちに指導していた。しかしそれも過去の話だ
-202670_name;若き女王イースネ
-202670_tooltip;<keyword=deploy>配備</keyword>：配置列に《若きドリアード》1体を<keyword=spawn>生成</keyword>する。\nラウンド開始時に手札またはデッキにある場合は変身する。
+202670_name;イースネ：若き女王
+202670_tooltip;<keyword=deploy>配備</keyword>：配置列に《若きドリアード》1体を<keyword=spawn>生成</keyword>する。\nラウンド開始時に手札又はデッキにある場合は変身する。
 202671_fluff;女王は何より大切な存在であるブロキロンとその子供たちを守ろうとした。だが、全員を救うことは不可能だった
-202671_name;母なるイースネ
-202671_tooltip;<keyword=deploy>配備</keyword>：配置列に《若きドリアード》{Counter}体を<keyword=spawn>生成</keyword>する。\n<keyword=devotion>献身</keyword>：ラウンド開始時に手札またはデッキにある場合は変身する。
+202671_name;イースネ：母
+202671_tooltip;<keyword=deploy>配備</keyword>：配置列に《若きドリアード》{Counter}体を<keyword=spawn>生成</keyword>する。\n<keyword=devotion>献身</keyword>：ラウンド開始時に手札又はデッキにある場合は変身する。
 202672_fluff;リボンの戦いの後、モレンの遺体は無惨な姿となっていた。母親である銀の目の女王にさえ、見分けがつかなかったほどだ
 202672_name;イースネ：ブロキロンの怒り
 202672_tooltip;【<keyword=veil>遮蔽</keyword>】【<keyword=symbiosis>共生</keyword>】\n<keyword=deploy>配備</keyword>：配置列に《若きドリアード》{Counter}体を<keyword=spawn>生成</keyword>する。
@@ -3160,7 +3160,7 @@
 202673_tooltip;<keyword=deploy>配備</keyword>：自軍墓地にあるブロンズ「自然」カード1枚をプレイする。
 202674_fluff;王だの王子だのと言うが、それは誰のことだ？ 私が知るのは、クラーグ・アンの深き森の奥で、共同墓地に眠る白き骸骨だけだ
 202674_name;自然の形成
-202674_tooltip;【<keyword=echo>残響</keyword>】\n何れかを選択：\n自軍ユニット1体に{Boost}ブーストと<keyword=veil>遮蔽</keyword>を与える。\n自軍ユニット1体に{Boost2}ブーストを与える。\n自軍ユニット1体に{Boost3}と<keyword=vitality>活力</keyword>（{Vitality}）を与える。
+202674_tooltip;【<keyword=echo>残響</keyword>】\n何れかを選択：\n自軍ユニット1体に{Boost}ブーストと<keyword=veil>遮蔽</keyword>を与える。\n自軍ユニット1体に{Boost2}ブーストを与える。\n自軍ユニット1体に{Boost3}ブーストと<keyword=vitality>活力</keyword>（{Vitality}）を与える。
 202675_fluff;彼は種馬に過ぎない存在であったが、最終的に2人は恋に落ちた
 202675_name;フレシネ
 202675_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：自軍手札にある「ドリアード」ユニット1体に{Boost}ブーストを与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：配置列に《若きドリアード》1体を<keyword=spawn>生成</keyword>する。\n<keyword=devotion>献身</keyword>：両方のアビリティを使用する。
@@ -3169,13 +3169,13 @@
 202676_tooltip;【<keyword=veil>遮蔽</keyword>】【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に{Damage}ダメージを与える。\n自軍ターン終了時、<keyword=order>命令</keyword>アビリティが使用されていない場合、自軍手札にある「スコイア＝テル」ユニット1体を無作為に選んで{Boost}ブーストを与える。
 202677_fluff;ブロキロンの破壊を望んで森を燃やし、生物を根絶やしにせんとする者は皆、ブロキロンの肥やしとなるだろう
 202677_name;生命の循環
-202677_tooltip;敵軍ユニット1体に{damage}ダメージを与えた後、自軍手札にある「スコイア＝テル」ユニット1体を無作為に選んで{boost}ブーストを与える。\n<keyword=deathblow>追撃</keyword>：代わりに自軍手札にある「スコイア＝テル」ユニット1体を選んでブーストを与える。
+202677_tooltip;敵軍ユニット1体に{damage}ダメージを与えた後、自軍手札にある「スコイア＝テル」ユニット1体を無作為に選んで{boost}ブーストを与える。\n<keyword=deathblow>追撃</keyword>：代わりに自軍手札にある任意の「スコイア＝テル」ユニット1体を選んでブーストを与える。
 202678_fluff;ハマドリアードは生涯に渡って木々と深い絆を持つ。もちろん、そこに暮らすリスともだ
 202678_name;ハマドリアード
 202678_tooltip;【<keyword=symbiosis>共生</keyword>】\n自軍ターン終了時、<keyword=vitality>活力</keyword>を得ている場合、{Boost}ブーストを得る。
 202679_fluff;ドゥオインよ、お前たちは世界を征服した。いたるところに住みつき、“進歩”とやらをもたらした。だがここには、お前たちも、お前たちの言う進歩も必要ない
 202679_name;デュエン・カネルの守護者
-202679_tooltip;【<keyword=veil>遮蔽</keyword>】【<keyword=symbiosis>共生</keyword>】\n<keyword=deploy>配備</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。
+202679_tooltip;【<keyword=veil>遮蔽</keyword>】【<keyword=symbiosis>共生</keyword>】\n<keyword=order>命令</keyword>：敵軍ユニット1体に{Damage}ダメージを与える。
 202680_fluff;指をかじることを特に好む。彼らにとっては、みずみずしい人参のようなものだからだ
 202680_name;オーククリッター
 202680_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{bleed}）を与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：配置列に自身の同名カード1枚を<keyword=spawn>生成</keyword>する。\n<keyword=devotion>献身</keyword>：両方のアビリティを使用する。
@@ -3199,10 +3199,286 @@
 202702_tooltip;自軍ユニット1体に{Boost}ブーストと<keyword=vitality>活力</keyword>（{Vitality}）を与える。
 202703_fluff;彼らは空を雪で塗りつぶし、大地を炎で染めた
 202703_name;赤の騎兵団：局所
-202703_tooltip;{counter}ターンの間、何れかの敵陣列に霜を<keyword=spawn>生成</keyword>する。
+202703_tooltip;何れかの敵陣列に<keyword=frost>霜</keyword>（{counter}ターン持続）を<keyword=spawn>生成</keyword>する。
 202704_fluff;彼らは空を雪で塗りつぶし、大地を炎で染めた
 202704_name;赤の騎兵団：分散
-202704_tooltip;{counter} ターンの間、敵陣両列に霜を<keyword=spawn>生成</keyword>する。
+202704_tooltip;敵陣両列に<keyword=frost>霜</keyword>（{counter} ターン持続）を<keyword=spawn>生成</keyword>する。
+202705_fluff;〈黄金髪の女神〉と呼ばれしかの神は、花に包まれ、草木、獣を従えて姿を現す
+202705_name;ダナ・メービ
+202705_tooltip;【<keyword=doomed>破滅</keyword>】【<keyword=harmony>調和</keyword>】
+202706_fluff;俺たちゃ森で狩りはしない。たとえ、それで村全体が飢えに苦しむとしてもな
+202706_name;森の精霊
+202706_tooltip;【<keyword=doomed>破滅</keyword>】
+202707_fluff;アルバ河の穏やかな水面に映る真夏の太陽、それが私のニルフガードだ
+202707_name;モルヴラン・ヴーヒス
+202707_tooltip;【<keyword=doomed>破滅</keyword>】\n<keyword=deploy>配備</keyword>：カードを最大{Counter}枚引いた後、同じ枚数のカードを自軍デッキの一番上に置く。
+202776_fluff;反逆者にして追放者、騎士、魔術師でもある。信じ難い話だが…
+202776_name;アルズール
+202776_tooltip;「呪文」カードをプレイするたび、そのカードと等しい構築コストを持つユニットを無作為に選んで配置列に<keyword=spawn>生成</keyword>する。\nカウンター：{Counter}
+202778_fluff;歌や踊りだけが人生の全てじゃない… はずだ…
+202778_name;スノードロップ
+202778_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：カードを{MaxTargets}枚引き、カード{MaxTargets}枚を自軍デッキの無作為な場所に戻す。\nカードを1枚引くたび、{Boost}ブーストを得る。
+202779_fluff;彼は子供たちからプレゼントをせがまれる。本人はなぜだか分かってないが、実験の被験者探しには好都合だった
+202779_name;コジモ・マラスピナ
+202779_tooltip;<keyword=deploy>配備</keyword>：隣接するユニットを構築コストが1多い無作為に選んだユニットに変身させる。
+202780_fluff;何を美しいと感じるかは人それぞれだと言う。だがアイダーランが美しいと考えるものは、見ないほうが身のためだ…
+202780_name;ユリーヴォのアイダーラン
+202780_tooltip;各ターンにおいて自陣に最初にユニットを<keyword=spawn>生成</keyword>した際に、同名カード1枚（但し戦力値は{power}とする）を配置列に<keyword=spawn>生成</keyword>し、<keyword=doomed>破滅</keyword>を与える。
+202781_fluff;口の中で血の味がした。ゲラルトは手を前にかざし、「クエン」の印を作って呪文を叫んだ
+202781_name;ゲラルト：クエン
+202781_tooltip;【<keyword=shield>シールド</keyword>】\n<keyword=deploy>配備</keyword>：自軍デッキにある「ウィッチャー」カード1枚をプレイする。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：それに<keyword=shield>シールド</keyword>を与える。
+202782_fluff;創造したものを破壊することはできても、なかったことにはできない
+202782_name;厳選された変異体
+202782_tooltip;<keyword=adrenaline>熱狂</keyword>アビリティを持つカードを1枚選んで引き、自軍手札のカード1枚をデッキの無作為な場所に戻す。各自陣列に《ウィッチャーの弟子》を1体ずつ<keyword=spawn>生成</keyword>する。
+202783_fluff;魔法の熟達者が五芒星と混同し、大惨事に繋がることがある
+202783_name;三角形の中の三角形
+202783_tooltip;自軍ユニット1体にその構築コストと同量のブーストを与えるか、敵軍ユニット1体にその構築コストと同量のダメージを与える。
+202784_fluff;水精の生贄として受賞牛を捧げようとしていた。やめさせるのは容易なことではなかった
+202784_name;ベレンガー
+202784_tooltip;自軍ターン終了時、このカードが配置列にある唯一のウィッチャーであった場合、このカードを破壊する。
+202785_fluff;不意をつかれなければ、矢を掴み取ることもできただろう
+202785_name;レオ
+202785_tooltip;<keyword=deploy>配備</keyword>：自陣にあるウィッチャー{Boost}体につき1ブーストを得る。
+202786_fluff;彼女に魔法は通用しない。なぜなら彼女は誇り高き〈黒太陽〉の娘であり、強力な魔術師を狙う賞金稼ぎだからだ
+202786_name;マキシー・ヴァン・デッカー
+202786_tooltip;<keyword=deploy>配備</keyword>：自軍デッキを一番上から一番下まで順番に見る。\nデッキをシャッフルして、カード1枚を一番下に置いてもよい。
+202787_fluff;生き残るのは多くとも… 10人に4人だ
+202787_name;ウィッチャーの弟子
+202787_tooltip;【<keyword=doomed>破滅</keyword>】
+202788_fluff;バラは赤い
+202788_name;赤色の変異誘発剤
+202788_tooltip;敵軍ユニット1体に{Damage}ダメージを与える。
+202789_fluff;スミレは青い
+202789_name;青色の変異誘発剤
+202789_tooltip;自軍ユニット1体に<keyword=poison>毒</keyword>を与え、{Coins2}<keyword=coin>コイン</keyword>を得る。
+202790_fluff;緑の変異誘発剤を用意しておいたぞ
+202790_name;緑色の変異誘発剤
+202790_tooltip;自軍ユニット1体に{Boost}ブーストと<keyword=veil>遮蔽</keyword>を与える。
+202791_fluff;傷の一つひとつに凄惨な逸話がある。そのうちのどれだけが真実かを知れば、驚かずにはいられないだろう
+202791_name;邪眼のイヴァー
+202791_tooltip;<keyword=deploy>配備</keyword>：このユニットの戦力値を敵軍ユニットのものと入れ替える。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：代わりに敵軍ユニット1体に{Damage}ダメージを与える。
+202792_fluff;「狡猾で悪意に満ちている。何時間もじっくりと獲物を待ち構えることで知られる。ひとたび攻撃態勢に入れば、もはや死は避けられない」 — 邪眼のイヴァー
+202792_name;ヴァイパー
+202792_tooltip;ラウンド終了時、このカードを敵軍墓地に置く。\n自軍ターン終了時、墓地にある場合は、最低構築コストカード1枚を墓地から<keyword=banish>消滅</keyword>させる。\n墓地に《ヴァイパー》しかいない場合は<keyword=doomed>破滅</keyword>を与え、無作為に選んだ敵陣列に<keyword=summon>召喚</keyword>する。
+202793_fluff;然るべき理由により、砦にはワイルドハントの伝説に関する数多くの書物と写本があった
+202793_name;ゴルサー・グヴィード
+202793_tooltip;【<keyword=resilient>継戦</keyword>】\n<keyword=deploy>配備</keyword>：《蛇流派ウィッチャーの熟練者》《蛇流派ウィッチャー》《蛇流派ウィッチャーの師》《蛇流派ウィッチャーの錬金術師》の何れか1体を<keyword=spawn>生成</keyword>してプレイする。\n<keyword=order>命令</keyword>：敵軍墓地のカード1枚を、敵軍デッキの一番上に移動させる。
+202794_fluff;幸運が訪れたとしても、そこには必ず、大きな不運が伴った
+202794_name;コルグリム
+202794_tooltip;<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：自軍ターン終了時、プレイヤーのデッキにあるカードの枚数差分のブーストを得る。
+202795_fluff;「サピルレ」の印をわずかに改変することで、ワリートは大きな力を手にした… 全てを見通す力を
+202795_name;全知のワリート
+202795_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍デッキにある最高構築コストカード1枚をデッキの一番上に置く。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：敵軍デッキにある最低構築コストカード1枚をデッキの一番上に置く。
+202796_fluff;蛇流派ウィッチャーは、「牙」と呼ばれる二刀流の戦闘訓練を受ける。素早く激しい攻撃を繰り出すこの戦術は、怪物であれ人間であれ、相手を圧倒することに主眼を置いている
+202796_name;蛇流派ウィッチャー
+202796_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleed}）を与える。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：その敵軍ユニットの同名カード1枚を敵軍デッキの一番上に<keyword=spawn>生成</keyword>する。
+202797_fluff;蛇流派の師はとりわけ冷酷な態度を取り、待ち受ける過酷な運命に立ち向かえるよう弟子を鍛える
+202797_name;蛇流派ウィッチャーの師
+202797_tooltip;<keyword=deploy>配備</keyword>：このカードの戦力値を、敵軍デッキの一番上のカードの構築コストと同じ値にする。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：代わりにこのカードの戦力値を、敵軍デッキにある最高構築コストカードのコストと同じ値にする。
+202798_fluff;命ある限り、全ての苦難は人を強くする… でなければ弱くする。そこは場合によりけりだ
+202798_name;蛇流派ウィッチャーの錬金術師
+202798_tooltip;<keyword=deploy>配備</keyword>：自軍デッキの一番上にあるカード{MaxTargets}枚を見て、その中から1枚を一番上に置き、敵軍デッキと一番上にあるカードを入れ替える。
+202799_fluff;ゴルサー・グヴィードにいる間、弟子にはペットが与えられ、訓練期間を通して絆を深めていくことになる。だがその数年後、一人前のウィッチャーとなる直前に彼らは、それぞれの相棒を無慈悲に殺すよう命じられる
+202799_name;蛇流派ウィッチャーの熟練者
+202799_tooltip;自軍ターン終了時、敵軍デッキに自軍デッキより多くのカードがある場合、{boost}ブーストを得る。
+202800_fluff;かすり傷ひとつを致命傷にできれば、深く斬りつける必要はない
+202800_name;上塗りされた武器
+202800_tooltip;敵軍ユニット1体に{damage}ダメージを与える。\n<keyword=deathblow>追撃</keyword>：そのユニットを<keyword=banish>消滅</keyword>させ、同名カード1枚を敵軍デッキの一番上に<keyword=spawn>生成</keyword>する。
+202801_fluff;「仕事なら人間よりアイン・シーデからの依頼を受けろ。報酬の代わりにナイフの一撃を食らいたくなかったらな」 ⁠— ゲズラス
+202801_name;レイダのゲズラス
+202801_tooltip;<keyword=melee>近接</keyword>：自軍ターン終了時、<keyword=ranged>間接</keyword>列に移動し、配置列の自軍ユニット1体を無作為に選んで{Boost}ブーストを与える。\n<keyword=ranged>間接</keyword>：自軍ターン終了時、<keyword=melee>近接</keyword>列に移動し、反対列の敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：無作為に選ぶ代わりに、その列の全てのユニットに効果を与える。
+202802_fluff;とある王室の見世物になっていたが、スコイア＝テルの兵によって解放され、主人たちに牙をむいた。それ以来、人肉の味の虜になっている
+202802_name;剣歯虎
+202802_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：《剣歯虎：ステルス》に変身する。
+202803_fluff;猫流派のウィッチャーはスティガ城に長くは留まらなかった。実際のところ、彼らが一つの場所に留まることはない
+202803_name;スティガ城
+202803_tooltip;【<keyword=resilient>継戦</keyword>】\n<keyword=deploy>配備</keyword>：《猫流派ウィッチャーの熟練者》《猫流派ウィッチャー》《猫流派ウィッチャーの師》《猫流派ウィッチャーの妨害者》の何れか1体を<keyword=spawn>生成</keyword>してプレイする。\n<keyword=order>命令</keyword>：自軍ユニット{MaxTargets}体を他列に移動させる。
+202804_fluff;〈イエロの猫〉として知られる。この異名は来歴を示すものではなく、イエロで民衆を殺害したことに由来する。虐殺と言ってもいいだろう
+202804_name;ブレヘン
+202804_tooltip;<keyword=deploy>配備</keyword>：{Counter}体以上のユニットがいる何れかの敵陣列の右端のユニットを破壊する。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：代わりに{Counter2}体以上のユニットがいる何れかの敵陣列の右端のユニットを破壊する。
+202805_fluff;「はした金のために俺を殺すと？ そんな奴らを守れと言うのか？」 ⁠— ゲータン
+202805_name;ゲータン
+202805_tooltip;<keyword=deploy>配備</keyword>：配置列にある他のカード全てを他列に移動させる。\n動かしたカード1枚につき、敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。
+202806_fluff;猫流派のウィッチャーは血に飢えた残虐な戦いぶりで悪名高く、命乞いをする相手も容赦なく殺す
+202806_name;猫流派ウィッチャー
+202806_tooltip;自軍ターン終了時、他列に移動したうえで反対列にある敵軍ユニット1体を無作為に選んで{Damage}ダメージを与える。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：代わりに{Damage2}ダメージを与える。
+202807_fluff;次に落ちればそこまでだ。9つの命は使い切った
+202807_name;猫流派ウィッチャーの師
+202807_tooltip;<keyword=deploy>配備</keyword>：配置列にある他のカードの枚数に等しいブーストを得る。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：配置列にカードが出現するたび、{Boost}ブーストを得る。
+202808_fluff;「言うまでもないが、奴らの悪名は暗雲のごとく留まり続け、今なお私たちの評判に影を落としている」 ⁠— ヴェセミル
+202808_name;猫流派ウィッチャーの妨害者
+202808_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体をその列の左端に移動させ、飛び越えたカード枚数×{Damage}ダメージを与える。
+202809_fluff;猫流派の弟子たちは、目隠しで綱渡りをして平衡感覚を鍛える。初めは失敗しても何てことはない。だが訓練が進むにつれて綱の位置は高くなり、最後の試練では大きな危険と向き合うことになる
+202809_name;猫流派ウィッチャーの熟練者
+202809_tooltip;<keyword=deploy>配備</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（配置列にあるユニット数に等しい期間持続）を与える。\n<keyword=deploy>配備</keyword>（<keyword=ranged>間接</keyword>）：自軍ユニット1体に<keyword=vitality>活力</keyword> （配置列にあるユニット数に等しい期間持続）を与える。
+202810_fluff;指示にはしっかり従ったほうがいい…
+202810_name;爆弾作り
+202810_tooltip;敵軍ユニット1体を他列に移動させ、<keyword=bleeding>出血</keyword>（{Bleed}）を与える。その列に他のユニットがいない場合、代わりに{Damage}ダメージを与える。
+202811_fluff;「ウィッチャーの仕事は怪物を退治して報酬を受け取ること。それ以上でもそれ以下でもない」 ⁠— アルナガード
+202811_name;アルナガード
+202811_tooltip;<keyword=deploy>配備</keyword>：ダメージを受けているユニット1体につき{Armor}<keyword=armor>アーマー</keyword>を得る。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：対戦相手が自身の戦場にユニットをプレイすると、そのユニットに《アルナガード》の戦力値に等しいダメージを与え、《アルナガード》にそのユニットの戦力値に等しいダメージを与える。
+202812_fluff;幾度となく戦いが挑まれた結果、この獰猛な熊の姿は歩く武器庫のようになった
+202812_name;ダイアベア
+202812_tooltip;配置列と反対列にあるユニットはブーストを得られない。
+202813_fluff;アメール山脈の氷で覆われた険しい岩山や、雪の吹き溜まりに紛れたそのどこかに、捨て去られた熊流派の拠点が隠されている。その場所は今なお明らかになっていない
+202813_name;ヘルン・カドゥーツ
+202813_tooltip;【<keyword=resilient>継戦</keyword>】\n<keyword=deploy>配備</keyword>：《熊流派ウィッチャーの熟練者》《熊流派ウィッチャー》《熊流派ウィッチャーの師》《熊流派ウィッチャーの補給官》の何れか1体を<keyword=spawn>生成</keyword>してプレイする。\n<keyword=order>命令</keyword>：両隣のユニットを{Boost}ずつ<keyword=heal>回復</keyword>させる。
+202814_fluff;彼はドラゴンやセイレーン、ストリガの退治を請け負った。そして、復讐に燃える騎士や賞金稼ぎ、盗賊に追われる身でもあった。それでも彼は、時間を見つけてはグウェントに興じていた
+202814_name;ゲルド
+202814_tooltip;<keyword=deploy>配備</keyword>：反対列に《絶叫のセイレーン》1体を<keyword=spawn>生成</keyword>し、その列にある全てのユニットに{Damage}ダメージを与える。\n<keyword=adrenaline>熱狂</keyword> （{Adrenaline}）：代わりに反対列に《絶叫のセイレーン》1体を<keyword=spawn>生成</keyword>し、{Damage}ダメージを与える。
+202815_fluff;彼は珍しい境遇を持つと噂されている。女性の巨人と、極めて勇敢なドワーフの間に生まれたというのだ
+202815_name;ベルハーヴェンのジュノー
+202815_tooltip;<keyword=deploy>配備</keyword>：ダメージを負っている敵軍ユニット1体を破壊する。
+202816_fluff;孤独な旅路には危険がつきまとう。常に準備を怠らず、周囲をクマなく警戒しろ
+202816_name;熊流派ウィッチャー
+202816_tooltip;<keyword=deploy>配備</keyword>：{Damage}ダメージを負う。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：代わりに自身と敵軍ユニット1体に{Damage}ダメージを与える。
+202817_fluff;道に迷った時は目印を探せ――ウィッチャー候補者たちの凍死体を
+202817_name;熊流派ウィッチャーの師
+202817_tooltip;<keyword=deploy>配備</keyword>：ダメージを受けている自軍ユニット1体につき、{Boost}ブーストを得る。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：代わりにダメージを受けているユニット1体につき、{Boost}ブーストを得る。
+202818_fluff;マハカムの蜂蜜酒をふるまってやれば、面白い話が聞けるかもしれない。熊に盾を奪われ、腕まで持っていかれた話は必聴だ！
+202818_name;熊流派ウィッチャーの補給官
+202818_tooltip;<keyword=order>命令</keyword>：自軍ユニット1体に{Damage}ダメージを与え、配置列に《ウィッチャーの弟子》1体を<keyword=spawn>生成</keyword>する。（<keyword=charge>チャージ</keyword>：{Charges}）
+202819_fluff;熊流派のウィッチャーとなるには、山の試練を乗り越えなければならない。ゴルゴン山の頂上にたどり着き、その証として特別なルーン石を持ち帰るという試練だ。その道のりは過酷を極め、多くの者が山頂に到達することなく凍え死ぬ
+202819_name;熊流派ウィッチャーの熟練者
+202819_tooltip;<keyword=deploy>配備</keyword>：{Damage}ダメージを負う。\n自軍ターン終了時、自身を{Boost}<keyword=heal>回復</keyword>する。ダメージを受けていない場合、代わりに{Armor}<keyword=armor>アーマー</keyword>を得る。
+202820_fluff;余裕で受け止められるのだから、攻撃を避ける必要などない
+202820_name;重装備
+202820_tooltip;敵軍ユニット1体に{Damage}ダメージを与える。\n反対列に《ウィッチャーの弟子》{Count}体を<keyword=spawn>生成</keyword>し、{Damage2}ずつダメージと{Armor}ずつ<keyword=armor>アーマー</keyword>を与える。
+202821_fluff;アーランドはグリフィン流派を創設し、騎士的価値観を重んじることでウィッチャーに対する世間の評判が向上すればと願った。だがそれは、虚しい努力に過ぎなかった
+202821_name;ラーヴィックのアーランド
+202821_tooltip;<keyword=deploy>配備</keyword>：自軍デッキにある全てのユニットに{boost}ずつブーストを与える。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：さらに<keyword=immune>耐性</keyword>を得る。\n<keyword=order>命令</keyword>：自軍デッキにある全てのユニットからブーストを取り除き、同量のブーストを得る。
+202822_fluff;勇気、忠誠、闘志の化身とみなされ、グリフィン流派ウィッチャーの象徴とも言える存在。だが実際のところ、グリフィン流派の名は創設者にこれらの価値観を植え付けた遍歴の騎士「グリフォン」に由来する
+202822_name;アーク・グリフィン
+202822_tooltip;ラウンド終了時、ブーストを維持したままこのカードを自軍デッキの無作為な場所に戻す。
+202823_fluff;ケィア・セレン最大の宝はその蔵書であった。しかしこれに魅了された熱狂的な魔術師集団が強奪を試みた結果、蔵書は永遠に失われてしまった
+202823_name;ケィア・セレン
+202823_tooltip;【<keyword=resilient>継戦</keyword>】\n<keyword=deploy>配備</keyword>：《グリフィン流派ウィッチャーの熟練者》《グリフィン流派ウィッチャー》《グリフィン流派ウィッチャーの師》《グリフィン流派ウィッチャーの猟兵》の何れか1体を<keyword=spawn>生成</keyword>してプレイする。\n<keyword=order>命令</keyword>：自軍デッキのユニット1体に{Boost}ブーストを与える。
+202824_fluff;「公平な戦いなど存在しない。戦いにおいては、利用できる全てのもの、全ての機会が利用される」 ⁠— コーエン
+202824_name;コーエン
+202824_tooltip;【<keyword=zeal>勇躍</keyword>】<keyword=order>命令</keyword>：《コーエン》と等しい戦力値を持つ全てのユニットに、《コーエン》が得たブースト量に等しいブーストを与える。
+202825_fluff;「愚かな人型種め！ “分からない”とはどういうことだ？ レビオダの偶像でも携え、ニンニクまみれで吸血鬼狩りにでも行くがいい！」 ⁠— ケルダー
+202825_name;ケルダー
+202825_tooltip;<keyword=resupply>補給</keyword>：配置列に《ウィッチャーの弟子》1体を<keyword=spawn>生成</keyword>する。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：自軍ターン終了時、配置列に《ウィッチャーの弟子》1体を<keyword=spawn>生成</keyword>する。
+202826_fluff;銀の剣も結構だが、銀めっきの矢じりを試したことはあるか？
+202826_name;グリフィン流派ウィッチャー
+202826_tooltip;<keyword=order>命令</keyword>（<keyword=melee>近接</keyword>）：敵軍ユニット1体に{damage}ダメージを与える。（<keyword=cooldown>クールダウン</keyword>：{Cooldown}）\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：自軍ターン終了時、敵軍ユニット1体を無作為に選んで{damage2}ダメージを与え、自身に<keyword=lock>封印</keyword>を与える。
+202827_fluff;覚えておけ。命を助けるのは、力よりも知識だ
+202827_name;グリフィン流派ウィッチャーの師
+202827_tooltip;<keyword=deploy>配備</keyword>：デッキの一番上にあるユニットを引き、デッキの無作為な位置に戻す。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：引いたユニットに{boost}ブーストを与える。
+202828_fluff;グリフィン流派ウィッチャーは、並外れた追跡と狩りの技術を持っている。彼らはどれだけ過酷な環境でもその力を発揮し、場所を問わず獲物を確実に追い詰める
+202828_name;グリフィン流派ウィッチャーの猟兵
+202828_tooltip;【<keyword=formation>陣形</keyword>】\n<keyword=deploy>配備</keyword>：何れかの敵陣列にあるユニット1体につき{boost}ブーストを得る。\n<keyword=order>命令</keyword>：自身のブースト全てを自軍ユニット1体に移す。
+202829_fluff;ケィア・セレンで学ぶ者たちは、最後の試練を自分で選ぶことができる。グリフォンの卵を見つけて回収してくるか、「影の書」を一言一句暗唱するかだ。ケルダーの期待に反し、後者を選ぶ者は未だに現れていない
+202829_name;グリフィン流派ウィッチャーの熟練者
+202829_tooltip;【<keyword=shield>シールド</keyword>】\n<keyword=order>命令</keyword>：自軍「ウィッチャー」ユニット1体を《グリフィン流派ウィッチャーの熟練者》に変身させる。
+202830_fluff;グリフィン流派ウィッチャーなら、200歩先にあるリンゴを真っ二つに割れる。くれぐれも体を動かすな
+202830_name;的当て練習
+202830_tooltip;自軍ユニット1体に{boost}ブーストを与える。そのユニットの配置列に「ウィッチャー」ユニットがある場合、その列に《ウィッチャーの弟子》1体を<keyword=spawn>生成</keyword>する。
+202831_fluff;100万の脚を持ち、街を丸ごと食べられるものは何だ？
+202831_name;ヴィー
+202831_tooltip;<keyword=deathwish>遺言</keyword>：《ヴィー》を自軍デッキの無作為な場所に戻し、そのベース戦力値を{boost}増やす。
+202832_fluff;コシュチェイはまさに“死”だ。そう言っても小川に行くのだろう？
+202832_name;コシュチェイ
+202832_tooltip;【<keyword=thrive>成長</keyword>】\nこのユニットの<keyword=thrive>成長</keyword>が発動するたび、《ドローン》1体を配置列に<keyword=spawn>生成</keyword>する。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：このユニットの<keyword=thrive>成長</keyword>が発動するたび、代わりに《エンドレガの幼虫》1体を配置列に<keyword=spawn>生成</keyword>する。
+202833_fluff;他に類を見ない怪物の巣窟。無数のおぞましい存在が待ち構え、ウィッチャーでさえ近づくことをためらう
+202833_name;ドル・ドウ・ロッケ
+202833_tooltip;【<keyword=resilient>継戦</keyword>】\n<keyword=deploy>配備</keyword>：《サキュバス》《プーカ》《キメラ》《ハイブリッド》の何れか1体を<keyword=spawn>生成</keyword>してプレイする。\n<keyword=order>命令</keyword>：最高戦力値ユニット1体を自軍デッキの一番上に移動させ、このカードの両隣に《ドローン》を1体ずつ<keyword=spawn>生成</keyword>する。
+202834_fluff;「さあ、いい子はどこだ？」 — アイダーラン
+202834_name;イドル
+202834_tooltip;<keyword=order>命令</keyword>（<keyword=adrenaline>熱狂</keyword>（{Adrenaline}））：配置列にある全てのトークンを<keyword=consume>捕食</keyword>し、<keyword=immune>耐性</keyword>を得る。\n1体以上のユニットを<keyword=consume>捕食</keyword>するたび、配置列に《ドローン》1体を<keyword=spawn>生成</keyword>する。
+202835_fluff;アイダーランは幼少期をヴィジマの運河で過ごした。生まれながらの天才で、5歳の頃には下水道の鼠で実験を開始していた
+202835_name;ワーラット
+202835_tooltip;<keyword=order>命令</keyword>：このユニットの戦力値をリセットし、失ったブースト量に等しい数の《鼠》を配置列に<keyword=spawn>生成</keyword>する。（<keyword=cooldown>クールダウン</keyword>：{Cooldown}）\n自軍ターン終了時、右隣のユニット1体を<keyword=consume>捕食</keyword>する。
+202836_fluff;水分補給が何より重要だ
+202836_name;サキュバス
+202836_tooltip;<keyword=deathwish>遺言</keyword>：自軍ターン終了時、自軍墓地に他に《サキュバス》がある場合、自身を自軍墓地から無作為に選んだ列に<keyword=summon>召喚</keyword>し、<keyword=doomed>破滅</keyword>を得る。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：<keyword=doomed>破滅</keyword>が付与されない。
+202837_fluff;「プーカ」と呼ばれるネッカーの希少種は大型で力もあり、極めて厄介な存在だ。遭遇したらとにかく逃げろ
+202837_name;プーカ
+202837_tooltip;【<keyword=thrive>成長</keyword>（{boost}）】
+202838_fluff;コジモはまずフィーンドとグリフィンの遺伝子をかけ合わせた。それから昆虫種とワイバーンの特徴を加え、各部を集合させた以上におぞましい生物を作り上げた
+202838_name;キメラ
+202838_tooltip;<keyword=deploy>配備</keyword>：自軍ユニット1体を<keyword=consume>捕食</keyword>する。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：そのユニットの配置列にある<keyword=consume>捕食</keyword>したユニットの同名カード全てに{Boost1}ブーストを与える。
+202839_fluff;合成物Xを調合する際、マラスピナ教授は偶然ある材料を加えた
+202839_name;自発的進化
+202839_tooltip;自軍ユニット1体に{Boost}ブーストを与え、そのユニットのカテゴリに応じた追加効果を得る。\n\n昆虫種 - そのユニットの配置列に《ドローン》{MaxTargets}体を<keyword=spawn>生成</keyword>する。\n野獣 - 代わりに{Boost2}ブーストを与える。\nオーガ種 - 自分の手札にある全てのオーガ種に{Armor}ずつ<keyword=armor>アーマー</keyword>を与える。
+202841_fluff;彼女は自らが追い詰めた者たちの矢によって倒れた。あるいは多くの者がそう考えた。サラマンドラには別の計画があったのだ
+202841_name;落ちしレイラ
+202841_tooltip;【<keyword=profit>利益</keyword>（{Income}）】\n<keyword=tribute>貢物</keyword>（{Tribute-B.P.BB_Tribute}）：<keyword=veil>遮蔽</keyword>を得る。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：<keyword=tribute>貢物</keyword>アビリティのためにコインを納めるたび、その<keyword=tribute>貢物</keyword>のコストに等しいブーストを得る。
+202842_fluff;可愛らしい顔をしているが、不用意に触るのは避けたほうがいい。サラマンダーは危険を感じると、皮膚を焼く猛毒を分泌する
+202842_name;サラマンダー
+202842_tooltip;【<keyword=profit>利益</keyword>（{Income}）】\n<keyword=deploy>配備</keyword>：ユニット1体に<keyword=poison>毒</keyword>を与える。\n<keyword=tribute>貢物</keyword>（{Tribute-B.P.BB_Tribute}）：代わりに戦場にある全てのユニットに<keyword=poison>毒</keyword>を与える。\n自軍「サラマンドラ」ユニット1体につき、<keyword=profit>利益</keyword>を1増やす。
+202843_fluff;ヴィジマの下水道に潜む者たちは注意しなければならない。街の深部には、鼠よりもずっと恐ろしい存在が隠れているからだ
+202843_name;サラマンドラの隠れ場
+202843_tooltip;【<keyword=resilient>継戦</keyword>】\n<keyword=deploy>配備</keyword>：《失敗した実験》《サラマンドラの悪鬼》《サラマンドラの魔術師》《サラマンドラの悪党》の何れか1体を<keyword=spawn>生成</keyword>してプレイする。\n<keyword=order>命令</keyword>：自軍ユニット1体の<keyword=poison>毒</keyword>を別のユニットに移し替える。
+202844_fluff;「下水道にいる兄弟はどうしているだろうか」 ⁠— ローランド
+202844_name;ローランド・ブレインハイム
+202844_tooltip;何れかのユニットが<keyword=poison>毒</keyword>を得るたび、{Coins}<keyword=coin>コイン</keyword>を得る。
+202845_fluff;「森にいる兄弟はどうしているだろうか」 ⁠— ゲラート
+202845_name;ゲラート・ブレインハイム
+202845_tooltip;【<keyword=profit>利益</keyword>（{Profit}）】\n<keyword=fee>謝礼</keyword>（{Cost}）：自軍ユニット1体に<keyword=poison>毒</keyword>と{Boost}ブーストを与える。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：<keyword=cooldown>クールダウン</keyword>：{Cooldown}
+202846_fluff;下僕は最初の5つの仕事を無償でこなし、その情熱を示さなければならない
+202846_name;サラマンドラの悪党
+202846_tooltip;各ターンにおいて最初に<keyword=coin>コイン</keyword>を獲得した際、{Boost}ブーストを得る。
+202847_fluff;サラマンドラの科学者たちは「できるか」どうかに気を取られ、「すべきか」どうかを一切考えなかった
+202847_name;サラマンドラの悪鬼
+202847_tooltip;<keyword=tribute>貢物</keyword>（{Tribute-B.P.BB_Tribute}）：自身に<keyword=poison>毒</keyword>を与える。\nこのユニットが<keyword=poison>毒</keyword>を持つと、{Boost}ブーストを得る。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：ターン終了時に、自身を<keyword=purify>浄化</keyword>する。
+202848_fluff;火を起こせば人々を一日温められる。なら人々に火をつければ…
+202848_name;サラマンドラの魔術師
+202848_tooltip;<keyword=tribute>貢物</keyword>（{Tribute-B.P.BB_Tribute}）：隣り合わせの敵軍ユニット3体に{Damage}ずつダメージを与える。\n<keyword=tribute>貢物</keyword>アビリティのためにコインを納めるたび、{Coins}<keyword=coin>コイン</keyword>を得る。\n<keyword=adrenaline>熱狂</keyword>（{Adrenaline}）：代わりに{Coins2}<keyword=coin>コイン</keyword>を得る。
+202849_fluff;失敗した実験にも意味はある。失敗なくして、どうやって知識の限界を押し広げられるだろう
+202849_name;失敗した実験
+202849_tooltip;自軍ターン終了時、{Cost}<keyword=coin>コイン</keyword>を失う。<keyword=coin>コイン</keyword>がない場合、代わりに{Damage}ダメージを負う。\n<keyword=poison>毒</keyword>を持っている間、このアビリティは無効化される。
+202850_fluff;臓器摘出のようなものだが、こちらのほうがずっと儲かる
+202850_name;盗まれた変異誘発剤
+202850_tooltip;変異誘発剤を選択する：\n\n赤 - 敵軍ユニット1体に{Damage}ダメージを与える。\n青 - 自軍ユニット1体に<keyword=poison>毒</keyword>を与え、{Coins2}<keyword=coin>コイン</keyword>を得る。\n緑 - 自軍ユニット1体に{Boost}ブーストと<keyword=veil>遮蔽</keyword>を与える。\n\n自陣に「サラマンドラ」ユニットが{Counter}体以上ある場合、<keyword=profit>利益</keyword>（{Coins}）を得る。
+202856_fluff;頭が1つでは足りない時に
+202856_name;ハイブリッド
+202856_tooltip;ユニット1体以上を<keyword=consume>捕食</keyword>するたび、{Boost}ブーストを得る。
+202872_fluff;王室が誇る希少種として見世物になっていたが、スコイア＝テルの兵によって解放され、主人たちに牙をむいた。それ以来、人肉の味の虜になっている
+202872_name;剣歯虎：ステルス
+202872_tooltip;自軍ターン開始時、同列に他のユニットがいない敵軍ユニットに{Damage}ずつダメージを与え、《剣歯虎》に変身する。
+202879_fluff;一瞬のうちにマドックは導火線のついた革製の球体を取り出し、指で火をつけると、喚く怪物の足元に投げつけた
+202879_name;マドック
+202879_tooltip;「爆弾」カードをプレイするたび、このカードをデッキ又は墓地から無作為に選んだ自陣列に<keyword=summon>召喚</keyword>する。\n<keyword=order>命令</keyword>：反対列に<keyword=cataclysm>大変動</keyword>（{Counter}ターン持続）を<keyword=spawn>生成</keyword>した後、自身を破壊する。
+202880_fluff;国家の統治者として、裁きは公平でなくてはならない。でも私の姉なのよ。胸が引き裂かれそう…
+202880_name;アンナ・ヘンリエッタ
+202880_tooltip;<keyword=deploy>配備</keyword>：自軍のリーダーアビリティを対戦相手のリーダーアビリティと同じアビリティに変更する。
+202881_fluff;余に忍耐強さを問う者はいない。二度と何も問えない姿になるからな
+202881_name;エムヒル・ヴァル・エムレイス
+202881_tooltip;<keyword=deploy>配備</keyword>：カード1枚を引いた後、自軍手札にあるカード1枚をデッキの一番下に移動させる。\n対戦相手がユニットをプレイするたび、それに<keyword=spying>密偵</keyword>を与える。\n<keyword=devotion>献身</keyword>：自軍ターン終了時、戦力値が{power}で<keyword=spying>密偵</keyword>を持つユニット1体を無作為に選んで<keyword=seize>強奪</keyword>する。
+202882_fluff;ニルフガード人は、彼をティルス・イス・ムイア、つまり〈海イノシシ〉と呼ぶ。子供を躾ける時に利用するのさ！
+202882_name;クラフ・アン・クライト
+202882_tooltip;<keyword=deploy>配備</keyword>：自軍手札にある「海賊」又は「船」ユニット{MaxTargets}体に{Armor}ずつ<keyword=armor>アーマー</keyword>を与える。\n《クラフ・アン・クライト》の隣に「海賊」又は「船」ユニットをプレイするたび、それと敵軍最低戦力値ユニット1体にそれぞれの戦力値に等しいダメージを与える。
+202883_fluff;アイストがシントラに足を運んだ理由は、クラフ・アン・クライトとパヴェッタ王女の婚姻を取り計らうためだ。だが結末は、彼自身がパヴェッタ王女の母親の心を射止めるという数奇な運命に取って代わられた
+202883_name;アイスト・テルショック
+202883_tooltip;【<keyword=veteran>古参兵</keyword>】\n<keyword=deploy>配備</keyword>、<keyword=bloodthirst>狂騒</keyword>（{Bloodthirst}）：カード1枚を引いた後、カード1枚を<keyword=discard>破棄</keyword>する。\nあなたが自軍ターン中に『スケリッジ』ユニットを<keyword=discard>破棄</keyword>するたび、自軍墓地にあるそのユニットを配置列に<keyword=summon>召喚</keyword>する。\nカウンター：{Counter}\n<keyword=devotion>献身</keyword>：自軍ターン中に『スケリッジ』ユニットが自軍墓地に移動するだけでも、効果が発動する。
+202884_fluff;あの老いぼれがどうかしたって？ ひょっとすると人形かもな！
+202884_name;ブルーヴァー・ホーグ
+202884_tooltip;<keyword=deploy>配備</keyword>：自軍手札にある「ドワーフ」ユニット1体につき、1<keyword=armor>アーマー</keyword>を得る。\n<keyword=barricade>防塞</keyword>：自軍ターン終了時、配置列にある<keyword=armor>アーマー</keyword>を持つ全ての「ドワーフ」ユニットに{boost}ずつブーストを与える。
+202885_fluff;私は反対したのですが、かつて、我が君がエルデインに使者を送られたことがありました… 翌日には両目をくり抜かれ、白旗を喉に詰められた死体が戻って来たのです
+202885_name;エルデイン
+202885_tooltip;<keyword=deploy>配備</keyword>：自陣にある表向きの「罠」カード全てを《エルフの名射手》に変身させる。\n<keyword=devotion>献身</keyword>：他のアーティファクトも変身させる。
+202886_fluff;余は相談役どもの作戦ではなく、兵士の剣を信じておる
+202886_name;フォルテスト王
+202886_tooltip;各ターンにおいて自陣にあるブロンズユニットが最初にブーストを得た際、その同名カード1枚を自軍デッキの一番下に<keyword=spawn>生成</keyword>する。\n<keyword=devotion>献身</keyword>：さらに<keyword=spawn>生成</keyword>した同名カードに{boost}ブーストを与える。
+202887_fluff;いくさで君主がやるべきは、最善を尽くすことではない。剣と盾を持ち、民を守るために先陣を切らねばならぬ
+202887_name;メーヴ女王
+202887_tooltip;<keyword=inspired>奮起</keyword>：自軍ターン終了時、カウンターを1減らす。\nカウンター：{Counter}\nカウンターが0になると、全ての自軍ユニットに{Boost}ずつブーストを与える。
+202888_fluff;彼の愛し方は人間よりも動物に近かった。激しく、深く、無条件で、荒々しい愛よ
+202888_name;デトラフ・ファン・デル・エラティン
+202888_tooltip;<keyword=deploy>配備</keyword>：何れかの敵陣列に<keyword=blood_moon>血染めの月</keyword>（{Counter}ターン持続）を<keyword=spawn>生成</keyword>する。隣接する「吸血鬼」ユニット1体につき、持続時間を1ターン延ばす。\n<keyword=order>命令</keyword>：<keyword=bleeding>出血</keyword>を持つ敵軍ユニット1体に{Damage}ダメージを与える。（<keyword=cooldown>クールダウン</keyword>：{Cooldown}）\n<keyword=deathblow>追撃</keyword>：配置列に《エキムマーラ》1体を<keyword=spawn>生成</keyword>する。
+202889_fluff;〈見えざる者〉がどれくらい昔からこの世界に存在しているか、上級吸血鬼にすら詳しく知る者はいないという。ただ吸血鬼が絶対に破らないルールが一つだけある。どんな状況でも、決して彼の意志に抗わないということだ
+202889_name;見えざる者
+202889_tooltip;<keyword=deploy>配備</keyword>：敵軍ユニット1体に<keyword=bleeding>出血</keyword>（{Bleeding}ターン）を与える。\n自軍ターン終了時、<keyword=bleeding>出血</keyword>を持たない敵軍ユニット1体を無作為に選んで<keyword=bleeding>出血</keyword>（{Bleeding2}ターン）を与える。\n<keyword=devotion>献身</keyword>：自軍ターン終了時、敵軍ユニットの<keyword=bleeding>出血</keyword>も発動させる。
+202890_fluff;お前のおかげで今夜はイノシシたちが腹を空かすこともなさそうだ
+202890_name;クリーヴァー
+202890_tooltip;【<keyword=intimidate>恫喝</keyword>】\n<keyword=deploy>配備</keyword>：《ゆすり》を<keyword=spawn>生成</keyword>してプレイする。\n隣接する「割れ銭組」ユニット1体につき、このカードの<keyword=intimidate>恫喝</keyword>アビリティを{Intimidate}増やす。\n<keyword=fee>謝礼</keyword>（{Cost}）：配置列に《クリーヴァーの用心棒》1体を<keyword=spawn>生成</keyword>する。
+202891_fluff;ホアソンとの戦はノヴィグラドのどぶを血で赤く染めるだろう
+202891_name;ホアソン・ジュニア
+202891_tooltip;<keyword=deploy>配備</keyword>：ブーストを得ている敵軍ユニット1体に{Damage}ダメージを与える。超過分のダメージ量に等しい<keyword=coin>コイン</keyword>を得る。\n<keyword=devotion>献身</keyword>：さらに<keyword=insanity>狂気</keyword>アビリティを得る。\n<keyword=fee>謝礼</keyword>（{Cost}）：戦力値{Power}以下の敵軍ユニット1体を破壊する。
+202892_fluff;足を止めるな、このクソ共！ もしまた止まったら、ニルフガード人どもにすがりたくなるような目にあわせるぞ！
+202892_name;ケイドウェン軍の兵士長
+202892_tooltip;【<keyword=zeal>勇躍</keyword>】\n<keyword=order>命令</keyword>：自軍ユニット1体に{Boost}ブーストを与える。（<keyword=charge>チャージ</keyword>：{Charges}）
 21_name_sa;Ignore.
 22_name_sa;Ignore.
 23_name_sa;Ignore.
@@ -3248,6 +3524,7 @@ card_category_104;変異体
 card_category_105;サラマンドラ
 card_category_106;貴族
 card_category_107;シナリオ
+card_category_109;ロケーション
 card_category_11;戦術
 card_category_12;野獣
 card_category_13;リーダー
@@ -3342,20 +3619,21 @@ card_category_98;引き潮団
 card_category_99;盲目結社
 card_in_maintenance_tooltip;このカードは現在調整中です。ご不便をおかけして申し訳ございません。
 card_token_berserk;obsolete
-card_token_bleeding;<#600101>出血：</color>自軍ターン終了時に1ダメージを受ける。ターン数は累積し、「出血」1ターン分は「活力」1ターン分によって相殺される（状態の一種）
-card_token_bounty;<#600101>懸賞金：</color>この状態を付与されたユニットが破壊されると、状態を付与したプレイヤーは、破壊されたユニットのベース戦力値と同量のコインを獲得する（状態の一種）
-card_token_defender;<#600101>守護者：</color>対戦相手はこの列にある他のカードを標的に取れない
-card_token_doomed;<#600101>破滅：</color>戦場を離れるとゲームから取り除かれる（状態の一種）
-card_token_immune;<#600101>耐性：</color>任意のカードを目標に取るアビリティの対象とならない（状態の一種）
-card_token_lock;<#600101>封印：</color>アビリティを無効化される（状態の一種）
+card_token_bleeding;<#600101>出血：</color>この状態を持つユニットは、自軍ターン終了時に1ダメージを受ける。ターン数は累積し、「出血」1ターン分は「活力」1ターン分によって相殺される
+card_token_bounty;<#600101>懸賞金：</color>この状態を持つユニットが破壊または消滅させられると、対戦相手はそのベース戦力値に等しいコインを得る。懸賞金状態は、両陣側のユニットに1体ずつしか付与できない
+card_token_defender;<#600101>守護者：</color>対戦相手はこの状態を持つユニットと同列にある他のカードを標的にできない
+card_token_doomed;<#600101>破滅：</color>この状態を持つユニットは、戦場を離れるとゲームから取り除かれる
+card_token_immune;<#600101>耐性：</color>この状態を持つユニットは、任意のカードを標的とするアビリティの対象とならない
+card_token_lock;<#600101>封印：</color>この状態を持つユニットは、アビリティを無効化される
 card_token_marked;このユニットはマークされ、マーク主のアビリティの対象となっている
-card_token_poison;<#600101>毒：</color>再び「毒」状態になると破壊される（状態の一種）
-card_token_resilience;継戦：ラウンド終了時に戦場に残る。その後消滅する（状態の一種）。 ブーストとアーマーは次のラウンドに持ち越せない
-card_token_rupture;<#600101>裂傷：</color>所有者のターン終了時、ベース戦力値に等しいダメージをこのユニットに与える。その後、この状態は取り除かれる
-card_token_shield;<#600101>シールド：</color>次に自身に向けられるダメージを無効にする（状態の一種）
-card_token_spying;密偵：反対陣に生成、プレイ、又は移動している（状態の一種）
-card_token_veil;遮蔽：他の状態を得られないようにする（状態の一種）
-card_token_vitality;<#600101>活力：</color>自軍ターン終了時に1ブーストを得る。ターン数は累積し、「活力」1ターン分は「出血」1ターン分によって相殺される（状態の一種）
+card_token_poison;<#600101>毒：</color>この状態を持つユニットは、再び「毒」状態になると破壊される
+card_token_resilience;継戦：この状態を持つユニットは、ラウンド終了時に戦場に残り、その後消滅する。 ブーストとアーマーは次のラウンドに持ち越せない
+card_token_rupture;<#600101>裂傷：</color>この状態を持つユニットは、所有者のターン終了時にベース戦力値に等しいダメージを受ける。その後、この状態は取り除かれる
+card_token_shield;<#600101>シールド：</color>この状態を持つユニットは、次に自身に向けられるダメージを無効にする
+card_token_spying;密偵：この状態を持つユニットは、反対陣に生成、プレイ、又は移動している
+card_token_veil;遮蔽：この状態を持つユニットは、他の状態を得ない
+card_token_vitality;<#600101>活力：</color>この状態を持つユニットは、自軍ターン終了時に1ブーストを得る。ターン数は累積し、「活力」1ターン分は「出血」1ターン分によって相殺される
+keyword_adrenaline;<#600101>熱狂：</color>自軍手札のカードが一定枚数以下である場合に実行されるアビリティ
 keyword_ambush;<#600101>伏兵：</color>裏向きでプレイされ、アビリティの条件が満たされると表向きになる
 keyword_armor;<#600101>アーマー：</color>ユニットをダメージから守る。この値はプレイヤーのスコアやユニットの戦力値としてカウントされない
 keyword_assimilate;<#600101>同化：</color>あなたが自軍デッキに最初から組み込まれていないカードをプレイするたび、1（又は指定された量の）ブーストを得る
@@ -3364,15 +3642,15 @@ keyword_banish;<#600101>消滅：</color>ゲームから取り除く（“破壊
 keyword_banish_in_graveyard;<#600101>破滅：</color>ユニット：盤面から墓地に移動すると、ゲームから取り除かれる\nスペシャルカード：アビリティを実行後、ゲームから取り除かれる
 keyword_barricade;<#600101>防塞：</color>ユニットがアーマーを持っていると実行されるアビリティ
 keyword_berserk;<#600101>狂戦士：</color>ベース戦力値が指定された量以下であると実行されるアビリティ
-keyword_bleeding;<#600101>出血：</color>自軍ターン終了時に1ダメージを受ける（アーマーを無視）。ターン数は累積し、「出血」1ターン分は「活力」1ターン分によって相殺される（状態の一種）
-keyword_blood_moon;<#600101>血染めの月：</color>所有者のターン開始時、配置列にあるユニットを無作為に選んで、出血（2）を与える。既に出血状態の場合は、代わりに2ダメージを与える
+keyword_bleeding;<#600101>出血：</color>この状態を持つユニットは、自軍ターン終了時にアーマーを無視して1ダメージを受ける。ターン数は累積し、「出血」1ターン分は「活力」1ターン分によって相殺される
+keyword_blood_moon;<#600101>血染めの月：</color>所有者のターン開始時、配置列にあるユニット1体を無作為に選んで、出血（2）を与える。既に出血状態である場合は、代わりに2ダメージを与える
 keyword_bloodthirst;<#600101>狂騒：</color>ダメージを負っている敵軍ユニットが指定された数以上いると実行されるアビリティ
 keyword_bond;<#600101>結束：</color> 自陣に同名カードがある場合に実行されるアビリティ
 keyword_bonded;<#600101>結束：</color> 自陣に同名カードがある場合に実行されるアビリティ
 keyword_boon;<#600101>恩恵：</color>列にもたらされる有益な効果。別の列効果によって上書きされ、ラウンド終了時に取り除かれる
 keyword_boost;<#600101>ブースト：</color>ユニットの現在の戦力値を増やす
 keyword_boosted;<#600101>ブーストを受けている：</color>ブーストを受けたユニットの戦力値は、ベース値より高い状態にある
-keyword_bounty;<#600101>懸賞金：</color>この状態を付与されたユニットが破壊されると、対戦相手はそのベース戦力値に等しいコインを得る。懸賞金は常に敵軍ユニット1体にしか付与できない
+keyword_bounty;<#600101>懸賞金：</color>この状態を持つユニットが破壊または消滅させられると、対戦相手はそのベース戦力値に等しいコインを得る。懸賞金状態は、両陣側のユニットに1体ずつしか付与できない
 keyword_brave;<#600101>勇敢：</color>現在のラウンドにおいて、このユニットの戦力値を加算してもなお対戦相手が優勢のときに実行されるアビリティ
 keyword_cataclysm;<#600101>大変動：</color>所有者のターン開始時、配置列にあるユニット間で、無作為に3ダメージを分け与える
 keyword_charge;<#600101>チャージ：</color>命令アビリティの実行可能回数（追加のチャージを得られるのは元からチャージを持つユニットのみ）
@@ -3396,7 +3674,7 @@ keyword_damaged;<#600101>ダメージを受けている：</color>ダメージ�
 keyword_deadlock;<#600101>衝突：</color>どちらのプレイヤーもパスしていない場合に実行されるアビリティ
 keyword_deathblow;<#600101>追撃：</color> このカードがユニットを破壊すると実行されるアビリティ
 keyword_deathwish;<#600101>遺言：</color>破壊され、戦場から墓地に移動すると実行されるアビリティ（“消滅”したユニットは墓地には送られない）
-keyword_defender;<#600101>守護者：</color>対戦相手はこの列にある他のカードを標的に取れない
+keyword_defender;<#600101>守護者：</color>対戦相手はこの状態を持つユニットと同列にある他のカードを標的にできない
 keyword_demote;<#600101>降格：</color>ゴールドカードをシルバーに変える（元々ブロンズの場合はブロンズに変える）
 keyword_deploy;<#600101>配備：</color>プレイされると実行されるアビリティ
 keyword_destroy;<#600101>破壊：</color>カードを墓地に移動させる
@@ -3404,8 +3682,8 @@ keyword_devotion;<#600101>献身：</color>自軍デッキにニュートラル�
 keyword_discard;<#600101>破棄：</color>カードを手札から墓地に移動させる（アビリティに依らないカードの任意放棄は、破棄として取り扱われない）
 keyword_disloyal;<#600101>不忠：</color>このカードは反対陣にプレイされる
 keyword_dominance;<#600101>支配：</color>最高戦力値ユニットが自陣にあると実行されるアビリティ
-keyword_doomed;<#600101>破滅：</color>戦場を離れるとゲームから取り除かれる（状態の一種）
-keyword_dragons_dream;<#600101>竜の夢：</color>所有者のターン開始時、時間切れと同時に、配置列の全てのユニットに3ダメージを与える
+keyword_doomed;<#600101>破滅：</color>この状態を持つユニットは、戦場を離れるとゲームから取り除かれる
+keyword_dragons_dream;<#600101>竜の夢：</color>所有者のターン開始時、時間切れと同時に、配置列の全てのユニットに3ずつダメージを与える
 keyword_drain;<#600101>吸収：</color>ダメージを与え、同量のブーストを得る
 keyword_draw;<#600101>引く：</color>あなたのデッキから一番上にあるカードを手札に移動させる
 keyword_duel;<#600101>決闘：</color>どちらかが破壊されるまで、戦力値分のダメージを交互に与え合う
@@ -3414,26 +3692,26 @@ keyword_enemy;<#600101>敵：</color>敵陣に置かれている状態のこと
 keyword_exposed;<#600101>無防備：</color>ユニットが完全にアーマーを失うたびに実行されるアビリティ
 keyword_fatigue;<#600101>疲労：</color>このカードのアビリティはゲーム中一度しか実行されない
 keyword_fee;<#600101>謝礼：</color>指定された量のコインを消費して実行するアビリティ
-keyword_fog;<#600101>霧：</color>所有者のターン開始時、配置列で最も戦力値の低いユニットに2ダメージを与える
+keyword_fog;<#600101>霧：</color>所有者のターン開始時、配置列にある最低戦力値ユニット1体に2ダメージを与える
 keyword_formation;<#600101>陣形：</color>近接列にプレイされると「勇躍」を得る。間接列にプレイされると、1ブーストを得る
 keyword_friendly;<#600101>味方：</color>自陣に置かれている状態のこと
-keyword_frost;<#600101>霜：</color>所有者のターン開始時、配置列で最も戦力値の高いユニットに2ダメージを与える
+keyword_frost;<#600101>霜：</color>所有者のターン開始時、配置列にある最高戦力値ユニット1体に2ダメージを与える
 keyword_gamble;<#600101>賭け：</color>運任せの勝負を行う
-keyword_gold;<#600101>耐性：</color>任意のカードを目標に取るアビリティの対象とならない（状態の一種）
-keyword_harmony;<b><#600101>調和：</color></b>あなたが配置列に他の自軍ユニットと重複しない第1カテゴリを持つ『スコイア＝テル』ユニットをプレイするたび、1（又は指定された量の）ブーストを得る
+keyword_gold;<#600101>耐性：</color>この状態を持つユニットは、任意のカードを標的とするアビリティの対象とならない
+keyword_harmony;<#600101>調和：</color>あなたが他の自軍ユニットと重複しない第1カテゴリを持つ『スコイア＝テル』ユニットをプレイするたび、1（又は指定された量の）ブーストを得る
 keyword_hazard;<#600101>災禍：</color>列にもたらされる有害な効果。別の列効果によって上書きされ、ラウンド終了時に取り除かれる
 keyword_heal;<#600101>回復：</color>現在の戦力値がベース値より低い場合、戦力値をベース値に戻すか、指定された分の戦力値を加算する
 keyword_highest;<#600101>最高戦力値：</color>同一戦力値が複数存在する場合、対象は無作為に選択される
 keyword_hoard;<#600101>備蓄：</color>所有するコインが指定された量以上に達すると実行されるアビリティ
 keyword_idle;<#600101>待機：</color>ユニットがアビリティを実行できるまでに必要なターン数
 keyword_immobile;動かすことができない
-keyword_immune;<#600101>耐性：</color>任意のカードを目標に取るアビリティの対象とならない（状態の一種）
-keyword_initiative;<#600101>初動：</color>自ターンの最初にこのカードを使用すると実行されるアビリティ
-keyword_insanity;<#600101>狂気：</color>コインが不足している場合、このユニットは自身の「謝礼」量に等しいダメージをアーマーを無視して負い、謝礼アビリティを実行する\n狂気アビリティは、ダメージによってユニットが破壊される場合は使用できず、ダメージを負った場合にのみ発動する
+keyword_immune;<#600101>耐性：</color>この状態を持つユニットは、任意のカードを標的とするアビリティの対象とならない
+keyword_initiative;<#600101>初動：</color>自軍ターンの最初にこのカードを使用すると実行されるアビリティ
+keyword_insanity;<#600101>狂気：</color>コインが不足している場合、このユニットは自身の「謝礼」量に等しいダメージをアーマーを無視して負い、謝礼アビリティを実行する。狂気アビリティは、ダメージによってユニットが破壊される場合は使用できず、ダメージを負った場合にのみ発動する
 keyword_inspired;<#600101>奮起：</color>このユニットの現在の戦力値がベース値を上回ると実行されるアビリティ
 keyword_intimidate;<#600101>恫喝：</color>「犯罪」カードをプレイするたびに、1ブースト（または指定された量のブースト）を得る
 keyword_leadership;<#600101>統率力：</color>何れかのリーダーカードがプレイされると実行されるアビリティ（リーダーのアビリティより先に解決する）
-keyword_lock;<#600101>封印：</color>アビリティを無効化される（状態の一種）
+keyword_lock;<#600101>封印：</color>この状態を持つユニットは、アビリティを無効化される
 keyword_lowest;<#600101>最低戦力値：</color>同一戦力値が複数存在する場合、対象は無作為に選択される
 keyword_mayhem;<#600101>騒乱：</color>「犯罪」カードをプレイするたびに、1ブースト（または指定された量のブースト）を得る
 keyword_melee;<#600101>近接：</color>近接列でのみ実行されるアビリティ
@@ -3443,17 +3721,17 @@ keyword_non_decoyable;<#600101>頑固：</color>手札に戻せない
 keyword_order;<#600101>命令：</color>手動で実行するアビリティ。戦場に配置されてから1ターン経過しないと実行できない
 keyword_overstrain;<#600101>奮闘：</color>前述のアビリティの標的となったカードの枚数に等しい回数、カードに書かれた効果を発動させる
 keyword_pair;<#600101>ペア：</color>盤面にこのカードと同じカードがもう1枚ある場合に実行されるアビリティ
-keyword_poison;<#600101>毒：</color>この状態を2回付与されたユニットは破壊される（状態の一種）
+keyword_poison;<#600101>毒：</color>この状態を持つユニットは、再び「毒」状態になると破壊される
 keyword_profit;<#600101>利益：</color>このカードがプレイされると、指定された量のコインを獲得する。最大で9コイン所有できる
 keyword_promote;<#600101>昇格：</color>ラウンドが終了するまで、カードの枠色をゴールドに変える
 keyword_purify;<#600101>浄化：</color>全ての状態を取り除く
-keyword_rain;<#600101>雨：</color>所有者のターン開始時、配置列にあるユニット2体を無作為に選んで1ダメージを与える
+keyword_rain;<#600101>雨：</color>所有者のターン開始時、配置列にあるユニット2体を無作為に選んで1ずつダメージを与える
 keyword_ranged;<#600101>間接：</color>間接列でのみ実行されるアビリティ
 keyword_reach;<#600101>射程：</color>このカードのアビリティが対象に取れる列数
 keyword_regress;<#600101>退行：</color>カードを完全にオリジナルの状態に戻す
 keyword_regressing;<#600101>退行：</color>このユニットは盤面から取り除かれると、ベース戦力値がデフォルトの数値に戻る。「封印」によって無効化されない
 keyword_reset;<#600101>初期化：</color>ユニットの戦力値をベース値に戻す
-keyword_resilient;<#600101>継戦：</color>ラウンド終了時に戦場に残る。その後消滅する（状態の一種）\nブーストとアーマーは次のラウンドに持ち越せない
+keyword_resilient;<#600101>継戦：</color>この状態を持つユニットは、ラウンド終了時に戦場に残り、その後消滅する。ブーストとアーマーは次のラウンドに持ち越せない
 keyword_resistant;<#600101>抵抗：</color>指定された「災禍」効果の影響を受けない
 keyword_restrained;「ボス」ユニットを対象に取れない
 keyword_resupply;<#600101>補給：</color>あなたが「軍事」カードをプレイするたびに実行されるアビリティ
@@ -3463,21 +3741,21 @@ keyword_reveal;<#600101>公開：</color>カードを両プレイヤーに見せ
 keyword_revealed;<#600101>公開済み：</color>手札にある、表面を晒している状態のカード
 keyword_revenge;<#600101>復讐：</color>対戦相手のターン中にカードが盤面から墓地に移動すると実行されるアビリティ
 keyword_round_end;<#600101>ラウンド終了時：</color>ラウンド終了時にアビリティを実行する
-keyword_rupture;<#600101>裂傷：</color>所有者のターン終了時、ベース戦力値に等しいダメージをこのユニットに与える。その後、この状態は取り除かれる
+keyword_rupture;<#600101>裂傷：</color>この状態を持つユニットは、所有者のターン終了時にベース戦力値に等しいダメージを受ける。その後、この状態は取り除かれる
 keyword_seize;<#600101>強奪：</color>敵軍ユニットを反対列に移動させる
-keyword_shield;<#600101>シールド：</color>次に自身に向けられるダメージを無効にする（状態の一種）
+keyword_shield;<#600101>シールド：</color>この状態を持つユニットは、次に自身に向けられるダメージを無効にする
 keyword_solitary;<#600101>ソロ：</color>盤面にこのカードと同じカードがない場合、アビリティを実行する
 keyword_spawn;<#600101>生成：</color>ゲームにカードを追加する
 keyword_spend;<#600101>消費：</color>このアビリティを実行するために必要なクラウンの量
 keyword_spring;<#600101>奇襲：</color>カードが裏向きの場合にのみ、手動で実行するアビリティ。使用すると「奇襲」カードは表向きになる
-keyword_spying;<#600101>密偵：</color>反対陣に生成、プレイ、又は移動している（状態の一種）
-keyword_storm;<#600101>嵐：</color>所有者のターン開始時、配置列にある全てのユニットに1ダメージを与える
+keyword_spying;<#600101>密偵：</color>この状態を持つユニットは、反対陣に生成、プレイ、又は移動している
+keyword_storm;<#600101>嵐：</color>所有者のターン開始時、配置列にある全てのユニットに1ずつダメージを与える
 keyword_strengthen;<#600101>ベースアップ：</color>ユニットのベース戦力値を増やす
 keyword_stubborn;<#600101>頑固：</color>再度プレイできず、手札にも戻せない
 keyword_summon;<#600101>召喚：</color>戦場に自動的に移動させる（“プレイ”とは認識されない）
 keyword_swap;<#600101>交換：</color>あなたのターン中、カードを手札からデッキに移動させ、代わりとなるカードを引く
 keyword_symbiosis;<#600101>共生：</color>「自然」カードをプレイするたび、無作為に選んだ自陣列に《さまようトレント》を生成し、自陣の「共生」を持つユニットの数に等しい戦力値にする
-keyword_thrive;<#600101>成長：</color>あなたがこのユニットより高い戦力値を持つユニットをプレイするたび、1ブーストを得る
+keyword_thrive;<b><#600101>成長：</color></b>あなたがこのユニットより高い戦力値を持つユニットをプレイするたび、1（又は指定された量の）ブーストを得る
 keyword_timer;<#600101>タイマー：</color>ユニットが盤面にある間に限り、1ターンごとにタイマーが減少する。タイマーがゼロになると、（ターンの開始時又は終了時に）アビリティを実行する。ユニットが盤面を離れるとタイマーを初期化する
 keyword_token;<#600101>トークン：</color>ラウンド終了時にゲームから取り除かれるユニット
 keyword_transform;<#600101>変身：</color>異なるカードへ変化させる
@@ -3486,9 +3764,9 @@ keyword_trio;<#600101>トリオ：</color>同じ列に「封印」されてい�
 keyword_truce;<#600101>休戦：</color>いずれのプレイヤーもパスしていない状態でのみ実行されるアビリティ
 keyword_turn_end;<#600101>ターン終了時：</color>あなたのターン終了時に、アビリティを実行する
 keyword_turn_start;<#600101>ターン開始時：</color>あなたのターン開始時に、アビリティを実行する
-keyword_veil;<#600101>遮蔽：</color>他の状態を得られないようにする（状態の一種）
-keyword_veteran;<#600101>古参兵：</color>第2、第3ラウンド開始時、ユニットのベース戦力値を1増やす
-keyword_vitality;<#600101>活力：</color>自軍ターン終了時に1ブーストを得る。ターン数は累積し、「活力」1ターン分は「出血」1ターン分によって相殺される（状態の一種）
+keyword_veil;<#600101>遮蔽：</color>この状態を持つユニットは、他の状態を得ない
+keyword_veteran;<#600101>古参兵：</color>第2、第3ラウンド開始時、このユニットのベース戦力値を1増やす
+keyword_vitality;<#600101>活力：</color>この状態を持つユニットは、自軍ターン終了時に1ブーストを得る。ターン数は累積し、「活力」1ターン分は「出血」1ターン分によって相殺される
 keyword_weaken;<#600101>ベースダウン：</color>ユニットのベース戦力値を減らす。ベース戦力値が1未満になったユニットはゲームから取り除かれる（遺言アビリティの引き金とはならない）
 keyword_zeal;<#600101>勇躍：</color>カードが戦場にプレイされたそのターンから命令アビリティを実行できる
 

@@ -24,10 +24,10 @@
 11_name_sa;Ignore.
 112101_fluff;“去往何处，何时动身，我自己说了算。”
 112101_name;希里
-112101_tooltip;<keyword=deploy>部署：</keyword>对 {MaxTargets} 个随机敌军单位造成 {Damage} 点伤害。\n每当己方输掉一小局，便返回手牌。
+112101_tooltip;<keyword=deploy>部署：</keyword>对 {MaxTargets} 个敌军单位造成 {Damage} 点伤害。\n己方每输掉 1 小局，便返回手牌。
 112102_fluff;猎魔人晃晃手指就能点灯，或把敌人烧成灰。
 112102_name;杰洛特：伊格尼法印
-112102_tooltip;<keyword=deploy>部署：</keyword>当对方单排战力不低于 {Power2} 点时，摧毁其上战力最高的多个单位。\n<keyword=initiative>先机：</keyword>: 改为当对方单排战力不低于 {Power} 点时，摧毁其上战力最高的所有单位。
+112102_tooltip;<keyword=deploy>部署：</keyword>当对方单排战力不低于 {Power2} 点时，摧毁其上战力最高的所有单位。\n<keyword=initiative>先机：</keyword>: 改为当对方单排战力不低于 {Power} 点时，摧毁其上战力最高的所有单位。
 112103_fluff;“如果要付出这种代价方能拯救世界，那就让世界毁灭算了。”
 112103_name;利维亚的杰洛特
 112103_tooltip;<keyword=deploy>部署：</keyword>摧毁 1 个战力不低于 {power} 点的敌军单位。
@@ -60,19 +60,19 @@
 112112_tooltip;<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：从己方牌组打出 1 个神器。
 112113_fluff;一位优秀的女术士必须知道何时该召唤出冰，何时该召唤出火。
 112113_name;叶奈法：咒术师
-112113_tooltip;<keyword=order>指令：</keyword>对敌军所有战力最高的单位造成 {Damage} 点伤害。\n<keyword=cooldown>冷却：</keyword>{Cooldown}。
+112113_tooltip;<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>对最强的（多个）敌军单位造成 {Damage} 点伤害。<keyword=cooldown>冷却</keyword> {Cooldown}。
 112201_fluff;拟态怪有很多别名：易形怪、二重身、模仿怪……变形怪。
 112201_name;杜度
 112201_tooltip;<keyword=deploy>部署：</keyword>转变为 1 个敌军单位的基础同名牌。
 112202_fluff;“白狼，我只是个普通猎魔人。我不猎龙，不跟国王称兄道弟，也不和女术士纠缠……”
 112202_name;艾斯卡尔
-112202_tooltip;<keyword=deploy>部署：</keyword>从牌组<keyword=summon>召唤</keyword>“维瑟米尔”和“兰伯特”至同排。
+112202_tooltip;<keyword=deploy>部署</keyword>（<keyword=adrenaline>亢奋</keyword> {Adrenaline}）：从牌组中<keyword=summon>召唤</keyword>“维瑟米尔”和“兰伯特”。
 112203_fluff;“就算上了绞架也别放弃——让他们给你拿点水，毕竟没人知道水拿来前会发生什么。”
 112203_name;维瑟米尔
-112203_tooltip;<keyword=deploy>部署：</keyword>从牌组<keyword=summon>召唤</keyword>“艾斯卡尔”和“兰伯特”至同排。
+112203_tooltip;<keyword=deploy>部署</keyword>（<keyword=adrenaline>亢奋</keyword> {Adrenaline}）：从牌组中<keyword=summon>召唤</keyword>“艾斯卡尔”和“兰伯特”。
 112204_fluff;“这样的沟通方式才对路嘛！”
 112204_name;兰伯特
-112204_tooltip;<keyword=deploy>部署：</keyword>从牌组<keyword=summon>召唤</keyword>“维瑟米尔”和“艾斯卡尔”至同排。
+112204_tooltip;<keyword=deploy>部署</keyword>（<keyword=adrenaline>亢奋</keyword> {Adrenaline}）：从牌组中<keyword=summon>召唤</keyword>“艾斯卡尔”和“维瑟米尔”。
 112205_fluff;永远别想分开母龙和她的孩子。
 112205_name;米尔加塔布雷克
 112205_tooltip;<keyword=deploy>部署：</keyword>对 {MaxTargets} 个敌军单位造成 {Damage} 点伤害。
@@ -141,17 +141,17 @@
 113204_tooltip;对所有敌军单位造成 {Damage} 点伤害。
 113205_fluff;女巫猎人必备。无声的闪光过后，最强大的法师也得乖乖就擒。
 113205_name;阻魔金炸弹
-113205_tooltip;摧毁 1 个神器。
+113205_tooltip;对 1 个单位造成 {Damage} 点伤害，并使其获得<keyword=veil>遮蔽</keyword>。
 113206_fluff;见证“泰德戴尔瑞”——终焉纪元——这被白霜摧毀的世界吧！
-113206_name;白霜
-113206_tooltip;摧毁所有神器。
+113206_name;暴风雪
+113206_tooltip;摧毁一个战力最低的单位。\n<keyword=initiative>先机：</keyword>摧毁所有战力最低的单位。
 113207_fluff;士气加一分，听力减三分。
 113207_name;指挥号角
 113207_tooltip;使 {maxtargets} 个相邻单位获得 {Boost} 点增益。
 113208_fluff;控天者德鲁伊能操控各种元素之力，让狂风暴雨化为绕指柔风，降下毁天灭地的雹暴，还能拖雷掣电让敌军灰飞烟灭……所以我给你个忠告：面对他，一定要毕恭毕敬。
 113208_name;德鲁伊控天者
 113208_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：使场上所有“整排效果”的持续时间 +{Counter}。\n<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：使场上所有“整排效果”的持续时间 -{Counter2}。
-113209_fluff;阿尔祖创造的一些怪物仍在四处游荡，其中便有令人胆寒的巨蜈蚣——它摧毁了创造自己的法师，让半个马里波沦为废土，然后逃进了河谷地区幽暗的森林。
+113209_fluff;阿尔祖创造的一些怪物仍在四处游荡，其中便有令人胆寒的涎魔——它摧毁了创造自己的法师，让半个马里波沦为废土，然后逃进了河谷地区幽暗的森林。
 113209_name;阿尔祖召唤术
 113209_tooltip;从己方牌组打出战力最高的单位。
 113301_fluff;我们全然无法念诵“阿尔祖落雷术”这样深奥复杂的咒语。据说，阿尔祖声如狩猎号角，言若讲演名家。
@@ -266,7 +266,7 @@
 122213_tooltip;<keyword=resupply>增兵：</keyword>自身获得 {Boost} 点增益。\n<keyword=inspired>激励：</keyword>改为自身获得 {Boost2} 点增益。
 122214_fluff;“冲锋，没用的蠢货！冲锋，不然你就会知道，我比尼弗迦德人更可怕！”
 122214_name;科德温中士
-122214_tooltip;<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>使 1 个友军单位获得 {Boost} 点增益。\n<keyword=charge>充能：</keyword>{Charges}。
+122214_tooltip;<keyword=formation>列阵</keyword>\n<keyword=order>指令：</keyword>使 1 个友军单位获得 {Boost} 点增益。<keyword=charge>充能：</keyword>{Charges}
 122216_fluff;每个想要在诺维格瑞做生意的都很清楚——要么同意卡罗的条件，要么就夹着尾巴滚出去。
 122216_name;卡罗·凡瑞西
 122216_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：手牌中每有 1 张牌，便对 1 个敌军单位造成 {Damage} 点伤害。
@@ -305,7 +305,7 @@
 122314_tooltip;<keyword=shield>护盾</keyword>。\n每当该单位失去<keyword=shield>护盾</keyword>时，自身获得 {Boost} 点增益。
 122315_fluff;感受到了吗？每当这宝贝儿投出巨石，大地都会震颤。
 122315_name;加强型投石机
-122315_tooltip;<keyword=ranged>远程：</keyword>己方回合结束时，随机对 1 个位于<keyword=ranged>远程</keyword>排的敌军单位造成 {Damage} 点伤害。
+122315_tooltip;<keyword=ranged>远程：</keyword>己方回合结束时，随机对 1 个位于<keyword=ranged>远程</keyword>排的敌军单位造成 {Damage} 点伤害。\n<keyword=crew>操控：</keyword>改为对 1 个随机敌军单位造成 {Damage} 点伤害。
 122316_fluff;“泰莫利亚！泰莫利亚！诸神恩赐汝等！降怒于敌，使其永世灾厄！”
 122316_name;泰莫利亚步兵
 122316_tooltip;<keyword=deploy>部署：</keyword>同排每有 1 个带有增益的单位，便对 1 个敌军单位造成 {Damage} 点伤害。
@@ -314,7 +314,7 @@
 122317_tooltip;<keyword=deploy>部署：</keyword>获得 {Boost} 点增益。\n<keyword=exposed>破甲：</keyword>重置自身战力。
 122318_fluff;“我绝不会失手两次。”
 122318_name;攻城大师
-122318_tooltip;<keyword=deploy>部署：</keyword>使 1 个友军单位获得 {Boost} 点增益。\n<keyword=resupply>增兵：</keyword>使相邻“攻城器械”获得 {Boost2} 点增益。
+122318_tooltip;<keyword=order>指令：</keyword>使 1 个友军单位获得 {Boost} 点增益。\n<keyword=resupply>增兵：</keyword>使相邻“攻城器械”获得 {Boost2} 点增益。
 122401_fluff;承认错误，妥善安葬——否则他们会回来缠着你不放。
 122401_name;异婴
 122401_tooltip;每个己方回合结束时，对战力最高的敌军单位造成 {Damage} 点伤害。\n<keyword=order>指令：</keyword>转变为 1 只“家事妖精”。
@@ -331,7 +331,7 @@
 13_name_sa;Ignore.
 131101_fluff;“留点尊严吧，你的结局已然注定。”
 131101_name;坚硬甲壳
-131101_tooltip;<keyword=order>指令：</keyword>使 1 个友军单位获得 {Boost} 点增益和<keyword=shield>护盾</keyword>。<keyword=charge>充能：</keyword>{Charges}。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
+131101_tooltip;<keyword=order>指令：</keyword>使 1 个友军单位获得 {Boost} 点增益。若它为“怪兽”阵营单位，便还使其获得<keyword=veil>遮蔽</keyword>。<keyword=charge>充能：</keyword>{Charges}。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
 131102_fluff;“画作传情，而非言词。”
 131102_name;盖尔
 131102_tooltip;<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：从牌组中打出 1 张“狂猎”特殊牌。
@@ -343,7 +343,7 @@
 132102_tooltip;对 1 个敌军单位造成伤害，其数值等同于己方最强单位的战力。\n若己方控制“伊勒瑞斯”，则改为摧毁 1 个敌军单位。
 132103_fluff;即便全村人都饿肚子，我们也绝不去这片树林打猎。
 132103_name;自然之力
-132103_tooltip;<keyword=order>指令：</keyword>使手牌中 1 张单位牌获得 {Boost} 点增益。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
+132103_tooltip;<keyword=order>指令：</keyword> <keyword=spawn>生成</keyword> 并打出“林妖”。\n\n该能力可为牌组附加 {Template.Provision} 人口上限。
 132104_fluff;宠儿偏偏成为逆子。
 132104_name;卡兰希尔
 132104_tooltip;<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword>己方手牌中 1 个“怪兽”单位的同名牌至同排，其基础战力为 {Power} 点。
@@ -358,7 +358,7 @@
 132107_tooltip;<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword><keyword=consume>吞噬</keyword> 1 个友军单位。\n<keyword=charge>充能：</keyword>{Charges}。
 132108_fluff;“打什么仗嘛？明明有更多好办法消耗过剩的精力……”
 132108_name;米卢娜
-132108_tooltip;<keyword=deathwish>遗愿：</keyword><keyword=seize>抓捕</keyword> 1 个战力不高于 {Power} 点的敌军单位。
+132108_tooltip;<keyword=deathwish>遗愿：</keyword>随机<keyword=seize>抓捕</keyword> 1 个战力不高于 {Power} 点的敌军单位。
 132201_fluff;看起来像螃蟹和蜘蛛的杂交……只是体型硕大无比。
 132201_name;蟹蜘蛛巨兽
 132201_tooltip;<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword> {MaxTargets} 只“雄蛛”，并使同排所有其他“类虫生物”获得 {Boost} 点增益。
@@ -409,7 +409,7 @@
 132216_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：<keyword=consume>吞噬</keyword> 1 个战力不高于 {Power} 点的单位。
 132217_fluff;一般的鹰身女妖以腐肉为食，赛尔伊诺鹰身女妖……则以梦境为食。
 132217_name;赛尔伊诺鹰身女妖
-132217_tooltip;<keyword=deploy>部署：</keyword><keyword=consume>吞噬</keyword> 1 个友军单位。
+132217_tooltip;<keyword=deploy>部署：</keyword><keyword=consume>吞噬</keyword> 1 个友军单位。\n<keyword=bonded>会师：</keyword>在同排<keyword=spawn>生成</keyword> 1 个“鹰身女妖的蛋”。
 132218_fluff;“別吵！”
 132218_name;老矛头：昏睡
 132218_tooltip;<keyword=veil>遮蔽</keyword>。
@@ -472,7 +472,7 @@
 132404_tooltip;<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 {Damage} 点伤害。
 132405_fluff;它很容易被误认作岩石，许多糊涂巨魔已痛彻心扉地领悟到这一点。
 132405_name;狂躁的杜奥
-132405_tooltip;<keyword=deploy>部署：</keyword>摧毁 1 个敌军神器。
+132405_tooltip;<keyword=deploy>部署：</keyword>将 1 个单位移至其所在半场的另一排。
 132406_fluff;没有城门或高墙能挡住他们。只要有一道小裂缝，就足够了……
 132406_name;无骨者
 132406_tooltip;<keyword=deploy>部署：</keyword>触发 1 个铜色友军单位的<keyword=deathwish>遗愿</keyword>能力。
@@ -564,10 +564,10 @@
 142301_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：使 1 个友军单位获得 {Boost} 点增益。\n<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：<keyword=heal>治愈</keyword> 1 个友军单位 {Boost2} 点战力。
 142302_fluff;“维里赫德旅？那是什么？”“麻烦。”
 142302_name;维里赫德旅
-142302_tooltip;<keyword=deploy>部署：</keyword>对 1 个随机敌军单位造成 {Damage} 点伤害。\n每当“维里赫德旅”移至所在半场的另一排，则再次触发该<keyword=deploy>部署</keyword>能力。
+142302_tooltip;<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 {Damage} 点伤害。\n每当被移动，便对 1 个随机敌军单位造成 {Damage} 点伤害。
 142303_fluff;“仇恨之火比地狱烈焰更猛烈，比任何伤口都更刻骨铭心。”
 142303_name;维里赫德旅军官
-142303_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：对 1 个敌军单位造成 {Damage} 点伤害。\n<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：使 1 个友军单位获得 {Boost} 点增益。
+142303_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：对 1 个敌军单位造成 {Damage} 点伤害。\n<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：使 1 个友军单位获得 {Boost} 点增益。\n<keyword=bonded>会师：</keyword>两个能力一同使用。
 142304_fluff;他们的追踪本领犹如猎犬，双腿健似矫鹿，残忍更胜恶魔。
 142304_name;多尔·布雷坦纳爆破手
 142304_tooltip;<keyword=deploy>部署：</keyword>对 {MaxTargets} 个随机敌军单位造成 {Damage} 点伤害。
@@ -615,7 +615,7 @@
 142401_tooltip;<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword> 1 张自身原始同名牌，将其<keyword=summon>召唤</keyword>至己方另一排。
 143201_fluff;“你们贪得无厌地榨干大地，野蛮强横地攫取它的财富。但在我们这儿，它生机勃勃，春华秋实，慷慨大方。因为它爱我们，正如我们爱它。”
 143201_name;毒蛇陷阱
-143201_tooltip;<keyword=ambush>伏击：</keyword>对方打出 1 张“特殊”牌后，摧毁战力最高的敌军单位。
+143201_tooltip;<keyword=ambush>伏击：</keyword>对方打出 1 张“特殊”牌后，摧毁战力最高的一个敌军单位。\n<keyword=spring>翻开：</keyword>摧毁战力最低的一个敌军单位。
 143301_fluff;“小心……！再走一步，你就要被化为青烟了。”
 143301_name;焚烧陷阱
 143301_tooltip;<keyword=Spring>翻开：</keyword>对 1 个单位造成 {damage2} 点伤害。\n<keyword=ambush>伏击：</keyword>对对方打出在其半场的下一个单位造成 {damage} 点伤害。
@@ -662,7 +662,7 @@
 152206_tooltip;<keyword=zeal>狂热</keyword>。<keyword=order>指令</keyword>（<keyword=ranged>远程</keyword>）：<keyword=purify>净化</keyword> 1 个单位。\n己方打出“炼金”牌后刷新此能力。
 152207_fluff;“敬尼弗迦德皇帝，祝他不得善终！”
 152207_name;“黑手”霍格
-152207_tooltip;己方每打出 1 张“船只”牌，便获得 {Boost} 点增益。\n己方每打出 1 张“水手”牌，便对 1 个随机敌军单位造成 {Damage} 点伤害。
+152207_tooltip;<keyword=deploy>部署：</keyword>对 1 个单位造成 {damage2} 点伤害。\n己方每打出 1 张“船只”牌，便获得 {Boost} 点增益。\n己方每打出 1 张“水手”牌，便对 1 个随机敌军单位造成 {Damage} 点伤害。
 152208_fluff;有人称她“铁娘子”。
 152208_name;茱塔·迪门
 152208_tooltip;<keyword=deploy>部署：</keyword>若“茱塔‧迪门”为战力最高的单位，则自身受到 {Damage} 点伤害。
@@ -692,7 +692,7 @@
 152303_tooltip;<keyword=deploy>部署：</keyword>使 1 个敌军单位<keyword=bleeding>重伤</keyword>（{Bleed}）回合。若从墓场打出，则改为对 1 个敌军单位造成 {Damage} 点伤害。
 152304_fluff;“别怀疑我们的狩猎本领，只恨史派克鲁格的猎物太少……”
 152304_name;布洛克瓦尔家族猎人
-152304_tooltip;<keyword=order>指令：</keyword>对 1 个单位造成 {damage} 点伤害。\n<keyword=cooldown>冷却：</keyword>{Cooldown}。\n己方每<keyword=discard>丢弃</keyword> 1 张牌，<keyword=cooldown>冷却</keyword> -{Cooldown2}。
+152304_tooltip;<keyword=zeal>狂热</keyword>、<keyword=order>指令</keyword>（<keyword=ranged>远程</keyword>）：对 1 个单位造成 {damage} 点伤害。\n<keyword=cooldown>冷却：</keyword>{Cooldown}。\n己方每打出 1 张“野兽”牌，<keyword=cooldown>冷却</keyword> -{Cooldown2}。
 152305_fluff;“我能看到他们眼中的恐惧。他们害怕我……害怕迪门家族！”
 152305_name;迪门家族水手
 152305_tooltip;<keyword=deploy>部署：</keyword>将己方牌组最顶端的牌移至己方墓场。\n若己方控制“船只”，则取消该能力。
@@ -814,7 +814,7 @@
 162211_tooltip;<keyword=disloyal>不忠</keyword>。\n<keyword=deploy>部署：</keyword>打出己方牌组顶端的非<keyword=disloyal>不忠</keyword>单位牌，并使其获得 {Boost} 点增益。
 162212_fluff;“她来了，”他心想，“皇帝的联姻对象。冒牌公主、冒牌的辛特拉女王、冒牌的雅鲁加河口统治者，也是帝国未来的命脉。”
 162212_name;冒牌希里
-162212_tooltip;<keyword=Deploy>部署</keyword>（<keyword=melee>近战</keyword>）：将 1 个敌军单位移至所在半场的另一排。\n<keyword=Deploy>部署</keyword>（<keyword=ranged>远程</keyword>）： 使 1 个“密探”获得 {Boost} 点增益。
+162212_tooltip;<keyword=deploy>部署：</keyword>使所有友军“密探”获得 {Boost} 点增益。
 162213_fluff;“陛下……”皇家总管呜咽着说。直到刚才为止，根本没人留意他。“求您发发慈悲……卡西尔……我的儿子……”
 162213_name;契拉克·迪弗林
 162213_tooltip;<keyword=deploy>部署：</keyword><keyword=purify>净化</keyword>同排上的所有友军单位。
@@ -838,19 +838,19 @@
 162306_tooltip;<keyword=order>指令：</keyword>对 1 个单位造成 {Damage} 点伤害。\n<keyword=charge>充能：</keyword>{Charges}。\n己方每打出 1 张“谋略牌”，便获得<keyword=charge>充能</keyword> +{Charges2}。
 162307_fluff;近卫军绝不投降，绝不。
 162307_name;近卫军
-162307_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：从己方牌组<keyword=summon>召唤</keyword>所有同名牌至同排。
+162307_tooltip;<keyword=deploy>部署：</keyword>若己方控制 1 个“士兵”单位，则从己方牌组<keyword=summon>召唤</keyword>所有其同名牌至同排。
 162308_fluff;皇帝最忠诚的贴身护卫，誓死保卫皇帝的安全。
 162308_name;近卫军铁卫
-162308_tooltip;<keyword=order>指令：</keyword>对 1 个敌军单位造成 {damage} 点伤害。<keyword=charge>充能：</keyword>{Charges}。\n每有 1 个敌军单位获得<keyword=spying>潜伏</keyword>，则改为获得<keyword=charge>充能</keyword> +{Charges2}。
+162308_tooltip;<keyword=zeal>狂热</keyword>、<keyword=order>指令：</keyword>对 1 个敌军单位造成 {Damage} 点伤害。<keyword=charge>充能：</keyword>{Charges}。\n每有 1 个敌军单位获得<keyword=spying>潜伏</keyword>，便获得<keyword=charge>充能</keyword>+{Charges2}。
 162309_fluff;“皇帝会教北方人懂点儿规矩的。”
 162309_name;那乌西卡旅中士
 162309_tooltip;己方每打出 1 个拥有<keyword=deploy>部署</keyword>能力的单位，自身便获得 {Boost} 点增益。
 162310_fluff;“我们被称作死神头。想知道为什么吗？”
 162310_name;那乌西卡旅
-162310_tooltip;<keyword=deploy>部署：</keyword>对 1 个带有增益的敌军单位造成 {Damage} 点伤害。
+162310_tooltip;<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 {Damage2} 点伤害。\n如该敌军单位带有增益，则改为对其造成 {Damage} 点伤害。
 162311_fluff;“宣誓效忠吾皇恩希尔·恩瑞斯……不然就受刑吧！”
 162311_name;阿尔巴师枪兵
-162311_tooltip;<keyword=melee>近战：</keyword>每个己方回合结束时，对近战排的 1 个随机敌军单位造成 {Damage} 点伤害。
+162311_tooltip;<keyword=melee>近战：</keyword>己方回合结束时，对<keyword=melee>近战</keyword>排上的 1 个随机敌军单位造成 {Damage} 点伤害。\n<keyword=bonded>会师：</keyword>改为对 1 个随机敌军单位造成 {Damage} 点伤害。
 162312_fluff;“为了帝国，至死不渝！”
 162312_name;阿尔巴师矛兵
 162312_tooltip;<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 {Damage} 点伤害。每有 1 张相邻的“士兵”牌，则伤害 +{Damage2}。
@@ -946,7 +946,7 @@
 200039_tooltip;<keyword=melee>近战：</keyword>每有 1 个敌军单位移动，对其造成 {Damage} 点伤害。\n<keyword=ranged>远程：</keyword>每有 1 个友军单位移动，使其获得 {Boost} 点增益。
 200040_fluff;“啊哈哈，你真让我笑掉大牙，北方人！怎么？我手上这把大家伙，你都不一定拿得动，还想用它对付我？”
 200040_name;奎特家族巨剑士
-200040_tooltip;对方同排每有 1 个敌军单位受到伤害，自身便获得 {Boost} 点增益。
+200040_tooltip;<keyword=deploy>部署：</keyword>对自身造成 {Damage} 点伤害。\n每有 1 个敌军单位受到伤害，则<keyword=heal>治疗</keyword>自身 {Heal} 点。
 200041_fluff;并非攻城的最佳选择，却是毁城的行家里手。
 200041_name;重弩海尔格
 200041_tooltip;<keyword=shield>护盾</keyword>。\n<keyword=order>指令：</keyword>对 1 个单位造成 {Damage} 点伤害。\n<keyword=charge>充能：</keyword>{Charges}。\n己方每打出 1 张“谋略牌”，便获得<keyword=charge>充能</keyword> +{Charges2}。
@@ -978,8 +978,8 @@
 200053_name;化器封形
 200053_tooltip;重置 1 个单位的战力，并将其<keyword=lock>锁定</keyword>。
 200055_fluff;没有谁知道暗影长者的真实年龄，连高阶吸血鬼们也不知情。他们唯一清楚的是，无论如何也不能违背他的意愿。
-200055_name;毁灭之影
-200055_tooltip;<keyword=order>指令：</keyword>摧毁 1 个友军“怪兽”单位，随后<keyword=spawn>生成</keyword>并打出 1 张它的基础同名牌。\n\n该能力可以为己方牌组 +{Template.Provision} 人口上限 。
+200055_name;白霜降临
+200055_tooltip;<keyword=order>指令：</keyword>将 1 个敌军单位移至所在半场的另一排，并在其上<keyword=spawn>生成</keyword><keyword=frost>霜</keyword>，持续 {counter} 回合。<keyword=charge>充能：</keyword>{Charge}\n\n该能力可为牌组附加 {Template.Provision} 人口上限。
 200056_fluff;听说过“化兽”吗？就相当于把狼人反过来：这是一种可以变成人形的怪物。
 200056_name;狐妖：真身
 200056_tooltip;<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：<keyword=create>创造</keyword>并打出 1 张任意阵营的特殊牌。
@@ -1036,10 +1036,10 @@
 200104_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：对 1 个敌军单位造成等同于它当前战力一半的伤害。
 200105_fluff;迪门家族的战船轻盈迅捷，最适合追逐缓慢笨重的商船。
 200105_name;迪门家族战船
-200105_tooltip;<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：对 1 个敌军单位造成 {Damage} 点伤害，共计 3 次。
+200105_tooltip;己方每打出 1 名“水手”，便对自身和 1 名随机敌军单位造成 {Damage} 点伤害。\n<keyword=deathwish>遗愿：</keyword>从己方墓场<keyword=summon>召唤</keyword> 1 名随机铜色“水手”至同排。
 200112_fluff;传说她们会用诱人的歌声引水手们上钩……倒不如说，是她们身上一些更加诱人的地方迷住了水手。
 200112_name;女海妖
-200112_tooltip;<keyword=deploy>部署：</keyword>使 1 个友军<keyword=deathwish>遗愿</keyword>单位获得 {Boost} 点增益。
+200112_tooltip;<keyword=deploy>部署：</keyword>使 1 个友军单位获得 {boost} 点增益。若其为“野兽”，则改为使其获得 {boost2} 点增益。
 200114_fluff;有人说，如果被狼人咬了，那么你就会被感染，也变成狼人。当然，猎魔人都知道这是胡说八道。只有强大的诅咒才能造成这种效果。
 200114_name;狼人头领
 200114_tooltip;<keyword=immune>免疫</keyword>。<keyword=thrive>成长</keyword>。
@@ -1050,7 +1050,7 @@
 200118_name;渗透者
 200118_tooltip;<keyword=melee>近战：</keyword>小局结束时，洗入对方牌组。
 200124_fluff;毒蛇学派将会重生……雷索志在必得。
-200124_name;毒蛇学派猎魔人
+200124_name;弑王者
 200124_tooltip;<keyword=deploy>部署：</keyword><keyword=reveal>揭示</keyword>对方牌组顶端的 1 张牌，并将其<keyword=banish>放逐</keyword>。
 200135_fluff;在玛哈坎，这份行当的风险非同一般，因此回报也异常优厚。其中最负盛名的行业翘楚，当数那位名叫麦柯尔·贝的矮人。
 200135_name;烟火技师
@@ -1072,7 +1072,7 @@
 200145_tooltip;<keyword=zeal>狂热</keyword>。 <keyword=order>指令</keyword>（<keyword=melee>近战</keyword>）：使 1 个敌军单位<keyword=bleeding>重伤</keyword> {Bleed} 回合。<keyword=cooldown>冷却：</keyword>{Cooldown}。\n己方每打出 1 张“船只”牌，<keyword=cooldown>冷却</keyword> -{Cooldown2}。
 200146_fluff;“史派克鲁格是一片死水，不过没有关系。我们想要什么，就从你们那儿夺。”
 200146_name;迪门家族走私贩
-200146_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：对 1 个单位造成 {Damage} 点伤害，随后再使其获得 {Boost} 点增益。
+200146_tooltip;<keyword=deploy>部署：</keyword>若打出在“船只”相邻位置，则<keyword=spawn>生成</keyword> 1 张自身的基础同名牌至同排。\n<keyword=order>指令：</keyword>对 1 个单位造成 {Damage} 点伤害。
 200147_fluff;佛兰明妮卡是女德鲁伊最高领袖的头衔，她备受众人的崇敬，拥有无比的力量。
 200147_name;佛兰明妮卡
 200147_tooltip;己方回合结束时，<keyword=heal>治疗</keyword>同排所有其他单位 {Boost} 点。
@@ -1083,8 +1083,8 @@
 200154_name;皇家谕令
 200154_tooltip;从己方牌组打出 1 张单位牌。
 200159_fluff;没人能取代布兰王，但后世定会努力尝试。
-200159_name;身先士卒
-200159_tooltip;<keyword=order>指令：</keyword><keyword=discard>丢弃</keyword> 1 张牌，随后抽 1 张牌。\n小局开始时刷新此能力。\n己方每<keyword=discard>丢弃</keyword> 1 张牌，便对 1 个随机敌军单位造成 {Damage} 点伤害。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
+200159_name;战斗狂热
+200159_tooltip;<keyword=order>指令：</keyword><keyword=spawn>生成</keyword>并打出“致幻菌菇”。\n己方每打出 1 张“炼金”牌，便<keyword=heal>治疗</keyword> 1 个随机友军单位 {boost} 点。\n\n该能力可为牌组附加 {Template.Provision} 人口上限。
 200160_fluff;“尼弗迦德人叫我‘蒂斯·伊斯·穆瑞’，也就是海上野猪。他们还用我的名号来吓唬小孩！”
 200160_name;野猪冲锋
 200160_tooltip;<keyword=order>指令：</keyword>对 1 个敌军单位造成 {Damage} 点伤害。<keyword=cooldown>冷却：</keyword>{Cooldown}。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
@@ -1092,20 +1092,20 @@
 200161_name;鲁莽乱舞
 200161_tooltip;<keyword=order>指令：</keyword>对所有敌军单位造成 {Damage} 点伤害，由他们随机分摊，无视其<keyword=armor>护甲</keyword>。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
 200162_fluff;“我没什么耐心。把我惹毛了，小心小命不保。”
-200162_name;战略撤退
-200162_tooltip;<keyword=order>指令：</keyword>将 1 个友军“尼弗迦德”单位移回手牌，使其获得 {Boost} 点增益，随后打出 1 张牌。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
+200162_name;牢狱之灾
+200162_tooltip;<keyword=order>指令：</keyword><keyword=lock>锁定</keyword> 1 个敌军单位，并对其造成 {Damage} 点伤害。<keyword=charge>充能：</keyword>{Charges}。\n\n该能力可为牌组附加 {Template.Provision} 人口上限。
 200163_fluff;“夏日阳光在阿尔巴河平静的水面上熠熠生辉——我印象中的尼弗迦德就是这样啊。”
 200163_name;帝国列阵
-200163_tooltip;<keyword=order>指令：</keyword>使 1 个友军单位获得 {Boost} 点增益。<keyword=charge>充能：</keyword>{Charges}。\n当所有<keyword=charge>充能</keyword>耗尽，将己方牌组的 1 个“士兵”单位移至牌组顶端。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
+200163_tooltip;<keyword=order>指令：</keyword>使 1 个友军单位获得 {Boost} 点增益。<keyword=charge>充能：</keyword>{Charges}。\n当所有<keyword=charge>充能</keyword>耗尽，将己方牌组的 1 张“士兵”牌移至牌组顶端。\n\n该能力可为牌组附加 {Template.Provision} 人口上限。
 200164_fluff;“剑只是统治者的工具之一。王权之器，不一而足。”
 200164_name;战术决策
-200164_tooltip;<keyword=order>指令：</keyword>检视牌组顶端的 {MaxTargets} 张牌，打出 1 张。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
+200164_tooltip;<keyword=order>指令：</keyword> <keyword=spawn>生成</keyword> 并打出“莫尔凡·符里斯”。\n\n该能力可为牌组附加 {Template.Provision} 人口上限。
 200165_fluff;“世上没有轻而易举的和平，人类的压迫终将画下悲痛的句点。”
-200165_name;神秘回响
-200165_tooltip;<keyword=order>指令：</keyword>从己方墓场打出 1 张“松鼠党”特殊牌。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
+200165_name;自然馈赠
+200165_tooltip;<keyword=symbiosis>共生</keyword>。\n<keyword=order>指令：</keyword>使 1 个友军单位获得<keyword=vitality>活力</keyword>（{Vitality}）回合。<keyword=charge>充能：</keyword>{Charges}。\n\n该能力可为牌组附加 {Template.Provision} 人口上限。
 200166_fluff;树精女王眼似融银，心如冷钢。
 200166_name;精准之击
-200166_tooltip;<keyword=order>指令：</keyword>对 1 个单位造成 {Damage} 点伤害。<keyword=charge>充能：</keyword>{Charges}\n当所有<keyword=charge>充能</keyword>均已使用，<keyword=spawn>生成</keyword>并打出“布洛克莱昂哨兵”。\n\n该能力可以为己方牌组 +{Template.Provision} 人口上限 。
+200166_tooltip;<keyword=order>指令：</keyword>对 1 个单位造成 {damage} 点伤害。<keyword=charge>充能：</keyword>{Charges}。\n当所有<keyword=charge>充能</keyword>耗尽，<keyword=spawn>生成</keyword>并打出“布洛克莱昂哨兵”。\n\n该能力可以为己方牌组附加 {Template.Provision} 人口上限 。
 200167_fluff;“那个老糊涂？你甚至分不清他是活人还是木偶！”
 200167_name;游击战术
 200167_tooltip;<keyword=order>指令：</keyword>将 1 个单位移至其他排，若为敌军单位，则对其造成 {Damage} 伤害；若为友军单位，则使其获得 {Boost} 点增益。<keyword=charge>充能：</keyword>{Charges}。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
@@ -1114,7 +1114,7 @@
 200168_tooltip;<keyword=order>指令：</keyword>使 1 个“北方领域”友军单位获得 {Boost} 点增益和<keyword=zeal>狂热</keyword>。 <keyword=charge>充能：</keyword>{Charges}。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
 200170_fluff;“恕我直言，亨赛特国王不是看起来像贼，他本就是贼。”
 200170_name;战场动员
-200170_tooltip;<keyword=order>指令：</keyword>从牌组打出 1 个友军单位的 1 张同名牌，使其获得 {Boost} 点增益和<keyword=zeal>狂热</keyword>。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
+200170_tooltip;<keyword=order>指令：</keyword><keyword=spawn>生成</keyword> 1 个铜色友军“士兵”单位的基础同名牌至同排，并使其获得 {boost} 点增益。\n\n该能力可为牌组附加 {Template.Provision} 人口上限。
 200171_fluff;他们本是忠于崔丹姆老男爵的士兵，随法利波离开城市后，如今却成了被悬赏的人。
 200171_name;崔丹姆步兵
 200171_tooltip;每当受到增益，便对 1 个随机敌军单位造成 {Damage} 点伤害。
@@ -1123,7 +1123,7 @@
 200177_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：<keyword=spawn>生成</keyword> 1 名“德拉蒙家族持盾女卫”至此排。\n<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：<keyword=spawn>生成</keyword> 1 名“德拉蒙家族女王卫队”至此排。
 200209_fluff;“王权于我毫无意义，只有东方那位才配为尊。”
 200209_name;萨琪亚
-200209_tooltip;<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword> 1 个“精灵暗箭手”、“喧闹的矮人”或“年轻的树精”至同排。\n根据<keyword=spawn>生成</keyword>的单位来获得一个额外的效果。\n“精灵暗箭手” - 对 1 个随机敌军单位造成 {damage} 点伤害。\n“喧闹的矮人” - 使其获得 {boost} 点增益和 {Armor} 点<keyword=armor>护甲</keyword>。\n“年轻的树精” - 获得<keyword=vitality>活力</keyword>（{Vitality}）回合。
+200209_tooltip;<keyword=harmony>和谐</keyword>。\n<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword> 1 名“精灵暗箭手”、“喧闹的矮人”或“年轻的树精”至同排。\n<keyword=spawn>生成</keyword>单位不同，获得的额外效果也不同。\n“精灵暗箭手” - 对 1 名随机敌军单位造成 {damage} 点伤害。\n“喧闹的矮人” - 获得 {boost} 点增益和 {Armor} 点<keyword=armor>护甲</keyword>。\n“年轻的树精” - 获得<keyword=vitality>活力</keyword> {Vitality} 回合。
 200212_fluff;“把他剔出族谱！不许任何人给他食物和庇护！”
 200212_name;史凯裘
 200212_tooltip;<keyword=berserk>狂暴</keyword> {Berserk}：摧毁自身。
@@ -1153,7 +1153,7 @@
 200226_tooltip;对所有战力为偶数的单位造成 {Damage} 点伤害；或对所有战力为奇数的单位造成 {Damage} 点伤害。
 200228_fluff;简单、廉价，又十分好用。难怪它是松鼠党最喜欢用的一种陷阱。
 200228_name;陷坑陷阱
-200228_tooltip;<keyword=ambush>伏击：</keyword>对方打出 1 张牌后，将其人口数化为伤害，分摊给所有敌军单位。
+200228_tooltip;<keyword=ambush>伏击：</keyword>对方打出 1 张牌后，将其人口数化为伤害，随机分摊给所有敌军单位。\n<keyword=spring>翻开：</keyword>将 {Damage} 点伤害随机分摊给所有敌军单位。
 200233_fluff;头部拥有超强的防抖能力，因此总能轻易命中目标的腰椎之间、左肾下面，或是主动脉。
 200233_name;石化鸡蛇
 200233_tooltip;<keyword=deploy>部署：</keyword>每有 1 张“野兽”牌与自身相邻，便对 1 个敌军单位造成 {Damage} 点伤害。
@@ -1168,7 +1168,7 @@
 200236_tooltip;<keyword=melee>近战：</keyword>每个己方回合结束时，获得 {Boost} 点增益。
 200237_fluff;“讨伐怪物可不是什么儿戏。希里必须明白这一点，才能成为一名猎魔人。”
 200237_name;维瑟米尔：学派导师
-200237_tooltip;<keyword=deploy>部署：</keyword>使战场、手牌或牌组中的所有友军“猎魔人”单位获得 {Boost} 点增益。
+200237_tooltip;<keyword=deploy>部署：</keyword>使战场上所有己方猎魔人获得 {Boost} 点增益。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：使己方手牌和牌组中的猎魔人也获得增益。
 200293_fluff;“记住我说的话，如果你们不行动起来，人类就会抢走我们的姑娘！”
 200293_name;矮人煽动分子
 200293_tooltip;<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：使己方手牌中 1 个“矮人”单位获得 {Boost} 点增益。
@@ -1204,7 +1204,7 @@
 200519_tooltip;使 1 个单位获得 {Boost} 点增益，并移除其<keyword=lock>锁定</keyword>状态。
 200520_fluff;只有一样东西能和他打造的长剑相媲美——他包的饺子。
 200520_name;哈托利
-200520_tooltip;<keyword=order>指令：</keyword>从己方墓场打出 1 个铜色神器。
+200520_tooltip;<keyword=deploy>部署：</keyword><keyword=create>创造</keyword>并打出 1 张属于己方起始牌组的“陷阱”牌。
 200523_fluff;陶森特需要这位英雄，但它不配。
 200523_name;吉尔曼
 200523_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：在自身右侧<keyword=spawn>生成</keyword> {Counter} 头“牛”，随后在自身左侧<keyword=spawn>生成</keyword> {Counter} 头“牛”。
@@ -1237,7 +1237,7 @@
 201523_tooltip;<keyword=deploy>部署：</keyword>重置单排所有单位的战力。
 201559_fluff;“呼啊！呼啊！把你们的屁股准备好！我们要狠狠地踹一脚！踢得你们夹着尾巴到处跑！”
 201559_name;玛哈坎志愿军
-201559_tooltip;<keyword=deploy>部署：</keyword>若同排有“矮人”，则从牌组<keyword=summon>召唤</keyword>其所有同名牌至此排。
+201559_tooltip;<keyword=deploy>部署：</keyword>若己方控制 1 个“矮人”单位，则从己方牌组<keyword=summon>召唤</keyword>所有其同名牌至同排。
 201574_fluff;“高个子的是威尔玛。他右边的是威尔弗雷德。结巴的那个是威尔海姆。”
 201574_name;哈罗德的伙伴
 201574_tooltip;<keyword=doomed>佚亡</keyword>。\n<keyword=deathwish>遗愿：</keyword>对 1 个随机敌军单位造成 {Damage} 点伤害。
@@ -1252,7 +1252,7 @@
 201579_tooltip;小局开始时，若“凤凰”位于己方墓场，则将其<keyword=banish>放逐</keyword>，<keyword=spawn>生成</keyword>“雏凤”，并将其<keyword=summon>召唤</keyword>至己方随机一排。
 201580_fluff;“王权怎能单凭出身的贵贱来随便决定？”
 201580_name;战略锁定
-201580_tooltip;在对局开始时，禁止对方领袖在战斗中使用能力。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
+201580_tooltip;<keyword=order>指令：</keyword>本小局禁用对方的领袖能力。若对方领袖没有剩余<keyword=charge>充能</keyword>或正在<keyword=cooldown>冷却</keyword>，则改为在己方<keyword=melee>近战</keyword>排<keyword=spawn>生成</keyword> {MaxTargets} 名“特工”。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
 201581_fluff;欧菲尔的符文大师可以把它们组合成威力无比的符文。
 201581_name;史璀伯格符文石
 201581_tooltip;<keyword=create>创造</keyword>并打出 1 张铜色“史凯利格”阵营牌。
@@ -1275,11 +1275,11 @@
 201589_name;活力回春
 201589_tooltip;<keyword=order>指令：</keyword>使手牌中所有单位牌获得 {Boost} 点增益。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
 201595_fluff;她的诅咒被解除了……但是喜欢吃生肉的习惯却没改掉。
-201595_name;邪恶劈砍
-201595_tooltip;<keyword=order>指令：</keyword>对 1 个敌军单位造成 {damage} 点伤害。\n<keyword=deathblow>致死：</keyword>使目标相邻单位<keyword=bleeding>重伤</keyword>，回合数等同于任何溢出的伤害值。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
+201595_name;钢铁盾墙
+201595_tooltip;<keyword=order>指令：</keyword>使 1 个友军单位获得 {Boost} 点增益和<keyword=shield>护盾</keyword>。\n<keyword=charge>充能：</keyword>{Charges}。\n\n该能力可为牌组附加 {Template.Provision} 人口上限。
 201597_fluff;埃斯特来到辛特拉，本想帮助克拉茨·奎特参加帕薇塔公主的选亲宴，结果自己却赢走了王后的芳心。
-201597_name;重振雄风
-201597_tooltip;<keyword=order>指令：</keyword>从己方墓场打出 1 张人口不高于 {Provision} 点的“史凯利格”单位牌。\n\n该能力可为牌组附加 {Template.Provision} 点人口上限。
+201597_name;怒海汹涛
+201597_tooltip;<keyword=order>指令：</keyword>在敌方单排<keyword=spawn>生成</keyword><keyword=rain>雨</keyword>，持续 {Counter} 回合，同时在己方同排<keyword=spawn>生成</keyword> 1 只“尖啸女海妖”。<keyword=charge>充能：</keyword>{Charges}。\n\n该能力可为牌组附加 {Template.Provision} 人口上限。
 201598_fluff;有时最普通不过的物件却拥有最为强大的威力。
 201598_name;骨制护符
 201598_tooltip;使所有友军单位获得 {Boost} 点增益。
@@ -1294,13 +1294,13 @@
 201601_tooltip;将 1 个敌军单位置于己方牌组顶端。
 201603_fluff;这僧侣为什么戴着镶钉手套……？
 201603_name;雷索：弑王者
-201603_tooltip;<keyword=deploy>部署：</keyword>转变为 1 张位于战场的其他单位的同名牌，战力不变。
+201603_tooltip;<keyword=deploy>部署：</keyword>转变为 1 个单位的基础同名牌，战力不变。
 201606_fluff;要想引叉尾龙上钩，得这样做：在地里打一根桩子，上头绑一只山羊，然后赶紧钻到旁边的灌木丛里藏起来。
 201606_name;叉尾龙
 201606_tooltip;<keyword=deploy>部署：</keyword>对所有其他单位造成 {Damage} 点伤害。
 201609_fluff;诀窍在于摧残他们的意志，而不是肉体。
 201609_name;奴隶猎人
-201609_tooltip;<keyword=assimilate>同化</keyword>。\n<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 {Damage} 点伤害。
+201609_tooltip;<keyword=assimilate>同化</keyword>。\n<keyword=order>指令：</keyword>对 1 个敌军单位造成 {Damage} 点伤害。
 201610_fluff;自由人可以选择。奴隶只能由别人替他们做决定。
 201610_name;奴隶步兵
 201610_tooltip;<keyword=deploy>部署：</keyword>将 1 个友军单位转变为“奴隶步兵”。
@@ -1339,7 +1339,7 @@
 201622_tooltip;若从牌组中被打出，或被<keyword=summon>召唤</keyword>出，则自身获得 {Boost} 点增益。
 201623_fluff;如果在林子里见到一头硕大的野猪，大多数人会尿了裤子，手忙脚乱地朝最近的树上爬。史凯利格人不会。他们反会两眼发直，大流口水。
 201623_name;大野猪
-201623_tooltip;<keyword=Deploy>部署</keyword>（<keyword=melee>近战</keyword>）：每有 1 个受伤的单位，自身便获得 {Boost} 点增益。\n<keyword=Deploy>部署</keyword>(<keyword=ranged>远程</keyword>）：将 1 个敌军单位受到的伤害转化为自身的增益。
+201623_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：每有 1 个受伤的单位，自身便获得 {Boost} 点增益。\n<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：将 1 个敌军单位受到的伤害转化为自身的增益。
 201624_fluff;万劫不复的士兵日复一日地过着同一天，就好像奇安凡尼银行的职员一样。
 201624_name;科德温亡魂
 201624_tooltip;<keyword=order>指令：</keyword>对 1 个单位造成 {Damage} 点伤害。\n<keyword=deathblow>致死：</keyword><keyword=spawn>生成</keyword> 1 张“科德温亡魂”的同名牌，并<keyword=summon>召唤</keyword>至同排。
@@ -1348,7 +1348,7 @@
 201625_tooltip;<keyword=deploy>部署：</keyword>将 1 个不是“被诅咒的骑士”的友军单位转变为“被诅咒的骑士”，战力不变。
 201626_fluff;“吉薇艾儿无法掌控自己所拥有的非凡力量。对她自己，对其他人来说，她都是个危险。除非她学会控制这份力量，否则不能把她放出来。”
 201626_name;希里：新星
-201626_tooltip;<keyword=deploy>部署：</keyword>若起始牌组中没有人口高于 {provision} 点的卡牌，则获得<keyword=resilient>坚韧</keyword>、<keyword=shield>护盾</keyword>和<keyword=veil>遮蔽</keyword>。
+201626_tooltip;<keyword=deploy>部署：</keyword>若起始牌组中所有卡牌的人口均低于{provision} 点，则获得<keyword=resilient>坚韧</keyword>、<keyword=shield>护盾</keyword>和<keyword=veil>遮蔽</keyword>。
 201627_fluff;其他巨魔都觉得他是个异类，毕竟在巨魔们看来，谁会喜欢彩色纸片胜过喜欢石头呢？
 201627_name;店店的大冒险
 201627_tooltip;若己方起始牌组没有重复牌，则派“店店”去冒险。
@@ -1357,7 +1357,7 @@
 201628_tooltip;对 1 个敌军单位造成 {Damage} 点伤害。\n<keyword=deathblow>致死：</keyword><keyword=spawn>生成</keyword> 1 个“科德温亡魂”，并将其<keyword=summon>召唤</keyword>至己方随机一排。
 201630_fluff;萨宾娜的诅咒谁都不放过，就连其他的女术士也难以幸免。
 201630_name;中邪的女术士
-201630_tooltip;<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>移除 1 个单位的<keyword=shield>护盾</keyword>，并使自身获得 {Boost} 点增益。
+201630_tooltip;<keyword=zeal>狂热</keyword>、<keyword=order>指令：</keyword>摧毁 1 个单位的<keyword=shield>护盾</keyword>，并使自身获得 {Boost} 点增益。\n<keyword=charge>充能：</keyword>{Charge}。
 201631_fluff;人类对变形怪深恶痛绝，觉得光是处刑还不够。因此一旦落入人类手中，他们自然就凶多吉少了……
 201631_name;变形怪
 201631_tooltip;<keyword=deploy>部署：</keyword>选择己方手牌中 1 张单位牌，用己方手牌中与它共享主要类别的单位牌数量增益自身。
@@ -1393,7 +1393,7 @@
 201645_tooltip;<keyword=Spring>翻开：</keyword>对单排上所有单位造成 {damage2} 点伤害。\n<keyword=ambush>伏击：</keyword>{counter} 回合后，当己方回合结束时，对对方单位最多一排上的所有敌军单位造成 {damage} 点伤害。
 201646_fluff;能引发这样的疯狂，想必是极其可怖的……
 201646_name;迪兰
-201646_tooltip;<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：将牌组中的 1 张牌移至墓场。
+201646_tooltip;<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：对自身造成 3 点伤害，随后将己方牌组中的 1 张牌移至墓场。
 201647_fluff;有一天等你老了，也会难逃被石头砸中的厄运。
 201647_name;乱石飞舞
 201647_tooltip;对 1 个敌军单位造成 {Damage} 点伤害，并将其移至所在半场另一排。
@@ -1423,7 +1423,7 @@
 201661_tooltip;<keyword=order>指令：</keyword>使 1 个相邻单位获得<keyword=shield>护盾</keyword>。
 201662_fluff;我不会拿自己的性命去碰运气。我会拿上一把长剑，厚厚地涂上一层扼喉者之毒。
 201662_name;扼喉者之毒
-201662_tooltip;<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>摧毁自身和所有战力与“扼喉者之毒”<keyword=charge>充能</keyword>数相同的单位。\n<keyword=charge>充能：</keyword>{Charges2}。\n每个己方回合开始时，以及每当己方打出 1 张“谋略”牌时，自身获得<keyword=charge>充能</keyword> +{Charges}。
+201662_tooltip;使 1 名敌军单位<keyword=poison>中毒</keyword>，随后在己方同排<keyword=spawn>生成</keyword> 1 张它的基础同名牌。
 201664_fluff;“以眼还眼，我们最后一定会全都变成瞎子。”
 201664_name;维尔海夫
 201664_tooltip;<keyword=deploy>部署：</keyword>触发相邻铜色“士兵”单位的<keyword=deploy>部署</keyword>能力。
@@ -1432,7 +1432,7 @@
 201676_tooltip;<keyword=order>指令</keyword>（<keyword=ranged>远程</keyword>）：对 1 个单位造成 {Damage} 点伤害。<keyword=cooldown>冷却：</keyword>{Cooldown}。\n若己方半场只有“松鼠党”单位，则伤害改为 {Damage2} 点。
 201696_fluff;“快走！这是个该死的陷阱！”
 201696_name;保利·达尔伯格
-201696_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：将 1 个友军单位移至所在半场的其他排。\n<keyword=Deploy>部署</keyword>（<keyword=ranged>远程</keyword>）： 使 1 个友军单位获得 {Armor} 点<keyword=armor>护甲</keyword>。
+201696_tooltip;<keyword=deploy>部署：</keyword>将 1 个单位移至其所在半场的另一排。\n<keyword=order>指令：</keyword>使 1 个友军单位获得 2 点<keyword=armor>护甲</keyword>。
 201697_fluff;吸血鬼们纷纷表示：使用这种药水有违体育精神。
 201697_name;黑血
 201697_tooltip;下一次有敌军单位获得增益时，将其与自身一并摧毁。
@@ -1465,7 +1465,7 @@
 201727_tooltip;<keyword=deploy>部署：</keyword>将 1 个随机单位移至对称排。
 201728_fluff;其他巨魔都觉得他是个异类，毕竟在巨魔们看来，谁会喜欢彩色纸片胜过喜欢石头呢？
 201728_name;店店：法师
-201728_tooltip;<keyword=deploy>部署：</keyword>在对方半场<keyword=spawn>生成</keyword>2个随机“整排效果”，持续 {counter} 回合。
+201728_tooltip;<keyword=deploy>部署：</keyword>在全场每一排各<keyword=spawn>生成</keyword>1个随机“整排效果”，持续 {counter} 回合。
 201729_fluff;其他巨魔都觉得他是个异类，毕竟在巨魔们看来，谁会喜欢彩色纸片胜过喜欢石头呢？
 201729_name;店店：法师
 201729_tooltip;<keyword=deploy>部署：</keyword>对战场上所有其他单位造成共计 {Damage} 点伤害，由它们随机分摊。
@@ -1483,7 +1483,7 @@
 201733_tooltip;<keyword=deploy>部署：</keyword>对 {MaxTargets} 个随机敌军单位造成 {Damage} 点伤害。
 201734_fluff;其他巨魔都觉得他是个异类，毕竟在巨魔们看来，谁会喜欢彩色纸片胜过喜欢石头呢？
 201734_name;店店：猎人
-201734_tooltip;<keyword=deploy>部署：</keyword>获得<keyword=resilient>坚韧</keyword>。
+201734_tooltip;<keyword=deploy>部署：</keyword>摧毁 1 个敌军神器。
 201735_fluff;其他巨魔都觉得他是个异类，毕竟在巨魔们看来，谁会喜欢彩色纸片胜过喜欢石头呢？
 201735_name;店店：猎人
 201735_tooltip;<keyword=deploy>部署：</keyword>随机摧毁 1 个敌军单位。
@@ -1504,7 +1504,7 @@
 201740_tooltip;<keyword=deploy>部署：</keyword>使手牌中的 1 个随机单位获得 {Boost} 点增益。
 201741_fluff;其他巨魔都觉得他是个异类，毕竟在巨魔们看来，谁会喜欢彩色纸片胜过喜欢石头呢？
 201741_name;店店：骑士
-201741_tooltip;<keyword=deploy>部署：</keyword>摧毁 1 个敌军神器。
+201741_tooltip;<keyword=deploy>部署：</keyword>获得<keyword=resilient>坚韧</keyword>。
 201742_fluff;其他巨魔都觉得他是个异类，毕竟在巨魔们看来，谁会喜欢彩色纸片胜过喜欢石头呢？
 201742_name;店店：骑士
 201742_tooltip;<keyword=deploy>部署：</keyword>使 1 个友军单位获得 {Boost} 点增益。
@@ -1546,7 +1546,7 @@
 201780_tooltip;<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：随机<keyword=reveal>揭示</keyword>己方牌组 1 张单位牌，并使 1 个友军单位获得其战力的增益。
 201781_fluff;“老巫妪说过你会来。她们在水面上预见了你的到来。”
 201781_name;伊勒瑞斯
-201781_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：<keyword=discard>丢弃</keyword> 1 个“怪兽”单位，自身获得其战力的增益，随后抽 1 张牌。
+201781_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：抽 1 张牌，随后<keyword=discard>丢弃</keyword> 1 张牌。若<keyword=discard>丢弃</keyword>掉的牌为单位牌，则自身获得其战力的增益。
 201817_fluff;“真是难以置信，”希里回过神来想道，“在这个世界，独角兽已经不存在了。它们早就灭绝了。”
 201817_name;伊瓦拉夸克斯
 201817_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：<keyword=summon>召唤</keyword>双方牌组中人口数最高的单位至各自近战排。\n<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：<keyword=summon>召唤</keyword>双方牌组中人口数最低的单位至各自远程排。
@@ -1588,7 +1588,7 @@
 202101_tooltip;每个己方回合结束时，移动至战场上战力最高单位的同排，自身除外。
 202102_fluff;“别看您的工程师脑袋像块炖肉，可他确实是个行家。”
 202102_name;泽维尔·雷曼斯
-202102_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：<keyword=banish>放逐</keyword>对方墓场中最多 {MaxTargets} 张牌。\n<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：<keyword=banish>放逐</keyword>己方墓场中最多 {MaxTargets} 张牌。
+202102_tooltip;<keyword=zeal>狂热</keyword>。\n<keyword=order>指令</keyword>（<keyword=melee>近战</keyword>）：<keyword=banish>放逐</keyword>对方墓场中的 1 张牌。\n<keyword=order>指令</keyword>（<keyword=ranged>远程</keyword>）：<keyword=banish>放逐</keyword>己方墓场中的 1 张牌。\n<keyword=cooldown>冷却：</keyword>{Cooldown}。
 202103_fluff;“克尔图里斯在这儿安家之后，矮人跟她打了将近一百年。后来巨龙厌倦了战斗，矮人也明白她哪儿都不会去，所以双方达成协议。她不去打扰矮人，矮人则尽量满足她的需要。”
 202103_name;克尔图里斯
 202103_tooltip;<keyword=melee>近战：</keyword>每个己方回合结束时，场上单位较多的一方，其最弱的单位将被摧毁。
@@ -1633,7 +1633,7 @@
 202116_tooltip;<keyword=order>指令：</keyword>使 1 个友军单位获得 {Boost} 点增益。<keyword=cooldown>冷却：</keyword>{Cooldown}。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
 202117_fluff;坟墓墙上的壁画描绘了安格林的沼泽，还有徘徊其间的各种野兽。其中最大最可怕的生物头上，刻着这样几个字：猩红夫人。
 202117_name;沼泽果实
-202117_tooltip;<keyword=order>指令：</keyword>在己方单排 <keyword=spawn>生成</keyword>并打出“格尼阔拉的果实”。若己方回合开始时，本方没有控制“格尼阔拉的果实”，则刷新此能力。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
+202117_tooltip;<keyword=order>指令：</keyword>在己方单排<keyword=spawn>生成</keyword> 1 个“格尼阔拉的果实”。\n若己方回合开始时，本方没有控制“格尼阔拉的果实”，则刷新此能力。\n\n该能力可为牌组附加 {Template.Provision} 人口上限。
 202118_fluff;“在我的故乡，在文明世界里，将领的职责是指挥部队，而不是像条疯狗一样横冲直撞，见人就咬。”
 202118_name;奴役蛮夷
 202118_tooltip;<keyword=order>指令：</keyword><keyword=seize>抓捕</keyword> 1 个战力不高于 {power} 点的敌军单位。\n己方起始牌组每有 {Counter} 张“谋略”牌，则抓捕对应战力提高 {Counter2} 点。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
@@ -1645,7 +1645,7 @@
 202121_tooltip;<keyword=deploy>部署：</keyword>将 1 个单位移至其所在半场的另一排。
 202122_fluff;“我认识一对小夫妻，刚结婚就劳燕分飞了。因为婚车里放了颗炸弹。”
 202122_name;炸弹手
-202122_tooltip;<keyword=deploy>部署：</keyword>摧毁 1 个敌军神器。
+202122_tooltip;<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 1 点伤害。\n若手牌中有“炸弹”牌，则改为造成 3 点伤害。
 202124_fluff;看起来像螃蟹和蜘蛛的杂交……只是体型硕大无比。
 202124_name;蟹蜘蛛巨兽
 202124_tooltip;无特殊能力。
@@ -1735,7 +1735,7 @@
 202153_tooltip;每打出 1 个拥有<keyword=order>指令</keyword>能力的单位，自身便获得 {Boost} 点增益。
 202154_fluff;“有本事从马上下来！”
 202154_name;利维亚矛兵
-202154_tooltip;<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 {Damage} 点伤害。\n<keyword=resupply>增兵：</keyword>自身获得 {Boost} 点增益。
+202154_tooltip;<keyword=order>指令：</keyword>对 1 个敌军单位造成 {Damage} 点伤害。\n<keyword=resupply>增兵：</keyword>自身获得 {Boost} 点增益。
 202155_fluff;“我能百步穿杨！不过，我可能得多射几箭……”
 202155_name;莱里亚强弩手
 202155_tooltip;<keyword=order>指令：</keyword>对 1 个单位造成 {Damage} 点伤害。\n<keyword=charge>充能：</keyword>{Charges}。\n己方每打出 1 张拥有<keyword=order>指令</keyword>能力的牌，便获得<keyword=charge>充能</keyword> +{Charges2}。
@@ -1756,7 +1756,7 @@
 202160_tooltip;无特殊能力。
 202161_fluff;“喂饱乡亲，割倒仇敌。”
 202161_name;莱里亚镰刀手
-202161_tooltip;<keyword=deploy>部署：</keyword>每有 1 个带有增益的友军单位，自身便获得 {Boost} 点增益。
+202161_tooltip;<keyword=deploy>部署：</keyword>同排每有 1 个受到增益的友军单位，自身便获得 {Boost} 点增益。
 202162_fluff;“不管是死是活，这个精灵都是我的。都给我记住了！”
 202162_name;车队首领
 202162_tooltip;无特殊能力。
@@ -1834,13 +1834,13 @@
 202186_tooltip;<keyword=order>指令：</keyword><keyword=create>创造</keyword>对方的 1 张手牌，随后打出。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
 202187_fluff;人们叫她“辛特拉的母狮”。这可不是毫无根据的。
 202187_name;四面夹击
-202187_tooltip;<keyword=order>指令：</keyword>从手牌中打出 1 张“北方领域”牌，随后抽任意一张牌。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
+202187_tooltip;<keyword=order>指令：</keyword>选择并抽 1 张“北方领域”牌，随后将 1 张手牌洗回牌组。若抽的牌是单位牌，则使其获得 {Boost} 点增益。\n\n该能力可为牌组附加 {Template.Provision} 人口上限。
 202188_fluff;万紫千红百花香，窈窕淑女现身姿，世间生灵常相随，草木鸟兽无不从。
 202188_name;和谐之唤
-202188_tooltip;<keyword=order>指令：</keyword>从牌组打出 1 张人口数量不高于 {power}  点的“松鼠党”牌，己方起始牌组中每有 1 张主类别唯一的“松鼠党”牌，便使该数值增加 1 点。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
+202188_tooltip;<keyword=order>指令：</keyword> <keyword=spawn>生成</keyword> 并打出“达娜·梅碧”。\n\n该能力可为牌组附加 {Template.Provision} 人口上限。
 202189_fluff;斯瓦勃洛唯一的戒律：杀伐。
 202189_name;巨熊仪式
-202189_tooltip;<keyword=order>指令：</keyword>对 1 个友军单位造成 {Damage} 点伤害。<keyword=charge>充能：</keyword>{Charges}。\n当所有<keyword=charge>充能</keyword>均已使用，在己方随机单排<keyword=spawn>生成</keyword> 1 头“异变巨熊”\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
+202189_tooltip;<keyword=order>指令：</keyword>对 1 个友军单位造成 {Damage} 点伤害。<keyword=charge>充能：</keyword>{Charges}。\n当所有<keyword=charge>充能</keyword>耗尽，在己方随机单排<keyword=spawn>生成</keyword> 1 头“异变巨熊”。\n\n该能力可为牌组附加 {Template.Provision} 人口上限。
 202190_fluff;“若是月亮一片血红，那就速速紧闭门窗，让宝宝快快上床……"
 202190_name;猩红诅咒
 202190_tooltip;在敌方单排<keyword=spawn>生成</keyword><keyword=blood_moon>血月</keyword>，持续 {Counter} 回合，随后在己方同排<keyword=spawn>生成</keyword> {Counter2} 只“蝙魔”。
@@ -1867,7 +1867,7 @@
 202197_tooltip;<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：将己方牌组中任一牌移至顶端。
 202198_fluff;“谁不愿意像鸟儿一样，无忧无虑地生活？只怕薇薇恩·塔布里司不敢苟同。”
 202198_name;薇薇恩：月下金莺
-202198_tooltip;<keyword=deploy>部署：</keyword>摧毁 1 个敌军神器，随后自身获得其人口数的<keyword=boost>增益</keyword>。
+202198_tooltip;<keyword=deploy>部署：</keyword>自身获得增益，数值等同于右侧第一个单位的人口数。
 202199_fluff;“格雷葛瑞？浑身肌肉的大块头，被盔甲包得严严实实。我当然知道！谁不认识他呀。”
 202199_name;高贡山丘的格雷葛瑞
 202199_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：对 1 个敌军单位造成 {Damage} 点<keyword=damage>伤害</keyword>。\n<keyword=deathblow>致死：</keyword>自身获得 {Boost} 点<keyword=boost>增益</keyword>和<keyword=shield>护盾</keyword>。
@@ -1876,7 +1876,7 @@
 202200_tooltip;<keyword=deploy>部署：</keyword>随机获得<keyword=shield>护盾</keyword>、 <keyword=doomed>佚亡</keyword>、<keyword=resilient>坚韧</keyword>或<keyword=poison>中毒</keyword>。
 202201_fluff;“居然有人不喜欢传送门？”
 202201_name;传送门
-202201_tooltip;<keyword=deploy>部署：</keyword>从己方牌组各<keyword=summon>召唤</keyword> 1 个人口数为 {Counter} 的随机单位至自身两侧。
+202201_tooltip;<keyword=deploy>部署：</keyword>从牌组中随机<keyword=summon>召唤</keyword> 1 个人口数为 {Counter} 的单位到此牌左侧。\n3 回合后，随机从牌组中<keyword=summon>召唤</keyword> 1 个人口数为 {Counter} 的单位到此牌右侧。
 202202_fluff;桑格烈独具醇厚的橡木风味，备受行家赞誉，只有女爵陛下才能享用……而她品尝的次数非常、非常频繁。
 202202_name;桑格烈
 202202_tooltip;使 1 个单位获得 {Boost} 点<keyword=boost>增益</keyword>和<keyword=shield>护盾</keyword>。
@@ -1891,7 +1891,7 @@
 202205_tooltip;对对方单排两端的单位各造成 {Damage} 点<keyword=damage>伤害</keyword>。
 202206_fluff;只要不在你的脸上爆炸，简直就是奇观。
 202206_name;舞动之星炸弹
-202206_tooltip;摧毁 1 个神器，或对 1 个单位造成 {Damage} 点<keyword=damage>伤害</keyword>。
+202206_tooltip;对 1 个敌军单位造成 {damage} 点伤害。\n<keyword=deathblow>致死：</keyword>同时对目标右侧单位造成伤害，伤害降低 {damage2} 点。
 202207_fluff;既污秽又危险。
 202207_name;恶魔之尘炸弹
 202207_tooltip;使 1 个敌军单位<keyword=poison>中毒</keyword>。\n<keyword=deathblow>致死：</keyword>对与其相邻的单位造成 {Damage} 点伤害。
@@ -1939,7 +1939,7 @@
 202222_tooltip;<keyword=deploy>部署：</keyword>使 1 个敌军单位<keyword=bleeding>重伤</keyword>，回合数等同于友军“吸血鬼”单位的数量。\n<keyword=ranged>远程：</keyword>每个己方回合结束时，自身获得等同于正在<keyword=bleeding>重伤</keyword>的敌军单位数量的增益。
 202223_fluff;它们的活动范围仅仅局限在大陆的一个地区，被学者们认为是极度濒危的物种。真是谢天谢地……
 202223_name;原蝠翼魔
-202223_tooltip;<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 {Damage} 点伤害。\n<keyword=dominance>统御：</keyword>改为<keyword=drain>汲食</keyword> 1 个敌军单位 {Drain} 点战力。
+202223_tooltip;<keyword=deploy>部署：</keyword>使 1 名敌军单位<keyword=bleeding>重伤</keyword> ({Bleed}) 回合，随后自身获得该<keyword=bleeding>重伤</keyword>回合数的增益。
 202224_fluff;“如此恐怖的现场……显然是蝠翼脑魔所为。”
 202224_name;蝠翼脑魔
 202224_tooltip;在每个己方回合结束时，若有<keyword=bleeding>重伤</keyword>的敌军单位，则自身获得 {Boost} 点增益。
@@ -1954,10 +1954,10 @@
 202228_tooltip;<keyword=purify>净化</keyword> 1 个敌军单位，并对其造成 {Damage} 点伤害。\n若己方控制 1 个“吸血鬼”，还将使其<keyword=bleeding>重伤</keyword> {Bleed} 回合。
 202229_fluff;“夜之子是众神降下的惩戒！长久以来，我们放任巫师和肮脏的非人种族和自己共处一室！忏悔吧！在你们的灵魂腐烂之前，忏悔吧！”
 202229_name;蝠翼魔
-202229_tooltip;<keyword=deploy>部署：</keyword>摧毁 1 个友军单位，并获得<keyword=vitality>活力</keyword> {Vitality} 回合。
+202229_tooltip;每当 1 个敌军单位受到<keyword=bleeding>重伤</keyword>，便获得同等回合数的<keyword=vitality>活力</keyword>。
 202230_fluff;长久以来，恐怖的梦魇让镇民苦不堪言。走投无路之下，他们只好贴出一张告示，盼望能够请到救兵……“嗯。一定是吸血鬼女作祟。”猎魔人嘟囔道。
 202230_name;吸血鬼女
-202230_tooltip;<keyword=deploy>部署：</keyword>使 1 个敌军单位<keyword=bleeding>重伤</keyword> {Bleed} 回合。
+202230_tooltip;<keyword=deploy>部署：</keyword>使 1 名敌军单位<keyword=bleeding>重伤</keyword>（{Bleed}）回合。\n<keyword=order>指令：</keyword>使 1 名敌军单位<keyword=bleeding>重伤</keyword>（{Bleed2}）回合。
 202231_fluff;一只构成不了什么威胁。要是有一群？那就很要命了。
 202231_name;渴血鸟怪
 202231_tooltip;<keyword=deploy>部署：</keyword>使 1 个敌军单位<keyword=bleeding>重伤</keyword> {Bleed} 回合。\n<keyword=bonded>会师：</keyword>改为使 1 个敌军单位<keyword=bleeding>重伤</keyword> {Bleed2} 回合。
@@ -1975,10 +1975,10 @@
 202236_tooltip;<keyword=order>指令</keyword>（<keyword=melee>近战</keyword>）：重新启用己方领袖的能力。
 202237_fluff;谣传德高望重的帕尔梅林·德·郎佛尔男爵大逆不道，竟然和一个女夜魔有染。不过，对于这种毫无根据的道听途说，女爵陛下不予置信。
 202237_name;帕尔梅林·德·郎佛尔
-202237_tooltip;<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 {Damage} 点伤害。\n<keyword=deathblow>致死：</keyword>使相邻己方单位获得<keyword=shield>护盾</keyword>。\n若手牌中有“米尔顿”，则在<keyword=deploy>部署</keyword>时触发<keyword=deathblow>致死</keyword>效果，无论目标是否存活。
+202237_tooltip;<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 {damage} 点伤害。\n<keyword=deathblow>致死：</keyword>使相邻敌军单位获得<keyword=spying>潜伏</keyword>。\n若手牌中有“米尔顿”，则总会触发该<keyword=deathblow>致死</keyword>能力。
 202238_fluff;游侠骑士盾牌上硕大的银白色牛头在鲍克兰的阳光下熠熠生辉、清晰可见。
 202238_name;米尔顿·德·佩拉克-佩兰
-202238_tooltip;<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 {Damage} 点伤害。\n<keyword=deathblow>致死：</keyword>使相邻敌军单位各受到 {Damage2} 点伤害。\n若手牌中有“帕尔梅林”，则触发自身的<keyword=deathblow>致死</keyword>能力，无论目标是否存活。
+202238_tooltip;<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 {damage} 点伤害。\n<keyword=deathblow>致死：</keyword>对相邻的敌军单位造成 {damage2} 点伤害。\n若手牌中有“帕尔梅林”，则总会触发该<keyword=deathblow>致死</keyword>能力。
 202239_fluff;据说他创造出的幻象栩栩如生，连他自己都开始信了……
 202239_name;亚托列司·薇歌
 202239_tooltip;<keyword=assimilate>同化</keyword>。\n<keyword=deploy>部署：</keyword><keyword=create>创造</keyword>并打出属于己方起始牌组，且战力为 {Set} 的 1 张铜色单位的同名牌。
@@ -2176,7 +2176,7 @@
 202303_tooltip;<keyword=order>指令：</keyword>对 1 个敌军单位造成 {damage} 点伤害，并根据溢出伤害的数量获得相等的<keyword=coin>金币</keyword>。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
 202304_fluff;“嘿，克特，去看看梅莉葛德女士在鬼叫什么。或许是她皮痒了？”
 202304_name;克特
-202304_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：<keyword=lock>锁定</keyword> 1 个单位。\n<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：<keyword=purify>净化</keyword> 1 个单位。
+202304_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：为 1 个敌军单位设置“<keyword=bounty>赏金</keyword>”。\n<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：<keyword=purify>净化</keyword> 1 个单位。
 202305_fluff;有些女巫猎人坚信，清剿法师和女术士是为了让世界变得更加美好。而莫雷斯则不需要这种崇高的理由。
 202305_name;莫雷斯
 202305_tooltip;<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 {Damage} 点伤害。\n<keyword=tribute>献金</keyword>  {Tribute-B.P.BB_Tribute}：改为将其摧毁。
@@ -2185,13 +2185,13 @@
 202306_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：<keyword=heal>治愈</keyword> 1 个友军单位。\n<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：使 1 个友军单位获得 {Boost} 点增益。\n<keyword=tribute>献金</keyword> {Tribute-B.P.BB_Tribute}：同时触发上述两个<keyword=deploy>部署</keyword>能力。
 202307_fluff;“我的拍卖行，主要为精英名流们提供了相聚之所。”
 202307_name;霍斯特·波索迪
-202307_tooltip;<keyword=profit>利润</keyword> {Income}。\n若“艾瓦德·波索迪”位于己方墓场，则该牌的初始“<keyword=profit>利润</keyword>”提高 {Income2} 点。\n<keyword=fee>费用</keyword>（<keyword=ranged>远程</keyword>）{cost}：使 1 个友军单位获得 {Boost} 点增益。
+202307_tooltip;<keyword=deploy>部署：</keyword>获得 {Coins} 枚<keyword=coin>金币</keyword>。\n若“艾瓦德·波索迪”位于己方墓场，则改为获得 {Coins2} 个<keyword=coin>金币</keyword>。
 202308_fluff;巧言令色迷君眼，玉手纤纤把羊牵。
 202308_name;狡诈的美人儿
 202308_tooltip;<keyword=fee>费用</keyword> {Cost}：获得<keyword=shield>护盾</keyword>。\n对方每打出一个单位，自身获得 {Boost} 点增益。\n<keyword=bonded>会师：</keyword>对方每打出一张牌，自身获得 {Boost} 点增益。
 202309_fluff;“这么多年我一直苦心经营这个计划，现在是时候付诸行动了。你们愿意帮忙吗？”
 202309_name;艾瓦德·波索迪
-202309_tooltip;<keyword=profit>利润</keyword> {Income}。\n若“霍斯特·波索迪”位于己方墓场，则该牌的初始“<keyword=profit>利润</keyword>”提高 {Income2} 点。\n<keyword=fee>费用</keyword>（<keyword=melee>近战</keyword>）{cost}：对 1 个敌军单位造成 {Damage} 点伤害。
+202309_tooltip;<keyword=deploy>部署：</keyword>对 1 名敌军单位造成 {Damage} 点伤害。\n若“霍斯特·波索迪”位于己方墓场，则改为对 1 名敌军单位造成 {damage2} 点伤害。
 202310_fluff;“抱歉女士……都怪我走路不长眼睛。”
 202310_name;妙手空空
 202310_tooltip;<keyword=profit>利润</keyword> {Income}。
@@ -2215,7 +2215,7 @@
 202316_tooltip;<keyword=profit>利润</keyword> {Income}。\n<keyword=fee>费用</keyword> {Cost}：使 1 个友军单位获得<keyword=vitality>活力</keyword> {Vitality} 回合。
 202317_fluff;“反正我也不怎么喜欢蜜蜂。”
 202317_name;利可·梅耶朵夫
-202317_tooltip;当“利可”位于手牌时：对手每打出下一个单位，便使“利可”的战力等同为该单位的基础战力。
+202317_tooltip;当“利可”位于手牌时，对手每打出一个单位，便使“利可”的战力等同为该单位的战力。
 202318_fluff;“要是不小心砍到你的秀发，那就太可惜了。”
 202318_name;女巫猎人行刑官
 202318_tooltip;<keyword=profit>利润</keyword> {Income}。\n<keyword=fee>费用</keyword> {Cost}：使 1 个敌军单位<keyword=bleeding>重伤</keyword> {Bleed} 回合。若目标身负“<keyword=bounty>赏金</keyword>”，则改为对其造成 {Damage} 点伤害。
@@ -2227,7 +2227,7 @@
 202320_tooltip;<keyword=deploy>部署：</keyword>为 1 个敌军单位设置“<keyword=bounty>赏金</keyword>”。
 202321_fluff;“老娘这儿来过的客人比瑞达尼亚的军队加起来还要多。”
 202321_name;路易莎夫人
-202321_tooltip;<keyword=intimidate>恐吓</keyword>。\n<keyword=order>指令：</keyword>己方本小局内的下一个<keyword=tribute>献金</keyword>花费变为 {Cost}。
+202321_tooltip;<keyword=intimidate>恐吓</keyword>。\n<keyword=tribute>献金</keyword> {Tribute-B.P.BB_Tribute}：获得<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>你在本小局的下一次<keyword=tribute>献金</keyword>花费为 {Cost}。
 202322_fluff;“典型的症状包括瞳孔扩散、牙齿打战，以及疯疯癫癫。”
 202322_name;“白砂糖”
 202322_tooltip;<keyword=profit>利润</keyword> {Income}。\n使 1 个单位<keyword=poison>中毒</keyword>。
@@ -2245,13 +2245,13 @@
 202327_tooltip;<keyword=deploy>部署：</keyword>摧毁 1 个友军单位，获得等同于它基础战力的增益。
 202328_fluff;“我只对真正的权力感兴趣。”
 202328_name;黑市买卖
-202328_tooltip;<keyword=order>指令：</keyword>获得 {Coins} 枚<keyword=coin>金币</keyword>。<keyword=charge>充能：</keyword>{Charges}。\n己方的每次<keyword=tribute>献金</keyword>费用降低 {Tribute} 枚<keyword=coin>金币</keyword>。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
+202328_tooltip;<keyword=order>指令：</keyword>获得 {Coins} 枚<keyword=coin>金币</keyword>。<keyword=charge>充能：</keyword>{Charges}。\n己方的<keyword=tribute>献金</keyword>花费减少 {Tribute} 枚<keyword=coin>金币</keyword>。\n\n该能力可为牌组附加 {Template.Provision} 人口上限。
 202329_fluff;“庞塔尔河这几天人比鱼多。”
 202329_name;与鱼共眠
 202329_tooltip;<keyword=profit>利润</keyword> {Income}。\n对 1 个敌军单位造成 {Damage} 点伤害。
 202330_fluff;“我-我已经把钱都给你了！”
 202330_name;收获之日
-202330_tooltip;对 1 个敌军单位造成 {Damage} 点伤害。\n<keyword=deathblow>致死：</keyword>获得 {Coins} 个<keyword=coin>金币</keyword>。
+202330_tooltip;对 1 个敌军单位造成 {damage} 点伤害。每溢出 1 点伤害，便获得 1 枚<keyword=coin>金币</keyword>。
 202331_fluff;曾经是海上水手的梦魇，如今却在港口赋闲。满载金银，不再扬帆。
 202331_name;踏浪帮密所
 202331_tooltip;<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：手牌中每有 1 张“水手”牌，便使 1 个友军单位获得 {Boost} 点增益。
@@ -2272,7 +2272,7 @@
 202336_tooltip;获得 {Coins} 枚<keyword=coin>金币</keyword>。若对方控制 1 个“神器”，则改为获得 {Coins2} 枚<keyword=coin>金币</keyword>。
 202337_fluff;“干嘛一副苦瓜脸，朋友？”
 202337_name;霍桑的怪诞秀
-202337_tooltip;<keyword=insanity>癫狂</keyword>。\n<keyword=fee>费用</keyword> {Cost}：使 1 个敌军单位<keyword=bleeding>重伤</keyword> {Bleed} 回合。若因<keyword=insanity>癫狂</keyword>触发，则改为对 1 个随机敌军单位造成 {Damage} 点伤害。
+202337_tooltip;<keyword=profit>利润</keyword> {income}。\n<keyword=fee>费用</keyword> {cost}（<keyword=melee>近战</keyword>）：对 1 个敌军单位造成 {damage} 点伤害。
 202338_fluff;“他们在你眼中是人，可在我看来却是一群肥羊。"
 202338_name;镇民
 202338_tooltip;己方获得<keyword=coin>金币</keyword>时，自身获得 {Boost} 点增益。
@@ -2308,7 +2308,7 @@
 202348_tooltip;己方每打出一个单位到“先知雷比欧达”身旁，便使该单位获得<keyword=shield>护盾</keyword>。
 202349_fluff;“你能感觉到吗？那种超越温暖的，难以言喻的感觉……”
 202349_name;神圣之火
-202349_tooltip;<keyword=deploy>部署：</keyword>在此牌的两侧<keyword=spawn>生成</keyword> 1 名“火誓狂热者”。\n<keyword=order>指令：</keyword>使同排所有单位获得 {Boost} 点增益。
+202349_tooltip;<keyword=deploy>部署：</keyword>在该卡牌两侧<keyword=spawn>生成</keyword> 1 个“火誓狂热者”。\n<keyword=order>指令：</keyword>使所有己方“火誓”单位获得 {boost} 点增益。
 202350_fluff;“圣火之中，没有罪人能逃脱命运。这一点我笃信不疑。”
 202350_name;大审讯官赫韦德
 202350_tooltip;<keyword=profit>利润</keyword> {Income}。\n<keyword=fee>费用</keyword> {Cost}：<keyword=spawn>生成</keyword> 1 名“火誓狂热者”至同排。
@@ -2413,7 +2413,7 @@
 202383_tooltip;<keyword=deploy>部署：</keyword>自身获得 {Boost} 点增益。\n本场对局己方每打出过 1 张“特殊牌”，该增益值便提高 {Counter} 点。
 202384_fluff;“当时是谁说要把我的双手绑在后面，再时不时踹上几脚，嗯？”
 202384_name;诺维格瑞的制裁
-202384_tooltip;<keyword=spawn>生成</keyword> 1 个“砍刀的打手”至己方<keyword=melee>近战</keyword>排，并从己方牌组打出 1 张铜色“矮人”牌。
+202384_tooltip;从己方牌组打出 1 张铜色“黑金会”或矮人单位。\n若己方已经控制一名矮人或“黑金会”成员，还会<keyword=spawn>生成</keyword> 1 名“砍刀的打手”至己方<keyword=melee>近战</keyword>排。
 202385_fluff;“他登场了！我那穿着猪甲的骑士！”
 202385_name;针牙爵士
 202385_tooltip;<keyword=intimidate>恐吓</keyword> {Intimidate}。\n<keyword=tribute>献金</keyword> {Tribute-B.P.BB_Tribute}：获得<keyword=immune>免疫</keyword>。
@@ -2430,8 +2430,8 @@
 202389_name;雕刻家佛科
 202389_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：从牌组打出 1 张“罪行”牌。
 202390_fluff;“多亏有你，我的狗今晚不会饿着了。”
-202390_name;袖口王牌
-202390_tooltip;<keyword=order>指令：</keyword>从牌组打出 1 张“辛迪加”特殊牌。若其人口数不高于 {Counter} 点，则获得 {Coins} 个<keyword=coin>金币</keyword>。\n\n该能力可为牌组附加 {Template.Provision} 个人口上限。
+202390_name;水手海湾
+202390_tooltip;<keyword=order>指令：</keyword><keyword=spawn>生成</keyword> 1 名“海狼”至己方单排，然后获得 {Coins} 枚<keyword=coin>金币</keyword>。\n\n该能力可为牌组附加 {Template.Provision} 人口上限。
 202392_fluff;“在谎言横流的城市里，真相就是一把利器。”
 202392_name;沃尔特·维里塔司
 202392_tooltip;<keyword=deploy>部署：</keyword>创造并打出 1 张铜色“辛迪加”阵营牌。
@@ -2653,10 +2653,10 @@
 202470_tooltip;<keyword=defender>卫士</keyword>。\n<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword>“喧闹的矮人”至同排。
 202471_fluff;他们为了彼此赴汤蹈火，甘之如饴。
 202471_name;卓尔坦的伙伴
-202471_tooltip;在己方单排<keyword=spawn>生成</keyword> {Counter} 个“喧闹的矮人”。
+202471_tooltip;在己方单排<keyword=spawn>生成</keyword> {Counter} 个“喧闹的矮人”。\n若己方控制“卓尔坦”，则使该排上的所有“矮人”获得 {Armor} 点<keyword=armor>护甲</keyword>。
 202472_fluff;“随你们怎么画，各位亲爱的矮人。但是我把话放在这里，它造不出来。”
 202472_name;矮人战车
-202472_tooltip;<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword> 1 个“喧闹的矮人”至同排\n<keyword=bonded>会师：</keyword>改为<keyword=spawn>生成</keyword> {Counter} 个“喧闹的矮人”至同排。
+202472_tooltip;<keyword=deploy>部署：</keyword>在同排<keyword=spawn>生成</keyword> 1 名“喧闹的矮人”。\n<keyword=order>指令：</keyword>使 1 名友军单位获得 {Armor} 点<keyword=armor>护甲</keyword>。\n<keyword=cooldown>冷却：</keyword>{Cooldown}。
 202473_fluff;矮人的刀剑极其坚韧。几乎和矮人一样。
 202473_name;淬火
 202473_tooltip;使 1 个友军单位获得 {Boost} 点增益。若为“矮人”，则还会获得 {Armor} 点<keyword=armor>护甲</keyword>。
@@ -2728,7 +2728,7 @@
 202503_tooltip;<keyword=order>指令：</keyword>对相邻单位造成 {Damage} 点伤害。每伤害 1 个单位，自身便获得 {Boost} 点增益。\n<keyword=crew>操控：</keyword>改为使自身获得 {boost2} 点增益。
 202504_fluff;天下没有攻不破的堡垒。无非就是合不合算的问题。
 202504_name;围攻
-202504_tooltip;剧情：己方每打出 1 张“攻城器械”牌时推进。\n序章：在己方远程排<keyword=spawn>生成</keyword> 1 个“加强型投石机”。\n第一章：在己方远程排<keyword=spawn>生成</keyword> 1 个“攻城槌”。\n第二章：<keyword=spawn>生成</keyword>并打出“炮击”。
+202504_tooltip;<keyword=doomed>佚亡</keyword>。\n剧情：己方每打出 1 张“攻城器械”牌时推进。\n序章：在己方<keyword=ranged>远程排</keyword><keyword=spawn>生成</keyword> 1 个“加强型投石机”。\n第一章：在己方<keyword=ranged>远程排</keyword><keyword=spawn>生成</keyword> 1 个“攻城槌”。\n第二章：<keyword=spawn>生成</keyword>并打出“炮击”。
 202505_fluff;战车冲入人群，敌人犹如割麦一般纷纷倒地……
 202505_name;战车
 202505_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：使 1 个敌军单位<keyword=bleeding>重伤</keyword> {Bleeding} 回合\n<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：将 1 个敌军单位移至所在半场的另一排。\n<keyword=crew>操控：</keyword>将这两个<keyword=deploy>部署</keyword>能力组合。
@@ -2752,7 +2752,7 @@
 202512_tooltip;<keyword=order>指令：</keyword>抽 1 张牌，随后<keyword=discard>丢弃</keyword> 1 张牌，并<keyword=spawn>生成</keyword> 1 只“乌鸦”至己方<keyword=melee>近战</keyword>排。
 202513_fluff;树下安坐帝王位。树上吊死卖国贼。
 202513_name;圣树盖迪尼斯
-202513_tooltip;剧情：己方每打出 1 张“德鲁伊”牌时推进。\n序章：在同排<keyword=spawn>生成</keyword> 1 个“鸦母布道者”。\n第一章：<keyword=spawn>生成</keyword>并打出“乌鸦眼块茎”。\n第二章：<keyword=spawn>生成</keyword>并打出“致幻菌菇”。
+202513_tooltip;<keyword=doomed>佚亡</keyword>。\n剧情：己方每打出 1 张“德鲁伊”牌时推进。\n序章：在同排<keyword=spawn>生成</keyword> 1 个“鸦母布道者”。\n第一章：<keyword=spawn>生成</keyword>并打出“乌鸦眼块茎”。\n第二章：<keyword=spawn>生成</keyword>并打出“致幻菌菇”。
 202514_fluff;有些乌鸦会说人话。而有些人，学会了乌鸦的语言。
 202514_name;乌鸦之母
 202514_tooltip;<keyword=deploy>部署：</keyword>在同排<keyword=spawn>生成</keyword> {Counter} 只“乌鸦”。\n己方每打出 1 张“炼金”牌，便从墓场<keyword=summon>召唤</keyword>“乌鸦之母”至己方随机一排。
@@ -2788,7 +2788,7 @@
 202525_tooltip;在己方回合结束时，若自身并非场上战力最高的单位，则获得 2 点增益。
 202526_fluff;“不把早饭吃完，鬼婆就要来吃你了！”
 202526_name;鬼婆
-202526_tooltip;剧情：己方每打出 1 个<keyword=deathwish>遗愿</keyword>单位时推进。\n序章：在同排<keyword=spawn>生成</keyword> 1 个“沙漠女妖”。\n第一章：<keyword=spawn>生成</keyword>并打出 1 只“幽冥犬”。\n第二章：<keyword=spawn>生成</keyword>并打出 1 只“夜之妖灵”。
+202526_tooltip;<keyword=doomed>佚亡</keyword>。\n己方每打出 1 张<keyword=deathwish>遗愿</keyword>单位牌时推进。\n序章：在同排<keyword=spawn>生成</keyword> 1 个“沙漠女妖”。\n第一章：<keyword=spawn>生成</keyword>并打出“幽冥犬”。\n第二章：<keyword=spawn>生成</keyword>并打出“夜之妖灵”。
 202527_fluff;有人说它们是狂猎的先锋。有人说它们是复仇的化身。幽冥犬对活人毫不留情，这一点大家倒是意见一致。
 202527_name;幽冥犬
 202527_tooltip;<keyword=deploy>部署：</keyword><keyword=consume>吞噬</keyword> 1 个友军单位。\n<keyword=order>指令</keyword>、<keyword=dominance>统御</keyword>： <keyword=consume>吞噬</keyword> 1 个友军单位。
@@ -2815,7 +2815,7 @@
 202535_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：每个友军“精灵暗箭手”对 1 个随机敌军单位造成 {Damage} 点伤害。\n<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：<keyword=spawn>生成</keyword> {Count} 个“精灵暗箭手”至同排。
 202536_fluff;设埋伏一般都得藏起来。不过……也有例外。
 202536_name;假死
-202536_tooltip;剧情：己方每打出 1 张“精灵”牌时推进。\n序章：在同排<keyword=spawn>生成</keyword> 1 个“精灵暗箭手”。\n第一章：在同排<keyword=spawn>生成</keyword> 2 个“精灵暗箭手”。\n第二章：<keyword=spawn>生成</keyword>“伏击”。
+202536_tooltip;<keyword=doomed>佚亡</keyword>。\n剧情：己方每打出 1 张“精灵”牌时推进。\n序章：在同排<keyword=spawn>生成</keyword> 1 个“弗妮希尔的突击队”。\n第一章：在同排<keyword=spawn>生成</keyword> 2 个“精灵暗箭手”。\n第二章：<keyword=spawn>生成</keyword>并打出“伏击”。
 202537_fluff;只听一阵呼啸……六个人颓然倒毙。
 202537_name;弗妮希尔的突击队
 202537_tooltip;在己方回合结束时，若控制的单位全为“精灵”，则自身获得 {Boost} 点增益。\n若己方控制“弗妮希尔”，则忽视上述条件。
@@ -2836,7 +2836,7 @@
 202543_tooltip;<keyword=deploy>部署：</keyword>摧毁一个带有状态的敌军单位。
 202544_fluff;欧菲丽·凡·莫拉汉姆喜欢举办盛大的庆典。虽然总有一些宾客会消失得无影无踪，但人们对此好像却无动于衷……
 202544_name;假面舞会
-202544_tooltip;剧情：己方每打出 1 张“望族”牌时推进。\n序章：在同排<keyword=spawn>生成</keyword> 1 位“口渴的夫人”。\n第一章：<keyword=spawn>生成</keyword>并打出“帝国毒牙”。\n第二章：<keyword=spawn>生成</keyword>并打出“帝国毒牙”。
+202544_tooltip;<keyword=doomed>佚亡</keyword>。剧情：己方每打出 1 张“望族”牌时推进。\n序章：在同排<keyword=spawn>生成</keyword> 1 位“口渴的夫人”。\n第一章：<keyword=spawn>生成</keyword>并打出“帝国毒牙”。\n第二章：<keyword=spawn>生成</keyword>并打出“帝国毒牙”。
 202545_fluff;据说文森特·凡·莫拉汉姆只怕一个人。不是恩希尔·恩瑞斯，也不是利维亚的杰洛特，而是他的亲生儿子。
 202545_name;菲利普·凡·莫拉汉姆
 202545_tooltip;<keyword=order>指令</keyword>（<keyword=ranged>远程</keyword>）：对 1 个单位造成 {Damage} 点伤害。<keyword=cooldown>冷却：</keyword>{Cooldown}。\n若目标拥有状态，则改为对其造成 {Damage2} 点伤害。
@@ -2863,7 +2863,7 @@
 202553_tooltip;若己方控制以下帮派中的任一单位：\n暗巷帮 - 所有其他效果提高 1 点。\n黑金会 - 使战力最低的 1 个友军单位获得 {Boost} 点增益。\n鬼面帮 - 对战力最高的 1 个敌军单位造成 {Damage} 点伤害。\n火誓者 - <keyword=spawn>生成</keyword> {Counter} 个“火誓狂热者”至己方随机一排。\n踏浪帮 - 获得 {Coins} 个<keyword=coin>金币</keyword>。
 202554_fluff;来这里参拜的人，比去永恒之火神殿的还要多……
 202554_name;帕西佛罗拉
-202554_tooltip;剧情：己方每打出 1 个“暗巷帮”成员时推进。\n序章：在同排<keyword=spawn>生成</keyword> 1 个“狡诈的美人儿”。\n第一章：在同排<keyword=spawn>生成</keyword>“帕西佛罗拉佳丽”。\n第二章：获得 {Coins} 枚<keyword=coin>金币</keyword>。
+202554_tooltip;<keyword=doomed>佚亡</keyword>。\n剧情：己方每打出 1 个“暗巷帮”时推进。\n序章：在同排<keyword=spawn>生成</keyword>“帕西佛罗拉佳丽”。\n第一章：获得 {Coins} 枚<keyword=coin>金币</keyword>。\n第二章：在同排<keyword=spawn>生成</keyword> 1 个“狡诈的美人儿”。
 202555_fluff;富可敌国，丧尽天良。
 202555_name;萨乌尔·德·那瓦雷特
 202555_tooltip;<keyword=hoard>囤积</keyword> {Hoard-B.P.BB_Hoard}：在己方回合结束时，自身获得 {Boost} 点增益。\n<keyword=hoard>囤积</keyword> {Hoard2-B.P.BB_Hoard}：在己方回合结束时，改为自身获得 {Boost2} 点增益。\n<keyword=hoard>囤积</keyword> {Hoard3-B.P.BB_Hoard}：在己方回合结束时，改为自身获得 {Boost3} 点增益。
@@ -2926,7 +2926,7 @@
 202592_tooltip;<keyword=veil>遮蔽</keyword>。\n<keyword=deploy>部署：</keyword>将己方手牌最左侧的牌转变为己方阵营的 1 张随机传奇牌（不在起始牌组中）\n己方每打出最右侧的手牌，重复此能力。
 202593_fluff;她最可怕的噩梦也会成为你的……
 202593_name;虚无
-202593_tooltip;<keyword=doomed>佚亡</keyword>。\n己方回合结束时，若右侧的单位不是“恶魔”，则将其变为自身的一张基础同名牌。
+202593_tooltip;<keyword=doomed>佚亡</keyword>。\n<keyword=deploy>部署：</keyword>获得<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>将右侧第一个单位转变为自身的 1 张基础同名牌。
 202594_fluff;破译梦境中的过去和未来是非常困难的，即使对大师也是如此。
 202594_name;解梦术
 202594_tooltip;<keyword=echo>回响</keyword>。\n从牌组中打出任一张牌。
@@ -2983,7 +2983,7 @@
 202611_tooltip;<keyword=deploy>部署：</keyword>将 1 个敌军单位移至所在半场的另一排。若所移至排上有<keyword=frost>霜</keyword>，则对其造成 {Damage} 点伤害。
 202612_fluff;“人类不了解是什么在驱动着纳吉尔法，不了解它魔力源自哪里……如果谁不小心发现了，那他应该也活不长了。”
 202612_name;纳吉尔法船员
-202612_tooltip;<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword><keyword=frost>刺骨冰霜</keyword>至对方单排，持续 {counter} 回合。\n己方回合结束时，若对方同排上有<keyword=frost>刺骨冰霜</keyword>，则自身获得 {boost} 点增益。
+202612_tooltip;<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword><keyword=frost>霜</keyword>至对方单排，持续 {counter} 回合。\n己方回合结束时，若对方同排上有<keyword=frost>霜</keyword>，则自身获得 {boost} 点增益。
 202613_fluff;她会确保这艘船从卑贱的人类身上不断榨取生命的精华。
 202613_name;纳吉尔法工头
 202613_tooltip;<keyword=deploy>部署：</keyword><keyword=purify>净化</keyword> 1 个敌军单位。\n<keyword=dominance>统御：</keyword>改为<keyword=purify>净化</keyword> 1 个单位。
@@ -2992,10 +2992,10 @@
 202614_tooltip;<keyword=veil>遮蔽</keyword>。\n<keyword=deploy>部署：</keyword>摧毁自身。\n<keyword=devotion>赤诚：</keyword>取消<keyword=deploy>部署</keyword>能力。
 202615_fluff;毫无疑问，那场与巨熊的战斗让他变成了另外一个人，至于是好是坏，则众说纷纭。
 202615_name;哈罗德·奎特
-202615_tooltip;<keyword=deploy>部署：</keyword>从己方墓场打出 1 个铜色“战士”，使其<keyword=doomed>佚亡</keyword>并受到 {Damage} 点伤害。\n小局开始时，若在手牌或牌组中，进化。
+202615_tooltip;<keyword=deploy>部署：</keyword>从己方墓场打出 1 个铜色“战士”，使其<keyword=doomed>佚亡</keyword>并受到 {Damage} 点伤害。\n小局开始时，若在手牌或牌组中，历变。
 202616_fluff;长久的痛苦折磨让他产生了一种无法抑制的渴望，想要把同样的痛苦带给别人。
 202616_name;好战者哈罗德
-202616_tooltip;<keyword=deploy>部署：</keyword>从己方墓场打出 1 个铜色“战士”，使其<keyword=doomed>佚亡</keyword>。\n<keyword=devotion>赤诚：</keyword>小局开始时，若在手牌或牌组中，进化。
+202616_tooltip;<keyword=deploy>部署：</keyword>从己方墓场打出 1 个铜色“战士”，使其<keyword=doomed>佚亡</keyword>。\n<keyword=devotion>赤诚：</keyword>小局开始时，若在手牌或牌组中，历变。
 202617_fluff;在占领所有岛屿，将老族长的脑袋摆在他面前之前，他不会停下。
 202617_name;“瘸子”哈罗德
 202617_tooltip;<keyword=veil>遮蔽</keyword>。\n<keyword=deploy>部署：</keyword>从己方墓场打出 1 个铜色“战士”，使其<keyword=doomed>佚亡</keyword>。\n己方每打出 1 张“战士”牌，便对 1 个随机敌军单位造成 {Damage} 点伤害，
@@ -3031,7 +3031,7 @@
 202629_tooltip;<keyword=profit>利润</keyword> {Income}。\n<keyword=tribute>献金</keyword> {Tribute-B.P.BB_Tribute}：<keyword=spawn>生成</keyword> {counter} 个“火誓狂热者”至同排。\n小局开始时，若位于手牌或牌组，发生历变。
 202630_fluff;眼前的视界不仅吓坏了贾奎斯，也让他决定变得更强。
 202630_name;艾德斯伯格的贾奎斯
-202630_tooltip;<keyword=profit>利润</keyword> {Income}。\n<keyword=tribute>献金</keyword> {Tribute-B.P.BB_Tribute}：<keyword=spawn>生成</keyword> {Counter} 个“烈焰蔷薇步兵”至同排。\n<keyword=fee>费用</keyword> {cost}：自身获得 {boost} 点增益。\n<keyword=devotion>赤诚：</keyword>小局开始时，若在手牌或牌组中，进化。
+202630_tooltip;<keyword=profit>利润</keyword> {Income}。\n<keyword=tribute>献金</keyword> {Tribute-B.P.BB_Tribute}：<keyword=spawn>生成</keyword> {Counter} 个“烈焰蔷薇步兵”至同排。\n<keyword=fee>费用</keyword> {cost}：自身获得 {boost} 点增益。\n<keyword=devotion>赤诚：</keyword>小局开始时，若在手牌或牌组中，历变。
 202631_fluff;“如能拯救，何记代价。”
 202631_name;大团长贾奎斯
 202631_tooltip;<keyword=veil>遮蔽</keyword>、<keyword=profit>利润</keyword> {Income}。\n<keyword=tribute>献金</keyword> {Tribute-B.P.BB_Tribute}：<keyword=spawn>生成</keyword> {Counter} 个“烈焰蔷薇步兵”至同排。\n<keyword=fee>费用</keyword> {cost}：自身获得 {boost} 点增益。\n己方每打出 1 张“火誓者”牌，便获得 {Coin} 枚<keyword=coin>金币</keyword>。
@@ -3055,7 +3055,7 @@
 202637_tooltip;<keyword=profit>利润</keyword> {Income}。\n<keyword=tribute>献金</keyword> {Tribute-B.P.BB_Tribute}：<keyword=spawn>生成</keyword> 1 名“火誓狂热者”至同排。\n<keyword=fee>费用</keyword> {Cost}：将 1 名“火誓狂热者”转变为 1 名“烈焰蔷薇步兵”。
 202638_fluff;他不再为正义而战，心中的烈焰也早已熄灭。
 202638_name;堕落的骑士
-202638_tooltip;<keyword=veil>遮蔽</keyword>、<keyword=intimidate>恐吓</keyword>。\n己方每<keyword=spawn>生成</keyword> 1 个单位，自身便获得 {Boost} 点增益。
+202638_tooltip;<keyword=veil>遮蔽</keyword>、<keyword=intimidate>威吓</keyword>\n己方每在本方半场<keyword=spawn>生成</keyword> 1 个单位，自身便获得 {Boost} 点增益。
 202639_fluff;只要他继续为正义而战，骑士团和烈焰就永不熄灭。
 202639_name;孤独的勇士
 202639_tooltip;<keyword=immune>免疫</keyword>。\n<keyword=deploy>部署：</keyword>摧毁所有同排的“火誓者”衍生物，随后自身获得其战力总和的增益。
@@ -3088,7 +3088,7 @@
 202648_tooltip;<keyword=veil>遮蔽</keyword>、<keyword=zeal>狂热</keyword>。\n<keyword=order>指令</keyword>（<keyword=melee>近战</keyword>）：对 1 个敌军单位造成 {Damage} 点伤害。\n己方回合结束时，若<keyword=order>指令</keyword>能力尚未使用，则使右侧的 1 个单位获得 {Boost} 点增益。
 202649_fluff;“以火制火、以火制人、以火制非人种族……基本上，以火制一切！”
 202649_name;烟熏火烤
-202649_tooltip;<keyword=spawn>生成</keyword> {Counter} 名“志愿军”至己方单排，并使其获得 {Boost} 点增益。
+202649_tooltip;在己方单排<keyword=spawn>生成</keyword> {Counter} 个“志愿军”。\n若己方控制 1 个受到增益的单位，还会使<keyword=spawn>已生成</keyword>的“志愿军”获得 {Boost} 点增益。
 202650_fluff;“我应该买艘船”，一只凯拉克猫如是说。或者是首醉乡民谣唱到的。
 202650_name;凯拉克护卫舰
 202650_tooltip;<keyword=order>指令：</keyword><keyword=spawn>生成</keyword> 1 名“志愿军”至同排。\n<keyword=crew>操控：</keyword>己方回合结束时，刷新此能力。
@@ -3115,7 +3115,7 @@
 202657_tooltip;<keyword=veil>遮蔽</keyword>。\n<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword> 1 个“特工”至对方每一排。\n<keyword=zeal>狂热</keyword>、<keyword=order>指令：</keyword><keyword=seize>抓捕</keyword>所有<keyword=spying>潜伏</keyword>“特工”。\n己方每打出 1 个“密探”，则自身获得 {Boost} 点增益。
 202658_fluff;他的名字在尼弗迦德语中听起来就像“刺猬”，所以巴拉森斯决定干脆把他变成刺猬。许多年后，恩希尔以同样的方式报复了法师。而“布拉森斯”和“油煎”发音近似。
 202658_name;布拉森斯
-202658_tooltip;<keyword=assimilate>同化</keyword>。\n<keyword=deploy>部署：</keyword><keyword=create>创造</keyword>并打出 1 张铜色<keyword=disloyal>不忠</keyword>“尼弗迦德”单位牌。
+202658_tooltip;<keyword=assimilate>同化</keyword>。\n<keyword=deploy>部署：</keyword><keyword=create>创造</keyword>并打出 1 张属于己方起始牌组的铜色<keyword=disloyal>不忠</keyword>单位牌。
 202659_fluff;有时毁灭只是一种简单的仁慈。
 202659_name;致命一击
 202659_tooltip;<keyword=echo>回响</keyword>。\n对 1 个敌军单位造成 {Damage} 点伤害。\n<keyword=deathblow>致死：</keyword><keyword=spawn>生成</keyword>并打出它的 1 张基础同名牌。\n<keyword=conspiracy>共谋：</keyword>总是触发<keyword=deathblow>致死</keyword>能力。
@@ -3175,7 +3175,7 @@
 202678_tooltip;<keyword=symbiosis>共生</keyword>。\n己方回合结束时，若该单位具有<keyword=vitality>活力</keyword>，则自身获得 {Boost} 点增益。
 202679_fluff;“你们已经征服了这个世界，人类，你们所谓的进步无处不在，无处不有。但这里不欢迎它。”
 202679_name;橡树之地护卫
-202679_tooltip;<keyword=veil>遮蔽</keyword>、<keyword=symbiosis>共生</keyword>。\n<keyword=deploy>部署：</keyword>对 1 个敌军单位造成 {Damage} 点伤害。
+202679_tooltip;<keyword=veil>遮蔽</keyword>、<keyword=symbiosis>共生</keyword>。\n<keyword=order>指令：</keyword>对 1 个敌军单位造成 {Damage} 点伤害。
 202680_fluff;它们尤其喜欢啃手指，就像嚼胡萝卜一样。
 202680_name;橡树之灵
 202680_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：使 1 个敌军单位<keyword=bleeding>重伤</keyword>（{bleed}）回合。\n<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：在同排<keyword=spawn>生成</keyword> 1 张自身的同名牌。\n<keyword=devotion>赤诚：</keyword>使用这两个能力。
@@ -3203,6 +3203,282 @@
 202704_fluff;白雪和烈火，是他们为天空和大地涂抹的颜色。
 202704_name;红骑士：扩散
 202704_tooltip;<keyword=spawn>生成</keyword>“霜”至对方每一排，持续 {counter} 回合。
+202705_fluff;万紫千红百花香，窈窕淑女现身姿，世间生灵常相随，草木鸟兽无不从。
+202705_name;达娜梅碧
+202705_tooltip;<keyword=doomed>佚亡</keyword>。\n<keyword=harmony>和谐</keyword>。
+202706_fluff;即便全村人都饿肚子，我们也绝不去这片树林打猎。
+202706_name;林妖
+202706_tooltip;<keyword=doomed>佚亡</keyword>
+202707_fluff;“夏日阳光在阿尔巴河平静的水面上熠熠生辉——我印象中的尼弗迦德就是这样啊。”
+202707_name;莫尔凡·符里斯
+202707_tooltip;<keyword=doomed>佚亡</keyword>。\n<keyword=deploy>部署：</keyword>抽至多 {Counter} 张牌，随后将相同数量的牌置于牌组顶端。
+202776_fluff;一名反叛者……流放者……骑士……甚至说是女术士也可以，只要你信。
+202776_name;阿尔祖
+202776_tooltip;己方每打出 1 张法术牌，便在同排随机<keyword=spawn>生成</keyword> 1 个人口数相同的单位。\n倒数：{Counter}。
+202778_fluff;“也许生命中不止是唱歌和跳舞……”
+202778_name;落雪
+202778_tooltip;<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>抽 {MaxTargets} 张牌，随后将 {MaxTargets} 张牌洗回牌组。\n己方每抽 1 张牌，自身便获得 {Boost} 点增益。
+202779_fluff;孩子们总缠着他要礼物。他也闹不明白为什么，不过也好，倒是不用为实验对象发愁了。
+202779_name;柯西莫·马拉斯宾那
+202779_tooltip;<keyword=deploy>部署：</keyword>将相邻单位转变为人口多 1 点的单位。
+202780_fluff;人们都说情人眼里出西施，但没人想看到伊达兰眼中的美………
+202780_name;乌里沃的伊达兰
+202780_tooltip;每回合己方第一次在本方半场<keyword=spawn>生成</keyword> 单位，便会在同排随之<keyword=spawn>生成</keyword> 1 个 {power} 战力的同名牌，随后该同名牌获得<keyword=doomed>佚亡</keyword>。
+202781_fluff;“杰洛特的口中泛起铁锈味，他高声吟唱，向前方甩出一只手，五指张开，结成昆恩法印。”
+202781_name;杰洛特：昆恩法印
+202781_tooltip;<keyword=shield>护盾</keyword>。\n<keyword=deploy>部署：</keyword>从牌组打出 1 张“猎魔人”牌。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：使其获得<keyword=shield>护盾</keyword>。
+202782_fluff;我们只能摧毁自己的造物，但不能使其灭绝。
+202782_name;选择性突变
+202782_tooltip;选择抽 1 张带有<keyword=adrenaline>亢奋</keyword>能力的牌，随后将 1 张手牌洗回牌组。在己方半场两排各<keyword=spawn>生成</keyword> 1 名“猎魔人学徒”。
+202783_fluff;熟稔魔法的人也会时常把它和五角弄混，从而导致恐怖的灾难。
+202783_name;三角法阵
+202783_tooltip;使 1 个友军单位获得其人口数的增益，或对 1 个敌军单位造成其人口数的伤害。
+202784_fluff;说服水生人不再要求用获奖奶牛当祭品，可不是件容易事。
+202784_name;贝连迦尔
+202784_tooltip;己方回合结束时，若为所在排唯一的“猎魔人”，则将其摧毁。
+202785_fluff;稍加提醒，他就能徒手抓住飞来的箭矢
+202785_name;雷欧
+202785_tooltip;<keyword=deploy>部署：</keyword>己方每控制 1 名“猎魔人”，自身便获得 {Boost} 点增益。
+202786_fluff;魔法在她身上不起作用，皆因她是骄傲的暗日之女——她也是一名赏金猎人，其中不乏一些极其强大的女术士。
+202786_name;马克西·范·德卡尔
+202786_tooltip;<keyword=deploy>部署：</keyword>按照从上至下的顺序查看监视己方牌组。\n可以选择重洗牌组，随后将 1 张牌置于牌组底端。
+202787_fluff;十个孩子里……最多能活下来四个。
+202787_name;猎魔人学徒
+202787_tooltip;<keyword=doomed>佚亡</keyword>。
+202788_fluff;玫瑰是红。
+202788_name;红色突变诱发物
+202788_tooltip;对 1 个敌军单位造成 {Damage} 点伤害。
+202789_fluff;紫罗兰是蓝。
+202789_name;蓝色突变诱发物
+202789_tooltip;使 1 个友军单位<keyword=poison>中毒</keyword>，并获得 {Coins2} 个<keyword=coin>金币</keyword>。
+202790_fluff;而这个绿色突变送给你。
+202790_name;绿色突变诱发物
+202790_tooltip;使 1 个友军单位获得 {Boost} 点增益和<keyword=veil>遮蔽</keyword>。
+202791_fluff;每道伤痕背后都有一个恐怖的传说——多到你不敢相信哪个是真的。
+202791_name;伊瓦‧邪眼
+202791_tooltip;<keyword=deploy>部署：</keyword>与 1 个敌军单位交换战力。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：改为对 1 个敌军单位造成 {Damage} 点伤害。
+202792_fluff;“凶残、狡猾。会在攻击猎物前耐心潜伏数小时。一旦出击，猎物便无处可逃，旋即丧命。”——伊瓦‧邪眼
+202792_name;沼蛇
+202792_tooltip;小局结束时，置于对方墓场。\n己方回合结束时，若位于墓场，则<keyword=banish>放逐</keyword>其中人口最低的一张牌。\n若“沼蛇”为墓场中的唯一牌，则使其获得<keyword=doomed>佚亡</keyword>，随后<keyword=summon>召唤</keyword>其至对方随机一排。
+202793_fluff;这个要塞中曾经藏着许多写有狂猎传奇故事的卷轴和手稿——原因也很简单。
+202793_name;格斯维德
+202793_tooltip;<keyword=resilient>坚韧</keyword>。\n<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword>并打出“毒蛇学派猎魔人学徒”、“毒蛇学派猎魔人”、“毒蛇学派猎魔人导师”或“毒蛇学派猎魔人炼金师”。\n<keyword=order>指令：</keyword>将 1 张牌从对方墓场移至其牌组顶端。
+202794_fluff;只有在倒了好几次大霉之后，幸运女神才会对他笑笑。
+202794_name;寇格林姆
+202794_tooltip;<keyword=adrenaline>亢奋</keyword> {Adrenaline}：己方回合结束时，自身获得当前双方牌库剩余卡牌数量差值的增益。
+202795_fluff;没想到在对萨波雷法印稍稍调整后，沃里特居然获得了……洞悉一切的能力。
+202795_name;全知者沃里特
+202795_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：将对方牌组中人口数最高的牌置于其牌组顶端。\n<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：将对方牌组中人口数最低的牌置于其牌组顶端。
+202796_fluff;毒蛇学派猎魔人善使双剑，常被形容成“毒牙”。这种战斗风格侧重于狂风骤雨般的打击，目的就是让对手毫无喘息之机，无论是人还是怪物。
+202796_name;毒蛇学派猎魔人
+202796_tooltip;<keyword=deploy>部署：</keyword>使 1 个敌军单位<keyword=bleeding>重伤</keyword>（{Bleed}）回合。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：在对方牌组顶端<keyword=spawn>生成</keyword> 1 张该单位的基础同名牌。
+202797_fluff;毒蛇学派的导师个个冷酷无情，这是为了让学生们能对未来的严酷生活做好准备。
+202797_name;毒蛇学派猎魔人导师
+202797_tooltip;<keyword=deploy>部署：</keyword>设置此牌的战力，数值等于对手牌组顶端卡牌的人口数。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：改为数值等于对手牌组中费用最高卡牌的人口数。
+202798_fluff;“越磨砺不一定越锋芒，也可能越脆弱。真的，这得看情况。”
+202798_name;毒蛇学派猎魔人炼金师
+202798_tooltip;<keyword=deploy>部署：</keyword>检视己方牌组顶的 {MaxTargets} 张牌，将 1 张置于顶端，随后与对方牌组顶端的牌进行交换。
+202799_fluff;在毒蛇学派大本营受训期间，每个学生都要养一只宠物，以便在整个训练过程中培养出深厚的感情。数年后，在成为一名完全合格的猎魔人之前，他们需要冷血地解决这只陪伴多年的宠物。
+202799_name;毒蛇学派猎魔人学徒
+202799_tooltip;己方回合结束时，若对方牌库中剩余卡牌数量多于你，则自身获得 {Boost} 点增益。
+202800_fluff;伤不在深，致命就行。
+202800_name;涂毒武器
+202800_tooltip;对 1 个敌军单位造成 {damage} 点伤害。\n<keyword=deathblow>致死：</keyword><keyword=banish>放逐</keyword>它，在对方牌组顶端<keyword=spawn>生成</keyword> 1 张该单位的基础同名牌。
+202801_fluff;“任何时候都要尽量接艾恩·希德的委托，而非人类的，否则钱还没拿到，肋条上却挨上一刀。” - 吉兹拉斯
+202801_name;雷达的吉兹拉斯
+202801_tooltip;<keyword=melee>近战：</keyword>己方回合结束时，将自身移至<keyword=ranged>远程</keyword>排，并使其上的一个随机友军单位获得 {Boost} 点增益。\n<keyword=ranged>远程：</keyword>己方回合结束时，将自身移至<keyword=melee>近战</keyword>排，并对对方近战排的一个随机敌军单位造成 {Damage} 点伤害。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：从只针对一个随机单位改为影响单排所有其他单位。
+202802_fluff;“它本是皇家动物园的珍藏，某天一支松鼠党的突击队袭击了展览，释放了这头野兽，并把它和残忍的主人关在了一起。打那以后，它就爱上了那个的味道。”
+202802_name;刃齿虎
+202802_tooltip;<keyword=zeal>狂热</keyword>、<keyword=order>指令：</keyword>将自身转变为“刃齿虎：潜行”。
+202803_fluff;猫学派猎魔人并没能在斯提嘉城堡里住上多久，事实上，他们在哪里都没住得长久。
+202803_name;斯提嘉城堡
+202803_tooltip;<keyword=resilient>坚韧</keyword>。\n<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword>并打出“猫学派猎魔人学徒”、“猫学派猎魔人”、“猫学派猎魔人导师”或“猫学派猎魔人恶徒”。\n<keyword=order>指令：</keyword>将 {MaxTargets} 个友军单位移至所在半场另一排。
+202804_fluff;他被称为伊雷洛的猫，但这个绰号和出身无关，只因他结果了诸多农户，或者说是屠戮。
+202804_name;布雷恩
+202804_tooltip;<keyword=deploy>部署：</keyword>若对方单排有至少 {Counter} 个单位，则摧毁最右侧的单位。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：改为若对方单排有至少 {Counter2} 个单位，则摧毁最右侧的单位。
+202805_fluff;“为了省几克朗就想害我？”这种混蛋我也要保护？- 盖坦
+202805_name;盖坦
+202805_tooltip;<keyword=deploy>部署：</keyword>将此排上的其他卡牌移至所在半场的另一排。\n每移动 1 张牌，便对 1 个随机敌军单位造成 {Damage} 点伤害。
+202806_fluff;猫学派的人因为在战斗时的狂暴和残忍被人们广为诟病。即使敌人放弃抵抗、哭求饶恕也绝不留情……猫嘛，残忍的动物。
+202806_name;猫学派猎魔人
+202806_tooltip;己方回合结束时，移至另一排，并对对方同排的一名随机敌人造成 {Damage} 点伤害。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：改为造成 {Damage2} 点伤害。
+202807_fluff;“如果你掉下来就死定了，孩子。九条命也不够。”
+202807_name;猫学派猎魔人导师
+202807_tooltip;<keyword=deploy>部署：</keyword>自身获得此排上其他卡牌数量的增益。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：每有 1 张牌被打出至此排，自身便获得 {Boost} 点增益。
+202808_fluff;“没什么好说的，他们的恶行如同乌云，至今还笼罩在我们的名誉头上。” - 维瑟米尔
+202808_name;猫学派猎魔人恶徒
+202808_tooltip;<keyword=deploy>部署：</keyword>将 1 个敌军单位移至所在排的最左侧。每过一张牌，便对其造成 {Damage} 点伤害。
+202809_fluff;猫学派的学徒会蒙眼走钢丝来锻炼平衡能力。一开始，失败了还不算大事，但随着不断接近最终试炼，脚下的钢丝越走越高，越走越危险。这时候，失败了就不是那么简单的事了。
+202809_name;猫学派猎魔人学徒
+202809_tooltip;<keyword=deploy>部署</keyword>（<keyword=melee>近战</keyword>）：使 1 个敌军单位<keyword=bleeding>重伤</keyword>，回合数等于其所在排上的单位数量。\n<keyword=deploy>部署</keyword>（<keyword=ranged>远程</keyword>）：使 1 个友军单位获得<keyword=vitality>活力</keyword>，回合数等于其所在排上的单位数量。
+202810_fluff;“你最好按着说明来……”
+202810_name;做炸弹
+202810_tooltip;将 1 个敌军单位移至它所在半场的另一排，使其<keyword=bleeding>重伤</keyword>({Bleed}）回合。若它为该排上唯一单位，则改为对其造成 {Damage} 点伤害。
+202811_fluff;“猎魔人的工作就是狩猎怪物，拿钱。没别的了。” - 阿纳哈德
+202811_name;阿纳哈德
+202811_tooltip;<keyword=deploy>部署：</keyword>每有 1 个受伤的单位，自身便获得 {Armor} 点<keyword=armor>护甲</keyword>。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：对方每在其半场打出 1 个单位，便使其受到阿纳哈德战力值的伤害，并且对阿纳哈德造成该单位战力值的伤害。
+202812_fluff;在无数次都没能降伏这头凶猛野兽后，它变成了一个十足的……活动军械库。
+202812_name;巨熊
+202812_tooltip;该单位所在己方和对方同排上的单位无法获得增益。
+202813_fluff;它开凿于阿梅尔山脉的冰岩中，隐藏在锯齿状的峭壁和积雪下，可这座被长久遗弃的熊学派要塞究竟在哪儿，却是个三缄其口的秘密。
+202813_name;海恩卡维赫
+202813_tooltip;<keyword=resilient>坚韧</keyword>。\n<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword>并打出“熊学派猎魔人学徒”、“熊学派猎魔人”、“熊学派猎魔人导师”或“熊学派猎魔人军需官”。\n<keyword=order>指令：</keyword><keyword=heal>治疗</keyword>相邻单位 {Boost} 点。
+202814_fluff;他的委托是杀死一条龙，一只女妖和一只吸血妖鸟。他还被一名复仇的骑士、一名赏金猎人和诸多强盗追杀。尽管如此，他还是抽空打了一圈昆特牌。
+202814_name;格德
+202814_tooltip;<keyword=deploy>部署：</keyword>在对方同排<keyword=spawn>生成</keyword> 1 只“尖啸女海妖”并对其上的所有单位造成 {Damage} 点伤害。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：改为在对方同排<keyword=spawn>生成</keyword> 1 只“尖啸女海妖”并对其造成 {Damage} 点伤害。
+202815_fluff;据传说，他是一名女巨人和一名异常勇武的侏儒的畸恋产物。
+202815_name;贝哈文的朱诺德
+202815_tooltip;<keyword=deploy>部署：</keyword>摧毁 1 个受伤的敌军单位。
+202816_fluff;独自上路的日子可不好过——记得带上所有应用之物。
+202816_name;熊学派猎魔人
+202816_tooltip;<keyword=deploy>部署：</keyword>自身受到 {Damage} 点伤害。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：改为对自身和 1 个敌军单位造成 {Damage} 点伤害。
+202817_fluff;“如果你不确定路，有路标——都是些被冻的梆硬的准猎魔人。”
+202817_name;熊学派猎魔人导师
+202817_tooltip;<keyword=deploy>部署：</keyword>每有一个受伤的友军单位，自身便获得 {Boost} 点增益。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：改为每有一个受伤的单位，自身便获得 {Boost} 点增益。
+202818_fluff;只要让他灌饱了玛哈坎蜜酒，没准他会给你讲讲那头熊是怎么咬掉他的盾牌和胳膊的。
+202818_name;熊学派猎魔人军需官
+202818_tooltip;<keyword=order>指令：</keyword>对 1 个友军单位造成 {Damage} 点伤害，随后<keyword=spawn>生成</keyword> 1 个“猎魔人学徒”至同排。\n<keyword=charge>充能：</keyword>{Charges}。
+202819_fluff;要成为熊学派猎魔人，所有学徒必须通过山岳试炼。而这需要冒险爬上高贡峰，取得一块特殊的符石作为证明。这个无比残酷的试炼让许多孩子还没到顶峰便冻死在沿途。
+202819_name;熊学派猎魔人学徒
+202819_tooltip;<keyword=deploy>部署：</keyword>对自身造成 {Damage} 点伤害。\n己方回合结束时，<keyword=heal>治疗</keyword>自身 {Boost} 点。若没有受到伤害，则改为获得 {Armor} 点<keyword=armor>护甲</keyword>。
+202820_fluff;“只要扛得住，又何必躲？”
+202820_name;披盔贯甲
+202820_tooltip;对 1 个敌军单位造成 {Damage} 点伤害。\n在己方同排<keyword=spawn>生成</keyword> {Count} 名“猎魔人学徒”，并对其造成 {Damage2} 点伤害，随后使他们获得 {Armor} 点<keyword=armor>护甲</keyword>。
+202821_fluff;是埃兰创立了狮鹫学派，他本希望对骑士精神的强调能提升猎魔人在普通民众心目中的名声。哎，他的努力算白费了。
+202821_name;拉尔维克的埃兰
+202821_tooltip;<keyword=deploy>部署：</keyword>使己方牌组内所有单位获得 {boost} 点增益。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：并获得<keyword=immune>免疫</keyword>。\n<keyword=order>指令：</keyword>将己方牌组中所有单位的增益转移给自身。
+202822_fluff;勇气、忠诚和战斗精神，本是狮鹫学派猎魔人的精髓所在。然而，这个学派的名字却来自于一个被叫做“狮鹫”的游侠骑士。是他在很久之前，将骑士精神灌输给了学派创始人。
+202822_name;大狮鹫
+202822_tooltip;小局结束时，洗回牌组并保持增益。
+202823_fluff;凯尔塞壬的卷藏是它最大的宝藏，有那么一群法师对它眼红心热。在企图夺取的过程中，这些他们梦寐以求的东西化作了飞灰。
+202823_name;凯尔塞壬
+202823_tooltip;<keyword=resilient>坚韧</keyword>。\n<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword>并打出“狮鹫学派猎魔人学徒”、“狮鹫学派猎魔人”、“狮鹫学派猎魔人导师”或“狮鹫学派猎魔人游侠”。\n<keyword=order>指令：</keyword>使己方牌组中的 1 个单位获得 {Boost} 点增益。
+202824_fluff;“战斗没有公平可言。理应抓住任何一丝胜利的机会。” - 柯恩
+202824_name;柯恩
+202824_tooltip;<keyword=zeal>狂热</keyword>、<keyword=order>指令：</keyword>使所有与科恩战力相同的单位获得与柯恩等量的增益。
+202825_fluff;“你这个愚蠢脑残的类人生物！什么叫我不知道？你怎么不在雷比欧达神像上抹满蒜汁，然后去猎杀吸血鬼呢？！” - 凯尔达
+202825_name;凯尔达
+202825_tooltip;<keyword=resupply>增兵：</keyword>: <keyword=spawn>生成</keyword> 1 名“猎魔人学徒”至此排。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：在己方回合结束时，<keyword=spawn>生成</keyword> 1 名“猎魔人学徒”至此排。
+202826_fluff;“银剑的确不错，但你试过银箭吗？”
+202826_name;狮鹫学派猎魔人
+202826_tooltip;<keyword=order>指令</keyword>（<keyword=melee>近战</keyword>）：对 1 个敌军单位造成 {damage} 点伤害。\n<keyword=cooldown>冷却：</keyword>{Cooldown}。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：在己方回合结束时，对 1 个随机敌军单位造成 {damage2} 点伤害，并<keyword=lock>锁定</keyword>自身。
+202827_fluff;乖孩子，掌握知识会让你活的更长。
+202827_name;狮鹫学派猎魔人导师
+202827_tooltip;<keyword=deploy>部署：</keyword>抽 1 张牌组顶端的单位牌，随后将 1 张手牌洗回牌组。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：使这个被你抽到的单位获得 {boost} 点增益。
+202828_fluff;即使在最恶劣的环境里，狮鹫学派的猎魔人游侠依旧是无与伦比的追踪和狩猎大师。无论前路如何，只要不得手，就绝不停息。
+202828_name;狮鹫学派猎魔人游侠
+202828_tooltip;<keyword=formation>列阵</keyword>。\n<keyword=deploy>部署：</keyword>对方某一排上每有 1 个单位，自身便获得 {Boost} 点增益。\n<keyword=order>指令：</keyword>将自身的所有增益转移给 1 个友军单位。
+202829_fluff;在凯尔塞壬，学生们可以在最终试炼中有很多种选择。要么找到并拿回一只狮鹫蛋，要么一字不落地背诵整篇暗影之书。可令老凯尔达沮丧的是，没人选择后者。
+202829_name;狮鹫学派猎魔人学徒
+202829_tooltip;<keyword=shield>护盾</keyword>。\n<keyword=order>指令：</keyword>将 1 个己方猎魔人转变为 1 张“狮鹫学派猎魔人学徒”的基础同名牌。
+202830_fluff;大多数狮鹫学派猎魔人能在百步之内把一个苹果一削为二。只要你不动就行。
+202830_name;标靶练习
+202830_tooltip;使 1 个友军单位获得 {boost} 点增益。若该友军同排有“猎魔人”，则还会在同排<keyword=spawn>生成</keyword> 1 名“猎魔人学徒”。
+202831_fluff;“什么东西无数腿？什么东西能吞城？”
+202831_name;涎魔
+202831_tooltip;<keyword=deathwish>遗愿：</keyword>将“涎魔”洗回牌组，随后使其基础战力提高 {boost} 点。
+202832_fluff;“就算我告诉你科斯切伊代表死亡，你还是会去溪边，对吗？”
+202832_name;科斯切伊
+202832_tooltip;<keyword=thrive>成长</keyword>。\n每当该单位的<keyword=thrive>成长</keyword>触发，便在同排<keyword=spawn>生成</keyword> 1 只“雄蛛”\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：每当该单位的<keyword=thrive>成长</keyword>触发，改为在同排<keyword=spawn>生成</keyword> 1 只“安德莱格幼虫”。
+202833_fluff;一个不同于其他地方的怪物巢穴。这里是无数恐怖怪物的家园。即使是猎魔人，靠近这个魔窟之前也会三思而行。
+202833_name;万魔窟
+202833_tooltip;<keyword=resilient>坚韧</keyword>。\n<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword>并打出“女夜魔”、“孽狐”、“奇美拉”或“混合兽”。\n<keyword=order>指令：</keyword>将战力最高的一个单位移至牌组顶端，并在此牌的两侧<keyword=spawn>生成</keyword> 1 只“雄蛛”。
+202834_fluff;“谁要当好孩子？” - 伊达兰
+202834_name;伊迪尔
+202834_tooltip;<keyword=order>指令</keyword>（<keyword=adrenaline>亢奋</keyword> {Adrenaline}）：<keyword=consume>吞噬</keyword>此排上所有衍生物并获得<keyword=immune>免疫</keyword>。\n己方每<keyword=consume>吞噬</keyword> 1 个或更多单位，便在此排<keyword=spawn>生成</keyword> 1 只“雄蛛”。
+202835_fluff;小时候，伊达兰住在维吉玛的运河里。这孩子是个天纵奇才，五岁的时候开始在下水道老鼠身上做实验了。
+202835_name;鼠人
+202835_tooltip;<keyword=order>指令：</keyword>重置该单位战力，并在同排<keyword=spawn>生成</keyword>一群老鼠，数量等同于失去的增益值。\n<keyword=cooldown>冷却：</keyword> {Cooldown}。\n在己方回合结束时，<keyword=consume>吞噬</keyword>右侧的一个单位。
+202836_fluff;“水乳交融、欢喜无量。”
+202836_name;女夜魔
+202836_tooltip;<keyword=deathwish>遗愿：</keyword>己方回合结束时，若己方墓场中有另一个“女夜魔”，则从其中<keyword=summon>召唤</keyword>自身至随机一排，并获得<keyword=doomed>佚亡</keyword>。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：不会获得<keyword=doomed>佚亡</keyword>。
+202837_fluff;“最麻烦的是这种叫‘孽狐’的东西，它们是孽鬼的近亲，体型更大，更强壮。如果你看见了，跑就完了。”
+202837_name;孽狐
+202837_tooltip;<keyword=thrive>成长</keyword> {boost} 。
+202838_fluff;起初，柯西莫结合了鹿首魔和狮鹫的基因。然后他又添加了类虫生物和翼手龙的特性，最终创造出来的，比原本四种怪物加在一起还恐怖。
+202838_name;奇美拉
+202838_tooltip;<keyword=deploy>部署：</keyword><keyword=consume>吞噬</keyword> 1 个友军单位。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：使被<keyword=consume>吞噬</keyword>单位的所有同排同名单位获得 {Boost1} 点增益。
+202839_fluff;马拉斯宾纳教授不小心在煎药中添加了一种额外的成分——成分 X。
+202839_name;自然进化
+202839_tooltip;使 1 个友军单位获得 {boost} 点增益，并根据其卡牌分类，获得一个额外效果。\n\n类虫生物 - 在同排<keyword=spawn>生成</keyword> {MaxTargets} 只“雄蛛”。\n野兽 - 改为使该单位获得 {Boost2} 点增益。\n食人魔 - 使所有手牌中的“食人魔”获得 {Armor} 点<keyword=armor>护甲</keyword>。
+202841_fluff;很多人认为，她死于被追杀者的箭下。但火蜥蜴帮另有打算。
+202841_name;死侍蕾拉
+202841_tooltip;<keyword=profit>利润</keyword> {Income}。\n<keyword=tribute>献金</keyword> {Tribute-B.P.BB_Tribute}：获得<keyword=veil>遮蔽</keyword>。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：每当己方使用<keyword=tribute>献金</keyword>能力，自身便获得该次<keyword=tribute>献金</keyword>消耗数量的增益。
+202842_fluff;尽管它们长着可爱的小脸，但最好别摸。因为火蜥蜴受到威胁时会分泌一种致命的毒素，只要碰到皮肤，就会沸腾燃烧。
+202842_name;火蜥蜴
+202842_tooltip;<keyword=profit>利润</keyword> {Income}。\n<keyword=deploy>部署：</keyword>使 1 个单位<keyword=poison>中毒</keyword>。\n<keyword=tribute>献金</keyword> {Tribute-B.P.BB_Tribute}：改为使战场上所有单位<keyword=poison>中毒</keyword>。\n每有 1 个友方“火蜥蜴帮”单位。<keyword=profit>利润</keyword>便提高 1 点。
+202843_fluff;想躲进维吉玛下水道里的人最好小心点，因为在这座城市阴暗的地下，有比阴沟老鼠更糟糕的东西。
+202843_name;火蜥蜴帮藏身处
+202843_tooltip;<keyword=resilient>坚韧</keyword>。\n<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword>并打出“失败的实验”、 “火蜥蜴帮异变体”、“火蜥蜴帮法师”或“火蜥蜴帮侍从”。\n<keyword=order>指令：</keyword>将 1 个<keyword=poison>中毒</keyword>效果从友军身上转移给另一个单位。
+202844_fluff;“我有点好奇，不知道我兄弟在下水道里过得怎么样？” - 罗兰德
+202844_name;罗兰德·布莱尼姆
+202844_tooltip;每有 1 个单位<keyword=poison>中毒</keyword>，则获得 {Coins} 枚<keyword=coin>金币</keyword>。
+202845_fluff;“我有点好奇，不知道我兄弟在下水道里过得怎么样？” - 盖勒特
+202845_name;盖勒特·布莱尼姆
+202845_tooltip;<keyword=profit>利润</keyword> {Profit}。\n<keyword=fee>费用</keyword> {Cost}：使 1 个友军单位<keyword=poison>中毒</keyword>，并使其获得 {Boost} 点增益。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：<keyword=cooldown>冷却：</keyword>{Cooldown}。
+202846_fluff;侍从们要无偿地完成前五份工作，以此来表示他们对这份工作的热情。
+202846_name;火蜥蜴帮侍从
+202846_tooltip;己方每回合第一次获得<keyword=coin>金币</keyword>时，自身获得 {Boost} 点增益。
+202847_fluff;火蜥蜴帮的科学家们一心想着“能否做到”，从未考虑过是否“应该做到”。
+202847_name;火蜥蜴帮异变体
+202847_tooltip;<keyword=tribute>献金</keyword> {Tribute-B.P.BB_Tribute}：使自身<keyword=poison>中毒</keyword>。\n每当此单位<keyword=poison>中毒</keyword>，自身便获得 {Boost} 点增益。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：在回合结束时，<keyword=purify>净化</keyword>自身。
+202848_fluff;生点小火可以给人温暖，但放在火上烤就……
+202848_name;火蜥蜴帮法师
+202848_tooltip;<keyword=tribute>献金</keyword> {Tribute-B.P.BB_Tribute}：对 3 个相邻的敌军单位造成 {Damage} 点伤害。\n每当己方使用<keyword=tribute>献金</keyword>能力，便获得 {Coins} 个<keyword=coin>金币</keyword>。\n<keyword=adrenaline>亢奋</keyword> {Adrenaline}：改为获得 {Coins2} 个<keyword=coin>金币</keyword>。
+202849_fluff;连失败的实验也能派上用场。要这么说，人类还怎么突破知识的边界？
+202849_name;失败的实验
+202849_tooltip;己方回合结束时，失去 {Cost} 个<keyword=coin>金币</keyword>。若己方没有<keyword=coin>金币</keyword>，则改为对自身造成 {Damage} 点伤害。\n当<keyword=poison>中毒</keyword>时，无法触发此能力。
+202850_fluff;如同收割器官，但更加暴利。
+202850_name;被偷走的突变诱发物
+202850_tooltip;选择一种突变诱发物：\n\n红色 - 对 1 个敌军单位造成 {Damage} 点伤害。\n蓝色 - 使 1 个友军单位<keyword=poison>中毒</keyword>，并获得 {Coins2} 个<keyword=coin>金币</keyword>。\n绿色 - 使 1 个友军单位获得 {Boost} 点增益和<keyword=veil>遮蔽</keyword>。\n\n若己方拥有至少 {Counter} 个“火蜥蜴帮”单位，则产生 {Coins} 的<keyword=profit>利润</keyword>。
+202856_fluff;当一个头不够时。
+202856_name;杂交兽
+202856_tooltip;己方每<keyword=consume>吞噬</keyword> 1 个或更多单位，自身便获得 {Boost} 点增益。
+202872_fluff;“它本是皇家动物园的珍藏，某天一支松鼠党的突击队袭击了展览，释放了这头野兽，并把它和残忍的主人关在了一起。打那以后，它就爱上了那个味道。”
+202872_name;刃齿虎：潜行
+202872_tooltip;己方回合开始时，若敌方两排上的敌军单位为当前唯一单位，则对他们造成 {Damage} 点伤害，自身随后转变为“刃齿虎”。
+202879_fluff;“一闪之间，玛多克掏出一个带着引线的皮制球，响指一打，引线便燃了起来，随即扔到了哀怨的巨兽脚下。”
+202879_name;玛多克
+202879_tooltip;己方每打出一张“炸弹”牌，便从己方牌组或墓场<keyword=summon>召唤</keyword>此牌至己方随机一排。\n<keyword=order>指令：</keyword><keyword=spawn>生成</keyword><keyword=cataclysm>灾厄</keyword>至对方同排，持续 {Counter} 回合，随后摧毁自身。
+202880_fluff;“身为一国之首，我必须公正审判她的罪行。但她是我姐姐，我的心在为她淌血……”
+202880_name;安娜·亨利叶塔
+202880_tooltip;<keyword=deploy>部署：</keyword>用对方领袖的基础同名能力替换己方的领袖能力。
+202881_fluff;“我没什么耐心。把我惹毛了，小心小命不保。”
+202881_name;恩希尔·恩瑞斯
+202881_tooltip;<keyword=deploy>部署：</keyword>抽 1 张牌，随后将 1 张己方手牌置入己方牌组底端。\n每当敌方打出 1 个单位，便使其获得<keyword=spying>潜伏</keyword>。\n<keyword=devotion>赤诚：</keyword>己方回合结束时，随机<keyword=seize>抓捕</keyword> 1 名 {power} 点战力的<keyword=spying>潜伏</keyword>单位。
+202882_fluff;“尼弗迦德人叫我‘蒂斯·伊斯·穆瑞’，也就是海上野猪。他们还用我的名号来吓唬小孩！”
+202882_name;克拉茨·奎特
+202882_tooltip;<keyword=deploy>部署：</keyword>使手牌中的 {MaxTargets} 个“水手”或“船只”获得 {Armor} 点<keyword=armor>护甲</keyword>。\n己方每在克拉茨旁边打出 1 个“水手”或“船只”，则使它和战力最低的一个敌军单位用自身战力互相造成伤害。
+202883_fluff;埃斯特来到辛特拉，本想帮助克拉茨·奎特参加帕薇塔公主的选亲宴，结果自己却赢走了王后的芳心。
+202883_name;埃斯特·图尔赛克
+202883_tooltip;<keyword=veteran>老兵</keyword>。\n<keyword=deploy>部署</keyword>、<keyword=bloodthirst>战狂</keyword> {Bloodthirst}：抽 1 张牌，随后<keyword=discard>丢弃</keyword> 1 张牌。\n每当你在己方回合<keyword=discard>丢弃</keyword> 1 个“史凯利格”单位，便从墓场将其<keyword=summon>召唤</keyword>至同排。\n倒数： {Counter}。\n<keyword=devotion>赤诚：</keyword>当 1 个“史凯利格”单位在己方回合进入己方墓场时，也会将其召唤至同排。
+202884_fluff;“那个老糊涂？你甚至分不清他是活人还是木偶！”
+202884_name;布罗瓦尔·霍格
+202884_tooltip;<keyword=deploy>部署：</keyword>己方手牌中每有 1 名矮人，便获得 1 点<keyword=armor>护甲</keyword>。\n<keyword=barricade>壁垒：</keyword>己方回合结束时，使此排所有带有<keyword=armor>护甲</keyword>的矮人获得点 {boost} 增益。
+202885_fluff;“有一次，国王派了名特使去跟艾尔丹恩交涉……我怎么劝都没劝住。第二天，我们找到了使者的遗体。他被丢在林子里，身上插了面白旗。”
+202885_name;艾尔丹恩
+202885_tooltip;<keyword=deploy>部署：</keyword>将己方所有正面朝上的陷阱转变为“精灵暗箭手”。\n<keyword=devotion>赤诚：</keyword>也会转变己方其它的神器为“精灵暗箭手”。
+202886_fluff;“我不需要谋臣和他们的诡计，我相信士兵的利刃。”
+202886_name;弗尔泰斯特国王
+202886_tooltip;每回合，当己方半场的 1 名铜色单位首次受到增益时，便在己方牌组底端<keyword=spawn>生成</keyword> 1 张它的基础同名牌。\n<keyword=devotion>赤诚：</keyword>同样也会使已<keyword=spawn>生成</keyword>的同名牌获得 {boost} 点增益。
+202887_fluff;“战事连天，统治者不存在尽量，也无法选择。而应当即拔剑上马，保卫他的子民。”
+202887_name;米薇女王
+202887_tooltip;<keyword=inspired>激励：</keyword>己方回合结束时，倒数 -1。\n倒数：{Counter}\n倒数归零时，使所有己方单位获得 {Boost} 点增益。
+202888_fluff;“狄拉夫不擅长用人类的方式表达爱意。他会像野兽一样去爱：狂野、炽烈……毫无保留。”
+202888_name;狄拉夫·艾瑞廷
+202888_tooltip;<keyword=deploy>部署：</keyword>在对方单排<keyword=spawn>生成</keyword><keyword=blood_moon>血月</keyword>，持续 {Counter} 回合。每有 1 个相邻的“吸血鬼”，便使持续时间 +1。\n<keyword=order>指令：</keyword>对 1 名带有<keyword=bleeding>重伤</keyword>的敌军单位造成 {Damage} 点伤害。\n<keyword=deathblow>致死：</keyword>在同排<keyword=spawn>生成</keyword> 1 只“蝙魔”。\n<keyword=cooldown>冷却：</keyword>{Cooldown}
+202889_fluff;没有谁知道暗影长者的真实年龄，连高阶吸血鬼们也不知情。他们唯一清楚的是，无论如何也不能违背他的意愿。
+202889_name;暗影长者
+202889_tooltip;<keyword=deploy>部署：</keyword>使 1 个敌军单位<keyword=bleeding>重伤</keyword>（{Bleeding}）回合。\n己方回合结束时，随机使 1 名没有<keyword=bleeding>重伤</keyword>的敌军单位<keyword=bleeding>重伤</keyword>（{Bleeding2}）回合。\n<keyword=devotion>赤诚：</keyword>己方回合结束时，还会对所有敌军单位触发<keyword=bleeding>重伤</keyword>效果。
+202890_fluff;“多亏有你，我的狗今晚不会饿着了。”
+202890_name;“砍刀”
+202890_tooltip;<keyword=intimidate>威吓</keyword>。\n<keyword=deploy>部署：</keyword><keyword=spawn>生成</keyword>并打出“讹诈”。\n每有 1 个相邻的“黑金会”成员，便使<keyword=intimidate>威吓</keyword>的数值 +{Intimidate}。\n<keyword=fee>费用</keyword> {Cost}：在同排<keyword=spawn>生成</keyword> 1 名“砍刀的打手”。
+202891_fluff;“与我们开战就意味着诺维格瑞即将血流成渠。”
+202891_name;霍桑二世
+202891_tooltip;<keyword=deploy>部署：</keyword>对 1 个带有增益的敌军单位造成 {Damage} 点伤害。每溢出 1 点伤害，便获得 1 枚<keyword=coin>金币</keyword>。\n<keyword=devotion>赤诚：</keyword>还会获得<keyword=insanity>癫狂</keyword>。\n<keyword=fee>费用</keyword> {Cost}：摧毁 1 个战力不高于 {Power} 点的敌军单位。
+202892_fluff;“冲锋，没用的蠢货！冲锋，不然你就会知道，我比尼弗迦德人更可怕！”
+202892_name;科德温中士
+202892_tooltip;<keyword=zeal>狂热</keyword>。\n<keyword=order>指令：</keyword>使 1 个友军单位获得 {Boost} 点增益。\n<keyword=charge>充能：</keyword>{Charges}。
 21_name_sa;Ignore.
 22_name_sa;Ignore.
 23_name_sa;Ignore.
@@ -3248,6 +3524,7 @@ card_category_104;突变
 card_category_105;火蜥蜴帮
 card_category_106;望族
 card_category_107;剧情
+card_category_109;地点
 card_category_11;谋略
 card_category_12;野兽
 card_category_13;领袖牌
@@ -3343,8 +3620,8 @@ card_category_99;暗巷帮
 card_in_maintenance_tooltip;该卡牌正在进行调整，暂不可用，对此我们深表歉意。
 card_token_berserk;待定文字
 card_token_bleeding;<#600101>重伤：</color>一种状态，在其回合结束时受到 1 点伤害。提示：重伤的回合数可以累积；1 回合的重伤效果可以抵消 1 回合的活力效果。
-card_token_bounty;<#600101>赏金：</color>一种状态，当该单位被摧毁时，为其设置“赏金”的一方将获得等同于该单位基础战力的金币。
-card_token_defender;<#600101>卫士：</color>对方无法选中此排的其他卡牌作为目标。
+card_token_bounty;<#600101>赏金：</color>当带有该状态的单位被摧毁或被放逐时，对手会获得等同于其基础战力值的金币。战场每一侧只能有一个单位在指定时间内带有赏金状态。
+card_token_defender;<#600101>卫士：</color>一种状态，可以阻止对方将同排其他卡牌作为目标。
 card_token_doomed;<#600101>佚亡：</color>一种状态，指代该单位离开战场后，会被移出对局。
 card_token_immune;<#600101>免疫：</color>一种状态，该卡牌无法成为手动指定技能的目标。
 card_token_lock;<#600101>锁定：</color>一种状态，禁用该单位的能力。
@@ -3356,6 +3633,7 @@ card_token_shield;<#600101>护盾：</color>一种状态，为该单位抵挡下
 card_token_spying;潜伏：一种状态，表示一个单位被生成、打出或移至对方半场。
 card_token_veil;遮蔽：一种状态，使该单位无法获得其他状态。
 card_token_vitality;<#600101>活力：</color>一种状态，在其回合结束时获得 1 点增益。提示：活力的回合数可以累积；1 回合的活力效果可以抵消 1 回合的重伤效果。
+keyword_adrenaline;<#600101>亢奋：</color>手牌不多于特定数量时触发。
 keyword_ambush;<#600101>伏击：</color>打出后背面向上。若被锁定，则失去能力并随即翻开。
 keyword_armor;<#600101>护甲：</color>保护单位免受伤害。护甲值不会被记作己方总战力或单位战力。
 keyword_assimilate;<#600101>同化：</color>每当己方打出 1 张并非来自起始牌组的卡牌时，自身获得 1 点或特定值的增益。
@@ -3372,7 +3650,7 @@ keyword_bonded;<#600101>会师：</color>己方控制此牌的同名牌时触发
 keyword_boon;<#600101>恩泽：</color>作用于整排的增益效果。可被其他整排效果覆盖，小局结束后移除。
 keyword_boost;<#600101>增益：</color>提升单位的当前战力。
 keyword_boosted;<#600101>被增益：</color>单位的当前战力高于其基础战力。
-keyword_bounty;<#600101>赏金：</color>当带有该状态的单位被摧毁时，对手会获得等同于其基础战力值的金币。同一时间只能对一名敌军单位设置赏金。
+keyword_bounty;<#600101>赏金：</color>当带有该状态的单位被摧毁或被放逐时，对手会获得等同于其基础战力值的金币。战场每一侧只能有一个单位在指定时间内带有赏金状态。
 keyword_brave;<#600101>英勇：</color>若打出后总战力低于对方（在该单位及其生成的单位被计入总战力后结算），则触发。
 keyword_cataclysm;<#600101>灾厄：</color>拥有者回合开始时，将 3 点伤害随机分摊给所在排上的单位。
 keyword_charge;<#600101>充能：</color>某“指令”能力触发后可以使用的次数。只有标注“充能：X”的卡牌可以获得额外充能。
@@ -3396,7 +3674,7 @@ keyword_damaged;<#600101>受伤：</color>单位的当前战力低于其基础�
 keyword_deadlock;<#600101>僵持：</color>双方均没有放弃跟牌时触发。
 keyword_deathblow;<#600101>致死：</color>此牌摧毁一个单位时触发。
 keyword_deathwish;<#600101>遗愿：</color>因被摧毁而从战场移至墓场时触发。注释：被放逐的单位不会被置入墓场。
-keyword_defender;<#600101>卫士：</color>对方无法选中此排的其他卡牌作为目标。
+keyword_defender;<#600101>卫士：</color>一种状态，可以阻止对方将同排其他卡牌作为目标。
 keyword_demote;<#600101>贬损：</color>将 1 张金色单位牌变为银色（若原本为铜色，则变回铜色）。
 keyword_deploy;<#600101>部署：</color>卡牌被打出时触发。
 keyword_destroy;<#600101>摧毁：</color>将单位置入墓场。
@@ -3420,7 +3698,7 @@ keyword_friendly;<#600101>友军：</color>己方半场上的单位。
 keyword_frost;<#600101>刺骨冰霜：</color>拥有者回合开始时，对所在排上战力最高的单位造成 2 点伤害。
 keyword_gamble;<#600101>打赌：</color>和命运打赌。
 keyword_gold;<#600101>免疫：</color>一种状态，该卡牌无法成为目标。
-keyword_harmony;<b><#600101>和谐：</color></b>每当己方在同排打出 1 个松鼠党单位时触发，且该单位的主类别有别于己方所有其他单位时，自身获得 1 点或特定值的增益。
+keyword_harmony;<#600101>和谐：</color>己方每打出 1 个松鼠党单位时触发，且该单位的主类别有别于己方所有其他单位时，自身获得 1 点或特定值的增益。
 keyword_hazard;<#600101>灾厄：</color>作用于整排的负面效果。可被其他整排效果覆盖，小局结束后移除。
 keyword_heal;<#600101>治愈：</color>若一个单位的当前战力低于基础战力，则恢复至基础战力，除非另作说明。
 keyword_highest;<#600101>最强：</color>场上战力最高的单位。若出现多个，则随机选择。
@@ -3477,7 +3755,7 @@ keyword_stubborn;<#600101>坚守：</color>无法被重新打出或被收回手�
 keyword_summon;<#600101>召唤：</color>自动移至战场（不视作为“打出”）。
 keyword_swap;<#600101>交换：</color>在己方回合，将 1 张手牌收回牌组，然后抽 1 张牌。
 keyword_symbiosis;<#600101>共生：</color>己方每打出 1 张“自然”牌，便在己方随机一排生成 1 个“游荡的树人”，其战力为己方所控制的“共生”单位数量。
-keyword_thrive;<#600101>成长：</color>己方每打出 1 个战力更高的单位，自身获得 1 点增益。
+keyword_thrive;<b><#600101>成长：</color></b>己方每打出 1 个战力更高的单位，自身获得 1 点或特定数量的增益。
 keyword_timer;<#600101>Truce:</color> If neither player has passed.
 keyword_token;<#600101>衍生物：</color>单位在小局结束时将被移出对局。
 keyword_transform;<#600101>转变：</color>变为另 1 张牌。

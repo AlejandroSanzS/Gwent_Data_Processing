@@ -1,5 +1,5 @@
 # Import libraries
-
+#adwawd 
 import xml
 import re
 import os
@@ -11,6 +11,7 @@ import time
 start_time = time.time()
 
 # Definition of the paths of the diferent files to parse
+
 path = "/data"
 art_def ='data/ArtDefinitions.xml'
 abities = 'data/Abilities.xml'
@@ -145,81 +146,22 @@ root = tree.getroot()
 artes = []
 valores=[]
 vanity = []
-for child in root:
 
+for child in root:
     try:
-        try:
-            arts = {"Type": [],
-                    "ArtId": [],
-                    'ArtistName':[],
-                    "StandardMask": [],
-                    "PremiumMask": [],
-                    "PremiumTexMask":[],
-                    "VanitySkins_0": [],
-                    "VanitySkins_1": [],
-                    "VanitySkins_2": [],
-                    "VanitySkins_3": []
-                    }
+        arts = {"Type": [],
+                "ArtId": [],
+                'ArtistName':[]}
+        print(child.tag)
+        if child.tag == 'ArtDefinition':
             arts["Type"] = child.attrib['Type']
             arts["ArtId"] = child.attrib['ArtId']
             arts["ArtistName"] = child.attrib['ArtistName']
-            arts["StandardMask"] = child.attrib['StandardMask']
-            arts["PremiumMask"] = child.attrib['PremiumMask']
-            arts["PremiumTexMask"] = child.attrib['PremiumTexMask']
-            for subchild in child:
-                if subchild.tag =='VanitySkins':
-
-                    e0 = child.find('VanitySkins').find('e0').attrib
-                    e1 = child.find('VanitySkins').find('e1').attrib
-
-                    try:
-
-                        e2 = child.find('VanitySkins').find('e2').attrib
-                        try:
-                            e3 = child.find('VanitySkins').find('e3').attrib
-                            arts["VanitySkins_0"] = e0
-                            arts["VanitySkins_1"] = e1
-                            arts["VanitySkins_2"] = e2
-                            arts["VanitySkins_3"] = e3
-                            artes.append(arts)
-                        except:
-                            arts["VanitySkins_0"] = e0
-                            arts["VanitySkins_1"] = e1
-                            arts["VanitySkins_2"] = e2
-                            artes.append(arts)
-                    except:
-                        arts["VanitySkins_0"] = e0
-                        arts["VanitySkins_1"] = e1
-                        artes.append(arts)
-
-
-        except:
-            arts = {"Type": [],
-                    "ArtId": [],
-                    "StandardMask": [],
-                    "PremiumMask": [],
-                    "PremiumTexMask":[],
-                    "VanitySkins_0": []
-                    }
-            arts["Type"] = child.attrib['Type']
-            arts["ArtId"] = child.attrib['ArtId']
-            arts["StandardMask"] = child.attrib['StandardMask']
-            arts["PremiumMask"] = child.attrib['PremiumMask']
-            arts["PremiumTexMask"] = child.attrib['PremiumTexMask']
+            print(arts)
             artes.append(arts)
-        artes.append(arts)
     except:
-        arts = {"Type": [],
-                "ArtId": [],
-                "VanityId": [],
-                "RegionMask": [],
+        pass
 
-                    }
-        arts["Type"] = child.attrib['Type']
-        arts["ArtId"] = child.attrib['ArtId']
-        arts["VanityId"] = child.attrib['VanityId']
-        arts["RegionMask"] = child.attrib['RegionMask']
-        artes.append(arts)
 
 df_arte = pd.DataFrame(artes)
 df_arte= df_arte.drop_duplicates(subset= ['ArtId'],keep='last').reset_index(drop = True)

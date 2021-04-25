@@ -24,7 +24,7 @@
 11_name_sa;Ignore.
 112101_fluff;Moi, je vais où je veux, quand je veux.
 112101_name;Ciri
-112101_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à {MaxTargets} unité(s) ennemie(s) aléatoire(s).\nChaque fois que vous perdez une manche, replacez la présente unité dans votre main.
+112101_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à {MaxTargets} unité(s) ennemie(s).\nChaque fois que vous perdez une manche, replacez la présente unité dans votre main.
 112102_fluff;D'un geste de la main, un sorceleur peut allumer une lampe… ou carboniser un ennemi.
 112102_name;Geralt : Igni
 112102_tooltip;<keyword=deploy>Déploiement</keyword> : détruisez les unités disposant de la force la plus élevée sur une ligne ennemie ayant une force totale de {Power2} ou plus.\n<keyword=initiative>Initiative</keyword> : détruisez les unités disposant de la force la plus élevée sur une ligne ennemie ayant une force totale de {Power} ou plus à la place.
@@ -60,19 +60,19 @@
 112112_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : jouez un artefact depuis votre jeu.
 112113_fluff;Une bonne sorcière doit savoir quand utiliser la glace… et quand utiliser le feu.
 112113_name;Yennefer : sorcière
-112113_tooltip;<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts aux unités ennemies les plus fortes.\n<keyword=cooldown>Réutilisation</keyword> : {Cooldown} tour(s).
+112113_tooltip;<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts à la ou les unités ennemies les plus fortes. <keyword=cooldown>Réutilisation</keyword> : {Cooldown} tour(s).
 112201_fluff;On a attribué différents noms aux créatures de son espèce, comme mime, changelin, doubleur, cambio… ou encore doppler.
 112201_name;Doudou
 112201_tooltip;<keyword=deploy>Déploiement</keyword> : transformation en copie de base d'une unité ennemie.
 112202_fluff;Je suis un modeste sorceleur, Loup Blanc. Je ne combats pas les dragons, je n'ai pas l'oreille des rois et je ne côtoie pas les magiciennes.
 112202_name;Eskel
-112202_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=summon>invoquez</keyword> Vesemir et Lambert depuis votre jeu.
+112202_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline}) : <keyword=summon>invoquez</keyword> Vesemir et Lambert depuis votre jeu.
 112203_fluff;Au moment d'être pendu, demande de l'eau. Tout peut arriver avant qu'on la puise.
 112203_name;Vesemir
-112203_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=summon>invoquez</keyword> Eskel et Lambert depuis votre jeu.
+112203_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline}) : <keyword=summon>invoquez</keyword> Eskel et Lambert depuis votre jeu.
 112204_fluff;Voilà le genre de négociation que j'approuve.
 112204_name;Lambert
-112204_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=summon>invoquez</keyword> Eskel et Vesemir depuis votre jeu.
+112204_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline}) : <keyword=summon>invoquez</keyword> Eskel et Vesemir depuis votre jeu.
 112205_fluff;Il ne faut jamais s'interposer entre une femelle dragon et son petit.
 112205_name;Myrgatabrakke
 112205_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à {MaxTargets} unités ennemies.
@@ -141,10 +141,10 @@
 113204_tooltip;Infligez {Damage} point(s) de dégâts à toutes les unités ennemies.
 113205_fluff;Un élément important de l'équipement de tout chasseur de sorcières. D'une simple déflagration, cette bombe transforme la plus puissante des sorcières en un vulgaire tas de chair facile à éliminer.
 113205_name;Bombe au dimeritium
-113205_tooltip;Détruisez un artefact.
+113205_tooltip;Infligez {Damage} point(s) de dégâts à une unité et ajoutez-lui l'attribut <keyword=veil>Voile</keyword>.
 113206_fluff;Voici Tedd Deireadh, le Dernier Âge. La destruction du monde par le Froid blanc.
-113206_name;Froid blanc
-113206_tooltip;Détruisez tous les artefacts.
+113206_name;Blizzard
+113206_tooltip;Détruisez l'unité disposant de la force la plus faible.\n<keyword=initiative>Initiative</keyword> : détruisez toutes les unités les plus faibles.
 113207_fluff;Plus un au moral, moins un à l'ouïe.
 113207_name;Cor du commandant
 113207_tooltip;Améliorez {maxtargets} unités adjacentes de {Boost} point(s).
@@ -266,7 +266,7 @@
 122213_tooltip;<keyword=resupply>Ravitaillement</keyword> : améliorez la présente unité de {Boost} point(s).\n<keyword=inspired>Motivation</keyword> : améliorez la présente unité de {Boost2} point(s) à la place.
 122214_fluff;En avant, bande de pleutres ! En avant ou les Nilfgaardiens seront le cadet de vos soucis !
 122214_name;Sergent de Kaedwen
-122214_tooltip;<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : améliorez une unité alliée de {Boost} point(s). \n{Charges} <keyword=charge>utilisation(s)</keyword>.
+122214_tooltip;<keyword=formation>Formation</keyword>. \n<keyword=order>Ordre</keyword> : améliorez une unité alliée de {Boost} point(s). {Charges} <keyword=charge>utilisation(s)</keyword>.
 122216_fluff;Pour quiconque souhaitant faire affaire à Novigrad, le choix est simple : accepter les conditions de Surin ou dire adieu à ses genoux.
 122216_name;Carlo Varese
 122216_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : infligez à une unité ennemie {Damage} point(s) de dégâts par carte dans votre main.
@@ -305,7 +305,7 @@
 122314_tooltip;<keyword=shield>Bouclier</keyword>.\nChaque fois que la présente unité perd son <keyword=shield>bouclier</keyword>, améliorez-la de {Boost} point(s).
 122315_fluff;Vous sentez comme la terre tremble chaque fois que la Grosse Bertha tire un projectile ?
 122315_name;Trébuchet renforcé
-122315_tooltip;<keyword=ranged>Combat à distance</keyword> : au terme de votre tour, infligez {Damage} point(s) de dégâts à une unité ennemie aléatoire sur la ligne de <keyword=ranged>combat à distance</keyword>.
+122315_tooltip;<keyword=ranged>Combat à distance</keyword> : au terme de votre tour, infligez {Damage} point(s) de dégâts à une unité ennemie aléatoire sur la ligne de <keyword=ranged>combat à distance</keyword>.\n<keyword=crew>Appui</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie aléatoire à la place.
 122316_fluff;Temeria ! Temeria ! Que la grâce des dieux te soit accordée ! Et qu'ils accablent tes ennemis pour l'éternité !
 122316_name;Fantassin temerien
 122316_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie pour chaque unité améliorée sur cette ligne.
@@ -314,7 +314,7 @@
 122317_tooltip;<keyword=deploy>Déploiement</keyword> : améliorez la présente unité de {Boost} point(s).\n<keyword=exposed>Exposée</keyword> : réinitialisez la force de la présente unité.
 122318_fluff;Je construis pour mieux détruire.
 122318_name;Maître de siège
-122318_tooltip;<keyword=deploy>Déploiement</keyword> : améliorez une unité alliée de {Boost} point(s).\n<keyword=resupply>Ravitaillement</keyword> : améliorez les Machines de siège adjacentes de {Boost2} point(s).
+122318_tooltip;<keyword=order>Ordre</keyword> : améliorez un allié de {Boost} point(s).\n<keyword=resupply>Ravitaillement</keyword> : améliorez les Machines de siège adjacentes de {Boost2} point(s).
 122401_fluff;Reconnaissez vos erreurs et enterrez-les convenablement. Sans quoi, elles reviendront vous hanter.
 122401_name;Couvin
 122401_tooltip;À la fin de chaque tour allié, infligez {Damage} point(s) de dégâts à l'unité ennemie disposant de la force la plus élevée. \n<keyword=order>Ordre</keyword> : transformation en Sommeillard.
@@ -331,7 +331,7 @@
 13_name_sa;Ignore.
 131101_fluff;Un peu de dignité. Tu sais comment cela va se terminer.
 131101_name;Carapace
-131101_tooltip;<keyword=order>Ordre</keyword> : améliorez une unité alliée de {Boost} point(s) et conférez-lui un <keyword=shield>bouclier</keyword>. {Charges} <keyword=charge>utilisation(s)</keyword>.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+131101_tooltip;<keyword=order>Ordre</keyword> : améliorez une unité alliée de {Boost} point(s). S'il s'agit d'un Monstre, ajoutez-lui aussi l'attribut <keyword=veil>Voile</keyword>. {Charges} <keyword=charge>utilisation(s)</keyword>.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 131102_fluff;C'est la peinture qui véhicule les émotions, pas les mots.
 131102_name;Ge'els
 131102_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : jouez une carte spéciale de la Chasse Sauvage depuis votre jeu.
@@ -343,7 +343,7 @@
 132102_tooltip;Infligez à une unité ennemie un nombre de points de dégâts équivalant à la force de votre unité disposant de la force la plus élevée.\nSi vous contrôlez Imlerith, détruisez une unité ennemie à la place.
 132103_fluff;On ne chasse jamais dans ces bois. Même si tout le village meurt de faim.
 132103_name;Force de la nature
-132103_tooltip;<keyword=order>Ordre</keyword> : améliorez une unité dans votre main de {Boost} point(s).\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+132103_tooltip;<keyword=order>Ordre</keyword> : <keyword=spawn>générez</keyword> et jouez un Esprit de la forêt.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 132104_fluff;Un fils choyé qui a choisi de vivre dans l'infamie.
 132104_name;Caranthir Ar-Feiniel
 132104_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> sur cette ligne une copie de base d'une unité des Monstres de votre main ayant une force de {Power}.
@@ -358,7 +358,7 @@
 132107_tooltip;<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : <keyword=consume>dévorez</keyword> une unité alliée.\n{Charges} <keyword=charge>utilisation(s)</keyword>.
 132108_fluff;Pourquoi se battre ? Il y a bien plus agréable pour dépenser son énergie…
 132108_name;Miruna
-132108_tooltip;<keyword=deathwish>Baroud d'honneur</keyword> : <keyword=seize>saisissez</keyword> une unité ennemie d'une force égale ou inférieure à {Power}.
+132108_tooltip;<keyword=deathwish>Baroud d'honneur</keyword> : <keyword=seize>saisissez</keyword> une unité ennemie aléatoire ayant une force inférieure ou égale à {Power}.
 132201_fluff;Engagez-vous, qu'ils disaient… Vous verrez du pays, qu'ils disaient…
 132201_name;Mastodonte arachas
 132201_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> {MaxTargets} Bourdons et améliorez tous les autres Insectoïdes sur cette ligne de {Boost} point(s).
@@ -409,7 +409,7 @@
 132216_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : <keyword=consume>dévorez</keyword> une unité dont la force est égale ou inférieure à {Power}.
 132217_fluff;Les harpies communes se nourrissent de charognes. Les célénos… de rêves.
 132217_name;Célénos
-132217_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=consume>dévorez</keyword> une unité alliée.
+132217_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=consume>dévorez</keyword> une unité alliée.\n<keyword=bonded>Lien</keyword> : <keyword=spawn>générez</keyword> un Œuf de harpie sur cette ligne.
 132218_fluff;Ne pas déranger.
 132218_name;Fer-de-lance : sieste
 132218_tooltip;<keyword=veil>Voile</keyword>.
@@ -472,7 +472,7 @@
 132404_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie.
 132405_fluff;La ressemblance avec un rocher est frappante, ce qui n'est pas sans provoquer quelques maux d'estomac chez beaucoup de trolls.
 132405_name;D'ao frénétique
-132405_tooltip;<keyword=deploy>Déploiement</keyword> : détruisez un artefact ennemi.
+132405_tooltip;<keyword=deploy>Déploiement</keyword> : déplacez une unité vers l'autre ligne.
 132406_fluff;Il n'est ni mur ni porte qui puisse les arrêter. Il leur suffit de la moindre fissure…
 132406_name;Maerolorn
 132406_tooltip;<keyword=deploy>Déploiement</keyword> : déclenchez la capacité <keyword=deathwish>Baroud d'honneur</keyword> d'une unité alliée Bronze.
@@ -564,10 +564,10 @@
 142301_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : améliorez une unité alliée de {Boost} point(s).\n<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : <keyword=heal>soignez</keyword> une unité alliée de {Boost2} point(s).
 142302_fluff;« Ça veut dire quoi, Vrihedd ? » « Ça veut dire qu'on est dans la mouise. »
 142302_name;Brigade Vrihedd
-142302_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie aléatoire.\nChaque fois que la Brigade Vrihedd est déplacée vers l'autre ligne, répétez sa capacité <keyword=deploy>Déploiement</keyword>.
+142302_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie.\nChaque fois que la présente unité est déplacée, infligez {damage} point(s) de dégâts à une unité ennemie aléatoire.
 142303_fluff;La haine brûle plus fort que le feu et coupe plus profondément qu'une lame.
 142303_name;Vrihedd : officier
-142303_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : infligez {Damage} point(s) de dégâts à une unité ennemie.\n<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : améliorez une unité alliée de {Boost} point(s).
+142303_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : infligez {Damage} point(s) de dégâts à une unité ennemie.\n<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : améliorez une unité alliée de {Boost} point(s).\n<keyword=bonded>Lien</keyword> : utilisez les deux capacités.
 142304_fluff;Elles ont un flair de chien, filent comme l'éclair et tuent froidement.
 142304_name;Dol Blathanna : trappeuse
 142304_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à {MaxTargets} unités ennemies aléatoires.
@@ -615,7 +615,7 @@
 142401_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> et <keyword=summon>invoquez</keyword> une copie de base de la présente unité sur l'autre ligne alliée.
 143201_fluff;Ce que vous arrachez de force à la terre, c'est un tribut sanglant. Ce qu'elle nous donne est offert librement, du bourgeon jusqu'au fruit, car la nature nous aime et nous le lui rendons bien.
 143201_name;Piège à serpents
-143201_tooltip;<keyword=ambush>Embuscade</keyword> : après que votre adversaire a joué une carte spéciale, détruisez l'unité ennemie disposant de la force la plus élevée.
+143201_tooltip;<keyword=ambush>Embuscade</keyword> : après que votre adversaire a joué une carte spéciale, détruisez l'unité ennemie disposant de la force la plus élevée.\n<keyword=spring>Action</keyword> : détruisez l'unité ennemie disposant de la force la plus faible.
 143301_fluff;Attention ! Un pas de plus et il ne restera de vous qu'un amas en fusion.
 143301_name;Piège incinérant
 143301_tooltip;<keyword=Spring>Action</keyword> : infligez {damage2} point(s) de dégâts à une unité.\n<keyword=ambush>Embuscade</keyword> : infligez {damage} point(s) de dégâts à la prochaine unité jouée par votre adversaire de son côté.
@@ -662,7 +662,7 @@
 152206_tooltip;<keyword=zeal>Zèle</keyword>. <keyword=order>Ordre</keyword> (<keyword=ranged>Combat à distance</keyword>) : <keyword=purify>purifiez</keyword> une unité.\nRéinitialisez cette capacité chaque fois que vous jouez une carte Alchimie.
 152207_fluff;À présent, buvons à la santé de l'empereur du Nilfgaard. Puisse sa mort être des plus affreuses !
 152207_name;Holger Main-noire
-152207_tooltip;Chaque fois que vous jouez un Vaisseau, améliorez-le de {Boost} point(s).\nChaque fois que vous jouez un Pirate, infligez {Damage} point(s) de dégâts à une unité ennemie aléatoire.
+152207_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {damage2} point(s) de dégâts à une unité.\nChaque fois que vous jouez un Vaisseau, améliorez-le de {Boost} point(s).\nChaque fois que vous jouez un Pirate, infligez {Damage} point(s) de dégâts à un ennemi aléatoire.
 152208_fluff;Certains la surnomment la « vierge de fer ».
 152208_name;Jutta an Dimun
 152208_tooltip;<keyword=deploy>Déploiement</keyword> : si Jutta an Dimun est l'unité disposant de la force la plus élevée sur le champ de bataille, la présente unité subit {Damage} point(s) de dégâts.
@@ -692,7 +692,7 @@
 152303_tooltip;<keyword=deploy>Déploiement</keyword> : infligez à une unité ennemie un <keyword=bleeding>saignement</keyword> pendant {Bleed} tour(s). Si la présente carte est jouée depuis le cimetière, infligez {Damage} point(s) de dégâts à une unité ennemie à la place.
 152304_fluff;La chasse, ça nous connaît. Le problème, c'est le manque de gibier sur Spikeroog…
 152304_name;Brokvar : chasseur
-152304_tooltip;<keyword=order>Ordre</keyword> : infligez {damage} point(s) de dégâts à une unité.\n<keyword=cooldown>Réutilisation</keyword> : {Cooldown} tour(s).\nChaque fois que vous <keyword=discard>défaussez</keyword> une carte, réduisez le délai de <keyword=cooldown>réutilisation</keyword> de {Cooldown2} tour(s).
+152304_tooltip;<keyword=zeal>Zèle</keyword>. <keyword=order>Ordre</keyword> (<keyword=ranged>Combat à distance</keyword>) : infligez {damage} point(s) de dégâts à une unité.\n<keyword=cooldown>Réutilisation</keyword> : {Cooldown} tour(s).\nChaque fois que vous jouez une Bête, réduisez le délai de <keyword=cooldown>réutilisation</keyword> de {Cooldown2} tour(s).
 152305_fluff;Je lis la peur dans leurs yeux. Ils me craignent… Ils craignent le clan Dimun !
 152305_name;Dimun : pirate
 152305_tooltip;<keyword=deploy>Déploiement</keyword> : déplacez la carte du dessus de votre jeu vers votre cimetière.\nAnnulez cette capacité si vous contrôlez un Vaisseau.
@@ -814,7 +814,7 @@
 162211_tooltip;<keyword=disloyal>Déloyale</keyword>.\n<keyword=deploy>Déploiement</keyword> : jouez la première unité (cartes <keyword=disloyal>déloyales</keyword> exclues) depuis votre jeu et améliorez-la de {Boost} point(s).
 162212_fluff;« La voilà, pensa-t-il, celle qui représente l'intérêt de l'Empire. » Fausse princesse, fausse reine de Cintra. Fausse suzeraine de l'embouchure de la Yarra, future force vitale de l'Empire.
 162212_name;Fausse Ciri
-162212_tooltip;<keyword=Deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : déplacez une unité ennemie vers l'autre ligne.\n<keyword=Deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : améliorez un Agent de {Boost} point(s).
+162212_tooltip;<keyword=deploy>Déploiement</keyword> : améliorez tous les Agents alliés de {Boost} point(s).
 162213_fluff;« Votre Majesté impériale… laissa échapper le sénéchal, dont la présence était jusque-là passée inaperçue. Pardonnez-moi, mais Cahir… Mon fils… »
 162213_name;Ceallach Dyffryn
 162213_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=purify>purifiez</keyword> toutes les unités alliées sur cette ligne.
@@ -838,19 +838,19 @@
 162306_tooltip;<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts à une unité. \n{Charges} <keyword=charge>utilisation(s)</keyword>.\nLa présente unité gagne {Charges2} <keyword=charge>utilisation(s)</keyword> chaque fois que vous jouez une carte Tactique.
 162307_fluff;La brigade Impera se ferait tuer sur place, plutôt que de faillir aux ordres de l'empereur.
 162307_name;Brigade Impera
-162307_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : <keyword=summon>invoquez</keyword> toutes les copies de la présente unité sur cette ligne depuis votre jeu.
+162307_tooltip;<keyword=deploy>Déploiement</keyword> : si vous contrôlez un Soldat, <keyword=summon>invoquez</keyword> toutes les copies de la présente unité sur cette ligne depuis votre jeu.
 162308_fluff;Ces fanatiques forment la garde personnelle de l'empereur et ils se battront jusqu'à la mort.
 162308_name;Impera : estafiers
-162308_tooltip;<keyword=order>Ordre</keyword> : infligez {damage} point(s) de dégâts à une unité ennemie. {Charges} <keyword=charge>utilisation(s)</keyword>.\nChaque fois qu'une unité ennemie reçoit l'attribut <keyword=spying>Espion</keyword>, la présente unité gagne {Charges2} <keyword=charge>utilisation(s)</keyword>.
+162308_tooltip;<keyword=zeal>Zèle</keyword>. <keyword=order>Ordre</keyword> : infligez {damage} point(s) de dégâts à une unité ennemie. {Charges} <keyword=charge>utilisation(s)</keyword>.\nChaque fois qu'une unité ennemie reçoit l'attribut <keyword=spying>Espion</keyword>, la présente unité gagne {Charges2} <keyword=charge>utilisation(s)</keyword>.
 162309_fluff;L'empereur va mettre le Nord au pas.
 162309_name;Nausicaa : sergent
 162309_tooltip;Chaque fois que vous jouez une unité disposant d'une capacité de <keyword=deploy>déploiement</keyword>, améliorez la présente unité de {Boost} point(s).
 162310_fluff;On nous appelle les Têtes de Cadavres. Envie de savoir pourquoi ?
 162310_name;Brigade Nausicaa
-162310_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie améliorée.
+162310_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage2} point(s) de dégâts à une unité ennemie.\nSi l'unité ennemie est améliorée, infligez-lui {Damage} point(s) de dégâts à la place.
 162311_fluff;Prêtez allégeance à notre empereur, Emhyr var Emreis… ou mourez.
 162311_name;Alba : piquier
-162311_tooltip;<keyword=melee>Combat rapproché</keyword> : à la fin de chaque tour allié, infligez {Damage} point(s) de dégâts à une unité ennemie aléatoire sur la ligne de combat rapproché.
+162311_tooltip;<keyword=melee>Combat rapproché</keyword> : au terme de votre tour, infligez {Damage} point(s) de dégâts à une unité ennemie aléatoire sur la ligne de <keyword=melee>combat rapproché</keyword>.\n<keyword=bonded>Lien</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie aléatoire à la place.
 162312_fluff;Mort et gloire !
 162312_name;Alba : lancier
 162312_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie. Augmentez les dégâts de {Damage2} point(s) par Soldat adjacent.
@@ -946,7 +946,7 @@
 200039_tooltip;<keyword=melee>Combat rapproché</keyword> : chaque fois qu'une unité ennemie se déplace, infligez-lui {Damage} point(s) de dégâts.\n<keyword=ranged>Combat à distance</keyword> : chaque fois qu'une unité alliée se déplace, améliorez-la de {Boost} point(s).
 200040_fluff;Ahh, tu me fais bien rire, Nordien ! Tu n'arriverais même pas à tenir cette arme, et encore moins à m'étriper avec.
 200040_name;An Craite : spadassin
-200040_tooltip;Chaque fois qu'une unité ennemie sur la ligne du côté opposé subit des dégâts, améliorez la présente unité de {Boost} point(s).
+200040_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à la présente unité.\nChaque fois qu'une unité ennemie subit des dégâts, <keyword=heal>soignez</keyword> la présente unité de {Heal} point(s).
 200041_fluff;Pour prendre une ville, il y a mieux, mais pour l'oblitérer, ça n'a pas son pareil.
 200041_name;Gros Helge
 200041_tooltip;<keyword=shield>Bouclier</keyword>.\n<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts à une unité.\n{Charges} <keyword=charge>utilisation(s)</keyword>.\nLa présente unité gagne {Charges2} <keyword=charge>utilisation(s)</keyword> chaque fois que vous jouez une carte Tactique.
@@ -978,8 +978,8 @@
 200053_name;Compression
 200053_tooltip;Réinitialisez la force d'une unité et <keyword=lock>verrouillez</keyword>-la.
 200055_fluff;Personne, même parmi les vampires supérieurs, ne connaît l'âge exact du Doyen des Invisibles. Ils savent seulement qu'ils ne doivent en aucune circonstance s'opposer à sa volonté.
-200055_name;Ombre de la mort
-200055_tooltip;<keyword=order>Ordre</keyword> : détruisez une unité Monstre alliée, puis <keyword=spawn>générez</keyword>-en une copie de base et jouez-la.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+200055_name;Froid blanc
+200055_tooltip;<keyword=order>Ordre</keyword> : déplacez une unité ennemie vers l'autre ligne et <keyword=spawn>générez</keyword> <keyword=frost>Givre</keyword> sur sa ligne pendant {counter} tour(s). {Charge} <keyword=charge>utilisation(s)</keyword>.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 200056_fluff;Le mot « antérion » vous évoque quelque chose ? Voyez ça comme l'opposé d'un lycanthrope : une bête capable de prendre forme humaine.
 200056_name;Aguara : vraie forme
 200056_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : <keyword=create>créez</keyword> et jouez une carte spéciale de n'importe quelle faction.
@@ -1036,10 +1036,10 @@
 200104_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : infligez à une unité ennemie des dégâts équivalant à la moitié de sa force actuelle.
 200105_fluff;Légers et rapides, les navires de guerre du clan Dimun sont parfaits pour rattraper les frégates marchandes lentes.
 200105_name;Dimun : galère
-200105_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : infligez trois fois {Damage} point(s) de dégâts à une unité ennemie.
+200105_tooltip;Chaque fois que vous jouez un Pirate, infligez {Damage} point(s) de dégâts à la présente unité et à une unité ennemie aléatoire.\n<keyword=deathwish>Baroud d'honneur</keyword> : <keyword=summon>invoquez</keyword> un Pirate Bronze aléatoire sur cette ligne depuis votre cimetière.
 200112_fluff;D'après les légendes, elles attirent les marins vers la mort en les charmant avec leurs chansons… mais il est plus probable que les marins aient été plus attirés par leurs autres charmes.
 200112_name;Sirène
-200112_tooltip;<keyword=deploy>Déploiement</keyword> : améliorez une unité alliée possédant une capacité <keyword=deathwish>Baroud d'honneur</keyword> de {Boost} point(s).
+200112_tooltip;<keyword=deploy>Déploiement</keyword> : améliorez un allié de {boost} point(s). S'il s'agit d'une Bête, améliorez-la de {boost2} point(s) à la place.
 200114_fluff;D'aucuns disent la lycanthropie contagieuse : en se faisant mordre par un loup-garou, on en deviendrait un soi-même. Les sorceleurs savent que c'est absurde, bien sûr. Seule une puissante malédiction peut provoquer cet état.
 200114_name;Loup-garou alpha
 200114_tooltip;<keyword=immune>Invulnérable</keyword>. <keyword=thrive>Développement</keyword>.
@@ -1050,7 +1050,7 @@
 200118_name;Infiltré
 200118_tooltip;<keyword=melee>Combat rapproché</keyword> : à la fin de la manche, mélangez la présente unité dans le jeu de l'adversaire.
 200124_fluff;L'École de la vipère renaîtra… Letho y a veillé.
-200124_name;Sorceleur : Vipère
+200124_name;Régicide
 200124_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=reveal>révélez</keyword> la première carte du jeu de l'adversaire et <keyword=banish>bannissez</keyword>-la.
 200135_fluff;Un métier extrêmement risqué et donc très respecté à Mahakam. Son plus éminent représentant était un nain du nom de Mikkel Bay.
 200135_name;Pyrotechnicien
@@ -1072,7 +1072,7 @@
 200145_tooltip;<keyword=zeal>Zèle</keyword>. <keyword=order>Ordre</keyword> (<keyword=melee>Combat rapproché</keyword>) : infligez à une unité ennemie un <keyword=bleeding>saignement</keyword> pendant {Bleed} tour(s). <keyword=cooldown>Réutilisation</keyword> : {Cooldown} tour(s).\nChaque fois que vous jouez un Vaisseau, réduisez le délai de <keyword=cooldown>réutilisation</keyword> de {Cooldown2} tour(s).
 200146_fluff;Spikeroog n'est qu'un trou aride, mais qu'importe. Tout ce dont on a besoin, on vous le prend.
 200146_name;Dimun : passeur
-200146_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : infligez {Damage} point(s) de dégâts à une unité, puis améliorez-la de {Boost} point(s).
+200146_tooltip;<keyword=deploy>Déploiement</keyword> : si elle est jouée à côté d'un Vaisseau, <keyword=spawn>générez</keyword> une copie de base de la présente unité sur cette ligne.\n<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts à une unité.
 200147_fluff;Dominant la hiérarchie des druidesses, la flaminica impose un grand respect dû entre autres à son grand pouvoir.
 200147_name;Heymaey : flaminica
 200147_tooltip;Au terme de votre tour, <keyword=heal>soignez</keyword> toutes les autres unités sur cette ligne de {Boost} point(s).
@@ -1083,8 +1083,8 @@
 200154_name;Décret royal
 200154_tooltip;Jouez une unité depuis votre jeu.
 200159_fluff;Personne ne pourra remplacer Bran. Pourtant, ils le tenteront sûrement.
-200159_name;Avant-garde sacrificielle
-200159_tooltip;<keyword=order>Ordre</keyword> : <keyword=discard>défaussez</keyword> une carte, puis tirez-en une.\nAu début de la manche, réinitialisez cette capacité.\nChaque fois que vous <keyword=discard>défaussez</keyword> une carte, infligez {Damage} point(s) de dégâts à une unité ennemie aléatoire.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+200159_name;Fureur guerrière
+200159_tooltip;<keyword=order>Ordre</keyword> : <keyword=spawn>générez</keyword> et jouez Mardrome.\nChaque fois que vous jouez une carte Alchimie, <keyword=heal>soignez</keyword> une unité alliée aléatoire de {boost} point(s).\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 200160_fluff;Les Nilfgaardiens l'appellent Tirth ys Muire, le Sanglier sauvage des Mers. Ils s'en servent pour effrayer leurs gamins !
 200160_name;Assaut
 200160_tooltip;<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie. <keyword=cooldown>Réutilisation</keyword> : {Cooldown} tours.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
@@ -1092,20 +1092,20 @@
 200161_name;Tourbillon intrépide
 200161_tooltip;<keyword=order>Ordre</keyword> : répartissez aléatoirement {Damage} point(s) de dégâts entre toutes les unités ennemies, en ignorant leur <keyword=armor>armure</keyword>.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 200162_fluff;On ne m'appelle pas le Patient. Prenez garde ou on vous appellera le Raccourci.
-200162_name;Repli stratégique
-200162_tooltip;<keyword=order>Ordre</keyword> : déplacez une unité alliée du Nilfgaard vers votre main, améliorez-la de {Boost} point(s), puis jouez une carte.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+200162_name;Emprisonnement
+200162_tooltip;<keyword=order>Ordre</keyword> : <keyword=lock>verrouillez</keyword> une unité ennemie et infligez-lui {damage} point(s) de dégâts. {Charges} <keyword=charge>utilisation(s)</keyword>.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 200163_fluff;On aura beau vous laver, vous raser et vous habiller, on ne vous apprendra jamais les bonnes manières.
 200163_name;Formation impériale
-200163_tooltip;<keyword=order>Ordre</keyword> : améliorez une unité alliée de {Boost} point(s). {Charges} <keyword=charge>utilisation(s)</keyword>.\nUne fois toutes les <keyword=charge>utilisations</keyword> épuisées, placez une unité Soldat de votre jeu sur le dessus de celui-ci.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+200163_tooltip;<keyword=order>Ordre</keyword> : améliorez une unité alliée de {Boost} point(s). {Charges} <keyword=charge>utilisation(s)</keyword>.\nUne fois toutes les <keyword=charge>utilisations</keyword> épuisées, placez un Soldat de votre jeu sur le dessus de celui-ci.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 200164_fluff;L'épée n'est qu'un des nombreux instruments dont dispose un souverain.
 200164_name;Décision stratégique
-200164_tooltip;<keyword=order>Ordre</keyword> : regardez les {MaxTargets} premières cartes de votre jeu et jouez-en une.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+200164_tooltip;<keyword=order>Ordre</keyword> : <keyword=spawn>générez</keyword> et jouez Morvran Voorhis.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 200165_fluff;Pour vivre en paix, nous devons d'abord tuer. Ceci est la conséquence cruelle de l'oppression humaine.
-200165_name;Écho mystique
-200165_tooltip;<keyword=order>Ordre</keyword> : jouez une carte spéciale des Scoia'tael depuis votre cimetière.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+200165_name;Don de la nature
+200165_tooltip;<keyword=symbiosis>Symbiose</keyword>.\n<keyword=order>Ordre</keyword> : ajoutez à une unité alliée l'attribut <keyword=vitality>Vitalité</keyword> pendant {Vitality} tour(s). {Charges} <keyword=charge>utilisation(s)</keyword>.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 200166_fluff;La reine des dryades a des yeux d'argent et un cœur froid comme l'acier.
 200166_name;Frappe précise
-200166_tooltip;<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts à une unité. {Charges} <keyword=charge>utilisation(s)</keyword>.\nUne fois toutes les <keyword=charge>utilisations</keyword> épuisées, <keyword=spawn>générez</keyword> et jouez une Vigie de Brokilone.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+200166_tooltip;<keyword=order>Ordre</keyword> : infligez {damage} point(s) de dégâts à une unité. {Charges} <keyword=charge>utilisation(s)</keyword>.\nUne fois toutes les <keyword=charge>utilisations</keyword> épuisées, <keyword=spawn>générez</keyword> et jouez une Vigie de Brokilone.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 200167_fluff;Ce vieux champignon ? Quand tu le vois, pas moyen de savoir s'il est vivant ou empaillé.
 200167_name;Tactiques de guérilla
 200167_tooltip;<keyword=order>Ordre</keyword> : déplacez une unité vers l'autre ligne. S'il s'agit d'un ennemi, infligez-lui {Damage} point(s) de dégâts ; s'il s'agit d'un allié, améliorez-le de {Boost} point(s). {Charges} <keyword=charge>utilisation(s)</keyword>.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
@@ -1114,7 +1114,7 @@
 200168_tooltip;<keyword=order>Ordre</keyword> : améliorez une unité alliée des Royaumes du Nord de {Boost} point(s) et ajoutez-lui l'attribut <keyword=zeal>Zèle</keyword>. {Charges} <keyword=charge>utilisation(s)</keyword>.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 200170_fluff;Le roi Henselt ne ressemblait pas à un voleur, mais, sans vouloir être désobligeant, il n'était rien de plus que cela.
 200170_name;Mobilisation
-200170_tooltip;<keyword=order>Ordre</keyword> : jouez une copie d'une unité alliée depuis votre jeu, améliorez-la de {Boost} point(s) et ajoutez-lui l'attribut <keyword=zeal>Zèle</keyword>.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+200170_tooltip;<keyword=order>Ordre</keyword> : <keyword=spawn>générez</keyword> une copie de base d'un Soldat allié Bronze sur sa ligne et améliorez-la de {boost} point(s).\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 200171_fluff;Les soldats loyaux envers le vieux baron de Tridam quittèrent la ville avec Falibor et devinrent ainsi des renégats recherchés.
 200171_name;Fantassin de Tridam
 200171_tooltip;Chaque fois que la présente unité bénéficie d'une amélioration, infligez {Damage} point(s) de dégâts à une unité ennemie aléatoire.
@@ -1123,7 +1123,7 @@
 200177_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : <keyword=spawn>générez</keyword> une unité Drummond : guerrière sur cette ligne.\n<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : <keyword=spawn>générez</keyword> une unité Drummond : garde de la reine sur cette ligne.
 200209_fluff;Je me moque des rois et de leurs titres. Il en est un à l'est qui mérite vraiment une couronne.
 200209_name;Saskia
-200209_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> un Embusqué elfe, un Nain bagarreur ou une Jeune dryade sur cette ligne.\nVous obtenez un effet supplémentaire en fonction de l'unité <keyword=spawn>générée</keyword>.\nEmbusqué elfe : infligez {damage} point(s) de dégâts à une unité ennemie aléatoire.\nNain bagarreur : améliorez-le de {boost} point(s) et ajoutez-lui {Armor} point(s) d'<keyword=armor>armure</keyword>.\nJeune dryade : ajoutez-lui l'attribut <keyword=vitality>Vitalité</keyword> pendant {Vitality} tour(s).
+200209_tooltip;<keyword=harmony>Harmonie</keyword>.\n<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> un Embusqué elfe, un Nain bagarreur ou une Jeune dryade sur cette ligne.\nVous obtenez un effet supplémentaire en fonction de l'unité <keyword=spawn>générée</keyword>.\nEmbusqué elfe : infligez {damage} point(s) de dégâts à une unité ennemie aléatoire.\nNain bagarreur : améliorez-le de {boost} point(s) et ajoutez-lui {Armor} point(s) d'<keyword=armor>armure</keyword>.\nJeune dryade : ajoutez-lui l'attribut <keyword=vitality>Vitalité</keyword> pendant {Vitality} tour(s).
 200212_fluff;Rayez son nom de la Saga des Ancêtres ! Que personne ne s'avise de lui offrir le gîte ou le couvert !
 200212_name;Skjall
 200212_tooltip;<keyword=berserk>Berserker</keyword> {Berserk} : détruisez la présente unité.
@@ -1153,7 +1153,7 @@
 200226_tooltip;Infligez {Damage} point(s) de dégâts à toutes les unités ayant une force paire, ou infligez {Damage} point(s) de dégâts à toutes les unités ayant une force impaire.
 200228_fluff;Simple, peu coûteuse et d'une mortelle efficacité… Pas étonnant que ce soit l'un des pièges préférés des Scoia'tael.
 200228_name;Fosse piégée
-200228_tooltip;<keyword=ambush>Embuscade</keyword> : après que votre adversaire a joué une carte, répartissez des dégâts équivalant à son coût de recrutement entre toutes les unités ennemies.
+200228_tooltip;<keyword=ambush>Embuscade</keyword> : après que votre adversaire a joué une carte, répartissez aléatoirement des dégâts équivalant à son coût de recrutement entre toutes les unités ennemies.\n<keyword=spring>Action</keyword> : répartissez aléatoirement {Damage} point(s) de dégâts entre toutes les unités ennemies.
 200233_fluff;Elle frappe toujours entre les vertèbres, sous le rein gauche ou directement dans l'aorte. Ainsi, elle n'a besoin de frapper qu'une fois.
 200233_name;Cocatrix
 200233_tooltip;<keyword=deploy>Déploiement</keyword> : infligez à une unité ennemie {Damage} point(s) de dégâts par Bête adjacente.
@@ -1168,7 +1168,7 @@
 200236_tooltip;<keyword=melee>Combat rapproché</keyword> : à la fin de chaque tour allié, améliorez la présente unité de {Boost} point(s).
 200237_fluff;Tuer des monstres n'est pas une tâche à prendre à la légère. Ciri va devoir le comprendre si elle veut devenir l'une des nôtres.
 200237_name;Vesemir : mentor
-200237_tooltip;<keyword=deploy>Déploiement</keyword> : améliorez toutes les unités alliées de catégorie Sorceleur dans votre main, votre jeu ou sur le champ de bataille de {Boost} point(s).
+200237_tooltip;<keyword=deploy>Déploiement</keyword> : améliorez tous vos sorceleurs sur le plateau de {Boost} point(s).\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : améliorez aussi les sorceleurs dans votre main et votre jeu.
 200293_fluff;« Pouvez m'croire, si vous vous remuez pas un peu, les humains viendront nous piquer nos femmes ! »
 200293_name;Agitateur nain
 200293_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : améliorez un Nain dans votre main de {Boost} point(s).
@@ -1204,7 +1204,7 @@
 200519_tooltip;Améliorez une unité de {Boost} point(s) et retirez-lui l'attribut <keyword=lock>Verrouillée</keyword>.
 200520_fluff;La seule chose pouvant rivaliser avec ses épées ? Ses ravioles.
 200520_name;Éibhear Hattori
-200520_tooltip;<keyword=order>Ordre</keyword> : jouez un artefact Bronze depuis votre cimetière.
+200520_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=create>créez</keyword> et jouez une carte Piège depuis votre jeu de départ.
 200523_fluff;Le héros dont Toussaint a besoin, mais pas celui qu'il mérite.
 200523_name;Germain Piquant
 200523_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : <keyword=spawn>générez</keyword> {Counter} Vaches à droite, puis <keyword=spawn>générez</keyword> {Counter} Vaches à gauche de la présente unité.
@@ -1237,7 +1237,7 @@
 201523_tooltip;<keyword=deploy>Déploiement</keyword> : réinitialisez la force de toutes les unités d'une ligne.
 201559_fluff;Houuuuu ! Houuu ! Hou ! Ouvrez vos esgourdes, les tocards ! L'avalanche naine va bientôt déferler ! Quand vous l'ouïrez il sera trop tard, elle vous emportera sans sourciller !
 201559_name;Mahakam : volontaires
-201559_tooltip;<keyword=deploy>Déploiement</keyword> : si un Nain est présent sur cette ligne, <keyword=summon>invoquez</keyword>-y toutes les copies de la présente unité depuis votre jeu.
+201559_tooltip;<keyword=deploy>Déploiement</keyword> : si vous contrôlez un Nain, <keyword=summon>invoquez</keyword> toutes les copies de la présente unité sur cette ligne depuis votre jeu.
 201574_fluff;Le grand, c'est Wilmar. À sa droite, c'est Wilfred. Et celui qui bégaie, là, c'est Wilhelm.
 201574_name;Camarade de Harald
 201574_tooltip;<keyword=doomed>Condamnée</keyword>.\n<keyword=deathwish>Baroud d'honneur</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie aléatoire.
@@ -1252,7 +1252,7 @@
 201579_tooltip;Au début de la manche, si le Phénix est dans votre cimetière, <keyword=banish>bannissez</keyword>-le, puis <keyword=spawn>générez</keyword> un Jeune Phénix et <keyword=summon>invoquez</keyword>-le sur une ligne alliée aléatoire.
 201580_fluff;Pourquoi quelque chose d'aussi trivial que la naissance devrait déterminer qui nous gouverne ?
 201580_name;Confinement
-201580_tooltip;Au début de la partie, neutralisez le chef ennemi pendant la durée de la bataille.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+201580_tooltip;<keyword=order>Ordre</keyword> : neutralisez la capacité de chef de l'adversaire pendant la durée de cette manche. Si le chef de votre adversaire n'a plus d'<keyword=charge>utilisation</keyword> ou si son délai de <keyword=cooldown>réutilisation</keyword> est activé, <keyword=spawn>générez</keyword> {MaxTargets} Agents secrets sur votre ligne de <keyword=melee>combat rapproché</keyword> à la place.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 201581_fluff;Les maîtres des runes ophiris peuvent les combiner pour créer des mots runiques incroyablement puissants.
 201581_name;Rune : Stribog
 201581_tooltip;<keyword=create>Créez</keyword> et jouez une carte Bronze de la faction de Skellige.
@@ -1275,11 +1275,11 @@
 201589_name;Vigueur
 201589_tooltip;<keyword=order>Ordre</keyword> : améliorez toutes les unités dans votre main de {Boost} point(s).\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 201595_fluff;Sa malédiction fut levée… mais elle conserva un appétit pour la viande crue.
-201595_name;Entaille vicieuse
-201595_tooltip;<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie.\n<keyword=deathblow>Coup mortel</keyword> : infligez aux unités adjacentes un <keyword=bleeding>saignement</keyword> pendant une durée équivalant à l'excédent de dégâts éventuel infligé.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+201595_name;Mur de boucliers
+201595_tooltip;<keyword=order>Ordre</keyword> : améliorez une unité alliée de {Boost} point(s) et conférez-lui un <keyword=shield>bouclier</keyword>.\n{Charges} <keyword=charge>utilisation(s)</keyword>.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 201597_fluff;Eist se rendit à Cintra pour aider Crach an Craite à obtenir la main de la princesse Pavetta, mais ce fut finalement lui qui gagna le cœur de la mère de cette dernière.
-201597_name;Second souffle
-201597_tooltip;<keyword=order>Ordre</keyword> : jouez une unité de Skellige ayant un coût de recrutement inférieur ou égal à {Provision} depuis votre cimetière.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+201597_name;Rage de la mer
+201597_tooltip;<keyword=order>Ordre</keyword> : <keyword=spawn>générez</keyword> <keyword=rain>Pluie</keyword> sur une ligne ennemie pendant {Counter} tour(s) et une Sirène assourdissante sur la ligne opposée. {Charges} <keyword=charge>utilisation(s)</keyword>.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 201598_fluff;Le plus simple des objets possède parfois le plus grand des pouvoirs.
 201598_name;Talisman d'os
 201598_tooltip;Améliorez toutes les unités alliées de {Boost} point(s).
@@ -1294,13 +1294,13 @@
 201601_tooltip;Placez une unité ennemie sur le dessus de votre jeu.
 201603_fluff;Pourquoi ce moine porte-t-il des gants cloutés ?
 201603_name;Letho : régicide
-201603_tooltip;<keyword=deploy>Déploiement</keyword> : transformez la présente unité en une copie d'une autre unité, sans modifier sa force.
+201603_tooltip;<keyword=deploy>Déploiement</keyword> : transformez la présente unité en copie de base d'une unité sans modifier sa force.
 201606_fluff;Méthode pour appâter le foënard : plantez un piquet, attachez-y une chèvre puis embusquez-vous dans un bosquet voisin.
 201606_name;Foënard
 201606_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à toutes les unités.
 201609_fluff;Le truc, c'est de les briser mentalement, mais pas physiquement.
 201609_name;Chasseur d'esclaves
-201609_tooltip;<keyword=assimilate>Assimilation</keyword>.\n<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie.
+201609_tooltip;<keyword=assimilate>Assimilation</keyword>.\n<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie.
 201610_fluff;Un homme libre a le choix. Les choix de l'esclave lui sont dictés.
 201610_name;Fantassin esclave
 201610_tooltip;<keyword=deploy>Déploiement</keyword> : transformez une unité alliée en Fantassin esclave.
@@ -1339,7 +1339,7 @@
 201622_tooltip;Améliorez la présente unité de {Boost} point(s) lorsqu'elle est jouée ou <keyword=summon>invoquée</keyword> depuis le jeu.
 201623_fluff;En voyant un sanglier énorme dans les bois, la plupart des hommes souillent leur pantalon et se hâtent de grimper en haut de l'arbre le plus proche. Un habitant de Skellige, en revanche, se contente de baver.
 201623_name;Sanglier géant
-201623_tooltip;<keyword=Deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : améliorez la présente unité de {Boost} point(s) par unité endommagée.\n<keyword=Deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : améliorez la présente unité d'un nombre de points équivalant au montant des dégâts subis par une unité ennemie.
+201623_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : améliorez la présente unité de {Boost} point(s) par unité endommagée.\n<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : améliorez la présente unité d'une valeur équivalant aux dégâts d'une unité.
 201624_fluff;Condamné à revivre encore et encore la même journée, comme les employés de la banque Cianfanelli.
 201624_name;Revenant de Kaedwen
 201624_tooltip;<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts à une unité.\n<keyword=deathblow>Coup mortel</keyword> : <keyword=spawn>générez</keyword> une copie de base du Revenant de Kaedwen et <keyword=summon>invoquez</keyword>-la sur cette ligne.
@@ -1357,7 +1357,7 @@
 201628_tooltip;Infligez {Damage} point(s) de dégâts à une unité ennemie.\n<keyword=deathblow>Coup mortel</keyword> : <keyword=spawn>générez</keyword> un Revenant de Kaedwen et <keyword=summon>invoquez</keyword>-le sur une ligne alliée aléatoire.
 201630_fluff;La malédiction de Sabrina n'épargna personne, pas même ses collègues.
 201630_name;Magicienne damnée
-201630_tooltip;<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : supprimez le <keyword=shield>bouclier</keyword> d'une unité et améliorez la présente unité de {Boost} point(s).
+201630_tooltip;<keyword=zeal>Zèle</keyword>. <keyword=order>Ordre</keyword> : détruisez le <keyword=shield>bouclier</keyword> d'une unité, puis améliorez la présente unité de {Boost} point(s).\n{Charge} <keyword=charge>utilisation(s)</keyword>.
 201631_fluff;Les humains haïssent tant les dopplers qu'ils jugent leur simple exécution insuffisante. Ils attachent donc ceux qu'ils capturent à un pieu, les recouvrent d'une épaisse couche d'argile et les font cuire sur un feu.
 201631_name;Doppler
 201631_tooltip;<keyword=deploy>Déploiement</keyword> : choisissez une unité dans votre main, puis améliorez la présente unité du nombre d'unités dans votre main appartenant à la même catégorie principale.
@@ -1393,7 +1393,7 @@
 201645_tooltip;<keyword=Spring>Action</keyword> : infligez {damage2} point(s) de dégâts à toutes les unités sur une ligne.\n<keyword=ambush>Embuscade</keyword> : après {counter} tour(s), au terme de votre tour, infligez {damage} point(s) de dégâts à toutes les unités ennemies sur la ligne comportant le plus d'unités.
 201646_fluff;Ce qui a causé cette folie devait être terrifiant…
 201646_name;Derran
-201646_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : déplacez une carte depuis votre jeu vers votre cimetière.
+201646_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : infligez 3 points de dégâts à la présente unité, puis déplacez une carte de votre jeu vers votre cimetière.
 201647_fluff;« Offrez-les frappés. »
 201647_name;Pluie de rochers
 201647_tooltip;Infligez {Damage} point(s) de dégâts à une unité ennemie et déplacez-la vers l'autre ligne.
@@ -1423,7 +1423,7 @@
 201661_tooltip;<keyword=order>Ordre</keyword> : conférez un <keyword=shield>bouclier</keyword> à une unité adjacente.
 201662_fluff;Pas question de m'en remettre au hasard. Pour rester en vie, je préfère enduire ma lame d'une bonne couche de cadavérine.
 201662_name;Cadavérine
-201662_tooltip;<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : détruisez la présente carte ainsi que toutes les unités dont la force est équivalente au nombre d'<keyword=charge>utilisations</keyword> de la Cadavérine.\n{Charges2} <keyword=charge>utilisation(s)</keyword>.\nAu début de chaque tour allié, et chaque fois que vous jouez une carte Tactique, gagnez {Charges} <keyword=charge>utilisation(s)</keyword>.
+201662_tooltip;Ajoutez l'attribut <keyword=poison>Empoisonnement</keyword> à une unité ennemie, puis <keyword=spawn>générez</keyword>-en une copie de base sur la ligne opposée.
 201664_fluff;Quand on rend coup pour coup, on ne s'arrête pas tant qu'il reste quelqu'un debout.
 201664_name;Vrygheff
 201664_tooltip;<keyword=deploy>Déploiement</keyword> : déclenchez les capacités de <keyword=deploy>déploiement</keyword> des Soldats Bronze adjacents.
@@ -1432,7 +1432,7 @@
 201676_tooltip;<keyword=order>Ordre</keyword> (<keyword=ranged>Combat à distance</keyword>) : infligez {Damage} point(s) de dégâts à une unité. <keyword=cooldown>Réutilisation</keyword> : {Cooldown} tour(s).\nSi vous contrôlez uniquement des unités des Scoia'tael, infligez {Damage2} point(s) de dégâts à une unité à la place.
 201696_fluff;Bougez-vous ! C'est un foutu piège !
 201696_name;Paulie Dahlberg
-201696_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : déplacez une unité alliée vers l'autre ligne.\n<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : ajoutez {Armor} point(s) d'<keyword=armor>armure</keyword> à une unité alliée.
+201696_tooltip;<keyword=deploy>Déploiement</keyword> : déplacez une unité vers l'autre ligne.\n<keyword=order>Ordre</keyword> : ajoutez 2 points d'<keyword=armor>armure</keyword> à une unité alliée.
 201697_fluff;Les vampires sont unanimes : ce n'est pas très sportif d'utiliser cette potion.
 201697_name;Sang noir
 201697_tooltip;La prochaine fois qu'un ennemi bénéficie d'une amélioration, détruisez-le et détruisez la présente unité.
@@ -1465,7 +1465,7 @@
 201727_tooltip;<keyword=deploy>Déploiement</keyword> :  déplacez une unité aléatoire sur la ligne opposée.
 201728_fluff;Les autres trolls l'ont toujours trouvé un peu bizarre. Après tout, quel troll sain d'esprit préférerait des morceaux de papier colorés aux pierres ?
 201728_name;Échøp : mage
-201728_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> des effets de ligne aléatoires sur les deux lignes ennemies pendant {counter} tour(s).
+201728_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> des effets de ligne aléatoires sur toutes les lignes pendant {counter} tour(s).
 201729_fluff;Les autres trolls l'ont toujours trouvé un peu bizarre. Après tout, quel troll sain d'esprit préférerait des morceaux de papier colorés aux pierres ?
 201729_name;Échøp : mage
 201729_tooltip;<keyword=deploy>Déploiement</keyword> : répartissez aléatoirement {Damage} point(s) de dégâts entre toutes les unités sur le champ de bataille.
@@ -1483,7 +1483,7 @@
 201733_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à {MaxTargets} unité(s) ennemie(s) aléatoire(s).
 201734_fluff;Les autres trolls l'ont toujours trouvé un peu bizarre. Après tout, quel troll sain d'esprit préférerait des morceaux de papier colorés aux pierres ?
 201734_name;Échøp : chasseur
-201734_tooltip;<keyword=deploy>Déploiement</keyword> : la présente unité gagne l'attribut <keyword=resilient>Tenace</keyword>.
+201734_tooltip;<keyword=deploy>Déploiement</keyword> : détruisez un artefact ennemi.
 201735_fluff;Les autres trolls l'ont toujours trouvé un peu bizarre. Après tout, quel troll sain d'esprit préférerait des morceaux de papier colorés aux pierres ?
 201735_name;Échøp : chasseur
 201735_tooltip;<keyword=deploy>Déploiement</keyword> : détruisez un ennemi aléatoire.
@@ -1504,7 +1504,7 @@
 201740_tooltip;<keyword=deploy>Déploiement</keyword> : améliorez une unité aléatoire dans votre main de {Boost} point(s).
 201741_fluff;Les autres trolls l'ont toujours trouvé un peu bizarre. Après tout, quel troll sain d'esprit préférerait des morceaux de papier colorés aux pierres ?
 201741_name;Échøp : chevalier
-201741_tooltip;<keyword=deploy>Déploiement</keyword> : détruisez un artefact ennemi.
+201741_tooltip;<keyword=deploy>Déploiement</keyword> : la présente unité gagne l'attribut <keyword=resilient>Tenace</keyword>.
 201742_fluff;Les autres trolls l'ont toujours trouvé un peu bizarre. Après tout, quel troll sain d'esprit préférerait des morceaux de papier colorés aux pierres ?
 201742_name;Échøp : chevalier
 201742_tooltip;<keyword=deploy>Déploiement</keyword> : améliorez une unité alliée de {Boost} point(s).
@@ -1546,7 +1546,7 @@
 201780_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : <keyword=reveal>révélez</keyword> une unité aléatoire de votre jeu, puis améliorez une unité alliée d'un nombre de points équivalant à sa force.
 201781_fluff;Les sœurs m'avaient averti de votre venue. Elles ont vu votre arrivée dans les reflets de l'eau.
 201781_name;Imlerith
-201781_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : <keyword=discard>défaussez</keyword> une unité des Monstres et améliorez la présente unité de sa force, puis tirez une carte.
+201781_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : tirez une carte, puis <keyword=discard>défaussez-en</keyword> une. Si la carte <keyword=discard>défaussée</keyword> est une unité, améliorez la présente unité de sa force.
 201817_fluff;« C'est pas croyable ! se dit Ciri en reprenant ses esprits. Voyons, il n'y a plus de licornes en ce monde, elles ont disparu ! »
 201817_name;Ihuarraquax
 201817_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : chaque joueur <keyword=summon>invoque</keyword> l'unité disposant du coût de recrutement le plus élevé depuis son jeu sur la ligne de combat rapproché.\n<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : chaque joueur <keyword=summon>invoque</keyword> l'unité disposant du coût de recrutement le plus faible depuis son jeu sur la ligne de combat à distance.
@@ -1588,7 +1588,7 @@
 202101_tooltip;À la fin de chaque tour allié, déplacez la présente unité vers la ligne où se situe l'unité disposant de la force la plus élevée sur le champ de bataille, sans prendre en compte la présente unité.
 202102_fluff;Votre ingénieur a une sale trogne, mais pour sûr, il connaît son affaire.
 202102_name;Xavier Lemmens
-202102_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : <keyword=banish>bannissez</keyword> jusqu'à {MaxTargets} cartes du cimetière de votre adversaire.\n<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : <keyword=banish>bannissez</keyword> jusqu'à {MaxTargets} cartes de votre cimetière.
+202102_tooltip;<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> (<keyword=melee>Combat rapproché</keyword>) : <keyword=banish>bannissez</keyword> une carte du cimetière de l'adversaire.\n<keyword=order>Ordre</keyword> (<keyword=ranged>Combat à distance</keyword>) : <keyword=banish>bannissez</keyword> une carte de votre cimetière.\n<keyword=cooldown>Réutilisation</keyword> : {Cooldown} tour(s).
 202103_fluff;Quand elle s'est installée par ici, elle les a combattus presque un siècle durant. La dragonne s'est lassée de combattre et ils comprirent qu'ils n'arriveraient à rien… alors ils ont conclu un marché. Offrandes contre tranquillité.
 202103_name;Keltullis
 202103_tooltip;<keyword=melee>Combat rapproché</keyword> : à la fin de chaque tour allié, détruisez l'unité disposant de la force la plus faible du côté comportant le plus grand nombre d'unités.
@@ -1633,7 +1633,7 @@
 202116_tooltip;<keyword=order>Ordre</keyword> : améliorez une unité alliée de {Boost} point(s). <keyword=cooldown>Réutilisation</keyword> : {Cooldown} tour(s).\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 202117_fluff;Sur les parois, des fresques représentaient les marais d'Angren et sa faune inquiétante. Deux mots barraient l'abomination la plus colossale : Gvaern Ichaer, la maîtresse sanguinaire.
 202117_name;Fruits d'Ysgith
-202117_tooltip;<keyword=order>Ordre</keyword> : <keyword=spawn>générez</keyword> un Fruit de Gernichora sur une ligne alliée. \nAu début de votre tour, réinitialisez cette capacité si vous ne contrôlez aucun Fruit de Gernichora.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+202117_tooltip;<keyword=order>Ordre</keyword> : <keyword=spawn>générez</keyword> un Fruit de Gernichora sur une ligne alliée.\nAu début de votre tour, réinitialisez cette capacité si vous ne contrôlez aucun Fruit de Gernichora.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 202118_fluff;Chez moi, dans le monde civilisé, un général commande ses troupes. Il ne s'agite pas comme un chien enragé.
 202118_name;Asservissement
 202118_tooltip;<keyword=order>Ordre</keyword> : <keyword=seize>saisissez</keyword> une unité ennemie disposant d'une force inférieure ou égale à {Power}. \nCette valeur est augmentée de {Counter2} par tranche de {Counter} cartes Tactique dans votre jeu de départ.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
@@ -1645,7 +1645,7 @@
 202121_tooltip;<keyword=deploy>Déploiement</keyword> : déplacez une unité sur une autre ligne de votre côté.
 202122_fluff;J'ai connu un jeune couple qui a été séparé juste après son mariage. Une bombe dans un chariot peut avoir cet effet.
 202122_name;Souleveur de bombes
-202122_tooltip;<keyword=deploy>Déploiement</keyword> : détruisez un artefact ennemi.
+202122_tooltip;<keyword=deploy>Déploiement</keyword> : infligez 1 point de dégâts à une unité ennemie.\nSi vous avez une Bombe dans votre main, infligez-lui 3 points de dégâts à la place.
 202124_fluff;Engagez-vous, qu'ils disaient… Vous verrez du pays, qu'ils disaient…
 202124_name;Mastodonte arachas
 202124_tooltip;Aucune capacité.
@@ -1735,7 +1735,7 @@
 202153_tooltip;Chaque fois que vous jouez une unité possédant <keyword=order>Ordre</keyword>, améliorez la présente unité de {Boost} point(s).
 202154_fluff;Descendez de vos grands chevaux et affrontez-moi !
 202154_name;Piquier de Riv
-202154_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie.\n<keyword=resupply>Ravitaillement</keyword> : améliorez la présente unité de {Boost} point(s).
+202154_tooltip;<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie.\n<keyword=resupply>Ravitaillement</keyword> : améliorez la présente unité de {Boost} point(s).
 202155_fluff;Je peux mettre dans le mille à cent pas ! Mais peut-être pas du premier coup, bien sûr…
 202155_name;Arbalétrier lyrien
 202155_tooltip;<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts à une unité. \n{Charges} <keyword=charge>utilisation(s)</keyword>.\nChaque fois que vous jouez une carte possédant des <keyword=order>Ordres</keyword>, la présente unité gagne {Charges2} <keyword=charge>utilisation(s)</keyword>.
@@ -1756,7 +1756,7 @@
 202160_tooltip;Aucune capacité.
 202161_fluff;Ils nourrissent notre peuple et versent le sang de nos ennemis.
 202161_name;Faucheur lyrien
-202161_tooltip;<keyword=deploy>Déploiement</keyword> : améliorez la présente unité de {Boost} point(s) par unité alliée améliorée.
+202161_tooltip;<keyword=deploy>Déploiement</keyword> : améliorez la présente unité de {Boost} point(s) par unité améliorée sur cette ligne.
 202162_fluff;Mort ou vif, j'aurai cet elfe. Vous pouvez me croire.
 202162_name;Chef de caravane
 202162_tooltip;Aucune capacité.
@@ -1834,10 +1834,10 @@
 202186_tooltip;<keyword=order>Ordre</keyword> : <keyword=create>créez</keyword> et jouez une carte depuis la main de votre adversaire.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 202187_fluff;Ils l'appellent la « Lionne de Cintra ». Et ils ont leurs raisons.
 202187_name;Manœuvre de pince
-202187_tooltip;<keyword=order>Ordre</keyword> : jouez une carte de la faction des Royaumes du Nord depuis votre main, puis tirez n'importe quelle carte.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+202187_tooltip;<keyword=order>Ordre</keyword> : tirez une carte des Royaumes du Nord de votre choix, puis replacez une carte de votre main dans votre jeu et mélangez-le. Si la carte tirée est une unité, améliorez-la de {Boost} point(s).\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 202188_fluff;Elle apparaît sous la forme d’une Vierge aux cheveux clairs, toute en fleurs, et tout être vivant, plante comme bête, porte ses pas vers elle et est attiré par elle.
 202188_name;Appel de l'harmonie
-202188_tooltip;<keyword=order>Ordre</keyword> : jouez depuis votre jeu une carte des Scoia'tael ayant un coût de recrutement inférieur ou égal à {power}. Cette valeur est augmentée de 1 point(s) par catégorie principale unique pour les cartes Scoia'tael dans votre jeu de départ.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+202188_tooltip;<keyword=order>Ordre</keyword> : <keyword=spawn>générez</keyword> et jouez Dana Méadbh.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 202189_fluff;Il n'a prononcé à ses fidèles qu'un seul commandement : tuer.
 202189_name;Rituel de l'ours
 202189_tooltip;<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts à une unité alliée. {Charges} <keyword=charge>utilisation(s)</keyword>.\nUne fois toutes les <keyword=charge>utilisations</keyword> épuisées, <keyword=spawn>générez</keyword> un Ours monstrueux sur une ligne alliée aléatoire.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
@@ -1867,7 +1867,7 @@
 202197_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : déplacez n'importe quelle carte de votre jeu vers le dessus de votre jeu.
 202198_fluff;Qui ne rêve pas de vivre aussi libre qu'un oiseau ? Eh bien, posez donc la question à Vivienne de Tabris.
 202198_name;Vivienne : loriot
-202198_tooltip;<keyword=deploy>Déploiement</keyword> : détruisez un artefact ennemi, puis améliorez la présente unité de son coût de recrutement.
+202198_tooltip;<keyword=deploy>Déploiement</keyword> : améliorez la présente unité du coût de recrutement de l'unité située à droite.
 202199_fluff;Grégoire ? La montagne de muscles en armure ? Bien sûr que je le connais ! Qui n'en a pas entendu parler ?
 202199_name;Grégoire de la Gorgone
 202199_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : infligez {Damage} point(s) de dégâts à une unité ennemie.\n<keyword=deathblow>Coup mortel</keyword> : améliorez la présente unité de {Boost} point(s) et conférez-lui un <keyword=shield>bouclier</keyword>.
@@ -1876,7 +1876,7 @@
 202200_tooltip;<keyword=deploy>Déploiement</keyword> : la présente unité reçoit aléatoirement un <keyword=shield>bouclier</keyword> ou un attribut <keyword=doomed>Condamnée</keyword>, <keyword=resilient>Tenace</keyword> ou <keyword=poison>Empoisonnement</keyword>.
 202201_fluff;Certains les apprécient énormément. D'autres les détestent.
 202201_name;Portail
-202201_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=summon>invoquez</keyword> une unité aléatoire ayant un coût de recrutement de {Counter} depuis votre jeu de chaque côté de la présente carte.
+202201_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=summon>invoquez</keyword> depuis votre jeu, à gauche de la présente carte, une unité aléatoire ayant un coût de recrutement de {Counter}.\nAu bout de 3 tours, <keyword=summon>invoquez</keyword> depuis votre jeu, à droite de la présente carte, une unité aléatoire ayant un coût de recrutement de {Counter}.
 202202_fluff;Seule la duchesse a le privilège de savourer le goût riche et boisé du Sangreal… Ce qu'elle a l'habitude de faire très, très souvent.
 202202_name;Sangreal
 202202_tooltip;Améliorez une unité de {Boost} point(s) et conférez-lui un <keyword=shield>bouclier</keyword>.
@@ -1891,7 +1891,7 @@
 202205_tooltip;Infligez {Damage} point(s) de dégâts aux unités à chaque extrémité d'une ligne ennemie.
 202206_fluff;Une véritable merveille, jusqu'à ce qu'elle vous explose à la figure.
 202206_name;Étoile dansante
-202206_tooltip;Détruisez un artefact ou infligez {Damage} point(s) de dégâts à une unité.
+202206_tooltip;Infligez {damage} point(s) de dégâts à une unité ennemie.\n<keyword=deathblow>Coup mortel</keyword> : infligez {damage2} point(s) de dégâts en moins à l'unité située à droite.
 202207_fluff;Aussi mortelle que fétide.
 202207_name;Vesse du diable
 202207_tooltip;Ajoutez l'attribut <keyword=poison>Empoisonnement</keyword> à une unité ennemie.\n<keyword=deathblow>Coup mortel</keyword> : infligez {Damage} point(s) de dégâts aux unités lui étant adjacentes.
@@ -1939,7 +1939,7 @@
 202222_tooltip;<keyword=deploy>Déploiement</keyword> : infligez à une unité ennemie un <keyword=bleeding>saignement</keyword> d'une durée égale au nombre de Vampires alliés.\n<keyword=ranged>Combat à distance</keyword> : à la fin de chaque tour allié, améliorez la présente unité d'un montant équivalant au nombre d'unités ennemies possédant l'attribut <keyword=bleeding>saignement</keyword>.
 202223_fluff;Leur territoire se limite à une seule région du continent, ce qui en fait une espèce très menacée d'après les érudits. Les dieux soient loués…
 202223_name;Protonoctule
-202223_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie.\n<keyword=dominance>Domination</keyword> : <keyword=drain>drainez</keyword> {Drain} point(s) de force d'une unité ennemie à la place.
+202223_tooltip;<keyword=deploy>Déploiement</keyword> : infligez à une unité ennemie un <keyword=bleeding>saignement</keyword> pendant {Bleed} tour(s), puis améliorez la présente unité de la valeur de <keyword=bleeding>saignement</keyword> de cette unité.
 202224_fluff;Du sang au plafond, des entrailles sur le mur… Ça ne peut être que l'œuvre d'un garkain.
 202224_name;Garkain
 202224_tooltip;Au terme de chaque tour allié, améliorez la présente unité de {Boost} point(s) si un ennemi souffre d'un <keyword=bleeding>saignement</keyword>.
@@ -1954,10 +1954,10 @@
 202228_tooltip;<keyword=purify>Purifiez</keyword> une unité ennemie et infligez-lui {Damage} point(s) de dégâts.\nSi vous contrôlez un Vampire, infligez aussi à cette unité un <keyword=bleeding>saignement</keyword> pendant {Bleed} tour(s).
 202229_fluff;Les enfants de la nuit sont un châtiment divin ! Nous tolérons les magiciens et la vermine non-humaine parmi nous depuis trop longtemps ! Repentez-vous ! Avant que votre âme pourrisse !
 202229_name;Noctule
-202229_tooltip;<keyword=deploy>Déploiement</keyword> : détruisez une unité alliée et ajoutez à la présente unité l'attribut <keyword=vitality>Vitalité</keyword> pendant {Vitality} tour(s).
+202229_tooltip;Chaque fois qu'une unité ennemie subit un <keyword=bleeding>saignement</keyword>, la présente unité reçoit un attribut <keyword=vitality>Vitalité</keyword> pour la même durée.
 202230_fluff;Les habitants, tourmentés depuis longtemps par de terrifiants cauchemars, affichèrent un appel à l'aide désespéré… « Hmm. Sûrement une alpyre », grommela le sorceleur.
 202230_name;Alpyre
-202230_tooltip;<keyword=deploy>Déploiement</keyword> : infligez à une unité ennemie un <keyword=bleeding>saignement</keyword> pendant {Bleed} tour(s).
+202230_tooltip;<keyword=deploy>Déploiement</keyword> : infligez à une unité ennemie un <keyword=bleeding>saignement</keyword> pendant {Bleed} tour(s).\n<keyword=order>Ordre</keyword> : infligez à une unité ennemie un <keyword=bleeding>saignement</keyword> pendant {Bleed2} tour(s).
 202231_fluff;Seule, cette créature ne représente pas une grande menace. Mais s'il y en a douze ? Mieux vaut avoir les dieux de son côté.
 202231_name;Plumeur
 202231_tooltip;<keyword=deploy>Déploiement</keyword> : infligez à une unité ennemie un <keyword=bleeding>saignement</keyword> pendant {Bleed} tour(s).\n<keyword=bonded>Lien</keyword> : infligez-lui un <keyword=bleeding>saignement</keyword> pendant {Bleed2} tour(s) à la place.
@@ -1975,10 +1975,10 @@
 202236_tooltip;<keyword=order>Ordre</keyword> (<keyword=melee>Combat rapproché</keyword>) : réactivez la capacité de votre chef.
 202237_fluff;Le bruit courait que l'honorable baron Palmerin de Launfal entretenait une liaison avec une succube, mais la duchesse n'accordait aucun crédit à ces rumeurs sans fondement.
 202237_name;Palmerin de Launfal
-202237_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie.\n<keyword=deathblow>Coup mortel</keyword> : conférez un <keyword=shield>bouclier</keyword> aux unités alliées adjacentes. \nSi Milton se trouve dans votre main, déclenchez la capacité <keyword=deathblow>Coup mortel</keyword> de la présente unité même si l'unité ennemie survit.
+202237_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {damage} point(s) de dégâts à une unité ennemie. \n<keyword=deathblow>Coup mortel</keyword> : ajoutez l'attribut <keyword=spying>Espion</keyword> aux unités ennemies adjacentes.\nSi Milton se trouve dans votre main, déclenchez toujours la capacité <keyword=deathblow>Coup mortel</keyword>.
 202238_fluff;Scintillant sous les rayons du soleil de Beauclair, ce chevalier errant était reconnaissable au premier coup d'œil grâce à la grande tête de taureau blanc sur son bouclier.
 202238_name;Milton de Peyrac-Peyran
-202238_tooltip;<keyword=deploy>Déploiement</keyword>: infligez {Damage} point(s) de dégâts à une unité ennemie.\n<keyword=deathblow>Coup mortel</keyword> : infligez {Damage2} point(s) de dégâts aux unités ennemies adjacentes. \nSi Palmerin se trouve dans votre main, déclenchez la capacité <keyword=deathblow>Coup mortel</keyword> de la présente unité même si l'unité ennemie survit.
+202238_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {damage} point(s) de dégâts à une unité ennemie. \n<keyword=deathblow>Coup mortel</keyword> : infligez {damage2} point(s) de dégâts aux unités ennemies adjacentes.\nSi Palmerin se trouve dans votre main, déclenchez toujours la capacité <keyword=deathblow>Coup mortel</keyword>.
 202239_fluff;Il aurait créé une illusion si réaliste que lui-même aurait commencé à y croire…
 202239_name;Artorius Vigo
 202239_tooltip;<keyword=assimilate>Assimilation</keyword>.\n<keyword=deploy>Déploiement</keyword> : <keyword=create>créez</keyword> et jouez une copie d'une unité Bronze de votre jeu de départ et fixez sa force à {Set}.
@@ -2176,7 +2176,7 @@
 202303_tooltip;<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie et obtenez un nombre de <keyword=coin>piastres</keyword> équivalant à l'excédent de dégâts éventuel infligé.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 202304_fluff;Eh, Kurt, va voir ce qui fait hurler la Merigold. Elle a peut-être besoin de quelque chose. Comme un fer rouge sur la langue.
 202304_name;Kurt
-202304_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : <keyword=lock>verrouillez</keyword> une unité.\n<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : <keyword=purify>purifiez</keyword> une unité.
+202304_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : placez une <keyword=bounty>prime</keyword> sur une unité ennemie.\n<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : <keyword=purify>purifiez</keyword> une unité.
 202305_fluff;Certains chasseurs de sorcières pensaient sincèrement rendre le monde meilleur en éradiquant les sorciers et les magiciennes. Moreelse agissait, lui, sans chercher d'aussi noble justification.
 202305_name;Moreelse
 202305_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie.\n<keyword=tribute>Tribut</keyword> de {Tribute-B.P.BB_Tribute} piastre(s) : détruisez-la à la place.
@@ -2185,13 +2185,13 @@
 202306_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : <keyword=heal>soignez</keyword> une unité alliée.\n<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : améliorez une unité alliée de {Boost} point(s).\n<keyword=tribute>Tribut</keyword> de {Tribute-B.P.BB_Tribute} piastre(s) : combinez les deux capacités <keyword=deploy>Déploiement</keyword> à la place.
 202307_fluff;Ma salle des ventes est avant tout un lieu de rendez-vous pour l'élite, le haut du panier.
 202307_name;Horst Borsody
-202307_tooltip;<keyword=profit>Bénéfice</keyword> de {Income} piastre(s).\nSi Ewald Borsody se trouve dans votre cimetière, augmentez le <keyword=profit>bénéfice</keyword> initial de la présente carte de {Income2} piastre(s). \n<keyword=fee>Gages</keyword> de {Cost} piastre(s) (<keyword=ranged>Combat à distance</keyword>) : améliorez une unité alliée de {Boost} point(s).
+202307_tooltip;<keyword=deploy>Déploiement</keyword> : vous obtenez {Coins} <keyword=coin>piastre(s)</keyword>.\nSi Ewald Borsody se trouve dans votre cimetière, vous obtenez {Coins2} <keyword=coin>piastre(s)</keyword> à la place.
 202308_fluff;Plus ses paroles sont douces, plus vos regrets seront amers.
 202308_name;Séductrice rusée
 202308_tooltip;<keyword=fee>Gages</keyword> de {Cost} piastre(s) : la présente unité reçoit un <keyword=shield>bouclier</keyword>.\nChaque fois que votre adversaire joue une unité, améliorez la présente unité de {Boost} point(s).\n<keyword=bonded>Lien</keyword> : chaque fois que votre adversaire joue une carte, améliorez la présente unité de {Boost} point(s).
 202309_fluff;Je prépare ce plan depuis plus d'un an, mais il est temps de passer à l'action. Je peux compter sur votre aide ?
 202309_name;Ewald Borsody
-202309_tooltip;<keyword=profit>Bénéfice</keyword> de {Income} piastre(s).\nSi Horst Borsody se trouve dans votre cimetière, augmentez le <keyword=profit>bénéfice</keyword> de la présente carte de {Income2} piastre(s).\n<keyword=fee>Gages</keyword> de {cost} piastre(s) (<keyword=melee>Combat rapproché</keyword>) : infligez {Damage} point(s) de dégâts à une unité ennemie.
+202309_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {damage} point(s) de dégâts à une unité ennemie.\nSi Horst Borsody se trouve dans votre cimetière, infligez {damage2} point(s) de dégâts à une unité ennemie à la place.
 202310_fluff;Pardon, mademoiselle… Ce que je peux être maladroit.
 202310_name;Voleur à la tire
 202310_tooltip;<keyword=profit>Bénéfice</keyword> de {Income} piastre(s).
@@ -2215,7 +2215,7 @@
 202316_tooltip;<keyword=profit>Bénéfice</keyword> de {Income} piastre(s).\n<keyword=fee>Gages</keyword> de {Cost} piastre(s) : ajoutez à une unité alliée l'attribut <keyword=vitality>Vitalité</keyword> pendant {Vitality} tour(s).
 202317_fluff;Je n'ai jamais beaucoup aimé les abeilles.
 202317_name;Rico Meiersdorf
-202317_tooltip;Chaque fois que votre adversaire joue une unité alors que Rico se trouve dans votre main, fixez sa force sur la force initiale de cette unité.
+202317_tooltip;Chaque fois que l'adversaire joue une unité alors que Rico se trouve dans votre main, fixez sa force sur la force de cette unité.
 202318_fluff;D'aussi beaux cheveux, ce serait vraiment dommage que je les coupe.
 202318_name;Bourreau de sorcières
 202318_tooltip;<keyword=profit>Bénéfice</keyword> de {Income} piastre(s).\n<keyword=fee>Gages</keyword> de {Cost} piastre(s) : infligez à une unité ennemie un <keyword=bleeding>saignement</keyword> pendant {Bleed} tour(s). Si cette unité dispose d'une <keyword=bounty>prime</keyword>, infligez-lui {Damage} point(s) de dégâts à la place.
@@ -2227,7 +2227,7 @@
 202320_tooltip;<keyword=deploy>Déploiement</keyword> : placez une <keyword=bounty>prime</keyword> sur une unité ennemie.
 202321_fluff;Nos lits ont vu passer plus d'hommes que toutes les casernes de Redania réunies.
 202321_name;Madame Luiza
-202321_tooltip;<keyword=intimidate>Intimidation</keyword>.\n<keyword=order>Ordre</keyword> : votre prochain <keyword=tribute>tribut</keyword> joué durant cette manche coûte {Cost}.
+202321_tooltip;<keyword=intimidate>Intimidation</keyword>.\n<keyword=tribute>Tribut</keyword> de {Tribute-B.P.BB_Tribute} piastre(s) : la présente unité gagne l'attribut <keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : votre prochain <keyword=tribute>tribut</keyword> joué durant cette manche coûte {Cost} piastre(s).
 202322_fluff;Pupilles dilatées, dents qui claquent, ricanement stupide… Les effets du fisstech, sans aucun doute.
 202322_name;Fisstech
 202322_tooltip;<keyword=profit>Bénéfice</keyword> de {Income} piastre(s).\nAjoutez l'attribut <keyword=poison>Empoisonnement</keyword> à une unité.
@@ -2245,13 +2245,13 @@
 202327_tooltip;<keyword=deploy>Déploiement</keyword> : détruisez une unité alliée et améliorez la présente unité de sa force initiale.
 202328_fluff;Je n'ai que faire des titres et des babioles. Le pouvoir, c'est tout ce que je désire.
 202328_name;Au noir
-202328_tooltip;<keyword=order>Ordre</keyword> : vous obtenez {Coins} <keyword=coin>piastre(s)</keyword>. {Charges} <keyword=charge>utilisation(s)</keyword>.\nChaque <keyword=tribute>tribut</keyword> allié coûte {Tribute} <keyword=coin>piastre(s)</keyword> de moins.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+202328_tooltip;<keyword=order>Ordre</keyword> : vous obtenez {Coins} <keyword=coin>piastre(s)</keyword>. {Charges} <keyword=charge>utilisation(s)</keyword>.\nLe coût de vos <keyword=tribute>Tributs</keyword> est réduit de {Tribute} <keyword=coin>piastre(s)</keyword>.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 202329_fluff;Ces temps-ci, on a plus de chances de pêcher un cadavre qu'un poisson dans le Pontar.
 202329_name;Bain dans le Pontar
 202329_tooltip;<keyword=profit>Bénéfice</keyword> de {Income} piastre(s).\nInfligez {Damage} point(s) de dégâts à une unité ennemie.
 202330_fluff;J'ai plus d'argent, j'vous ai déjà tout donné !
 202330_name;Jour de paie
-202330_tooltip;Infligez {Damage} point(s) de dégâts à une unité ennemie.\n<keyword=deathblow>Coup mortel</keyword> : vous obtenez {Coins} <keyword=coin>piastre(s)</keyword>.
+202330_tooltip;Infligez {damage} point(s) de dégâts à une unité ennemie. Vous obtenez une <keyword=coin>piastre</keyword> par point de dégâts excédentaire infligé.
 202331_fluff;Autrefois, il semait la terreur au large, mais ses cales pleines d'or l'empêchent aujourd'hui de quitter le port.
 202331_name;Retraite des Écumeurs
 202331_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : améliorez une unité alliée de {Boost} point(s) par Pirate dans votre main.
@@ -2272,7 +2272,7 @@
 202336_tooltip;Vous obtenez {Coins} <keyword=coin>piastre(s)</keyword>. Si votre adversaire contrôle un artefact, vous obtenez {Coins2} <keyword=coin>piastre(s)</keyword> à la place.
 202337_fluff;Pourquoi tu tires cette gueule d'enterrement ?
 202337_name;Bête de foire du Bâtard
-202337_tooltip;<keyword=insanity>Folie</keyword>.\n<keyword=fee>Gages</keyword> de {Cost} piastre(s) : infligez à une unité ennemie un <keyword=bleeding>saignement</keyword> pendant {Bleed} tour(s). Si la présente unité a utilisé sa <keyword=insanity>folie</keyword>, infligez à la place {Damage} point(s) de dégâts à une unité ennemie aléatoire.
+202337_tooltip;<keyword=profit>Bénéfice</keyword> de {income} piastre(s).\n<keyword=fee>Gages</keyword> de {cost} piastre(s) (<keyword=melee>Combat rapproché</keyword>) : infligez {damage} point(s) de dégâts à une unité ennemie.
 202338_fluff;Vous voyez des gens, mais moi, j'vois que des moutons qu'il faut tondre.
 202338_name;Habitants
 202338_tooltip;Chaque fois que vous obtenez des <keyword=coin>piastres</keyword>, améliorez la présente unité de {Boost} point(s).
@@ -2308,7 +2308,7 @@
 202348_tooltip;Chaque fois que vous jouez une unité à côté du Prophète Lebioda, conférez-lui un <keyword=shield>bouclier</keyword>.
 202349_fluff;Vous le sentez ? Je perçois quelque chose par-delà sa chaleur, autre chose…
 202349_name;Flamme sacrée
-202349_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> un Zélote des fidèles du Feu de chaque côté de la présente carte.\n<keyword=order>Ordre</keyword> : améliorez toutes les unités sur cette ligne de {Boost} point(s).
+202349_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> un Zélote des fidèles du Feu de chaque côté de la présente carte.\n<keyword=order>Ordre</keyword> : améliorez toutes les unités alliées des Fidèles du Feu de {boost} point(s).
 202350_fluff;Aucun misérable pécheur n'échappera à son destin dans le Feu. J'y veillerai en personne.
 202350_name;Grand inquisiteur Helveed
 202350_tooltip;<keyword=profit>Bénéfice</keyword> de {Income} piastre(s).\n<keyword=fee>Gages</keyword> de {Cost} piastre(s) : <keyword=spawn>générez</keyword> un Zélote des fidèles du Feu sur cette ligne.
@@ -2413,7 +2413,7 @@
 202383_tooltip;<keyword=deploy>Déploiement</keyword> : améliorez la présente unité de {Boost} point(s).\nAugmentez cette amélioration de {Counter} point(s) par carte spéciale que vous avez jouée durant cette partie.
 202384_fluff;"Les deux bras attachés dans le dos", c'est ce que t'as dit. Alors hésite pas à me botter le cul si l'envie t'en prend.
 202384_name;Justice de Novigrad
-202384_tooltip;<keyword=spawn>Générez</keyword> une Brute de Surin sur votre ligne de <keyword=melee>combat rapproché</keyword> et jouez un Nain Bronze depuis votre jeu.
+202384_tooltip;Jouez une unité Bronze de catégorie Découpeur ou Nain depuis votre jeu.\nSi vous contrôlez déjà un Nain ou un Découpeur, <keyword=spawn>générez</keyword> aussi une Brute de Surin sur la ligne de <keyword=melee>combat rapproché</keyword> alliée.
 202385_fluff;Le voilà ! Mon sanglier dans son armure étincelante !
 202385_name;Sire Lardoire
 202385_tooltip;<keyword=intimidate>Intimidation</keyword> de {Intimidate}.\n<keyword=tribute>Tribut</keyword> de {Tribute-B.P.BB_Tribute} piastre(s) : ajoutez l'attribut <keyword=immune>Invulnérable</keyword> à la présente unité.
@@ -2430,8 +2430,8 @@
 202389_name;Ferko le Sculpteur
 202389_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : jouez une carte Crime depuis votre jeu.
 202390_fluff;Grâce à toi, mes cochons auront d'quoi manger.
-202390_name;Atout
-202390_tooltip;<keyword=order>Ordre</keyword> : jouez une carte spéciale du Syndicat depuis votre jeu. Si son coût de recrutement est inférieur ou égal à {Counter}, vous obtenez {Coins} <keyword=coin>piastre(s)</keyword>.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
+202390_name;Anse des pirates
+202390_tooltip;<keyword=order>Ordre</keyword> : <keyword=spawn>générez</keyword> un Chacal des mers sur une ligne alliée. Vous obtenez ensuite {Coins} <keyword=coin>piastre(s)</keyword>.\n\nCette capacité augmente de {Template.Provision} la limite de recrutement de votre jeu.
 202392_fluff;Dans une ville qui se nourrit de mensonges, la vérité peut être une arme.
 202392_name;Walter Veritas
 202392_tooltip;<keyword=deploy>Déploiement</keyword> : créez et jouez une carte Bronze de la faction du Syndicat.
@@ -2653,10 +2653,10 @@
 202470_tooltip;<keyword=defender>Défenseur</keyword>.\n<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> un Nain bagarreur sur cette ligne.
 202471_fluff;Ils traverseraient les flammes ensemble. Et ils en riraient.
 202471_name;Compagnie de Zoltan
-202471_tooltip;<keyword=spawn>Générez</keyword> {Counter} Nains bagarreurs sur une ligne alliée.
+202471_tooltip;<keyword=spawn>Générez</keyword> {Counter} Nains bagarreurs sur une ligne alliée.\nSi vous contrôlez Zoltan, ajoutez {Armor} point(s) d'<keyword=armor>armure</keyword> à tous les Nains sur cette ligne.
 202472_fluff;Mes amis nains, vous pouvez dessiner tout ce que vous voulez. Vous n'arriverez pas pour autant à le construire, vous pouvez me croire.
 202472_name;Chariot nain
-202472_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> un Nain bagarreur sur cette ligne.\n<keyword=bonded>Lien</keyword> : <keyword=spawn>générez</keyword> {Counter} Nains bagarreurs sur cette ligne à la place.
+202472_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> un Nain bagarreur sur cette ligne.\n<keyword=order>Ordre</keyword> : ajoutez à une unité alliée {Armor} point(s) d'<keyword=armor>armure</keyword>.\n<keyword=cooldown>Réutilisation</keyword> : {Cooldown} tour(s).
 202473_fluff;L'acier nain est très résistant. Presque autant que les nains eux-mêmes.
 202473_name;Trempe
 202473_tooltip;Améliorez un allié de {Boost} point(s). S'il s'agit d'un Nain, ajoutez-lui aussi {Armor} point(s) d'<keyword=armor>armure</keyword>.
@@ -2728,10 +2728,10 @@
 202503_tooltip;<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts aux unités adjacentes, puis améliorez la présente unité de {Boost} point(s) par unité endommagée.\n<keyword=crew>Appui</keyword> : améliorez la présente unité de {boost2} point(s) à la place.
 202504_fluff;Aucune forteresse n'est imprenable. Il n'y a que des forteresses qui ne valent pas la peine d'être prises.
 202504_name;Siège
-202504_tooltip;Scénario : vous progressez chaque fois que vous jouez une Machine de siège.\nPrologue : <keyword=spawn>générez</keyword> un Trébuchet renforcé sur votre ligne de combat à distance.\nChapitre 1 : <keyword=spawn>générez</keyword> un Bélier sur votre ligne de combat à distance.\nChapitre 2 : <keyword=spawn>générez</keyword> et jouez un Bombardement.
+202504_tooltip;<keyword=doomed>Condamnée</keyword>.\nScénario : vous progressez chaque fois que vous jouez une Machine de siège.\nPrologue : <keyword=spawn>générez</keyword> un Trébuchet renforcé sur votre ligne de <keyword=ranged>combat à distance</keyword>.\nChapitre 1 : <keyword=spawn>générez</keyword> un Bélier sur votre ligne de <keyword=ranged>combat à distance</keyword>.\nChapitre 2 : <keyword=spawn>générez</keyword> et jouez Bombardement.
 202505_fluff;Le chariot fonça dans la foule et les ennemis tombèrent comme du blé fauché…
 202505_name;Chariot militaire
-202505_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : infligez à une unité ennemie un <keyword=bleeding>saignement</keyword> pendant {Bleeding} tour(s).\n<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : déplacez une unité ennemie vers l'autre ligne.\n<keyword=crew>Appui</keyword>: combinez les deux capacités <keyword=deploy>Déploiement</keyword>._0
+202505_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : infligez à une unité ennemie un <keyword=bleeding>saignement</keyword> pendant {Bleeding} tour(s).\n<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : déplacez une unité ennemie vers l'autre ligne.\n<keyword=crew>Appui</keyword>: combinez les deux capacités <keyword=deploy>Déploiement</keyword>.
 202506_fluff;Si l'un d'eux tombe, un autre prendra sa place.
 202506_name;Immortels
 202506_tooltip;<keyword=shield>Bouclier</keyword>.\n<keyword=melee>Combat rapproché</keyword> : chaque fois que la présente unité perd son <keyword=shield>bouclier</keyword>, améliorez-la de 2 points.\nAu terme de votre tour, la présente unité reçoit un <keyword=shield>bouclier</keyword>.
@@ -2752,7 +2752,7 @@
 202512_tooltip;<keyword=order>Ordre</keyword> : tirez une carte, puis <keyword=discard>défaussez</keyword>-en une et <keyword=spawn>générez</keyword> un Corbeau sur votre ligne de <keyword=melee>combat rapproché</keyword>.
 202513_fluff;Les souverains se font couronner à son ombre. Les traîtres sont pendus à ses branches.
 202513_name;Gedyneith
-202513_tooltip;Scénario : vous progressez chaque fois que vous jouez un Druide.\nPrologue : <keyword=spawn>générez</keyword> une Prêcheuse du Corbeau sur cette ligne.\nChapitre 1 : <keyword=spawn>générez</keyword> et jouez un Rhizome d'œil de corbeau.\nChapitre 2 : <keyword=spawn>générez</keyword> et jouez Mardrome.
+202513_tooltip;<keyword=doomed>Condamnée</keyword>.\nScénario : vous progressez chaque fois que vous jouez un Druide.\nPrologue : <keyword=spawn>générez</keyword> une Prêcheuse du Corbeau sur cette ligne.\nChapitre 1 : <keyword=spawn>générez</keyword> et jouez un Rhizome d'œil de corbeau.\nChapitre 2 : <keyword=spawn>générez</keyword> et jouez Mardrome.
 202514_fluff;Certains corbeaux apprennent des mots humains. Et certains humains apprennent la langue des corbeaux.
 202514_name;Mère des corbeaux
 202514_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> {Counter} Corbeaux sur cette ligne.\nChaque fois que vous jouez une carte Alchimie, <keyword=summon>invoquez</keyword> la Mère des corbeaux sur une ligne alliée aléatoire depuis votre cimetière.
@@ -2788,7 +2788,7 @@
 202525_tooltip;Au terme de votre tour, si la présente unité n'est pas la plus forte sur le champ de bataille, améliorez-la de 2 point(s).
 202526_fluff;Termine ta bouillie si tu ne veux pas qu'un fantôme vienne te manger !
 202526_name;Fantôme
-202526_tooltip;Scénario : vous progressez chaque fois que vous jouez une unité possédant la capacité <keyword=deathwish>Baroud d'honneur</keyword>.\nPrologue : <keyword=spawn>générez</keyword> une Banshee du désert sur cette ligne.\nChapitre 1 : <keyword=spawn>générez</keyword> et jouez un Barghest.\nChapitre 2 : <keyword=spawn>générez</keyword> et jouez un Spectre de minuit.
+202526_tooltip;<keyword=doomed>Condamnée</keyword>.\nScénario : vous progressez chaque fois que vous jouez une unité possédant la capacité <keyword=deathwish>Baroud d'honneur</keyword>.\nPrologue : <keyword=spawn>générez</keyword> une Banshee du désert sur cette ligne.\nChapitre 1 : <keyword=spawn>générez</keyword> et jouez un Barghest.\nChapitre 2 : <keyword=spawn>générez</keyword> et jouez un Spectre de minuit.
 202527_fluff;Certains prétendent qu'ils sont l'avant-garde de la Chasse Sauvage. D'autres qu'ils sont l'incarnation de la vengeance. Tous sont pourtant d'accord sur un point : les barghests sont impitoyables avec les vivants.
 202527_name;Barghest
 202527_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=consume>dévorez</keyword> une unité alliée.\n<keyword=order>Ordre</keyword>, <keyword=dominance>Domination</keyword> : <keyword=consume>dévorez</keyword> une unité alliée.
@@ -2815,7 +2815,7 @@
 202535_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : chaque Embusqué elfe allié inflige {Damage} point(s) de dégâts à une unité ennemie aléatoire.\n<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : <keyword=spawn>générez</keyword> {Count} Embusqués elfes sur cette ligne.
 202536_fluff;Pour tendre un piège, il faut généralement se cacher. Toutefois… il y a des exceptions.
 202536_name;Mort feinte
-202536_tooltip;Scénario : vous progressez chaque fois que vous jouez un Elfe.\nPrologue : <keyword=spawn>générez</keyword> un Embusqué elfe sur cette ligne.\nChapitre 1 : <keyword=spawn>générez</keyword> 2 Embusqués elfes sur cette ligne.\nChapitre 2 : <keyword=spawn>générez</keyword> et jouez Déviation.
+202536_tooltip;<keyword=doomed>Condamnée</keyword>.\nScénario : vous progressez chaque fois que vous jouez un Elfe.\nPrologue : <keyword=spawn>générez</keyword> un Commando de Vernossiel sur cette ligne.\nChapitre 1 : <keyword=spawn>générez</keyword> 2 Embusqués elfes sur cette ligne.\nChapitre 2 : <keyword=spawn>générez</keyword> et jouez Déviation.
 202537_fluff;On n'entendit qu'un sifflement… Puis le bruit de six hommes tombant à la renverse, raides morts.
 202537_name;Commando de Vernossiel
 202537_tooltip;Au terme de votre tour, améliorez la présente unité de {Boost} point(s) si vous contrôlez uniquement des unités de la catégorie Elfe.\nIgnorez cette condition si vous contrôlez Vernossiel.
@@ -2836,7 +2836,7 @@
 202543_tooltip;<keyword=deploy>Déploiement</keyword> : détruisez une unité ennemie possédant un attribut.
 202544_fluff;Ophélie Van Moorlehem aime organiser de grands galas. Apparemment, cela ne dérange personne que certains participants disparaissent ensuite sans laisser de trace…
 202544_name;Bal masqué
-202544_tooltip;Scénario : vous progressez chaque fois que vous jouez un Aristocrate.\nPrologue : <keyword=spawn>générez</keyword> une Dame assoiffée sur cette ligne.\nChapitre 1 : <keyword=spawn>générez</keyword> et jouez Crocs de l'empire.\nChapitre 2 : <keyword=spawn>générez</keyword> et jouez Crocs de l'empire.
+202544_tooltip;<keyword=doomed>Condamnée</keyword>.\nScénario : vous progressez chaque fois que vous jouez un Aristocrate.\nPrologue : <keyword=spawn>générez</keyword> une Dame assoiffée sur cette ligne.\nChapitre 1 : <keyword=spawn>générez</keyword> et jouez Crocs de l'empire.\nChapitre 2 : <keyword=spawn>générez</keyword> et jouez Crocs de l'empire.
 202545_fluff;Vincent Van Moorlehem n'aurait peur que d'un seul homme. Il ne s'agit pas d'Emhyr var Emreis ou de Geralt de Riv, mais de son propre fils.
 202545_name;Philippe Van Moorlehem
 202545_tooltip;<keyword=order>Ordre</keyword> (<keyword=ranged>Combat à distance</keyword>) : infligez {Damage} point(s) de dégâts à une unité. <keyword=cooldown>Réutilisation</keyword> : {Cooldown} tour(s).\nSi la cible possède un attribut, infligez-lui {Damage2} point(s) de dégâts à la place.
@@ -2863,7 +2863,7 @@
 202553_tooltip;Si vous contrôlez une unité appartenant à la catégorie de gang suivante :\nIgnorés - Augmentez tous les autres effets de 1.\nDécoupeurs - Améliorez une unité alliée disposant de la force la plus faible de {Boost} point(s).\nAbatteurs - Infligez {Damage} point(s) de dégâts à une unité ennemie disposant de la force la plus élevée.\nFidèles du Feu - <keyword=spawn>Générez</keyword> {Counter} Zélote(s) des fidèles du Feu sur une ligne alliée aléatoire.\nÉcumeurs - Vous obtenez {Coins} <keyword=coin>piastre(s)</keyword>.
 202554_fluff;Il passe ici plus de pèlerins qu'au temple du Feu Éternel…
 202554_name;Le Passiflore
-202554_tooltip;Scénario : vous progressez chaque fois que vous jouez un Ignoré.\nPrologue : <keyword=spawn>générez</keyword> une Séductrice rusée sur cette ligne.\nChapitre 1 : <keyword=spawn>générez</keyword> des Filles du Passiflore sur cette ligne.\nChapitre 2 : vous obtenez {Coins} <keyword=coin>piastre(s)</keyword>.
+202554_tooltip;<keyword=doomed>Condamnée</keyword>.\nScénario : vous progressez chaque fois que vous jouez un Ignoré.\nPrologue : <keyword=spawn>générez</keyword> des Filles du Passiflore sur cette ligne.\nChapitre 1 : vous obtenez {Coins} <keyword=coin>piastre(s)</keyword>.\nChapitre 2 : <keyword=spawn>générez</keyword> une Séductrice rusée sur cette ligne.
 202555_fluff;Un grand connaisseur aux poches sans fond et à l'âme aussi noire que du goudron.
 202555_name;Saul de Navarette
 202555_tooltip;<keyword=hoard>Trésor</keyword> de {Hoard-B.P.BB_Hoard} piastre(s) : au terme de votre tour, améliorez la présente unité de {Boost} point(s).\n<keyword=hoard>Trésor</keyword> de {Hoard2-B.P.BB_Hoard} piastre(s) : au terme de votre tour, améliorez la présente unité de {Boost2} point(s) à la place.\n<keyword=hoard>Trésor</keyword> de {Hoard3-B.P.BB_Hoard} piastre(s) : au terme de votre tour, améliorez la présente unité de {Boost3} point(s) à la place.
@@ -2926,7 +2926,7 @@
 202592_tooltip;<keyword=veil>Voile</keyword>.\n<keyword=deploy>Déploiement</keyword> : transformez la carte située à l'extrême gauche de votre main en carte légendaire aléatoire de votre faction ne faisant pas partie de votre jeu de départ.\nRépétez cette capacité chaque fois que vous jouez la carte située à l'extrême droite de votre main.
 202593_fluff;Son pire cauchemar peut facilement devenir aussi le vôtre.
 202593_name;Créature éthérée
-202593_tooltip;<keyword=doomed>Condamnée</keyword>.\nAu terme de votre tour, si l'unité située à droite n'est pas un Démon, transformez-la en copie de base de la présente unité.
+202593_tooltip;<keyword=doomed>Condamnée</keyword>.\n<keyword=deploy>Déploiement</keyword> : la présente unité gagne l'attribut <keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : transformez l'unité située à droite en copie de base de la présente unité.
 202594_fluff;Déchiffrer le passé et l'avenir à partir des rêves est une tâche très complexe, même pour un maître.
 202594_name;Oniromancie
 202594_tooltip;<keyword=echo>Écho</keyword>.\nJouez n'importe quelle carte depuis votre jeu.
@@ -3055,7 +3055,7 @@
 202637_tooltip;<keyword=profit>Bénéfice</keyword> de {Income} piastre(s).\n<keyword=tribute>Tribut</keyword> de {Tribute-B.P.BB_Tribute} piastre(s) : <keyword=spawn>générez</keyword> un Zélote des fidèles du Feu sur cette ligne.\n<keyword=fee>Gages</keyword> de {Cost} piastre(s) : transformez un Zélote des fidèles du Feu en Fantassin de la Rose-Ardente.
 202638_fluff;Il a abandonné son vertueux combat et la flamme en lui s'est éteinte depuis longtemps.
 202638_name;Chevalier déchu
-202638_tooltip;<keyword=veil>Voile</keyword>. <keyword=intimidate>Intimidation</keyword>.\nChaque fois que vous <keyword=spawn>générez</keyword> une unité, améliorez la présente unité de {Boost} point(s) par unité <keyword=spawn>générée</keyword>.
+202638_tooltip;<keyword=veil>Voile</keyword>. <keyword=intimidate>Intimidation</keyword>.\nChaque fois que vous <keyword=spawn>générez</keyword> une unité de votre côté du champ de bataille, améliorez la présente unité de {Boost} point(s) par unité <keyword=spawn>générée</keyword>.
 202639_fluff;Tant qu'il poursuivra son vertueux combat, l'Ordre et sa flamme perdureront.
 202639_name;Champion solitaire
 202639_tooltip;<keyword=immune>Invulnérable</keyword>.\n<keyword=deploy>Déploiement</keyword> : détruisez toutes les cartes éphémères des Fidèles du Feu sur cette ligne, puis améliorez la présente unité de la somme de leur force.
@@ -3088,7 +3088,7 @@
 202648_tooltip;<keyword=veil>Voile</keyword>. <keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> (<keyword=melee>Combat rapproché</keyword>) : infligez {Damage} point(s) de dégâts à une unité ennemie.\nAu terme de votre tour, si la présente unité n'a pas utilisé sa capacité <keyword=order>Ordre</keyword>, améliorez une unité située à droite de {Boost} point(s).
 202649_fluff;Il faut combattre le feu par le feu, les gens par le feu, les non-humains par le feu… Bref, il vaut mieux tout combattre par le feu !
 202649_name;Enfumez-les !
-202649_tooltip;<keyword=spawn>Générez</keyword> {Counter} Volontaires sur une ligne alliée et améliorez-les de {Boost} point(s).
+202649_tooltip;<keyword=spawn>Générez</keyword> {Counter} Volontaires sur une ligne alliée.\nSi vous contrôlez une unité améliorée, améliorez aussi les Volontaires <keyword=spawn>générés</keyword> de {Boost} point(s).
 202650_fluff;"Je devrais acheter un navire !" aurait dit un jour un chat de Kerack. C'est du moins ce que dit une ballade à boire.
 202650_name;Frégate de Kerack
 202650_tooltip;<keyword=order>Ordre</keyword> : <keyword=spawn>générez</keyword> un Volontaire sur cette ligne.\n<keyword=crew>Appui</keyword> : au terme de votre tour, réinitialisez cette capacité.
@@ -3115,7 +3115,7 @@
 202657_tooltip;<keyword=veil>Voile</keyword>.\n<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> un Agent secret sur chaque ligne ennemie.\n<keyword=zeal>Zèle</keyword>. <keyword=order>Ordre</keyword> : <keyword=seize>saisissez</keyword> tous les Agents secrets <keyword=spying>espions</keyword>.\nChaque fois que vous jouez un Agent, améliorez la présente unité de {Boost} point(s).
 202658_fluff;Son nom ressemblait tant au mot "hérisson" en nilfgaardien que Braathens décida de le transformer en cet animal. Des années plus tard, Emhyr rendit la monnaie de sa pièce au mage. Après tout, Braathens ressemblait beaucoup au mot "rôti".
 202658_name;Braathens
-202658_tooltip;<keyword=assimilate>Assimilation</keyword>.\n<keyword=deploy>Déploiement</keyword> : <keyword=create>créez</keyword> et jouez une unité Bronze <keyword=disloyal>déloyale</keyword> du Nilfgaard.
+202658_tooltip;<keyword=assimilate>Assimilation</keyword>.\n<keyword=deploy>Déploiement</keyword> : <keyword=create>créez</keyword> et jouez une copie d'une unité Bronze <keyword=disloyal>déloyale</keyword> depuis votre jeu de départ.
 202659_fluff;La mort est parfois un simple geste de miséricorde.
 202659_name;Coup de grâce
 202659_tooltip;<keyword=echo>Écho</keyword>.\nInfligez {Damage} point(s) de dégâts à une unité ennemie.\n<keyword=deathblow>Coup mortel</keyword> : <keyword=spawn>générez</keyword>-en une copie de base et jouez-la.\n<keyword=conspiracy>Conspiration</keyword> : déclenchez toujours la capacité <keyword=deathblow>Coup mortel</keyword>.
@@ -3175,7 +3175,7 @@
 202678_tooltip;<keyword=symbiosis>Symbiose</keyword>.\nAu terme de votre tour, si la présente unité possède l'attribut <keyword=vitality>Vitalité</keyword>, améliorez-la de {Boost} point(s).
 202679_fluff;Vous avez conquis le monde, d'hoine, vous êtes partout et apportez partout ce que vous appelez le progrès. Mais nous ne voulons ni de vous ni de votre progrès ici.
 202679_name;Gardienne de Duén Canell
-202679_tooltip;<keyword=veil>Voile</keyword>. <keyword=symbiosis>Symbiose</keyword>.\n<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie.
+202679_tooltip;<keyword=veil>Voile</keyword>. <keyword=symbiosis>Symbiose</keyword>.\n<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie.
 202680_fluff;Ils aiment particulièrement croquer les doigts, qui sont pour eux comme de délicieuses carottes.
 202680_name;Chênes vivants
 202680_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : infligez à une unité ennemie un <keyword=bleeding>saignement</keyword> pendant {bleed} tour(s).\n<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : <keyword=spawn>générez</keyword> une copie de base de la présente unité sur cette ligne.\n<keyword=devotion>Dévotion</keyword> : utilisez les deux capacités.
@@ -3203,6 +3203,282 @@
 202704_fluff;Ils apportent la neige dans le ciel et le feu sur la terre.
 202704_name;Cavaliers pourpres : diffusion
 202704_tooltip;<keyword=spawn>Générez</keyword> <keyword=frost>Givre</keyword> sur les deux lignes ennemies pendant {counter} tour(s).
+202705_fluff;C'était la Reine des Champs rayonnante aux cheveux dorés, décorée de guirlandes de fleurs. Tout être vivant, plante comme bête, suit son chemin et s'agrippe à elle.
+202705_name;Dana Méadbh
+202705_tooltip;<keyword=doomed>Condamnée</keyword>.\n<keyword=harmony>Harmonie</keyword>.
+202706_fluff;On ne chasse jamais dans ces bois. Même si tout le village meurt de faim.
+202706_name;Esprit de la forêt
+202706_tooltip;<keyword=doomed>Condamnée</keyword>.
+202707_fluff;On aura beau vous laver, vous raser et vous habiller, on ne vous apprendra jamais les bonnes manières.
+202707_name;Morvran Voorhis
+202707_tooltip;<keyword=doomed>Condamnée</keyword>.\n<keyword=deploy>Déploiement</keyword> : tirez jusqu'à {Counter} cartes, puis placez le même nombre de cartes sur le dessus de votre jeu.
+202776_fluff;Un rebelle... un paria... un chevalier... et même un mage, figurez-vous.
+202776_name;Alzur
+202776_tooltip;Chaque fois que vous jouez une carte Sort, <keyword=spawn>générez</keyword> une unité aléatoire ayant le même coût de recrutement sur cette ligne.\nCompteur : {Counter}.
+202778_fluff;Il n'y a pas que la musique et la danse dans la vie, j'imagine...
+202778_name;Perce-neige
+202778_tooltip;<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : tirez {MaxTargets} cartes, puis replacez {MaxTargets} cartes de votre main dans votre jeu et mélangez-le.\nChaque fois que vous tirez une carte, améliorez la présente unité de {Boost} point(s).
+202779_fluff;Les enfants lui demandent sans cesse des cadeaux. Il ne comprend pas pourquoi, mais c'est bien pratique pour trouver de nouveaux cobayes pour ses expériences.
+202779_name;Cosimo Malaspina
+202779_tooltip;<keyword=deploy>Déploiement</keyword> : transformez les unités adjacentes en unités aléatoires ayant un coût de recrutement supérieur de 1 point.
+202780_fluff;Il paraît que la beauté est subjective, mais personne n'a envie de savoir ce qu'Idarran trouve beau...
+202780_name;Idarran d'Ulivo
+202780_tooltip;La première fois que vous <keyword=spawn>générez</keyword> une unité de votre côté du plateau à chaque tour, <keyword=spawn>générez</keyword>-en une copie ayant une force de {power} sur cette ligne, puis ajoutez-lui l'attribut <keyword=doomed>Condamnée</keyword>.
+202781_fluff;Geralt, sentant dans sa bouche le goût ferrugineux du sang, cria une formule magique en lançant devant lui une main avec les doigts écartés pour former le signe de Quen.
+202781_name;Geralt : Quen
+202781_tooltip;<keyword=shield>Bouclier</keyword>.\n<keyword=deploy>Déploiement</keyword> : jouez une carte Sorceleur depuis votre jeu.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : conférez-lui un <keyword=shield>bouclier</keyword>.
+202782_fluff;On peut détruire ce qu'on l'on crée, mais pas annuler sa création.
+202782_name;Mutation sélective
+202782_tooltip;Tirez une carte de votre choix possédant une capacité <keyword=adrenaline>Adrénaline</keyword>, plus replacez une carte de votre main dans votre jeu et mélangez-le. <keyword=spawn>Générez</keyword> un Élève sorceleur sur chaque ligne alliée.
+202783_fluff;Les pratiquants de la magie le confondent souvent avec un pentacle, ce qui peut avoir des conséquences désastreuses.
+202783_name;Triangle dans un triangle
+202783_tooltip;Améliorez un allié de son coût de recrutement ou infligez à un ennemi des dégâts équivalant à son coût de recrutement.
+202784_fluff;Dissuader le vodyanoi de sacrifier la vache primée ne fut pas une tâche facile.
+202784_name;Berengar
+202784_tooltip;Au terme de votre tour, détruisez la présente carte s'il s'agit du seul sorceleur sur cette ligne.
+202785_fluff;Il aurait attrapé la flèche si seulement il avait été prévenu.
+202785_name;Léo
+202785_tooltip;<keyword=deploy>Déploiement</keyword> : améliorez la présente unité de {Boost} point(s) par Sorceleur que vous contrôlez.
+202786_fluff;La magie n'a aucun effet sur elle, car elle est une fille du soleil noir. C'est aussi une chasseuse de primes, qui en a après de très puissants sorciers.
+202786_name;Maxii Van Dekkar
+202786_tooltip;<keyword=deploy>Déploiement</keyword> : regardez votre jeu dans l'ordre à partir de la carte sur le dessus.\nVous pouvez mélanger votre jeu, puis placer une carte en bas de celui-ci.
+202787_fluff;Quatre garçons sur dix survivent... tout au plus.
+202787_name;Élève sorceleur
+202787_tooltip;<keyword=doomed>Condamnée.</keyword>
+202788_fluff;Les roses sont rouges.
+202788_name;Mutagène rouge
+202788_tooltip;Infligez {Damage} point(s) de dégâts à une unité ennemie.
+202789_fluff;Les violettes sont bleues.
+202789_name;Mutagène bleu
+202789_tooltip;Ajoutez l'attribut <keyword=poison>Empoisonnement</keyword> à une unité alliée et obtenez {Coins2} <keyword=coin>piastre(s)</keyword>.
+202790_fluff;J'ai un mutagène vert pour toi, si tu veux.
+202790_name;Mutagène vert
+202790_tooltip;Améliorez une unité alliée de {Boost} point(s) et ajoutez-lui l'attribut <keyword=veil>Voile</keyword>.
+202791_fluff;Une histoire terrible accompagne chacune de ses cicatrices. Vous seriez surpris de savoir combien sont vraies.
+202791_name;Ivar Malœil
+202791_tooltip;<keyword=deploy>Déploiement</keyword> : échangez la force de la présente unité avec celle d'une unité ennemie.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : infligez {Damage} point(s) de dégâts à une unité ennemie à la place.
+202792_fluff;"Une créature vicieuse et rusée. Elle peut patienter des heures avant d'attaquer sa proie. Quand elle s'élance pour frapper, impossible de lui échapper. La mort est inévitable." – Ivar Malœil
+202792_name;Wipper
+202792_tooltip;Au terme de la manche, placez la présente carte dans le cimetière de l'adversaire.\nAu terme de votre tour, si la présente carte se trouve dans le cimetière, <keyword=banish>bannissez</keyword> la carte ayant le coût de recrutement le plus faible qui s'y trouve.\nSi le Wipper est la seule carte dans le cimetière, ajoutez-lui l'attribut <keyword=doomed>Condamnée</keyword>, puis <keyword=summon>invoquez</keyword>-le sur une ligne aléatoire de votre adversaire.
+202793_fluff;La forteresse contenait un grand nombre de parchemins et de manuscrits sur la légende de la Chasse Sauvage, et il y avait une bonne raison à cela.
+202793_name;Gorthur Gvaed
+202793_tooltip;<keyword=resilient>Tenace</keyword>.\n<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> et jouez une unité Élève sorceleur : Vipère, Sorceleur : Vipère, Mentor sorceleur : Vipère ou Alchimiste sorceleur : Vipère.\n<keyword=order>Ordre</keyword> : déplacez une carte du cimetière de l'adversaire vers le dessus de son jeu.
+202794_fluff;La fortune ne lui souriait que si elle était accompagnée d'un gros coup de malchance.
+202794_name;Kolgrim
+202794_tooltip;<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : au terme de votre tour, améliorez la présente unité de la différence entre le nombre de cartes dans le jeu de chaque joueur.
+202795_fluff;En modifiant légèrement le signe de Supirre, Warritt acquit la capacité de tout voir.
+202795_name;Warritt l'Œil omniscient
+202795_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : placez la carte ayant le coût de recrutement le plus élevé dans le jeu de votre adversaire sur le dessus de celui-ci.\n<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : placez la carte ayant le coût de recrutement le plus faible dans le jeu de votre adversaire sur le dessus de celui-ci.
+202796_fluff;Les sorceleurs de l'École de la Vipère sont formés au combat avec deux lames, souvent désignées sous le nom de "crocs". Ce style fait la part belle aux attaques rapides et brutales pour écraser la cible, qu'elle soit humaine ou monstrueuse.
+202796_name;Sorceleur : Vipère
+202796_tooltip;<keyword=deploy>Déploiement</keyword> : infligez à une unité ennemie un <keyword=bleeding>saignement</keyword> pendant {Bleed} tour(s).\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : <keyword=spawn>générez</keyword> une copie de base de cette unité sur le dessus du jeu de l'adversaire.
+202797_fluff;Les mentors de l'École de la Vipère se montrent particulièrement froids et impitoyables afin de préparer leurs élèves à la rude vie qui les attend.
+202797_name;Mentor sorceleur : Vipère
+202797_tooltip;<keyword=deploy>Déploiement</keyword> : fixez la force de la présente carte sur le coût de recrutement de la première carte dans le jeu de votre adversaire.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : fixez la force de la présente carte sur le coût de recrutement de la carte ayant le plus élevé dans le jeu de votre adversaire.
+202798_fluff;Ce qui ne vous tue pas vous rend plus fort. Ou plus faible. Cela dépend.
+202798_name;Alchimiste sorceleur : Vipère
+202798_tooltip;<keyword=deploy>Déploiement</keyword> : regardez les {MaxTargets} premières cartes de votre jeu, placez-en une sur le dessus, puis échangez la première carte du jeu de votre adversaire avec la vôtre.
+202799_fluff;Durant son séjour à Gorthur Gvaed, chaque élève reçoit un animal à élever afin qu'il établisse un lien affectif fort avec lui durant son entraînement. Des années plus tard, avant de devenir un sorceleur à part entière, il reçoit l'ordre de massacrer son compagnon de sang-froid.
+202799_name;Élève sorceleur : Vipère
+202799_tooltip;Au terme de votre tour, améliorez la présente unité de {boost} point(s) si l'adversaire a plus de cartes que vous dans son jeu.
+202800_fluff;Inutile d'infliger une profonde blessure quand une simple égratignure peut être fatale.
+202800_name;Armes enduites
+202800_tooltip;Infligez {damage} point(s) de dégâts à une unité ennemie.\n<keyword=deathblow>Coup mortel</keyword> : <keyword=banish>bannissez</keyword>-la et <keyword=spawn>générez</keyword>-en une copie de base sur le dessus du jeu de l'adversaire.
+202801_fluff;"Il vaut toujours mieux se charger d'un contrat pour un Aen Seidhe plutôt que pour un dh'oine, il y a bien moins de risques de recevoir un coup de poignard en guise de paiement." – Gezras
+202801_name;Gezras de Leyd
+202801_tooltip;<keyword=melee>Combat rapproché</keyword> : au terme de votre tour, déplacez la présente unité vers la ligne de <keyword=ranged>combat à distance</keyword> et améliorez une unité alliée aléatoire sur cette ligne de {Boost} point(s).\n<keyword=ranged>Combat à distance</keyword> : au terme de votre tour, déplacez la présente unité vers la ligne de <keyword=melee>combat rapproché</keyword> et infligez {Damage} point(s) de dégâts à une unité ennemie aléatoire sur la ligne opposée.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : au lieu d'une unité aléatoire, affectez toutes les autres unités sur une ligne.
+202802_fluff;Le bien le plus précieux d'une ménagerie royale, jusqu'à ce qu'un commando scoia'tael attaque les lieux, libère la bête et la retourne contre ses maîtres cruels. Depuis ce jour, il a développé un goût prononcé pour la chair humaine.
+202802_name;Tigre à dents de sabre
+202802_tooltip;<keyword=zeal>Zèle</keyword>. <keyword=order>Ordre</keyword> : transformez la présente unité en Tigre à dents de sabre : furtif.
+202803_fluff;Les sorceleurs de l'École du Chat ne restèrent pas longtemps à la citadelle de Stygg. Ni à un autre endroit, d'ailleurs.
+202803_name;Citadelle de Stygg
+202803_tooltip;<keyword=resilient>Tenace</keyword>.\n<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> et jouez une unité Élève sorceleur : Chat, Sorceleur : Chat, Mentor sorceleur : Chat ou Saboteur sorceleur : Chat.\n<keyword=order>Ordre</keyword> : déplacez {MaxTargets} unités alliées vers l'autre ligne.
+202804_fluff;On le surnomme le Chat d'Iello non pas parce qu'il est originaire de là-bas, mais parce qu'il y a tué, ou plutôt massacré, des paysans.
+202804_name;Brehen
+202804_tooltip;<keyword=deploy>Déploiement</keyword> : détruisez l'unité la plus à droite sur une ligne ennemie comptant au moins {Counter} unités.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : détruisez l'unité la plus à droite sur une ligne ennemie comptant au moins {Counter2} unités à la place.
+202805_fluff;"M'assassiner pour économiser quelques couronnes ? Je devrais protéger des ordures pareilles ?" – Gaëtan
+202805_name;Gaëtan
+202805_tooltip;<keyword=deploy>Déploiement</keyword> : déplacez les autres cartes sur cette ligne vers l'autre ligne.\nInfligez à une unité ennemie aléatoire {Damage} point(s) de dégâts par carte déplacée.
+202806_fluff;Les membres de l'École du Chat ont mauvaise réputation, car ils se laissent facilement emporter par leur frénésie et leur soif de sang dans la bataille. Même quand leurs ennemis capitulent, implorent leur pitié... ces sorceleurs continuent de tuer.
+202806_name;Sorceleur : Chat
+202806_tooltip;Au terme de votre tour, déplacez la présente unité vers l'autre ligne et infligez {Damage} point(s) de dégâts à un ennemi aléatoire sur la ligne opposée.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : infligez-lui {Damage2} point(s) de dégâts à la place.
+202807_fluff;Si tu tombes, c'est fini. Tu as utilisé tes neuf vies, petit.
+202807_name;Mentor sorceleur : Chat
+202807_tooltip;<keyword=deploy>Déploiement</keyword> : améliorez la présente unité du nombre d'autres cartes sur cette ligne.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : chaque fois qu'une carte apparaît sur cette ligne, améliorez la présente unité de {Boost} point(s).
+202808_fluff;"Évidemment, leurs mauvaises actions ternissent encore notre réputation aujourd'hui." – Vesemir
+202808_name;Saboteur sorceleur : Chat
+202808_tooltip;<keyword=deploy>Déploiement</keyword> : déplacez une unité ennemie à l'extrême gauche de sa ligne. Infligez-lui {Damage} point(s) de dégâts par carte dépassée.
+202809_fluff;Les élèves de l'École du Chat travaillent leur équilibre en marchant sur une corde raide, les yeux bandés. Au début, les chutes sont sans gravité, mais plus l'entraînement progresse, plus la corde est haute et le parcours dangereux. Et quand arrive l'épreuve finale, les conséquences d'une chute sont plus sérieuses.
+202809_name;Élève sorceleur : Chat
+202809_tooltip;<keyword=deploy>Déploiement</keyword> (<keyword=melee>Combat rapproché</keyword>) : infligez à une unité ennemie un <keyword=bleeding>saignement</keyword> d'une durée équivalant au nombre d'unités sur sa ligne.\n<keyword=deploy>Déploiement</keyword> (<keyword=ranged>Combat à distance</keyword>) : ajoutez à une unité alliée l'attribut <keyword=vitality>Vitalité</keyword> pendant une durée équivalant au nombre d'unités sur sa ligne.
+202810_fluff;Mieux vaut suivre attentivement les instructions...
+202810_name;Fabrication de bombe
+202810_tooltip;Déplacez une unité ennemie vers l'autre ligne et infligez-lui un <keyword=bleeding>saignement</keyword> pendant {Bleed} tour(s). S'il s'agit de la seule unité sur cette ligne, infligez-lui {Damage} point(s) de dégâts à la place.
+202811_fluff;"Le boulot d'un sorceleur est de tuer les monstres et d'empocher de l'argent. Ni plus ni moins." – Arnaghad
+202811_name;Arnaghad
+202811_tooltip;<keyword=deploy>Déploiement</keyword> : la présente unité gagne {Armor} point(s) d'<keyword=armor>armure</keyword> par unité endommagée.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : lorsque votre adversaire joue une unité de son côté du champ de bataille, infligez-lui des dégâts équivalant à la force d'Arnaghad et infligez à Arnaghad des dégâts équivalant à la force de cette unité.
+202812_fluff;Après d'innombrables tentatives pour tuer la bête sauvage, on peut la considérer sans peine comme... une armurerie mobile.
+202812_name;Ours sinistre
+202812_tooltip;Les unités sur cette ligne et la ligne opposée ne peuvent pas être améliorées.
+202813_fluff;Taillée dans la roche glacée des monts Amell, cachée au milieu des congères et des rochers dentelés, l'École de l'Ours reste un lieu des plus secrets, même si elle est depuis longtemps abandonnée.
+202813_name;Haern Caduch
+202813_tooltip;<keyword=resilient>Tenace</keyword>.\n<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> et jouez une unité Élève sorceleur : Ours, Sorceleur : Ours, Mentor sorceleur : Ours ou Intendant sorceleur : Ours.\n<keyword=order>Ordre</keyword> : <keyword=heal>soignez</keyword> les unités adjacentes de {Boost} point(s).
+202814_fluff;Il avait été engagé pour tuer un dragon, une sirène et une strige. Il était aussi poursuivi par un chevalier vengeur, des chasseurs de primes et des bandits. Malgré tout ça, il trouvait le temps de jouer au gwent.
+202814_name;Gerd
+202814_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> une Sirène assourdissante sur la ligne opposée et infligez {Damage} point(s) de dégâts à toutes les unités présentes sur cette ligne.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : <keyword=spawn>générez</keyword> une Sirène assourdissante sur la ligne opposée et infligez-lui {Damage} point(s) de dégâts à la place.
+202815_fluff;Selon la rumeur, il serait né de l'amour singulier entre une géante et un nain TRÈS courageux.
+202815_name;Junod de Belhaven
+202815_tooltip;<keyword=deploy>Déploiement</keyword> : détruisez une unité ennemie endommagée.
+202816_fluff;La vie seul sur la route est parfois rude. Pense à emporter le strict nécessaire.
+202816_name;Sorceleur : Ours
+202816_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à la présente unité.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : infligez {Damage} point(s) de dégâts à la présente unité et à une unité ennemie à la place.
+202817_fluff;Si tu hésites sur le chemin à suivre, cherche les corps gelés des aspirants sorceleurs pour te repérer.
+202817_name;Mentor sorceleur : Ours
+202817_tooltip;<keyword=deploy>Déploiement</keyword> : améliorez la présente unité de {Boost} point(s) par unité alliée endommagée.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : améliorez la présente unité de {Boost} point(s) par unité endommagée à la place.
+202818_fluff;Si vous lui donnez assez d'hydromel de Mahakam, il vous racontera peut-être comment un ours lui a arraché son bouclier et son bras !
+202818_name;Intendant sorceleur : Ours
+202818_tooltip;<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts à une unité alliée, puis <keyword=spawn>générez</keyword> un Élève sorceleur sur cette ligne.\n{Charges} <keyword=charge>utilisation(s)</keyword>.
+202819_fluff;Pour devenir un sorceleur de l'École de l'Ours, chaque élève doit réussir l'épreuve de la montagne. Il doit pour cela s'aventurer au pic de la montagne Gorgone et en rapporter une rune spéciale prouvant son ascension : c'est un défi particulièrement brutal, car beaucoup de garçons périssent gelés bien avant d'avoir atteint le sommet.
+202819_name;Élève sorceleur : Ours
+202819_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à la présente unité.\nAu terme de votre tour, <keyword=heal>soignez</keyword> la présente unité de {Boost} point(s). Si elle n'est pas endommagée, elle gagne {Armor} point(s) d'<keyword=armor>armure</keyword> à la place.
+202820_fluff;Pourquoi tenter d'éviter le coup quand on peut l'encaisser facilement ?
+202820_name;Cuirassement
+202820_tooltip;Infligez {Damage} point(s) de dégâts à une unité ennemie.\n<keyword=spawn>Générez</keyword> {Count} Élèves sorceleurs sur la ligne opposée, infligez-leur {Damage2} point(s) de dégâts, puis ajoutez-leur {Armor} point(s) d'<keyword=armor>armure</keyword>.
+202821_fluff;Erland fonda l'École du Griffon en mettant en avant les valeurs de la chevalerie dans l'espoir de redorer la réputation des sorceleurs auprès des simples gens. Hélas, ses efforts furent vains.
+202821_name;Erland de Larvik
+202821_tooltip;<keyword=deploy>Déploiement</keyword> : améliorez toutes les unités dans votre jeu de {boost} point(s).\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : la présente unité reçoit aussi l'attribut <keyword=immune>Invulnérable</keyword>.\n<keyword=order>Ordre</keyword> : supprimez les améliorations de toutes les unités dans votre jeu, puis améliorez la présente unité du même montant.
+202822_fluff;Cette créature est considérée comme l'incarnation du courage, de la loyauté et de la combattivité, les qualités pour lesquelles sont réputés les sorceleurs de l'École du Griffon. Toutefois, cette école doit son nom à un chevalier errant appelé "Gryphon", qui avait enseigné ces valeurs à son fondateur.
+202822_name;Archigriffon
+202822_tooltip;Au terme de la manche, replacez la présente carte dans votre jeu en conservant ses améliorations et mélangez votre jeu.
+202823_fluff;La bibliothèque de Kaer Seren était son plus grand trésor et elle faisait l'envie d'un groupe de mages trop zélés. En tentant de s'en emparer, ceux-ci détruisirent ce qu'ils désiraient le plus.
+202823_name;Kaer Seren
+202823_tooltip;<keyword=resilient>Tenace</keyword>.\n<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> et jouez une unité Élève sorceleur : Griffon, Sorceleur : Griffon, Mentor sorceleur : Griffon ou Pisteur sorceleur : Griffon.\n<keyword=order>Ordre</keyword> : améliorez une unité dans votre jeu de {Boost} point(s).
+202824_fluff;"Il n'y a pas de combat équitable. Face à un adversaire, il faut exploiter le moindre avantage, la moindre occasion." – Coën
+202824_name;Coën
+202824_tooltip;<keyword=zeal>Zèle</keyword>. <keyword=order>Ordre</keyword> : améliorez toutes les autres unités dont la force est égale à celle de Coën d'un montant équivalant à l'amélioration de Coën.
+202825_fluff;"Bande d'humanoïdes sans cervelle ! Ça veut dire quoi, 'je ne sais pas' ? Vous seriez prêts à partir à la chasse aux vampires avec l'idole de Lebioda, en vous tartinant d'ail !" – Keldar
+202825_name;Keldar
+202825_tooltip;<keyword=resupply>Ravitaillement</keyword> : <keyword=spawn>générez</keyword> un Élève sorceleur sur cette ligne.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : au terme de votre tour, <keyword=spawn>générez</keyword> un Élève sorceleur sur cette ligne.
+202826_fluff;Les épées en argent, c'est bien, ouais. Mais vous avez déjà essayé les pointes de flèche plaquées d'argent ?
+202826_name;Sorceleur : Griffon
+202826_tooltip;<keyword=order>Ordre</keyword> (<keyword=melee>Combat rapproché</keyword>) : infligez {damage} point(s) de dégâts à une unité ennemie.\n<keyword=cooldown>Réutilisation</keyword> : {Cooldown} tour(s).\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : au terme de votre tour, infligez {damage2} point(s) de dégâts à une unité ennemie aléatoire et <keyword=lock>verrouillez</keyword> la présente unité.
+202827_fluff;Le savoir te gardera en vie bien plus longtemps que ta force, petit.
+202827_name;Mentor sorceleur : Griffon
+202827_tooltip;<keyword=deploy>Déploiement</keyword> : tirez la première unité de votre jeu, puis replacez une carte de votre main dans votre jeu et mélangez-le.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : améliorez l'unité tirée de {boost} point(s).
+202828_fluff;Les pisteurs de l'École du Griffon n'ont pas leur pareil pour chasser et suivre une piste, même dans les environnements les plus inhospitaliers. Quelle que soit leur proie, ils n'ont de cesse de l'avoir capturée ou tuée.
+202828_name;Pisteur sorceleur : Griffon
+202828_tooltip;<keyword=formation>Formation</keyword>.\n<keyword=deploy>Déploiement</keyword> : améliorez la présenté unité de {boost} point(s) par unité sur une ligne ennemie.\n<keyword=order>Ordre</keyword> : transférez toutes les améliorations de la présente unité vers une unité alliée.
+202829_fluff;À Kaer Seren, les élèves ont le luxe de pouvoir choisir leur épreuve finale. Ils peuvent soit localiser et rapporter un œuf de griffon, soit réciter par cœur tout le Liber Tenebrarum. Au grand désarroi du vieux Keldar, aucun n'a jamais choisi la deuxième solution.
+202829_name;Élève sorceleur : Griffon
+202829_tooltip;<keyword=shield>Bouclier</keyword>.\n<keyword=order>Ordre</keyword> : transformez un sorceleur allié en copie de base de l'unité Élève sorceleur : Griffon.
+202830_fluff;La plupart des sorceleurs de l'École du Griffon peuvent fendre une pomme en deux à cent pas de distance. Veillez simplement à ne pas bouger.
+202830_name;Tir sur cible
+202830_tooltip;Améliorez une unité alliée de {boost} point(s). Si un sorceleur se trouve sur la ligne de l'unité améliorée, <keyword=spawn>générez</keyword> aussi un Élève sorceleur sur cette ligne.
+202831_fluff;Qu'est-ce qui possède un million de pattes et peut dévorer une ville entière ?
+202831_name;Viy
+202831_tooltip;<keyword=deathwish>Baroud d'honneur</keyword> : replacez Viy dans votre jeu et mélangez-le, puis augmentez sa force initiale de {boost}.
+202832_fluff;Si je vous dis que le koschey est la mort, vous irez quand même au ruisseau, n'est-ce pas ?
+202832_name;Koshchey
+202832_tooltip;<keyword=thrive>Développement</keyword>.\nChaque fois que la capacité <keyword=thrive>Développement</keyword> de la présente unité se déclenche, <keyword=spawn>générez</keyword> un Bourdon sur cette ligne.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : chaque fois que la capacité <keyword=thrive>Développement</keyword> de la présente unité se déclenche, <keyword=spawn>générez</keyword> une Larve endriague sur cette ligne à la place.
+202833_fluff;Ce repaire de monstres unique en son genre abrite d'innombrables horreurs et monstruosités. Même un sorceleur y réfléchirait à deux fois avant d'approcher de cet endroit infernal.
+202833_name;Dol Dhu Lokke
+202833_tooltip;<keyword=resilient>Tenace</keyword>.\n<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> et jouez une Succube, un Foucasse, une Chimère ou un Hybride.\n<keyword=order>Ordre</keyword> : placez l'unité de votre jeu disposant de la force la plus élevée sur le dessus de celui-ci et <keyword=spawn>générez</keyword> un Bourdon de chaque côté de la présente carte.
+202834_fluff;"T'es une gentille bête." – Idarran
+202834_name;Idr
+202834_tooltip;<keyword=order>Ordre</keyword> (<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline}) : <keyword=consume>dévorez</keyword> toutes les cartes éphémères sur cette ligne et ajoutez l'attribut <keyword=immune>Invulnérable</keyword> à la présente unité.\nChaque fois que vous <keyword=consume>dévorez</keyword> une unité ou plus, <keyword=spawn>générez</keyword> un Bourdon sur cette ligne.
+202835_fluff;Enfant, Idarran vivait dans les canaux de Wyzima. Véritable génie, il effectuait déjà des expériences sur les rats des égouts à l'âge de cinq ans.
+202835_name;Rat-garou
+202835_tooltip;<keyword=order>Ordre</keyword> : réinitialisez la force de la présente unité et <keyword=spawn>générez</keyword> sur cette ligne un nombre de Rats égal au montant de l'amélioration qu'elle a perdue.\n<keyword=cooldown>Réutilisation</keyword> : {Cooldown} tour(s).\nAu terme de votre tour, <keyword=consume>dévorez</keyword> une unité située à droite.
+202836_fluff;Il est extrêmement important de bien s'hydrater.
+202836_name;Succube
+202836_tooltip;<keyword=deathwish>Baroud d'honneur</keyword> : au terme de votre tour, s'il y a une autre Succube dans votre cimetière, <keyword=summon>invoquez</keyword> la présente unité sur une ligne aléatoire depuis votre cimetière et ajoutez-lui l'attribut <keyword=doomed>Condamnée</keyword>.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : la présente unité ne reçoit pas l'attribut <keyword=doomed>Condamnée</keyword>.
+202837_fluff;Il existe des nekkers rares, plus grands, plus forts et particulièrement dangereux : les foucasses. Si vous en voyez un, fuyez.
+202837_name;Foucasse
+202837_tooltip;<keyword=thrive>Développement</keyword> de {boost} point(s).
+202838_fluff;Cosimo commença par combiner des gênes de fiellon et de griffon. Il ajouta ensuite des traces d'insectoïde et de wyvern au mélange, ce qui donna une créature bien plus terrible que la somme de ses composants.
+202838_name;Chimère
+202838_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=consume>dévorez</keyword> une unité alliée.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : améliorez de {Boost1} point(s) toutes les copies de l'unité <keyword=consume>dévorée</keyword> sur la ligne de cette unité.
+202839_fluff;Le professeur Malaspina ajouta par erreur un ingrédient supplémentaire dans la mixture : le composé X.
+202839_name;Évolution spontanée
+202839_tooltip;Améliorez une unité alliée de {Boost} point(s) et bénéficiez d'un effet supplémentaire en fonction de la catégorie de l'unité.\n\nInsectoïde : <keyword=spawn>générez</keyword> {MaxTargets} Bourdons sur la ligne de l'unité améliorée.\nBête : améliorez cette unité de {Boost2} point(s) à la place.\nOgroïde : ajoutez {Armor} point(s) d'<keyword=armor>armure</keyword> à tous les Ogroïdes dans votre main.
+202841_fluff;Elle a été terrassée par les flèches de ceux qu'elle chassait. C'est du moins ce que beaucoup ont cru. La Salamandre avait d'autres projets pour elle.
+202841_name;Rayla la Déchue
+202841_tooltip;<keyword=profit>Bénéfice</keyword> de {Income} piastre(s).\n<keyword=tribute>Tribut</keyword> de {Tribute-B.P.BB_Tribute} piastre(s) : la présente unité reçoit l'attribut <keyword=veil>Voile</keyword>.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : chaque fois que vous payez une capacité <keyword=tribute>Tribut</keyword>, améliorez la présenté unité du coût de ce <keyword=tribute>Tribut</keyword>.
+202842_fluff;Malgré leur jolie petite tête, mieux vaut éviter de les caresser, car, en cas de menace, la salamandre secrète une toxine mortelle, qui brûle la peau au moindre contact.
+202842_name;Salamandre
+202842_tooltip;<keyword=profit>Bénéfice</keyword> de {Income} piastre(s).\n<keyword=deploy>Déploiement</keyword> : ajoutez l'attribut <keyword=poison>Empoisonnement</keyword> à une unité.\n<keyword=tribute>Tribut</keyword> de {Tribute-B.P.BB_Tribute} piastre(s) : ajoutez l'attribut <keyword=poison>Empoisonnement</keyword> à toutes les unités sur le champ de bataille à la place.\nAugmentez le <keyword=profit>Bénéfice</keyword> de 1 piastre par unité alliée de la Salamandre.
+202843_fluff;Ceux qui s'aventurent dans les égouts sous Wyzima ont intérêt de se méfier, car des choses bien pires que les rats se cachent dans les ténèbres des bas-fonds de la ville.
+202843_name;Planque de la Salamandre
+202843_tooltip;<keyword=resilient>Tenace</keyword>.\n<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> et jouez une Expérience ratée, une Abomination de la Salamandre, un Mage de la Salamandre ou un Larbin de la Salamandre.\n<keyword=order>Ordre</keyword> : déplacez un attribut <keyword=poison>Empoisonnement</keyword> d'un allié vers une autre unité.
+202844_fluff;"Je me demande comment mon frère s'en sort dans les égouts." – Roland
+202844_name;Roland Bleinheim
+202844_tooltip;Chaque fois qu'une unité est <keyword=poison>empoisonnée</keyword>, vous obtenez {Coins} <keyword=coin>piastre(s)</keyword>.
+202845_fluff;"Je me demande comment mon frère s'en sort dans les bois." – Gellert
+202845_name;Gellert Bleinheim
+202845_tooltip;<keyword=profit>Bénéfice</keyword> de {Profit} piastre(s).\n<keyword=fee>Gages</keyword> de {Cost} piastre(s) : ajoutez l'attribut <keyword=poison>Empoisonnement</keyword> à une unité alliée et améliorez-la de {Boost} point(s).\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : <keyword=cooldown>Réutilisation</keyword> : {Cooldown} tour(s).
+202846_fluff;Les larbins doivent effectuer leurs cinq premiers boulots gratuitement afin de prouver leur passion pour le métier.
+202846_name;Larbin de la Salamandre
+202846_tooltip;La première fois que vous gagnez une <keyword=coin>piastre</keyword> à chaque tour, améliorez la présente unité de {Boost} point(s).
+202847_fluff;Les scientifiques de la Salamandre se préoccupaient tant de réussir leurs expériences qu'ils ne se souciaient pas de leurs conséquences.
+202847_name;Abomination de la Salamandre
+202847_tooltip;<keyword=tribute>Tribut</keyword> de {Tribute-B.P.BB_Tribute} piastre(s) : ajoutez l'attribut <keyword=poison>Empoisonnement</keyword> à la présente unité.\nChaque fois que la présente unité est <keyword=poison>empoisonnée</keyword>, améliorez-la de {Boost} point(s).\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : au terme de votre tour, <keyword=purify>purifiez</keyword> la présente unité.
+202848_fluff;Préparer un feu permet de réchauffer les gens une journée, alors que les faire brûler...
+202848_name;Mage de la Salamandre
+202848_tooltip;<keyword=tribute>Tribut</keyword> de {Tribute-B.P.BB_Tribute} piastre(s) : infligez {Damage} point(s) de dégâts à 3 unités ennemies adjacentes.\nChaque fois que vous payez une capacité <keyword=tribute>Tribut</keyword>, vous obtenez {Coins} <keyword=coin>piastre(s)</keyword>.\n<keyword=adrenaline>Adrénaline</keyword> de {Adrenaline} : vous obtenez {Coins2} <keyword=coin>piastre(s)</keyword> à la place.
+202849_fluff;Même les expériences ratées peuvent servir à quelque chose. Comment repousserait-on les limites du savoir autrement ?
+202849_name;Expérience ratée
+202849_tooltip;Au terme de votre tour, vous perdez {Cost} <keyword=coin>piastre(s)</keyword>. Si vous n'avez aucune <keyword=coin>piastre</keyword>, infligez {Damage} point(s) de dégâts à la présente unité à la place.\nDésactivez cette capacité lorsque la présente unité est <keyword=poison>empoisonnée</keyword>.
+202850_fluff;C'est comme de prélever des organes, mais c'est bien plus lucratif.
+202850_name;Mutagènes volés
+202850_tooltip;Choisissez un mutagène :\n\nRouge : infligez {Damage} point(s) de dégâts à une unité ennemie.\nBleu : ajoutez l'attribut <keyword=poison>Empoisonnement</keyword> à une unité alliée et obtenez {Coins2} <keyword=coin>piastre(s)</keyword>.\nVert : améliorez une unité alliée de {Boost} point(s) et ajoutez-lui l'attribut <keyword=veil>Voile</keyword>.\n\nSi vous contrôlez au moins {Counter} unités de la Salamandre, vous recevez un <keyword=profit>bénéfice</keyword> de {Coins} piastre(s).
+202856_fluff;Quand une tête ne suffit pas.
+202856_name;Hybride
+202856_tooltip;Chaque fois que vous <keyword=consume>dévorez</keyword> une unité ou plus, améliorez la présente unité de {Boost} point(s).
+202872_fluff;Le bien le plus précieux d'une ménagerie royale, jusqu'à ce qu'un commando scoia'tael attaque les lieux, libère la bête et la retourne contre ses maîtres cruels. Depuis ce jour, il a développé un goût prononcé pour la chair humaine.
+202872_name;Tigre à dents de sabre : furtif
+202872_tooltip;Au début de votre tour, infligez {Damage} point(s) de dégâts à toutes les unités ennemies seules sur leur ligne et transformez la présente unité en Tigre à dents de sabre.
+202879_fluff;Vif comme l'éclair, Madoc sortit une boule de cuir avec une mèche, l'embrasa d'un claquement de doigts et la lança aux pieds du géant hurlant.
+202879_name;Madoc
+202879_tooltip;Chaque fois que vous jouez une carte Bombe, <keyword=summon>invoquez</keyword> la présente carte sur une ligne alliée aléatoire depuis votre jeu ou votre cimetière.\n<keyword=order>Ordre</keyword> : <keyword=spawn>générez</keyword> <keyword=cataclysm>Cataclysme</keyword> pendant {Counter} tour(s) sur la ligne opposée, puis détruisez la présente carte.
+202880_fluff;Mon statut m'oblige à la juger équitablement, mais elle est ma sœur et mon cœur saigne pour elle.
+202880_name;Anna Henrietta
+202880_tooltip;<keyword=deploy>Déploiement</keyword> : remplacez votre capacité de chef par une copie de base de la capacité de chef de votre adversaire.
+202881_fluff;On ne m'appelle pas le Patient. Prenez garde ou on vous appellera le Raccourci.
+202881_name;Emhyr var Emreis
+202881_tooltip;<keyword=deploy>Déploiement</keyword> : tirez une carte, puis déplacez-en une depuis votre main vers le bas de votre jeu.\nChaque fois que votre adversaire joue une unité, ajoutez-lui l'attribut <keyword=spying>Espion</keyword>.\n<keyword=devotion>Dévotion</keyword> : au terme de votre tour, <keyword=seize>saisissez</keyword> une unité <keyword=spying>Espion</keyword> aléatoire ayant une force de {power}.
+202882_fluff;Les Nilfgaardiens l'appellent Tirth ys Muire, le Sanglier sauvage des Mers. Ils s'en servent pour effrayer leurs gamins !
+202882_name;Crach an Craite
+202882_tooltip;<keyword=deploy>Déploiement</keyword> : ajoutez {Armor} point(s) d'<keyword=armor>armure</keyword> à {MaxTargets} Pirates ou Vaisseaux dans votre main.\nChaque fois que vous jouez un Pirate ou un Vaisseau à côté de Crach, infligez à l'unité jouée des dégâts équivalant à la force de l'unité ennemie la plus faible et inversement.
+202883_fluff;Eist se rendit à Cintra pour aider Crach an Craite à obtenir la main de la princesse Pavetta, mais ce fut finalement lui qui gagna le cœur de la mère de cette dernière.
+202883_name;Eist Tuirseach
+202883_tooltip;<keyword=veteran>Vétéran</keyword>.\n<keyword=deploy>Déploiement</keyword>, <keyword=bloodthirst>Soif de sang</keyword> {Bloodthirst} : tirez une carte, puis <keyword=discard>défaussez</keyword>-en une.\nChaque fois que vous <keyword=discard>défaussez</keyword> une unité de Skellige durant votre tour, <keyword=summon>invoquez</keyword>-la sur cette ligne depuis votre cimetière.\nCompteur : {Counter}.\n<keyword=devotion>Dévotion</keyword> : fonctionne aussi chaque fois qu'une unité de Skellige est envoyée dans votre cimetière durant votre tour.
+202884_fluff;Ce vieux champignon ? Quand tu le vois, pas moyen de savoir s'il est vivant ou empaillé.
+202884_name;Brouver Hoog
+202884_tooltip;<keyword=deploy>Déploiement</keyword> : la présente unité gagne 1 point d'<keyword=armor>armure</keyword> par Nain dans votre main.\n<keyword=barricade>Barricade</keyword> : au terme de votre tour, améliorez de {boost} point(s) tous les Nains possédant une <keyword=armor>armure</keyword> sur cette ligne.
+202885_fluff;Le roi a un jour envoyé un messager à Eldain… malgré mes conseils pour l'en dissuader. On a retrouvé le messager le lendemain, les yeux arrachés, la hampe de son drapeau blanc enfoncée dans la gorge.
+202885_name;Eldain
+202885_tooltip;<keyword=deploy>Déploiement</keyword> : transformez tous vos Pièges révélés en Embusqués elfes.\n<keyword=devotion>Dévotion</keyword> : transformez aussi vos autres artefacts.
+202886_fluff;Je n'ai nul besoin de conseillers et de leurs manigances. Je place ma confiance dans les lames de mes soldats.
+202886_name;Roi Foltest
+202886_tooltip;La première fois qu'une unité Bronze est améliorée de votre côté du champ de bataille à chaque tour, <keyword=spawn>générez</keyword>-en une copie de base en bas de votre jeu.\n<keyword=devotion>Dévotion</keyword> : améliorez aussi la copie <keyword=spawn>générée</keyword> de {boost} point(s).
+202887_fluff;Nous sommes en guerre, l'heure n'est pas aux tergiversations. Les vrais souverains prennent l'épée et le bouclier, et vont défendre leurs sujets.
+202887_name;Reine Meve
+202887_tooltip;<keyword=inspired>Motivation</keyword> : au terme de votre tour, réduisez le compteur de 1.\nCompteur : {Counter}.\nLorsque le compteur atteint 0, améliorez toutes les unités alliées de {Boost} point(s).
+202888_fluff;Il n'aimait pas comme un homme mais comme un animal. À la folie. Viscéralement. Sans conditions. Violemment.
+202888_name;Dettlaff van der Eretein
+202888_tooltip;<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> <keyword=blood_moon>Lune de sang</keyword> sur une ligne ennemie pendant {Counter} tour(s). Augmentez la durée de 1 tour par Vampire adjacent.\n<keyword=order>Ordre</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie possédant l'attribut <keyword=bleeding>Saignement</keyword>.\n<keyword=deathblow>Coup mortel</keyword> : <keyword=spawn>générez</keyword> un Ekimme sur cette ligne.\n<keyword=cooldown>Réutilisation</keyword> : {Cooldown} tour(s).
+202889_fluff;Personne, même parmi les vampires supérieurs, ne connaît l'âge exact du Doyen des Invisibles. Ils savent seulement qu'ils ne doivent en aucune circonstance s'opposer à sa volonté.
+202889_name;Doyen des Invisibles
+202889_tooltip;<keyword=deploy>Déploiement</keyword> : infligez à une unité ennemie un <keyword=bleeding>saignement</keyword> pendant {Bleeding} tour(s).\nAu terme de votre tour, infligez à une unité ennemie aléatoire ne possédant pas l'attribut <keyword=bleeding>Saignement</keyword> un <keyword=bleeding>saignement</keyword> pendant {Bleeding2} tour(s).\n<keyword=devotion>Dévotion</keyword> : au terme de votre tour, déclenchez aussi le <keyword=bleeding>saignement</keyword> des unités ennemies.
+202890_fluff;Grâce à toi, mes cochons auront d'quoi manger.
+202890_name;Surin
+202890_tooltip;<keyword=intimidate>Intimidation</keyword>.\n<keyword=deploy>Déploiement</keyword> : <keyword=spawn>générez</keyword> et jouez Racket.\nAugmentez l'<keyword=intimidate>Intimidation</keyword> de la présente carte de {Intimidate} par Découpeur adjacent.\n<keyword=fee>Gages</keyword> de {Cost} piastre(s) : <keyword=spawn>générez</keyword> une Brute de Surin sur cette ligne.
+202891_fluff;Une guerre avec le Petit Bâtard entraînera un bain de sang dans les rues de Novigrad.
+202891_name;Le Petit Bâtard
+202891_tooltip;<keyword=deploy>Déploiement</keyword> : infligez {Damage} point(s) de dégâts à une unité ennemie améliorée. Vous obtenez une <keyword=coin>piastre</keyword> par point de dégâts excédentaire infligé.\n<keyword=devotion>Dévotion</keyword> : la présente unité reçoit aussi l'attribut <keyword=insanity>Folie</keyword>.\n<keyword=fee>Gages</keyword> de {Cost} piastre(s) : détruisez une unité ennemie ayant une force inférieure ou égale à {Power}.
+202892_fluff;En avant, bande de pleutres ! En avant ou les Nilfgaardiens seront le cadet de vos soucis !
+202892_name;Sergent de Kaedwen
+202892_tooltip;<keyword=zeal>Zèle</keyword>.\n<keyword=order>Ordre</keyword> : améliorez une unité alliée de {Boost} point(s). \n{Charges} <keyword=charge>utilisation(s)</keyword>.
 21_name_sa;Ignore.
 22_name_sa;Ignore.
 23_name_sa;Ignore.
@@ -3248,6 +3524,7 @@ card_category_104;Mutant
 card_category_105;Salamandre
 card_category_106;Aristocrate
 card_category_107;Scénario
+card_category_109;Emplacement
 card_category_11;Tactique
 card_category_12;Bête
 card_category_13;Chef
@@ -3343,8 +3620,8 @@ card_category_99;Ignorés
 card_in_maintenance_tooltip;La présente carte est en cours de maintenance. Veuillez nous excuser pour le désagrément.
 card_token_berserk;obsolete
 card_token_bleeding;<#600101>Saignement :</color> attribut infligeant 1 point de dégâts à cette unité à la fin de son tour. Remarque : les tours de Saignement sont cumulables ; 1 tour de Saignement annule 1 tour de Vitalité.
-card_token_bounty;<#600101>Prime :</color> lorsque cette unité est détruite, le joueur ayant placé l'attribut Prime obtient un nombre de piastres équivalant à sa force initiale.
-card_token_defender;<#600101>Défenseur :</color> l'adversaire ne peut pas cibler les autres cartes sur cette ligne.
+card_token_bounty;<#600101>Prime :</color> lorsqu'une unité possédant l'attribut Prime est détruite ou bannie, l'adversaire obtient un nombre de piastres équivalant à sa force initiale. Il ne peut y avoir qu'une unité possédant l'attribut Prime de chaque côté du plateau à tout moment.
+card_token_defender;<#600101>Défenseur :</color> attribut empêchant l'adversaire de cibler les autres cartes sur cette ligne.
 card_token_doomed;<#600101>Condamnée :</color> attribut retirant cette unité de la partie lorsqu'elle quitte le champ de bataille.
 card_token_immune;<#600101>Invulnérable :</color> attribut permettant à cette carte de ne pas être ciblée manuellement.
 card_token_lock;<#600101>Verrouillage :</color> attribut neutralisant les capacités de cette unité.
@@ -3356,6 +3633,7 @@ card_token_shield;<#600101>Bouclier :</color> attribut bloquant les dégâts de
 card_token_spying;Espion : attribut d'une unité générée, jouée ou déplacée du côté opposé du champ de bataille.
 card_token_veil;Voile : attribut empêchant l'unité de recevoir d'autres attributs.
 card_token_vitality;<#600101>Vitalité :</color> attribut améliorant cette unité de 1 point à la fin de son tour. Remarque : les tours de Vitalité sont cumulables ; 1 tour de Vitalité annule 1 tour de Saignement.
+keyword_adrenaline;<#600101>Adrénaline :</color> déclencher cette capacité si votre main contient le nombre de cartes indiqué ou moins.
 keyword_ambush;<#600101>Embuscade :</color> carte jouée face cachée, puis retournée lorsque la condition de la capacité est remplie.
 keyword_armor;<#600101>Armure :</color> protège l'unité contre les dégâts. Cette valeur n'augmente pas votre score ou la force de l'unité.
 keyword_assimilate;<#600101>Assimilation :</color> améliorer la présente unité de 1 point ou du montant indiqué chaque fois que vous jouez une carte ne faisant pas partie de votre jeu de départ.
@@ -3372,7 +3650,7 @@ keyword_bonded;<#600101>Lien :</color> déclencher cette capacité si vous cont
 keyword_boon;<#600101>Avantage :</color> effet de ligne bénéfique. Peut être remplacé ou dissipé à la fin du tour par certains effets de ligne.
 keyword_boost;<#600101>Amélioration :</color> augmenter la force actuelle d'une unité.
 keyword_boosted;<#600101>Améliorée :</color> la force actuelle d'une unité (après amélioration) est supérieure à sa force initiale.
-keyword_bounty;<#600101>Prime :</color> lorsqu'une unité possédant l'attribut Prime est détruite, l'adversaire obtient un nombre de piastres équivalant à sa force initiale. Il n'est possible de placer qu'une seule prime à la fois sur les unités ennemies.
+keyword_bounty;<#600101>Prime :</color> lorsqu'une unité possédant l'attribut Prime est détruite ou bannie, l'adversaire obtient un nombre de piastres équivalant à sa force initiale. Il ne peut y avoir qu'une unité possédant l'attribut Prime de chaque côté du plateau à tout moment.
 keyword_brave;<#600101>Brave :</color> déclencher cette capacité si votre adversaire mène dans la manche actuelle (calcul effectué une fois la présente unité placée ainsi que toute unité qu'elle génère).
 keyword_cataclysm;<#600101>Cataclysme :</color> au début du tour de son propriétaire, répartir aléatoirement 3 points de dégâts entre les unités sur cette ligne.
 keyword_charge;<#600101>Utilisation :</color> le nombre de fois qu'une capacité Ordre peut être utilisée. Seules les cartes avec Utilisation : X peuvent recevoir des Utilisations additionnelles.
@@ -3396,7 +3674,7 @@ keyword_damaged;<#600101>Endommagée :</color> la force actuelle d'une unité (
 keyword_deadlock;<#600101>Affrontement :</color> déclencher cette capacité uniquement si aucun joueur n'a passé.
 keyword_deathblow;<#600101>Coup mortel :</color> déclencher cette capacité si la présente carte détruit une unité.
 keyword_deathwish;<#600101>Baroud d'honneur :</color> cette capacité se déclenche lorsque la carte est détruite et déplacée du champ de bataille vers le cimetière. Remarque : les unités bannies ne sont pas envoyées au cimetière.
-keyword_defender;<#600101>Défenseur :</color> l'adversaire ne peut pas cibler les autres cartes sur cette ligne.
+keyword_defender;<#600101>Défenseur :</color> attribut empêchant l'adversaire de cibler les autres cartes sur cette ligne.
 keyword_demote;<#600101>Rétrograder :</color> convertir une carte Or en carte Argent (ou en Bronze, si la carte était Bronze à l'origine).
 keyword_deploy;<#600101>Déploiement :</color> déclencher cette capacité lorsque la carte est jouée.
 keyword_destroy;<#600101>Détruire :</color> déplacer la carte vers le cimetière.
@@ -3420,7 +3698,7 @@ keyword_friendly;<#600101>Allié :</color> toute unité située de votre côté
 keyword_frost;<#600101>Givre :</color> au début du tour de son propriétaire, infliger 2 points de dégâts à l'unité disposant de la force la plus élevée sur cette ligne.
 keyword_gamble;<#600101>Parier :</color> jouez à un jeu de hasard.
 keyword_gold;<#600101>Invulnérable :</color> attribut qui permet à cette carte de ne pas être ciblée.
-keyword_harmony;<b><#600101>Harmonie :</color></b> améliorer la présente unité de 1 point ou du montant indiqué chaque fois que vous jouez sur cette ligne une unité Scoia'tael ayant une catégorie principale unique parmi toutes vos unités.
+keyword_harmony;<#600101>Harmonie :</color> améliorer la présente unité de 1 point ou du montant indiqué chaque fois que vous jouez une unité Scoia'tael ayant une catégorie principale unique parmi toutes vos unités.
 keyword_hazard;<#600101>Danger :</color> effet de ligne néfaste. Peut être remplacé ou dissipé à la fin du tour par certains effets de ligne.
 keyword_heal;<#600101>Soigner :</color> si la force actuelle d'une unité est inférieure à sa force initiale, rétablir la force initiale ou restaurer un nombre de points donné.
 keyword_highest;<#600101>Plus forte :</color> la force la plus élevée. En cas d'égalité, l'opération s'effectue aléatoirement.
@@ -3477,7 +3755,7 @@ keyword_stubborn;<#600101>Obstinée :</color> la carte ne peut pas être rejou�
 keyword_summon;<#600101>Invoquer :</color> déplacer automatiquement vers le champ de bataille (la carte n'est pas considérée comme jouée).
 keyword_swap;<#600101>Échanger :</color> déplacer une carte de la main vers le jeu et en tirer une autre à la place durant votre tour.
 keyword_symbiosis;<#600101>Symbiose :</color> chaque fois que vous jouez une carte Nature, générer un Sylvain errant sur une ligne alliée aléatoire et fixer sa force sur une valeur égale au nombre d'unités possédant Symbiose que vous contrôlez.
-keyword_thrive;<#600101>Développement :</color> améliorer la présente unité de 1 point chaque fois que vous jouez une unité ayant une force supérieure.
+keyword_thrive;<b><#600101>Développement :</color></b> améliorer la présente unité de 1 point ou du montant indiqué chaque fois que vous jouez une unité ayant une force supérieure.
 keyword_timer;<#600101>Décompte :</color> réduire le décompte de 1 à chaque tour tant que la présente unité est sur le plateau. Déclencher la capacité lorsque le décompte atteint 0 (au début ou à la fin du tour). Réinitialiser le décompte lorsque l'unité quitte le plateau.
 keyword_token;<#600101>Éphémère :</color> une unité supprimée de la partie au terme de la manche.
 keyword_transform;<#600101>Transformer :</color> convertir la carte en une autre.

@@ -24,7 +24,7 @@
 11_name_sa;Ignore.
 112101_fluff;Posso andare dove voglio, quando voglio.
 112101_name;Ciri
-112101_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia {MaxTargets} nemici casuali di {Damage}.\nOgni volta che perdi un round, riprendi in mano questa unità.
+112101_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia {MaxTargets} unità nemiche di {Damage}.\nOgni volta che perdi un round, riprendi in mano questa unità.
 112102_fluff;Con uno schiocco di dita un witcher può accendere una lampada... o incenerire un nemico.
 112102_name;Geralt: Igni
 112102_tooltip;<keyword=deploy>Schieramento</keyword>: distrugge le unità più forti di una fila nemica con un totale di almeno {Power2} di forza.\n<keyword=initiative>Iniziativa</keyword>: distrugge le unità più forti di una fila nemica con un totale di almeno {Power} di forza.
@@ -60,19 +60,19 @@
 112112_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): mette in gioco un manufatto dal tuo mazzo.
 112113_fluff;Una brava maga sa quando evocare il ghiaccio e quando il fuoco.
 112113_name;Yennefer: invocatrice
-112113_tooltip;<keyword=order>Ordine</keyword>: danneggia di {Damage} l'unità o le unità più forti. \n<keyword=cooldown>Recupero</keyword>: {Cooldown}.
+112113_tooltip;<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: infligge {Damage} danni alle unità nemiche più forti. <keyword=cooldown>Recupero</keyword> {Cooldown}.
 112201_fluff;La sua specie ha avuto molti nomi in passato, ma oggi vengono chiamati mutaforma.
 112201_name;Dudu
 112201_tooltip;<keyword=deploy>Schieramento</keyword>: si trasforma nella copia base di un'unità nemica.
 112202_fluff;Sono un semplice witcher, Lupo. Non affronto draghi, non faccio amicizia con i re e non mi intrattengo con le maghe...
 112202_name;Eskel
-112202_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=summon>richiama</keyword> Vesemir e Lambert dal tuo mazzo su questa fila.
+112202_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}): <keyword=summon>richiama</keyword> Vesemir e Lambert dal tuo mazzo.
 112203_fluff;Se stanno per impiccarti, chiedi da bere. Può succedere di tutto nel frattempo.
 112203_name;Vesemir
-112203_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=summon>richiama</keyword> Eskel e Lambert dal tuo mazzo su questa fila.
+112203_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}): <keyword=summon>richiama</keyword> Eskel e Lambert dal tuo mazzo.
 112204_fluff;Questo è il tipo di trattativa che preferisco.
 112204_name;Lambert
-112204_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=summon>richiama</keyword> Eskel e Vesemir dal tuo mazzo su questa fila.
+112204_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}): <keyword=summon>richiama</keyword> Eskel e Vesemir dal tuo mazzo.
 112205_fluff;Mai frapporsi tra una draghessa e il suo cucciolo.
 112205_name;Myrgtabrakke
 112205_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia {MaxTargets} unità nemiche di {Damage}.
@@ -141,10 +141,10 @@
 113204_tooltip;Danneggia di {Damage} tutte le unità nemiche.
 113205_fluff;Non può mancare nel bagaglio del cacciatore di streghe: in un lampo trasforma il mago più temibile in un agnellino pronto da affettare.
 113205_name;Bomba al dimeritium
-113205_tooltip;Distrugge un manufatto.
+113205_tooltip;Danneggia di {Damage} un'unità e le fornisce <keyword=veil>Velo</keyword>.
 113206_fluff;Ammirate Tedd Deireadh, il Tempo della Fine! Il mondo distrutto dal Bianco Gelo!
-113206_name;Bianco Gelo
-113206_tooltip;Distrugge tutti i manufatti.
+113206_name;Bufera di neve
+113206_tooltip;Distrugge l'unità con la forza minore.\n<keyword=initiative>Iniziativa</keyword>: distrugge tutte le unità con la forza minore.
 113207_fluff;Più uno al morale, meno uno all'udito.
 113207_name;Corno del comandante
 113207_tooltip;Potenzia {maxtargets} unità adiacenti di {Boost}.
@@ -266,7 +266,7 @@
 122213_tooltip;<keyword=resupply>Rifornimento</keyword>: si potenzia di {Boost}.\n<keyword=inspired>Ispirazione</keyword>: si potenzia di {Boost2}.
 122214_fluff;Avanti, uomini! Avanti, ho detto, o i nilfgaardiani saranno l'ultimo dei vostri problemi!
 122214_name;Kaedwen: sergente
-122214_tooltip;<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: potenzia di {Boost} un'unità alleata. \n<keyword=charge>Cariche</keyword>: {Charges}.
+122214_tooltip;<keyword=formation>Formazione</keyword>. \n<keyword=order>Ordine</keyword>: potenzia di {Boost} un'unità alleata. <keyword=charge>Cariche</keyword>: {Charges}.
 122216_fluff;Chi vuole fare affari a Novigrad o si accorda con Mannaia, o può dire addio alle sue ginocchia.
 122216_name;Carlo Varese
 122216_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): danneggia di {Damage} un'unità nemica per ogni carta nella tua mano.
@@ -305,7 +305,7 @@
 122314_tooltip;<keyword=shield>Scudo</keyword>.\nOgni volta che questa unità perde il proprio <keyword=shield>Scudo</keyword>, si potenzia di {Boost}.
 122315_fluff;Lo senti? La terra trema ogni volta che la Grande Bertha scaglia una pietra!
 122315_name;Trabucco rinforzato
-122315_tooltip;<keyword=ranged>Retrovie</keyword>: alla fine del tuo turno, danneggia di {Damage} un'unità nemica casuale sulla fila del <keyword=ranged>combattimento a distanza</keyword>.
+122315_tooltip;<keyword=ranged>Retrovie</keyword>: alla fine del tuo turno, danneggia di {Damage} un'unità nemica casuale sulla fila del <keyword=ranged>combattimento a distanza</keyword>.\n<keyword=crew>Drappello</keyword>: danneggia invece di {Damage} un'unità nemica casuale.
 122316_fluff;Temeria! Temeria! Che gli dei ti ricoprano di gloria! E che i tuoi nemici siano maledetti, per l'eternità!
 122316_name;Temeria: fanteria
 122316_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di {Damage} un'unità nemica per ogni unità potenziata presente su questa fila.
@@ -314,7 +314,7 @@
 122317_tooltip;<keyword=deploy>Schieramento</keyword>: si potenzia di {Boost}.\n<keyword=exposed>Vulnerabile</keyword>: ripristina la propria forza.
 122318_fluff;Non manco mai due volte.
 122318_name;Mastro d'assedio
-122318_tooltip;<keyword=deploy>Schieramento</keyword>: potenzia di {Boost} un'unità alleata.\n<keyword=resupply>Rifornimento</keyword>: potenzia di {Boost2} le unità Macchina d'assedio adiacenti.
+122318_tooltip;<keyword=order>Ordine</keyword>: potenzia di {Boost} un alleato.\n<keyword=resupply>Rifornimento</keyword>: potenzia di {Boost2} le unità Macchina d'assedio adiacenti.
 122401_fluff;Ammetti i tuoi errori e impara a seppellirli, o torneranno a perseguitarti.
 122401_name;Botchling
 122401_tooltip;Alla fine di ogni turno alleato, danneggia di {Damage} l'unità nemica più forte. \n<keyword=order>Ordine</keyword>: si trasforma in un Lubberkin.
@@ -331,7 +331,7 @@
 13_name_sa;Ignore.
 131101_fluff;Abbi un po' di dignità! Sai come andrà a finire.
 131101_name;Carapace
-131101_tooltip;<keyword=order>Ordine</keyword>: potenzia di {Boost} un'unità alleata e le fornisce uno <keyword=shield>Scudo</keyword>. <keyword=charge>Cariche</keyword>: {Charges}.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+131101_tooltip;<keyword=order>Ordine</keyword>: potenzia di {Boost} un'unità alleata. Inoltre, se l'unità è dei Mostri, le fornisce <keyword=veil>Velo</keyword>. <keyword=charge>Cariche</keyword>: {Charges}.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 131102_fluff;I dipinti comunicano emozioni, non parole.
 131102_name;Ge'els
 131102_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): gioca una carta Speciale Caccia Selvaggia dal tuo mazzo.
@@ -343,7 +343,7 @@
 132102_tooltip;Danneggia un'unità nemica di una quantità pari alla forza della tua unità più forte.\nAltrimenti, se controlli Imlerith, distrugge un'unità nemica.
 132103_fluff;Non cacciamo mai in questi boschi, nemmeno a costo di morire di fame.
 132103_name;Forza della natura
-132103_tooltip;<keyword=order>Ordine</keyword>: potenzia di {Boost} un'unità nella tua mano.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+132103_tooltip;<keyword=order>Ordine</keyword>: <keyword=spawn>evoca</keyword> e mette in gioco Spirito della Foresta.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 132104_fluff;Un figlio diletto che ha scelto la via del male.
 132104_name;Caranthir Ar-Feiniel
 132104_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> una copia base con forza {Power} di un'unità Mostri della tua mano su questa fila.
@@ -358,7 +358,7 @@
 132107_tooltip;<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: <keyword=consume>consuma</keyword> un'unità alleata.\n<keyword=charge>Cariche</keyword>: {Charges}.
 132108_fluff;Perché combattere? Ci sono altri modi per sfogare la tensione in eccesso...
 132108_name;Miruna
-132108_tooltip;<keyword=deathwish>Ultimo desiderio</keyword>: <keyword=seize>sequestra</keyword> un'unità nemica con al massimo {Power} di forza.
+132108_tooltip;<keyword=deathwish>Ultimo desiderio</keyword>: <keyword=seize>sequestra</keyword> un'unità nemica casuale con al massimo {Power} di forza.
 132201_fluff;Un incrocio fra un granchio, un ragno e... una montagna.
 132201_name;Arachas gigante
 132201_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> {MaxTargets} unità Fuco e potenzia di {Boost} tutte le altre unità Insettoide della fila.
@@ -409,7 +409,7 @@
 132216_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): <keyword=consume>consuma</keyword> un'unità con al massimo {Power} di forza.
 132217_fluff;Le arpie comuni si nutrono di carogne. Le arpie celaeno si nutrono... di sogni.
 132217_name;Arpia celaeno
-132217_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=consume>consuma</keyword> un'unità alleata.
+132217_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=consume>consuma</keyword> un'unità alleata.\n<keyword=bonded>Legame</keyword>: <keyword=spawn>evoca</keyword> un Uovo di arpia su questa fila.
 132218_fluff;Non disturbare.
 132218_name;Punta-di-lancia: pace
 132218_tooltip;<keyword=veil>Velo</keyword>.
@@ -472,7 +472,7 @@
 132404_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di {Damage} un'unità nemica.
 132405_fluff;È facile scambiarli per rocce. Molti troll hanno avuto un'amara sorpresa proprio per questo motivo.
 132405_name;D'ao forsennato
-132405_tooltip;<keyword=deploy>Schieramento</keyword>: distrugge un manufatto nemico.
+132405_tooltip;<keyword=deploy>Schieramento</keyword>: sposta un'unità sull'altra fila.
 132406_fluff;Né porte né mura possono fermarli. Basta una piccola crepa... Non hanno bisogno d'altro.
 132406_name;Maerolorn
 132406_tooltip;<keyword=deploy>Schieramento</keyword>: attiva l'abilità <keyword=deathwish>Ultimo desiderio</keyword> di un'unità alleata Bronzo.
@@ -564,10 +564,10 @@
 142301_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): potenzia di {Boost} un'unità alleata.\n<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): <keyword=heal>cura</keyword> di {Boost2} un'unità alleata.
 142302_fluff;"Vrihedd? Che significa?" "Guai."
 142302_name;Brigata Vrihedd
-142302_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di {Damage} un'unità nemica casuale.\nOgni volta che la Brigata Vrihedd si sposta sull'altra fila, ripete l'abilità <keyword=deploy>Schieramento</keyword>.
+142302_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di {Damage} un'unità nemica.\nOgni volta che si sposta, danneggia di {damage} un'unità nemica casuale.
 142303_fluff;L'odio brucia più del fuoco e ferisce più della spada.
 142303_name;Ufficiale Vrihedd
-142303_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): danneggia di {Damage} un'unità nemica.\n<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): potenzia di {Boost} un'unità alleata.
+142303_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): danneggia di {Damage} un'unità nemica.\n<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): potenzia di {Boost} un'unità alleata.\n<keyword=bonded>Legame</keyword>: usa entrambe le abilità.
 142304_fluff;Cacciano come segugi, corrono come cervi e uccidono come demoni senza cuore.
 142304_name;Dol Blathanna: bomba
 142304_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia {MaxTargets} unità nemiche casuali di {Damage}.
@@ -594,7 +594,7 @@
 142311_tooltip;<keyword=deploy>Schieramento</keyword>: si danneggia di {Damage} per ogni unità non appartenente alla categoria Nano che hai in mano.
 142312_fluff;Elfi, nani, per me non fa differenza. Purché paghino.
 142312_name;Aiutante Hav'caaren
-142312_tooltip;<keyword=deploy>Schieramento</keyword>: se controlli un manufatto, si potenzia di {Boost2}, altrimenti potenzia un'unità alleata di {Boost}.
+142312_tooltip;<keyword=deploy>Schieramento</keyword>: se controlli un manufatto, potenzia un'unità alleata di {Boost2}, altrimenti la potenzia di {Boost}.
 142313_fluff;Vuoi farmi credere che l'elfa si è messa a danzare in mezzo alla battaglia? Sei impazzito, caporale?
 142313_name;Elfa danzatrice di guerra
 142313_tooltip;<keyword=deploy>Schieramento</keyword>: se l'Elfa danzatrice di guerra è già potenziata, danneggia un'unità nemica di {Damage}, altrimenti la danneggia di {Damage2}.
@@ -615,7 +615,7 @@
 142401_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> e <keyword=summon>richiama</keyword> una copia base di questa unità sull'altra fila alleata.
 143201_fluff;Come osate depredare la madre Terra? Un tempo, i suoi frutti crescevano rigogliosi come dono per la nostra sacra devozione.
 143201_name;Trappola di serpenti
-143201_tooltip;<keyword=ambush>Imboscata</keyword>: distrugge l'unità nemica più forte quando l'avversario gioca una carta Speciale.
+143201_tooltip;<keyword=ambush>Imboscata</keyword>: distrugge l'unità nemica più forte quando l'avversario gioca una carta Speciale.\n<keyword=spring>Scatto</keyword>: distrugge l'unità nemica meno forte.
 143301_fluff;Prudenza! Un altro passo e ti scioglierai come neve al sole.
 143301_name;Trappola incendiaria
 143301_tooltip;<keyword=Spring>Scatto</keyword>: danneggia di {damage2} un'unità.\n<keyword=ambush>Imboscata</keyword>: danneggia di {damage} la prossima unità messa in gioco dall'avversario nella sua metà di campo.
@@ -662,7 +662,7 @@
 152206_tooltip;<keyword=zeal>Fervore</keyword>. <keyword=order>Ordine</keyword> (<keyword=ranged>Retrovie</keyword>): <keyword=purify>purifica</keyword> un'unità.\nRipristina questa abilità ogni volta che giochi una carta Alchimia.
 152207_fluff;Brindiamo all'Imperatore di Nilfgaard: che possa morire tra atroci sofferenze!
 152207_name;Holger Manonera
-152207_tooltip;Ogni volta che metti in gioco un'unità Nave, la potenzia di {Boost}.\nOgni volta che metti in gioco un'unità Pirata, danneggia di {Damage} un'unità nemica casuale.
+152207_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di {damage2} un'unità.\nOgni volta che metti in gioco una Nave, la potenzia di {Boost}.\nOgni volta che metti in gioco un Pirata, danneggia di {Damage} un'unità nemica casuale.
 152208_fluff;Alcuni la chiamano "Vergine di ferro".
 152208_name;Jutta an Dimun
 152208_tooltip;<keyword=deploy>Schieramento</keyword>: si danneggia di {Damage} se Jutta an Dimun è l'unità più forte.
@@ -692,7 +692,7 @@
 152303_tooltip;<keyword=deploy>Schieramento</keyword>: se messa in gioco dal cimitero, danneggia di {Damage} un'unità nemica, altrimenti le infligge <keyword=bleeding>Sanguinamento</keyword> ({Bleed}).
 152304_fluff;Certo che sappiamo cacciare. Ma non c'è molta selvaggina a Spikeroog...
 152304_name;Brokvar: cacciatore
-152304_tooltip;<keyword=order>Ordine</keyword>: danneggia di {damage} un'unità.\n<keyword=cooldown>Recupero</keyword>: {Cooldown}.\nOgni volta che <keyword=discard>scarti</keyword> una carta, il <keyword=cooldown>Recupero</keyword> si riduce di {Cooldown2}.
+152304_tooltip;<keyword=zeal>Fervore</keyword>. <keyword=order>Ordine</keyword>: (<keyword=ranged>Retrovie</keyword>): danneggia di {damage} un'unità.\n<keyword=cooldown>Recupero</keyword>: {Cooldown}.\nOgni volta che metti in gioco una Bestia, il <keyword=cooldown>Recupero</keyword> si riduce di {Cooldown2}.
 152305_fluff;Leggo la paura nei loro occhi. Hanno paura di me... e del clan Dimun!
 152305_name;Dimun: pirata
 152305_tooltip;<keyword=deploy>Schieramento</keyword>: sposta la prima carta del tuo mazzo nel tuo cimitero.\nL'abilità si annulla se controlli una Nave.
@@ -814,7 +814,7 @@
 162211_tooltip;<keyword=disloyal>Sleale</keyword>.\n<keyword=deploy>Schieramento</keyword>: metti in gioco la prima unità del tuo mazzo non <keyword=disloyal>Sleale</keyword> e potenziala di {Boost}.
 162212_fluff;"Ecco che arriva l'usurpatrice", pensò lui. Falsa principessa, falsa regina di Cintra, falsa sovrana della foce di Yarra, ma futura linfa vitale dell'Impero.
 162212_name;Falsa Ciri
-162212_tooltip;<keyword=Deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): sposta un'unità nemica sull'altra fila.\n<keyword=Deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): potenzia di {Boost} un Agente.
+162212_tooltip;<keyword=deploy>Schieramento</keyword>: potenzia di {Boost} tutte le unità Agente alleate.
 162213_fluff;"Vostra Altezza Imperiale..." esclamò il siniscalco, ignorato fino a quel momento. "Chiedo venia, ma Cahir, mio figlio..."
 162213_name;Ceallach Dyffryn
 162213_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=purify>purifica</keyword> tutte le unità alleate su questa fila.
@@ -838,19 +838,19 @@
 162306_tooltip;<keyword=order>Ordine</keyword>: danneggia di {Damage} un'unità. \n<keyword=charge>Cariche</keyword>: {Charges}.\nAggiunge {Charges2} alle proprie <keyword=charge>Cariche</keyword> ogni volta che giochi una carta Strategia.
 162307_fluff;La brigata Impera non si arrende. Mai.
 162307_name;Brigata Impera
-162307_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): <keyword=summon>richiama</keyword> tutte le copie di questa unità dal tuo mazzo su questa fila.
+162307_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=summon>richiama</keyword> tutte le copie di questa unità dal tuo mazzo su questa fila se controlli un Soldato.
 162308_fluff;I membri della guardia del corpo dell'imperatore sono fanatici che lottano fino alla morte.
 162308_name;Guardie Impera
-162308_tooltip;<keyword=order>Ordine</keyword>: danneggia di {damage} un'unità nemica. <keyword=charge>Cariche</keyword>: {Charges}.\nAggiunge {Charges2} alle proprie <keyword=charge>Cariche</keyword> ogni volta che un'unità nemica diventa <keyword=spying>Spia</keyword>.
+162308_tooltip;<keyword=zeal>Fervore</keyword>. <keyword=order>Ordine</keyword>: danneggia di {damage} un'unità nemica. <keyword=charge>Cariche</keyword>: {Charges}.\nAggiunge {Charges2} alle proprie <keyword=charge>Cariche</keyword> ogni volta che un'unità nemica diventa <keyword=spying>Spia</keyword>.
 162309_fluff;L'imperatore darà una lezione al Nord.
 162309_name;Sergente Nauzicaa
 162309_tooltip;Si potenzia di {Boost} ogni volta che metti in gioco un'unità dotata di <keyword=deploy>Schieramento</keyword>.
 162310_fluff;Ci chiamano Teste di Morte. Vuoi scoprire il perché?
 162310_name;Brigata Nauzicaa
-162310_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di {Damage} un'unità nemica potenziata.
+162310_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di {Damage2} un'unità nemica.\nSe l'unità nemica è potenziata, danneggiala invece di {Damage}.
 162311_fluff;Giura fedeltà all'imperatore Emhyr var Emreis... oppure muori.
 162311_name;Picchiere Alba
-162311_tooltip;<keyword=melee>Prima fila</keyword>: alla fine di ogni turno alleato, danneggia di {Damage} un'unità nemica casuale sulla fila del combattimento corpo a corpo.
+162311_tooltip;<keyword=melee>Prima fila</keyword>: alla fine del tuo turno, danneggia di {Damage} un'unità nemica casuale sulla fila del <keyword=melee>combattimento corpo a corpo</keyword>.\n<keyword=bonded>Legame</keyword>: danneggia invece di {Damage} un'unità nemica casuale.
 162312_fluff;Morte e gloria!
 162312_name;Lanciere Alba
 162312_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di {Damage} un'unità nemica. Aumenta di {Damage2} i danni per ogni unità Soldato adiacente.
@@ -946,7 +946,7 @@
 200039_tooltip;<keyword=melee>Prima fila</keyword>: ogni volta che un'unità nemica si sposta, la danneggia di {Damage}.\n<keyword=ranged>Retrovie</keyword>: ogni volta che un'unità alleata si sposta, la potenzia di {Boost}.
 200040_fluff;Ah, mi fai proprio ridere, uomo del Nord! Guardatelo, il poppante non riesce neanche a impugnarlo, figuriamoci riuscire a sventrarmi.
 200040_name;An Craite: spadone
-200040_tooltip;Ogni volta che un'unità nemica della fila opposta viene danneggiata, si potenzia di {Boost}.
+200040_tooltip;<keyword=deploy>Schieramento</keyword>: si danneggia di {Damage}.\nOgni volta che un'unità nemica viene danneggiata, si <keyword=heal>cura</keyword> di {Heal}.
 200041_fluff;Non è l'ideale per conquistare una città, ma è perfetto per distruggerla.
 200041_name;Grande Helge
 200041_tooltip;<keyword=shield>Scudo</keyword>.\n<keyword=order>Ordine</keyword>: danneggia di {Damage} un'unità.\n<keyword=charge>Cariche</keyword>: {Charges}.\nAggiunge {Charges2} alle proprie <keyword=charge>Cariche</keyword> ogni volta che giochi una carta Strategia.
@@ -978,8 +978,8 @@
 200053_name;Compressione
 200053_tooltip;Ripristina la forza di un'unità e <keyword=lock>bloccala</keyword>.
 200055_fluff;Nessuno sa esattamente quanto sia antico l'Invisibile, neanche i vampiri superiori. Sanno solo che non devono mai osare opporsi al suo volere, per nessun motivo.
-200055_name;Ombra della morte
-200055_tooltip;<keyword=order>Ordine</keyword>: distrugge un'unità Mostro alleata, poi <keyword=spawn>evoca</keyword> e mette in gioco una copia base di tale unità.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+200055_name;Bianco Gelo
+200055_tooltip;<keyword=order>Ordine</keyword>: sposta un'unità nemica sull'altra fila ed <keyword=spawn>evoca</keyword> <keyword=frost>Gelo</keyword> sulla sua fila per {counter} turni. <keyword=charge>Cariche</keyword>: {Charge}.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 200056_fluff;Mai sentito parlare di un "anterion"? In pratica, è l'opposto di un licantropo: è una bestia che può assumere forma umana.
 200056_name;Aguara: originale
 200056_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): <keyword=create>crea</keyword> e gioca una carta Speciale di una fazione qualsiasi.
@@ -1036,10 +1036,10 @@
 200104_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): danneggia un'unità nemica di un valore pari alla metà della sua forza attuale.
 200105_fluff;Le navi da guerra dei Dimun sono leggere e veloci, ideali per inseguire i lenti mercantili.
 200105_name;Dimun: nave da guerra
-200105_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): per tre volte, danneggia di {Damage} un'unità nemica.
+200105_tooltip;Ogni volta che metti in gioco un'unità Pirata, si danneggia e danneggia un'unità nemica di {Damage}.\n<keyword=deathwish>Ultimo desiderio</keyword>: <keyword=summon>richiama</keyword> un Pirata Bronzo casuale dal tuo cimitero su questa fila.
 200112_fluff;Secondo la leggenda, le sirene adescano i marinai con il loro suadente canto. In realtà, è più probabile che i lupi di mare siano attratti da ben altre loro generose prosperità...
 200112_name;Sirena
-200112_tooltip;<keyword=deploy>Schieramento</keyword>: potenzia di {Boost} un'unità alleata con <keyword=deathwish>Ultimo desiderio</keyword>.
+200112_tooltip;<keyword=deploy>Schieramento</keyword>: se un alleato è una Bestia, lo potenzia di {boost2}, altrimenti lo potenzia di {boost}.
 200114_fluff;Alcuni dicono che la licantropia sia contagiosa: se un lupo mannaro ti morde, diventi come lui. I witcher sanno bene che è una mera superstizione: solo un potente maleficio può causare questa condizione.
 200114_name;Lupo mannaro alfa
 200114_tooltip;<keyword=immune>Immunità</keyword>, <keyword=thrive>Prosperità</keyword>.
@@ -1050,7 +1050,7 @@
 200118_name;Infiltrato
 200118_tooltip;<keyword=melee>Prima fila</keyword>: alla fine del round, rimescola questa unità nel mazzo avversario.
 200124_fluff;La Scuola della Vipera rinascerà. Grazie a Letho.
-200124_name;Witcher della Vipera
+200124_name;Regicida
 200124_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=reveal>svela</keyword> la prima carta del mazzo avversario e la <keyword=banish>bandisce</keyword>.
 200135_fluff;Una professione molto rischiosa, ma anche molto rispettata, a Mahakam. Il suo più noto esponente è stato un nano di nome Mikkel Bay.
 200135_name;Pirotecnico
@@ -1072,7 +1072,7 @@
 200145_tooltip;<keyword=zeal>Fervore</keyword>. <keyword=order>Ordine</keyword> (<keyword=melee>Prima fila</keyword>): infligge <keyword=bleeding>Sanguinamento</keyword> a un'unità nemica per {Bleed} turni. <keyword=cooldown>Recupero</keyword>: {Cooldown}.\nOgni volta che metti in gioco una Nave, riduce di {Cooldown2} il <keyword=cooldown>Recupero</keyword>.
 200146_fluff;Spikeroog è un posto desolato, ma la cosa non ci preoccupa. Quello che ci serve lo prendiamo da te.
 200146_name;Dimun: affarista
-200146_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): danneggia di {Damage} un'unità, poi la potenzia di {Boost}.
+200146_tooltip;<keyword=deploy>Schieramento</keyword>: se messa in gioco di fianco a una Nave, <keyword=spawn>evoca</keyword> una sua copia base su questa fila.\n<keyword=order>Ordine</keyword>: danneggia di {Damage} un'unità.
 200147_fluff;La flaminica, che rappresenta il rango più alto tra le druide, è tenuta in grande considerazione ed è molto, molto potente.
 200147_name;Heymaey: flaminica
 200147_tooltip;Alla fine del tuo turno, <keyword=heal>cura</keyword> di {Boost} tutte le altre unità di questa fila.
@@ -1083,8 +1083,8 @@
 200154_name;Decreto reale
 200154_tooltip;Metti in gioco un'unità dal tuo mazzo.
 200159_fluff;Nessuno potrà sostituire Bran. Anche se in molti ci proveranno.
-200159_name;Avanguardia sacrificale
-200159_tooltip;<keyword=order>Ordine</keyword>: <keyword=discard>scarta</keyword> una carta, poi pesca una carta.\nRipristina questa abilità all'inizio del round.\nOgni volta che <keyword=discard>scarti</keyword> una carta, danneggia di {Damage} un'unità nemica casuale.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+200159_name;Furia combattiva
+200159_tooltip;<keyword=order>Ordine</keyword>: <keyword=spawn>evoca</keyword> e mette in gioco Mardroeme.\nOgni volta che giochi una carta Alchimia, <keyword=heal>cura</keyword> un'unità alleata casuale di {boost}.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 200160_fluff;I nilfgaardiani lo chiamano Tirth ys Muire, il Cinghiale del Mare. Lo nominano per spaventare i bambini!
 200160_name;Massacro
 200160_tooltip;<keyword=order>Ordine</keyword>: danneggia di {Damage} un'unità nemica. <keyword=cooldown>Recupero</keyword>: {Cooldown}.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
@@ -1092,20 +1092,20 @@
 200161_name;Raffica spietata
 200161_tooltip;<keyword=order>Ordine</keyword>: danneggia casualmente tutte le unità nemiche per un valore complessivo di {Damage} ignorando la loro <keyword=armor>Armatura</keyword>.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 200162_fluff;"Il Paziente" non rientra tra i miei nomi. Spera che non ti chiamino "Il Senzatesta".
-200162_name;Ritirata strategica
-200162_tooltip;<keyword=order>Ordine</keyword>: sposta un'unità di Nilfgaard alleata dal campo alla tua mano e potenziala di {Boost}, poi gioca una carta.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+200162_name;Imprigionamento
+200162_tooltip;<keyword=order>Ordine</keyword>: <keyword=lock>blocca</keyword> un'unità nemica e la danneggia di {damage}. <keyword=charge>Cariche</keyword>: {Charges}.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 200163_fluff;Il sole estivo che si riflette nelle tranquille acque dell'Alba: ecco cos'è Nilfgaard per me.
 200163_name;Formazione imperiale
-200163_tooltip;<keyword=order>Ordine</keyword>: potenzia di {Boost} un'unità alleata. <keyword=charge>Cariche</keyword>: {Charges}.\nEsaurite tutte le <keyword=charge>Cariche</keyword>, sposta un'unità Soldato del mazzo in cima al mazzo.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+200163_tooltip;<keyword=order>Ordine</keyword>: potenzia di {Boost} un'unità alleata. <keyword=charge>Cariche</keyword>: {Charges}.\nEsaurite tutte le <keyword=charge>Cariche</keyword>, sposta un Soldato del mazzo in cima al mazzo.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 200164_fluff;La spada è solo uno dei tanti strumenti nelle mani di un sovrano.
 200164_name;Decisione strategica
-200164_tooltip;<keyword=order>Ordine</keyword>: guarda le prime {MaxTargets} carte del tuo mazzo e giocane una.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+200164_tooltip;<keyword=order>Ordine</keyword>: <keyword=spawn>evoca</keyword> e mette in gioco Morvran Voorhis.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 200165_fluff;Per vivere in pace, prima bisogna uccidere. È il destino ultimo dell'oppressione umana.
-200165_name;Eco mistica
-200165_tooltip;<keyword=order>Ordine</keyword>: gioca una carta Speciale degli Scoia'tael dal tuo cimitero.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+200165_name;Dono della natura
+200165_tooltip;<keyword=symbiosis>Simbiosi</keyword>.\n<keyword=order>Ordine</keyword>: fornisce <keyword=vitality>Vitalità</keyword> ({Vitality}) a un'unità alleata. <keyword=charge>Cariche</keyword>: {Charges}.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 200166_fluff;La regina delle driadi ha gli occhi di argento fuso e un cuore d'acciaio.
 200166_name;Assalto preciso
-200166_tooltip;<keyword=order>Ordine</keyword>: danneggia di {Damage} un'unità. <keyword=charge>Cariche</keyword>: {Charges}.\nQuando tutte le <keyword=charge>Cariche</keyword> vengono usate, <keyword=spawn>evoca</keyword> e mette in gioco una Sentinella Brokilon.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+200166_tooltip;<keyword=order>Ordine</keyword>: danneggia di {damage} un'unità. <keyword=charge>Cariche</keyword>: {Charges}.\nQuando tutte le <keyword=charge>Cariche</keyword> vengono usate, <keyword=spawn>evoca</keyword> e mette in gioco una Sentinella Brokilon.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 200167_fluff;Quel vecchio barbagianni? Non si capisce nemmeno se è vivo o impagliato!
 200167_name;Tattiche di guerriglia
 200167_tooltip;<keyword=order>Ordine</keyword>: sposta un'unità sull'altra fila. Se è un'unità nemica, la danneggia di {Damage}. Se è un'unità alleata, la potenzia di {Boost}. <keyword=charge>Cariche</keyword>: {Charges}.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
@@ -1114,7 +1114,7 @@
 200168_tooltip;<keyword=order>Ordine</keyword>: potenzia di {Boost} un'unità alleata dei Regni Settentrionali e le fornisce <keyword=zeal>Fervore</keyword>. <keyword=charge>Cariche</keyword>: {Charges}.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 200170_fluff;Re Henselt non aveva certo l'aspetto di un ladro, ma, con il dovuto rispetto, era proprio un mascalzone.
 200170_name;Mobilitazione
-200170_tooltip;<keyword=order>Ordine</keyword>: mette in gioco una copia di un'unità alleata dal tuo mazzo, dopodiché la potenzia di {Boost} e le fornisce <keyword=zeal>Fervore</keyword>.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+200170_tooltip;<keyword=order>Ordine</keyword>: <keyword=spawn>evoca</keyword> una copia base di un Soldato Bronzo alleato sulla sua fila e la potenzia di {boost}.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 200171_fluff;I soldati leali al vecchio barone di Tridam sono fuggiti dalla città con Falibor, diventando così dei ricercati.
 200171_name;Tridam: fanteria
 200171_tooltip;Ogni volta che questa unità viene potenziata, danneggia di {Damage} un'unità nemica casuale.
@@ -1123,7 +1123,7 @@
 200177_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): <keyword=spawn>evoca</keyword> un'unità Drummond: guerriera su questa fila.\n<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): <keyword=spawn>evoca</keyword> un'unità Drummond: guardia su questa fila.
 200209_fluff;Non m'importa dei re e dei loro titoli. A est vive la persona che davvero merita una corona.
 200209_name;Saskia
-200209_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=spawn>Evoca</keyword> un Occhio di falco elfico, un Nano turbolento o una Driade giovane su questa fila.\nOttieni un effetto aggiuntivo in base all'unità <keyword=spawn>evocata</keyword>.\nOcchio di falco elfico: danneggia di {damage} un'unità nemica casuale.\nNano turbolento: potenzia l'unità di {boost} e le fornisce {Armor} di <keyword=armor>Armatura</keyword>.\nDriade giovane: fornisce <keyword=vitality>Vitalità</keyword> ({Vitality}) all'unità.
+200209_tooltip;<keyword=harmony>Armonia</keyword>.\n<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> un Occhio di falco elfico, un Nano turbolento o una Driade giovane su questa fila.\nOttieni un effetto aggiuntivo in base all'unità <keyword=spawn>evocata</keyword>.\nOcchio di falco elfico: danneggia di {damage} un'unità nemica casuale.\nNano turbolento: potenzia l'unità di {boost} e le fornisce {Armor} di <keyword=armor>Armatura</keyword>.\nDriade giovane: fornisce <keyword=vitality>Vitalità</keyword> ({Vitality}) all'unità.
 200212_fluff;Cancellate il suo nome dalla Saga degli Anziani! Che nessuno osi offrirgli rifugio o appoggio!
 200212_name;Skjall
 200212_tooltip;<keyword=berserk>Berserk</keyword> {Berserk}: si distrugge.
@@ -1153,7 +1153,7 @@
 200226_tooltip;Danneggia di {Damage} tutte le unità con forza pari oppure danneggia di {Damage} tutte le unità con forza dispari.
 200228_fluff;Subdola, facile da realizzare e dall'efficacia letale. Non per niente è la trappola preferita dagli Scoia'tael.
 200228_name;Fossa letale
-200228_tooltip;<keyword=ambush>Imboscata</keyword>: quando l'avversario gioca una carta, danneggia tutte le unità nemiche per un valore complessivo pari al costo di reclutamento di tale carta.
+200228_tooltip;<keyword=ambush>Imboscata</keyword>: quando l'avversario gioca una carta, danneggia casualmente tutte le unità nemiche per un valore complessivo pari al costo di reclutamento di tale carta.\n<keyword=spring>Scatto</keyword>: danneggia casualmente tutte le unità nemiche per un valore complessivo di {Damage}.
 200233_fluff;Colpisce sempre tra le vertebre, sotto al rene sinistro o dritto all'aorta. In questo modo, non ha la necessità di colpire una seconda volta.
 200233_name;Cockatrice
 200233_tooltip;<keyword=deploy>Schieramento</keyword>: per ogni unità Bestia adiacente a questa carta, danneggia di {Damage} un'unità nemica.
@@ -1168,7 +1168,7 @@
 200236_tooltip;<keyword=melee>Prima fila</keyword>: alla fine di ogni turno alleato, si potenzia di {Boost}.
 200237_fluff;Uccidere mostri è una faccenda da non prendere alla leggera. Ciri deve capirlo, se vuole diventare una di noi.
 200237_name;Vesemir: mentore
-200237_tooltip;<keyword=deploy>Schieramento</keyword>: potenzia di {Boost} tutti le unità Witcher alleate presenti in campo, in mano o nel mazzo.
+200237_tooltip;<keyword=deploy>Schieramento</keyword>: potenzia di {Boost} tutti i tuoi Witcher presenti sul campo di battaglia.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: potenzia anche i Witcher nella tua mano e nel tuo mazzo.
 200293_fluff;"Ricordati le mie parole: se non alziamo tutti le chiappe, gli umani verranno a rapire le nostre donne!"
 200293_name;Sobillatore nanico
 200293_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): potenzia di {Boost} un'unità Nano che hai in mano.
@@ -1204,7 +1204,7 @@
 200519_tooltip;Potenzia di {Boost} un'unità e ne rimuove il <keyword=lock>blocco</keyword>.
 200520_fluff;I suoi ravioli sono l'unica cosa che potrebbe rivaleggiare con le sue spade.
 200520_name;Éibhear Hattori
-200520_tooltip;<keyword=order>Ordine</keyword>: metti in gioco un manufatto Bronzo dal tuo cimitero.
+200520_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=create>crea</keyword> e metti in gioco una carta Trappola dal tuo mazzo iniziale.
 200523_fluff;L'eroe di cui Toussaint ha bisogno, ma non quello che si merita.
 200523_name;Germain Piquant
 200523_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): <keyword=spawn>evoca</keyword> {Counter} unità Mucca a destra, poi <keyword=spawn>evoca</keyword> {Counter} unità Mucca a sinistra di questa unità.
@@ -1237,7 +1237,7 @@
 201523_tooltip;<keyword=deploy>Schieramento</keyword>: ripristina la forza di tutte le unità di una fila.
 201559_fluff;Alééé! Ohhhh! Oh oh oh! Preparate le chiappe, pagliacci! Stiamo arrivando! Vi prendiamo a calci fino a consumarci le suole!
 201559_name;Volontari di Mahakam
-201559_tooltip;<keyword=deploy>Schieramento</keyword>: se è presente un Nano su questa fila, <keyword=summon>richiama</keyword> su di essa tutte le copie di questa unità dal tuo mazzo.
+201559_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=summon>richiama</keyword> tutte le copie di questa unità dal tuo mazzo su questa fila se controlli un Nano.
 201574_fluff;Quello più alto è Wilmar. Alla sua destra c'è Wilfred. E il ragazzo che balbetta è Wilhelm.
 201574_name;Amico di Harald
 201574_tooltip;<keyword=doomed>Condannata</keyword>.\n<keyword=deathwish>Ultimo desiderio</keyword>: danneggia di {Damage} un'unità nemica casuale.
@@ -1252,7 +1252,7 @@
 201579_tooltip;All'inizio del round, se la Fenice è nel tuo cimitero, viene <keyword=banish>bandita</keyword>, poi <keyword=spawn>evoca</keyword> una Fenice giovane e la <keyword=summon>richiama</keyword> su una fila alleata casuale.
 201580_fluff;Perché dovrebbe essere il diritto di nascita a stabilire chi ci governa?
 201580_name;Isolamento
-201580_tooltip;All'inizio della partita, disattiva il comandante nemico per l'intera durata della battaglia.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+201580_tooltip;<keyword=order>Ordine</keyword>: disattiva l'abilità del comandante avversario per la durata di questo round. Se il comandante avversario non ha <keyword=charge>Cariche</keyword> oppure è in fase di <keyword=cooldown>Recupero</keyword>, <keyword=spawn>evoca</keyword> {MaxTargets} unità Agente speciale sulla tua fila del <keyword=melee>combattimento corpo a corpo</keyword>.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 201581_fluff;I mastri runici di Ofier possono combinarle in parole runiche di incredibile potere.
 201581_name;Pietra Stribog
 201581_tooltip;<keyword=create>Crea</keyword> e gioca una carta Bronzo della fazione Skellige.
@@ -1275,11 +1275,11 @@
 201589_name;Rinvigorimento
 201589_tooltip;<keyword=order>Ordine</keyword>: potenzia di {Boost} tutte le unità nella tua mano.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 201595_fluff;La maledizione fu annullata, ma il suo appetito per la carne cruda non svanì.
-201595_name;Fendente feroce
-201595_tooltip;<keyword=order>Ordine</keyword>: danneggia di {Damage} un'unità nemica.\n<keyword=deathblow>Colpo di grazia</keyword>: infligge <keyword=bleeding>Sanguinamento</keyword> alle unità adiacenti per una durata pari agli eventuali danni inflitti in eccesso.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+201595_name;Muro di scudi
+201595_tooltip;<keyword=order>Ordine</keyword>: potenzia di {Boost} un'unità alleata e le fornisce uno <keyword=shield>Scudo</keyword>.\n<keyword=charge>Cariche</keyword>: {Charges}.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 201597_fluff;Eist arrivò a Cintra per aiutare Crach an Craite a ottenere la mano della Principessa Pavetta, ma finì per conquistare il cuore della madre di lei.
-201597_name;Soffio vitale
-201597_tooltip;<keyword=order>Ordine</keyword>: metti in gioco un'unità di Skellige dal tuo cimitero con costo di reclutamento non superiore a {Provision}.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+201597_name;Furore del mare
+201597_tooltip;<keyword=order>Ordine</keyword>: <keyword=spawn>evoca</keyword> <keyword=rain>Pioggia</keyword> su una fila nemica per {Counter} turni e una Sirena assordante sulla fila opposta. <keyword=charge>Cariche</keyword>: {Charges}.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 201598_fluff;A volte l'oggetto più semplice possiede i poteri più formidabili.
 201598_name;Talismano d'osso
 201598_tooltip;Potenzia di {Boost} tutte le unità alleate.
@@ -1294,13 +1294,13 @@
 201601_tooltip;Posiziona un'unità nemica in cima al tuo mazzo.
 201603_fluff;Perché questo monaco indossa guanti borchiati...?
 201603_name;Letho: regicida
-201603_tooltip;<keyword=deploy>Schieramento</keyword>: si trasforma in una copia di un'altra unità in campo senza cambiare di forza.
+201603_tooltip;<keyword=deploy>Schieramento</keyword>: si trasforma nella copia base di un'unità senza cambiare di forza.
 201606_fluff;Quanto ai codabiforca, ecco come attirarli: pianta un palo nel terreno, lega ad esso una capra, indi poscia nasconditi nei paraggi.
 201606_name;Codabiforca
 201606_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di {Damage} tutte le altre unità.
 201609_fluff;Il trucco è spezzare la loro volontà, ma non il loro corpo.
 201609_name;Cacciatore (schiavi)
-201609_tooltip;<keyword=assimilate>Assimilazione</keyword>.\n<keyword=deploy>Schieramento</keyword>: danneggia di {Damage} un'unità nemica.
+201609_tooltip;<keyword=assimilate>Assimilazione</keyword>.\n<keyword=order>Ordine</keyword>: danneggia di {Damage} un'unità nemica.
 201610_fluff;Un uomo libero può scegliere, ma nel caso di uno schiavo sono altri a scegliere per lui.
 201610_name;Fanteria (schiavi)
 201610_tooltip;<keyword=deploy>Schieramento</keyword>: trasforma un'unità alleata in una Fanteria di schiavi.
@@ -1339,7 +1339,7 @@
 201622_tooltip;Si potenzia di {Boost} quando viene <keyword=summon>richiamata</keyword> o messa in gioco dal mazzo.
 201623_fluff;I più, quando vedono un enorme cinghiale tra i cespugli, se la fanno sotto e si arrampicano sull'albero più vicino. Un abitante delle Skellige, invece, si lecca i baffi.
 201623_name;Cinghiale gigante
-201623_tooltip;<keyword=Deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): si potenzia di {Boost} per ogni unità danneggiata.\n<keyword=Deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): si potenzia di una quantità pari al valore di danneggiamento di un'unità nemica.
+201623_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): si potenzia di {Boost} per ogni unità ferita.\n<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): si potenzia di una quantità pari al valore di danneggiamento di un'unità.
 201624_fluff;Condannato a vivere lo stesso giorno per l'eternità, un po' come gli impiegati della Banca Cianfanelli.
 201624_name;Kaedwen: revenant
 201624_tooltip;<keyword=order>Ordine</keyword>: danneggia di {Damage} un'unità.\n<keyword=deathblow>Colpo di grazia</keyword>: <keyword=spawn>evoca</keyword> una copia base di Kaedwen: revenant e la <keyword=summon>richiama</keyword> su questa fila.
@@ -1357,7 +1357,7 @@
 201628_tooltip;Danneggia di {Damage} un'unità nemica. \n<keyword=deathblow>Colpo di grazia</keyword>: <keyword=spawn>evoca</keyword> e <keyword=summon>richiama</keyword> un Kaedwen: revenant su una fila alleata casuale.
 201630_fluff;La maledizione di Sabrina non ha risparmiato nessuno, neppure le sue colleghe.
 201630_name;Maga dannata
-201630_tooltip;<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: rimuove lo <keyword=shield>Scudo</keyword> di un'unità e si potenzia di {Boost}.
+201630_tooltip;<keyword=zeal>Fervore</keyword>. <keyword=order>Ordine</keyword>: rimuove lo <keyword=shield>Scudo</keyword> di un'unità e si potenzia di {Boost}. \n<keyword=charge>Cariche</keyword>: {Charge}.
 201631_fluff;Gli umani odiano i mutaforma così tanto che condannarli a morte non basta. È per questo che li legano a un palo, li ricoprono con uno spesso strato di argilla e poi li danno alle fiamme.
 201631_name;Mutaforma
 201631_tooltip;<keyword=deploy>Schieramento</keyword>: scegli un'unità nella tua mano, dopodiché potenzia la presente carta di un valore pari al numero di unità nella tua mano che condividono la categoria primaria dell'unità scelta.
@@ -1393,7 +1393,7 @@
 201645_tooltip;<keyword=Spring>Scatto</keyword>: danneggia di {damage2} tutte le unità di una fila.\n<keyword=ambush>Imboscata</keyword>: dopo {counter} turni, alla fine del tuo turno, danneggia di {damage} tutte le unità della fila avversaria più popolata.
 201646_fluff;A causare una tale follia deve essere stato qualcosa di spaventoso...
 201646_name;Derran
-201646_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): sposta una carta dal tuo mazzo al tuo cimitero.
+201646_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): si danneggia di 3, poi sposta una carta dal tuo mazzo al tuo cimitero.
 201647_fluff;Se decide di farti la festa, un macigno t'arriva in testa.
 201647_name;Raffica di pietre
 201647_tooltip;Danneggia di {Damage} un'unità nemica e la sposta sull'altra fila.
@@ -1423,7 +1423,7 @@
 201661_tooltip;<keyword=order>Ordine</keyword>: fornisce <keyword=shield>Scudo</keyword> a un'unità adiacente.
 201662_fluff;Non affido la mia vita al caso. La affido a una bella mano di cadaverina sulla mia lama.
 201662_name;Cadaverina
-201662_tooltip;<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: distrugge sé e tutte le unità con forza pari alle <keyword=charge>Cariche</keyword> di Cadaverina.\n<keyword=charge>Cariche</keyword>: {Charges2}.\nAll'inizio di ogni turno alleato e ogni volta che giochi una carta Strategia, aggiunge {Charges} alle proprie <keyword=charge>Cariche</keyword>.
+201662_tooltip;Infligge <keyword=poison>Avvelenamento</keyword> a un'unità nemica, poi <keyword=spawn>evoca</keyword> una copia base di tale unità sulla fila opposta.
 201664_fluff;"Occhio per occhio" funziona bene fintanto che il mondo intero non è rimasto cieco.
 201664_name;Vrygheff
 201664_tooltip;<keyword=deploy>Schieramento</keyword>: attiva l'abilità <keyword=deploy>Schieramento</keyword> dei Soldati Bronzo adiacenti.
@@ -1432,7 +1432,7 @@
 201676_tooltip;<keyword=order>Ordine</keyword> (<keyword=ranged>Retrovie</keyword>): se controlli solo unità Scoia'tael, danneggia di {Damage2} un'unità, altrimenti la danneggia di {Damage}.\n<keyword=cooldown>Recupero</keyword>: {Cooldown}.
 201696_fluff;Muovete quei deretani! È una maledetta trappola!
 201696_name;Paulie Dahlberg
-201696_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): sposta un'unità alleata sull'altra fila.\n<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): fornisce {Armor} di <keyword=armor>armatura</keyword> a un'unità alleata.
+201696_tooltip;<keyword=deploy>Schieramento</keyword>: sposta un'unità sull'altra fila.\n<keyword=order>Ordine</keyword>: fornisce 2 di <keyword=armor>Armatura</keyword> a un'unità alleata.
 201697_fluff;I vampiri concordano sul fatto che usare questa pozione denota scarsa sportività.
 201697_name;Sangue nero
 201697_tooltip;La prossima volta che un nemico viene potenziato, lo distrugge e si autodistrugge.
@@ -1483,7 +1483,7 @@
 201733_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia {MaxTargets} unità nemiche casuali di {Damage}.
 201734_fluff;Gli altri troll lo considerano un po' strano. Dopotutto, quale troll sano di mente preferirebbe dei foglietti di carta colorata alle pepite?
 201734_name;Empørio: cacciatore
-201734_tooltip;<keyword=deploy>Schieramento</keyword>: ottiene <keyword=resilient>Resistenza</keyword>.
+201734_tooltip;<keyword=deploy>Schieramento</keyword>: distrugge un manufatto nemico.
 201735_fluff;Gli altri troll lo considerano un po' strano. Dopotutto, quale troll sano di mente preferirebbe dei foglietti di carta colorata alle pepite?
 201735_name;Empørio: cacciatore
 201735_tooltip;<keyword=deploy>Schieramento</keyword>: distrugge un nemico casuale.
@@ -1504,7 +1504,7 @@
 201740_tooltip;<keyword=deploy>Schieramento</keyword>: potenzia di {Boost} un'unità casuale nella tua mano.
 201741_fluff;Gli altri troll lo considerano un po' strano. Dopotutto, quale troll sano di mente preferirebbe dei foglietti di carta colorata alle pepite?
 201741_name;Empørio: cavaliere
-201741_tooltip;<keyword=deploy>Schieramento</keyword>: distrugge un manufatto nemico.
+201741_tooltip;<keyword=deploy>Schieramento</keyword>: ottiene <keyword=resilient>Resistenza</keyword>.
 201742_fluff;Gli altri troll lo considerano un po' strano. Dopotutto, quale troll sano di mente preferirebbe dei foglietti di carta colorata alle pepite?
 201742_name;Empørio: cavaliere
 201742_tooltip;<keyword=deploy>Schieramento</keyword>: potenzia di {Boost} un'unità alleata.
@@ -1546,7 +1546,7 @@
 201780_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): <keyword=reveal>svela</keyword> un'unità casuale del tuo mazzo, poi potenzia un'unità alleata di una quantità pari alla forza dell'unità svelata.
 201781_fluff;Le sorelle avevano previsto il tuo arrivo scrutando la superficie dell'acqua.
 201781_name;Imlerith
-201781_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): <keyword=discard>scarta</keyword> un'unità Mostri e potenzia questa unità di una quantità pari alla relativa forza, poi pesca una carta.
+201781_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): pesca una carta, poi <keyword=discard>scarta</keyword> una carta. Se la carta <keyword=discard>scartata</keyword> è un'unità, si potenzia di un valore pari alla forza dell'unità scartata.
 201817_fluff;"Inconcepibile... impossibile", pensò Ciri tornando in sé. "Gli unicorni non esistono, non più, non in questo mondo. Gli unicorni sono estinti."
 201817_name;Ihuarraquax
 201817_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): entrambi i giocatori <keyword=summon>richiamano</keyword> dal mazzo sulla fila del combattimento corpo a corpo l'unità con il costo di reclutamento più alto.\n<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): entrambi i giocatori <keyword=summon>richiamano</keyword> dal mazzo sulla fila del combattimento a distanza l'unità con il costo di reclutamento più basso.
@@ -1588,7 +1588,7 @@
 202101_tooltip;Alla fine di ogni turno alleato, si sposta sulla fila con l'unità più forte in campo (esclusa se stessa).
 202102_fluff;Il vostro ingegnere sarà anche conciato male, ma sa il fatto suo, questo è certo.
 202102_name;Xavier Lemmens
-202102_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): <keyword=banish>bandisce</keyword> fino a {MaxTargets} carte del cimitero dell'avversario.\n<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): <keyword=banish>bandisce</keyword> fino a {MaxTargets} carte del tuo cimitero.
+202102_tooltip;<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword> (<keyword=melee>Prima fila</keyword>): <keyword=banish>bandisce</keyword> una carta dal cimitero avversario.\n<keyword=order>Ordine</keyword> (<keyword=ranged>Retrovie</keyword>): <keyword=banish>bandisce</keyword> una carta dal tuo cimitero.\n<keyword=cooldown>Recupero</keyword>: {Cooldown}
 202103_fluff;Quando questa femmina di drago si è stabilita qui, l'hanno combattuta per quasi un secolo. Alla fine, la bestia si è stancata di attaccarli e loro hanno capito che non si sarebbe schiodata di lì, così... hanno trovato un accordo. Lei non li disturba, e loro le portano delle offerte.
 202103_name;Keltullis
 202103_tooltip;<keyword=melee>Prima fila</keyword>: alla fine di ogni turno alleato, distrugge l'unità meno forte nella metà di campo più popolata.
@@ -1633,7 +1633,7 @@
 202116_tooltip;<keyword=order>Ordine</keyword>: potenzia di {Boost} un'unità alleata. <keyword=cooldown>Recupero</keyword>: {Cooldown}.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 202117_fluff;Alle pareti della tomba, vari affreschi ritraevano le paludi dell'Angren e le bestie che le infestavano. Sopra uno degli orrori più grossi erano scritte due parole: Gvaern Ichaer, la signora del sangue.
 202117_name;Frutti di Ysgith
-202117_tooltip;<keyword=order>Ordine</keyword>: <keyword=spawn>evoca</keyword> un Frutto di Gernichora su una fila alleata.\nAll'inizio del tuo turno, ripristina questa abilità se non controlli unità Frutto di Gernichora.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+202117_tooltip;<keyword=order>Ordine</keyword>: <keyword=spawn>evoca</keyword> un Frutto di Gernichora su una fila alleata. \nAll'inizio del tuo turno, ripristina questa abilità se non controlli unità Frutto di Gernichora.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 202118_fluff;A casa mia... nel mondo civilizzato... un generale comanda le sue forze. Non si lancia in prima linea come un cane rabbioso.
 202118_name;Schiavitù
 202118_tooltip;<keyword=order>Ordine</keyword>: <keyword=seize>sequestra</keyword> un'unità nemica con al massimo {Power} di forza.\nPer ogni {Counter} carta/e Strategia nel tuo mazzo iniziale, aumenta di {Counter2} la forza.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
@@ -1645,7 +1645,7 @@
 202121_tooltip;<keyword=deploy>Schieramento</keyword>: sposta un'unità sull'altra fila.
 202122_fluff;Conoscevo una coppia che si è separata subito dopo le nozze. Capita, quando c'è di mezzo una bomba piazzata sulla carrozza.
 202122_name;Trasportatore di bombe
-202122_tooltip;<keyword=deploy>Schieramento</keyword>: distrugge un manufatto nemico.
+202122_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di 1 un'unità nemica.\nSe hai una Bomba nella tua mano, danneggia l'unità di 3.
 202124_fluff;Un incrocio fra un granchio, un ragno e... una montagna.
 202124_name;Arachas gigante
 202124_tooltip;Nessuna abilità.
@@ -1735,7 +1735,7 @@
 202153_tooltip;Si potenzia di {Boost} ogni volta che metti in gioco un'unità dotata di <keyword=order>Ordine</keyword>.
 202154_fluff;Scendi da cavallo e affrontami!
 202154_name;Rivia: picchiere
-202154_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di {Damage} un'unità nemica.\n<keyword=resupply>Rifornimento</keyword>: si potenzia di {Boost}.
+202154_tooltip;<keyword=order>Ordine</keyword>: danneggia di {Damage} un'unità nemica.\n<keyword=resupply>Rifornimento</keyword>: si potenzia di {Boost}.
 202155_fluff;Posso fare centro da cento passi di distanza! D'accordo, forse non al primo colpo...
 202155_name;Lyria: arbalesta
 202155_tooltip;<keyword=order>Ordine</keyword>: danneggia di {Damage} un'unità. \n<keyword=charge>Cariche</keyword>: {Charges}.\nOgni volta che metti in gioco una carta con <keyword=order>Ordine</keyword>, aggiunge {Charges2} alle proprie <keyword=charge>Cariche</keyword>.
@@ -1756,7 +1756,7 @@
 202160_tooltip;Nessuna abilità.
 202161_fluff;La nostra gente si sazia, i nostri nemici sanguinano.
 202161_name;Lyria: falciatore
-202161_tooltip;<keyword=deploy>Schieramento</keyword>: si potenzia di {Boost} per ogni unità alleata potenziata.
+202161_tooltip;<keyword=deploy>Schieramento</keyword>: si potenzia di {Boost} per ogni unità potenziata su questa fila.
 202162_fluff;Vivo o morto, questo elfo verrà con me. Tienilo a mente.
 202162_name;Capo della carovana
 202162_tooltip;Nessuna abilità.
@@ -1834,10 +1834,10 @@
 202186_tooltip;<keyword=order>Ordine</keyword>: <keyword=create>crea</keyword> e gioca una carta della mano avversaria.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 202187_fluff;La chiamano "Leonessa di Cintra". Un epiteto decisamente calzante.
 202187_name;Manovra a tenaglia
-202187_tooltip;<keyword=order>Ordine</keyword>: gioca una carta dei Regni Settentrionali dalla tua mano, poi pesca una carta a tua scelta.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+202187_tooltip;<keyword=order>Ordine</keyword>: pesca una carta dei Regni Settentrionali dal tuo mazzo, poi rimescola nel mazzo una carta che hai in mano. Se la carta pescata è un'unità, la potenzia di {Boost}.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 202188_fluff;Come Vergine Bionda si manifesta, tutta ricoperta di fiori, e tutto quanto vive, erba o animale è indifferente, la segue e da lei attratto è.
 202188_name;Richiamo dell'armonia
-202188_tooltip;<keyword=order>Ordine</keyword>: metti in gioco una carta Scoia'tael dal tuo mazzo con costo di reclutamento non superiore a {power}. Questo valore aumenta di 1 per ogni categoria primaria delle carte Scoia'tael presenti nel tuo mazzo iniziale.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+202188_tooltip;<keyword=order>Ordine</keyword>: <keyword=spawn>evoca</keyword> e mette in gioco Dana Meadbh.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 202189_fluff;Stabilì un unico comandamento per i suoi seguaci: uccidere.
 202189_name;Rituale ursino
 202189_tooltip;<keyword=order>Ordine</keyword>: danneggia di {Damage} un'unità alleata. <keyword=charge>Cariche</keyword>: {Charges}.\nQuando tutte le <keyword=charge>Cariche</keyword> vengono usate, <keyword=spawn>evoca</keyword> un Orso abominevole su una fila alleata casuale.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
@@ -1867,7 +1867,7 @@
 202197_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): sposta una carta del tuo mazzo in cima al mazzo.
 202198_fluff;Chi non vorrebbe vivere libero come un uccello? Beh, chiedetelo a Vivienne de Tabris.
 202198_name;Vivienne: rigogolo
-202198_tooltip;<keyword=deploy>Schieramento</keyword>: distrugge un manufatto nemico, poi si potenzia di un valore pari al costo di reclutamento del manufatto.
+202198_tooltip;<keyword=deploy>Schieramento</keyword>: si potenzia di una quantità pari al costo di reclutamento dell'unità a destra.
 202199_fluff;Gregoire? La montagna di muscoli corazzata? Certo che ne ho sentito parlare! Come tutti, del resto.
 202199_name;Gregoire de Gorgon
 202199_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): danneggia di {Damage} un'unità nemica.\n<keyword=deathblow>Colpo di grazia</keyword>: si potenzia di {Boost} e ottiene uno <keyword=shield>Scudo</keyword>.
@@ -1876,7 +1876,7 @@
 202200_tooltip;<keyword=deploy>Schieramento</keyword>: ottieni uno status a caso tra <keyword=shield>Scudo</keyword>, <keyword=doomed>Condannata</keyword>, <keyword=resilient>Resistenza</keyword> o <keyword=poison>Avvelenamento</keyword>.
 202201_fluff;Alcuni li amano. Altri li odiano.
 202201_name;Portale
-202201_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=summon>richiama</keyword> dal tuo mazzo due copie di un'unità casuale con costo di reclutamento pari a {Counter} e le colloca a destra e a sinistra di questa carta.
+202201_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=summon>richiama</keyword> dal tuo mazzo un'unità casuale con costo di reclutamento {Counter} alla sinistra di questa carta.\nDopo 3 turni, <keyword=summon>richiama</keyword> dal tuo mazzo un'unità casuale con costo di reclutamento {Counter} alla destra di questa carta.
 202202_fluff;Solo la duchessa ha il privilegio di godere del sapore inimitabile del Sangreal. Un piacere di cui gode molto, molto spesso...
 202202_name;Sangreal
 202202_tooltip;Potenzia di {Boost} un'unità e le fornisce uno <keyword=shield>Scudo</keyword>.
@@ -1891,7 +1891,7 @@
 202205_tooltip;Danneggia di {Damage} le unità posizionate alle due estremità di una fila nemica.
 202206_fluff;Una visione spettacolare... finché non ti esplode in faccia.
 202206_name;Stella danzante
-202206_tooltip;Distrugge un manufatto o danneggia di {Damage} un'unità.
+202206_tooltip;Danneggia di {damage} un'unità nemica.\n<keyword=deathblow>Colpo di grazia</keyword>: danneggia di {damage2} danni in meno l'unità a destra.
 202207_fluff;Puzzolente e letale.
 202207_name;Fungo del diavolo
 202207_tooltip;Infligge <keyword=poison>Avvelenamento</keyword> a un'unità nemica.\n<keyword=deathblow>Colpo di grazia</keyword>: danneggia di {Damage} le unità a essa adiacenti.
@@ -1939,7 +1939,7 @@
 202222_tooltip;<keyword=deploy>Schieramento</keyword>: infligge <keyword=bleeding>Sanguinamento</keyword> a un'unità nemica per una durata pari al numero delle unità Vampiro alleate.\n<keyword=ranged>Retrovie</keyword>: alla fine di ogni turno alleato, si potenzia di un valore pari al numero di unità nemiche affette da <keyword=bleeding>Sanguinamento</keyword>.
 202223_fluff;Limitati a una sola regione del continente, gli studiosi li considerano una specie a rischio. E meno male...
 202223_name;Protofleder
-202223_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di {Damage} un'unità nemica.\n<keyword=dominance>Dominazione</keyword>: <keyword=drain>prosciuga</keyword> l'unità nemica di {Drain}.
+202223_tooltip;<keyword=deploy>Schieramento</keyword>: infligge <keyword=bleeding>Sanguinamento</keyword> ({Bleed}) a un'unità nemica, poi si potenzia di una quantità pari al <keyword=bleeding>Sanguinamento</keyword> dell'unità.
 202224_fluff;Sangue sul soffitto, budella sulle pareti. Opera di un garkain, senz'ombra di dubbio...
 202224_name;Garkain
 202224_tooltip;Alla fine di ogni turno alleato, si potenzia di {Boost} se c'è un nemico affetto da <keyword=bleeding>Sanguinamento</keyword>.
@@ -1954,10 +1954,10 @@
 202228_tooltip;<keyword=purify>Purifica</keyword> e danneggia di {Damage} un'unità nemica.\nSe controlli un Vampiro, le infligge anche <keyword=bleeding>Sanguinamento</keyword> per {Bleed} turni.
 202229_fluff;I figli della notte sono una punizione impartita dagli dei! Abbiamo tollerato maghi e feccia non umana per troppo tempo! Pentitevi! Pentitevi, prima che la vostra anima s'imputridisca!
 202229_name;Fleder
-202229_tooltip;<keyword=deploy>Schieramento</keyword>: distrugge un'unità alleata e ottiene <keyword=vitality>Vitalità</keyword> per {Vitality} turni.
+202229_tooltip;Ogni volta che un'unità nemica subisce <keyword=bleeding>Sanguinamento</keyword>, questa carta ottiene <keyword=vitality>Vitalità</keyword> per la stessa durata.
 202230_fluff;Gli abitanti del villaggio, da lungo tempo afflitti da orribili incubi, implorarono aiuto. "Mmm, deve trattarsi di un'alp", borbottò il witcher tra sé e sé.
 202230_name;Alp
-202230_tooltip;<keyword=deploy>Schieramento</keyword>: infligge <keyword=bleeding>Sanguinamento</keyword> a un'unità nemica per {Bleed} turni.
+202230_tooltip;<keyword=deploy>Schieramento</keyword>: infligge <keyword=bleeding>Sanguinamento</keyword> ({Bleed}) a un'unità nemica.\n<keyword=order>Ordine</keyword>: infligge <keyword=bleeding>Sanguinamento</keyword> ({Bleed2}) a un'unità nemica.
 202231_fluff;Da solo non rappresenta una minaccia. In gruppo significa morte certa.
 202231_name;Plumard
 202231_tooltip;<keyword=deploy>Schieramento</keyword>: infligge <keyword=bleeding>Sanguinamento</keyword> a un'unità nemica per {Bleed} turni.\n<keyword=bonded>Legame</keyword>: infligge <keyword=bleeding>Sanguinamento</keyword> all'unità nemica per {Bleed2} turni.
@@ -1975,10 +1975,10 @@
 202236_tooltip;<keyword=order>Ordine</keyword> (<keyword=melee>Prima fila</keyword>): riattiva l'abilità del tuo comandante.
 202237_fluff;Secondo alcune voci, lo stimato barone Palmerin de Launfal avrebbe avuto una relazione empia con una succube. La duchessa, tuttavia, non dava credito a questi squallidi pettegolezzi.
 202237_name;Palmerin de Launfal
-202237_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di {Damage} un'unità nemica.\n<keyword=deathblow>Colpo di grazia</keyword>: fornisce uno <keyword=shield>Scudo</keyword> alle unità alleate adiacenti. \nSe hai in mano Milton, attiva l'abilità <keyword=deathblow>Colpo di grazia</keyword> di questa unità anche se l'unità nemica sopravvive.
+202237_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di {damage} un'unità nemica. \n<keyword=deathblow>Colpo di grazia</keyword>: fornisce <keyword=spying>Spia</keyword> alle unità nemiche adiacenti.\nSe hai in mano Milton, l'abilità <keyword=deathblow>Colpo di grazia</keyword> si attiva sempre.
 202238_fluff;Scintillante sotto ai raggi del sole di Beauclair, è impossibile non notare questo cavaliere errante con la testa di un toro nero impressa sul proprio bianco scudo.
 202238_name;Milton de Peyrac-Peyran
-202238_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di {Damage} un'unità nemica.\n<keyword=deathblow>Colpo di grazia</keyword>: danneggia di {Damage2} le unità nemiche adiacenti. \nSe hai in mano Palmerin, attiva l'abilità <keyword=deathblow>Colpo di grazia</keyword> di questa unità anche se l'unità nemica sopravvive.
+202238_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di {damage} un'unità nemica. \n<keyword=deathblow>Colpo di grazia</keyword>: danneggia di {damage2} le unità nemiche adiacenti.\nSe hai in mano Palmerin, l'abilità <keyword=deathblow>Colpo di grazia</keyword> si attiva sempre.
 202239_fluff;Pare che abbia creato un'illusione così convincente da ingannarsi persino da solo...
 202239_name;Artorius Vigo
 202239_tooltip;<keyword=assimilate>Assimilazione</keyword>.\n<keyword=deploy>Schieramento</keyword>: <keyword=create>crea</keyword> e metti in gioco una copia di un'unità Bronzo del tuo mazzo di partenza e impostane la forza a {Set}.
@@ -2176,7 +2176,7 @@
 202303_tooltip;<keyword=order>Ordine</keyword>: danneggia di {Damage} un'unità nemica, poi guadagni <keyword=coin>monete</keyword> pari agli eventuali danni inflitti in eccesso.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 202304_fluff;Ehi, Kurt, vedi un po' di far cantare la signorina Merigold. Consiglio un ferro rovente sulla lingua...
 202304_name;Kurt
-202304_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): <keyword=lock>blocca</keyword> un'unità.\n<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): <keyword=purify>purifica</keyword> un'unità.
+202304_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): mette una <keyword=bounty>Taglia</keyword> su un'unità nemica.\n<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): <keyword=purify>purifica</keyword> un'unità.
 202305_fluff;Alcuni cacciatori di streghe credevano davvero che lo sterminio dei maghi avrebbe reso il mondo un posto migliore. A Moreelse non servivano simili motivazioni...
 202305_name;Moreelse
 202305_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di {Damage} un'unità nemica.\n<keyword=tribute>Tributo</keyword> {Tribute-B.P.BB_Tribute}: la distrugge.
@@ -2185,13 +2185,13 @@
 202306_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): <keyword=heal>cura</keyword> un'unità alleata.\n<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): potenzia di {Boost} un'unità alleata.\n<keyword=tribute>Tributo</keyword> {Tribute-B.P.BB_Tribute}: combina entrambe le abilità <keyword=deploy>Schieramento</keyword>.
 202307_fluff;La mia casa d'aste è, prima di tutto, un luogo di ritrovo della crème de la crème.
 202307_name;Horst Borsodi
-202307_tooltip;<keyword=profit>Profitto</keyword> {Income}.\nSe Ewald Borsodi è nel tuo cimitero, aumenta di {Income2} il <keyword=profit>Profitto</keyword> iniziale di questa carta. \n<keyword=fee>Tariffa</keyword> {cost} (<keyword=ranged>Retrovie</keyword>): potenzia di {Boost} un'unità alleata.
+202307_tooltip;<keyword=deploy>Schieramento</keyword>: ottieni {Coins} <keyword=coin>monete</keyword>.\nSe Ewald Borsodi è nel tuo cimitero, ottieni invece {Coins2} <keyword=coin>monete</keyword>.
 202308_fluff;Più dolci le sue parole, più amare le tue perdite.
 202308_name;Languida seduttrice
 202308_tooltip;<keyword=fee>Tariffa</keyword> {Cost}: ottiene uno <keyword=shield>Scudo</keyword>.\nSi potenzia di {Boost} ogni volta che l'avversario mette in gioco un'unità.\n<keyword=bonded>Legame</keyword>: si potenzia di {Boost} ogni volta che l'avversario gioca una carta.
 202309_fluff;Ho escogitato questo piano per un anno intero, ed è venuto il momento di metterlo in atto. Posso contare su di te?
 202309_name;Ewald Borsodi
-202309_tooltip;<keyword=profit>Profitto</keyword> {Income}.\nSe Horst Borsodi è nel tuo cimitero, aumenta di {Income2} il <keyword=profit>Profitto</keyword> iniziale di questa carta.\n<keyword=fee>Tariffa</keyword> {cost} (<keyword=melee>Prima fila</keyword>): danneggia di {Damage} un'unità nemica.
+202309_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia un'unità nemica di {damage}.\nSe Horst Borsodi è nel tuo cimitero, danneggia l'unità nemica di {damage2}.
 202310_fluff;Oh, che sbadato! Mi perdoni, signora...
 202310_name;Borseggiatore
 202310_tooltip;<keyword=profit>Profitto</keyword> {Income}.
@@ -2215,7 +2215,7 @@
 202316_tooltip;<keyword=profit>Profitto</keyword> {Income}.\n<keyword=fee>Tariffa</keyword> {Cost}: fornisce <keyword=vitality>Vitalità</keyword> a un'unità alleata per {Vitality} turni.
 202317_fluff;Mai piaciute le api.
 202317_name;Rico Meiersdorf
-202317_tooltip;Ogni volta che l'avversario mette in gioco un'unità mentre Rico è nella tua mano, imposta la sua forza su un valore pari alla forza base di quell'unità.
+202317_tooltip;Ogni volta che l'avversario mette in gioco un'unità mentre Rico è nella tua mano, imposta la sua forza su un valore pari alla forza di quell'unità.
 202318_fluff;Sarebbe un vero peccato tagliare i tuoi bellissimi capelli...
 202318_name;Boia di streghe
 202318_tooltip;<keyword=profit>Profitto</keyword> {Income}.\n<keyword=fee>Tariffa</keyword> {Cost}: infligge <keyword=bleeding>Sanguinamento</keyword> a un'unità nemica per {Bleed} turno se questa non ha una <keyword=bounty>Taglia</keyword>, altrimenti la danneggia di {Damage}.
@@ -2227,7 +2227,7 @@
 202320_tooltip;<keyword=deploy>Schieramento</keyword>: mette una <keyword=bounty>Taglia</keyword> su un'unità nemica.
 202321_fluff;Abbiamo giaciuto con più uomini di tutte le caserme della Redania messe insieme.
 202321_name;Madame Luiza
-202321_tooltip;<keyword=intimidate>Intimidazione</keyword>.\n<keyword=order>Ordine</keyword>: il prossimo <keyword=tribute>Tributo</keyword> di questo round costa {Cost}.
+202321_tooltip;<keyword=intimidate>Intimidazione</keyword>.\n<keyword=tribute>Tributo</keyword> {Tribute-B.P.BB_Tribute}: ottiene <keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: il prossimo <keyword=tribute>Tributo</keyword> di questo round costa {Cost}.
 202322_fluff;Pupille dilatate, mascelle digrignanti, risate euforiche... Ah, il fisstech...
 202322_name;Fisstech
 202322_tooltip;<keyword=profit>Profitto</keyword> {Income}.\nInfliggi <keyword=poison>Avvelenamento</keyword> a un'unità.
@@ -2245,13 +2245,13 @@
 202327_tooltip;<keyword=deploy>Schieramento</keyword>: distrugge un'unità alleata e si potenzia di una quantità pari alla relativa forza base.
 202328_fluff;Titoli e gingilli non m'interessano. Voglio il potere, e soltanto quello.
 202328_name;Pagamento illecito
-202328_tooltip;<keyword=order>Ordine</keyword>: ottieni {Coins} <keyword=coin>monete</keyword>. <keyword=charge>Cariche</keyword>: {Charges}.\nIl costo dei tuoi <keyword=tribute>Tributi</keyword> viene ridotto di {Tribute} <keyword=coin>monete</keyword>.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+202328_tooltip;<keyword=order>Ordine</keyword>: guadagni {Coins} <keyword=coin>monete</keyword>. <keyword=charge>Cariche</keyword>: {Charges}.\nIl costo dei tuoi <keyword=tribute>Tributi</keyword> viene ridotto di {Tribute} <keyword=coin>moneta</keyword>.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 202329_fluff;Di questi tempi, nel Pontar ci sono più cadaveri che pesci.
 202329_name;Tuffo nel Pontar
 202329_tooltip;<keyword=profit>Profitto</keyword> {Income}.\nDanneggia di {Damage} un'unità nemica.
 202330_fluff;V-vi ho già dato tutto il denaro che avevo!
 202330_name;Giorno di paga
-202330_tooltip;Danneggia di {Damage} un'unità nemica.\n<keyword=deathblow>Colpo di grazia</keyword>: guadagni {Coins} <keyword=coin>monete</keyword>.
+202330_tooltip;Danneggia di {damage} un'unità nemica. Guadagni una <keyword=coin>moneta</keyword> per ogni punto di danno inflitto in eccesso.
 202331_fluff;Un tempo terrore del mare aperto, oggi è ferma e stracolma d'oro, incapace di salpare.
 202331_name;Onde Nere: nascondiglio
 202331_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): potenzia di {Boost} un'unità alleata per ogni unità Pirata nella tua mano.
@@ -2272,7 +2272,7 @@
 202336_tooltip;Guadagni {Coins2} <keyword=coin>monete</keyword> se l'avversario controlla un manufatto, altrimenti guadagni {Coins} <keyword=coin>monete</keyword>.
 202337_fluff;Cos'è quel muso lungo, bello?
 202337_name;Figlio-di-puttana: sgorbi
-202337_tooltip;<keyword=insanity>Pazzia</keyword>.\n<keyword=fee>Tariffa</keyword> {Cost}: infligge <keyword=bleeding>Sanguinamento</keyword> a un'unità nemica per {Bleed} turni, altrimenti, se è stata usata <keyword=insanity>Pazzia</keyword>, danneggia di {Damage} un'unità nemica casuale.
+202337_tooltip;<keyword=profit>Profitto</keyword> {income}.\n<keyword=fee>Tariffa</keyword> {cost} (<keyword=melee>Prima fila</keyword>): danneggia di {damage} un'unità nemica.
 202338_fluff;Tu vedi persone. Io vedo galline da spennare.
 202338_name;Abitanti
 202338_tooltip;Ogni volta che guadagni <keyword=coin>monete</keyword>, si potenzia di {Boost}.
@@ -2308,7 +2308,7 @@
 202348_tooltip;Ogni volta che metti in gioco un'unità accanto al Profeta Lebioda, essa ottiene <keyword=shield>Scudo</keyword>.
 202349_fluff;Lo senti? C'è qualcosa che va ben oltre il suo calore...
 202349_name;Sacra fiamma
-202349_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> un'unità Adepti Ardenti: fanatico a destra e una a sinistra di questa carta.\n<keyword=order>Ordine</keyword>: potenzia di {Boost} tutte le unità di questa fila.
+202349_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> un'unità Adepti Ardenti: fanatico a destra e una a sinistra di questa carta.\n<keyword=order>Ordine</keyword>: potenzia di {boost} tutte le unità Adepti Ardenti alleate.
 202350_fluff;Nessun vile peccatore può sfuggire al Fuoco. Di questo potete starne certi.
 202350_name;Gran Inquisitore Helveed
 202350_tooltip;<keyword=profit>Profitto</keyword> {Income}.\n<keyword=fee>Tariffa</keyword> {Cost}: <keyword=spawn>evoca</keyword> un'unità Adepti Ardenti: fanatico su questa fila.
@@ -2413,7 +2413,7 @@
 202383_tooltip;<keyword=deploy>Schieramento</keyword>: si potenzia di {Boost}.\nAumenta di {Counter} il potenziamento per ogni carta Speciale che hai giocato durante la partita.
 202384_fluff;"Con entrambe le mani legate dietro la schiena", avevi detto. Ora sentiti pure libero di prendermi a calci nel sedere, se hai voglia.
 202384_name;Giustizia di Novigrad
-202384_tooltip;<keyword=spawn>Evoca</keyword> un Energumeno di Mannaia sulla tua fila del combattimento corpo a corpo e metti in gioco un Nano Bronzo dal tuo mazzo.
+202384_tooltip;Metti in gioco un'unità Nano o Spezzacorone Bronzo dal tuo mazzo.\nSe già controlli un Nano o uno Spezzacorone, <keyword=spawn>evoca</keyword> anche un Energumeno di Mannaia sulla tua fila del <keyword=melee>combattimento corpo a corpo</keyword>.
 202385_fluff;Eccolo! Il mio cavaliere in grugnente armatura!
 202385_name;Sir Zannaletale
 202385_tooltip;<keyword=intimidate>Intimidazione</keyword> {Intimidate}.\n<keyword=tribute>Tributo</keyword> {Tribute-B.P.BB_Tribute}: ottiene <keyword=immune>Immunità</keyword>.
@@ -2430,8 +2430,8 @@
 202389_name;Ferko lo Scultore
 202389_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): gioca una carta Crimine dal tuo mazzo.
 202390_fluff;Grazie a te, i miei maiali stasera avranno di che saziarsi.
-202390_name;Jolly
-202390_tooltip;<keyword=order>Ordine</keyword>: gioca dal tuo mazzo una carta Speciale del Sindacato. Se il suo costo di reclutamento è non superiore a {Counter}, ottieni {Coins} <keyword=coin>monete</keyword>.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
+202390_name;Baia dei pirati
+202390_tooltip;<keyword=order>Ordine</keyword>: <keyword=spawn>evoca</keyword> uno Sciacallo marino su una fila alleata, poi guadagni {Coins} <keyword=coin>monete</keyword>.\n\nQuesta abilità aggiunge {Template.Provision} al limite di reclutamento del tuo mazzo.
 202392_fluff;In una città che si nutre di menzogne, la verità può essere un'arma.
 202392_name;Walter Veritas
 202392_tooltip;<keyword=deploy>Schieramento</keyword>: crea e gioca una carta Bronzo della fazione Sindacato.
@@ -2653,10 +2653,10 @@
 202470_tooltip;<keyword=defender>Difensore</keyword>.\n<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> unità Nano turbolento su questa fila.
 202471_fluff;Insieme, si sarebbero buttati nel fuoco. Col sorriso sulle labbra.
 202471_name;Compagnia di Zoltan
-202471_tooltip;<keyword=spawn>Evoca</keyword> {Counter} unità Nano turbolento su una fila alleata.
+202471_tooltip;<keyword=spawn>Evoca</keyword> {Counter} unità Nano turbolento su una fila alleata. \nSe controlli Zoltan, fornisce {Armor} di <keyword=armor>Armatura</keyword> a tutte le unità Nano su quella fila.
 202472_fluff;Potete disegnare quello che vi pare, cari i miei nani. Ma questo non significa che siete capaci di costruirlo. Tenetelo a mente.
 202472_name;Carro nanico
-202472_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> un Nano turbolento su questa fila.\n<keyword=bonded>Legame</keyword>: <keyword=spawn>evoca</keyword> {Counter} unità Nano turbolento su questa fila.
+202472_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> un Nano turbolento su questa fila.\n<keyword=order>Ordine</keyword>: fornisce {Armor} di <keyword=armor>Armatura</keyword> a un'unità alleata.\n<keyword=cooldown>Recupero</keyword>: {Cooldown}.
 202473_fluff;L'acciaio nanico è molto resistente, quasi quanto gli stessi nani.
 202473_name;Tempra
 202473_tooltip;Potenzia di {Boost} un'unità alleata. Se è un Nano, gli fornisce anche {Armor} di <keyword=armor>Armatura</keyword>.
@@ -2728,7 +2728,7 @@
 202503_tooltip;<keyword=order>Ordine</keyword>: danneggia di {Damage} le unità adiacenti, poi si potenzia di {Boost} per ogni unità danneggiata.\n<keyword=crew>Drappello</keyword>: si potenzia invece di {boost2}.
 202504_fluff;Non esistono fortezze che non possano essere conquistate, ma solo fortezze per cui non ne vale la pena.
 202504_name;Assedio
-202504_tooltip;Scenario: procedi ogni volta che metti in gioco una Macchina d'assedio\nPrologo: <keyword=spawn>evoca</keyword> un Trabucco rinforzato sulla fila del combattimento a distanza.\nCapitolo 1: <keyword=spawn>evoca</keyword> un Ariete sulla fila del combattimento a distanza.\nCapitolo 2: <keyword=spawn>evoca</keyword> e gioca Bombardamento.
+202504_tooltip;<keyword=doomed>Condannata</keyword>.\nScenario: procedi ogni volta che metti in gioco una Macchina d'assedio.\nPrologo: <keyword=spawn>evoca</keyword> un Trabucco rinforzato sulla tua <keyword=ranged>fila del combattimento a distanza</keyword>.\nCapitolo 1: <keyword=spawn>evoca</keyword> un Ariete sulla tua <keyword=ranged>fila del combattimento a distanza</keyword>.\nCapitolo 2: <keyword=spawn>evoca</keyword> e gioca Bombardamento.
 202505_fluff;Il carro si diresse sulla folla e i nemici caddero a terra come grano tagliato dalla falce...
 202505_name;Carro da guerra
 202505_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): infligge <keyword=bleeding>Sanguinamento</keyword> per {Bleeding} turni a un'unità nemica.\n<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): sposta un'unità nemica sull'altra fila.\n<keyword=crew>Drappello</keyword>: combina entrambe le abilità <keyword=deploy>Schieramento</keyword>.
@@ -2752,7 +2752,7 @@
 202512_tooltip;<keyword=order>Ordine</keyword>: pesca una carta, poi <keyword=discard>scarta</keyword> una carta ed <keyword=spawn>evoca</keyword> un Corvo sulla tua fila del <keyword=melee>combattimento corpo a corpo</keyword>.
 202513_fluff;I regnanti vengono incoronati sotto la sua ombra. I traditori impiccati sui suoi rami.
 202513_name;Gedyneith
-202513_tooltip;Scenario: procedi ogni volta che metti in gioco un Druido.\nPrologo: <keyword=spawn>evoca</keyword> una Predicatrice dei Corvi su questa fila.\nCapitolo 1: <keyword=spawn>evoca</keyword> e gioca Rizoma di occhio di corvo.\nCapitolo 2: <keyword=spawn>evoca</keyword> e gioca Mardroeme.
+202513_tooltip;<keyword=doomed>Condannata</keyword>.\nScenario: procedi ogni volta che metti in gioco un Druido.\nPrologo: <keyword=spawn>evoca</keyword> una Predicatrice dei Corvi su questa fila.\nCapitolo 1: <keyword=spawn>evoca</keyword> e gioca Rizoma di occhio di corvo.\nCapitolo 2: <keyword=spawn>evoca</keyword> e gioca Mardroeme.
 202514_fluff;Alcuni corvi imparano le parole degli umani. Alcuni umani imparano il linguaggio dei corvi.
 202514_name;Madre dei Corvi
 202514_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> {Counter} unità Corvo su questa fila.\nOgni volta che giochi una carta Alchimia, <keyword=summon>richiama</keyword> la Madre dei Corvi dal tuo cimitero su una fila alleata casuale.
@@ -2788,7 +2788,7 @@
 202525_tooltip;Alla fine del tuo turno, se questa unità non è l'unità più forte in campo, si potenzia di 2.
 202526_fluff;Se non finisci la zuppa, arriva la megera e ti mangia!
 202526_name;Megera
-202526_tooltip;Scenario: procedi ogni volta che metti in gioco un'unità con <keyword=deathwish>Ultimo desiderio</keyword>.\nPrologo: <keyword=spawn>evoca</keyword> una Banshee del deserto su questa fila.\nCapitolo 1: <keyword=spawn>evoca</keyword> e metti in gioco un Barghest.\nCapitolo 2: <keyword=spawn>evoca</keyword> e metti in gioco un Wraith notturno.
+202526_tooltip;<keyword=doomed>Condannata</keyword>.\nScenario: procedi ogni volta che metti in gioco un'unità con <keyword=deathwish>Ultimo desiderio</keyword>.\nPrologo: <keyword=spawn>evoca</keyword> e metti in gioco una Banshee del deserto su questa fila.\nCapitolo 1: <keyword=spawn>evoca</keyword> e metti in gioco un Barghest.\nCapitolo 2: <keyword=spawn>evoca</keyword> e metti in gioco un Wraith notturno.
 202527_fluff;Alcuni li ritengono l'avanguardia della Caccia Selvaggia. Altri la vendetta incarnata. Tutti convengono che i barghest non hanno alcuna pietà per i vivi.
 202527_name;Barghest
 202527_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=consume>consuma</keyword> un'unità alleata.\n<keyword=order>Ordine</keyword>, <keyword=dominance>Dominazione</keyword>: <keyword=consume>consuma</keyword> un'unità alleata.
@@ -2815,7 +2815,7 @@
 202535_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): ogni Occhio di falco elfico alleato danneggia di {Damage} un'unità nemica casuale.\n<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): <keyword=spawn>evoca</keyword> {Count} unità Occhio di falco elfico su questa fila.
 202536_fluff;Di solito, per tendere un'imboscata ci si nasconde. Ma... esistono eccezioni alla regola.
 202536_name;Morte apparente
-202536_tooltip;Scenario: procedi ogni volta che metti in gioco un Elfo.\nPrologo: <keyword=spawn>evoca</keyword> un Occhio di falco elfico su questa fila.\nCapitolo 1: <keyword=spawn>evoca</keyword> 2 unità Occhio di falco elfico su questa fila.\nCapitolo 2: <keyword=spawn>evoca</keyword> e gioca Agguato.
+202536_tooltip;<keyword=doomed>Condannata</keyword>.\nScenario: procedi ogni volta che metti in gioco un Elfo.\nPrologo: <keyword=spawn>evoca</keyword> e metti in gioco un Commando di Vernossiel su questa fila.\nCapitolo 1: <keyword=spawn>evoca</keyword> e metti in gioco 2 unità Occhio di falco elfico su questa fila.\nCapitolo 2: <keyword=spawn>evoca</keyword> e gioca Agguato.
 202537_fluff;Abbiamo sentito solo un sibilo... seguito dal suono di sei uomini caduti a terra morti stecchiti.
 202537_name;Commando di Vernossiel
 202537_tooltip;Alla fine del tuo turno, si potenzia di {Boost} se controlli solo unità Elfo.\nIgnora la condizione se controlli Vernossiel.
@@ -2836,7 +2836,7 @@
 202543_tooltip;<keyword=deploy>Schieramento</keyword>: distrugge un'unità nemica che ha uno stato.
 202544_fluff;Ophelie Van Moorlehem ama organizzare fastosi ricevimenti. Il fatto che alcuni ospiti scompaiono senza lasciare traccia non sembra preoccupare nessuno...
 202544_name;Ballo in maschera
-202544_tooltip;Scenario: procedi ogni volta che metti in gioco un Aristocratico.\nPrologo: <keyword=spawn>evoca</keyword> una Dama assetata su questa fila.\nCapitolo 1: <keyword=spawn>evoca</keyword> e metti in gioco Zanne dell'Impero.\nCapitolo 2: <keyword=spawn>evoca</keyword> e metti in gioco Zanne dell'Impero.
+202544_tooltip;<keyword=doomed>Condannata</keyword>.\nScenario: procedi ogni volta che metti in gioco un Aristocratico.\nPrologo: <keyword=spawn>evoca</keyword> e metti in gioco una Dama assetata su questa fila.\nCapitolo 1: <keyword=spawn>evoca</keyword> e metti in gioco Zanne dell'Impero.\nCapitolo 2: <keyword=spawn>evoca</keyword> e metti in gioco Zanne dell'Impero.
 202545_fluff;Si dice che Vincent Van Moorlehem tema solo un uomo. E non è Emhyr var Emreis o Geralt di Rivia, no. È il suo stesso figlio.
 202545_name;Philippe Van Moorlehem
 202545_tooltip;<keyword=order>Ordine</keyword> (<keyword=ranged>Retrovie</keyword>): danneggia di {Damage} un'unità. <keyword=cooldown>Recupero</keyword>: {Cooldown}.\nSe il bersaglio ha uno stato, la danneggia invece di {Damage2}.
@@ -2863,7 +2863,7 @@
 202553_tooltip;Se controlli un'unità di una banda:\nGuerci - Aumenta di 1 tutti gli altri effetti.\nSpezzacorone - Potenzia di {Boost} un'unità alleata con la forza minore.\nSciupacuori - Danneggia di {Damage} un'unità nemica con la forza maggiore.\nAdepti Ardenti - <keyword=spawn>Evoca</keyword> {Counter} unità Adepti Ardenti: fanatico su una fila alleata casuale.\nOnde Nere - Guadagni {Coins} <keyword=coin>monete</keyword>.
 202554_fluff;Vengono più pellegrini qui che al Tempio del Fuoco Eterno...
 202554_name;Passiflora
-202554_tooltip;Scenario: procedi ogni volta che metti in gioco un'unità Guerci.\nPrologo: <keyword=spawn>evoca</keyword> una Languida seduttrice su questa fila.\nCapitolo 1: <keyword=spawn>evoca</keyword> le Fanciulle del Passiflora su questa fila.\nCapitolo 2: guadagni {Coins} <keyword=coin>monete</keyword>.
+202554_tooltip;<keyword=doomed>Condannata</keyword>.\nScenario: procedi ogni volta che metti in gioco un'unità Guerci.\nPrologo: <keyword=spawn>evoca</keyword> e metti in gioco le Fanciulle del Passiflora su questa fila.\nCapitolo 1: guadagni {Coins} <keyword=coin>monete</keyword>.\nCapitolo 2: <keyword=spawn>evoca</keyword> e metti in gioco una Languida seduttrice su questa fila.
 202555_fluff;Un antiquario dalle tasche profonde e l'anima nera come la pece.
 202555_name;Saul de Navarette
 202555_tooltip;<keyword=hoard>Accumulo</keyword> {Hoard-B.P.BB_Hoard}: alla fine del tuo turno, si potenzia di {Boost}.\n<keyword=hoard>Accumulo</keyword> {Hoard2-B.P.BB_Hoard}: alla fine del tuo turno, si potenzia invece di {Boost2}.\n<keyword=hoard>Accumulo</keyword> {Hoard3-B.P.BB_Hoard}: alla fine del tuo turno, si potenzia invece ancora di {Boost3}.
@@ -2926,7 +2926,7 @@
 202592_tooltip;<keyword=veil>Velo</keyword>.\n<keyword=deploy>Schieramento</keyword>: trasforma la carta più a sinistra della tua mano in una carta leggendaria casuale della tua fazione non presente nel tuo mazzo iniziale.\nRipeti l'abilità ogni volta che giochi la carta più a destra della tua mano.
 202593_fluff;Il suo incubo peggiore può tranquillamente essere anche il tuo.
 202593_name;L'Etereo
-202593_tooltip;<keyword=doomed>Condannata</keyword>.\nAlla fine del tuo turno, trasforma un'unità non Demone alla sua destra in una copia base di se stessa.
+202593_tooltip;<keyword=doomed>Condannata</keyword>.\n<keyword=deploy>Schieramento</keyword>: ottiene <keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: trasforma l'unità alla destra di questa carta in una copia base di sé.
 202594_fluff;Decifrare passato e futuro mentre si manifestano nei sogni è molto complesso, perfino per un massimo esperto.
 202594_name;Oniromanzia
 202594_tooltip;<keyword=echo>Eco</keyword>.\nGioca una carta qualsiasi dal tuo mazzo.
@@ -3055,7 +3055,7 @@
 202637_tooltip;<keyword=profit>Profitto</keyword> {Income}.\n<keyword=tribute>Tributo</keyword> {Tribute-B.P.BB_Tribute}: <keyword=spawn>evoca</keyword> un'unità Adepti Ardenti: fanatico su questa fila.\n<keyword=fee>Tariffa</keyword> {Cost}: trasforma un'unità Adepti Ardenti: fanatico in un Fante della Rosa.
 202638_fluff;Ha abbandonato la condotta virtuosa, e la fiamma che albergava in lui è ormai spenta da molto tempo.
 202638_name;Cavaliere caduto
-202638_tooltip;<keyword=veil>Velo</keyword>. <keyword=intimidate>Intimidazione</keyword>.\nOgni volta che <keyword=spawn>evochi</keyword> un'unità, si potenzia di {Boost} per ogni unità <keyword=spawn>evocata</keyword>.
+202638_tooltip;<keyword=veil>Velo</keyword>. <keyword=intimidate>Intimidazione</keyword>.\nOgni volta che <keyword=spawn>evochi</keyword> un'unità nella tua metà di campo, si potenzia di {Boost} per ogni unità <keyword=spawn>evocata</keyword>.
 202639_fluff;Finché continuerà a combattere secondo virtù, l'Ordine e la sua fiamma perdureranno.
 202639_name;Campione solitario
 202639_tooltip;<keyword=immune>Immunità</keyword>.\n<keyword=deploy>Schieramento</keyword>: distrugge tutte le unità Adepti Ardenti di questa fila, poi si potenza di un valore pari alla somma della loro forza.
@@ -3088,7 +3088,7 @@
 202648_tooltip;<keyword=veil>Velo</keyword>. <keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword> (<keyword=melee>Prima fila</keyword>): danneggia di {Damage} un'unità nemica.\nAlla fine del tuo turno, se <keyword=order>Ordine</keyword> non è stato usato, potenzia di {Boost} un'unità alla sua destra.
 202649_fluff;Combattere il fuoco con il fuoco. Combattere la gente con il fuoco. Combattere i non umani con il fuoco. Insomma... combattere tutto con il fuoco!
 202649_name;Arrostiamoli!
-202649_tooltip;<keyword=spawn>Evoca</keyword> {Counter} unità Volontario su una fila alleata e le potenzia di {Boost}.
+202649_tooltip;<keyword=spawn>Evoca</keyword> {Counter} Volontari di Mahakam su una fila alleata. \nSe controlli un'unità potenziata, potenzia di {Boost} i Volontari di Mahakam <keyword=spawn>evocati</keyword>.
 202650_fluff;"Dovrei comprarmi una barca", disse una volta un gatto kerackiano. O almeno così narra la ballata dell'ubriaco.
 202650_name;Kerack: fregata
 202650_tooltip;<keyword=order>Ordine</keyword>: <keyword=spawn>Evoca</keyword> un Volontario su questa fila.\n<keyword=crew>Drappello</keyword>: alla fine del tuo turno, ripristina l'abilità.
@@ -3115,7 +3115,7 @@
 202657_tooltip;<keyword=veil>Velo</keyword>.\n<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> un Agente speciale su ogni fila nemica.\n<keyword=zeal>Fervore</keyword>. <keyword=order>Ordine</keyword>: <keyword=seize>sequestra</keyword> tutte le unità Agente speciale <keyword=spying>Spia</keyword>.\nOgni volta che metti in gioco un Agente speciale, si potenzia di {Boost}.
 202658_fluff;Siccome il suo nome in nilfgaardiano suonava come "porcospino", Braathens decise di trasformarlo proprio in quella bestiola. Anni dopo, Emhyr si vendicò del mago. Dopotutto, Braathens suonava anche come "fritto".
 202658_name;Braathens
-202658_tooltip;<keyword=assimilate>Assimilazione</keyword>.\n<keyword=deploy>Schieramento</keyword>: <keyword=create>crea</keyword> e metti in gioco un'unità Nilfgaard <keyword=disloyal>Sleale</keyword> Bronzo.
+202658_tooltip;<keyword=assimilate>Assimilazione</keyword>.\n<keyword=deploy>Schieramento</keyword>: <keyword=create>crea</keyword> e metti in gioco la copia di un'unità <keyword=disloyal>Sleale</keyword> Bronzo dal tuo mazzo iniziale.
 202659_fluff;A volte, la morte non è che un semplice atto di pietà.
 202659_name;Colpo di grazia
 202659_tooltip;<keyword=echo>Eco</keyword>.\nDanneggia di {Damage} un'unità nemica.\n<keyword=deathblow>Colpo di grazia</keyword>: <keyword=spawn>evoca</keyword> e mette in gioco una copia base dell'unità distrutta.\n<keyword=conspiracy>Congiura</keyword>: attiva sempre l'abilità <keyword=deathblow>Colpo di grazia</keyword>.
@@ -3175,7 +3175,7 @@
 202678_tooltip;<keyword=symbiosis>Simbiosi</keyword>.\nAlla fine del tuo turno, se questa unità ha <keyword=vitality>Vitalità</keyword>, si potenzia di {Boost}.
 202679_fluff;Avete conquistato il mondo, dh'oine. Siete ovunque. E ovunque avete portato ciò che voi chiamate progresso. Ma noi non vogliamo il vostro progresso, qui.
 202679_name;Guardiana di Duén Canell
-202679_tooltip;<keyword=veil>Velo</keyword>. <keyword=symbiosis>Simbiosi</keyword>.\n<keyword=deploy>Schieramento</keyword>: danneggia di {Damage} un'unità nemica.
+202679_tooltip;<keyword=veil>Velo</keyword>. <keyword=symbiosis>Simbiosi</keyword>.\n<keyword=order>Ordine</keyword>: danneggia di {Damage} un'unità nemica.
 202680_fluff;Prediligono masticare dita, che per loro non sono molto diverse da succose carote.
 202680_name;Roditori delle querce
 202680_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): infligge <keyword=bleeding>Sanguinamento</keyword> ({bleed}) a un'unità nemica.\n<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): <keyword=spawn>evoca</keyword> una copia base di sé su questa fila.\n<keyword=devotion>Devozione</keyword>: usa entrambe le abilità.
@@ -3203,6 +3203,282 @@
 202704_fluff;Tingono il cielo di neve e la terra di fuoco.
 202704_name;Cavalieri Rossi: diffusi
 202704_tooltip;<keyword=spawn>Evoca</keyword> <keyword=frost>Gelo</keyword> su entrambe le file nemiche per {counter} turni.
+202705_fluff;Come Vergine Bionda si manifesta, tutta ricoperta di fiori, e tutto quanto vive, erba o animale è indifferente, la segue e da lei attratto è.
+202705_name;Dana Méadbh
+202705_tooltip;<keyword=doomed>Condannata</keyword>.\n<keyword=harmony>Armonia</keyword>.
+202706_fluff;Non cacciamo mai in questi boschi, nemmeno a costo di morire di fame.
+202706_name;Spirito della Foresta
+202706_tooltip;<keyword=doomed>Condannata</keyword>.
+202707_fluff;Il sole estivo che si riflette nelle tranquille acque dell'Alba: ecco cos'è Nilfgaard per me.
+202707_name;Morvran Voorhis
+202707_tooltip;<keyword=doomed>Condannata</keyword>.\n<keyword=deploy>Schieramento</keyword>: pesca fino a {Counter} carte, poi rimetti lo stesso numero di carte sulla cima del tuo mazzo.
+202776_fluff;Ribelle... reietto... cavaliere. Perfino stregone. Incredibile, vero?
+202776_name;Alzur
+202776_tooltip;Ogni volta che giochi una carta Incantesimo, <keyword=spawn>evoca</keyword> un'unità casuale con lo stesso costo di reclutamento su questa fila.\nContatore: {Counter}.
+202778_fluff;Nella vita non contano solo canti e balli... forse.
+202778_name;Fiocco di Neve
+202778_tooltip;<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: pesca {MaxTargets} carte, poi rimescola {MaxTargets} carte nel tuo mazzo.\nSi potenzia di {Boost} ogni volta che peschi una carta.
+202779_fluff;I bambini gli chiedono doni. Lui non sa perché, ma torna utile per il reperimento di cavie per i suoi esperimenti.
+202779_name;Cosimo Malaspina
+202779_tooltip;<keyword=deploy>Schieramento</keyword>: trasforma le unità adiacenti in unità casuali che costano 1 punto di reclutamento in più.
+202780_fluff;Dicono che la bellezza sia negli occhi di chi guarda, ma nessuno vuole vedere cosa Idarran ritiene bello...
+202780_name;Idarran di Ulivo
+202780_tooltip;Ogni volta che <keyword=spawn>evochi</keyword> un'unità per la prima volta durante un turno nella tua metà di campo, ne <keyword=spawn>evoca</keyword> una copia di forza {power} su questa fila, poi le assegna l'attributo <keyword=doomed>Condannata</keyword>.
+202781_fluff;Geralt, con il sapore metallico del sangue in bocca, lanciò un incantesimo imponendo la mano di fronte a lui, con le dita a formare il segno Quen.
+202781_name;Geralt: Quen
+202781_tooltip;<keyword=shield>Scudo</keyword>. \n<keyword=deploy>Schieramento</keyword>: metti in gioco una carta Witcher dal tuo mazzo.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: le fornisce uno <keyword=shield>Scudo</keyword>.
+202782_fluff;Possiamo distruggere quello che abbiamo creato, ma non possiamo negarne la creazione.
+202782_name;Mutazione selettiva
+202782_tooltip;Pesca una carta a tua scelta con <keyword=adrenaline>Adrenalina</keyword>, poi rimescola una carta dalla tua mano nel tuo mazzo. <keyword=spawn>Evoca</keyword> un Witcher studente su ciascuna fila alleata.
+202783_fluff;I maghi apprendisti lo confondono spesso con un pentacolo, con conseguenze letteralmente infernali.
+202783_name;Triangolo nel triangolo
+202783_tooltip;Potenzia un alleato di una quantità pari al suo costo di reclutamento o danneggia un nemico di un valore pari al suo costo di reclutamento.
+202784_fluff;Convincere il vodyanoi a non immolare la mucca premiata non fu un compito semplice.
+202784_name;Berengar
+202784_tooltip;Alla fine del tuo turno, distrugge questa carta se è l'unico Witcher della fila.
+202785_fluff;Sarebbe riuscito a intercettare la freccia, se solo avesse avuto un minimo di preavviso.
+202785_name;Leo
+202785_tooltip;<keyword=deploy>Schieramento</keyword>: si potenzia di {Boost} per ogni Witcher che controlli.
+202786_fluff;La magia su di lei non ha effetto, poiché è un'orgogliosa figlia del Sole Nero e una cacciatrice di taglie con lo sguardo puntato su certi stregoni molto potenti...
+202786_name;Maxii Van Dekkar
+202786_tooltip;<keyword=deploy>Schieramento</keyword>: guarda il contenuto del tuo mazzo dalla prima all'ultima carta.\nSe lo desideri, puoi rimescolare il mazzo e poi mettere una carta in fondo.
+202787_fluff;Quattro giovani su dieci sopravvivono... quando tutto fila liscio.
+202787_name;Witcher studente
+202787_tooltip;<keyword=doomed>Condannata</keyword>.
+202788_fluff;Le rose sono rosse.
+202788_name;Mutageno rosso
+202788_tooltip;Danneggia di {Damage} un'unità nemica.
+202789_fluff;Le viole sono blu.
+202789_name;Mutageno blu
+202789_tooltip;Infligge <keyword=poison>Avvelenamento</keyword> a un'unità alleata e ottieni {Coins2} <keyword=coin>monete</keyword>.
+202790_fluff;E un mutageno verde è quel che ricevi tu.
+202790_name;Mutageno verde
+202790_tooltip;Potenzia di {Boost} un'unità alleata e le fornisce <keyword=veil>Velo</keyword>.
+202791_fluff;Ogni cicatrice ha una storia terribile da raccontare. E la cosa incredibile è che molte sono vere.
+202791_name;Ivar Occhiomalvagio
+202791_tooltip;<keyword=deploy>Schieramento</keyword>: scambia la forza di questa unità con quella di un'unità nemica.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: danneggia invece di {Damage} un'unità nemica.
+202792_fluff;"Feroce, astuto. È capace di attendere per ore prima di aggredire la sua preda. E quando lo fa, non c'è più scampo. La morte è inevitabile." — Ivar Occhiomalvagio
+202792_name;Vypper
+202792_tooltip;Alla fine del round, metti questa carta nel cimitero dell'avversario. \nAlla fine del tuo turno, mentre è nel cimitero, <keyword=banish>bandisci</keyword> dal cimitero la carta dal costo più basso.\nSe Vypper è l'unica carta nel cimitero, le assegna l'attributo <keyword=doomed>Condannata</keyword>, poi la <keyword=summon>richiama</keyword> su una fila avversaria casuale.
+202793_fluff;Nella roccaforte c'erano numerose pergamene e diversi manoscritti sulla Caccia Selvaggia. E non a caso.
+202793_name;Gorthur Gvaed
+202793_tooltip;<keyword=resilient>Resistenza</keyword>.\n<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> e mette in gioco Adepto della Vipera, Witcher della Vipera, Mentore della Vipera o Alchimista della Vipera.\n<keyword=order>Ordine</keyword>: sposta una carta dal cimitero dell'avversario in cima al suo mazzo.
+202794_fluff;Un evento fausto lo coinvolgeva solo se poi era seguito da uno molto più infausto.
+202794_name;Kolgrim
+202794_tooltip;<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: alla fine del tuo turno, si potenzia di un valore pari alla differenza tra le carte presenti nei mazzi dei giocatori.
+202795_fluff;Modificando appena il segno Supirre, Warritt ottenne la facoltà di vedere... tutto.
+202795_name;Warritt l'Onniscente
+202795_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): sposta in cima la carta più costosa del mazzo avversario.\n<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): sposta in cima la carta meno costosa del mazzo avversario.
+202796_fluff;I witcher della Vipera vengono addestrati a combattere con lame gemelle, spesso denominate "zanne". Questo stile è incentrato su fendenti rapidi e feroci atti a sopraffare il bersaglio, mostro o umano che sia.
+202796_name;Witcher della Vipera
+202796_tooltip;<keyword=deploy>Schieramento</keyword>: infligge <keyword=bleeding>Sanguinamento</keyword> ({Bleed}) a un'unità nemica.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: <keyword=spawn>evoca</keyword> una copia base di quell'unità in cima al mazzo dell'avversario.
+202797_fluff;I mentori della Vipera sono particolarmente freddi e spietati. Questo serve a preparare gli studenti alle dure prove della vita.
+202797_name;Mentore della Vipera
+202797_tooltip;<keyword=deploy>Schieramento</keyword>: imposta la forza di questa carta su un valore pari al costo di reclutamento della prima carta del mazzo avversario.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: imposta la forza di questa carta su un valore pari al costo di reclutamento della carta più costosa del mazzo avversario.
+202798_fluff;Ciò che non ti uccide ti rende più forte. O più debole. Dipende dalle circostanze.
+202798_name;Alchimista della Vipera
+202798_tooltip;<keyword=deploy>Schieramento</keyword>: guarda le prime {MaxTargets} carte del tuo mazzo e mettine una in cima, poi scambia la prima carta del mazzo avversario con la tua.
+202799_fluff;Agli studenti viene assegnato ciascuno un animale da accudire durante la permanenza a Gorthur Gvaed, allo scopo di formare un legame emotivo durante l'addestramento. Tuttavia, anni dopo, prima di diventare witcher a tutti gli effetti, viene ordinato loro di ucciderlo a sangue freddo.
+202799_name;Adepto della Vipera
+202799_tooltip;Alla fine del tuo turno, si potenzia di {boost} se il mazzo dell'avversario contiene più carte del tuo.
+202800_fluff;Non serve affondare il colpo quando un graffio leggero può rivelarsi fatale.
+202800_name;Armi avvelenate
+202800_tooltip;Danneggia di {damage} un'unità nemica.\n<keyword=deathblow>Colpo di grazia</keyword>: la <keyword=banish>bandisce</keyword> e ne <keyword=spawn>evoca</keyword> una copia base in cima al mazzo dell'avversario.
+202801_fluff;"Meglio lavorare per gli Aen Seidhe piuttosto che per i dh'oine. C'è meno rischio di beccarsi una coltellata tra le costole come ricompensa." ⁠— Gezras
+202801_name;Gezras di Leyda
+202801_tooltip;<keyword=melee>Prima fila</keyword>: alla fine del tuo turno, si sposta sulla <keyword=ranged>fila del combattimento a distanza</keyword> e potenzia di {Boost} un'unità alleata casuale della fila.\n<keyword=ranged>Retrovie</keyword>: alla fine del tuo turno, si sposta sulla <keyword=melee>fila del combattimento corpo a corpo</keyword> e danneggia di {Damage} un'unità nemica casuale della fila opposta.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: invece di un'unità casuale, influenza tutte le altre unità della fila.
+202802_fluff;Era un esemplare pregiato di un serraglio imperiale, finché un commando di Scoia'tael non assaltò la struttura e la bestia venne liberata... per vendicarsi dei suoi crudeli padroni. Quel giorno, scoprì che la carne umana aveva un sapore insuperabile.
+202802_name;Tigre dai denti a sciabola
+202802_tooltip;<keyword=zeal>Fervore</keyword>. <keyword=order>Ordine</keyword>: si trasforma in Tigre furtiva.
+202803_fluff;I witcher della Scuola del Gatto non restarono nel castello di Stygga per molto. Né altrove, del resto...
+202803_name;Castello di Stygga
+202803_tooltip;<keyword=resilient>Resistenza</keyword>.\n<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> e mette in gioco Adepto del Gatto, Witcher del Gatto, Mentore del Gatto o Sabotatore del Gatto.\n<keyword=order>Ordine</keyword>: sposta {MaxTargets} unità alleate sull'altra fila.
+202804_fluff;Noto come "Gatto di Iello", soprannome guadagnato non per le sue origini, ma per il massacro di alcuni contadini. E fu molto più di un massacro, in verità.
+202804_name;Brehen
+202804_tooltip;<keyword=deploy>Schieramento</keyword>: distrugge l'unità più a destra di una fila nemica contenente almeno {Counter} unità.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: distrugge invece l'unità più a destra di una fila nemica contenente almeno {Counter2} unità.
+202805_fluff;"Uccidermi per risparmiare poche corone... E io dovrei proteggere quei bastardi?" — Gaetan
+202805_name;Gaetan
+202805_tooltip;<keyword=deploy>Schieramento</keyword>: sposta le altre carte di questa fila sull'altra fila.\nDanneggia di {Damage} un'unità nemica casuale per ogni carta spostata.
+202806_fluff;I membri della Scuola del Gatto sono malvisti, poiché in battaglia prediligono assecondare la propria furia e sete di sangue. Perfino quando il nemico si arrende e implora pietà... i witcher del Gatto non smettono di uccidere.
+202806_name;Witcher del Gatto
+202806_tooltip;Alla fine del tuo turno, si sposta su un'altra fila e danneggia di {Damage} un nemico casuale sulla fila opposta.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: lo danneggia di {Damage2}.
+202807_fluff;Se cadi, è finita. Hai consumato tutte e sette le tue vite.
+202807_name;Mentore del Gatto
+202807_tooltip;<keyword=deploy>Schieramento</keyword>: si potenzia di un valore pari al numero delle altre carte su questa fila. \n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: si potenzia di {Boost} ogni volta che una carta compare su questa fila.
+202808_fluff;"Inutile dire che, oggigiorno, la loro pessima fama incombe sopra il nostro nome come una nube oscura." — Vesemir
+202808_name;Sabotatore del Gatto
+202808_tooltip;<keyword=deploy>Schieramento</keyword>: sposta un'unità nemica nella posizione più a sinistra della sua fila e la danneggia di {Damage} per ogni carta che scavalca.
+202809_fluff;Gli studenti della Scuola del Gatto migliorano l'equilibrio camminando su una fune. Da bendati. Le prime cadute sono semplici ammaccature, ma poi la camminata si fa sempre più in alto e più pericolosa. Ed è lì che fallire diventa fatale.
+202809_name;Adepto del Gatto
+202809_tooltip;<keyword=deploy>Schieramento</keyword> (<keyword=melee>Prima fila</keyword>): infligge <keyword=bleeding>Sanguinamento</keyword> a un'unità nemica per una durata pari al numero di unità sulla relativa fila.\n<keyword=deploy>Schieramento</keyword> (<keyword=ranged>Retrovie</keyword>): fornisce <keyword=vitality>Vitalità</keyword> a un'unità alleata per una durata pari al numero di unità sulla relativa fila.
+202810_fluff;Dammi retta, ti conviene seguire le istruzioni...
+202810_name;Preparazione di una bomba
+202810_tooltip;Sposta un'unità nemica sull'altra sua fila e le infligge <keyword=bleeding>Sanguinamento</keyword> ({Bleed}). Se è l'unica unità della fila, invece, la danneggia di {Damage}.
+202811_fluff;"Il lavoro di un witcher? Uccidere mostri e intascarsi la ricompensa. Né più né meno." — Arnaghad
+202811_name;Arnaghad
+202811_tooltip;<keyword=deploy>Schieramento</keyword>: ottiene {Armor} di <keyword=armor>Armatura</keyword> per ogni unità danneggiata.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: quando l'avversario mette in gioco un'unità nella sua metà di campo, Arnaghad la danneggia di un valore pari alla propria forza e si danneggia di un valore pari alla forza di quell'unità.
+202812_fluff;Dopo gli innumerevoli tentativi di abbattere la bestia selvaggia, ormai era diventata praticamente... un'armeria semovente.
+202812_name;Orso feroce
+202812_tooltip;Le unità di questa fila e di quella opposta non possono essere potenziate.
+202813_fluff;Ricavato tra le rocce ghiacciate delle Montagne di Amell e nascosto tra crepacci frastagliati e nevi eterne, il luogo dove si trova la dimenticata Scuola dell'Orso è un segreto ben custodito.
+202813_name;Haern Caduch
+202813_tooltip;<keyword=resilient>Resistenza</keyword>.\n<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> e mette in gioco Adepto dell'Orso, Witcher dell'Orso, Mentore dell'Orso o Quartiermastro dell'Orso.\n<keyword=order>Ordine</keyword>: <keyword=heal>cura</keyword> le unità adiacenti di {Boost}.
+202814_fluff;Aveva l'incarico di distruggere un drago, una sirena e una striga, ed era costantemente braccato da un cavaliere vendicativo, cacciatori di taglie e banditi. Ciononostante, trovava sempre l'occasione per farsi una mano di Gwent.
+202814_name;Gerd
+202814_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> una Sirena assordante sulla fila opposta e danneggia di {Damage} tutte le unità di quella fila.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: <keyword=spawn>evoca</keyword> una Sirena assordante sulla fila opposta e la danneggia di {Damage}.
+202815_fluff;La leggenda vuole che fosse nato dall'improbabile unione fra una gigantessa e un nano MOLTO coraggioso.
+202815_name;Junod di Belhaven
+202815_tooltip;<keyword=deploy>Schieramento</keyword>: distrugge un'unità nemica danneggiata.
+202816_fluff;La vita da erranti solitari può essere dura. Meglio portarsi dietro lo stretto necessario.
+202816_name;Witcher dell'Orso
+202816_tooltip;<keyword=deploy>Schieramento</keyword>: si danneggia di {Damage}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: danneggia di {Damage} anche un'unità nemica.
+202817_fluff;Se non sai che strada prendere, trova dei punti di riferimento con cui orientarti. Ad esempio, i cadaveri congelati degli aspiranti witcher.
+202817_name;Mentore dell'Orso
+202817_tooltip;<keyword=deploy>Schieramento</keyword>: si potenzia di {Boost} per ogni unità alleata danneggiata.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: si potenzia di {Boost} per ogni unità danneggiata.
+202818_fluff;Offrigli birra di Mahakam in quantità e potrebbe perfino raccontarti di quando un orso gli portò via scudo e braccio con un sol morso!
+202818_name;Quartiermastro dell'Orso
+202818_tooltip;<keyword=order>Ordine</keyword>: danneggia di {Damage} un'unità alleata, poi <keyword=spawn>evoca</keyword> un Witcher studente su questa fila.\n<keyword=charge>Cariche</keyword>: {Charges}.
+202819_fluff;Per diventare un witcher dell'Orso, tutti gli studenti devono superare la Prova della Montagna. Tale impresa consiste nell'avventurarsi sulla cima di Monte Gorgon per recuperare una pietra runica come prova dell'ascesa. Una sfida brutale, poiché molti giovani adepti congelano a morte ben prima di arrivare in vetta.
+202819_name;Adepto dell'Orso
+202819_tooltip;<keyword=deploy>Schieramento</keyword>: si danneggia di {Damage}.\nAlla fine del tuo turno, si <keyword=heal>cura</keyword> di {Boost}, altrimenti, se non è danneggiata, ottiene {Armor} di <keyword=armor>Armatura</keyword>.
+202820_fluff;Perché schivare quando puoi semplicemente incassare il colpo?
+202820_name;Armatura abbondante
+202820_tooltip;Danneggia di {Damage} un'unità nemica.\n<keyword=spawn>Evoca</keyword> {Count} unità Witcher studente sulla fila opposta, le danneggia di {Damage2} e fornisce loro {Armor} di <keyword=armor>Armatura</keyword>.
+202821_fluff;Erland fondò la Scuola del Grifone, sperando che i suoi valori cavallereschi contribuissero a migliorare la reputazione dei witcher tra la gente comune. Fu una speranza vana, molto vana.
+202821_name;Erland di Larvik
+202821_tooltip;<keyword=deploy>Schieramento</keyword>: potenzia di {boost} tutte le unità del tuo mazzo.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: ottiene anche <keyword=immune>Immunità</keyword>.\n<keyword=order>Ordine</keyword>: rimuove i potenziamenti da tutte le unità nel tuo mazzo, poi potenzia questa unità dello stesso valore.
+202822_fluff;I witcher della Scuola del Grifone erano noti per coraggio, lealtà e spirito combattivo. La scuola era stata chiamata così in onore di un cavaliere errante conosciuto col nome di "Grifone", il quale aveva instillato tali virtù nel fondatore.
+202822_name;Arcigrifone
+202822_tooltip;Alla fine del round, rimescola questa carta nel tuo mazzo mantenendo il suo potenziamento.
+202823_fluff;La collezione letteraria di Kaer Seren era il suo più grande tesoro, nonché l'invidia di un gruppo di maghi eccessivamente zelanti. Nel tentativo di impossessarsene, distrussero proprio gli oggetti ai quali ambivano di più.
+202823_name;Kaer Seren
+202823_tooltip;<keyword=resilient>Resistenza</keyword>.\n<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> e mette in gioco Adepto del Grifone, Witcher del Grifone, Mentore del Grifone o Ranger del Grifone.\n<keyword=order>Ordine</keyword>: Potenzia di {Boost} un'unità nel tuo mazzo.
+202824_fluff;"Mai cercare uno scontro equo. In combattimento, vantaggi e opportunità rappresentano l'ago della bilancia." — Coën
+202824_name;Coën
+202824_tooltip;<keyword=zeal>Fervore</keyword>. <keyword=order>Ordine</keyword>: potenzia tutte le unità con forza pari a quella di Coën di un valore pari al potenziamento di Coën.
+202825_fluff;"Umanoidi stupidi e ottusi! Come sarebbe a dire che non lo sapete? Sareste capaci di andare a caccia di vampiri tutti unti d'aglio e portandovi dietro l'idolo di Lebioda!" — Keldar
+202825_name;Keldar
+202825_tooltip;<keyword=resupply>Rifornimento</keyword>: <keyword=spawn>evoca</keyword> un Witcher studente su questa fila.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: alla fine del tuo turno, <keyword=spawn>evoca</keyword> un Witcher studente su questa fila.
+202826_fluff;Certo, le spade d'argento sono ottime. Ma avete mai provato le punte di freccia placcate?
+202826_name;Witcher del Grifone
+202826_tooltip;<keyword=order>Ordine</keyword> (<keyword=melee>Prima fila</keyword>): danneggia di {damage} un'unità nemica.\n<keyword=cooldown>Recupero</keyword>: {Cooldown}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: alla fine del tuo turno, danneggia di {damage2} un'unità nemica casuale e si <keyword=lock>blocca</keyword>.
+202827_fluff;Ragazzo mio, è la conoscenza a farti vivere più a lungo, non la forza.
+202827_name;Mentore del Grifone
+202827_tooltip;<keyword=deploy>Schieramento</keyword>: pesca l'unità in cima al mazzo, poi rimescola una carta dalla tua mano nel mazzo.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: potenzia di {boost} l'unità che hai pescato.
+202828_fluff;I ranger del Grifone sono impareggiabili maestri nell'arte della caccia, capaci di seguire le tracce perfino negli ambienti più inospitali. A prescindere dalla complessità della pista, non riposano finché la preda non viene catturata o uccisa.
+202828_name;Ranger del Grifone
+202828_tooltip;<keyword=formation>Formazione</keyword>.\n<keyword=deploy>Schieramento</keyword>: si potenzia di {boost} per ogni unità su una fila nemica.\n<keyword=order>Ordine</keyword>: trasferisce tutti i potenziamenti da sé a un'unità alleata.
+202829_fluff;A Kaer Seren, agli studenti viene concesso il lusso di scegliere la prova finale. Possono trovare e recuperare un uovo di grifone, oppure recitare a memoria tutto il Liber Tenebrarum. Con grande delusione del vecchio Keldar, nessuno ha mai scelto la seconda opzione.
+202829_name;Adepto del Grifone
+202829_tooltip;<keyword=shield>Scudo</keyword>.\n<keyword=order>Ordine</keyword>: trasforma un Witcher alleato in una copia base di Adepto del Grifone.
+202830_fluff;La maggior parte dei witcher del Grifone sa dividere una mela in due da cento passi. L'importante per chi la tiene sulla testa è restare immobili.
+202830_name;Tiro al bersaglio
+202830_tooltip;Potenzia di {boost} un'unità alleata. Se sulla fila dell'unità potenziata c'è un Witcher, <keyword=spawn>evoca</keyword> anche un Witcher studente su quella fila.
+202831_fluff;Cos'ha un milione di gambe e può fare di una città un sol boccone?
+202831_name;Viy
+202831_tooltip;<keyword=deathwish>Ultimo desiderio</keyword>: rimescola Viy nel tuo mazzo, poi aumenta di {boost} la sua forza base.
+202832_fluff;Se ti dico che il koshchey è una bestia letale, tu al torrente ci vai lo stesso, vero?
+202832_name;Koshchey
+202832_tooltip;<keyword=thrive>Prosperità</keyword>.\nOgni volta che la <keyword=thrive>Prosperità</keyword> di questa unità viene attivata, <keyword=spawn>evoca</keyword> un Fuco su questa fila.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: ogni volta che la <keyword=thrive>Prosperità</keyword> di questa unità viene attivata, <keyword=spawn>evoca</keyword> invece una Larva di endriaga su questa fila.
+202833_fluff;Una tana di mostri unica nel suo genere, brulicante di orrori e abomini. Perfino un witcher ci penserebbe due volte prima di metter piede in questo angolo d'inferno.
+202833_name;Dol Dhu Lokke
+202833_tooltip;<keyword=resilient>Resistenza</keyword>.\n<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> e mette in gioco Succube, Phooca, Chimera o Ibrido.\n<keyword=order>Ordine</keyword>: sposta l'unità più forte del mazzo in cima ed <keyword=spawn>evoca</keyword> un Fuco a destra e a sinistra di questa carta.
+202834_fluff;"Ma come sei bravo, cucciolone!" — Idarran
+202834_name;Idr
+202834_tooltip;<keyword=order>Ordine</keyword> (<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}): <keyword=consume>consuma</keyword> tutte le Pedine di questa fila e ottiene <keyword=immune>Immunità</keyword>.\nOgni volta che <keyword=consume>consumi</keyword> una o più unità, <keyword=spawn>evoca</keyword> un Fuco su questa fila.
+202835_fluff;Da bambino, Idarran viveva nei canali di Vizima. Era un piccolo genio, e all'età di cinque anni aveva già incominciato a sperimentare sui topi di fogna.
+202835_name;Ratto mannaro
+202835_tooltip;<keyword=order>Ordine</keyword>: ripristina la forza di questa unità ed <keyword=spawn>evoca</keyword> un numero di unità Ratto su questa fila pari al valore di potenziamento perso.\n<keyword=cooldown>Recupero</keyword>: {Cooldown}.\nAlla fine del tuo turno, <keyword=consume>consuma</keyword> un'unità a destra.
+202836_fluff;Mantenersi idratati è fondamentale.
+202836_name;Succube
+202836_tooltip;<keyword=deathwish>Ultimo desiderio</keyword>: alla fine del tuo turno, se c'è un'altra Succube nel cimitero, si <keyword=summon>richiama</keyword> dal tuo cimitero su una fila casuale e ottiene l'attributo <keyword=doomed>Condannata</keyword>.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: non ottiene <keyword=doomed>Condannata</keyword>.
+202837_fluff;I phooca sono una specie di nekker molto rara, più problematica, certamente più grossa e decisamente più forte. Quindi, se ne vedi uno... scappa.
+202837_name;Phooca
+202837_tooltip;<keyword=thrive>Prosperità</keyword> {boost}.
+202838_fluff;All'inizio, Cosimo combinò i geni di un demonio e di un grifone, poi aggiunse al patrimonio genetico qualche traccia di insettoide e viverna. Il risultato? Una creatura ben peggiore della somma delle sue parti.
+202838_name;Chimera
+202838_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=consume>consuma</keyword> un'unità alleata.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: potenzia di {Boost1} tutte le copie dell'unità <keyword=consume>consumata</keyword> su quella fila.
+202839_fluff;Il professor Malaspina aggiunse accidentalmente un ingrediente non previsto al composto X.
+202839_name;Evoluzione spontanea
+202839_tooltip;Potenzia di {Boost} un'unità alleata e ottiene un effetto aggiuntivo in base alla categoria dell'unità.\n\nInsettoide - <keyword=spawn>Evoca</keyword> {MaxTargets} Droni sulla fila dell'unità potenziata.\nBestia - Potenzia di {Boost2} quell'unità.\nOgroide - Fornisce {Armor} di <keyword=armor>Armatura</keyword> a tutti gli Ogroidi della tua mano.
+202841_fluff;Uccisa dalle frecce di coloro a cui diede la caccia. O almeno così pensavano in molti. I Salamandra avevano ben altri progetti per lei.
+202841_name;Rayla caduta
+202841_tooltip;<keyword=profit>Profitto</keyword> {Income}.\n<keyword=tribute>Tributo</keyword> {Tribute-B.P.BB_Tribute}: ottieni <keyword=veil>Velo</keyword>.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: ogni volta che paghi il <keyword=tribute>Tributo</keyword>, questa unità si potenzia di un valore pari al costo del <keyword=tribute>Tributo</keyword>.
+202842_fluff;Nonostante il muso carino, è meglio evitare di accarezzarla. Questo perché la salamandra, se minacciata, secerne una tossina letale che fa bollire la pelle con cui entra in contatto.
+202842_name;Salamandra
+202842_tooltip;<keyword=profit>Profitto</keyword> {Income}.\n<keyword=deploy>Schieramento</keyword>: infliggi <keyword=poison>Avvelenamento</keyword> a un'unità. \n<keyword=tribute>Tributo</keyword> {Tribute-B.P.BB_Tribute}: infliggi <keyword=poison>Avvelenamento</keyword> a tutte le unità sul campo di battaglia.\nAumenta di 1 il <keyword=profit>Profitto</keyword> per ogni unità Salamandra alleata.
+202843_fluff;A chi si aggira nelle fogne di Vizima conviene fare molta attenzione, poiché nascoste tra le ombre del sottosuolo vi abitano cose ben peggiori dei ratti.
+202843_name;Salamandra: nascondiglio
+202843_tooltip;<keyword=resilient>Resistenza</keyword>.\n<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> e mette in gioco Esperimento fallito, Salamandra: abominio, Salamandra: mago o Salamandra: lacchè.\n<keyword=order>Ordine</keyword>: sposta lo stato di <keyword=poison>Avvelenamento</keyword> da un alleato a un'altra unità.
+202844_fluff;"Chissà mio fratello come se la starà cavando nelle fogne..." — Roland
+202844_name;Roland Bleinheim
+202844_tooltip;Ogni volta che un'unità subisce <keyword=poison>Avvelenamento</keyword>, guadagni {Coins} <keyword=coin>monete</keyword>.
+202845_fluff;"Chissà mio fratello come se la starà cavando nei boschi..." — Gellert
+202845_name;Gellert Bleinheim
+202845_tooltip;<keyword=profit>Profitto</keyword> {Profit}.\n<keyword=fee>Tariffa</keyword> {Cost}: infligge <keyword=poison>Avvelenamento</keyword> a un'unità alleata e la potenzia di {Boost}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: <keyword=cooldown>Recupero</keyword>: {Cooldown}.
+202846_fluff;Da un lacchè ci si aspetta che compia i suoi primi cinque incarichi senza ricompensa alcuna, a dimostrazione della sua passione per il lavoro.
+202846_name;Salamandra: lacchè
+202846_tooltip;La prima volta che ottieni <keyword=coin>monete</keyword> durante un turno, si potenzia di {Boost}.
+202847_fluff;Gli scienziati dei Salamandra erano così preoccupati di riuscire nei loro esperimenti che mai si chiesero se fosse davvero il caso di compierli.
+202847_name;Salamandra: abominio
+202847_tooltip;<keyword=tribute>Tributo</keyword> {Tribute-B.P.BB_Tribute}: infligge <keyword=poison>Avvelenamento</keyword> a sé.\nOgni volta che questa unità subisce <keyword=poison>Avvelenamento</keyword>, si potenzia di {Boost}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: alla fine del turno, si <keyword=purify>purifica</keyword>.
+202848_fluff;Accendere un fuoco scalda una persona per un giorno. Accendere la persona, invece...
+202848_name;Salamandra: mago
+202848_tooltip;<keyword=tribute>Tributo</keyword> {Tribute-B.P.BB_Tribute}: danneggia 3 unità nemiche adiacenti di {Damage}.\nOgni volta che paghi un'abilità <keyword=tribute>Tributo</keyword>, ottieni {Coins} <keyword=coin>moneta</keyword>.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: ottieni invece {Coins2} <keyword=coin>monete</keyword>.
+202849_fluff;Perfino gli esperimenti falliti servono a qualcosa. Altrimenti, come ci si spinge oltre i limiti della conoscenza?
+202849_name;Esperimento fallito
+202849_tooltip;Alla fine del tuo turno, perdi {Cost} <keyword=coin>moneta</keyword>. Se non hai <keyword=coin>monete</keyword>, si danneggia di {Damage}.\nIn stato di <keyword=poison>Avvelenamento</keyword>, disattiva questa abilità.
+202850_fluff;Un po' come rubare gli organi, ma molto più remunerativo.
+202850_name;Mutageni rubati
+202850_tooltip;Scegli un mutageno:\n\nRosso - Danneggia di {Damage} un'unità nemica.\nBlu - Infligge <keyword=poison>Avvelenamento</keyword> a un'unità alleata e ottieni {Coins2} <keyword=coin>monete</keyword>.\nVerde - Potenzia di {Boost} un'unità alleata e le fornisce <keyword=veil>Velo</keyword>.\n\nSe hai almeno {Counter} unità Salamandra, ottieni <keyword=profit>Profitto</keyword> {Coins}.
+202856_fluff;Quando una testa non è abbastanza.
+202856_name;Ibrido
+202856_tooltip;Ogni volta che <keyword=consume>consumi</keyword> una o più unità, si potenzia di {Boost}.
+202872_fluff;Era un esemplare pregiato di un serraglio imperiale, finché un commando di Scoia'tael non assaltò la struttura e la bestia venne liberata... per vendicarsi dei suoi crudeli padroni. Quel giorno, scoprì che la carne umana aveva un sapore insuperabile.
+202872_name;Tigre furtiva
+202872_tooltip;All'inizio del tuo turno, danneggia di {Damage} tutte le unità nemiche che si trovano da sole sulla fila e si trasforma in Tigre dai denti a sciabola.
+202879_fluff;In un lampo, Madoc estrasse dalla tasca una sferetta di cuoio dotata di miccia, la accese con uno schiocco di dita e la lanciò ai piedi del bestione gemente.
+202879_name;Madoc
+202879_tooltip;Ogni volta che giochi una carta Bomba, <keyword=summon>richiama</keyword> questa carta dal tuo mazzo o dal tuo cimitero su una fila alleata casuale.\n<keyword=order>Ordine</keyword>: <keyword=spawn>evoca</keyword> <keyword=cataclysm>Cataclisma</keyword> per {Counter} turno sulla fila opposta, poi si autodistrugge.
+202880_fluff;Come capo di stato, devo giudicarla secondo la legge. Ma come sorella, mi piange il cuore...
+202880_name;Anna Henrietta
+202880_tooltip;<keyword=deploy>Schieramento</keyword>: sostituisce la tua abilità del comandante con una copia base dell'abilità del comandante avversario.
+202881_fluff;"Il Paziente" non rientra tra i miei nomi. Spera che non ti chiamino "Il Senzatesta".
+202881_name;Emhyr var Emreis
+202881_tooltip;<keyword=deploy>Schieramento</keyword>: pesca una carta, poi sposta una carta dalla tua mano in fondo al tuo mazzo.\nOgni volta che l'avversario mette in gioco un'unità, le assegna l'attributo <keyword=spying>Spia</keyword>.\n<keyword=devotion>Devozione</keyword>: alla fine del tuo turno, <keyword=seize>sequestra</keyword> un'unità <keyword=spying>Spia</keyword> casuale con {power} di forza.
+202882_fluff;I nilfgaardiani lo chiamano Tirth ys Muire, il Cinghiale del Mare. Lo nominano per spaventare i bambini!
+202882_name;Crach an Craite
+202882_tooltip;<keyword=deploy>Schieramento</keyword>: fornisce {Armor} di <keyword=armor>Armatura</keyword> a {MaxTargets} Pirati o Navi nella tua mano.\nOgni volta che metti in gioco un Pirata o una Nave accanto a Crach, si danneggia e danneggia l'unità nemica meno forte di un valore pari alla forza reciproca.
+202883_fluff;Eist arrivò a Cintra per aiutare Crach an Craite a ottenere la mano della Principessa Pavetta, ma finì per conquistare il cuore della madre di lei.
+202883_name;Eist Tuirseach
+202883_tooltip;<keyword=veteran>Veterano</keyword>.\n<keyword=deploy>Schieramento</keyword>, <keyword=bloodthirst>Sete di sangue</keyword> {Bloodthirst}: pesca una carta, poi <keyword=discard>scarta</keyword> una carta.\nOgni volta che <keyword=discard>scarti</keyword> un'unità Skellige durante il tuo turno, la <keyword=summon>richiama</keyword> dal tuo cimitero su questa fila.\nContatore: {Counter}.\n<keyword=devotion>Devozione</keyword>: si attiva anche ogni volta che un'unità Skellige finisce nel tuo cimitero durante il tuo turno.
+202884_fluff;Quel vecchio barbagianni? Non si capisce nemmeno se è vivo o impagliato!
+202884_name;Brouver Hoog
+202884_tooltip;<keyword=deploy>Schieramento</keyword>: ottiene 1 di <keyword=armor>Armatura</keyword> per ogni Nano nella tua mano.\n<keyword=barricade>Barricata</keyword>: alla fine del tuo turno, potenzia di {boost} tutti i Nani con <keyword=armor>Armatura</keyword> su questa fila.
+202885_fluff;Una volta, il re inviò un emissario da Eldain... nonostante i miei avvertimenti. Il giorno successivo, lo ritrovammo privo di occhi, con una bandiera bianca ficcata in gola.
+202885_name;Eldain
+202885_tooltip;<keyword=deploy>Schieramento</keyword>: trasforma tutte le tue Trappole attivate in unità Occhio di falco elfico.\n<keyword=devotion>Devozione</keyword>: trasforma anche gli altri tuoi manufatti.
+202886_fluff;Altro che i consiglieri e i loro intrighi! Mi fido più della spada dei miei soldati.
+202886_name;Re Foltest
+202886_tooltip;Ogni turno, la prima volta che un'unità Bronzo nella tua metà di campo viene potenziata, <keyword=spawn>evoca</keyword> una copia base di tale unità in fondo al tuo mazzo.\n<keyword=devotion>Devozione</keyword>: potenzia di {boost} la copia <keyword=spawn>evocata</keyword>.
+202887_fluff;Siamo in guerra, e un re in guerra non "cerca di scegliere". Impugna spada e scudo e accorre in difesa dei propri sudditi.
+202887_name;Regina Meve
+202887_tooltip;<keyword=inspired>Ispirazione</keyword>: alla fine del tuo turno, il Contatore si riduce di 1.\nContatore: {Counter}\nQuando il contatore arriva a 0, potenzia di {Boost} tutte le unità alleate.
+202888_fluff;Non ama come un uomo, ma come un animale. In modo folle, totale, incondizionato. Selvaggio.
+202888_name;Dettlaff van der Eretein
+202888_tooltip;<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> <keyword=blood_moon>Luna rossa</keyword> su una fila nemica per {Counter} turno. Aumenta la durata di 1 per ogni Vampiro adiacente.\n<keyword=order>Ordine</keyword>: danneggia di {Damage} un'unità nemica con <keyword=bleeding>Sanguinamento</keyword>.\n<keyword=deathblow>Colpo di grazia</keyword>: <keyword=spawn>evoca</keyword> un'Ekimma su questa fila.\n<keyword=cooldown>Recupero</keyword>: {Cooldown}
+202889_fluff;Nessuno sa esattamente quanto sia antico l'Invisibile, neanche i vampiri superiori. Sanno solo che non devono mai osare opporsi al suo volere, per nessun motivo.
+202889_name;L'Invisibile
+202889_tooltip;<keyword=deploy>Schieramento</keyword>: infligge <keyword=bleeding>Sanguinamento</keyword> ({Bleeding}) a un'unità nemica.\nAlla fine del tuo turno, infligge <keyword=bleeding>Sanguinamento</keyword> ({Bleeding2}) a un'unità nemica casuale senza <keyword=bleeding>Sanguinamento</keyword>.\n<keyword=devotion>Devozione</keyword>: alla fine del tuo turno, attiva <keyword=bleeding>Sanguinamento</keyword> sulle unità nemiche.
+202890_fluff;Grazie a te, i miei maiali stasera avranno di che saziarsi.
+202890_name;Mannaia
+202890_tooltip;<keyword=intimidate>Intimidazione</keyword>.\n<keyword=deploy>Schieramento</keyword>: <keyword=spawn>evoca</keyword> e gioca Estorsione.\nAumenta di {Intimidate} l'<keyword=intimidate>Intimidazione</keyword> di questa carta per ogni Spezzacorone adiacente.\n<keyword=fee>Tariffa</keyword> {Cost}: <keyword=spawn>evoca</keyword> un Energumeno di Mannaia su questa fila.
+202891_fluff;Una guerra con Figlio-di-puttana? Il sangue scorrerà a fiumi per le vie di Novigrad...
+202891_name;Figlio-di-puttana Junior
+202891_tooltip;<keyword=deploy>Schieramento</keyword>: danneggia di {Damage} un'unità nemica potenziata. Guadagni una <keyword=coin>moneta</keyword> per ogni punto di danno inflitto in eccesso.\n<keyword=devotion>Devozione</keyword>: ottiene anche <keyword=insanity>Pazzia</keyword>.\n<keyword=fee>Tariffa</keyword> {Cost}: distrugge un'unità con al massimo {Power} di forza.
+202892_fluff;Avanti, uomini! Avanti, ho detto, o i nilfgaardiani saranno l'ultimo dei vostri problemi!
+202892_name;Kaedwen: sergente
+202892_tooltip;<keyword=zeal>Fervore</keyword>.\n<keyword=order>Ordine</keyword>: potenzia di {Boost} un'unità alleata. \n<keyword=charge>Cariche</keyword>: {Charges}.
 21_name_sa;Ignore.
 22_name_sa;Ignore.
 23_name_sa;Ignore.
@@ -3248,6 +3524,7 @@ card_category_104;Mutante
 card_category_105;Salamandra
 card_category_106;Aristocratico
 card_category_107;Scenario
+card_category_109;Luogo
 card_category_11;Strategia
 card_category_12;Bestia
 card_category_13;Comandante
@@ -3343,8 +3620,8 @@ card_category_99;Guerci
 card_in_maintenance_tooltip;Questa carta è in fase di manutenzione. Ci scusiamo per l'inconveniente.
 card_token_berserk;obsolete
 card_token_bleeding;<#600101>Sanguinamento:</color> stato che danneggia di 1 l'unità che ne è afflitta alla fine del suo turno. Nota: i turni di Sanguinamento sono cumulabili e 1 turno di Sanguinamento annulla 1 turno di Vitalità.
-card_token_bounty;<#600101>Taglia</color> (stato): quando questa unità viene distrutta, il giocatore che ha messo la Taglia ottiene un numero di monete pari al valore della sua forza base.
-card_token_defender;<#600101>Difensore</color>: l'avversario non può bersagliare altre carte su questa fila.
+card_token_bounty;<#600101>Taglia</color>: quando un'unità con questo stato viene distrutta o bandita, l'avversario ottiene monete pari al valore della sua forza base. In un dato momento, è possibile avere solo un'unità con Taglia su ciascuna metà di campo.
+card_token_defender;<#600101>Difensore</color>: stato che impedisce all'avversario di bersagliare altre carte sulla fila.
 card_token_doomed;<#600101>Condannata:</color> stato che rimuove questa unità dal gioco quando abbandona il campo di battaglia.
 card_token_immune;<#600101>Immune:</color> stato per cui questa carta non può essere bersagliata manualmente.
 card_token_lock;<#600101>Blocco:</color> stato che disattiva le abilità di questa unità.
@@ -3356,6 +3633,7 @@ card_token_shield;<#600101>Scudo:</color> stato che blocca i danni inflitti a qu
 card_token_spying;Spia: stato di un'unità evocata, messa in gioco o spostata nella metà di campo avversaria.
 card_token_veil;Velo: stato che impedisce all'unità di ottenere altri stati.
 card_token_vitality;<#600101>Vitalità:</color> stato che potenzia di 1 l'unità interessata alla fine del suo turno. Nota: i turni di Vitalità sono cumulabili e 1 turno di Vitalità annulla 1 turno di Sanguinamento.
+keyword_adrenaline;<#600101>Adrenalina:</color> abilità che si attiva se in mano hai non oltre la quantità di carte specificata.
 keyword_ambush;<#600101>Imboscata:</color> carta messa in gioco coperta che si gira quando viene soddisfatta la condizione dell'abilità.
 keyword_armor;<#600101>Armatura</color>: protegge l'unità dai danni. Questo valore non conta per il punteggio complessivo o la forza dell'unità.
 keyword_assimilate;<#600101>Assimilazione</color>: si potenzia di 1 o della quantità specificata ogni volta che giochi una carta non appartenente al tuo mazzo iniziale.
@@ -3372,7 +3650,7 @@ keyword_bonded;<#600101>Legame:</color> abilità che si attiva ogni volta che co
 keyword_boon;<#600101>Benedizione:</color> effetto positivo applicato a una fila, sostituibile con un altro effetto sulla fila e rimosso alla fine del round.
 keyword_boost;<#600101>Potenziare:</color> aumentare la forza attuale di un'unità.
 keyword_boosted;<#600101>Potenziata:</color> la forza attuale dell'unità è maggiore della sua forza base.
-keyword_bounty;<#600101>Taglia</color>: ogni volta che un'unità con questo stato viene distrutta, l'avversario ottiene monete pari al valore della sua forza base. È possibile mettere una taglia solo su un'unità nemica per volta.
+keyword_bounty;<#600101>Taglia</color>: quando un'unità con questo stato viene distrutta o bandita, l'avversario ottiene monete pari al valore della sua forza base. In un dato momento, è possibile avere solo un'unità con Taglia su ciascuna metà di campo.
 keyword_brave;<#600101>Coraggio:</color> l'abilità si attiva se l'avversario sta vincendo il round attuale (calcolato dopo aver messo in gioco questa unità ed eventuali unità evocate).
 keyword_cataclysm;<#600101>Cataclisma:</color> all'inizio del turno del possessore, danneggia casualmente tutte le unità di questa fila per un valore complessivo di 3.
 keyword_charge;<#600101>Cariche:</color> il numero di utilizzi disponibili di un'abilità Ordine. Solo le carte con Cariche: X possono ottenere Cariche aggiuntive.
@@ -3396,7 +3674,7 @@ keyword_damaged;<#600101>Danneggiata:</color> la forza attuale dell'unità è mi
 keyword_deadlock;<#600101>Stallo:</color> attiva questa abilità se entrambi i giocatori non hanno passato.
 keyword_deathblow;<#600101>Colpo di grazia:</color> abilità che si attiva quando questa carta distrugge un'unità.
 keyword_deathwish;<#600101>Ultimo desiderio:</color> abilità che si attiva quando la carta viene distrutta e trasferita dal campo di battaglia al cimitero. Nota: le unità bandite non finiscono nel cimitero.
-keyword_defender;<#600101>Difensore</color>: l'avversario non può bersagliare altre carte su questa fila.
+keyword_defender;<#600101>Difensore</color>: stato che impedisce all'avversario di bersagliare altre carte sulla fila.
 keyword_demote;<#600101>Degradare:</color> convertire una carta Oro in Argento (o in Bronzo, se quello era il suo colore originale).
 keyword_deploy;<#600101>Schieramento:</color> l'abilità si attiva quando la carta viene messa in gioco.
 keyword_destroy;<#600101>Distruggere:</color> spostare la carta nel cimitero.
@@ -3420,7 +3698,7 @@ keyword_friendly;<#600101>Alleato:</color> unità presente nella propria metà d
 keyword_frost;<#600101>Gelo:</color> all'inizio del turno del possessore, danneggia di 2 l'unità più forte di questa fila.
 keyword_gamble;<#600101>Scommettere:</color> partecipare a un gioco di probabilità.
 keyword_gold;<#600101>Immunità:</color> stato per cui questa carta non può essere un bersaglio.
-keyword_harmony;<b><#600101>Armonia</color></b>: si potenzia di 1 o della quantità specificata ogni volta che metti in gioco su questa fila un'unità Scoia'tael appartenente a una categoria primaria unica tra tutte le tue unità.
+keyword_harmony;<#600101>Armonia</color>: si potenzia di 1 o della quantità specificata ogni volta che metti in gioco un'unità Scoia'tael appartenente a una categoria primaria unica tra tutte le tue unità.
 keyword_hazard;<#600101>Calamità:</color> effetto negativo applicato a una fila, sostituibile con un altro effetto sulla fila e rimosso alla fine del round.
 keyword_heal;<#600101>Curare:</color> se il valore di forza attuale di un'unità è inferiore a quello base, il valore di forza viene ripristinato al valore base o dell'ammontare specificato.
 keyword_highest;<#600101>Più forte:</color> con la forza maggiore. Le situazioni di parità vengono risolte casualmente.
@@ -3477,7 +3755,7 @@ keyword_stubborn;<#600101>Tenace:</color> la carta non può essere giocata nuova
 keyword_summon;<#600101>Richiamare:</color> spostare automaticamente sul campo di battaglia (non è sinonimo di "mettere in gioco").
 keyword_swap;<#600101>Sostituire:</color> spostare una carta dalla mano al mazzo e pescarne un'altra al suo posto durante il tuo turno.
 keyword_symbiosis;<#600101>Simbiosi:</color> ogni volta che giochi una carta Natura, evochi su una fila alleata casuale un Treant errante la cui forza è pari al numero delle unità con Simbiosi sotto il tuo controllo.
-keyword_thrive;<#600101>Prosperità:</color> potenzia di 1 questa unità ogni volta che metti in gioco un'unità con forza superiore.
+keyword_thrive;<b><#600101>Prosperità:</color></b> potenzia di 1 o dell'ammontare specificato questa unità ogni volta che metti in gioco un'unità con forza superiore.
 keyword_timer;<#600101>Timer:</color> il valore del timer si riduce di 1 ogni turno finché l'unità è in campo. Quando il timer scende a 0, l'abilità si attiva (all'inizio o alla fine del turno). Riavvia il timer quando l'unità abbandona il campo.
 keyword_token;<#600101>Pedina:</color> unità che viene rimossa dalla partita alla fine del round.
 keyword_transform;<#600101>Trasformare:</color> diventare una carta diversa.

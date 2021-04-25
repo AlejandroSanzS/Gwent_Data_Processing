@@ -47,19 +47,15 @@
 112112_tooltip;<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：從我方牌組打出 1 張「文物」。
 112113_fluff;一位優秀的女術士必須知道何時該施展冰，何時該施展火。
 112113_name;葉奈法：咒術師
-112113_tooltip;<keyword=order>軍令</keyword>：對敵軍最大的單位牌造成 {Damage} 點傷害。\n<keyword=cooldown>冷卻</keyword>：{Cooldown} 回合。
 112201_fluff;變形怪有很多別名：換生靈、二重身、討嫌鬼……或模仿怪。
 112201_name;杜度
 112201_tooltip;<keyword=deploy>部署</keyword>：變身成 1 張敵軍單位牌的基礎同名牌。
 112202_fluff;白狼，我只是個狩魔獵人。我不獵龍，不跟國王稱兄道弟，也不和女術士上床……
 112202_name;艾斯凱爾
-112202_tooltip;<keyword=deploy>部署</keyword>：從我方牌組<keyword=summon>召喚</keyword>「維瑟米爾」和「蘭伯特」至此列。
 112203_fluff;就算上了絞刑台也別放棄，跟他們要點水。畢竟沒人知道水拿來前會發生什麼。
 112203_name;維瑟米爾
-112203_tooltip;<keyword=deploy>部署</keyword>：從我方牌組<keyword=summon>召喚</keyword>「艾斯凱爾」和「蘭伯特」至此列。
 112204_fluff;這樣的溝通方式我才懂嘛！
 112204_name;蘭伯特
-112204_tooltip;<keyword=deploy>部署</keyword>：從我方牌組<keyword=summon>召喚</keyword>「艾斯凱爾」和「維瑟米爾」至此列。
 112205_fluff;千萬別想分開母龍和她的孩子。
 112205_name;麥爾卓布拉克
 112206_fluff;牠是石英山之主，摧毀者，圖拉真的屠夫。閒暇時，牠喜歡遠足與燭光晚餐。
@@ -112,10 +108,7 @@
 113204_tooltip;對所有敵軍造成 {Damage} 傷害。
 113205_fluff;女巫獵人必備。無聲的閃光過後，再強大的術士也是俎上鱼肉。
 113205_name;反魔法金屬炸彈
-113205_tooltip;摧毀 1 張「文物」。
 113206_fluff;見證「泰德戴爾瑞」——終焉紀元——這被白霜摧毀的世界吧！
-113206_name;白霜
-113206_tooltip;摧毀所有「文物」。
 113207_fluff;士氣加一分，但聽力也得減一分。
 113207_name;領導號角
 113207_tooltip;提升 {MaxTargets} 張相鄰單位牌 {Boost} 點戰力。
@@ -209,7 +202,6 @@
 122213_name;歐德林
 122214_fluff;給我衝，沒用的蠢貨！衝，不然你就會知道，我比尼弗迦德人更可怕！
 122214_name;科德溫中士
-122214_tooltip;<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：提升 1 張我軍 {Boost} 點戰力。\n<keyword=charge>裝填</keyword>：{Charges} 次。
 122216_fluff;要在諾維格瑞做生意的人都要做個明擺著的選擇——乖乖聽屠夫的話，不然就跟自己的膝蓋說再見吧。
 122301_fluff;成為弩炮是所有十字弓的終極夢想。
 122301_name;床弩
@@ -273,7 +265,6 @@
 132107_tooltip;<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：<keyword=consume>吞噬</keyword> 1 張我軍。\n<keyword=charge>裝填</keyword>：{Charges} 次。
 132108_fluff;打什麼仗嘛！明明有更多好辦法消耗過剩的精力……
 132108_name;米露娜
-132108_tooltip;<keyword=deathwish>求死</keyword>：<keyword=seize>奪取</keyword> 1 張戰力為 {Power} 點以下的敵軍。
 132201_fluff;看起來像螃蟹和蜘蛛的混種……只是體型碩大無比。
 132201_name;巨型蟹蜘蛛
 132202_fluff;大多墓穴女巫都以墓穴的腐爛遺體為生。但是有些女巫會溜進小屋，綁架孩童、殺害長者，總之不是什麼好鄰居。
@@ -317,7 +308,6 @@
 132216_tooltip;<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=consume>吞噬</keyword> 1 張戰力為 {Power} 點以下的單位牌。
 132217_fluff;一般的人面妖鳥以腐肉為食，賽爾伊諾人面妖鳥……則以夢境為食。
 132217_name;賽爾伊諾人面妖鳥
-132217_tooltip;<keyword=deploy>部署</keyword>：<keyword=consume>吞噬</keyword> 1 張我軍單位牌。
 132218_fluff;別來吵我。
 132218_name;老矛頭：瞌睡
 132220_fluff;天球交會後，這些以鮮血為食的怪物便來到了我們的世界。
@@ -367,7 +357,6 @@
 132404_tooltip;<keyword=deploy>部署</keyword>：對 1 張敵軍造成 {Damage} 點傷害。
 132405_fluff;很容易被誤認成岩石，許多巨魔已痛徹心扉地領悟到這一點。
 132405_name;狂暴土精靈
-132405_tooltip;<keyword=deploy>部署</keyword>：摧毀 1 張「文物」敵軍。
 132406_fluff;沒有任何牆或門可以擋住他們。他們只需要一個小小的裂縫即可……
 132406_name;無骨妖
 132406_tooltip;<keyword=deploy>部署</keyword>：發動 1 張「銅色」我軍的<keyword=deathwish>求死</keyword>能力。
@@ -446,10 +435,8 @@
 142301_tooltip;<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：提升 1 張我軍單位牌 {Boost} 點戰力。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=heal>治療</keyword> 1 張我軍單位牌 {Boost2} 點戰力。
 142302_fluff;「維里赫德？那是什麼意思？」「麻煩。」
 142302_name;維里赫德旅
-142302_tooltip;<keyword=deploy>部署</keyword>：隨機對 1 張敵軍造成 {Damage} 點傷害。\n每當「維里赫德旅」移動至另一列，便重複發動其<keyword=deploy>部署</keyword>能力。
 142303_fluff;仇恨之火比地獄烈焰更猛烈，比任何利刃都更刻骨銘心。
 142303_name;維里赫德旅軍官
-142303_tooltip;<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張敵軍造成 {Damage} 點傷害。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：提升 1 張我軍 {Boost} 點戰力。
 142304_fluff;他們的追蹤本領就像獵犬，雙腿矯健如鹿，殘忍更勝惡魔。
 142304_name;多爾布雷坦納砲彈手
 142305_fluff;我跟十字鎬打了一輩子交道，戰斧又有什麼難的。
@@ -526,7 +513,6 @@
 152206_name;格雷米斯特
 152207_fluff;敬尼弗迦德大帝，祝他不得好死！
 152207_name;霍格・黑手
-152207_tooltip;每當我方打出 1 張「船」，就提升該牌 {Boost} 點戰力。\n每當我方打出 1 張「海寇」，就隨機對 1 張敵軍造成 {Damage} 點傷害。
 152208_fluff;有人稱她「鐵娘子」。
 152208_name;茱塔・迪門
 152208_tooltip;<keyword=deploy>部署</keyword>：若「茱塔・迪門」是最大的單位牌，則對自身造成 {Damage} 點傷害。
@@ -665,7 +651,6 @@
 162306_name;火蠍
 162307_fluff;帝國旅絕不投降，想都別想。
 162307_name;帝國旅
-162307_tooltip;<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：從我方牌組<keyword=summon>召喚</keyword> 1 張此單位牌的同名牌至此列。
 162308_fluff;大帝最忠誠的貼身護衛，誓死保衛大帝的安全。
 162308_name;帝國近衛精兵
 162309_fluff;大帝會教北方人些規矩的。
@@ -673,7 +658,6 @@
 162309_tooltip;每當我方打出 1 張具有<keyword=deploy>部署</keyword>的單位牌，就提升自身 {Boost} 點戰力。
 162310_fluff;我們被稱作死神之顱。想知道為什麼嗎？
 162310_name;那烏西卡旅
-162310_tooltip;<keyword=deploy>部署</keyword>：對 1 張獲得提升的敵軍造成 {Damage} 點傷害。
 162311_fluff;宣誓效忠吾皇恩希爾．恩瑞斯……不然就受死吧。
 162311_name;阿爾巴槍兵
 162312_fluff;為了帝國，視死如歸！
@@ -747,7 +731,6 @@
 200039_name;多爾布雷坦納哨兵
 200040_fluff;啊，北方人，我要被你笑死！我這把你連握都握不住了，還想拿來砍我膩？
 200040_name;奎特巨劍
-200040_tooltip;只要相對列上 1 張敵軍受到傷害，便提升自身 {Boost} 點戰力。
 200041_fluff;並非奪城的首選，卻是搗城的上上之選。
 200041_name;重弩赫爾吉
 200042_fluff;在瑪哈坎的峭壁狩獵並不容易……但矮人也不是省油的燈。
@@ -822,7 +805,6 @@
 200105_name;迪門艦艇
 200112_fluff;傳說中，她們會以迷人的歌聲誘惑水手迎向死亡……不過更可能是她們豐滿的特徵迷住了水手。
 200112_name;女海妖
-200112_tooltip;<keyword=deploy>部署</keyword>：提升 1 張具有<keyword=deathwish>求死</keyword>的我軍 {Boost} 點戰力。
 200114_fluff;有人說狼人病會傳染，被狼人咬了就會變成狼人。但狩魔獵人很清楚這話是胡扯，只有詛咒會使人變成狼人。
 200114_name;狼人首領
 200114_tooltip;<keyword=immune>免疫</keyword>。<keyword=thrive>茁壯</keyword>。
@@ -833,7 +815,6 @@
 200118_name;滲透者
 200118_tooltip;<keyword=melee>近戰</keyword>：局末，將此單位牌放進對方牌組洗牌。
 200124_fluff;毒蛇學派將會重生……雷索將實現這夙願。
-200124_name;毒蛇學派狩魔獵人
 200124_tooltip;<keyword=deploy>部署</keyword>：<keyword=reveal>揭示</keyword>對方牌組最上方的卡牌，並<keyword=banish>驅逐</keyword>該牌。
 200135_fluff;這種瑪哈坎職業風險極高，因此報酬也相當優渥。這行最頂尖的高手是個矮人，名叫米凱爾．貝。
 200135_name;煙火師
@@ -850,7 +831,6 @@
 200145_name;迪門海盜
 200146_fluff;史派克魯格島是與世隔絕的荒蕪小島，但這對我們來說不算什麼，我們需要的東西，都會從你手上搶來。
 200146_name;迪門走私者
-200146_tooltip;<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：對 1 張單位牌造成 {Damage} 點傷害，再提升該單位牌 {Boost} 點戰力。
 200147_fluff;女德魯伊的最高職位「靈師」為人尊敬，並握有大權。
 200147_name;海玫靈師
 200149_fluff;他天不怕地不怕，只怕弗蕾雅的怒氣……還有怕太太生氣。
@@ -915,7 +895,6 @@
 200236_tooltip;<keyword=melee>近戰</keyword>：每回合結束時，提升自身 {Boost} 點戰力。
 200237_fluff;獵殺怪物可不能用這種隨隨便便的態度。如果希里想加入我們，就要理解這點。
 200237_name;維瑟米爾：導師
-200237_tooltip;<keyword=deploy>部署</keyword>：提升所有位於手牌、牌組和場上的「狩魔獵人」我軍 {Boost} 點戰力。
 200293_fluff;「給我聽好，要是你不努力振作，人類就要把我們的女人都搶走了！」
 200293_name;矮人搗蛋鬼
 200293_tooltip;<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：提升我方手牌 1 張「矮人」{Boost} 點戰力。
@@ -947,7 +926,6 @@
 200519_tooltip;提升 1 張單位牌 {Boost} 點戰力並解除其<keyword=lock>封印</keyword>。
 200520_fluff;什麼東西比得上他鑄造的劍？他包的餃子。
 200520_name;愛博何．哈托利
-200520_tooltip;<keyword=order>軍令</keyword>：從我方墓地打出 1 張「銅色」「文物」。
 200523_fluff;陶森特需要這名英雄，但壓根配不上他。
 200523_name;傑爾曼．皮況特
 200523_tooltip;<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：在此單位牌兩側各<keyword=spawn>生成</keyword> {Counter} 張「乳牛」。
@@ -1021,7 +999,6 @@
 201601_name;葉奈法的祝告
 201603_fluff;這僧侶為什麼會戴著鉚釘手套……
 201603_name;雷索：弒王者
-201603_tooltip;<keyword=deploy>部署</keyword>：變身為場上另一張單位牌的同名牌，而且戰力維持不變。
 201606_fluff;叉尾龍要這樣引誘：將一支木樁插入土中，上面綁一隻羊，然後盡快躲到附近的灌木叢裡。
 201606_name;叉尾龍
 201606_tooltip;<keyword=deploy>部署</keyword>：對所有其他單位牌造成 {Damage} 點傷害。
@@ -1121,7 +1098,6 @@
 201661_fluff;造橋，別造牆。
 201662_fluff;我不會把性命交給機運，能相信的是我劍上那層厚厚的屍胺。
 201662_name;屍胺
-201662_tooltip;<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：摧毀自身以及所有戰力值等同「屍胺」<keyword=charge>裝填</keyword>次數的單位牌。\n<keyword=charge>裝填</keyword>：{Charges2} 次。\n每回合開始時，以及我方每次打出 1 張「戰術」時，便獲得<keyword=charge>裝填</keyword> {Charges} 次。
 201664_fluff;「以眼還眼」只會搞到全世界全瞎了。
 201664_name;弗瑞吉夫
 201664_tooltip;<keyword=deploy>部署</keyword>：發動相鄰「銅色」「士兵」的<keyword=deploy>部署</keyword>能力。
@@ -1193,7 +1169,6 @@
 201740_name;店店：騎士
 201741_fluff;其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？
 201741_name;店店：騎士
-201741_tooltip;<keyword=deploy>部署</keyword>：摧毀 1 張「文物」敵軍。
 201742_fluff;其他巨魔都覺得他怪怪的，畢竟有哪個腦袋正常的巨魔比起石頭更愛彩色紙片？
 201742_name;店店：騎士
 201743_fluff;她的孩子繼承了她的美貌。
@@ -1263,7 +1238,6 @@
 202101_name;凱德威爾伯爵
 202102_fluff;您的工程師的臉像肉醬，但技巧可還真行。
 202102_name;夏維．雷夢斯
-202102_tooltip;<keyword=deploy>部署</keyword>、<keyword=melee>近戰</keyword>：<keyword=banish>驅逐</keyword>對方墓地中 {MaxTargets} 張以下的卡牌。\n<keyword=deploy>部署</keyword>、<keyword=ranged>遠程</keyword>：<keyword=banish>驅逐</keyword>我方墓地中 {MaxTargets} 張以下的卡牌。
 202103_fluff;牠剛飛到這裡棲息時，他們跟牠纏鬥了將近一世紀。接著龍打累了，他們也認清現實，知道龍不可能走了，所以……他們做了個交易。他們給牠想要的東西，龍就不會打擾他們。
 202103_name;凱杜力斯
 202103_tooltip;<keyword=melee>近戰</keyword>：回合結束時，摧毀場上單位牌最多那方的最小單位牌。
@@ -1307,7 +1281,6 @@
 202121_tooltip;<keyword=deploy>部署</keyword>：將 1 張單位牌移動至另一列。
 202122_fluff;我以前認識一對年輕的情侶——但是婚禮一結束就分開了。因為馬車裡放了顆炸彈。
 202122_name;砲兵
-202122_tooltip;<keyword=deploy>部署</keyword>：摧毀 1 張「文物」敵軍。
 202124_fluff;看起來像螃蟹和蜘蛛的混種……只是體型碩大無比。
 202124_name;巨型蟹蜘蛛
 202124_tooltip;無特殊能力。
@@ -1410,7 +1383,6 @@
 202160_tooltip;無特殊能力。
 202161_fluff;他們餵養我們的同胞，讓敵人血濺鐮刀。
 202161_name;里瑞亞鐮刀手
-202161_tooltip;<keyword=deploy>部署</keyword>：只要 1 張我軍獲得提升，就提升自身 {Boost} 點戰力。
 202162_fluff;這個精靈無論死活都是我的獵物。給我聽清楚了。
 202162_name;商隊首領
 202162_tooltip;無特殊能力。
@@ -1478,6 +1450,25 @@
 202183_tooltip;<keyword=doomed>氣數已盡</keyword>。\n<keyword=thrive>茁壯</keyword>。
 202184_fluff;一秒兩秒，看到外表；三秒四秒，趕緊躲好；五秒六秒，我們很有技巧；七秒八秒，你死定了我們都明瞭
 202184_tooltip;<keyword=doomed>氣數已盡</keyword>。
+202881_fluff;我不以有耐性出名，而你最好小心不要以無頭聞名。
+202881_name;恩希爾．恩瑞斯
+202882_fluff;尼弗迦德人叫我「特斯穆伊拉」，也就是海上野豬。他們還用我的名號來嚇唬小孩！
+202882_name;克拉奇．奎特
+202883_fluff;埃斯特前來辛特拉幫助克拉奇・奎特，以贏得帕維塔公主的青睞，但最後自己卻贏得了王后的芳心。
+202883_name;埃斯特．圖爾希曲
+202884_fluff;那個糟老頭？根本沒人分得清他是活人還是布偶！
+202884_name;布羅弗・霍格
+202885_fluff;國王曾派了名特使去拜訪艾爾丹……即便我反對。我們隔天就發現他的眼睛被挖了出來，喉嚨還插了根白旗。
+202885_name;艾爾丹
+202886_fluff;我不需要謀臣和他們的算計，我相信士兵的利刃。
+202886_name;弗爾泰斯特國王
+202887_fluff;我們在打仗，這時統治者不該掙扎更不做選擇。這時統治者會舉起劍和盾，並為了臣民起身迎戰。
+202887_name;梅芙女王
+202889_fluff;沒人知道暗影長者的年紀到底多大，連高等吸血鬼也不曉得。他們只知道不論遇到什麼情況，絕對不能違抗長者的命令。
+202889_name;暗影長者
+202892_fluff;給我衝，沒用的蠢貨！衝，不然你就會知道，我比尼弗迦德人更可怕！
+202892_name;科德溫中士
+202892_tooltip;<keyword=zeal>熱忱</keyword>。\n<keyword=order>軍令</keyword>：提升 1 張我軍 {Boost} 點戰力。\n<keyword=charge>裝填</keyword>：{Charges} 次。
 4_name_lt;暴雨
 64_name_lt;史凱利傑風暴
 8_name_lt;血月
