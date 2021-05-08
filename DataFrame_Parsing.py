@@ -11,7 +11,7 @@ import time
 start_time = time.time()
 
 # Definition of the paths of the diferent files to parse
-
+print(os.getcwd())
 path = "/data"
 art_def ='data/ArtDefinitions.xml'
 abities = 'data/Abilities.xml'
@@ -152,12 +152,12 @@ for child in root:
         arts = {"Type": [],
                 "ArtId": [],
                 'ArtistName':[]}
-        print(child.tag)
+        #print(child.tag)
         if child.tag == 'ArtDefinition':
             arts["Type"] = child.attrib['Type']
             arts["ArtId"] = child.attrib['ArtId']
             arts["ArtistName"] = child.attrib['ArtistName']
-            print(arts)
+            #print(arts)
             artes.append(arts)
     except:
         pass
@@ -181,9 +181,9 @@ import re
 local= 'data/Localization/en-us.csv'
 def clean_html(raw_html):
     cleanr = re.compile('<.*?>')
-    print(cleanr)
+    #print(cleanr)
     cleantext = re.sub(cleanr, '', raw_html)
-    print(cleantext)
+    #print(cleantext)
     return cleantext
 
 def tooltips_keyswords(self):
@@ -376,7 +376,7 @@ diccionarios = [FACTION_ID,
                 CARD_CATEGORY]
 
 # Saving of the dataframe before the substition of the values of the game variables for the numeric values, in case we want to try some Machine learning with the data in number not in categoric values.
-os.chdir(r'C:/Users/alexs/Desktop/Alejandro/Universidad/Proyectos/Gwent_Data/data')
+os.chdir(os.getcwd() + '/data')
 writer = pd.ExcelWriter('df_gwent_RAW.xlsx', engine='xlsxwriter')
 df_gwent.to_excel(writer, sheet_name='Data')
 writer.save() 
@@ -430,7 +430,7 @@ df_gwent = df_gwent[df_gwent['Type']!='Leader']
 
 
 
-os.chdir(r'C:/Users/alexs/Desktop/Alejandro/Universidad/Proyectos/Gwent_Data/data')
+#os.chdir('/data')
 # Saving of the final dataframe that will be used in the dashboard.
 writer = pd.ExcelWriter('df_gwent.xlsx', engine='xlsxwriter')
 df_gwent.to_excel(writer, sheet_name='Data')

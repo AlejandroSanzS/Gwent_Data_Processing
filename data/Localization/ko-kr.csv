@@ -66,13 +66,13 @@
 112201_tooltip;<keyword=deploy>배치</keyword>: 적의 기본형으로 변이한다.
 112202_fluff;난 평범한 위쳐야, 게롤트. 용하고 싸우거나 왕과 가까이 지내지도 않지. 소서리스와 사귀지도 않고 말이야...
 112202_name;에스켈
-112202_tooltip;<keyword=deploy>배치</keyword> (<keyword=adrenaline>아드레날린</keyword> {Adrenaline}): 내 덱에서 베스미어와 램버트를 <keyword=summon>소환</keyword>한다.
+112202_tooltip;<keyword=deploy>배치</keyword> (<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}): 내 덱에서 베스미어와 램버트를 <keyword=summon>소환</keyword>한다.
 112203_fluff;교수형을 당할 판이라면 물을 달라 하게. 그 사이 뭔 일이 터질진 모르지.
 112203_name;베스미어
-112203_tooltip;<keyword=deploy>배치</keyword> (<keyword=adrenaline>아드레날린</keyword> {Adrenaline}): 내 덱에서 에스켈과 램버트를 <keyword=summon>소환</keyword>한다.
+112203_tooltip;<keyword=deploy>배치</keyword> (<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}): 내 덱에서 에스켈과 램버트를 <keyword=summon>소환</keyword>한다.
 112204_fluff;이런 협상이라면 언제든 흔쾌히 받아들이지.
 112204_name;램버트
-112204_tooltip;<keyword=deploy>배치</keyword> (<keyword=adrenaline>아드레날린</keyword> {Adrenaline}): 내 덱에서 에스켈과 베스미어를 <keyword=summon>소환</keyword>한다.
+112204_tooltip;<keyword=deploy>배치</keyword> (<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}): 내 덱에서 에스켈과 베스미어를 <keyword=summon>소환</keyword>한다.
 112205_fluff;어미와 새끼 용 사이에 절대 끼어들어서는 안 되네.
 112205_name;미르그타브라케
 112205_tooltip;<keyword=deploy>배치</keyword>: 적 {MaxTargets}장에 {Damage} 피해를 준다.
@@ -418,10 +418,10 @@
 132220_tooltip;<keyword=thrive>번창</keyword>. \n<keyword=deploy>배치</keyword>: 에키마라를 <keyword=spawn>생성</keyword>하여 이 전열로 <keyword=summon>소환</keyword>한다.\n<keyword=deathwish>유언</keyword>: <keyword=deploy>배치</keyword> 능력을 반복한다.
 132301_fluff;안개는 고양이처럼 살금살금 기어 올라온다. 포글렛은 시체 위를 슬금슬금 기어 올라온다.
 132301_name;포글렛
-132301_tooltip;<keyword=deathwish>유언</keyword>: 내 덱에서 이 유닛을 이 전열로 모두 <keyword=summon>소환</keyword>한다.
+132301_tooltip;<keyword=deathwish>유언</keyword>: 반대편 전열에 {counter}턴 동안 <keyword=fog>안개</keyword>를 <keyword=spawn>생성</keyword>한다.
 132302_fluff;인간의 마음속에는 다양하고 원초적인 공포가 도사린다. 안개가 드리우면 느끼는 두려움도 그중 하나다.
 132302_name;고대 포글렛
-132302_tooltip;<keyword=deathwish>유언</keyword>: 이 유닛을 무덤에서 같은 전열로 <keyword=summon>소환</keyword>하여 {Boost} 증폭하고 <keyword=doomed>소멸</keyword>을 준다.
+132302_tooltip;<keyword=veil>장막</keyword>.\n<keyword=deploy>배치</keyword>: 상대 진영 전열 효과의 총 지속 시간만큼 자신을 증폭한다.\n내가 전열 효과를 적용할 때마다, 그 지속 시간만큼 자신을 증폭한다.
 132303_fluff;날개 달린 뱀과 나이트메어가 섞였다고 상상해 봐. 와이번은 그보다 더 끔찍하다고.
 132303_name;와이번
 132303_tooltip;<keyword=thrive>번창</keyword>.\n<keyword=deploy>배치</keyword> (<keyword=ranged>원거리</keyword>): 적에게 {Damage} 피해를 준다.
@@ -612,7 +612,7 @@
 142317_tooltip;<keyword=deploy>배치</keyword>: 이 전열의 아군 드워프 수만큼 자신을 증폭한다.
 142401_fluff;도시 곳곳에서 벌어지는 종족 차별과 타 종족 혐오에 환멸을 느낀 비인간들은 스코이아텔에 가담하기로 했다.
 142401_name;스코이아텔 신참
-142401_tooltip;<keyword=deploy>배치</keyword>: 이 유닛의 기본형을 <keyword=spawn>생성</keyword>하여 다른 아군 전열로 <keyword=summon>소환</keyword>한다.
+142401_tooltip;<keyword=deploy>배치</keyword>: 다른 전열에 이 유닛의 기본형을 <keyword=spawn>생성</keyword>한다.\n<keyword=order>명령</keyword>: 모든 아군 엘프를 엘프 명사수로 변이시킨다.
 143201_fluff;너희는 이 땅에 태어났다는 이유만으로 자연의 풍요로움을 거침없이 빼앗아갔다. 하지만 대자연은 결실을 본 뒤 자연스레 그 은총을 우리에게 나눠주었다. 우리가 자연을 사랑한 만큼 자연도 우리에게 그 사랑을 되돌려 준 것이다.
 143201_name;뱀 함정
 143201_tooltip;<keyword=ambush>매복</keyword>: 상대가 특수 카드를 내면 전력이 가장 높은 적을 파괴한다.\n<keyword=spring>반전</keyword>: 전력이 가장 낮은 적을 파괴한다.
@@ -638,7 +638,7 @@
 152106_tooltip;<keyword=deploy>배치</keyword> (<keyword=melee>근접</keyword>): 피해받은 적 수의 2배만큼 적에게 피해를 준다.
 152107_fluff;그녀의 진짜 이름은 아스트리드 리트네이드 아스기어르핀비욘스토디르지만 너무 길어서 문서에 사용할 일은 없다.
 152107_name;코랄
-152107_tooltip;<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 카드 1장을 <keyword=discard>버리고</keyword> 카드를 뽑는다.\n내가 특수 카드를 <keyword=discard>버릴</keyword> 때마다 무작위 적에게 {Damage} 피해를 준다.
+152107_tooltip;<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 카드 1장을 <keyword=discard>버리고</keyword> 카드를 뽑는다.\n내가 카드를 <keyword=discard>버릴</keyword> 때마다 무작위 적에게 {Damage} 피해를 준다.
 152109_fluff;닐프가드인이라면 이 악명높은 배의 이름만 들어도 바지를 축축하게 지릴 것이다...
 152109_name;바다의 멧돼지
 152109_tooltip;<keyword=Deploy>배치</keyword> (<keyword=melee>근접</keyword>): 피해받은 모든 적에게 {damage} 피해를 주고, 모든 적에게 {damage2} 피해를 준다.
@@ -937,10 +937,10 @@
 200036_tooltip;<keyword=deploy>배치</keyword>: 인접한 적 {maxtargets}장에 {Damage} 피해를 준다.\n<keyword=bloodthirst>피의 굶주림</keyword> {Bloodthirst}: 대신 선택한 전열의 모든 유닛에 {Damage} 피해를 준다.
 200037_fluff;눈을 너무 빤히 쳐다보면 안 돼. 아주 싫어한다고...
 200037_name;사이클롭스
-200037_tooltip;<keyword=deploy>배치</keyword> (<keyword=melee>근접</keyword>): 인접한 아군을 파괴하고 적에게 그 전력만큼 피해를 준다.
+200037_tooltip;<keyword=deploy>배치</keyword>: 인접한 아군을 파괴하고 파괴된 카드의 전력만큼 적에게 피해를 준다.
 200038_fluff;구전에 따르면 아키스포어는 죽은 자의 피를 양분으로 삼아 싹을 틔운다고 전해진다. 이들이 어둠의 의식을 진행한 곳, 잔혹한 살인 현장, 대학살이 이루어진 곳에서 잘 자라나는 이유다.
 200038_name;아키스포어
-200038_tooltip;<keyword=deploy>배치</keyword>: 무작위 적에게 {Damage} 피해를 준다. \n<keyword=deathwish>유언</keyword>: <keyword=deploy>배치</keyword> 능력을 반복한다.
+200038_tooltip;<keyword=deathwish>유언</keyword>: 내 덱에서 이 유닛을 이 전열로 모두 <keyword=summon>소환</keyword>한다.
 200039_fluff;우리가 있는 한 그 어떤 인간도 돌 블라타나의 초원을 밟지 못할 것이다.
 200039_name;돌 블라타나 보초
 200039_tooltip;<keyword=melee>근접</keyword>: 적이 이동할 때마다 {Damage} 피해를 준다.\n<keyword=ranged>원거리</keyword>: 아군이 이동할 때마다 그 유닛을 {Boost} 증폭한다.
@@ -967,7 +967,7 @@
 200048_tooltip;<keyword=deploy>배치</keyword>: 아군 마법사를 {Boost} 증폭한다.
 200049_fluff;이래도 안 열어? 그럼 더 세게 두드려야겠군.
 200049_name;공성 망치
-200049_tooltip;<keyword=order>명령</keyword> (<keyword=ranged>원거리</keyword>): 공성 망치를 <keyword=melee>근접</keyword> 전열로 이동시키고, 전력이 가장 높은 적에게 {Damage} 피해를 준다.\n<keyword=crew>대원</keyword>: <keyword=zeal>열의</keyword>를 획득한다.
+200049_tooltip;<keyword=deploy>배치</keyword>, <keyword=crew>대원</keyword>: <keyword=zeal>열의</keyword>를 획득한다.\n<keyword=order>명령</keyword> (<keyword=ranged>원거리</keyword>): <keyword=melee>근접</keyword> 전열로 이동해, 전력이 가장 높은 적에게 {damage} 피해를 준다.
 200050_fluff;위대한 태양의 빛이 북부에 비출 수만 있다면 내 기꺼이 이 한 몸 바쳐 너희를 몰살하리라!
 200050_name;브림데
 200050_tooltip;<keyword=deploy>배치</keyword>: 아군 병사와, 동일한 모든 유닛을 {Boost} 증폭한다.
@@ -1009,7 +1009,7 @@
 200081_tooltip;<keyword=Deploy>배치</keyword> (<keyword=ranged>원거리</keyword>): 아군을 {Boost} <keyword=heal>치유</keyword>하고, {Boost2} 증폭한다.
 200083_fluff;이름 같은 게 뭐가 중요해? 그냥… 친구라고 생각해.
 200083_name;이리스의 동료
-200083_tooltip;<keyword=deploy>배치</keyword>: 내 덱에서 원하는 카드를 뽑고 무작위 카드를 <keyword=discard>버린다</keyword>.
+200083_tooltip;<keyword=deploy>배치</keyword>: 카드 1장을 선택하여 뽑고 무작위 카드 1장을 <keyword=discard>버린다</keyword>.\n단, 이리스가 내 손에 있다면 카드 1장을 선택하여 <keyword=discard>버린다</keyword>.
 200087_fluff;도레게레이는 말이야. 위쳐처럼 괴물 애호가야. 자기만의 분류 기준을 만들었을 정도지. 네크로파지와 오그로이드 따위로 나누지 않고 몽땅 멋지다고 생각하거든.
 200087_name;볼르의 도레게레이
 200087_tooltip;<keyword=deploy>배치</keyword>: 유닛을 <keyword=lock>구속</keyword>한다.
@@ -1090,13 +1090,13 @@
 200160_tooltip;<keyword=order>명령</keyword>: 적에게 {Damage} 피해를 준다. <keyword=cooldown>쿨다운</keyword>: {Cooldown}.\n\n이 능력은 덱의 유지비 한도를 {Template.Provision} 늘린다.
 200161_fluff;하랄드가 왜 그런 별명을 얻었는지는 아무도 모른다. 물어볼 엄두를 못 내기 때문이다.
 200161_name;난폭한 광풍
-200161_tooltip;<keyword=order>명령</keyword>: <keyword=armor>방어구</keyword>를 무시하고 모든 적에게 {Damage} 피해를 무작위로 나누어 준다.\n\n이 능력은 덱의 유지비 한도를 {Template.Provision} 늘린다.
+200161_tooltip;<keyword=order>명령</keyword>: <keyword=armor>방어구</keyword>를 무시하고 모든 적에게 {Damage} 피해를 무작위로 나누어 준다.\n<keyword=charge>충전</keyword>: {charge}.\n\n이 능력은 덱의 유지비 한도를 {Template.Provision} 늘린다.
 200162_fluff;짐은 참을성이 없다. 목이 날아가고 싶지 않다면 스스로 삼가도록.
 200162_name;구금
 200162_tooltip;<keyword=order>명령</keyword>: 적을 <keyword=lock>구속</keyword>하고 {Damage} 피해를 준다. <keyword=charge>충전</keyword>: {Charges}.\n\n이 능력은 덱의 유지비 한도를 {Template.Provision} 늘린다.
 200163_fluff;잔잔한 알바 해에 한여름 태양이 비치는 광경. 내게 닐프가드는 그런 모습이지.
 200163_name;제국의 진형
-200163_tooltip;<keyword=order>명령</keyword>: 아군을 {Boost} 증폭한다. <keyword=charge>충전</keyword>: {Charges}.\n<keyword=charge>충전</keyword>량을 전부 소모하면, 내 덱에서 병사 1장을 맨 위로 옮긴다.\n\n이 능력은 덱의 유지비 한도를 {Template.Provision} 늘린다.
+200163_tooltip;<keyword=order>명령</keyword>: 아군을 {Boost} 증폭한다. <keyword=charge>충전</keyword>: {Charges}.\n<keyword=charge>충전</keyword>량을 전부 소모하면, 내 덱에서 병사 1장을 맨 위로 옮긴다.\n내가 병사를 낼 때마다, 그 병사에게 인접한 병사 하나당 <keyword=armor>방어구</keyword>를 {Armor} 부여한다.\n\n이 능력은 덱의 유지비 한도를 {Template.Provision} 늘린다.
 200164_fluff;무력은 군주가 동원할 수 있는 수많은 수단 중 하나일 뿐이라네.
 200164_name;전술적 결정
 200164_tooltip;<keyword=order>명령</keyword>: 모르브란 부히스를 <keyword=spawn>생성</keyword>하여 낸다.\n\n이 능력은 덱의 유지비 한도를 {Template.Provision} 늘린다.
@@ -1153,13 +1153,13 @@
 200226_tooltip;전력이 짝수인 모든 유닛에 {Damage} 피해를 주거나 전력이 홀수인 모든 유닛에 {Damage} 피해를 준다.
 200228_fluff;단순하고 저렴하며 효율적이다. 스코이아텔이 애용할 만하다.
 200228_name;구멍 함정
-200228_tooltip;<keyword=ambush>매복</keyword>: 상대가 카드를 내면 모든 적에게 그 카드의 유지비만큼 피해를 무작위로 나누어 준다.\n<keyword=spring>반전</keyword>: 모든 적에게 {Damage} 피해를 무작위로 나누어 준다.
+200228_tooltip;<keyword=ambush>매복</keyword>: 상대가 카드를 공개하면 모든 적에게 그 카드의 유지비만큼 피해를 무작위로 나누어 준다.\n<keyword=Spring>반전</keyword>: 모든 적에게 {damage} 피해를 무작위로 나누어 준다.
 200233_fluff;놈은 늘 왼쪽 신장 아래나 대동맥을 노리지. 그러면 사냥감을 한 방에 끝낼 수 있거든.
 200233_name;코카트리스
 200233_tooltip;<keyword=deploy>배치</keyword>: 인접한 야수 하나당 적에게 {Damage} 피해를 준다.
 200234_fluff;저는 참전 용사입니다! 크라운 한 닢만 주실 수 있을까요?
 200234_name;찢어지게 가난한 보병
-200234_tooltip;<keyword=deploy>배치</keyword>: 자신을 {Boost} 증폭한다.
+200234_tooltip;<keyword=deploy>배치</keyword>: 이 유닛의 양옆에 형편없는 왼쪽 진형과 형편없는 오른쪽 진형을 <keyword=spawn>생성</keyword>한다.\n<keyword=bonded>유대</keyword>: 자신을 {Boost} 증폭한다.
 200235_fluff;가서 할미 똥이나 치우시지!
 200235_name;램버트: 소드마스터
 200235_tooltip;<keyword=deploy>배치</keyword>: 적 하나와 동일한 모든 적에게 {Damage} 피해를 준다.
@@ -1168,7 +1168,7 @@
 200236_tooltip;<keyword=melee>근접</keyword>: 내 턴 종료마다, 자신을 {Boost} 증폭한다.
 200237_fluff;괴물 사냥은 쉬운 일이 아니야. 시리가 우리 일행에 끼려면 그 사실을 깨달아야 해.
 200237_name;베스미어: 스승
-200237_tooltip;<keyword=deploy>배치</keyword>: 전장의 모든 아군 위쳐를 {Boost} 증폭한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 또한, 내 손과 덱에 있는 위쳐들을 증폭한다.
+200237_tooltip;<keyword=deploy>배치</keyword>: 전장의 모든 아군 위쳐를 {Boost} 증폭한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 또한, 내 손과 덱에 있는 위쳐들을 증폭한다.
 200293_fluff;"잘 들으쇼. 지금 그 궁둥짝들을 털고 일어나지 않으면 인간이 쳐들어와서 우리 여인네를 다 잡아갈 거요!"
 200293_name;드워프 선동자
 200293_tooltip;<keyword=deploy>배치</keyword> (<keyword=ranged>원거리</keyword>): 내 손에 있는 드워프를 {Boost} 증폭한다.
@@ -1273,7 +1273,7 @@
 201587_tooltip;내 덱에서 <keyword=deathwish>유언</keyword> 능력이 있는 유닛을 낸다.
 201589_fluff;우린 뿔뿔이 흩어졌고 수도 적지만, 마음만은 그 어떤 때보다 뜨겁다.
 201589_name;활기 부여
-201589_tooltip;<keyword=order>명령</keyword>: 내 손에 있는 모든 유닛을 {Boost} 증폭한다.\n\n이 능력은 덱의 유지비 한도를 {Template.Provision} 늘린다.
+201589_tooltip;<keyword=order>명령</keyword>: 내 손에 있는 유닛 {maxtargets}장을 {Boost} 증폭한다.\n<keyword=charge>충전</keyword>: {charges}.\n\n이 능력은 덱의 유지비 한도를 {Template.Provision} 늘린다.
 201595_fluff;저주는 사라졌지만 공주는 여전히 날고기를 선호했다.
 201595_name;방패 장벽
 201595_tooltip;<keyword=order>명령</keyword>: 아군을 {Boost} 증폭하고 <keyword=shield>보호막</keyword>을 준다.\n<keyword=charge>충전</keyword>: {Charges}.\n\n이 능력은 덱의 유지비 한도를 {Template.Provision} 늘린다.
@@ -1834,7 +1834,7 @@
 202186_tooltip;<keyword=order>명령</keyword>: 상대의 손에 있는 카드를 <keyword=create>창조</keyword>하여 낸다.\n\n이 능력은 덱의 유지비 한도를 {Template.Provision} 늘린다.
 202187_fluff;사람들은 그녀를 '신트라의 암사자'라 부르지. 물론 그리 부르는 합당한 이유가 있고.
 202187_name;협동 작전
-202187_tooltip;<keyword=order>명령</keyword>: 북부 왕국 카드 1장을 선택하여 뽑고, 내 손에 있는 카드 1장을 덱에 섞는다. 뽑은 카드가 유닛이라면, 그 카드를 {Boost} 증폭한다.\n\n이 능력은 덱의 유지비 한도를 {Template.Provision} 늘린다.
+202187_tooltip;<keyword=order>명령</keyword>: 북부 왕국 카드 1장을 선택하여 뽑고, 내 손에 있는 카드 1장을 덱에 섞은 후, 내 <keyword=melee>근접</keyword> 전열에 자원병을 <keyword=spawn>생성</keyword>한다.\n<keyword=charge>충전</keyword>: {Charges}.\n\n이 능력은 덱의 유지비 한도를 {Template.Provision} 늘린다.
 202188_fluff;그녀는 꽃관을 쓴 금발 여인의 모습으로 나타났다. 모든 생물이 그녀에게 절하고 그녀를 따랐다.
 202188_name;조화의 부름
 202188_tooltip;<keyword=order>명령</keyword>: 다나 메드브를 <keyword=spawn>생성</keyword>하여 낸다.\n\n이 능력은 덱의 유지비 한도를 {Template.Provision} 늘린다.
@@ -1852,7 +1852,7 @@
 202192_tooltip;<keyword=deploy>배치</keyword>: 적에게 {Damage} 피해를 준다.\n<keyword=deathblow>치명타</keyword>: 그 유닛의 기본형을 <keyword=spawn>생성</keyword>하여 낸다.
 202193_fluff;그 아가씨들이 혼자 놀러 오고 싶으면 언제든 '옛날옛적 동화나라'를 펼치고 "익스펙토 루덤"이라고 주문을 외우면 된다고 했어.
 202193_name;옛날옛적 동화나라
-202193_tooltip;<keyword=deploy>배치</keyword>: 내 덱에서 특수 카드를 낸다.
+202193_tooltip;<keyword=resilient>잔류</keyword>.\n<keyword=deploy>배치</keyword>: 내 덱에서 특수 카드를 낸다.\n<keyword=order>명령</keyword>: 내 손에 있는 특수 카드를 같은 세력의 같은 유지비를 지닌 무작위 유닛으로 변이시킨다.
 202194_fluff;전하... 공주님은 검은 태양의 저주에 걸려 정신이 이상해지셨습니다. 안타깝지만 희망이 없습니다...
 202194_name;시에나
 202194_tooltip;<keyword=order>명령</keyword>: 내가 이번 턴에 내는 다음 유닛의 <keyword=deploy>배치</keyword> 능력을 반복한다.
@@ -2098,7 +2098,7 @@
 202277_tooltip;<keyword=deploy>배치</keyword>: 오른쪽에 있는 아군에 그 유닛의 현재 전력의 반만큼 피해를 주고, 적에게도 동일한 피해를 준다.
 202278_fluff;스발블로드를 위한 토템을 모두 부수라는 명령이 있었지만, 인적이 드문 해안에서는 남아 있는 토템이 아직도 희생자를 만들고 있다.
 202278_name;스발블로드 토템
-202278_tooltip;<keyword=deploy>배치</keyword>: 이 카드의 양옆에 스발블로드 광신도를 <keyword=spawn>생성</keyword>한다.\n<keyword=order>명령</keyword>: 인접한 유닛들에 {Damage} 피해를 준다.
+202278_tooltip;<keyword=resilient>잔류</keyword>.\n<keyword=deploy>배치</keyword>: 이 카드의 양옆에 스발블로드 광신도를 <keyword=spawn>생성</keyword>한다.\n<keyword=order>명령</keyword>: 인접한 유닛들에 {Damage} 피해를 준다.
 202279_fluff;안타깝지만 모든 스발블로드 사제가 섬에서 쫓겨난 것은 아니다...
 202279_name;아리츠
 202279_tooltip;<keyword=ranged>원거리</keyword>: 유닛을 낼 때마다 그 유닛이 지닌 전력의 반만큼 피해를 준다.
@@ -2161,7 +2161,7 @@
 202298_tooltip;<keyword=deploy>배치</keyword>: 적의 전력만큼 <keyword=coin>코인</keyword>을 소비하고 적을 <keyword=seize>강탈</keyword>한다.
 202299_fluff;어디서 본 것 같은데...?
 202299_name;시기 루벤
-202299_tooltip;<keyword=intimidate>위협</keyword>.\n<keyword=profit>수익</keyword> {Income}.\n내 시작 덱에 있는 갱단 유형 하나당 시기 루벤의 초기 <keyword=profit>수익</keyword>이 {Income2} 증가한다.
+202299_tooltip;<keyword=intimidate>위협</keyword>.\n<keyword=profit>수익</keyword> {Income+B.P.BB_Gangs}.\n내 시작 덱에 있는 갱단 유형 하나당 시기 루벤의 초기 <keyword=profit>수익</keyword>이 {Income2} 증가한다.
 202300_fluff;거래를 끊으신다니 아쉽네요. 그럼 샹파넬리 은행의 그 착한... 멍청이들이랑 잘 지내세요.
 202300_name;비발디 은행
 202300_tooltip;<keyword=profit>수익</keyword> {Income}.\n보유한 <keyword=coin>코인</keyword>에 하나를 더한만큼 내 덱 맨 위에 있는 카드를 본다. 덱 맨 위에 있는 카드를 비용 없이 내거나, 덱 맨 위에서 떨어진 거리만큼 <keyword=coin>코인</keyword>을 지불하고 다른 카드를 낸다. 남은 카드는 덱에 섞는다.
@@ -2185,13 +2185,13 @@
 202306_tooltip;<keyword=deploy>배치</keyword> (<keyword=melee>근접</keyword>): 아군을 <keyword=heal>치유</keyword>한다.\n<keyword=deploy>배치</keyword> (<keyword=ranged>원거리</keyword>): 아군을 {Boost} 증폭한다.\n<keyword=tribute>공납</keyword> {Tribute-B.P.BB_Tribute}: 두 가지 <keyword=deploy>배치</keyword> 능력을 합친다.
 202307_fluff;제 경매장은 상류층 중에서도 최상위 계층만을 위한 곳이죠.
 202307_name;호르스트 볼소디
-202307_tooltip;<keyword=deploy>배치</keyword>: {Coins}<keyword=coin>코인</keyword>을 획득한다.\n단, 에발트 볼소디가 내 무덤에 있으면 {Coins2}<keyword=coin>코인</keyword>을 획득한다.
+202307_tooltip;<keyword=deploy>배치</keyword>: {Coins}<keyword=coin>코인</keyword>을 획득한다.\n단, 에발트 볼소디가 내 무덤에 있으면 {coins2}<keyword=coin>코인</keyword>을 획득한다.\n<keyword=fee>수수료</keyword> {cost}: 아군에 {vitality}턴 동안 <keyword=vitality>활력</keyword>을 준다.
 202308_fluff;그녀의 달콤한 말에 넘어갈수록 손해만 커질 겁니다.
 202308_name;음흉한 요부
 202308_tooltip;<keyword=fee>수수료</keyword> {Cost}: <keyword=shield>보호막</keyword>을 획득한다.\n상대가 유닛을 낼 때마다 자신을 {Boost} 증폭한다.\n<keyword=bonded>유대</keyword>: 상대가 카드를 낼 때마다 자신을 {Boost} 증폭한다.
 202309_fluff;오랫동안 준비해온 계획을 실행할 순간이 왔군. 나를 도와주겠나?
 202309_name;에발트 볼소디
-202309_tooltip;<keyword=deploy>배치</keyword>: 적에게 {damage} 피해를 준다.\n단, 호르스트 볼소디가 내 무덤에 있으면 적에게 {damage2} 피해를 준다.
+202309_tooltip;<keyword=deploy>배치</keyword>: 적에게 {damage} 피해를 준다.\n단, 호르스트 볼소디가 내 무덤에 있으면 적에게 {damage2} 피해를 준다.\n<keyword=fee>수수료</keyword> {cost}: 적에게 {bleed}턴 동안 <keyword=bleeding>출혈</keyword>을 건다.
 202310_fluff;죄송합니다, 아가씨... 제가 자꾸 덜렁대는 바람에...
 202310_name;소매치기
 202310_tooltip;<keyword=profit>수익</keyword> {Income}.
@@ -2206,7 +2206,7 @@
 202313_tooltip;<keyword=profit>수익</keyword> {Income}.\n<keyword=tribute>공납</keyword> {Tribute-B.P.BB_Tribute}: 음흉한 요부를 <keyword=spawn>생성</keyword>하여 이 전열로 <keyword=summon>소환</keyword>한다.
 202314_fluff;가족을 위해서야. 난 항상 가족이 우선이었어!
 202314_name;뒷골목 약사
-202314_tooltip;<keyword=deploy>배치</keyword>: 아군에 <keyword=poison>중독</keyword>을 걸고 {Boost} 증폭한다.
+202314_tooltip;<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 아군에 <keyword=poison>중독</keyword>을 걸고 {Boost} 증폭한다.
 202315_fluff;컬크스타인은 세상을 떠나기 전, 자애로우신 우리 폐하에 대해 불경스러운 말을 남겼지...
 202315_name;아달베르투스 컬크스타인
 202315_tooltip;<keyword=profit>수익</keyword> {Income}.\n<keyword=fee>수수료</keyword> {Cost}: 유닛을 <keyword=purify>정화</keyword>한다.
@@ -2215,7 +2215,7 @@
 202316_tooltip;<keyword=profit>수익</keyword> {Income}.\n<keyword=fee>수수료</keyword> {Cost}: 아군에 {Vitality}턴 동안 <keyword=vitality>활력</keyword>을 준다.
 202317_fluff;벌은 별로 안 좋아한다니까.
 202317_name;리코 마이어스도르프
-202317_tooltip;리코가 내 손에 있으면, 상대가 유닛을 낼 때마다 리코의 전력을 그 유닛의 전력과 동일하게 설정한다.
+202317_tooltip;리코가 내 손이나 덱에 있으면, 상대가 유닛을 낼 때마다 리코의 전력을 그 유닛의 전력과 동일하게 설정한다.
 202318_fluff;머리카락은 건드리지 않을 테니 걱정 말라고.
 202318_name;마녀 사냥꾼 집행인
 202318_tooltip;<keyword=profit>수익</keyword> {Income}.\n<keyword=fee>수수료</keyword> {Cost}: 적에게 {Bleed}턴 동안 <keyword=bleeding>출혈</keyword>을 건다. 단, 적에게 <keyword=bounty>현상금</keyword>이 걸려 있다면 {Damage} 피해를 준다.
@@ -2368,7 +2368,7 @@
 202368_tooltip;<keyword=insanity>광기</keyword>.\n<keyword=fee>수수료</keyword> {Cost}: 내 덱에서 이 유닛을 이 전열로 모두 <keyword=summon>소환</keyword>한다.
 202369_fluff;영원의 화염이 악을 불태울지어다!
 202369_name;화염의 수호자
-202369_tooltip;<keyword=deploy>배치</keyword>: 인접한 유닛들을 {Boost} 증폭한다.\n<keyword=tribute>공납</keyword> {Tribute-B.P.BB_Tribute}: 대신 이 전열의 모든 유닛을 {Boost} 증폭한다.
+202369_tooltip;<keyword=deploy>배치</keyword>: 인접한 유닛들을 {Boost} 증폭한다.\n<keyword=tribute>공납</keyword> {Tribute-B.P.BB_Tribute}: 대신 이 전열의 모든 유닛을 {Boost} 증폭한다.\n아군 성직자 하나당 이 카드의 <keyword=tribute>공납</keyword> 비용을 {cost} 낮춘다.
 202370_fluff;그녀는 구드론의 마음을 사로잡자마자 그것을 이용하려고 했다.
 202370_name;임케
 202370_tooltip;<keyword=ranged>원거리</keyword>: 내 턴 종료마다, {Coins}<keyword=coin>코인</keyword>을 획득한다.\n<keyword=fee>수수료</keyword> {Cost}: <keyword=shield>보호막</keyword>을 획득한다.
@@ -2386,7 +2386,7 @@
 202374_tooltip;아군 전열에 화염추종자 광신도를 {Counter}장 <keyword=spawn>생성</keyword>한다.\n선택한 전열에 화염추종자 유닛이 있다면, 화염추종자 광신도를 {Counter2}장 <keyword=spawn>생성</keyword>한다.
 202375_fluff;그렇게 귀가 밝으면 음악가나 하지. 그럼 박수갈채 속에서 부자가 됐을 텐데.
 202375_name;하플링 금고털이범
-202375_tooltip;<keyword=intimidate>위협</keyword>.\n<keyword=deploy>배치</keyword>: 내 손에 있는 범죄 카드 하나당 자신을 {Boost} 증폭한다.
+202375_tooltip;<keyword=deploy>배치</keyword>: 내 손에 있는 범죄 카드 하나당 자신을 {Boost} 증폭한다.
 202376_fluff;나라면 방해하지 않겠어. 저 펜촉은 엄청 날카롭거든.
 202376_name;화염추종자 필경사
 202376_tooltip;<keyword=ranged>원거리</keyword>: 내가 전장에 유닛을 <keyword=spawn>생성</keyword>할 때마다 {Coins}<keyword=coin>코인</keyword>을 획득한다.\n<keyword=tribute>공납</keyword> {Tribute-B.P.BB_Tribute}: 자신을 {Boost} 증폭한다.
@@ -2431,7 +2431,7 @@
 202389_tooltip;<keyword=deploy>배치</keyword> (<keyword=melee>근접</keyword>): 내 덱에서 범죄 카드를 낸다.
 202390_fluff;덕분에 오늘 밤엔 내 돼지들이 굶을 일은 없겠군
 202390_name;해적 소굴
-202390_tooltip;<keyword=order>명령</keyword>: 아군 전열에 바다 자칼을 <keyword=spawn>생성</keyword>하고, {Coins} <keyword=coin>코인</keyword>을 획득한다.\n\n이 능력은 덱의 유지비 한도를 {Template.Provision} 늘린다.
+202390_tooltip;<keyword=order>명령</keyword>: 아군 전열에 바다 자칼을 <keyword=spawn>생성</keyword>한다.\n<keyword=charge>충전</keyword>: {charges}.\n\n이 능력은 덱의 유지비 한도를 {Template.Provision} 늘린다.
 202392_fluff;거짓으로 배를 채우는 도시에선, 진실이 무기가 되는 법이지.
 202392_name;발터 베리타스
 202392_tooltip;<keyword=deploy>배치</keyword>: 브론즈 신디케이트 세력 카드를 창조하여 낸다.
@@ -2470,7 +2470,7 @@
 202404_tooltip;이 유닛은 항상 <keyword=armor>방어구</keyword>와 동일한 전력을 유지한다.
 202405_fluff;귀자르므? 메이스? 모닝스타? 자네가 원하는 건 여기 다 있다네.
 202405_name;무기고
-202405_tooltip;유닛을 {Boost} 증폭하고 <keyword=armor>방어구</keyword>를 {Armor} 부여한다.
+202405_tooltip;<keyword=resilient>잔류</keyword>.\n<keyword=deploy>배치</keyword>: 아군을 {Boost} 증폭한다.\n<keyword=order>명령</keyword>: 아군에 <keyword=armor>방어구</keyword>를 {armor} 부여한다.
 202406_fluff;백기를 흔드는 건 부끄러운 일이 아니야.
 202406_name;항복
 202406_tooltip;선택한 전열에 있는 모든 유닛의 <keyword=armor>방어구</keyword>를 {Damage} 만큼 제거하고, {Damage2} 피해를 준다.
@@ -2647,7 +2647,7 @@
 202468_tooltip;<keyword=harmony>조화</keyword> {Harmony}.
 202469_fluff;먼로는 증기 수력 망치 공장을 만들고자 했지만, 비지마에서 제일 악명 높은 술집의 경비원으로 살았다...
 202469_name;먼로 브루이스
-202469_tooltip;<keyword=deploy>배치</keyword>: 아군 시끄러운 드워프 {Maxtargets}장을 드워프 광전사로 변이시킨다.
+202469_tooltip;<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 아군 시끄러운 드워프 {Maxtargets}장을 드워프 광전사로 변이시킨다.\n<keyword=charge>충전</keyword>: {charges}.
 202470_fluff;난 단순한 남자야. 술 마시고, 먹고, 야한 노래 부르는 걸 좋아하지. 파티가 끝나고 난 뒤, 모닥불에 오줌 싸는 것도 그렇고!
 202470_name;피기스 메를루조
 202470_tooltip;<keyword=defender>수호자</keyword>.\n<keyword=deploy>배치</keyword>: 이 전열에 시끄러운 드워프를 <keyword=spawn>생성</keyword>한다.
@@ -2704,19 +2704,19 @@
 202487_tooltip;<keyword=deploy>배치</keyword>: 상대 덱 맨 위에 있는 카드와 내 덱 맨 위에 있는 카드를 교환한다.
 202491_fluff;사람들은 바실리스크와 눈을 마주치면 죽는다고 생각하지만, 사실은 독에서 나오는 무색의 연기가 상대를 죽음으로 몰고 가는 것이다...
 202491_name;바실리스크 독
-202491_tooltip;<keyword=order>명령</keyword>: 무작위 적에게 <keyword=poison>중독</keyword>을 건다.
+202491_tooltip;<keyword=order>명령</keyword>: 유닛에 <keyword=poison>중독</keyword>을 건다.
 202493_fluff;문진용으로 딱이군.
 202493_name;수정 두개골
 202493_tooltip;<keyword=order>명령</keyword>: 아군을 {Boost} 증폭하고 <keyword=veil>장막</keyword>을 부여한다.
 202497_fluff;기울여서 자세히 들어 보면 속삭이는 소리가 들린다...
 202497_name;마법에 걸린 갑옷
-202497_tooltip;<keyword=order>명령</keyword>: 내 손에 있는 유닛을 {Boost} 증폭한다.
+202497_tooltip;<keyword=order>명령</keyword>: 내 손에 있는 유닛을 {Boost} 증폭하고, <keyword=armor>방어구</keyword>를 {Armor} 부여한다.
 202498_fluff;봉인에 똑똑히 쓰여 있다. "열지 마시오". 하지만 언제나 그랬듯...호기심이 일을 크게 만들 것이다.
 202498_name;저주받은 스크롤
-202498_tooltip;<keyword=order>명령</keyword>: 내 덱 맨 위에 있는 카드 {Maxtargets}장을 확인하여 그중 1장을 뽑고, 손에 있는 카드 1장을 덱의 맨 아래에 놓는다.
+202498_tooltip;<keyword=order>명령</keyword>: 내 덱에서 카드 1장을 선택하여 뽑고, 내 손에 있는 카드 1장을 내 덱 맨 밑에 놓는다.
 202500_fluff;왕자의 관처럼 화려하며, 도살자의 칼처럼 날카롭도다.
 202500_name;의식용 단검
-202500_tooltip;<keyword=order>명령</keyword>: 적에게 {Bleeding}턴 동안 <keyword=bleeding>출혈</keyword>을 건다.
+202500_tooltip;<keyword=order>명령</keyword>: 적에게 {Damage} 피해를 주고, {Bleeding}턴 동안 <keyword=bleeding>출혈</keyword>을 건다.
 202501_fluff;조금은 빛이 바랬지만, 살짝 문질러 주기만 하면 빛을 되찾을 것이다.
 202501_name;마법 등불
 202501_tooltip;<keyword=order>명령</keyword>: 램프의 진으로 변이한다.
@@ -2749,7 +2749,7 @@
 202511_tooltip;적에게 {Damage} 피해를 준다.\n<keyword=deathblow>치명타</keyword>: 인접한 유닛들을 <keyword=purify>정화</keyword>한다.
 202512_fluff;시간은 흐르는 게 아니라 순환하는 것이다. 과거가 미래가 되듯, 할아버지가 손자의 실수를 반복한다.
 202512_name;우로보로스의 가면
-202512_tooltip;<keyword=order>명령</keyword>: 카드 1장을 뽑고 1장을 <keyword=discard>버린다</keyword>. 아군 <keyword=melee>근접</keyword> 전열에 까마귀를 <keyword=spawn>생성</keyword>한다.
+202512_tooltip;<keyword=order>명령</keyword>: 카드 1장을 뽑고 1장을 <keyword=discard>버린다</keyword>. 아군 <keyword=melee>근접</keyword> 전열에 까마귀를 {counter}장 <keyword=spawn>생성</keyword>한다.
 202513_fluff;통치자들은 그림자 속에 왕관을 쓰고 있다. 배신자들은 나뭇가지에 목이 걸려 있다.
 202513_name;게디네이스
 202513_tooltip;<keyword=doomed>소멸</keyword>.\n시나리오: 내가 드루이드를 낼 때마다 진행된다.\n프롤로그: 이 전열에 까마귀 클랜 전도사를 <keyword=spawn>생성</keyword>한다.\n챕터 1: 까마귀의 눈 뿌리를 <keyword=spawn>생성</keyword>하여 낸다.\n챕터 2: 마드로엠므를 <keyword=spawn>생성</keyword>하여 낸다.
@@ -2776,7 +2776,7 @@
 202521_tooltip;<keyword=deploy>배치</keyword>: 내 무덤에서 이 유닛을 이 전열로 모두 <keyword=summon>소환</keyword>한다.\n또한, 내 손에 연금술 카드가 있으면 내 덱에서 이 유닛을 이 전열로 모두 <keyword=summon>소환</keyword>한다.
 202522_fluff;누구나 마음 한구석엔 어두운 면이 있다. 물론 이를 자기 마음대로 조절하는 사람도 있다...
 202522_name;어둠의 항아리
-202522_tooltip;<keyword=order>명령</keyword>: 브론즈 아군의 <keyword=deathwish>유언</keyword> 능력을 발동한다.
+202522_tooltip;<keyword=order>명령</keyword>: 아군의 <keyword=deathwish>유언을</keyword>을 발동시킨다.
 202523_fluff;인류를 무너뜨리기 위해, 여인은 자신의 쥐 떼를 깨운 뒤 행복한 도시로 보내 죽게 할 것이다.
 202523_name;역병의 여인
 202523_tooltip;<keyword=deathwish>유언</keyword>: 이 전열에 쥐를 {Counter}장 <keyword=spawn>생성</keyword>한다.
@@ -2836,7 +2836,7 @@
 202543_tooltip;<keyword=deploy>배치</keyword>: 상태에 걸려 있는 적을 파괴한다.
 202544_fluff;오펠리 반 무어헴은 성대한 축제를 여는 것을 좋아하지. 참석자들이 흔적도 없이 사라지는 건 아무도 신경 쓰지 않는 모양이야...
 202544_name;가면무도회
-202544_tooltip;<keyword=doomed>소멸</keyword>.\n시나리오: 내가 귀족을 낼 때마다 진행된다.\n프롤로그: 이 전열에 목마른 여인을 <keyword=spawn>생성</keyword>한다.\n챕터 1: 제국의 송곳니를 <keyword=spawn>생성</keyword>하여 낸다.\n챕터 2: 제국의 송곳니를 <keyword=spawn>생성</keyword>하여 낸다.
+202544_tooltip;<keyword=doomed>소멸</keyword>.\n시나리오: 내가 내 진영에 귀족을 낼 때마다 진행된다.\n프롤로그: 이 전열에 목마른 여인을 <keyword=spawn>생성</keyword>한다.\n챕터 1: 제국의 송곳니를 <keyword=spawn>생성</keyword>하여 낸다.\n챕터 2: 제국의 송곳니를 <keyword=spawn>생성</keyword>하여 낸다.
 202545_fluff;빈센트 반 무어헴이 두려워하는 사람은 단 한 명뿐이라고 알려져 있다. 그 사람은 에미르 바 엠레이스도, 리비아의 게롤트도 아닌, 바로 자기 아들이라고 한다.
 202545_name;필리프 반 무어헴
 202545_tooltip;<keyword=order>명령</keyword> (<keyword=ranged>원거리</keyword>): 유닛에 {Damage} 피해를 준다. <keyword=cooldown>쿨다운</keyword>: {Cooldown}.\n단, 대상이 상태에 걸려 있으면 유닛에 {Damage2} 피해를 준다.
@@ -3226,7 +3226,7 @@
 202780_tooltip;매턴 내가 처음으로 내 진영에 유닛을 <keyword=spawn>생성</keyword>할 때마다, 이 전열에 동일한 유닛을 {power} 전력으로 <keyword=spawn>생성</keyword>하고 <keyword=doomed>소멸</keyword>을 부여한다.
 202781_fluff;입안에 비릿한 피 맛이 감돌았다. 게롤트는 주문을 외치며 손가락을 펴, 쿠엔 표식을 지은 손을 앞으로 뻗었다.
 202781_name;게롤트: 쿠엔
-202781_tooltip;<keyword=shield>보호막</keyword>. \n<keyword=deploy>배치</keyword>: 내 덱에서 위쳐 카드를 낸다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 대상에 <keyword=shield>보호막</keyword>을 준다.
+202781_tooltip;<keyword=shield>보호막</keyword>. \n<keyword=deploy>배치</keyword>: 내 덱에서 위쳐 카드를 낸다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 대상에 <keyword=shield>보호막</keyword>을 준다.
 202782_fluff;창조한 것을 파괴할 수는 있지만, 창조 자체를 되돌릴 수는 없지.
 202782_name;선택적 돌연변이
 202782_tooltip;<keyword=adrenaline>아드레날린</keyword> 키워드가 있는 카드를 선택하여 뽑고, 내 손에 있는 카드 1장을 덱에 섞는다. 모든 아군 전열에 위쳐 훈련생을 <keyword=spawn>생성</keyword>한다.
@@ -3256,7 +3256,7 @@
 202790_tooltip;아군을 {Boost} 증폭하고 <keyword=veil>장막</keyword>을 부여한다.
 202791_fluff;흉터 하나하나가 끔찍한 사연을 지니고 있지. 그중에 진실인 게 얼마나 많은지 알고 나면 놀라게 될걸.
 202791_name;사악한 눈의 이바르
-202791_tooltip;<keyword=deploy>배치</keyword>: 이 유닛과 적의 전력을 교체한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 대신, 적에게 {Damage} 피해를 준다.
+202791_tooltip;<keyword=deploy>배치</keyword>: 이 유닛과 적의 전력을 교체한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 대신, 적에게 {Damage} 피해를 준다.
 202792_fluff;"잔인하고 교활한 녀석이지. 사냥감을 덮치기 전에 몇 시간이나 진득하게 기다린다고 하거든. 녀석이 뛰어오르면 도망칠 길은 없어. 죽음은 필연이 되지." - 사악한 눈의 이바르
 202792_name;바이퍼
 202792_tooltip;라운드 종료마다, 이 카드를 적의 무덤에 넣는다. \n내 턴 종료마다, 무덤에 이 카드가 있으면 무덤에서 유지비가 제일 낮은 카드를 <keyword=banish>추방</keyword>한다.\n무덤에 있는 카드가 바이퍼뿐이라면, <keyword=doomed>소멸</keyword>을 주고 무작위 상대 전열에 <keyword=summon>소환</keyword>한다.
@@ -3265,16 +3265,16 @@
 202793_tooltip;<keyword=resilient>잔류</keyword>.\n<keyword=deploy>배치</keyword>: 바이퍼 위쳐 생도나 바이퍼 위쳐, 바이퍼 위쳐 스승, 바이퍼 위쳐 연금술사를 <keyword=spawn>생성</keyword>하여 낸다.\n<keyword=order>명령</keyword>: 상대 무덤에 있는 카드를 상대 덱 맨 위로 옮긴다.
 202794_fluff;행운은 엄청난 불운과 함께할 때만 콜그림에게 미소를 지었다.
 202794_name;콜그림
-202794_tooltip;<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 내 턴 종료마다, 양 플레이어의 덱에 있는 카드 수 차이만큼 자신을 증폭한다.
+202794_tooltip;<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 내 턴 종료마다, 양 플레이어의 덱에 있는 카드 수 차이만큼 자신을 증폭한다.
 202795_fluff;수피르 표식을 살짝 변형해, 워릿은 마침내 원하던 것을 손에 넣었다... 모든 것을 볼 수 있는 능력을...
 202795_name;만물을 보는 자 워릿
 202795_tooltip;<keyword=deploy>배치</keyword> (<keyword=melee>근접</keyword>): 상대 덱에서 유지비가 가장 높은 카드를 상대 덱 맨 위에 둔다.\n<keyword=deploy>배치</keyword> (<keyword=ranged>원거리</keyword>): 상대 덱에서 유지비가 가장 낮은 카드를 상대 덱 맨 위에 둔다.
 202796_fluff;바이퍼 위쳐는 "송곳니"라고도 불리는 쌍검으로 검술 훈련을 받는다. 바이퍼 교단의 검술은 빠르고 맹렬한 공격을 위주로 상대를 압도한다. 상대가 인간인지 괴물인지는 중요치 않다.
 202796_name;바이퍼 위쳐
-202796_tooltip;<keyword=deploy>배치</keyword>: 적에게 {Bleed}턴 동안 <keyword=bleeding>출혈</keyword>을 건다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 상대 덱 맨 위에 해당 유닛의 기본형을 <keyword=spawn>생성</keyword>한다.
+202796_tooltip;<keyword=deploy>배치</keyword>: 적에게 {Bleed}턴 동안 <keyword=bleeding>출혈</keyword>을 건다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 상대 덱 맨 위에 해당 유닛의 기본형을 <keyword=spawn>생성</keyword>한다.
 202797_fluff;바이퍼 교단의 스승은 앞으로 닥쳐올 험난한 삶에 대비할 수 있도록, 제자들을 냉정하고 무자비하게 대한다.
 202797_name;바이퍼 위쳐 스승
-202797_tooltip;<keyword=deploy>배치</keyword>: 이 카드의 전력을 상대 덱 맨 위에 있는 카드의 유지비와 동일하게 설정한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 대신, 이 카드의 전력을 상대 덱에서 유지비가 가장 높은 카드의 유지비와 동일하게 설정한다.
+202797_tooltip;<keyword=deploy>배치</keyword>: 이 카드의 전력을 상대 덱 맨 위에 있는 카드의 유지비와 동일하게 설정한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 대신, 이 카드의 전력을 상대 덱에서 유지비가 가장 높은 카드의 유지비와 동일하게 설정한다.
 202798_fluff;고난은 우리를 강하게 만들지. 뭐, 약하게 만들 수도 있지만. 사실, 그때그때 달라.
 202798_name;바이퍼 위쳐 연금술사
 202798_tooltip;<keyword=deploy>배치</keyword>: 내 덱 맨 위에 있는 카드 {MaxTargets}장을 보고 그중 하나를 내 덱 맨 위에 놓는다. 그 후에 상대 덱 맨 위에 있는 카드와 내 덱 맨 위에 있는 카드를 교환한다.
@@ -3286,7 +3286,7 @@
 202800_tooltip;적에게 {damage} 피해를 준다.\n<keyword=deathblow>치명타</keyword>: 이 카드를 <keyword=banish>추방</keyword>하고 상대 덱 맨 위에 이 카드의 기본형을 <keyword=spawn>생성</keyword>한다.
 202801_fluff;"드완이랑 일하느니 아엔 쉐이드에서 일을 받겠어. 돈은 얼마 안 돼도 갈비뼈 사이에 칼 맞을 확률이 훨씬 낮거든." - 게즈라스
 202801_name;레이다의 게즈라스
-202801_tooltip;<keyword=melee>근접</keyword>: 내 턴 종료마다, <keyword=ranged>원거리</keyword> 전열로 이동하고 이 전열에 있는 무작위 아군을 {Boost} 증폭한다.\n<keyword=ranged>원거리</keyword>: 내 턴 종료마다, <keyword=melee>근접</keyword> 전열로 이동하고 반대편 전열에 있는 무작위 적에게 {Damage} 피해를 준다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 무작위 유닛 대신, 전열에 있는 모든 유닛에 영향을 준다.
+202801_tooltip;<keyword=melee>근접</keyword>: 내 턴 종료마다, <keyword=ranged>원거리</keyword> 전열로 이동하고 이 전열에 있는 무작위 아군을 {Boost} 증폭한다.\n<keyword=ranged>원거리</keyword>: 내 턴 종료마다, <keyword=melee>근접</keyword> 전열로 이동하고 반대편 전열에 있는 무작위 적에게 {Damage} 피해를 준다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 무작위 유닛 대신, 전열에 있는 모든 유닛에 영향을 준다.
 202802_fluff;한때는 왕실에서 아끼던 동물이었으나, 스코이아텔 특공대가 전시장을 급습해 녀석을 풀어 주고 그 간악한 주인들을 습격하게 했다. 그날 이후, 녀석은 인육에 맛을 들이게 되었다.
 202802_name;칼날이빨 호랑이
 202802_tooltip;<keyword=zeal>열의</keyword>. <keyword=order>명령</keyword>: 칼날이빨 호랑이: 은신으로 변이한다.
@@ -3295,16 +3295,16 @@
 202803_tooltip;<keyword=resilient>잔류</keyword>.\n<keyword=deploy>배치</keyword>: 살쾡이 위쳐 생도나 살쾡이 위쳐, 살쾡이 위쳐 스승, 살쾡이 위쳐 공작원을 <keyword=spawn>생성</keyword>하여 낸다.\n<keyword=order>명령</keyword>: 아군 {MaxTargets}장을 다른 전열로 이동시킨다.
 202804_fluff;이엘로의 살쾡이라고도 하지. 출신 교단 때문이 아니라, 지역 농부들을 살해해서 붙여진 별명이야. 사실, 대량 학살에 가까운 사건이었지.
 202804_name;브레헨
-202804_tooltip;<keyword=deploy>배치</keyword>: 유닛이 {Counter}장 이상 있는 적 전열에서 가장 오른쪽에 있는 유닛을 파괴한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 대신 유닛이 {Counter2}장 이상 있는 적 전열에서 가장 오른쪽에 있는 유닛을 파괴한다.
+202804_tooltip;<keyword=deploy>배치</keyword>: 유닛이 {Counter}장 이상 있는 적 전열에서 가장 오른쪽에 있는 유닛을 파괴한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 대신 유닛이 {Counter2}장 이상 있는 적 전열에서 가장 오른쪽에 있는 유닛을 파괴한다.
 202805_fluff;"크라운 몇 푼 아끼자고 날 죽이려 하다니... 내가 그런 개자식들을 눈감아줄 줄 알았나?" - 가에탕
 202805_name;가에탕
 202805_tooltip;<keyword=deploy>배치</keyword>: 이 전열의 다른 카드들을 다른 전열로 이동시킨다.\n이동한 카드 하나당 무작위 적에게 {Damage} 피해를 준다.
 202806_fluff;살쾡이 교단의 위쳐는 전투의 열기에 취해 광란의 살육을 벌이는 것으로 악명 높았다. 적이 항복하고, 자비를 구한다 할지라도... 살쾡이 교단의 살육은 멈추지 않았다.
 202806_name;살쾡이 위쳐
-202806_tooltip;내 턴 종료마다, 다른 전열로 이동하고 반대편 전열에 있는 무작위 적에게 {Damage} 피해를 준다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 대신, 적에게 {Damage2} 피해를 준다.
+202806_tooltip;내 턴 종료마다, 다른 전열로 이동하고 반대편 전열에 있는 무작위 적에게 {Damage} 피해를 준다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 대신, 적에게 {Damage2} 피해를 준다.
 202807_fluff;떨어지면 그걸로 끝이다, 훈련생. 목숨이 10개라도 소용없어.
 202807_name;살쾡이 위쳐 스승
-202807_tooltip;<keyword=deploy>배치</keyword>: 이 전열의 다른 카드 수만큼 자신을 증폭한다. \n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 이 전열에 카드가 나올 때마다 자신을 {Boost} 증폭한다.
+202807_tooltip;<keyword=deploy>배치</keyword>: 이 전열의 다른 카드 수만큼 자신을 증폭한다. \n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 이 전열에 카드가 나올 때마다 자신을 {Boost} 증폭한다.
 202808_fluff;"당연하겠지만, 그자들이 저지른 악행이 지금도 우리들 평판에 먹구름을 드리우고 있어." - 베스미어
 202808_name;살쾡이 위쳐 공작원
 202808_tooltip;<keyword=deploy>배치</keyword>: 적을 그 전열의 가장 왼쪽으로 옮기고, 지나친 카드 하나당 {Damage} 피해를 준다.
@@ -3316,28 +3316,28 @@
 202810_tooltip;적을 다른 전열로 이동시키고 {Bleed}턴 동안 <keyword=bleeding>출혈</keyword>을 건다. 단, 그 전열에 다른 유닛이 없다면 {Damage} 피해를 준다.
 202811_fluff;"위쳐가 할 일은 괴물을 죽이고 돈을 받는 거야. 그 이상도, 그 이하도 아니지." - 아르나가드
 202811_name;아르나가드
-202811_tooltip;<keyword=deploy>배치</keyword>: 피해받은 유닛 하나당 <keyword=armor>방어구</keyword>를 {Armor} 획득한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 상대가 자신의 진영에 유닛을 낼 때마다, 아르나가드의 전력만큼 그 유닛에 피해를 주고 그 유닛의 전력만큼 아르나가드에 피해를 준다.
+202811_tooltip;<keyword=deploy>배치</keyword>: 피해받은 유닛 하나당 <keyword=armor>방어구</keyword>를 {Armor} 획득한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 상대가 자신의 진영에 유닛을 낼 때마다, 아르나가드의 전력만큼 그 유닛에 피해를 주고 그 유닛의 전력만큼 아르나가드에 피해를 준다.
 202812_fluff;셀 수 없는 사냥에서 살아남은 이 흉포한 야수의 모습은... 걸어 다니는 무기고와 같습니다.
 202812_name;흉포한 곰
-202812_tooltip;이 전열과 반대편 전열에 있는 유닛은 증폭할 수 없다.
+202812_tooltip;이 전열과 반대편 전열에 있는 유닛은 증폭할 수 없다.\n<keyword=berserk>광분</keyword> {berserk}: 능력이 반대편 전열에만 적용된다.
 202813_fluff;아멜 산맥의 얼어붙은 바위산에 오랫동안 주인 없이 방치된 곰 교단의 본거지는, 온갖 기암괴석과 몰아치는 눈보라에 가려 여전히 비밀로 남아 있다.
 202813_name;헤언 카두치
 202813_tooltip;<keyword=resilient>잔류</keyword>.\n<keyword=deploy>배치</keyword>: 곰 위쳐 생도나 곰 위쳐, 곰 위쳐 스승, 곰 위쳐 병참관을 <keyword=spawn>생성</keyword>하여 낸다.\n<keyword=order>명령</keyword>: 인접한 유닛들을 {Boost} <keyword=heal>치유</keyword>한다.
 202814_fluff;게르트는 용, 사이렌, 스트리가를 한 마리씩 처치해 달라는 의뢰를 받았다. 사실, 그는 복수심에 불타는 기사와 현상금 사냥꾼, 도적들의 추격을 받고 있었지만, 그럼에도 불구하고 틈틈이 궨트를 즐기곤 했다.
 202814_name;게르트
-202814_tooltip;<keyword=deploy>배치</keyword>: 반대편 전열에 귀를 먹게 하는 사이렌을 <keyword=spawn>생성</keyword>하고, 그 전열에 있는 모든 유닛에 {Damage} 피해를 준다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 대신 반대편 전열에 귀를 먹게 하는 사이렌을 <keyword=spawn>생성</keyword>하고, 그 유닛에 {Damage} 피해를 준다.
+202814_tooltip;<keyword=deploy>배치</keyword>: 반대편 전열에 귀를 먹게 하는 사이렌을 <keyword=spawn>생성</keyword>하고, 그 전열에 있는 모든 유닛에 {Damage} 피해를 준다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 대신 반대편 전열에 귀를 먹게 하는 사이렌을 <keyword=spawn>생성</keyword>하고, 그 유닛에 {Damage} 피해를 준다.
 202815_fluff;소문에 따르면, 주노드는 한 여자 거인과 특출나게 용감했던 드워프 사이에서 태어났다고 한다.
 202815_name;벨헤이븐의 주노드
 202815_tooltip;<keyword=deploy>배치</keyword>: 피해받은 적을 파괴한다.
 202816_fluff;홀로 유랑 생활을 하는 게 쉽지는 않겠지... 필요한 물건은 잘 챙기라고.
 202816_name;곰 위쳐
-202816_tooltip;<keyword=deploy>배치</keyword>: 자신에게 {Damage} 피해를 준다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 대신, 자신과 적에게 {Damage} 피해를 준다.
+202816_tooltip;<keyword=deploy>배치</keyword>: 자신에게 {Damage} 피해를 준다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 대신, 자신과 적에게 {Damage} 피해를 준다.
 202817_fluff;오는 길을 모르겠거든, 이정표가 될 만한 걸 찾아봐... 위쳐 후보생들의 얼어붙은 시체 같은 거 말이야.
 202817_name;곰 위쳐 스승
-202817_tooltip;<keyword=deploy>배치</keyword>: 피해받은 아군 하나당 자신을 {Boost} 증폭한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 대신, 피해받은 유닛 하나당 자신을 {Boost} 증폭한다.
+202817_tooltip;<keyword=deploy>배치</keyword>: 피해받은 아군 하나당 자신을 {Boost} 증폭한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 대신, 피해받은 유닛 하나당 자신을 {Boost} 증폭한다.
 202818_fluff;마하캄 벌꿀주가 있으면, 곰에게 방패째로 팔을 뜯긴 이야기를 들을 수 있을지도 몰라!
 202818_name;곰 위쳐 병참관
-202818_tooltip;<keyword=order>명령</keyword>: 아군에 {Damage} 피해를 주고, 이 전열에 위쳐 훈련생을 <keyword=spawn>생성</keyword>한다.\n<keyword=charge>충전</keyword>: {Charges}.
+202818_tooltip;<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 아군에 {Damage} 피해를 주고, 이 전열에 위쳐 훈련생을 <keyword=spawn>생성</keyword>한다.\n<keyword=charge>충전</keyword>: {Charges}.
 202819_fluff;곰 위쳐가 되기 위해서는 반드시 산의 시험을 통과해야 한다. 시험 내용은 고르곤산 정상에 올라, 등정의 증거로 그곳에 있는 특수한 룬스톤을 가져오는 것이다. 시험이 어찌나 혹독한지, 대부분의 아이는 정상에 오르기도 전에 얼어 죽고 만다.
 202819_name;곰 위쳐 생도
 202819_tooltip;<keyword=deploy>배치</keyword>: 자신에게 {Damage} 피해를 준다.\n내 턴 종료마다, 자신을 {Boost} <keyword=heal>치유</keyword>한다. 단, 피해를 받지 않은 상태라면 <keyword=armor>방어구</keyword>를 {Armor} 획득한다.
@@ -3346,7 +3346,7 @@
 202820_tooltip;적에게 {Damage} 피해를 준다.\n반대편 전열에 위쳐 훈련생을 {Count}장 <keyword=spawn>생성</keyword>하고, {Damage2} 피해를 준 뒤, <keyword=armor>방어구</keyword>를 {Armor} 부여한다.
 202821_fluff;얼랜드는 그리핀 교단을 창단할 당시, 기사의 덕목을 강조하는 자신의 방침이 위쳐의 평판을 높이는 데 도움이 될 거라 생각했다. 하지만 안타깝게도 그러한 노력은 결국 허사였다.
 202821_name;라르비크의 얼랜드
-202821_tooltip;<keyword=deploy>배치</keyword>: 내 덱에 있는 모든 유닛을 {Boost} 증폭한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 또한, <keyword=immune>면역</keyword>을 획득한다.\n<keyword=order>명령</keyword>: 내 덱에 있는 모든 유닛의 증폭을 제거하고, 동일한 양만큼 이 유닛을 증폭한다.
+202821_tooltip;<keyword=deploy>배치</keyword>: 내 덱에 있는 모든 유닛을 {Boost} 증폭한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 또한, <keyword=immune>면역</keyword>을 획득한다.\n<keyword=order>명령</keyword>: 내 덱에 있는 모든 유닛의 증폭을 제거하고, 동일한 양만큼 이 유닛을 증폭한다.
 202822_fluff;그리핀은 용맹과 충직, 투지의 화신으로 여겨지며, 이러한 덕목은 그리핀 위쳐가 널리 알려지게 된 이유이기도 하다. 하지만 그리핀 교단의 이름은, 사실 교단 창시자의 내면에 그 덕목을 심어 주었던 "그리폰"이라는 방랑 기사의 이름을 딴 것이다.
 202822_name;아크 그리핀
 202822_tooltip;라운드 종료마다, 이 카드의 증폭량을 유지한 상태로 이 카드를 덱에 섞는다.
@@ -3358,13 +3358,13 @@
 202824_tooltip;<keyword=zeal>열의</keyword>. <keyword=order>명령</keyword>: 코엔과 전력이 동일한 다른 모든 유닛을 코엔이 증폭된 만큼 증폭한다.
 202825_fluff;"이 얼빠진 놈들 같으니! 모르겠다니 무슨 소리야? 레비오다 신상에 마늘즙 묻혀서 흡혈귀 잡겠다고 나설 놈들이구만!" - 켈다르
 202825_name;켈다르
-202825_tooltip;<keyword=resupply>재보급</keyword>: 이 전열에 위쳐 훈련생을 <keyword=spawn>생성</keyword>한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 내 턴 종료마다, 이 전열에 위쳐 훈련생을 <keyword=spawn>생성</keyword>한다.
+202825_tooltip;<keyword=resupply>재보급</keyword>: 이 전열에 위쳐 훈련생을 <keyword=spawn>생성</keyword>한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 내 턴 종료마다, 이 전열에 위쳐 훈련생을 <keyword=spawn>생성</keyword>한다.
 202826_fluff;은검도 좋지. 근데 은도금 화살촉은 써 보고 하는 얘기야?
 202826_name;그리핀 위쳐
-202826_tooltip;<keyword=order>명령</keyword> (<keyword=melee>근접</keyword>): 적에게 {damage} 피해를 준다.\n<keyword=cooldown>쿨다운</keyword>: {Cooldown}.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 내 턴 종료마다, 무작위 적에게 {damage2} 피해를 주고 자신을 <keyword=lock>구속</keyword>한다.
+202826_tooltip;<keyword=order>명령</keyword> (<keyword=melee>근접</keyword>): 적에게 {damage} 피해를 준다.\n<keyword=cooldown>쿨다운</keyword>: {Cooldown}.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 내 턴 종료마다, 무작위 적에게 {damage2} 피해를 주고 자신을 <keyword=lock>구속</keyword>한다.
 202827_fluff;오래 살아남으려면 힘보다는 지식이 필요하단다.
 202827_name;그리핀 위쳐 스승
-202827_tooltip;<keyword=deploy>배치</keyword>: 덱에서 맨 위에 있는 유닛을 뽑고, 손에 있는 카드 1장을 덱에 섞는다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 뽑은 유닛을 {boost} 증폭한다.
+202827_tooltip;<keyword=deploy>배치</keyword>: 덱에서 맨 위에 있는 유닛을 뽑고, 손에 있는 카드 1장을 덱에 섞는다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 뽑은 유닛을 {boost} 증폭한다.
 202828_fluff;그리핀 위쳐 수색대원은 누구도 따라올 수 없는 추적 능력과 사냥 기술을 갖추고 있다. 아무리 위험한 지형과 환경에서도 사냥감을 잡거나 죽이기 전에는 절대 멈추지 않는다.
 202828_name;그리핀 위쳐 수색대원
 202828_tooltip;<keyword=formation>대형</keyword>.\n<keyword=deploy>배치</keyword>: 선택한 적 전열의 유닛 하나당 자신을 {boost} 증폭한다.\n<keyword=order>명령</keyword>: 자신의 모든 증폭량을 아군에게 옮긴다.
@@ -3379,31 +3379,31 @@
 202831_tooltip;<keyword=deathwish>유언</keyword>: 비이를 내 덱에 섞고 기본 전력을 {boost} 상승시킨다.
 202832_fluff;코셰이를 만나면 죽는다고 해도, 어차피 냇가에 갈 거잖아?
 202832_name;코셰이
-202832_tooltip;<keyword=thrive>번창</keyword>.\n이 유닛의 <keyword=thrive>번창</keyword>이 발동할 때마다, 이 전열에 일꾼을 <keyword=spawn>생성</keyword>한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 대신, 이 유닛의 <keyword=thrive>번창</keyword>이 발동할 때마다 이 전열에 엔드레가 유충을 <keyword=spawn>생성</keyword>한다.
+202832_tooltip;<keyword=thrive>번창</keyword>.\n이 유닛의 <keyword=thrive>번창</keyword>이 발동할 때마다, 이 전열에 일꾼을 <keyword=spawn>생성</keyword>한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 대신, 이 유닛의 <keyword=thrive>번창</keyword>이 발동할 때마다 이 전열에 엔드레가 유충을 <keyword=spawn>생성</keyword>한다.
 202833_fluff;이곳은 여느 괴물 소굴과 다르게, 무시무시한 괴물이 수없이 도사리고 있다. 이 지옥과도 같은 구덩이에 발을 들이는 것은, 제아무리 위쳐라도 망설여지는 일일 것이다.
 202833_name;돌 두 로키
 202833_tooltip;<keyword=resilient>잔류</keyword>.\n<keyword=deploy>배치</keyword>: 서큐버스나 푸카, 키메라, 잡종을 <keyword=spawn>생성</keyword>하여 낸다.\n<keyword=order>명령</keyword>: 내 덱에서 전력이 가장 높은 유닛을 내 덱 맨 위로 옮기고, 이 카드의 양옆에 일꾼을 <keyword=spawn>생성</keyword>한다.
 202834_fluff;"우리 강아지, 착하기도 하지!" - 이다란
 202834_name;이드르
-202834_tooltip;<keyword=order>명령</keyword> (<keyword=adrenaline>아드레날린</keyword> {Adrenaline}): 이 전열의 모든 토큰을 <keyword=consume>섭취</keyword>하고 <keyword=immune>면역</keyword>을 얻는다.\n내가 하나 이상의 유닛을 <keyword=consume>섭취</keyword>할 때마다 이 전열에 일꾼을 <keyword=spawn>생성</keyword>한다.
+202834_tooltip;<keyword=order>명령</keyword> (<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}): 이 전열의 모든 토큰을 <keyword=consume>섭취</keyword>하고 <keyword=immune>면역</keyword>을 얻는다.\n내가 하나 이상의 유닛을 <keyword=consume>섭취</keyword>할 때마다 이 전열에 일꾼을 <keyword=spawn>생성</keyword>한다.
 202835_fluff;어린 시절, 이다란은 비지마의 수로에서 자랐다. 타고난 천재였던 그는, 이미 다섯 살에 시궁쥐를 잡아 실험을 하기 시작했다.
 202835_name;쥐인간
 202835_tooltip;<keyword=order>명령</keyword>: 이 유닛의 전력을 초기화하고, 전력 초기화로 잃은 증폭량만큼 이 전열에 쥐를 <keyword=spawn>생성</keyword>한다.\n<keyword=cooldown>쿨다운</keyword>: {Cooldown}.\n내 턴 종료마다, 이 유닛의 오른쪽에 있는 유닛을 <keyword=consume>섭취</keyword>한다.
 202836_fluff;무엇보다 수분 보충이 중요하지.
 202836_name;서큐버스
-202836_tooltip;<keyword=deathwish>유언</keyword>: 내 턴 종료마다, 내 무덤에 다른 서큐버스가 있다면, 무작위 전열에 자신을 <keyword=summon>소환</keyword>하고 <keyword=doomed>소멸</keyword>을 얻는다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: <keyword=doomed>소멸</keyword>을 얻지 않는다.
+202836_tooltip;<keyword=deathwish>유언</keyword>: 내 턴 종료마다, 내 무덤에 다른 서큐버스가 있다면, 무작위 전열에 자신을 <keyword=summon>소환</keyword>하고 <keyword=doomed>소멸</keyword>을 얻는다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: <keyword=doomed>소멸</keyword>을 얻지 않는다.
 202837_fluff;특히 성가신 건 몸집이 더 크고 힘이 센 종류야. 푸카라는 네커 희귀종이지. 혹시 발견하면, 그대로 도망가.
 202837_name;푸카
 202837_tooltip;<keyword=thrive>번창</keyword> {boost}.
 202838_fluff;코시모가 처음 조합한 것은 마귀와 그리핀의 유전자였다. 그다음에는 곤충류와 와이번의 유전자를 더해, 각각을 합친 것보다 더욱 끔찍한 괴물을 만들어내게 된다.
 202838_name;키메라
-202838_tooltip;<keyword=deploy>배치</keyword>: 아군을 <keyword=consume>섭취</keyword>한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: <keyword=consume>섭취된</keyword> 유닛의 전열에서 그 유닛과 동일한 모든 유닛을 {Boost1} 증폭한다.
+202838_tooltip;<keyword=deploy>배치</keyword>: 아군을 <keyword=consume>섭취</keyword>한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: <keyword=consume>섭취된</keyword> 유닛의 전열에서 그 유닛과 동일한 모든 유닛을 {Boost1} 증폭한다.
 202839_fluff;말라스피나 교수는 실수로 탕약에 복합 X 염색체를 추가했다.
 202839_name;자발적 진화
 202839_tooltip;아군을 {Boost} 증폭하고 유닛의 유형에 따라 추가 효과를 얻는다.\n\n곤충류 - 증폭된 유닛의 전열에 일꾼을 {MaxTargets}장 <keyword=spawn>생성</keyword>한다.\n야수 - 대신, 유닛을 {Boost2} 증폭한다.\n오그로이드 - 내 손에 있는 모든 오그로이드에게 <keyword=armor>방어구</keyword>를 {Armor} 부여한다.
 202841_fluff;다들 레일라가 자신이 사냥했던 이들의 화살에 맞아 죽었다고 생각했지만, 살라만드라에게는 다른 계획이 있었다.
 202841_name;쓰러진 레일라
-202841_tooltip;<keyword=profit>수익</keyword> {Income}.\n<keyword=tribute>공납</keyword> {Tribute-B.P.BB_Tribute}: <keyword=veil>장막</keyword>을 부여한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: <keyword=tribute>공납</keyword>을 지불할 때마다, <keyword=tribute>공납</keyword> 비용만큼 자신을 증폭한다.
+202841_tooltip;<keyword=profit>수익</keyword> {Income}.\n<keyword=tribute>공납</keyword> {Tribute-B.P.BB_Tribute}: <keyword=veil>장막</keyword>을 부여한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: <keyword=tribute>공납</keyword>을 지불할 때마다, <keyword=tribute>공납</keyword> 비용만큼 자신을 증폭한다.
 202842_fluff;얼굴은 작고 귀엽지만, 살라맨더는 피하는 것이 좋다. 위협을 받을 경우, 피부에 닿으면 부글부글 끓어오르는 치명적인 독을 분비하기 때문이다.
 202842_name;살라맨더
 202842_tooltip;<keyword=profit>수익</keyword> {Income}.\n<keyword=deploy>배치</keyword>: 유닛에 <keyword=poison>중독</keyword>을 건다. \n<keyword=tribute>공납</keyword> {Tribute-B.P.BB_Tribute}: 대신, 전장에 있는 모든 유닛에 <keyword=poison>중독</keyword>을 건다.\n아군 살라만드라 유닛 하나당 <keyword=profit>수익</keyword>이 1 증가한다.
@@ -3415,16 +3415,16 @@
 202844_tooltip;유닛이 <keyword=poison>중독</keyword>에 걸릴 때마다 {Coins}<keyword=coin>코인</keyword>을 획득한다.
 202845_fluff;"내 형제가 숲에서 어떻게 지내고 있는지 궁금하군" - 겔레르트
 202845_name;겔레르트 블라인하임
-202845_tooltip;<keyword=profit>수익</keyword> {Profit}.\n<keyword=fee>수수료</keyword> {Cost}: 아군에 <keyword=poison>중독</keyword>을 걸고 {Boost} 증폭한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: <keyword=cooldown>쿨다운</keyword>: {Cooldown}.
+202845_tooltip;<keyword=profit>수익</keyword> {Profit}.\n<keyword=fee>수수료</keyword> {Cost}: 아군에 <keyword=poison>중독</keyword>을 걸고 {Boost} 증폭한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: <keyword=cooldown>쿨다운</keyword>: {Cooldown}.
 202846_fluff;추종자는 아무런 보수도 없이 다섯 번의 작업을 수행해, 열정이 있음을 입증해야 한다.
 202846_name;살라만드라 추종자
 202846_tooltip;매 턴에 내가 처음으로 <keyword=coin>코인을</keyword> 획득할 때마다, 자신을 {Boost} 증폭한다.
 202847_fluff;살라만드라의 연구자들은 무엇을 만들 수 있는지에 너무 몰두한 나머지, 그것을 만들어도 되는 것인지는 전혀 생각하지 못했다.
 202847_name;살라만드라 흉물
-202847_tooltip;<keyword=tribute>공납</keyword> {Tribute-B.P.BB_Tribute}: 자신에게 <keyword=poison>중독</keyword>을 건다.\n이 유닛에 <keyword=poison>중독</keyword>에 걸릴 때마다, 자신을 {Boost} 증폭한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 내 턴 종료마다, 자신을 <keyword=purify>정화</keyword>한다.
+202847_tooltip;<keyword=tribute>공납</keyword> {Tribute-B.P.BB_Tribute}: 자신에게 <keyword=poison>중독</keyword>을 건다.\n이 유닛에 <keyword=poison>중독</keyword>에 걸릴 때마다, 자신을 {Boost} 증폭한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 내 턴 종료마다, 자신을 <keyword=purify>정화</keyword>한다.
 202848_fluff;사람 앞에 불을 붙여주면 하루가 따뜻하지만, 사람한테 불을 붙이면...
 202848_name;살라만드라 마법사
-202848_tooltip;<keyword=tribute>공납</keyword> {Tribute-B.P.BB_Tribute}: 인접한 적 3장에 {Damage} 피해를 준다.\n<keyword=tribute>공납</keyword>을 지불할 때마다, {Coins}<keyword=coin>코인</keyword>을 획득한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline}: 대신 {Coins2}<keyword=coin>코인</keyword>을 획득한다.
+202848_tooltip;<keyword=tribute>공납</keyword> {Tribute-B.P.BB_Tribute}: 인접한 적 3장에 {Damage} 피해를 준다.\n<keyword=tribute>공납</keyword>을 지불할 때마다, {Coins}<keyword=coin>코인</keyword>을 획득한다.\n<keyword=adrenaline>아드레날린</keyword> {Adrenaline-1}: 대신 {Coins2}<keyword=coin>코인</keyword>을 획득한다.
 202849_fluff;실패한 실험도 나름의 의미가 있는 법이지. 그렇지 않다면 어떻게 지식의 지평을 확장할 수 있겠나?
 202849_name;실패한 실험
 202849_tooltip;내 턴 종료마다, {Cost}<keyword=coin>코인</keyword>을 잃는다. 단, <keyword=coin>코인</keyword>이 없다면, 자신에게 {Damage} 피해를 준다.\n<keyword=poison>중독</keyword>에 걸려 있다면, 이 능력을 비활성화한다.
@@ -3445,10 +3445,10 @@
 202880_tooltip;<keyword=deploy>배치</keyword>: 내 리더 능력을 상대의 기본 리더 능력으로 대체한다.
 202881_fluff;짐은 참을성이 없다. 목이 날아가고 싶지 않다면 스스로 삼가도록.
 202881_name;에미르 바 엠레이스
-202881_tooltip;<keyword=deploy>배치</keyword>: 카드를 뽑고, 손에 있는 카드 1장을 덱의 맨 아래에 놓는다.\n상대가 유닛을 낼 때마다 그 유닛에 <keyword=spying>첩보원</keyword>을 부여한다.\n<keyword=devotion>헌신</keyword>: 내 턴 종료마다, 전력이 {power}인 무작위 <keyword=spying>첩보원</keyword> 유닛을 <keyword=seize>강탈</keyword>한다.
+202881_tooltip;<keyword=zeal>열의</keyword>.\n<keyword=deploy>배치</keyword>: 카드 1장을 뽑고, 내 손에 있는 카드 1장을 내 덱 맨 밑에 놓는다.\n상대가 유닛을 낼 때마다 그 유닛에 <keyword=spying>첩보원</keyword>을 부여한다.\n<keyword=order>명령</keyword>: <keyword=spying>첩보원</keyword> 상태에 걸려 있고 전력이 {power}인 적을 <keyword=seize>강탈</keyword>한다.\n<keyword=devotion>헌신</keyword>: 내 턴 종료마다, 이 카드의 <keyword=order>명령</keyword>을 초기화한다.
 202882_fluff;닐프가드인은 그를 티르스 이스 뮈에, 즉 바다의 멧돼지라 부르지. 애들 겁줄 때 써먹는다고!
 202882_name;크래치 안 크라이트
-202882_tooltip;<keyword=deploy>배치</keyword>: 내 손에 있는 해적이나 배 {MaxTargets}장에 <keyword=armor>방어구</keyword>를 {Armor} 부여한다.\n크래치 옆에 해적이나 배를 낼 때마다, 그 유닛과 전력이 가장 낮은 적에게 서로의 전력만큼 피해를 준다.
+202882_tooltip;<keyword=deploy>배치</keyword>: 내 손에 있는 해적이나 배 {MaxTargets}장에 <keyword=armor>방어구</keyword>를 {Armor} 부여한다.\n<keyword=order>명령</keyword>: 유닛에 {damage3} 피해를 준다.\n<keyword=cooldown>쿨다운</keyword>: {Cooldown}.\n크래치 옆에 해적이나 배를 낼 때마다, 그 유닛과 전력이 가장 낮은 적에게 서로의 전력만큼 피해를 준다.
 202883_fluff;에이스트는 크래치 안 크라이트와 파베타 공주의 결혼을 성사시키기 위해 신트라에 왔지만 정작 이어진 건 공주의 어머니와 에이스트였다.
 202883_name;에이스트 튀샤흐
 202883_tooltip;<keyword=veteran>베테랑</keyword>.\n<keyword=deploy>배치</keyword>, <keyword=bloodthirst>피의 굶주림</keyword> {Bloodthirst}: 카드 1장을 뽑고, 1장을 <keyword=discard>버린다</keyword>.\n내 턴에 스켈리게 유닛을 <keyword=discard>버릴</keyword> 때마다, 그 유닛을 내 무덤에서 이 전열로 <keyword=summon>소환</keyword>한다.\n카운터: {Counter}.\n<keyword=devotion>헌신</keyword>: 또한, 내 턴에 스켈리게 유닛이 내 무덤으로 들어올 때마다 발동한다.
@@ -3460,13 +3460,13 @@
 202885_tooltip;<keyword=deploy>배치</keyword>: 공개된 모든 아군 함정을 엘프 명사수로 변이시킨다.\n<keyword=devotion>헌신</keyword>: 또한, 다른 인공물들도 변이시킨다.
 202886_fluff;조언이니 계획이니 다 필요 없다. 짐은 병사들의 검을 믿으니까.
 202886_name;폴테스트 왕
-202886_tooltip;매 턴 내 진영에 있는 브론즈 유닛을 처음 증폭할 때마다, 내 덱 맨 밑에 그 유닛의 기본형을 <keyword=spawn>생성</keyword>한다.\n<keyword=devotion>헌신</keyword>: 또한, <keyword=spawn>생성</keyword>된 유닛을 {boost} 증폭한다.
+202886_tooltip;매 턴 내 진영에 있는 브론즈 유닛을 처음 증폭할 때마다, 내 덱 맨 밑에 그 유닛의 기본형을 <keyword=spawn>생성</keyword>한다.\n<keyword=devotion>헌신</keyword>: 또한, <keyword=spawn>생성</keyword>된 유닛을 {boost} 증폭한다.\n내 턴 종료마다, 이 유닛의 오른쪽에 있는 유닛을 {boost2} 증폭한다.
 202887_fluff;전쟁이 나면 군주는 고심하는 게 아니라 검과 방패를 들고 백성을 지키러 달려나가야 하는 것이다.
 202887_name;메브 여왕
-202887_tooltip;<keyword=inspired>고무</keyword>: 내 턴 종료마다, 카운터를 1 낮춘다.\n카운터: {Counter}\n카운터가 0이 되면, 모든 아군을 {Boost} 증폭한다.
+202887_tooltip;<keyword=inspired>고무</keyword>: 내 턴 종료마다, 카운터를 1 낮춘다.\n카운터: {Counter}.\n카운터가 0이 되면, 모든 아군을 {Boost} 증폭하고 카운터를 초기화한다.\n이 유닛이 증폭될 때마다 <keyword=armor>방어구</keyword>를 {Armor} 획득한다.
 202888_fluff;그는 끝을 모르고 격렬하게 타오르는 사랑을 했지. 사람이라기보다는 짐승에 가까웠어.
 202888_name;디틀라프 반 데르 에레테인
-202888_tooltip;<keyword=deploy>배치</keyword>: 적 전열에 {Counter}턴 동안 <keyword=blood_moon>핏빛 달</keyword>을 <keyword=spawn>생성</keyword>한다. 인접한 흡혈귀 하나당 지속 시간이 1 증가한다.\n<keyword=order>명령</keyword>: <keyword=bleeding>출혈</keyword>에 걸려 있는 적에게 {Damage} 피해를 준다.\n<keyword=deathblow>치명타</keyword>: 이 전열에 <keyword=spawn>에키마라</keyword>를 생성한다.\n<keyword=cooldown>쿨다운</keyword>: {Cooldown}
+202888_tooltip;<keyword=deploy>배치</keyword>: 적 전열에 {Counter}턴 동안 <keyword=blood_moon>핏빛 달</keyword>을 <keyword=spawn>생성</keyword>한다. 인접한 흡혈귀 하나당 지속 시간이 1 증가한다.\n<keyword=order>명령</keyword>: <keyword=bleeding>출혈</keyword>에 걸려 있는 적에게 {Damage} 피해를 준다.\n<keyword=deathblow>치명타</keyword>: 이 전열에 <keyword=spawn>에키마라</keyword>를 생성한다.\n<keyword=cooldown>쿨다운</keyword>: {Cooldown}.
 202889_fluff;흡혈귀들조차 은자들의 장로가 얼마나 오래된 존재인지 알지 못한다. 그들이 확실하게 알고 있는 것은 단 하나, 장로의 뜻을 거스르면 안 된다는 것뿐.
 202889_name;은자들의 장로
 202889_tooltip;<keyword=deploy>배치</keyword>: 적에게 {Bleeding}턴 동안 <keyword=bleeding>출혈</keyword>을 건다.\n내 턴 종료마다, <keyword=bleeding>출혈</keyword>에 걸려 있지 않은 무작위 적에게 {Bleeding2}턴 동안 <keyword=bleeding>출혈</keyword>을 건다.\n<keyword=devotion>헌신</keyword>: 또한, 내 턴 종료마다 적의 <keyword=bleeding>출혈</keyword>을 발동시킨다.
@@ -3475,10 +3475,16 @@
 202890_tooltip;<keyword=intimidate>위협</keyword>.\n<keyword=deploy>배치</keyword>: 강탈을 <keyword=spawn>생성</keyword>하여 낸다.\n인접한 왕관분쇄자 하나당 이 카드의 <keyword=intimidate>위협</keyword>이 {Intimidate} 증가한다.\n<keyword=fee>수수료</keyword> {Cost}: 이 전열에 클리버 패거리 폭력배를 <keyword=spawn>생성</keyword>한다.
 202891_fluff;사생아에 맞서면 노비그라드의 거리를 붉은 피로 물들이게 될 거야.
 202891_name;사생아 주니어
-202891_tooltip;<keyword=deploy>배치</keyword>: 증폭된 적에게 {Damage} 피해를 준다. 초과된 피해량만큼 <keyword=coin>코인</keyword>을 획득한다.\n<keyword=devotion>헌신</keyword>: 또한, <keyword=insanity>광기</keyword>를 얻는다.\n<keyword=fee>수수료</keyword> {Cost}: 전력이 {Power} 이하인 적을 파괴한다.
+202891_tooltip;<keyword=insanity>광기</keyword>.\n<keyword=deploy>배치</keyword>: 증폭된 적에게 {Damage} 피해를 준다. 초과된 피해량만큼 <keyword=coin>코인</keyword>을 획득한다.\n<keyword=devotion>헌신</keyword>: 대신 적에게 피해를 준다.\n<keyword=fee>수수료</keyword> {Cost}: 전력이 {Power} 이하인 적을 파괴한다.
 202892_fluff;전진해라, 이 망할 것들아! 당장 전진하지 않으면 닐프가드 군에 당하기 전에 내가 결딴내주마!
 202892_name;케드웬 지휘관
 202892_tooltip;<keyword=zeal>열의</keyword>.\n<keyword=order>명령</keyword>: 아군을 {Boost} 증폭한다. \n<keyword=charge>충전</keyword>: {Charges}
+202941_fluff;저는 참전 용사입니다! 크라운 한 닢만 주실 수 있을까요?
+202941_name;형편없는 왼쪽 진형
+202941_tooltip;<keyword=doomed>소멸</keyword>.
+202942_fluff;저는 참전 용사입니다! 크라운 한 닢만 주실 수 있을까요?
+202942_name;형편없는 오른쪽 진형
+202942_tooltip;<keyword=doomed>소멸</keyword>.
 21_name_sa;Ignore.
 22_name_sa;Ignore.
 23_name_sa;Ignore.

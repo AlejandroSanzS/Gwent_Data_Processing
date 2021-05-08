@@ -66,13 +66,13 @@
 112201_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Przemień kartę w kopię bazową wrogiej jednostki.
 112202_fluff;Jestem prostym wiedźminem. Nie walczę ze smokami, nie bratam się z królami, ani nie sypiam z czarodziejkami…
 112202_name;Eskel
-112202_tooltip;<keyword=deploy>Rozmieszczenie</keyword> (<keyword=adrenaline>adrenalina</keyword> {Adrenaline}): <keyword=summon>Wezwij</keyword> Vesemira i Lamberta ze swojej talii.
+112202_tooltip;<keyword=deploy>Rozmieszczenie</keyword> (<keyword=adrenaline>adrenalina</keyword> {Adrenaline-1}): <keyword=summon>Wezwij</keyword> Vesemira i Lamberta ze swojej talii.
 112203_fluff;Gdy cię mają wieszać, poproś o wodę. Nie wiadomo, co się zdarzy, zanim przyniosą.
 112203_name;Vesemir
-112203_tooltip;<keyword=deploy>Rozmieszczenie</keyword> (<keyword=adrenaline>adrenalina</keyword> {Adrenaline}): <keyword=summon>Wezwij</keyword> Eskela i Lamberta ze swojej talii.
+112203_tooltip;<keyword=deploy>Rozmieszczenie</keyword> (<keyword=adrenaline>adrenalina</keyword> {Adrenaline-1}): <keyword=summon>Wezwij</keyword> Eskela i Lamberta ze swojej talii.
 112204_fluff;No, takie negocjacje to ja rozumiem.
 112204_name;Lambert
-112204_tooltip;<keyword=deploy>Rozmieszczenie</keyword> (<keyword=adrenaline>adrenalina</keyword> {Adrenaline}): <keyword=summon>Wezwij</keyword> Eskela i Vesemira ze swojej talii.
+112204_tooltip;<keyword=deploy>Rozmieszczenie</keyword> (<keyword=adrenaline>adrenalina</keyword> {Adrenaline-1}): <keyword=summon>Wezwij</keyword> Eskela i Vesemira ze swojej talii.
 112205_fluff;Nigdy nie wchodź pomiędzy smoczycę a jej młode.
 112205_name;Myrgtabrakke
 112205_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zadaj {MaxTargets} wrogim jednostkom {Damage} pkt obrażeń.
@@ -418,10 +418,10 @@
 132220_tooltip;<keyword=thrive>Pokrzepienie</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> Ekimmę i <keyword=summon>wezwij</keyword> ją do tego rzędu.\n<keyword=deathwish>Zemsta</keyword>: Ponów umiejętność <keyword=deploy>rozmieszczenia</keyword>.
 132301_fluff;Jak widzisz światło we mgle, zawracaj. Natychmiast.
 132301_name;Mglak
-132301_tooltip;<keyword=deathwish>Zemsta</keyword>: <keyword=summon>Wezwij</keyword> wszystkie egzemplarze tej jednostki ze swojej talii do tego rzędu.
+132301_tooltip;<keyword=deathwish>Zemsta</keyword>: <keyword=spawn>Stwórz</keyword> <keyword=fog>Mgłę</keyword> w przeciwnym rzędzie na czas {counter} tur.
 132302_fluff;Ludzie posiadają wiele głęboko zakorzenionych lęków. Lęk przed mgłą jest uzasadniony...
 132302_name;Starożytny Mglak
-132302_tooltip;<keyword=deathwish>Zemsta</keyword>: <keyword=summon>Wezwij</keyword> tę jednostkę z cmentarza do tego samego rzędu, wzmocnij ją o {Boost} i daj jej <keyword=doomed>fatum</keyword>.
+132302_tooltip;<keyword=veil>Zasłona</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę jednostkę o liczbę równą łącznemu czasowi działania efektów rzędu po przeciwnej stronie.\nZa każdym razem gdy nakładasz efekt rzędu, wzmocnij tę jednostkę o liczbę równą czasowi jego działania.
 132303_fluff;To było coś, co żyło tylko po to, by zabijać.
 132303_name;Wiwerna
 132303_tooltip;<keyword=thrive>Pokrzepienie</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword> (<keyword=ranged>daleki zasięg</keyword>): Zadaj wrogiej jednostce {Damage} pkt obrażeń.
@@ -612,7 +612,7 @@
 142317_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę kartę o liczbę sojuszniczych jednostek-Krasnoludów w tym rzędzie.
 142401_fluff;Doznawszy rasizmu i ksenofobii,  wielu nieludzi z miast decyduje się na dołączenie do Scoia'tael.
 142401_name;Neofita Scoia'tael
-142401_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> kopię bazową tej jednostki i <keyword=summon>wezwij</keyword> go do drugiego sojuszniczego rzędu.
+142401_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> egzemplarz bazowy tej jednostki w drugim rzędzie.\n<keyword=order>Rozkaz</keyword>: Przemień sojuszniczego Elfa w Elfiego Czatownika.
 143201_fluff;Wam ziemia płaci krwawy haracz. Nas obdarowywała. Wy wydzieracie ziemi jej skarby siłą. Dla nas ziemia rodziła i kwitła, bo kochała nas.
 143201_name;Wężowa Pułapka
 143201_tooltip;<keyword=ambush>Zasadzka</keyword>: Po zagraniu przez przeciwnika karty specjalnej zniszcz wrogą jednostkę o najwyższej sile.\n<keyword=spring>Uruchomienie</keyword>: Zniszcz wrogą jednostkę o najniższej sile.
@@ -638,7 +638,7 @@
 152106_tooltip;<keyword=deploy>Rozmieszczenie</keyword> (<keyword=melee>bliskie starcie</keyword>): Zadaj wrogiej jednostce obrażenia równe dwukrotności liczby rannych wrogów.
 152107_fluff;Jej prawdziwe imię to Astrid Lyttneyd Ásgeirrfinnbjornsdottir, ale miała już dosyć problemów w urzędach.
 152107_name;Koral
-152107_tooltip;<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: <keyword=discard>Odrzuć</keyword> kartę, następnie dobierz kartę.\nZa każdym razem, gdy <keyword=discard>odrzucasz</keyword> kartę specjalną, zadaj losowej wrogiej jednostce {Damage} pkt obrażeń.
+152107_tooltip;<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: <keyword=discard>Odrzuć</keyword> kartę, następnie dobierz kartę.\nZa każdym razem gdy <keyword=discard>odrzucasz</keyword> kartę, zadaj losowej wrogiej jednostce {Damage} pkt obrażeń.
 152109_fluff;Nilfgaardczykom na jego widok robi się ciepło w kalesonach.
 152109_name;Dzik Morski
 152109_tooltip;<keyword=Deploy>Rozmieszczenie</keyword> (<keyword=melee>bliskie starcie</keyword>): Zadaj wszystkim rannym jednostkom przeciwnika {damage} pkt obrażeń, następnie zadaj wszystkim jednostkom przeciwnika {damage2} pkt obrażeń.
@@ -937,10 +937,10 @@
 200036_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zadaj maks. {MaxTargets} sąsiadującym wrogom {Damage} pkt obrażeń.\n<keyword=bloodthirst>Żądza krwi</keyword> {Bloodthirst}: Zamiast tego zadaj wszystkim wrogom w rzędzie {Damage} pkt obrażeń.
 200037_fluff;Nie patrz na jego oko, nie znosi tego...
 200037_name;Cyklop
-200037_tooltip;<keyword=deploy>Rozmieszczenie</keyword> (<keyword=melee>bliskie starcie</keyword>): Zniszcz sąsiadującą sojuszniczą jednostkę i zadaj wrogiej jednostce obrażenia równe sile zniszczonej.
+200037_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz sąsiadującą jednostkę sojuszniczą i zadaj przeciwnikowi tyle obrażeń, ile wynosiła jej siła.
 200038_fluff;Wedle popularnego wierzenia, wyrastają w ziemi użyźnionej krwią umierających. Kwitną wszędzie tam, gdzie w przeszłości doszło do pogromów, krwawych rytuałów i okrutnych mordów.
 200038_name;Archespor
-200038_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zadaj losowej wrogiej jednostce {Damage} pkt obrażeń.\n<keyword=deathwish>Zemsta</keyword>: Ponów umiejętność <keyword=deploy>rozmieszczenia</keyword>.
+200038_tooltip;<keyword=deathwish>Zemsta</keyword>: <keyword=summon>Wezwij</keyword> wszystkie egzemplarze tej jednostki ze swojej talii do tego rzędu.
 200039_fluff;Póki trwamy, póty ludzka stopa nie stanie w Dol Blathanna.
 200039_name;Elfi Obrońca
 200039_tooltip;<keyword=melee>Bliskie starcie</keyword>: Za każdym razem, kiedy wroga jednostka się przemieszcza, zadaj jej {Damage} pkt obrażeń.\n<keyword=ranged>Daleki zasięg</keyword>: Za każdym razem, kiedy sojusznicza jednostka się przemieszcza, wzmocnij ją o {Boost}.
@@ -967,7 +967,7 @@
 200048_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojuszniczego Maga o {Boost}.
 200049_fluff;Nie chcą otworzyć? To zapukamy.
 200049_name;Taran
-200049_tooltip;<keyword=order>Rozkaz</keyword> (<keyword=ranged>daleki zasięg</keyword>): Przenieś Taran do rzędu <keyword=melee>bliskiego starcia</keyword>, następnie zadaj najsilniejszej wrogiej jednostce {Damage} pkt obrażeń.\n<keyword=crew>Załoga</keyword>: Zyskaj <keyword=zeal>zapał</keyword>.
+200049_tooltip;<keyword=deploy>Rozmieszczenie</keyword>, <keyword=crew>Załoga</keyword>: Zyskaj <keyword=zeal>zapał</keyword>.\n<keyword=order>Rozkaz</keyword> (<keyword=ranged>daleki zasięg</keyword>): Przenieś tę jednostkę do rzędu <keyword=melee>bliskiego starcia</keyword>, następnie zadaj najsilniejszej wrogiej jednostce {damage} pkt obrażeń.
 200050_fluff;Wielkie Słońce ogrzeje Północ swoimi promieniami, choćbym miał was wszystkich wyrżnąć!
 200050_name;Vreemde
 200050_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojuszniczego Żołnierza i wszystkie jego egzemplarze o {Boost}.
@@ -1009,7 +1009,7 @@
 200081_tooltip;<keyword=Deploy>Rozmieszczenie</keyword> (<keyword=ranged>daleki zasięg</keyword>): <keyword=heal>Uzdrów</keyword> sojuszniczą jednostkę z {Boost} pkt obrażeń i wzmocnij ją o {Boost2}.
 200083_fluff;Wolimy zachować nasze imiona dla siebie. Myśl o nas jako o... Przyjaciołach domu.
 200083_name;Towarzysze Iris
-200083_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Dobierz wybraną kartę ze swojej talii, następnie <keyword=discard>odrzuć</keyword> losową kartę.
+200083_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Dobierz wybraną kartę ze swojej talii, następnie <keyword=discard>odrzuć</keyword> losową kartę.\nJeśli masz w ręce Iris, zamiast tego wybierz, którą kartę <keyword=discard>odrzucić</keyword>.
 200087_fluff;Dorregaray prześciga w fanaberiach nawet wiedźminów. Nie poprzestaje na dzieleniu potworów na dobre i złe. Uważa, że wszystkie są dobre.
 200087_name;Dorregaray z Vole
 200087_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: <keyword=lock>Zablokuj</keyword> jednostkę.
@@ -1090,13 +1090,13 @@
 200160_tooltip;<keyword=order>Rozkaz</keyword>: Zadaj wrogiej jednostce {Damage} pkt obrażeń. <keyword=cooldown>Odnowienie</keyword>: {Cooldown}.\n\nTa umiejętność dodaje {Template.Provision} pkt werbunku do limitu werbunku twojej talii.
 200161_fluff;Nikt nie wie skąd wziął się jego przydomek, nikt nie śmiał spytać.
 200161_name;Nawałnica ciosów
-200161_tooltip;<keyword=order>Rozkaz</keyword>: Rozdziel losowo {Damage} pkt obrażeń między wszystkie wrogie jednostki, ignorując ich <keyword=armor>pancerz</keyword>.\n\nTa umiejętność dodaje {Template.Provision} pkt werbunku do limitu werbunku twojej talii.
+200161_tooltip;<keyword=order>Rozkaz</keyword>: Rozdziel losowo {Damage} pkt obrażeń między wszystkie wrogie jednostki, ignorując ich <keyword=armor>pancerz</keyword>.\n<keyword=charge>Ładunki</keyword>: {charge}\n\nTa umiejętność dodaje {Template.Provision} pkt werbunku do limitu werbunku twojej talii.
 200162_fluff;Nie jestem znany ze swojej cierpliwości. Poczyń, proszę, kroki, aby nie być znanym z braku głowy na karku.
 200162_name;Areszt
 200162_tooltip;<keyword=order>Rozkaz</keyword>: <keyword=lock>Zablokuj</keyword> wrogą jednostkę i zadaj jej {damage} pkt obrażeń. <keyword=charge>Ładunki</keyword>: {Charges}.\n\nTa umiejętność dodaje {Template.Provision} pkt do limitu werbunku twojej talii.
 200163_fluff;„A ty kto? Też jakiś balwierz?” „Nie. Morvran Voorhis. Dowódca dywizji Alba”.
 200163_name;Cesarska formacja
-200163_tooltip;<keyword=order>Rozkaz</keyword>: Wzmocnij sojuszniczą jednostkę o {Boost}. <keyword=charge>Ładunki</keyword>: {Charges}.\nPo wykorzystaniu wszystkich <keyword=charge>ładunków</keyword> przenieś Żołnierza ze swojej talii na jej wierzch.\n\nTa umiejętność dodaje {Template.Provision} pkt do limitu werbunku twojej talii.
+200163_tooltip;<keyword=order>Rozkaz</keyword>: Wzmocnij sojuszniczą jednostkę o {Boost}. <keyword=charge>Ładunki</keyword>: {Charges}.\nKiedy wszystkie <keyword=charge>ładunki</keyword> zostaną zużyte, przenieś Żołnierza ze swojej talii na jej wierzch.\nZa każdym razem gdy zagrywasz Żołnierza, daj mu {armor} pkt <keyword=armor>pancerza</keyword> za każdego sąsiadującego Żołnierza.\n\nTa umiejętność dodaje {Template.Provision} pkt do limitu werbunku twojej talii.
 200164_fluff;Siła jest tylko jedną z opcji dostępnych władcy.
 200164_name;Taktyczna decyzja
 200164_tooltip;<keyword=order>Rozkaz</keyword>: <keyword=spawn>Stwórz</keyword> i zagraj Morvrana Voorhisa.\n\nTa umiejętność dodaje {Template.Provision} pkt do limitu werbunku twojej talii.
@@ -1153,13 +1153,13 @@
 200226_tooltip;Zadaj {Damage} pkt obrażeń wszystkim jednostkom z parzystą siłą lub zadaj {Damage} pkt obrażeń wszystkim jednostkom z nieparzystą siłą.
 200228_fluff;Prosta, tania a zarazem skuteczna – jedna z ulubionych pułapek Scoia'tael.
 200228_name;Wilczy Dół
-200228_tooltip;<keyword=ambush>Zasadzka</keyword>: Po zagraniu przez przeciwnika karty losowo rozdziel między wszystkie wrogie jednostki obrażenia równe kosztowi werbunku zagranej karty.\n<keyword=spring>Uruchomienie</keyword>: Losowo rozdziel {Damage} pkt obrażeń między wszystkie wrogi jednostki.
+200228_tooltip;<keyword=ambush>Zasadzka</keyword>: Po zagraniu przez przeciwnika odkrytej karty rozdziel między wszystkie wrogie jednostki obrażenia równe kosztowi werbunku zagranej karty.\n<keyword=Spring>Uruchomienie</keyword>: Losowo rozdziel {damage} pkt obrażeń między wszystkie wrogie jednostki.
 200233_fluff;Mierzy bezbłędnie między kręgi lub pod lewą nerkę, na aortę. Zwykle wystarcza jeden cios i jesteś martwy.
 200233_name;Kuroliszek
 200233_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogiej jednostce {Damage} pkt obrażeń za każdą sąsiadującą Bestię.
 200234_fluff;Z werbunku? Dawać papiery! Czego zaraza, stoisz jeden z drugim? W lewo zwrot!
 200234_name;Biedna Pierdolona Piechota
-200234_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę jednostkę o {Boost}.
+200234_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> Lewą Pierdoloną Flankę i Prawą Pierdoloną Flankę po obu stronach tej jednostki.\n<keyword=bonded>Więź</keyword>: Wzmocnij tę jednostkę o {Boost}.
 200235_fluff;Nie ucz ojca dzieci robić.
 200235_name;Lambert: Fechmistrz
 200235_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogiej jednostce i wszystkim jej egzemplarzom {Damage} pkt obrażeń.
@@ -1168,7 +1168,7 @@
 200236_tooltip;<keyword=melee>Bliskie starcie</keyword>: Na koniec każdej sojuszniczej tury wzmocnij tę jednostkę o {Boost}.
 200237_fluff;Zabijanie potworów to nie żarty. Ciri musi to zrozumieć, jeśli ma zostać jedną z nas.
 200237_name;Vesemir: Mentor
-200237_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij wszystkich wiedźminów na planszy o {Boost}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Wzmocnij również wiedźminów na ręce oraz w talii.
+200237_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij wszystkich wiedźminów na planszy o {Boost}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Wzmocnij również wiedźminów na ręce oraz w talii.
 200293_fluff;Zważcie moje słowa: jeśli nie ruszycie dupy, ludzie tu przyjdą i zabiorą nasze baby!
 200293_name;Agitator Scoia'tael
 200293_tooltip;<keyword=deploy>Rozmieszczenie</keyword> (<keyword=ranged>daleki zasięg</keyword>): Wzmocnij Krasnoluda w swojej ręce o {Boost}.
@@ -1273,7 +1273,7 @@
 201587_tooltip;Zagraj jednostkę z <keyword=deathwish>zemstą</keyword> ze swojej talii.
 201589_fluff;Jestem Filavandrel aen Fidhail ze Srebrnych Wież, z rodu Feleaornów z Białych Okrętów.
 201589_name;Pobudzenie
-201589_tooltip;<keyword=order>Rozkaz</keyword>: Wzmocnij wszystkie jednostki w swojej ręce o {Boost}.\n\nTa umiejętność dodaje {Template.Provision} pkt werbunku do limitu werbunku twojej talii.
+201589_tooltip;<keyword=order>Rozkaz</keyword>: Wzmocnij jednostki ({maxtargets}) w swojej ręce o {Boost}.\n<keyword=charge>Ładunki</keyword>: {charges}.\n\nTa umiejętność dodaje {Template.Provision} pkt werbunku do limitu werbunku twojej talii.
 201595_fluff;Klątwę odczyniono... Ale apetyt na surowe mięso pozostał.
 201595_name;Ściana tarcz
 201595_tooltip;<keyword=order>Rozkaz</keyword>: Wzmocnij sojuszniczą jednostkę o {Boost} i daj jej <keyword=shield>tarczę</keyword>.\n<keyword=charge>Ładunki</keyword>: {Charges}.\n\nTa umiejętność dodaje {Template.Provision} pkt do limitu werbunku twojej talii.
@@ -1834,7 +1834,7 @@
 202186_tooltip;<keyword=order>Rozkaz</keyword>: <keyword=create>Utwórz</keyword> i zagraj kartę z ręki przeciwnika.\n\nTa umiejętność dodaje {Template.Provision} pkt werbunku do limitu werbunku twojej talii.
 202187_fluff;Zwano ją Lwicą. Nie bez powodu.
 202187_name;Manewr okrążający
-202187_tooltip;<keyword=order>Rozkaz</keyword>: Dobierz wybraną kartę Królestw Północy, następnie wtasuj kartę ze swojej ręki do talii. Jeśli dobrana karta była jednostką, wzmocnij ją o {Boost}.\n\nTa umiejętność dodaje {Template.Provision} pkt do limitu werbunku twojej talii.
+202187_tooltip;<keyword=order>Rozkaz</keyword>: Dobierz wybraną kartę Królestw Północy, następnie wtasuj kartę ze swojej ręki do talii i <keyword=spawn>stwórz</keyword> Ochotnika w swoim rzędzie <keyword=melee>bliskiego starcia</keyword>.\n<keyword=charge>Ładunki</keyword>: {Charges}\n\nTa umiejętność dodaje {Template.Provision} pkt do limitu werbunku twojej talii.
 202188_fluff;Objawia się ona jako panna jasnowłosa, we kwiatach cała, a wszystko, co żywe, pociąga za nią i lgnie do niej, zajedno, zielę czy zwierz.
 202188_name;Zew harmonii
 202188_tooltip;<keyword=order>Rozkaz</keyword>: <keyword=spawn>Stwórz</keyword> i zagraj Danę Meadbh.\n\nTa umiejętność dodaje {Template.Provision} pkt do limitu werbunku twojej talii.
@@ -1852,7 +1852,7 @@
 202192_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogiej jednostce {Damage} pkt obrażeń.\n<keyword=deathblow>Śmiertelny cios</keyword>: <keyword=spawn>Stwórz</keyword> i zagraj kopię bazową zniszczonej jednostki.
 202193_fluff;Dziewczynki powiedziały, że jeśli miałabym ochotę wybrać się tam sama, wystarczy otworzyć książkę „Kraina Tysiąca Baśni” i powiedzieć na głos słowa zaklęcia: Expecto ludum!
 202193_name;Kraina Tysiąca Baśni
-202193_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zagraj dowolną kartę specjalną ze swojej talii.
+202193_tooltip;<keyword=resilient>Wytrzymałość</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Zagraj kartę specjalną ze swojej talii.\n<keyword=order>Rozkaz</keyword>: Przemień kartę specjalną w swojej ręce w losową jednostkę o tym samym koszcie werbunku z tej samej frakcji.
 202194_fluff;Wasza książęca mość... Księżniczka została dotknięta przekleństwem Czarnego Słońca. Obawiam się, że nie ma dla niej nadziei...
 202194_name;Syanna
 202194_tooltip;<keyword=order>Rozkaz</keyword>: Powtórz umiejętność <keyword=deploy>rozmieszczenia</keyword> następnej jednostki, którą zagrasz w tej turze.
@@ -2098,7 +2098,7 @@
 202277_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zadaj sojuszniczej jednostce po prawej obrażenia równe połowie jej aktualnej siły, następnie zadaj wrogiej jednostce takie same obrażenia.
 202278_fluff;Kazano je wszystkie zniszczyć. Ale na odległych, na poły zapomnianych wyspach wciąż stoją... I wciąż składa się pod nimi ofiary.
 202278_name;Totem Svalbloda
-202278_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> Bękarta Svalbloda po obu stronach tej karty.\n<keyword=order>Rozkaz</keyword>: Zadaj sąsiadującym jednostkom {Damage} pkt obrażeń.
+202278_tooltip;<keyword=resilient>Wytrzymałość</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> Bękarta Svalbloda po obu stronach tej karty.\n<keyword=order>Rozkaz</keyword>: Zadaj sąsiadującym jednostkom {Damage} pkt obrażeń.
 202279_fluff;Nie wszystkich kapłanów Svalbloda udało się przegnać. Niestety.
 202279_name;Artis
 202279_tooltip;<keyword=ranged>Daleki zasięg</keyword>: Za każdym razem, gdy zagrywana jest jednostka, zadaj jej obrażenia równe połowie jej aktualnej siły.
@@ -2161,7 +2161,7 @@
 202298_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Wydaj <keyword=coin>monety</keyword> w liczbie równej sile wrogiej jednostki, następnie ją <keyword=seize>przechwyć</keyword>.
 202299_fluff;Wygląda dziwnie znajomo...
 202299_name;Sigi Reuven
-202299_tooltip;<keyword=intimidate>Zastraszenie</keyword>.\n<keyword=profit>Zysk</keyword> {Income}.\nZa każdą kartę z unikatową kategorią gangu w twojej talii początkowej zwiększ pierwotny <keyword=profit>zysk</keyword> Sigiego Reuvena o {Income2}.
+202299_tooltip;<keyword=intimidate>Zastraszenie</keyword>.\n<keyword=profit>Zysk</keyword> {Income+B.P.BB_Gangs}.\nZa każdą kartę z unikatową kategorią gangu w twojej talii początkowej zwiększ pierwotny <keyword=profit>zysk</keyword> Sigiego Reuvena o {Income2}.
 202300_fluff;Bank Vivaldich poinformował mnie poufnie, że listy próbowano tropić. Ich filia w Vengerbergu wykryła też próbę śledzenia operacji na twoim koncie. Jeden z pracowników okazał się nielojalny.
 202300_name;Bank Vivaldiego
 202300_tooltip;<keyword=profit>Zysk</keyword> {Income}.\nPodejrzyj wierzchnią kartę ze swojej talii oraz dodatkową kartę za każdą posiadaną <keyword=coin>monetę</keyword>. Zagraj wierzchnią kartę za darmo, lub zagraj inną, wydając <keyword=coin>monety</keyword> w liczbie równej jej odległości od wierzchu talii. Pozostałe karty wtasuj z powrotem do swojej talii.
@@ -2185,13 +2185,13 @@
 202306_tooltip;<keyword=deploy>Rozmieszczenie</keyword> (<keyword=melee>bliskie starcie</keyword>): <keyword=heal>Uzdrów</keyword> sojuszniczą jednostkę.\n<keyword=deploy>Rozmieszczenie</keyword> (<keyword=ranged>daleki zasięg</keyword>): Wzmocnij sojuszniczą jednostkę o {Boost}.\n<keyword=tribute>Haracz</keyword> {Tribute-B.P.BB_Tribute}: Zamiast tego połącz obie umiejętności <keyword=deploy>rozmieszczenia</keyword>.
 202307_fluff;Mój dom aukcyjny jest przede wszystkim miejscem spotkań elity.
 202307_name;Horst Borsodi
-202307_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zyskaj <keyword=coin>monety</keyword> w liczbie {Coins}.\nJeśli Ewald Borsodi jest na twoim cmentarzu, zamiast tego zyskaj <keyword=coin>monety</keyword> w liczbie {Coins2}.
+202307_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zyskaj <keyword=coin>monety</keyword> w liczbie {Coins}.\nJeśli Ewald Borsodi jest na twoim cmentarzu, zamiast tego zyskaj <keyword=coin>monety</keyword> w liczbie {coins2}.\n<keyword=fee>Opłata</keyword> {cost}: Daj sojuszniczej jednostce <keyword=vitality>witalność</keyword> ({vitality}).
 202308_fluff;Drzemka w burdelu? To nigdy nie jest dobry pomysł.
 202308_name;Niedyskretna kokota
 202308_tooltip;<keyword=fee>Opłata</keyword> {Cost}: Zyskaj <keyword=shield>tarczę</keyword>.\nZa każdym razem, gdy twój przeciwnik zagrywa jednostkę, wzmocnij tę kartę o {Boost}.\n<keyword=bonded>Więź</keyword>: Za każdym razem, gdy twój przeciwnik zagrywa kartę, wzmocnij tę jednostkę o {Boost}.
 202309_fluff;Pracuję nad tym od roku – na papierze. Teraz czas przystąpić do akcji. Mogę na ciebie liczyć?
 202309_name;Ewald Borsodi
-202309_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogiej jednostce {damage} pkt obrażeń.\nJeśli Horst Borsodi jest na twoim cmentarzu, zamiast tego zadaj wrogiej jednostce {damage2} pkt obrażeń.
+202309_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wrogiej jednostce {damage} pkt obrażeń.\nJeśli Horst Borsodi jest na twoim cmentarzu, zamiast tego zadaj wrogiej jednostce {damage2} pkt obrażeń.\n<keyword=fee>Opłata</keyword> {cost}: Daj wrogiej jednostce <keyword=bleeding>krwawienie</keyword> ({bleed}).
 202310_fluff;Och, przepraszam... Ależ ze mnie niezdara!
 202310_name;Kieszonkowiec
 202310_tooltip;<keyword=profit>Zysk</keyword> {Income}.
@@ -2206,7 +2206,7 @@
 202313_tooltip;<keyword=profit>Zysk</keyword> {Income}.\n<keyword=tribute>Haracz</keyword> {Tribute-B.P.BB_Tribute}: <keyword=spawn>Stwórz</keyword> Niedyskretną Kokotę i <keyword=summon>wezwij</keyword> ją do tego rzędu.
 202314_fluff;Co zamierzam robić po studiach? Pieniądze.
 202314_name;Pokątny alchemik
-202314_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Daj sojuszniczej jednostce <keyword=poison>truciznę</keyword> i wzmocnij ją o {Boost}.
+202314_tooltip;<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: <keyword=poison>Zatruj</keyword> sojuszniczą jednostkę i wzmocnij ją o {Boost}.
 202315_fluff;Nim odszedł z tego świata, w wielce nieprzystojny sposób wyraził się o miłościwie panującym nam królu...
 202315_name;Adalbertus Kalkstein
 202315_tooltip;<keyword=profit>Zysk</keyword> {Income}.\n<keyword=fee>Opłata</keyword> {Cost}: <keyword=purify>Oczyść</keyword> jednostkę.
@@ -2215,7 +2215,7 @@
 202316_tooltip;<keyword=profit>Zysk</keyword> {Income}.\n<keyword=fee>Opłata</keyword> {Cost}: Daj sojuszniczej jednostce <keyword=vitality>witalność</keyword> na kilka tur ({Vitality}).
 202317_fluff;Pszczoły jakoś nigdy mnie nie kręciły.
 202317_name;Rico Meiersdorf
-202317_tooltip;Za każdym razem gdy przeciwnik zagrywa jednostkę, a ty masz Rico w ręce, zmień jego siłę na siłę zagranej jednostki.
+202317_tooltip;Za każdym razem gdy przeciwnik zagrywa jednostkę, a ty masz Rico w ręce lub w talii, zmień jego siłę na siłę zagranej jednostki.
 202318_fluff;Szanowna pani położy głowę na pieńku sama, czy trzeba pomóc?
 202318_name;Oprawca czarownic
 202318_tooltip;<keyword=profit>Zysk</keyword> {Income}.\n<keyword=fee>Opłata</keyword> {Cost}: Daj wrogiej jednostce <keyword=bleeding>krwawienie</keyword> na {Bleed} turę. Jeśli wyznaczono za nią <keyword=bounty>nagrodę</keyword>, zamiast tego zadaj jej {Damage} pkt obrażeń.
@@ -2368,7 +2368,7 @@
 202368_tooltip;<keyword=insanity>Amok</keyword>.\n<keyword=fee>Opłata</keyword> {Cost}: <keyword=summon>Wezwij</keyword> wszystkie egzemplarze tej jednostki ze swojej talii do tego rzędu.
 202369_fluff;Ten płomień nigdy nie zgaśnie! Bo i zła nigdy nie zabraknie!
 202369_name;Stróż Wiecznego Ognia
-202369_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sąsiadujące jednostki o {Boost}.\n<keyword=tribute>Haracz</keyword> {Tribute-B.P.BB_Tribute}: Zamiast tego wzmocnij wszystkie jednostki w tym rzędzie o {Boost}.
+202369_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sąsiadujące jednostki o {Boost}.\n<keyword=tribute>Haracz</keyword> {Tribute-B.P.BB_Tribute}: Zamiast tego wzmocnij wszystkie jednostki w tym rzędzie o {Boost}.\nObniż koszt <keyword=tribute>haraczu</keyword> tej karty o {cost} za każdego sojuszniczego duchownego.
 202370_fluff;Od razu zauważyła, że wpadła Gudrun w oko. I postanowiła to wykorzystać.
 202370_name;Czuła Imke
 202370_tooltip;<keyword=ranged>Daleki zasięg</keyword>: Na koniec każdej sojuszniczej tury zyskaj <keyword=coin>monety</keyword> w liczbie {Coins}.\n<keyword=fee>Opłata</keyword> {Cost}: Zyskaj <keyword=shield>tarczę</keyword>.
@@ -2386,7 +2386,7 @@
 202374_tooltip;<keyword=spawn>Stwórz</keyword> {Counter} Fanatyków Wybrańców w sojuszniczym rzędzie.\nJeśli jakaś jednostka Wybrańców Ognia znajduje się już w tym rzędzie, zamiast tego <keyword=spawn>stwórz</keyword> {Counter2} Fanatyków Wybrańców.
 202375_fluff;Z takim słuchem mógł zostać muzykiem. Ale mu się to nie opłacało.
 202375_name;Niziołek Kasiarz
-202375_tooltip;<keyword=intimidate>Zastraszenie</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Wzmocniej tę jednostkę o {Boost} za każdą kartę Zbrodni w twoim ręku.
+202375_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę jednostkę o {Boost} za każdą kartę Zbrodni w twojej ręce.
 202376_fluff;Lepiej go nie zagadywać, kiedy pisze. Jeszcze dziabnie piórem.
 202376_name;Skryba Wybrańców
 202376_tooltip;<keyword=ranged>Daleki zasięg</keyword>: Za każdym razem, gdy <keyword=spawn>tworzysz</keyword> co najmniej jedną jednostkę na polu bitwy, zyskaj {Coins} <keyword=coin>monetę</keyword>.\n<keyword=tribute>Haracz</keyword> {Tribute-B.P.BB_Tribute}: Wzmocnij tę kartę o {Boost}.
@@ -2431,7 +2431,7 @@
 202389_tooltip;<keyword=deploy>Rozmieszczenie</keyword> (<keyword=melee>bliskie starcie</keyword>): Zagraj kartę Zbrodni ze swojej talii.
 202390_fluff;Moje świnie lubią wrzucić coś na ząb. Dzisiaj to będziesz ty.
 202390_name;Zatoka piracka
-202390_tooltip;<keyword=order>Rozkaz</keyword>: <keyword=spawn>Stwórz</keyword> Morską Hienę w sojuszniczym rzędzie, następnie zyskaj <keyword=coin>monety</keyword> w liczbie {Coins}.\n\nTa umiejętność dodaje {Template.Provision} pkt do limitu werbunku twojej talii.
+202390_tooltip;<keyword=order>Rozkaz</keyword>: <keyword=spawn>Stwórz</keyword> Morską Hienę w sojuszniczym rzędzie.\n<keyword=charge>Ładunki</keyword>: {charges}.\n\nTa umiejętność dodaje {Template.Provision} pkt do limitu werbunku twojej talii.
 202392_fluff;W mieście pełnym kłamstw, prawda jest bronią.
 202392_name;Walter Veritas
 202392_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Utwórz i zagraj brązową kartę Syndykatu.
@@ -2470,13 +2470,13 @@
 202404_tooltip;Siła tej jednostki jest zawsze równa wartości jej <keyword=armor>pancerza</keyword>.
 202405_fluff;Gizarmę? Buzdygan? Wekierę? Mam wszystko, czego dusza zapragnie.
 202405_name;Zbrojownia
-202405_tooltip;Wzmocnij jednostkę o {Boost} i daj jej {Armor} pkt <keyword=armor>pancerza</keyword>.
+202405_tooltip;<keyword=resilient>Wytrzymałość</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij sojuszniczą jednostkę o {Boost}.\n<keyword=order>Rozkaz</keyword>: Daj sojuszniczej jednostce {armor} pkt <keyword=armor>pancerza</keyword>.
 202406_fluff;Biała flaga to żadna zniewaga.
 202406_name;Kapitulacja
 202406_tooltip;Odbierz {Damage} pkt <keyword=armor>pancerza</keyword> wszystkim jednostkom w rzędzie, następnie zadaj im {Damage2} pkt obrażeń.
 202407_fluff;Dh'oine wszystko potrafią zamienić w broń. Nawet zwykły wóz…
 202407_name;Wagenburg
-202407_tooltip;<keyword=barricade>Barykada</keyword>: Na koniec każdej sojuszniczej tury daj sąsiadującym jednostkom {Armor} pkt <keyword=armor>pancerza</keyword>.
+202407_tooltip;<keyword=barricade>Barykada</keyword>: Na koniec swojej tury daj sąsiadującym jednostkom {Armor} pkt <keyword=armor>pancerza</keyword>.
 202408_fluff;Broń krótka, ale zasięg daleki.
 202408_name;Kondotier nożownik
 202408_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Daj {MaxTargets} losowym jednostkom wroga <keyword=bleeding>krwawienie</keyword> na kilka tur ({Bleed}).
@@ -2647,7 +2647,7 @@
 202468_tooltip;<keyword=harmony>Harmonia</keyword> {Harmony}.
 202469_fluff;Munro marzył, że założy hemernię parowo-wodną. A skończył jako wykidajło w najpodlejszej knajpie w Wyzimie…
 202469_name;Munro Bruys
-202469_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Przemień {Maxtargets} sojuszniczych Awanturników w Straceńców.
+202469_tooltip;<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Przemień {Maxtargets} sojuszniczych Awanturników w Straceńców.\n<keyword=charge>Ładunki</keyword>: {charges}.
 202470_fluff;Ja prosty chłop jestem. Wypić lubię, najeść się, pośpiewać sprośne piosenki… A jak impreza się kończy, wysikać się na gasnące ognisko.
 202470_name;Figgis Merluzzo
 202470_tooltip;<keyword=defender>Obrońca</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> w tym rzędzie Awanturnika.
@@ -2704,19 +2704,19 @@
 202487_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zamień wierzchnią kartę talii przeciwnika ze swoją.
 202491_fluff;Ludzie myślą, że bazyliszek zabija spojrzeniem, tymczasem śmierć powodują bezbarwne opary jego jadu…
 202491_name;Jad bazyliszka
-202491_tooltip;<keyword=order>Rozkaz</keyword>: <keyword=poison>Zatruj</keyword> losową wrogą jednostkę.
+202491_tooltip;<keyword=order>Rozkaz</keyword>: <keyword=poison>Zatruj</keyword> jednostkę.
 202493_fluff;Doskonale nadaje się na przycisk do papieru.
 202493_name;Kryształowa Czaszka
 202493_tooltip;<keyword=order>Rozkaz</keyword>: Wzmocnij sojuszniczą jednostkę o {Boost} i daj jej <keyword=veil>zasłonę</keyword>.
 202497_fluff;Pochyl się, nadstaw ucha, a usłyszysz szept…
 202497_name;Zaklęta karacena
-202497_tooltip;<keyword=order>Rozkaz</keyword>: Wzmocnij jednostkę w swojej ręce o {Boost}.
+202497_tooltip;<keyword=order>Rozkaz</keyword>: Wzmocnij jednostkę w swojej ręce o {Boost} i daj jej {Armor} pkt <keyword=armor>pancerza</keyword>.
 202498_fluff;Na pieczęci stoi jasno: nie otwierać. Ale wiadomo… Ciekawość w końcu zwycięży.
 202498_name;Przeklęty zwój
-202498_tooltip;<keyword=order>Rozkaz</keyword>: Podejrzyj wierzchnie karty ze swojej talii ({Maxtargets}) i dobierz jedną z nich, następnie umieść kartę ze swojej ręki na spodzie swojej talii.
+202498_tooltip;<keyword=order>Rozkaz</keyword>: Dodaj kartę ze swojej talii do ręki, a następnie przenieś kartę ze swojej ręki na spód swojej talii.
 202500_fluff;Zdobny niby książęcy diadem. Ostry jak rzeźnicki nóż.
 202500_name;Rytualny sztylet
-202500_tooltip;<keyword=order>Rozkaz</keyword>: Daj wrogiej jednostce <keyword=bleeding>krwawienie</keyword> ({Bleeding}).
+202500_tooltip;<keyword=order>Rozkaz</keyword>: Zadaj wrogowi {Damage} pkt obrażeń i daj mu <keyword=bleeding>krwawienie</keyword> ({Bleeding}).
 202501_fluff;Lekko zaśniedziała. Wystarczy potrzeć, a odzyska dawny blask.
 202501_name;Magiczna lampa
 202501_tooltip;<keyword=order>Rozkaz</keyword>: Przemień w Dżina z Lampy.
@@ -2749,7 +2749,7 @@
 202511_tooltip;Zadaj wrogiej jednostce {Damage} pkt obrażeń.\n<keyword=deathblow>Śmiertelny cios</keyword>: <keyword=purify>Oczyść</keyword> sąsiadujące jednostki.
 202512_fluff;Czas nie płynie, czas zatacza kręgi. Przeszłość staje się przyszłością, dziadowie powtarzają błędy wnuków.
 202512_name;Maska Uroborosa
-202512_tooltip;<keyword=order>Rozkaz</keyword>: Dobierz kartę, a następnie <keyword=discard>odrzuć</keyword> kartę i <keyword=spawn>stwórz</keyword> Kruka w rzędzie <keyword=melee>bliskiego starcia</keyword>.
+202512_tooltip;<keyword=order>Rozkaz</keyword>: Dobierz kartę, a następnie <keyword=discard>odrzuć</keyword> kartę i <keyword=spawn>stwórz</keyword> Kruki w liczbie {counter} w rzędzie <keyword=melee>bliskiego starcia</keyword>.
 202513_fluff;W jego cieniu koronuje się władców. Na jego konarach wiesza się zdrajców.
 202513_name;Gedyneith
 202513_tooltip;<keyword=doomed>Fatum</keyword>.\nScenariusz: Przejdź krok dalej za każdym razem, gdy zagrasz Druida.\nProlog: <keyword=spawn>Stwórz</keyword> w tym rzędzie Mówcę Klanu Kruka.\nRozdział 1: <keyword=spawn>Stwórz</keyword> i zagraj Kłącze Wroniego Oka.\nRozdział 2: <keyword=spawn>Stwórz</keyword> i zagraj Mardroeme.
@@ -2776,7 +2776,7 @@
 202521_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: <keyword=summon>Wezwij</keyword> wszystkie egzemplarze tej jednostki ze swojego cmentarza do tego rzędu.\nJeśli trzymasz kartę Alchemii, <keyword=summon>wezwij</keyword> też wszystkie egzemplarze ze swojej talii.
 202522_fluff;Każdy nosi w sobie mrok. Niektórzy nauczyli się go naginać do swej woli…
 202522_name;Urna Cieni
-202522_tooltip;<keyword=order>Rozkaz</keyword>: Aktywuj umiejętność <keyword=deathwish>zemsty</keyword> brązowej sojuszniczej jednostki.
+202522_tooltip;<keyword=order>Rozkaz</keyword>: Aktywuj umiejętność <keyword=deathwish>Zemsty</keyword> sojuszniczej jednostki.
 202523_fluff;Na zgubę ludzi obudzi swe szczury i pośle je, by umierały w szczęśliwym mieście.
 202523_name;Morowa dziewica
 202523_tooltip;<keyword=deathwish>Zemsta</keyword>: <keyword=spawn>Stwórz</keyword> w tym rzędzie Szczury w liczbie {Counter}.
@@ -2836,7 +2836,7 @@
 202543_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz wrogą jednostkę ze statusem.
 202544_fluff;Ophelie Van Moorlehem uwielbia urządzać huczne bale. To, że o niektórych biesiadnikach ginie potem słuch, zdaje się nikomu nie przeszkadzać…
 202544_name;Bal maskowy
-202544_tooltip;<keyword=doomed>Fatum</keyword>.\nScenariusz: Przejdź krok dalej za każdym razem, gdy zagrasz Arystokratę.\nProlog: <keyword=spawn>Stwórz</keyword> w tym rzędzie Spragnioną Damę.\nRozdział 1: <keyword=spawn>Stwórz</keyword> i zagraj Truciciela.\nRozdział 2: <keyword=spawn>Stwórz</keyword> i zagraj Truciciela.
+202544_tooltip;<keyword=doomed>Fatum</keyword>.\nScenariusz: Przejdź krok dalej za każdym razem, gdy zagrasz Arystokratę po swojej stronie pola bitwy.\nProlog: <keyword=spawn>Stwórz</keyword> w tym rzędzie Spragnioną Damę.\nRozdział 1: <keyword=spawn>Stwórz</keyword> i zagraj Truciciela.\nRozdział 2: <keyword=spawn>Stwórz</keyword> i zagraj Truciciela.
 202545_fluff;Mówią, że Vincent Van Moorlehem boi się tylko jednego człowieka. Nie jest to Emhyr var Emreis ani Geralt z Rivii - tylko jego własny syn.
 202545_name;Philippe Van Moorlehem
 202545_tooltip;<keyword=order>Rozkaz</keyword> (<keyword=ranged>daleki zasięg</keyword>): Zadaj jednostce {Damage} pkt obrażeń. <keyword=cooldown>Odnowienie</keyword>: {Cooldown}.\nJeśli cel ma status, zamiast tego zadaj mu {Damage2} pkt obrażeń.
@@ -3226,7 +3226,7 @@
 202780_tooltip;Za pierwszym razem w każdej turze, gdy <keyword=spawn>stworzysz</keyword> jednostkę po swojej stronie planszy, <keyword=spawn>stwórz</keyword> jej egzemplarz o sile {power} w tym rzędzie, następnie daj jej <keyword=doomed>fatum</keyword>.
 202781_fluff;Geralt, czując w ustach żelazisty posmak krwi, krzyknął zaklęcie, wyrzucając przed siebie dłoń z palcami rozwartymi w Znak Quen.
 202781_name;Geralt: Quen
-202781_tooltip;<keyword=shield>Tarcza</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Zagraj kartę-Wiedźmina ze swojej talii.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Daj mu <keyword=shield>tarczę</keyword>.
+202781_tooltip;<keyword=shield>Tarcza</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Zagraj kartę-Wiedźmina ze swojej talii.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Daj mu <keyword=shield>tarczę</keyword>.
 202782_fluff;Możemy zniszczyć to, co stworzyliśmy, ale nie możemy cofnąć czasu i sprawić, żeby nigdy nie zaistniało.
 202782_name;Mutacja selektywna
 202782_tooltip;Dobierz wybraną kartę z <keyword=adrenaline>adrenaliną</keyword>, a następnie wtasuj kartę z ręki z powrotem do talii. <keyword=spawn>Stwórz</keyword> Młodego Wiedźmina w każdym sojuszniczym rzędzie.
@@ -3256,7 +3256,7 @@
 202790_tooltip;Wzmocnij sojuszniczą jednostkę o {Boost} i daj jej <keyword=veil>zasłonę</keyword>.
 202791_fluff;Za każdą z blizn kryje się jakaś historia. W niektóre aż trudno uwierzyć.
 202791_name;Ivar Złe Oko
-202791_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zamień siłę tej jednostki z siłą jednostki przeciwnika.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Zamiast tego zadaj wrogiej jednostce {Damage} pkt obrażeń.
+202791_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zamień siłę tej jednostki z siłą jednostki przeciwnika.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Zamiast tego zadaj wrogiej jednostce {Damage} pkt obrażeń.
 202792_fluff;„Podstępna bestia” – tłumaczył Ivar. „Potrafi czekać godzinami, zanim uderzy. Gdy wreszcie zaatakuje, ofiara ginie w mgnieniu oka”.
 202792_name;Wipper
 202792_tooltip;Na koniec rundy umieść tę kartę na cmentarzu przeciwnika. \nNa koniec tury, jeśli ta karta jest na cmentarzu, <keyword=banish>wygnaj</keyword> z cmentarza kartę o najniższym koszcie.\nJeśli wipper jest jedyną kartą na cmentarzu, daj mu <keyword=doomed>fatum</keyword>, a następnie <keyword=summon>wezwij</keyword> go do losowego rzędu przeciwnika.
@@ -3265,16 +3265,16 @@
 202793_tooltip;<keyword=resilient>Wytrzymałość</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> i zagraj Adepta Szkoły Żmii, Wiedźmina Szkoły Żmii, Mentora Szkoły Żmii lub Alchemika Szkoły Żmii.\n<keyword=order>Rozkaz</keyword>: Przenieś kartę z cmentarza swojego przeciwnika na wierzch jego talii.
 202794_fluff;Można rzec, że los nigdy nie sprzyjał Kolgrimowi. Jeśli zrazu uśmiechał się do niego, to tylko po to, by potem wyszczerzyć wrednie kły.
 202794_name;Kolgrim
-202794_tooltip;<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Na koniec twojej tury wzmocnij tę kartę o różnicę w liczbie kart w taliach obu graczy.
+202794_tooltip;<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Na koniec twojej tury wzmocnij tę kartę o różnicę w liczbie kart w taliach obu graczy.
 202795_fluff;Wykorzystując z lekka przekształcony znak Supirre, Warritt był w stanie widzieć… wszystko.
 202795_name;Warritt Wszechwidzący
 202795_tooltip;<keyword=deploy>Rozmieszczenie</keyword> (<keyword=melee>bliskie starcie</keyword>): Umieść mającą najwyższy koszt werbunku kartę w talii przeciwnika na jej wierzchu.\n<keyword=deploy>Rozmieszczenie</keyword> (<keyword=ranged>daleki zasięg</keyword>): Umieść mającą najniższy koszt werbunku kartę w talii przeciwnika na jej wierzchu.
 202796_fluff;Żmije są szkolone do walki z dwoma ostrzami, potocznie zwanymi „kłami”. Ich styl koncentruje się na szybkich, agresywnych ciosach, których celem jest zdominowanie przeciwnika – czy to potwora, czy to człowieka.
 202796_name;Wiedźmin szkoły Żmii
-202796_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Daj wrogiej jednostce <keyword=bleeding>krwawienie</keyword> ({Bleed}).\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: <keyword=spawn>Stwórz</keyword> bazowy egzemplarz tej jednostki na wierzchu talii przeciwnika.
+202796_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Daj wrogiej jednostce <keyword=bleeding>krwawienie</keyword> ({Bleed}).\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: <keyword=spawn>Stwórz</keyword> bazowy egzemplarz tej jednostki na wierzchu talii przeciwnika.
 202797_fluff;Mentorzy w szkole Żmii są szczególnie bezlitośni wobec swych uczniów, aby przygotować ich na jeszcze bardziej pozbawioną litości przyszłość.
 202797_name;Mentor szkoły Żmii
-202797_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Ustaw siłę tej karty na równi z kosztem werbunku wierzchniej karty w talii przeciwnika.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Zamiast tego ustaw siłę tej karty na równi z kosztem werbunku najdroższej karty w talii przeciwnika.
+202797_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Ustaw siłę tej karty na równi z kosztem werbunku wierzchniej karty w talii przeciwnika.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Zamiast tego ustaw siłę tej karty na równi z kosztem werbunku najdroższej karty w talii przeciwnika.
 202798_fluff;Co się nie zabije, to cię wzmocni. Albo osłabi. To zależy, właściwie.
 202798_name;Alchemik szkoły Żmii
 202798_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Podejrzyj karty ({MaxTargets}) z wierzchu swojej talii i umieść jedną z nich na wierzchu, a następnie zamień wierzchnie karty w taliach swojej i przeciwnika.
@@ -3286,7 +3286,7 @@
 202800_tooltip;Zadaj wrogiej jednostce {damage} pkt obrażeń.\n<keyword=deathblow>Śmiertelny cios</keyword>: <keyword=banish>Wygnaj</keyword> tę jednostkę i <keyword=spawn>stwórz</keyword> jej egzemplarz bazowy na wierzchu talii przeciwnika.
 202801_fluff;Mądrzej brać zlecenia od Aen Seidhe niż od dh'oine. Ludzie zbyt chętnie uciekają się do oszustwa, miast uczciwe płacić.
 202801_name;Gezras Leydańczyk
-202801_tooltip;<keyword=melee>Bliskie starcie</keyword>: Na koniec tury przesuń tę jednostkę do rzędu <keyword=ranged>dalekiego zasięgu</keyword> i wzmocnij losową sojuszniczą jednostkę w tym rzędzie o {Boost}.\n<keyword=ranged>Daleki zasięg</keyword>: Na koniec swojej tury przenieś tę kartę do rzędu <keyword=melee>bliskiego starcia</keyword> i zadaj losowemu wrogowi w przeciwnym rzędzie {Damage} pkt obrażeń.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Zamiast losowej jednostki efekt obejmuje wszystkie jednostki w danym rzędzie.
+202801_tooltip;<keyword=melee>Bliskie starcie</keyword>: Na koniec tury przesuń tę jednostkę do rzędu <keyword=ranged>dalekiego zasięgu</keyword> i wzmocnij losową sojuszniczą jednostkę w tym rzędzie o {Boost}.\n<keyword=ranged>Daleki zasięg</keyword>: Na koniec swojej tury przenieś tę kartę do rzędu <keyword=melee>bliskiego starcia</keyword> i zadaj losowemu wrogowi w przeciwnym rzędzie {Damage} pkt obrażeń.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Zamiast losowej jednostki efekt obejmuje wszystkie jednostki w danym rzędzie.
 202802_fluff;Cenna ozdoba królewskiej menażerii – dopóty przynajmniej, dopóki komando Scoia'tael nie zaatakowało dworu i nie wypuściło bestii z klatki. Tego dnia miała apetyt na ludzkie mięso.
 202802_name;Tygrys szablozębny
 202802_tooltip;<keyword=zeal>Zapał</keyword>. <keyword=order>Rozkaz</keyword>: Przemień tę jednostkę w Tygrysa szablozębnego: Ukrycie.
@@ -3295,16 +3295,16 @@
 202803_tooltip;<keyword=resilient>Wytrzymałość</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> i zagraj Adepta Szkoły Kota, Wiedźmina Szkoły Kota, Wiedźmińskiego Mentora Szkoły Kota lub Wiedźmińskiego Sabotażystę Szkoły Kota.\n<keyword=order>Rozkaz</keyword>: Przenieś sojusznicze jednostki ({MaxTargets}) do drugiego rzędu.
 202804_fluff;Był znany jako Kot z Iello. Nie zyskał jednak tego miana, gdyż pochodził z miasta Iello, a dlatego, że dokonał tam rzezi…
 202804_name;Brehen
-202804_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz skrajnie prawą jednostkę w rzędzie przeciwnika z co najmniej {Counter} jednostkami.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Zamiast tego zniszcz skrajnie prawą jednostkę w rzędzie przeciwnika z co najmniej {Counter2} jednostkami.
+202804_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz skrajnie prawą jednostkę w rzędzie przeciwnika z co najmniej {Counter} jednostkami.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Zamiast tego zniszcz skrajnie prawą jednostkę w rzędzie przeciwnika z co najmniej {Counter2} jednostkami.
 202805_fluff;Ale zabić, żeby oszczędzić parę koron? I ja mam takich skurwysynów chronić?
 202805_name;Gaetan
 202805_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Przenieś inne karty z tego rzędu do drugiego rzędu.\nZadaj losowej jednostce przeciwnika {Damage} pkt obrażeń za każdą przeniesioną kartę.
 202806_fluff;Koty znane są z tego, że w szale bitwy tracą nad sobą kontrolę. Choćby przeciwnicy się poddali, choćby błagali o litość – nie przestają zabijać.
 202806_name;Wiedźmin szkoły Kota
-202806_tooltip;Na koniec swojej tury przenieś tę kartę do drugiego rzędu i zadaj losowemu wrogowi w przeciwnym rzędzie {Damage} pkt obrażeń.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Zamiast tego zadaj temu wrogowi {Damage2} pkt obrażeń.
+202806_tooltip;Na koniec swojej tury przenieś tę kartę do drugiego rzędu i zadaj losowemu wrogowi w przeciwnym rzędzie {Damage} pkt obrażeń.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Zamiast tego zadaj temu wrogowi {Damage2} pkt obrażeń.
 202807_fluff;Jeśli spadniesz, to po tobie, młokosie. Nie licz na dziewięć żyć.
 202807_name;Mentor szkoły Kota
-202807_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę kartę o wartość równą liczbie innych kart w tym rzędzie.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Wzmocnij tę kartę o {Boost} za każdym razem, gdy w tym rzędzie pojawia się karta.
+202807_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę kartę o wartość równą liczbie innych kart w tym rzędzie.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Wzmocnij tę kartę o {Boost} za każdym razem, gdy w tym rzędzie pojawia się karta.
 202808_fluff;Dosyć rzec, że historia ich obrzydliwych uczynków po dziś dzień wzbudza powszechną niechęć do wiedźminów.
 202808_name;Sabotażysta szkoły Kota
 202808_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Przenieś wrogą jednostkę na lewy skraj jej rzędu. Zadaj jej {Damage} pkt obrażeń za każdą mijaną kartę.
@@ -3316,28 +3316,28 @@
 202810_tooltip;Przenieś wroga do drugiego rzędu i daj mu <keyword=bleeding>krwawienie</keyword> ({Bleed}). Jeśli jest w tym rzędzie sam, zadaj mu zamiast tego {Damage} pkt obrażeń.
 202811_fluff;Zadaniem wiedźmina jest ubić potwora i odebrać nagrodę. Ni mniej, ni więcej.
 202811_name;Arnaghad
-202811_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zyskaj {Armor} pkt <keyword=armor>pancerza</keyword> za każdą uszkodzoną jednostkę.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Kiedy twój przeciwnik zagra jednostkę po swojej stronie pola bitwy, zadaj jej obrażenia równe sile Arnaghada i zadaj Arnaghadowi obrażenia równe sile tej jednostki.
+202811_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zyskaj {Armor} pkt <keyword=armor>pancerza</keyword> za każdą uszkodzoną jednostkę.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Kiedy twój przeciwnik zagra jednostkę po swojej stronie pola bitwy, zadaj jej obrażenia równe sile Arnaghada i zadaj Arnaghadowi obrażenia równe sile tej jednostki.
 202812_fluff;Po tylu walkach ten przeklęty niedźwiedź wygląda jak człapiąca zbrojownia.
 202812_name;Zmutowany niedźwiedź
-202812_tooltip;Jednostki w tym i przeciwnym rzędzie nie mogą być wzmacniane.
+202812_tooltip;Jednostki w tym i przeciwnym rzędzie nie mogą być wzmacniane.\n<keyword=berserk>Szał</keyword> {berserk}: Wpływa tylko na przeciwny rząd.
 202813_fluff;Wiadomo jeno, że została wzniesiona na oblodzonym zboczu gór Amell, skryta pośród ośnieżonych szczytów. Jednak dokładne położenie Szkoły Niedźwiedzia wciąż pozostaje tajemnicą.
 202813_name;Haern Caduch
 202813_tooltip;<keyword=resilient>Wytrzymałość</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> i zagraj Adepta Szkoły Niedźwiedzia, Wiedźmina Szkoły Niedźwiedzia, Wiedźmińskiego Mentora Szkoły Niedźwiedzia lub Wiedźmińskiego Kwatermistrza Szkoły Niedźwiedzia.\n<keyword=order>Rozkaz</keyword>: <keyword=heal>Ulecz</keyword> sąsiednie jednostki o {Boost}.
 202814_fluff;Podejmował się wielu zleceń: na smoka, na syreny czy na strzygę. Był ścigany przez kwiat rycerstwa, łowców nagród i zwykłych bandytów. A jednak zawsze potrafił znaleźć czas na partyjkę gwinta.
 202814_name;Gerd
-202814_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> w przeciwnym rzędzie Opętaną Syrenę i zadaj wszystkim jednostkom w tym rzędzie {Damage}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Zamiast tego <keyword=spawn>stwórz</keyword> w przeciwnym rzędzie Opętaną Syrenę i zadaj jej {Damage} pkt obrażeń.
+202814_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> w przeciwnym rzędzie Opętaną Syrenę i zadaj wszystkim jednostkom w tym rzędzie {Damage}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Zamiast tego <keyword=spawn>stwórz</keyword> w przeciwnym rzędzie Opętaną Syrenę i zadaj jej {Damage} pkt obrażeń.
 202815_fluff;Wieść niesie, że był owocem miłości pomiędzy gigantką a pewnym BARDZO odważnym krasnoludem.
 202815_name;Junod z Belhaven
 202815_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zniszcz ranną wrogą jednostkę.
 202816_fluff;Samotna podróż górskim szlakiem nie należy do łatwych – musisz się dobrze przygotować.
 202816_name;Wiedźmin szkoły Niedźwiedzia
-202816_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zadaj tej karcie {Damage} pkt obrażeń.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Zamiast tego zadaj tej karcie i wrogiej jednostce {Damage} pkt obrażeń.
+202816_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zadaj tej karcie {Damage} pkt obrażeń.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Zamiast tego zadaj tej karcie i wrogiej jednostce {Damage} pkt obrażeń.
 202817_fluff;Jeśli nie wiesz, którędy pójść, wypatruj oczywistej przestrogi – zamarzniętych ciał niedoszłych wiedźminów.
 202817_name;Mentor szkoły Niedźwiedzia
-202817_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę kartę o {Boost} za każdą ranną sojuszniczą jednostkę.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Zamiast tego wzmocnij tę kartę o {Boost} za każdą ranną jednostkę.
+202817_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę kartę o {Boost} za każdą ranną sojuszniczą jednostkę.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Zamiast tego wzmocnij tę kartę o {Boost} za każdą ranną jednostkę.
 202818_fluff;Polej mu miodu, a może opowie ci, jak w walce z niedźwiedziem stracił swoją ulubioną tarczę. I razem z nią – ulubioną rękę.
 202818_name;Kwatermistrz szkoły Niedźwiedzia
-202818_tooltip;<keyword=order>Rozkaz</keyword>: Zadaj sojuszniczej jednostce {Damage} pkt obrażeń, a następnie <keyword=spawn>stwórz</keyword> Młodego Wiedźmina w tym rzędzie.\n<keyword=charge>Ładunki</keyword>: {Charges}.
+202818_tooltip;<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Zadaj sojuszniczej jednostce {Damage} pkt obrażeń, a następnie <keyword=spawn>stwórz</keyword> Młodego Wiedźmina w tym rzędzie.\n<keyword=charge>Ładunki</keyword>: {Charges}.
 202819_fluff;Wszyscy adepci Szkoły Niedźwiedzia muszą przejść Próbę Gór, aby zostać wiedźminami. W tym celu wyruszają na szczyt Gorgony po specjalny kamień runiczny – dowód, że podołali wyzwaniu. Większośc chłopców zamarza jednak na długo przed dotarciem do celu.
 202819_name;Adept szkoły Niedźwiedzia
 202819_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zadaj tej karcie {Damage} pkt obrażeń.\nNa koniec swojej tury <keyword=heal>uzdrów</keyword> tę kartę z {Boost} pkt obrażeń. Jeśli nie jest ranna, zamiast tego zyska {Armor} pkt <keyword=armor>pancerza</keyword>.
@@ -3346,7 +3346,7 @@
 202820_tooltip;Zadaj wrogiej jednostce {Damage} pkt obrażeń.\n<keyword=spawn>Stwórz</keyword> {Count} Młodych Wiedźminów w przeciwnym rzędzie, zadaj im {Damage2} pkt obrażeń, a następnie daj im {Armor} pkt <keyword=armor>pancerza</keyword>.
 202821_fluff;Erland przewodził Szkole Gryfa w nadziei, że krzewienie wartości rycerskich pomoże odmienić reputację wiedźminów wśród pospólstwa. Niestety, jego wysiłki poszły na marne.
 202821_name;Erland z Larvik
-202821_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij wszystkie jednostki w swojej talii o {boost}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Dodatkowo ta jednostka zyskuje <keyword=immune>odporność</keyword>.\n<keyword=order>Rozkaz</keyword>: Usuń wzmocnienia ze wszystkich jednostek w talii, a następnie wzmocnij tę jednostkę o taką samą liczbę punktów.
+202821_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij wszystkie jednostki w swojej talii o {boost}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Dodatkowo ta jednostka zyskuje <keyword=immune>odporność</keyword>.\n<keyword=order>Rozkaz</keyword>: Usuń wzmocnienia ze wszystkich jednostek w talii, a następnie wzmocnij tę jednostkę o taką samą liczbę punktów.
 202822_fluff;Uważany za ucieleśnienie odwagi, lojalności i ducha walki – wartości, z których słyną Gryfici. Nazwa Szkoły Gryfa wywodzi się jednak nie od mitycznej bestii, a od przydomku pewnego błędnego rycerza, który zaszczepił te ideały w sercu jej założyciela.
 202822_name;Archegryf
 202822_tooltip;Pod koniec rundy wtasuj tę kartę z powrotem do swojej talii, zachowując wszystkie jej wzmocnienia.
@@ -3358,13 +3358,13 @@
 202824_tooltip;<keyword=zeal>Zapał</keyword>. <keyword=order>Rozkaz</keyword>: Wzmocnij wszystkie jednostki o sile równej sile Coëna o tyle, o ile wzmocniony jest Coën.
 202825_fluff;Wy tępe, bezmózgie, człekokształtne kreatury! Co to znaczy: nie wiem? Wy byście na wampiry z posążkiem Lebiody leźli, czosnkiem wysmarowani!
 202825_name;Keldar
-202825_tooltip;<keyword=resupply>Zaopatrzenie</keyword>: <keyword=spawn>Stwórz</keyword> w tym rzędzie Młodego Wiedźmina.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Na koniec swojej tury <keyword=spawn>stwórz</keyword> w tym rzędzie Młodego Wiedźmina.
+202825_tooltip;<keyword=resupply>Zaopatrzenie</keyword>: <keyword=spawn>Stwórz</keyword> w tym rzędzie Młodego Wiedźmina.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Na koniec swojej tury <keyword=spawn>stwórz</keyword> w tym rzędzie Młodego Wiedźmina.
 202826_fluff;Owszem, srebrny miecz się przydaje, ale wolę strzały z posrebrzanymi grotami.
 202826_name;Wiedźmin szkoły Gryfa
-202826_tooltip;<keyword=order>Rozkaz</keyword> (<keyword=melee>bliskie starcie</keyword>): Zadaj wrogiej jednostce {damage} pkt obrażeń.\n<keyword=cooldown>Odnowienie</keyword>: {Cooldown}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Na koniec swojej tury zadaj losowej wrogiej jednostce {damage2} pkt obrażeń i <keyword=lock>zablokuj</keyword> tę kartę.
+202826_tooltip;<keyword=order>Rozkaz</keyword> (<keyword=melee>bliskie starcie</keyword>): Zadaj wrogiej jednostce {damage} pkt obrażeń.\n<keyword=cooldown>Odnowienie</keyword>: {Cooldown}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Na koniec swojej tury zadaj losowej wrogiej jednostce {damage2} pkt obrażeń i <keyword=lock>zablokuj</keyword> tę kartę.
 202827_fluff;Wiedza utrzyma cię przy życiu znacznie dłużej niż tępa siła, chłopcze.
 202827_name;Mentor szkoły Gryfa
-202827_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Dobierz wierzchnią jednostkę, następnie wtasuj kartę z powrotem do talii.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Wzmocnij dobraną jednostkę o {boost}.
+202827_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Dobierz wierzchnią jednostkę, następnie wtasuj kartę z powrotem do talii.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Wzmocnij dobraną jednostkę o {boost}.
 202828_fluff;Zwiadowcy Gryfitów nie mają sobie równych w sztuce tropienia, zwłaszcza w niesprzyjających warunkach. Żaden z nich nie spocznie dopóty, dopóki nie schwyta bądź nie zabije ściganej zwierzyny.
 202828_name;Zwiadowca szkoły Gryfa
 202828_tooltip;<keyword=formation>Formacja</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Wzmocnij tę jednostkę o {boost} za każdą jednostkę we wrogim rzędzie.\n<keyword=order>Rozkaz</keyword>: Przenieś wszystkie wzmocnienia z tej jednostki na sojuszniczą jednostkę.
@@ -3379,31 +3379,31 @@
 202831_tooltip;<keyword=deathwish>Zemsta</keyword>: Wtasuj Wija z powrotem do swojej talii, a następnie wzmocnij siłę bazową tej karty o {boost}.
 202832_fluff;Jeśli ci powiem, że kościej to śmierć, to i tak pójdziesz na przełęcz, prawda?
 202832_name;Kościej
-202832_tooltip;<keyword=thrive>Pokrzepienie</keyword>.\nZa każdym razem, gdy ta jednostka aktywuje <keyword=thrive>pokrzepienie</keyword>, <keyword=spawn>stwórz</keyword> w tym rzędzie Trutnia.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Za każdym razem, gdy ta jednostka aktywuje <keyword=thrive>pokrzepienie</keyword>, zamiast tego <keyword=spawn>stwórz</keyword> w tym rzędzie Larwę endriagi.
+202832_tooltip;<keyword=thrive>Pokrzepienie</keyword>.\nZa każdym razem, gdy ta jednostka aktywuje <keyword=thrive>pokrzepienie</keyword>, <keyword=spawn>stwórz</keyword> w tym rzędzie Trutnia.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Za każdym razem, gdy ta jednostka aktywuje <keyword=thrive>pokrzepienie</keyword>, zamiast tego <keyword=spawn>stwórz</keyword> w tym rzędzie Larwę endriagi.
 202833_fluff;Starożytne legowisko potworów, kryjówka niezliczonych okropności i plugastw. Nawet wiedźmin zastanowiłby się dwa razy, zanim postawiłby stopę w pobliżu tego miejsca.
 202833_name;Dol Dhu Lokke
 202833_tooltip;<keyword=resilient>Wytrzymałość</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> i zagraj Sukkuba, Stuchacza, Chimerę lub Hybrydę.\n<keyword=order>Rozkaz</keyword>: Przesuń jednostkę o największej sile na wierzch swojej talii i <keyword=spawn>stwórz</keyword> Trutnia po obu stronach tej karty.
 202834_fluff;„Grzeczny potwór, dobry potwór…” – zwykł szeptać do bestii Idarran.
 202834_name;Idr
-202834_tooltip;<keyword=order>Rozkaz</keyword> (<keyword=adrenaline>adrenalina</keyword> {Adrenaline}): <keyword=consume>Pochłoń</keyword> wszystkie Sługi w tym rzędzie i zyskaj <keyword=immune>odporność</keyword>.\nZa każdym razem, gdy <keyword=consume>pochłaniasz</keyword> co najmniej jedną jednostkę, <keyword=spawn>stwórz</keyword> w tym rzędzie Trutnia.
+202834_tooltip;<keyword=order>Rozkaz</keyword> (<keyword=adrenaline>adrenalina</keyword> {Adrenaline-1}): <keyword=consume>Pochłoń</keyword> wszystkie Sługi w tym rzędzie i zyskaj <keyword=immune>odporność</keyword>.\nZa każdym razem, gdy <keyword=consume>pochłaniasz</keyword> co najmniej jedną jednostkę, <keyword=spawn>stwórz</keyword> w tym rzędzie Trutnia.
 202835_fluff;Idarran spędził dzieciństwo w kanałach Wyzimy i już w wieku pięciu lat zaczął eksperymentować na szczurach, które z nim pomieszkiwały.
 202835_name;Szczurołak
 202835_tooltip;<keyword=order>Rozkaz</keyword>: Zresetuj siłę tej jednostki i <keyword=spawn>stwórz</keyword> w tym rzędzie Szczury w liczbie równej utraconemu przez nią wzmocnieniu.\n<keyword=cooldown>Odnowienie</keyword>: {Cooldown}.\nNa koniec twojej tury <keyword=consume>pochłoń</keyword> jednostkę z prawej.
 202836_fluff;Trzeba się nawadniać. Koniecznie.
 202836_name;Sukkub
-202836_tooltip;<keyword=deathwish>Zemsta</keyword>: Jeśli na koniec swojej tury masz na swoim cmentarzu innego Sukkuba, <keyword=summon>wezwij</keyword> tę kartę ze swojego cmentarza do losowego rzędu i zyskaj <keyword=doomed>fatum</keyword>.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Nie zyskuj <keyword=doomed>fatum</keyword>.
+202836_tooltip;<keyword=deathwish>Zemsta</keyword>: Jeśli na koniec swojej tury masz na swoim cmentarzu innego Sukkuba, <keyword=summon>wezwij</keyword> tę kartę ze swojego cmentarza do losowego rzędu i zyskaj <keyword=doomed>fatum</keyword>.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Nie zyskuj <keyword=doomed>fatum</keyword>.
 202837_fluff;Szczególnie kłopotliwa jest większa, silniejsza rasa nekkerów zwana stuchaczem. Jeśli trafisz na choćby jednego, uciekaj.
 202837_name;Stuchacz
 202837_tooltip;<keyword=thrive>Pokrzepienie</keyword> {boost}.
 202838_fluff;Najpierw Cosimo skrzyżował czorta z gryfem. Następnie zmieszał geny insektoida i wiwerny, w wyniku czego stworzenie było znacznie gorsze niż suma jego składowych.
 202838_name;Chimera
-202838_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: <keyword=consume>Pochłoń</keyword> sojuszniczą jednostkę.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Wzmocnij wszystkie egzemplarze <keyword=consume>pochłoniętej</keyword> jednostki w rzędzie tej jednostki o {Boost1}.
+202838_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: <keyword=consume>Pochłoń</keyword> sojuszniczą jednostkę.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Wzmocnij wszystkie egzemplarze <keyword=consume>pochłoniętej</keyword> jednostki w rzędzie tej jednostki o {Boost1}.
 202839_fluff;Profesor Malaspina przypadkowo wlał do mikstury dodatkowy składnik – roztwór X.
 202839_name;Spontaniczna ewolucja
 202839_tooltip;Wzmocnij sojuszniczą jednostkę o {Boost} i zyskaj dodatkowy efekt zależny od jej kategorii.\n\nInsektoid – <keyword=spawn>stwórz</keyword> w rzędzie wzmocnionej jednostki Trutnie w liczbie {MaxTargets}.\nBestia – zamiast tego wzmocnij tę jednostkę o {Boost2}.\nOgroid – daj wszystkim Ogroidom w swojej ręce {Armor} pkt <keyword=armor>pancerza</keyword>.
 202841_fluff;Zginęła od strzał tych, na których sama polowała. Zdawało się więc, że jej historia dobiegła końca. A jednak... Salamandra miała dla niej inne plany.
 202841_name;Zmutowana Rayla
-202841_tooltip;<keyword=profit>Zysk</keyword> {Income}.\n<keyword=tribute>Haracz</keyword> {Tribute-B.P.BB_Tribute}: Zyskaj <keyword=veil>zasłonę</keyword>.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Za każdym razem, gdy zapłacisz <keyword=tribute>haracz</keyword>, wzmocnij tę kartę o koszt <keyword=tribute>haraczu</keyword>.
+202841_tooltip;<keyword=profit>Zysk</keyword> {Income}.\n<keyword=tribute>Haracz</keyword> {Tribute-B.P.BB_Tribute}: Zyskaj <keyword=veil>zasłonę</keyword>.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Za każdym razem, gdy zapłacisz <keyword=tribute>haracz</keyword>, wzmocnij tę kartę o koszt <keyword=tribute>haraczu</keyword>.
 202842_fluff;Pocieszne stworzonko, a jakże, lecz równie zabójcze co urokliwe. Przestraszone wydziela toksynę, która pali skórę i gotuje krew w żyłach.
 202842_name;Salamandra
 202842_tooltip;<keyword=profit>Zysk</keyword> {Income}.\n<keyword=deploy>Rozmieszczenie</keyword>: <keyword=poison>Zatruj</keyword> jednostkę. \n<keyword=tribute>Haracz</keyword> {Tribute-B.P.BB_Tribute}: Zamiast tego <keyword=poison>zatruj</keyword> wszystkie jednostki na polu bitwy.\nZwiększ <keyword=profit>zysk</keyword> o 1 za każdą sprzymierzoną Salamandrę.
@@ -3412,19 +3412,19 @@
 202843_tooltip;<keyword=resilient>Wytrzymałość</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> i zagraj Nieudany eksperyment, Abominację Salamander, Maga Salamander lub Pachołka Salamander.\n<keyword=order>Rozkaz</keyword>: Przenieś <keyword=poison>zatrucie</keyword> z sojusznika na inną jednostkę.
 202844_fluff;Ciekawe, jak mój brat radzi sobie w kanałach?
 202844_name;Roland Bleinheim
-202844_tooltip;Za każdym razem gdy jednostka zostaje <keyword=poison>zatruta</keyword>, zyskaj <keyword=coin>monety</keyword> w liczbie {Coins}.
+202844_tooltip;Za każdym razem gdy jednostka otrzymuje <keyword=poison>zatrucie</keyword>, zyskaj <keyword=coin>monety</keyword> w liczbie {Coins}.
 202845_fluff;Ciekawe, jak mój brat radzi sobie w głuszy?
 202845_name;Gellert Bleinheim
-202845_tooltip;<keyword=profit>Zysk</keyword> {Profit}.\n<keyword=fee>Opłata</keyword> {Cost}: <keyword=poison>Zatruj</keyword> sojuszniczą jednostkę i wzmocnij ją o {Boost}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: <keyword=cooldown>Odnowienie</keyword>: {Cooldown}.
+202845_tooltip;<keyword=profit>Zysk</keyword> {Profit}.\n<keyword=fee>Opłata</keyword> {Cost}: <keyword=poison>Zatruj</keyword> sojuszniczą jednostkę i wzmocnij ją o {Boost}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: <keyword=cooldown>Odnowienie</keyword>: {Cooldown}.
 202846_fluff;Pierwsze pięć zleceń trzeba odbębnić za frajer. Taki staż, łapiesz? By to, no… zaangażowanie pokazać.
 202846_name;Goniec Salamandry
 202846_tooltip;Za pierwszym razem w turze, kiedy zdobędziesz <keyword=coin>monety</keyword>, wzmocnij tę jednostkę o {Boost}.
 202847_fluff;Rozważania nad tym, jak coś stworzyć, mogą przesłonić dużo ważniejsze pytanie – czy w ogóle powinno się to robić?
 202847_name;Abominacja Salamandry
-202847_tooltip;<keyword=tribute>Haracz</keyword> {Tribute-B.P.BB_Tribute}: <keyword=poison>Zatruj</keyword> tę kartę.\nZa każdym razem, gdy ta jednostka zostaje <keyword=poison>zatruta</keyword>, wzmocnij tę kartę o {Boost}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Na koniec tury <keyword=purify>oczyść</keyword> tę kartę.
+202847_tooltip;<keyword=tribute>Haracz</keyword> {Tribute-B.P.BB_Tribute}: <keyword=poison>Zatruj</keyword> tę kartę.\nZa każdym razem, gdy ta jednostka zostaje <keyword=poison>zatruta</keyword>, wzmocnij tę kartę o {Boost}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Na koniec tury <keyword=purify>oczyść</keyword> tę kartę.
 202848_fluff;Rozpal ognisko, a ogrzejesz człowieka na jeden wieczór. Podpal go i już nigdy nie będzie mu zimno.
 202848_name;Mag Salamandry
-202848_tooltip;<keyword=tribute>Haracz</keyword> {Tribute-B.P.BB_Tribute}: Zadaj trzem sąsiadującym wrogim jednostkom {Damage} pkt obrażeń.\nZa każdym razem, gdy zapłacisz <keyword=tribute>haracz</keyword>, zyskaj <keyword=coin>monety</keyword> w liczbie {Coins}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline}: Zamiast tego otrzymaj <keyword=coin>monety</keyword> w liczbie {Coins2}.
+202848_tooltip;<keyword=tribute>Haracz</keyword> {Tribute-B.P.BB_Tribute}: Zadaj trzem sąsiadującym wrogim jednostkom {Damage} pkt obrażeń.\nZa każdym razem, gdy zapłacisz <keyword=tribute>haracz</keyword>, zyskaj <keyword=coin>monety</keyword> w liczbie {Coins}.\n<keyword=adrenaline>Adrenalina</keyword> {Adrenaline-1}: Zamiast tego otrzymaj <keyword=coin>monety</keyword> w liczbie {Coins2}.
 202849_fluff;Nawet nieudane eksperymenty są wszakże przydatne. Jak inaczej dowiedzieć się, co działa, a co nie?
 202849_name;Nieudany eksperyment
 202849_tooltip;Na koniec swojej tury tracisz <keyword=coin>monety</keyword> w liczbie {Cost}. Jeśli nie masz <keyword=coin>monet</keyword>, zamiast tego zadaj tej karcie {Damage} pkt obrażeń.\nTa umiejętność pozostaje nieaktywna, kiedy ta karta jest <keyword=poison>zatruta</keyword>.
@@ -3445,10 +3445,10 @@
 202880_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zamień zdolność swego dowódcy na kopię bazową zdolności dowódcy przeciwnika.
 202881_fluff;Nie jestem znany ze swojej cierpliwości. Poczyń, proszę, kroki, aby nie być znanym z braku głowy na karku.
 202881_name;Emhyr var Emreis
-202881_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Dobierz kartę, następnie przenieś kartę ze swojej ręki na spód swojej talii.\nZa każdym razem gdy twój przeciwnik zagrywa jednostkę, daj jej status <keyword=spying>Szpiega</keyword>.\n<keyword=devotion>Lojalność</keyword>: Na koniec swojej tury <keyword=seize>przechwyć</keyword> losową jednostkę o statusie <keyword=spying>Szpiega</keyword> i mocy {power}.
+202881_tooltip;<keyword=zeal>Zapał</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Dobierz kartę, następnie przenieś kartę ze swojej ręki na spód swojej talii.\nZa każdym razem gdy twój przeciwnik zagrywa jednostkę, daj jej status <keyword=spying>Szpiega</keyword>.\n<keyword=order>Rozkaz</keyword>: <keyword=seize>Przechwyć</keyword> wrogą jednostkę o sile {power} ze statusem <keyword=spying>Szpieg</keyword>.\n<keyword=devotion>Lojalność</keyword>: Na koniec swojej tury odśwież <keyword=order>Rozkaz</keyword> tej karty.
 202882_fluff;Nilfgaardczycy nadali mu przezwisko Tirth ys Muire, Dzik Morski. Straszą nim dzieci!
 202882_name;Crach an Craite
-202882_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Daj {Armor} pkt <keyword=armor>pancerza</keyword> {MaxTargets} Korsarzom lub Okrętom w swojej ręce.\nZa każdym razem, gdy zagrasz jednostkę Korsarza lub Okrętu obok Cracha, zadaj jej i wrogiej jednostce o najmniejszej mocy obrażenia równe ich wzajemnej sile.
+202882_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Daj {Armor} pkt <keyword=armor>pancerza</keyword> {MaxTargets} Korsarzom i Okrętom w swojej ręce.\n<keyword=order>Rozkaz</keyword>: Zadaj jednostce {damage3} pkt obrażeń.\n<keyword=cooldown>Odnowienie</keyword>: {cooldown}\nZa każdym razem gdy zagrasz Korsarza lub Okręt obok Cracha, zadaj jemu i wrogiej jednostce o najmniejszej sile tyle punktów obrażeń, ile wynosi ich wzajemna siła.
 202883_fluff;Eist przyjechał do Cintry by pomóc Crachowi an Craite zdobyć rękę królewny Pavetty, zamiast tego sam zdobył serce Królowej.
 202883_name;Eist Tuirseach
 202883_tooltip;<keyword=veteran>Weteran</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>, <keyword=bloodthirst>Żądza krwi</keyword> {Bloodthirst}: Dobierz kartę, a następnie <keyword=discard>odrzuć</keyword> kartę.\nZa każdym razem, gdy <keyword=discard>odrzucisz</keyword> jednostkę Skellige w trakcie sojuszniczej tury, <keyword=summon>przyzwij</keyword> ją z cmentarza do tego rzędu.\nLicznik: {Counter}.\n<keyword=devotion>Lojalność</keyword>: Powyższa umiejętność działa również, gdy jednostka Skellige trafi na cmentarz w trakcie sojuszniczej tury.
@@ -3460,13 +3460,13 @@
 202885_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zmień odkryte pułapki w Elfich Czatowników.\n<keyword=devotion>Lojalność</keyword>: Zmień też swoje inne artefakty.
 202886_fluff;Cholerni doradcy i ich polityczne układanki. Na polu bitwy ufam sobie i swoim zbrojnym.
 202886_name;Król Foltest
-202886_tooltip;Za pierwszym razem, gdy brązowa jednostka po twojej stronie pola walki zostanie wzmocniona w każdej turze, <keyword=spawn>stwórz</keyword> jej kopię bazową na spodzie swojej talii.\n<keyword=devotion>Lojalność</keyword>: Wzmocnij też <keyword=spawn>stworzoną</keyword> kopię o {boost}.
+202886_tooltip;Po pierwszym wzmocnieniu brązowej jednostki po twojej stronie pola walki w każdej turze <keyword=spawn>stwórz</keyword> jej kopię bazową na spodzie talii.\n<keyword=devotion>Lojalność</keyword>: Wzmocnij też <keyword=spawn>stworzoną</keyword> kopię o {boost}.\nNa koniec swojej tury wzmocnij jednostkę po prawej o {boost2}.
 202887_fluff;Jest wojna. Król się wtedy nie stara, nie wybiera. Król chwyta za miecz i broni poddanych.
 202887_name;Królowa Meve
-202887_tooltip;<keyword=inspired>Inspiracja</keyword>: Na koniec tury obniż licznik o 1.\nLicznik: {Counter}\nGdy licznik spadnie do 0, wzmocnij wszystkie sojusznicze jednostki o {Boost}.
+202887_tooltip;<keyword=inspired>Inspiracja</keyword>: Na koniec swojej tury obniż licznik o 1.\nLicznik: {Counter}\nGdy licznik osiągnie 0, wzmocnij wszystkie sojusznicze jednostki o {Boost} i zresetuj licznik.\nZa każdym razem gdy ta jednostka zostanie wzmocniona, zyskaj {Armor} pkt <keyword=armor>pancerza</keyword>.
 202888_fluff;On nie kochał jak człowiek, tylko jak zwierzę. Na zabój, bezwarunkowo. Dziko.
 202888_name;Dettlaff van der Eretein
-202888_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> <keyword=blood_moon>Krwawy Księżyc</keyword> w rzędzie przeciwnika na następującą liczbę tur: {Counter}. Wydłuż czas trwania o 1 za każdego sąsiadującego Wampira.\n<keyword=order>Rozkaz</keyword>: Zadaj wrogiej <keyword=bleeding>krwawiącej</keyword> jednostce {Damage} pkt obrażeń.\n<keyword=deathblow>Śmiertelny cios</keyword>: <keyword=spawn>Stwórz</keyword> Ekimmę w tym rzędzie.\n<keyword=cooldown>Odnowienie</keyword>: {Cooldown}
+202888_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> <keyword=blood_moon>Krwawy Księżyc</keyword> w rzędzie przeciwnika na następującą liczbę tur: {Counter}. Wydłuż czas trwania o 1 za każdego sąsiadującego Wampira.\n<keyword=order>Rozkaz</keyword>: Zadaj wrogiej jednostce z <keyword=bleeding>krwawieniem</keyword> {Damage} pkt obrażeń.\n<keyword=deathblow>Zemsta</keyword>: <keyword=spawn>Stwórz</keyword> Ekimmę w tym rzędzie.\n<keyword=cooldown>Odnowienie</keyword>: {Cooldown}
 202889_fluff;Nikt, nawet inne wampiry wyższe, nie wie dokładnie jak stary jest Ukryty. Wiadomo jedynie, że nigdy, przenigdy, nie należy wchodzić mu w drogę.
 202889_name;Ukryty
 202889_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Daj <keyword=bleeding>krwawienie</keyword> ({Bleeding}) wrogiej jednostce.\nNa koniec tury daj <keyword=bleeding>krwawienie</keyword> ({Bleeding2}) losowej jednostce wroga bez <keyword=bleeding>krwawienia</keyword>.\n<keyword=devotion>Lojalność</keyword>: <keyword=bleeding>Krwawienie</keyword> wrogich jednostek atywuje się również na koniec twojej tury.
@@ -3475,10 +3475,16 @@
 202890_tooltip;<keyword=intimidate>Zastraszenie</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: <keyword=spawn>Stwórz</keyword> i zagraj Wymuszenie.\nZwiększ poziom <keyword=intimidate>Zastraszenia</keyword> tej jednostki o {Intimidate} za każdego sąsiadującego Złotnika.\n<keyword=fee>Opłata</keyword> {Cost}: <keyword=spawn>Stwórz</keyword> Zbira Tasaka w tym rzędzie.
 202891_fluff;Jak zacznie się wojna ze Skurwielem, to rynsztokami popłynie krew.
 202891_name;Skurwiel Junior
-202891_tooltip;<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wzmocnionej wrogiej jednostce {Damage} pkt obrażeń. Zyskaj <keyword=coin>monetę</keyword> za każdy nadmiarowy punkt obrażeń.\n<keyword=devotion>Lojalność</keyword>: Zyskaj też <keyword=insanity>Amok</keyword>.\n<keyword=fee>Opłata</keyword> {Cost}: Zniszcz wrogą jednostkę o mocy {Power} lub mniejszej.
+202891_tooltip;<keyword=insanity>Amok</keyword>.\n<keyword=deploy>Rozmieszczenie</keyword>: Zadaj wzmocnionej wrogiej jednostce {Damage} pkt obrażeń. Zyskaj <keyword=coin>monetę</keyword> za każdy nadmiarowy punkt obrażeń.\n<keyword=devotion>Lojalność</keyword>: Zamiast tego zadaj obrażenia wrogiej jednostce.\n<keyword=fee>Opłata</keyword> {Cost}: Zniszcz wrogą jednostkę o sile {Power} lub mniejszej.
 202892_fluff;Naprzód, psia wasza mać! Naprzód, albo przekonacie się, że Nilfgaardczycy to najmniejsze z waszych zmartwień!
 202892_name;Kaedweński setnik
 202892_tooltip;<keyword=zeal>Zapał</keyword>.\n<keyword=order>Rozkaz</keyword>: Wzmocnij sojuszniczą jednostkę o {Boost}.\n<keyword=charge>Ładunki</keyword>: {Charges}.
+202941_fluff;Z werbunku? Dawać papiery! Czego zaraza, stoisz jeden z drugim? W lewo zwrot!
+202941_name;Lewa Pierdolona Flanka
+202941_tooltip;<keyword=doomed>Fatum</keyword>.
+202942_fluff;Z werbunku? Dawać papiery! Czego zaraza, stoisz jeden z drugim? W lewo zwrot!
+202942_name;Prawa Pierdolona Flanka
+202942_tooltip;<keyword=doomed>Fatum</keyword>.
 21_name_sa;Ignore.
 22_name_sa;Ignore.
 23_name_sa;Ignore.

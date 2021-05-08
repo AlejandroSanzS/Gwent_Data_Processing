@@ -66,13 +66,13 @@
 112201_tooltip;<keyword=deploy>Einsatz</keyword>: Verwandle diese Einheit in eine einfache Kopie einer gegnerischen Einheit.
 112202_fluff;Ich bin ein einfacher Hexer, Wolf. Ich kämpfe nicht gegen Drachen, verbrüdere mich nicht mit Königen und vergnüge mich nicht mit Zauberinnen ...
 112202_name;Eskel
-112202_tooltip;<keyword=deploy>Einsatz</keyword> (<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}): <keyword=summon>Rufe</keyword> Vesemir und Lambert aus deinem Deck herbei.
+112202_tooltip;<keyword=deploy>Einsatz</keyword> (<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}): <keyword=summon>Rufe</keyword> Vesemir und Lambert aus deinem Deck herbei.
 112203_fluff;Wenn man dich hängt, bitte um Wasser. Bis du es kriegst, kann alles passieren.
 112203_name;Vesemir
-112203_tooltip;<keyword=deploy>Einsatz</keyword> (<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}): <keyword=summon>Rufe</keyword> Eskel und Lambert aus deinem Deck herbei.
+112203_tooltip;<keyword=deploy>Einsatz</keyword> (<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}): <keyword=summon>Rufe</keyword> Eskel und Lambert aus deinem Deck herbei.
 112204_fluff;Diese Verhandlungsmethode verstehe ich.
 112204_name;Lambert
-112204_tooltip;<keyword=deploy>Einsatz</keyword> (<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}): <keyword=summon>Rufe</keyword> Eskel und Vesemir aus deinem Deck herbei.
+112204_tooltip;<keyword=deploy>Einsatz</keyword> (<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}): <keyword=summon>Rufe</keyword> Eskel und Vesemir aus deinem Deck herbei.
 112205_fluff;Stell dich nie zwischen ein Drachenjunges und seine Mutter.
 112205_name;Myrgtabrakke
 112205_tooltip;<keyword=deploy>Einsatz</keyword>: Füge {MaxTargets} gegnerischen Einheiten {Damage} Schaden zu.
@@ -418,10 +418,10 @@
 132220_tooltip;<keyword=thrive>Gedeihen</keyword>. \n<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> eine Ekimma und <keyword=summon>rufe</keyword> sie in diese Reihe herbei.\n<keyword=deathwish>Todeswunsch</keyword>: Wiederhole die <keyword=deploy>Einsatz</keyword>-Fähigkeit.
 132301_fluff;Nebel kommt leise angekrochen. Neblinge kriechen über die Leichen ihrer Opfer.
 132301_name;Nebling
-132301_tooltip;<keyword=deathwish>Todeswunsch</keyword>: <keyword=summon>Rufe</keyword> alle Kopien dieser Einheit aus deinem Deck herbei.
+132301_tooltip;<keyword=deathwish>Todeswunsch</keyword>: <keyword=spawn>Generiere</keyword> in einer gegnerischen Reihe für {Counter} Züge <keyword=fog>Nebel</keyword>.
 132302_fluff;In den Herzen der Menschen wohnen viele Urängste. Die Angst vor dem Nebel ist wohlbegründet ...
 132302_name;Alter Nebling
-132302_tooltip;<keyword=deathwish>Todeswunsch</keyword>: <keyword=summon>Rufe</keyword> diese Einheit vom Friedhof in dieselbe Reihe herbei, verbessere sie um {Boost} und gib ihr <keyword=doomed>Verdammt</keyword>.
+132302_tooltip;<keyword=veil>Schleier</keyword>.\n<keyword=deploy>Einsatz</keyword>: Verbessere diese Karte um die Dauer der Reiheneffekte auf der gegenüberliegenden Seite.\nWann immer du einen Reiheneffekt anwendest, verbessere diese Karte um seine Dauer.
 132303_fluff;Wyvern - eine Mischung aus geflügelter Schlange und Albtraum, nur schlimmer.
 132303_name;Wyvern
 132303_tooltip;<keyword=thrive>Gedeihen</keyword>.\n<keyword=deploy>Einsatz</keyword> (<keyword=ranged>Fernkampf</keyword>): Füge einer gegnerischen Einheit {Damage} Schaden zu.
@@ -612,7 +612,7 @@
 142317_tooltip;<keyword=deploy>Einsatz</keyword>: Verbessere diese Einheit um die Anzahl verbündeter Zwergeneinheiten in dieser Reihe.
 142401_fluff;Viele Anderlinge, die den Rassismus und Fremdenhass in den Städten leid sind, gehen in die Wälder und schließen sich den Scoia'tael an.
 142401_name;Scoia'tael-Neuling
-142401_tooltip;<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> eine einfache Kopie dieser Einheit und <keyword=summon>rufe</keyword> sie in die andere verbündete Reihe herbei.
+142401_tooltip;<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> eine einfache Kopie dieser Einheit in der anderen Reihe.\n<keyword=order>Befehl</keyword>: Verwandle eine verbündete Elfeneinheit in einen Elfen-Eliteschützen.
 143201_fluff;Ihr entreißt der Erde mit Gewalt ihre Schätze. Für uns brachte sie Früchte und Blumen hervor, weil sie uns liebte.
 143201_name;Schlangenfalle
 143201_tooltip;<keyword=ambush>Überfall</keyword>: Nachdem dein Gegner eine Sonderkarte ausgespielt hat, zerstöre die gegnerische Einheit mit dem höchsten Stärkewert.\n<keyword=spring>Auslösen</keyword>: Zerstöre die gegnerische Einheit mit dem niedrigsten Stärkewert.
@@ -638,7 +638,7 @@
 152106_tooltip;<keyword=deploy>Einsatz</keyword> (<keyword=melee>Nahkampf</keyword>): Füge einer gegnerischen Einheit Schaden in Höhe der doppelten Anzahl beschädigter Gegner zu.
 152107_fluff;Eigentlich heißt sie Astrid Lyttneyd Ásgeirrfinnbjornsdottir, aber das passt doch auf kein Formular.
 152107_name;Koralle
-152107_tooltip;<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: <keyword=discard>Verwirf</keyword> eine Karte. Ziehe dann eine Karte.\nWann immer du eine Sonderkarte <keyword=discard>verwirfst</keyword>, füge einer zufälligen gegnerischen Einheit {Damage} Schaden zu.
+152107_tooltip;<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: <keyword=discard>Verwirf</keyword> eine Karte. Ziehe dann eine Karte.\nWann immer du eine Karte <keyword=discard>verwirfst</keyword>, füge einer zufälligen gegnerischen Einheit {Damage} Schaden zu.
 152109_fluff;Jedem Bürger von Nilfgaard läuft es schon bei der bloßen Erwähnung seines Namens warm das Hosenbein herunter ...
 152109_name;Wildschwein der See
 152109_tooltip;<keyword=Deploy>Einsatz</keyword> (<keyword=melee>Nahkampf</keyword>): Füge allen beschädigten gegnerischen Einheiten {damage} Schaden zu. Füge danach allen gegnerischen Einheiten {damage2} Schaden zu.
@@ -937,10 +937,10 @@
 200036_tooltip;<keyword=deploy>Einsatz</keyword>: Füge {MaxTargets} benachbarten gegnerischen Einheiten {Damage} Schaden zu.\n<keyword=bloodthirst>Blutdurst</keyword> {Bloodthirst}: Füge stattdessen allen gegnerischen Einheiten in einer Reihe {Damage} Schaden zu.
 200037_fluff;Starr nicht sein Auge an, er hasst das ...
 200037_name;Zyklop
-200037_tooltip;<keyword=deploy>Einsatz</keyword> (<keyword=melee>Nahkampf</keyword>): Zerstöre eine benachbarte verbündete Einheit und füge einer gegnerischen Einheit Schaden in Höhe ihrer Stärke zu.
+200037_tooltip;<keyword=deploy>Einsatz</keyword>: Zerstöre eine benachbarte verbündete Einheit und füge ihre Stärke einer gegnerischen Einheit als Schaden zu.
 200038_fluff;Das einfache Volk erzählt sich, dass diese Pflanzen auf Boden aufknospen, welcher mit dem Blut der Sterbenden getränkt wurde. Deshalb gedeihen sie besonders gut an Schauplätzen von Pogromen, dunklen Ritualen oder bestialischen Morden.
 200038_name;Archespore
-200038_tooltip;<keyword=deploy>Einsatz</keyword>: Füge einer zufälligen gegnerischen Einheit {Damage} Schaden zu. \n<keyword=deathwish>Todeswunsch</keyword>: Wiederhole die <keyword=deploy>Einsatz</keyword>-Fähigkeit.
+200038_tooltip;<keyword=deathwish>Todeswunsch</keyword>: <keyword=summon>Rufe</keyword> alle Kopien dieser Einheit aus deinem Deck herbei.
 200039_fluff;Solange wir stehen, wird kein Mensch über die Wiesen von Dol Blathanna trampeln.
 200039_name;Dol Blathanna Wache
 200039_tooltip;<keyword=melee>Nahkampf</keyword>: Wann immer eine gegnerische Einheit verschoben wird, füge ihr {Damage} Schaden zu.\n<keyword=ranged>Fernkampf</keyword>: Wann immer eine verbündete Einheit verschoben wird, verbessere sie um {Boost}.
@@ -967,7 +967,7 @@
 200048_tooltip;<keyword=deploy>Einsatz</keyword>: Verbessere einen verbündeten Magier um {Boost}.
 200049_fluff;Ihr wollt uns nicht reinlassen, was? Tja, dann müssen wir wohl mit mehr Nachdruck anklopfen.
 200049_name;Rammbock
-200049_tooltip;<keyword=order>Befehl</keyword> (<keyword=ranged>Fernkampf</keyword>): Verschiebe den Rammbock in die <keyword=melee>Nahkampf</keyword>-Reihe und füge dann der höchsten gegnerischen Einheit {Damage} Schaden zu.\n<keyword=crew>Besatzung</keyword>: Erhalte <keyword=zeal>Eifer</keyword>.
+200049_tooltip;<keyword=deploy>Einsatz</keyword>, <keyword=crew>Besatzung</keyword>: Erlange <keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword> (<keyword=ranged>Fernkampf</keyword>): Verschiebe diese Karte in die <keyword=melee>Nahkampfreihe</keyword> und füge dann der gegnerischen Einheit mit der höchsten Stärke {damage} Schaden zu.
 200050_fluff;Die Große Sonne wird den Norden mit ihren Strahlen wärmen - und wenn ich euch dafür alle abschlachten muss!
 200050_name;Vreemde
 200050_tooltip;<keyword=deploy>Einsatz</keyword>: Verbessere einen verbündeten Soldaten und all seine Kopien um {Boost}.
@@ -1009,7 +1009,7 @@
 200081_tooltip;<keyword=Deploy>Einsatz</keyword> (<keyword=ranged>Fernkampf</keyword>): <keyword=heal>Heile</keyword> eine verbündete Einheit um {Boost} und verbessere sie um {Boost2}.
 200083_fluff;Unsere Namen behalten wir lieber für uns. Betrachte uns als ... Freunde des Hauses.
 200083_name;Iris' Gesellschaft
-200083_tooltip;<keyword=deploy>Einsatz</keyword>: Ziehe eine Karte deiner Wahl aus deinem Deck. <keyword=discard>Verwirf</keyword> dann eine zufällig gewählte Karte.
+200083_tooltip;<keyword=deploy>Einsatz</keyword>: Ziehe eine Karte deiner Wahl, dann <keyword=discard>verwirf</keyword> eine zufällige Karte.\nWenn du Iris auf der Hand hast, wähle stattdessen selbst, welche Karte du <keyword=discard>verwirfst</keyword>.
 200087_fluff;Professor Dorregaray ist, so wie die Hexer, ein Experte auf dem Gebiet der Monsterkunde, hat jedoch ein ganz eigenes System der Klassifizierung entwickelt. Anstatt sie in Nekrophagen, Ogroide usw. zu unterteilen, findet er sie schlichtweg alle wundervoll.
 200087_name;Dorregaray von Vole
 200087_tooltip;<keyword=deploy>Einsatz</keyword>: <keyword=lock>Blockiere</keyword> eine Einheit.
@@ -1090,13 +1090,13 @@
 200160_tooltip;<keyword=order>Befehl</keyword>: Füge einer gegnerischen Einheit {Damage} Schaden zu. <keyword=cooldown>Abklingzeit</keyword>: {Cooldown}\n\nDiese Fähigkeit erhöht dein Decklimit für Rekrutierungskosten um {Template.Provision}.
 200161_fluff;Man weiß nicht, woher er seinen Spitznamen hat. Niemand hat sich zu fragen getraut.
 200161_name;Waghalsige Hektik
-200161_tooltip;<keyword=order>Befehl</keyword>: Teile {Damage} Schaden zufällig unter allen gegnerischen Einheiten auf und ignoriere dabei ihre <keyword=armor>Rüstung</keyword>.\n\nDiese Fähigkeit erhöht dein Decklimit für Rekrutierungskosten um {Template.Provision}.
+200161_tooltip;<keyword=order>Befehl</keyword>: Teile {Damage} Schaden zufällig unter allen gegnerischen Einheiten auf und ignoriere dabei ihre <keyword=armor>Rüstung</keyword>.\n<keyword=charge>Ladungen</keyword>: {charge}\n\nDiese Fähigkeit erhöht dein Decklimit für Rekrutierungskosten um {Template.Provision}.
 200162_fluff;Man nennt mich nicht den Geduldigen. Aber dich bald den Kopflosen.
 200162_name;Gefangenschaft
 200162_tooltip;<keyword=order>Befehl</keyword>: <keyword=lock>Blockiere</keyword> eine gegnerische Einheit und füge ihr {Damage} Schaden zu. <keyword=charge>Ladungen</keyword>: {Charges}.\n\nDiese Fähigkeit erhöht das Decklimit für Rekrutierungskosten um {Template.Provision}.
 200163_fluff;Wie sich die Sommersonne in der Alba spiegelt - das ist Nilfgaard für mich.
 200163_name;Kaiserliche Formation
-200163_tooltip;<keyword=order>Befehl</keyword>: Verbessere eine verbündete Einheit um {Boost}. <keyword=charge>Ladungen</keyword>: {Charges}\nSobald alle <keyword=charge>Ladungen</keyword> aufgebraucht sind, verschiebe einen Soldaten aus deinem Deck nach oben.\n\nDiese Fähigkeit erhöht das Decklimit für Rekrutierungskosten um {Template.Provision}.
+200163_tooltip;<keyword=order>Befehl</keyword>: Verbessere eine verbündete Einheit um {Boost}. <keyword=charge>Ladungen</keyword>: {Charges}\nSobald alle <keyword=charge>Ladungen</keyword> aufgebraucht sind, verschiebe einen Soldaten aus deinem Deck nach oben.\nWann immer du einen Soldaten ausspielst, gib ihm {armor} <keyword=armor>Rüstung</keyword>.\n\nDiese Fähigkeit erhöht das Decklimit für Rekrutierungskosten um {Template.Provision}.
 200164_fluff;Das Schwert ist nur eins der vielen Werkzeuge eines Herrschers.
 200164_name;Taktische Entscheidung
 200164_tooltip;<keyword=order>Befehl</keyword>: <keyword=spawn>Generiere</keyword> Morvran Voorhis und spiele ihn aus.\n\nDiese Fähigkeit erhöht dein Decklimit für Rekrutierungskosten um {Template.Provision}.
@@ -1153,13 +1153,13 @@
 200226_tooltip;Füge allen Einheiten mit gerader Stärke {Damage} Schaden zu; oder füge allen Einheiten mit ungerader Stärke {Damage} Schaden zu.
 200228_fluff;Unkompliziert, billig und tödlich effizient - kein Wunder, dass dies die Lieblingsfalle der Scoia'tael ist.
 200228_name;Fallgrube
-200228_tooltip;<keyword=ambush>Überfall</keyword>: Nachdem dein Gegner eine Karte ausgespielt hat, teile Schaden in Höhe ihrer Rekrutierungskosten zufällig unter allen gegnerischen Einheiten auf.\n<keyword=spring>Auslösen</keyword>: Teile {Damage} Schaden zufällig unter allen gegnerischen Einheiten auf.
+200228_tooltip;<keyword=ambush>Überfall</keyword>: Nachdem dein Gegner eine enthüllte Karte ausgespielt hat, teile Schaden in Höhe ihrer Rekrutierungskosten unter allen gegnerischen Einheiten auf.\n<keyword=Spring>Auslösen</keyword>: Teile {damage} Schaden zufällig unter allen gegnerischen Einheiten auf.
 200233_fluff;Zielt immer zwischen die Wirbel, unter die linke Niere oder direkt auf die Aorta. So muss sie nur einmal zuschlagen.
 200233_name;Gorgo
 200233_tooltip;<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit für jede benachbarte Bestieneinheit {Damage} Schaden zu.
 200234_fluff;Bin Kriegsveteran! Eine Krone?
 200234_name;Gottverdammte Infanterie
-200234_tooltip;<keyword=deploy>Einsatz</keyword>: Verbessere diese Einheit um {Boost}.
+200234_tooltip;<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> Verdammte linke Flanke und Verdammte rechte Flanke auf beiden Seiten dieser Einheit.\n<keyword=bonded>Bindung</keyword>: Verbessere diese Karte um {Boost}.
 200235_fluff;Lass dir von deiner Oma die Eier lutschen.
 200235_name;Lambert: Fechtmeister
 200235_tooltip;<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit und all ihren Kopien {Damage} Schaden zu.
@@ -1168,7 +1168,7 @@
 200236_tooltip;<keyword=melee>Nahkampf</keyword>: Verbessere diese Einheit am Ende jedes verbündeten Zugs um {Boost}.
 200237_fluff;Man darf das Monstertöten nicht auf die leichte Schulter nehmen. Ciri muss das begreifen, wenn sie eine von uns werden will.
 200237_name;Vesemir: Mentor
-200237_tooltip;<keyword=deploy>Einsatz</keyword>: Verbessere all deine Hexer auf dem Spielfeld um {Boost}.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Verbessere zudem alle Hexer auf deiner Hand und in deinem Deck.
+200237_tooltip;<keyword=deploy>Einsatz</keyword>: Verbessere all deine Hexer auf dem Spielfeld um {Boost}.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Verbessere zudem alle Hexer auf deiner Hand und in deinem Deck.
 200293_fluff;"Denkt an meine Worte: Wenn ihr eure Ärsche nicht hochbekommt, kommen die Menschen und nehmen uns unsere Frauen weg!"
 200293_name;Zwergenaufwiegler
 200293_tooltip;<keyword=deploy>Einsatz</keyword> (<keyword=ranged>Fernkampf</keyword>): Verbessere eine Zwergeneinheit auf deiner Hand um {Boost}.
@@ -1273,7 +1273,7 @@
 201587_tooltip;Spiele eine <keyword=deathwish>Todeswunsch</keyword>-Einheit aus deinem Deck aus.
 201589_fluff;Wir sind nur noch wenige Versprengte, aber unsere Herzen lodern heller als je.
 201589_name;Kräftigen
-201589_tooltip;<keyword=order>Befehl</keyword>: Verbessere alle Einheiten auf deiner Hand um {Boost}.\n\nDiese Fähigkeit erhöht das Decklimit für Rekrutierungskosten um {Template.Provision}.
+201589_tooltip;<keyword=order>Befehl</keyword>: Verbessere {maxtargets} Einheiten auf deiner Hand um {Boost}.\n<keyword=charge>Ladungen</keyword>: {charges}.\n\nDiese Fähigkeit erhöht das Decklimit für Rekrutierungskosten um {Template.Provision}.
 201595_fluff;Ihr Fluch wurde gebrochen ... nicht aber ihr Appetit auf rohes Fleisch.
 201595_name;Schildwall
 201595_tooltip;<keyword=order>Befehl</keyword>: Verbessere eine verbündete Einheit um {Boost} und gib ihr einen <keyword=shield>Schild</keyword>.\n<keyword=charge>Ladungen</keyword>: {Charges}.\n\nDiese Fähigkeit erhöht das Decklimit für Rekrutierungskosten um {Template.Provision}.
@@ -1834,7 +1834,7 @@
 202186_tooltip;<keyword=order>Befehl</keyword>: <keyword=create>Erschaffe</keyword> eine Karte aus der Hand deines Gegners und spiele sie aus.\n\nDiese Fähigkeit erhöht das Decklimit für Rekrutierungskosten um {Template.Provision}.
 202187_fluff;Man nennt sie die Löwin von Cintra. Und nicht ohne Grund.
 202187_name;Zangenmanöver
-202187_tooltip;<keyword=order>Befehl</keyword>: Ziehe eine "Nördliche Königreiche"-Karte deiner Wahl und mische dann eine Karte von deiner Hand ins Deck. Ist die gezogene Karte eine Einheit, verbessere sie um {Boost}.\n\nDiese Fähigkeit erhöht das Decklimit für Rekrutierungskosten um {Template.Provision}.
+202187_tooltip;<keyword=order>Befehl</keyword>: Ziehe eine "Nördliche Königreiche"-Karte deiner Wahl von deiner Hand, mische dann eine Karte von deiner Hand ins Deck und <keyword=spawn>generiere</keyword> einen Freiwilligen in deiner <keyword=melee>Nahkampfreihe</keyword>.\n<keyword=charge>Ladungen</keyword>: {Charges}.\n\nDiese Fähigkeit erhöht das Decklimit für Rekrutierungskosten um {Template.Provision}.
 202188_fluff;Sie zeigt sich als die Blonde Dame in allen Blumen und alles, was lebt, folgt ihr und klammert sich an sie, Pflanze wie Tier.
 202188_name;Ruf der Harmonie
 202188_tooltip;<keyword=order>Befehl</keyword>: <keyword=spawn>Generiere</keyword> Dana Méadbh und spiele sie aus.\n\nDiese Fähigkeit erhöht dein Decklimit für Rekrutierungskosten um {Template.Provision}.
@@ -1852,7 +1852,7 @@
 202192_tooltip;<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit {Damage} Schaden zu.\n<keyword=deathblow>Todesstoß</keyword>: <keyword=spawn>Generiere</keyword> und spiele eine einfache Kopie von ihr aus.
 202193_fluff;Die Mädchen sagen, wenn ich je alleine hingehen möchte, soll ich nur 'das Land der Tausend Märchen' aufschlagen und 'Expecto ludum!' sagen.
 202193_name;Land der 1000 Märchen
-202193_tooltip;<keyword=deploy>Einsatz</keyword>: Spiele eine Sonderkarte aus deinem Deck aus.
+202193_tooltip;<keyword=resilient>Zähigkeit</keyword>.\n<keyword=deploy>Einsatz</keyword>: Spiele eine Sonderkarte aus deinem Deck.\n<keyword=order>Befehl</keyword>: Verwandle eine Sonderkarte auf deiner Hand in eine zufällige Einheit derselben Fraktion mit denselben Rekrutierungskosten.
 202194_fluff;Eure Majestät ... Die Prinzessin wurde vom Fluch der Schwarzen Sonne berührt. Ich fürchte, es gibt keine Hoffnung ...
 202194_name;Syanna
 202194_tooltip;<keyword=order>Befehl</keyword>: Wiederhole die <keyword=deploy>Einsatz</keyword>-Fähigkeit der nächsten Einheit, die du in diesem Zug ausspielst.
@@ -2098,7 +2098,7 @@
 202277_tooltip;<keyword=deploy>Einsatz</keyword>: Füge einer verbündeten Einheit zur Rechten Schaden gemäß der Hälfte ihrer aktuellen Stärke zu, dann füge einer gegnerischen Einheit denselben Schaden zu.
 202278_fluff;Einst wurde zwar befohlen, alle Svalblod-Totems zu zerstören, doch an einigen fernen, vergessenen Küsten stehen bis heute welche ... Und fordern neue Opfer.
 202278_name;Svalblod-Totem
-202278_tooltip;<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> auf beiden Seiten dieser Einheit einen Svalblod-Fanatiker.\n<keyword=order>Befehl</keyword>: Füge benachbarten Einheiten {Damage} Schaden zu.
+202278_tooltip;<keyword=resilient>Zähigkeit</keyword>.\n<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> auf beiden Seiten dieser Einheit einen Svalblod-Fanatiker.\n<keyword=order>Befehl</keyword>: Füge benachbarten Einheiten {Damage} Schaden zu.
 202279_fluff;Nicht alle Svalblod-Priester wurden von den Inseln verbannt ... Leider.
 202279_name;Artis
 202279_tooltip;<keyword=ranged>Fernkampf</keyword>: Immer, wenn eine Einheit ausgespielt wird, füge ihr Schaden gemäß der Hälfte ihrer aktuellen Stärke zu.
@@ -2161,7 +2161,7 @@
 202298_tooltip;<keyword=deploy>Einsatz</keyword>: Bezahle eine Anzahl <keyword=coin>Münzen</keyword> entsprechend der Stärke einer gegnerischen Einheit, um sie dann zu <keyword=seize>ergreifen</keyword>.
 202299_fluff;Bist du sicher, dass er dir nicht bekannt vorkommt ...?
 202299_name;Sigi Reuven
-202299_tooltip;<keyword=intimidate>Einschüchtern</keyword>.\n<keyword=profit>Profit</keyword> {Income}.\nErhöhe Sigi Reuvens anfänglichen <keyword=profit>Profit</keyword> für jede einzigartige Bande in deinem Startdeck um {Income2}.
+202299_tooltip;<keyword=intimidate>Einschüchtern</keyword>.\n<keyword=profit>Profit</keyword> {Income+B.P.BB_Gangs}.\nErhöhe Sigi Reuvens anfänglichen <keyword=profit>Profit</keyword> für jede einzigartige Bande in deinem Startdeck um {Income2}.
 202300_fluff;Wir bedauern zutiefst, dass Sie sich für diese Halbgesch– äh ... für die werten Kollegen der Cianfanelli-Bank entschieden haben.
 202300_name;Vivaldi-Bank
 202300_tooltip;<keyword=profit>Profit</keyword> {Income}.\nSieh dir die oberste Karte deines Decks sowie eine weitere für jede <keyword=coin>Münze</keyword>, die du besitzt, an. Spiele die oberste Karte kostenlos aus oder eine andere für einen <keyword=coin>Münze</keyword>-Betrag entsprechend deren Entfernung von oben. Mische die verbliebenen Karten wieder in dein Deck.
@@ -2185,13 +2185,13 @@
 202306_tooltip;<keyword=deploy>Einsatz</keyword> (<keyword=melee>Nahkampf</keyword>): <keyword=heal>Heile</keyword> eine verbündete Einheit.\n<keyword=deploy>Einsatz</keyword> (<keyword=ranged>Fernkampf</keyword>): Verbessere eine verbündete Einheit um {Boost}.\n<keyword=tribute>Tribut</keyword> {Tribute-B.P.BB_Tribute}: Kombiniere stattdessen beide <keyword=deploy>Einsatz</keyword>-Fähigkeiten.
 202307_fluff;Mein Auktionshaus ist vor allem ein Schauplatz für die Elite der Elite.
 202307_name;Horst Borsody
-202307_tooltip;<keyword=deploy>Einsatz</keyword>: Erhalte {Coins} <keyword=coin>Münzen</keyword>.\nBefindet sich Ewald Borsody in deinem Friedhof, erhalte stattdessen {Coins2} <keyword=coin>Münzen</keyword>.
+202307_tooltip;<keyword=deploy>Einsatz</keyword>: Erhalte {Coins} <keyword=coin>Münzen</keyword>.\nBefindet sich Ewald Borsody in deinem Friedhof, erhalte stattdessen {coins2} <keyword=coin>Münzen</keyword>.\n<keyword=fee>Gebühr</keyword> {cost}: Gib einer verbündeten Einheit {vitality} <keyword=vitality>Vitalität</keyword>.
 202308_fluff;Je süßer ihre Worte, desto bitterer deine Verluste.
 202308_name;Verwegene Verführerin
 202308_tooltip;<keyword=fee>Gebühr</keyword> {Cost}: Erhalte einen <keyword=shield>Schild</keyword>.\nImmer wenn dein Gegner eine Einheit ausspielt, verbessere diese Einheit um {Boost}.\n<keyword=bonded>Bindung</keyword>: Immer wenn dein Gegner eine Karte ausspielt, verbessere diese Einheit um {Boost}.
 202309_fluff;Ich habe über ein Jahr lang an diesem Plan gefeilt. Jetzt ist es Zeit, ihn umzusetzen. Bist du dabei?
 202309_name;Ewald Borsody
-202309_tooltip;<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit {damage} Schaden zu.\nBefindet sich Horst Borsody in deinem Friedhof, füge einer gegnerischen Einheit stattdessen {damage2} Schaden zu.
+202309_tooltip;<keyword=deploy>Einsatz</keyword>: Füge einer gegnerischen Einheit {damage} Schaden zu.\nBefindet sich Horst Borsody in deinem Friedhof, füge einer gegnerischen Einheit stattdessen {damage2} Schaden zu.\n<keyword=fee>Gebühr</keyword> {cost}: Bewirke bei einer gegnerischen Einheit {bleed} <keyword=bleeding>Bluten</keyword>.
 202310_fluff;Verzeihung, werte Dame ... Ich war schon immer ein Tollpatsch.
 202310_name;Taschendieb
 202310_tooltip;<keyword=profit>Profit</keyword> {Income}.
@@ -2206,7 +2206,7 @@
 202313_tooltip;<keyword=tribute>Profit</keyword> {Income}: \n<keyword=tribute>Tribut</keyword> {Tribute-B.P.BB_Tribute}: <keyword=spawn>Generiere</keyword> eine Verwegene Verführerin und <keyword=summon>rufe</keyword> sie in diese Reihe herbei.
 202314_fluff;Ich mache das nur für meine Familie! Schon immer!
 202314_name;Gassenchemiker
-202314_tooltip;<keyword=deploy>Einsatz</keyword>: Gib einer verbündeten Einheit <keyword=poison>Gift</keyword> und verbessere sie um {Boost}.
+202314_tooltip;<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: <keyword=poison>Vergifte</keyword> eine verbündete Einheit und verbessere sie um {Boost}.
 202315_fluff;Bevor Kalkstein starb, hinterließ er uns einige anstößige Worte über unseren gnädigen König ...
 202315_name;Adalbertus Kalkstein
 202315_tooltip;<keyword=profit>Profit</keyword> {Income}.\n<keyword=fee>Gebühr</keyword> {Cost}: <keyword=purify>Läutere</keyword> eine Einheit.
@@ -2215,7 +2215,7 @@
 202316_tooltip;<keyword=profit>Profit</keyword> {Income}.\n<keyword=fee>Gebühr</keyword> {Cost}: Gib einer verbündeten Einheit für {Vitality} Runden <keyword=vitality>Vitalität</keyword>.
 202317_fluff;Ich habe Bienen schon immer gehasst.
 202317_name;Rico Meiersdorf
-202317_tooltip;Wann immer dein Gegner eine Einheit ausspielt, während Rico auf deiner Hand ist, stelle seine Stärke auf die Stärke dieser Einheit ein.
+202317_tooltip;Wann immer dein Gegner eine Einheit ausspielt, während Rico auf deiner Hand oder in deinem Deck ist, stelle seine Stärke auf die Stärke dieser Einheit ein.
 202318_fluff;Wäre eine Schande, wenn ich versehentlich dein Haar abtrenne.
 202318_name;Hexenjäger-Henker
 202318_tooltip;<keyword=profit>Profit</keyword> {Income}.\n<keyword=fee>Gebühr</keyword> {Cost}: Bewirke bei einer gegnerischen Einheit für {Bleed} Runde <keyword=bleeding>Bluten</keyword>. Ist auf sie ein <keyword=bounty>Kopfgeld</keyword> ausgesetzt, füge ihr stattdessen {Damage} Schaden zu.
@@ -2368,7 +2368,7 @@
 202368_tooltip;<keyword=insanity>Wahnsinn</keyword>.\n<keyword=fee>Gebühr</keyword> {Cost}: <keyword=summon>Rufe</keyword> sämtliche Kopien dieser Einheit aus deinem Deck in diese Reihe herbei.
 202369_fluff;Wie das Böse auf ewig zu verderben sucht, so soll auch die Flamme auf ewig weiterbrennen!
 202369_name;Hüter der Flamme
-202369_tooltip;<keyword=deploy>Einsatz</keyword>: Verbessere benachbarte Einheiten um {Boost}.\n<keyword=tribute>Tribut</keyword> {Tribute-B.P.BB_Tribute}: Verbessere stattdessen alle Einheiten in dieser Reihe um {Boost}.
+202369_tooltip;<keyword=deploy>Einsatz</keyword>: Verbessere benachbarte Einheiten um {Boost}.\n<keyword=tribute>Tribut</keyword> {Tribute-B.P.BB_Tribute}: Verbessere stattdessen alle Einheiten in dieser Reihe um {Boost}.\nFür jeden verbündeten Kleriker kostet diese Karte {cost} weniger <keyword=tribute>Tribut</keyword>.
 202370_fluff;Noch ehe sie Gudruns Aufmerksamkeit hatte, wähnte sie, diese auszunutzen.
 202370_name;Imke
 202370_tooltip;<keyword=ranged>Fernkampf</keyword>: Erhalte am Ende jedes verbündeten Zugs {Coins} <keyword=coin>Münzen</keyword>.\n<keyword=fee>Gebühr</keyword> {Cost}: Erhalte einen <keyword=shield>Schild</keyword>.
@@ -2386,7 +2386,7 @@
 202374_tooltip;<keyword=spawn>Generiere</keyword> {Counter} Entfachten-Eiferer in einer verbündeten Reihe.\nWenn sich in dieser Reihe bereits eine Entfachten-Einheit befindet, <keyword=spawn>generiere</keyword> stattdessen {Counter2} Entfachten-Eiferer.
 202375_fluff;Sein scharfes Gehör hätte ihm eine Musikkarriere bescheren können. Nur verliert Applaus leider recht schnell seinen Wert.
 202375_name;Halbling-Panzerknacker
-202375_tooltip;<keyword=intimidate>Einschüchtern</keyword>.\n<keyword=deploy>Einsatz</keyword>: Verbessere diese Einheit für jede Verbrechenkarte auf deiner Hand um {Boost}.
+202375_tooltip;<keyword=deploy>Einsatz</keyword>: Verbessere diese Einheit für jede Verbrecherkarte auf deiner Hand um {Boost}.
 202376_fluff;Ich würde ihn ja nicht stören, wenn ich du wäre. Diese Federn sind verdammt spitz.
 202376_name;Entfachten-Schreiber
 202376_tooltip;<keyword=ranged>Fernkampf</keyword>: Wann immer du eine oder mehrere Einheiten auf dem Schlachtfeld <keyword=spawn>generierst</keyword>, erhalte {Coins} <keyword=coin>Münzen</keyword>.\n<keyword=tribute>Tribut</keyword> {Tribute-B.P.BB_Tribute}: Verbessere diese Einheit um {Boost}.
@@ -2431,7 +2431,7 @@
 202389_tooltip;<keyword=deploy>Einsatz</keyword> (<keyword=melee>Nahkampf</keyword>): Spiele eine Verbrechenkarte aus deinem Deck aus.
 202390_fluff;Dank dir müssen meine Schweine heute Nacht nicht hungrig schlafen.
 202390_name;Piratenbucht
-202390_tooltip;<keyword=order>Befehl</keyword>: <keyword=spawn>Generiere</keyword> einen Meeresschakal in einer verbündeten Reihe und erhalte dann {Coins} <keyword=coin>Münzen</keyword>.\n\nDiese Fähigkeit erhöht das Decklimit für Rekrutierungskosten um {Template.Provision}.
+202390_tooltip;<keyword=order>Befehl</keyword>: <keyword=spawn>Generiere</keyword> einen Meeresschakal in einer verbündeten Reihe.\n<keyword=charge>Ladungen</keyword>: {charges}.\n\nDiese Fähigkeit erhöht das Decklimit für Rekrutierungskosten um {Template.Provision}.
 202392_fluff;In einer Stadt, die sich von Lügen nährt, kann die Wahrheit eine Waffe sein.
 202392_name;Walter Veritas
 202392_tooltip;<keyword=deploy>Einsatz</keyword>: Erschaffe eine Bronzekarte der Syndikat-Fraktion und spiele sie aus.
@@ -2470,13 +2470,13 @@
 202404_tooltip;Die Stärke dieser Einheit entspricht immer dem Wert ihrer <keyword=armor>Rüstung</keyword>.
 202405_fluff;Guisarme? Streitkolben? Morgensterne? Hier gibt es alles, was du brauchst.
 202405_name;Arsenal
-202405_tooltip;Verbessere eine Einheit um {Boost} und gib ihr {Armor} <keyword=armor>Rüstung</keyword>.
+202405_tooltip;<keyword=resilient>Zähigkeit</keyword>.\n<keyword=deploy>Einsatz</keyword>: Verbessere eine verbündete Einheit um {Boost}.\n<keyword=order>Befehl</keyword>: Verleihe einer verbündeten Einheit {armor} <keyword=armor>Rüstung</keyword>.
 202406_fluff;Es ist keine Schande, die weiße Flagge zu hissen.
 202406_name;Kapitulation
 202406_tooltip;Entferne {Damage} <keyword=armor>Rüstung</keyword> von allen Einheiten in einer Reihe und füge ihnen {Damage2} Schaden zu.
 202407_fluff;Dh‘oine kann aus allem eine Waffe machen. Selbst aus einem einfachen Wagen ...
 202407_name;Wagenburg
-202407_tooltip;<keyword=barricade>Barrikade</keyword>: Verleihe am Ende jedes verbündeten Zugs benachbarten Einheiten {Armor} <keyword=armor>Rüstung</keyword>.
+202407_tooltip;<keyword=barricade>Barrikade</keyword>: Verleihe am Ende deines Zuges benachbarten Einheiten {Armor} <keyword=armor>Rüstung</keyword>.
 202408_fluff;Die Waffe ist kurz, hat aber eine große Reichweite.
 202408_name;Eisenfalke-Messerjongleur
 202408_tooltip;<keyword=deploy>Einsatz</keyword>: Bewirke bei {MaxTargets} zufälligen gegnerischen Einheiten für {Bleed} Züge <keyword=bleeding>Bluten</keyword>.
@@ -2647,7 +2647,7 @@
 202468_tooltip;<keyword=harmony>Harmonie</keyword> {Harmony}.
 202469_fluff;Munro träumte davon, dampf- und wasserbetriebene Hammerwerke zu konstruieren. Aber am Ende reichte es nur zum Türsteher in der schlimmsten Bar von Wyzima.
 202469_name;Munro Bruys
-202469_tooltip;<keyword=deploy>Einsatz</keyword>: Verwandle {Maxtargets} verbündete Grobe Zwerge in Zwergen-Berserker.
+202469_tooltip;<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Verwandle {Maxtargets} verbündete Grobe Zwerge in Zwergen-Berserker.\n<keyword=charge>Ladungen</keyword>: {charges}.
 202470_fluff;Ich bin ein einfacher Mann. Ich esse und trinke gern, mag unzüchtige Lieder und wenn die Feier zu Ende geht, piss ich gern das sterbende Feuer aus.
 202470_name;Figgis Merluzzo
 202470_tooltip;<keyword=defender>Verteidiger</keyword>.\n<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> Grober Zwerg in dieser Reihe.
@@ -2704,19 +2704,19 @@
 202487_tooltip;<keyword=deploy>Einsatz</keyword>: Tausche die oberste Karte vom Deck deines Gegners mit deiner eigenen.
 202491_fluff;Die Leute glauben, Basilisken töten mit ihren Augen, doch es sind die farblosen Dämpfe ihres Giftes, die den Tod herbeiführen ...
 202491_name;Basiliskengift
-202491_tooltip;<keyword=order>Befehl</keyword>: <keyword=poison>Vergifte</keyword> eine zufällige gegnerische Einheit.
+202491_tooltip;<keyword=order>Befehl</keyword>: <keyword=poison>Vergifte</keyword> eine Einheit.
 202493_fluff;Der perfekte Briefbeschwerer.
 202493_name;Kristallschädel
 202493_tooltip;<keyword=order>Befehl</keyword>: Verbessere eine verbündete Einheit um {Boost} und gib ihr <keyword=veil>Schleier</keyword>.
 202497_fluff;Komm näher, hör genau hin, und du wirst ein Flüstern vernehmen ...
 202497_name;Verzauberte Rüstung
-202497_tooltip;<keyword=order>Befehl</keyword>: Verbessere eine Einheit auf deiner Hand um {Boost}.
+202497_tooltip;<keyword=order>Befehl</keyword>: Verbessere eine Einheit auf deiner Hand um {Boost} und verleihe ihr {Armor} <keyword=armor>Rüstung</keyword>.
 202498_fluff;Auf dem Siegel steht „Nicht öffnen“. Doch wie üblich wird wohl letztlich die Neugier gewinnen.
 202498_name;Verfluchte Schriftrolle
-202498_tooltip;<keyword=order>Befehl</keyword>: Sieh dir die obersten {Maxtargets} Karten deines Decks an und ziehe eine Karte von ihnen. Platziere dann eine Karte aus deiner Hand unten in deinem Deck.
+202498_tooltip;<keyword=order>Befehl</keyword>: Nimm eine Karte aus deinem Deck auf deine Hand und lege dann eine Karte aus deiner Hand unten in dein Deck.
 202500_fluff;Verziert wie eine Prinzenkrone, scharf wie ein Metzgermesser.
 202500_name;Zeremonieller Dolch
-202500_tooltip;<keyword=order>Befehl</keyword>: Bewirke bei einer gegnerischen Einheit <keyword=bleeding>Bluten</keyword> ({Bleeding}).
+202500_tooltip;<keyword=order>Befehl</keyword>: Füge einer gegnerischen Einheit {Damage} Schaden zu und bewirke bei ihr <keyword=bleeding>Bluten</keyword> ({Bleeding}).
 202501_fluff;Sie ist etwas fleckig. Doch wenn du sie ein wenig reibst, kommt der alte Glanz sicher zurück.
 202501_name;Magische Lampe
 202501_tooltip;<keyword=order>Befehl</keyword>: Verwandle diese Einheit in einen Lampen-Djinn.
@@ -2749,7 +2749,7 @@
 202511_tooltip;Füge einer gegnerischen Einheit {Damage} Schaden zu.\n<keyword=deathblow>Todesstoß</keyword>: <keyword=purify>Läutere</keyword> benachbarte Einheiten.
 202512_fluff;Die Zeit fließt nicht, sie verläuft in Kreisen. Die Vergangenheit wird Zukunft, Großväter wiederholen die Fehler ihrer Enkel.
 202512_name;Maske des Uroboros
-202512_tooltip;<keyword=order>Befehl</keyword>: Ziehe eine Karte. <keyword=discard>Verwirf</keyword> dann eine Karte und <keyword=spawn>generiere</keyword> eine Krähe in deiner <keyword=melee>Nahkampf</keyword>-Reihe.
+202512_tooltip;<keyword=order>Befehl</keyword>: Ziehe eine Karte. <keyword=discard>Verwirf</keyword> dann eine Karte und <keyword=spawn>generiere</keyword> {counter} Krähen in deiner <keyword=melee>Nahkampfreihe</keyword>.
 202513_fluff;Herrscher werden in ihrem Schatten gekrönt, Verräter an ihren Zweigen gehängt.
 202513_name;Gedyneith
 202513_tooltip;<keyword=doomed>Verdammt</keyword>.\nSzenario: Schreite voran, wann immer du einen Druiden ausspielst.\nProlog: <keyword=spawn>Generiere</keyword> einen Krähenclan-Prediger in dieser Reihe.\nKapitel 1: <keyword=spawn>Generiere</keyword> und spiele Krähenaugen-Rhizom aus.\nKapitel 2: <keyword=spawn>Generiere</keyword> und spiele Mardroeme aus.
@@ -2776,7 +2776,7 @@
 202521_tooltip;<keyword=deploy>Einsatz</keyword>: <keyword=summon>Rufe</keyword> alle Kopien dieser Einheit aus deinem Friedhof in diese Reihe herbei.\nWenn du eine Alchemiekarte auf der Hand hast, <keyword=summon>rufe</keyword> auch alle Kopien aus deinem Deck herbei.
 202522_fluff;Jeder hat eine finstere Seite. Und manche haben gelernt, sie sich zu Willen zu machen.
 202522_name;Schattenurne
-202522_tooltip;<keyword=order>Befehl</keyword>: Aktiviere die <keyword=deathwish>Todeswunsch</keyword>-Fähigkeit einer verbündeten Bronzeeinheit.
+202522_tooltip;<keyword=order>Befehl</keyword>: Löse <keyword=deathwish>Todeswunsch</keyword> bei einer verbündeten Einheit aus.
 202523_fluff;Um die Menschheit in die Knie zu zwingen, wird sie ihre Ratten erwecken und sie zum Sterben in die glückliche Stadt schicken.
 202523_name;Pestmaid
 202523_tooltip;<keyword=deathwish>Todeswunsch</keyword>: <keyword=spawn>Generiere</keyword> {Counter} Ratten in dieser Reihe.
@@ -2836,7 +2836,7 @@
 202543_tooltip;<keyword=deploy>Einsatz</keyword>: Zerstöre eine gegnerische Einheit mit einem Statuseffekt.
 202544_fluff;Ophelie Van Moorlehem veranstaltet zu gern große Feste. Dass dabei oft Gäste spurlos verschwinden, scheint niemanden zu stören ...
 202544_name;Maskenball
-202544_tooltip;<keyword=doomed>Verdammt</keyword>.\nSzenario: Schreite voran, wann immer du einen Adligen ausspielst.\nProlog: <keyword=spawn>Generiere</keyword> eine Durstige Dame in dieser Reihe.\nKapitel 1: <keyword=spawn>Generiere</keyword> und spiele Fangzähne des Kaiserreichs aus.\nKapitel 2: <keyword=spawn>Generiere</keyword> und spiele Fangzähne des Kaiserreichs aus.
+202544_tooltip;<keyword=doomed>Verdammt</keyword>.\nSzenario: Schreite voran, wann immer du einen Adligen auf deiner Seite des Schlachtfelds ausspielst.\nProlog: <keyword=spawn>Generiere</keyword> eine Durstige Dame in dieser Reihe.\nKapitel 1: <keyword=spawn>Generiere</keyword> und spiele Fangzähne des Kaiserreichs aus.\nKapitel 2: <keyword=spawn>Generiere</keyword> und spiele Fangzähne des Kaiserreichs aus.
 202545_fluff;Angeblich gibt es nur eine Person, vor der Vincent Van Moorlehem sich fürchtet. Nicht Emhyr var Emreis oder Geralt von Riva, sondern seinen eigenen Sohn.
 202545_name;Philippe Van Moorlehem
 202545_tooltip;<keyword=order>Befehl</keyword> (<keyword=ranged>Fernkampf</keyword>): Füge einer Einheit {Damage} Schaden zu. <keyword=cooldown>Abklingzeit</keyword>: {Cooldown}.\nWenn das Ziel einen Statuseffekt hat, füge ihm stattdessen {Damage2} Schaden zu.
@@ -3226,7 +3226,7 @@
 202780_tooltip;Wenn du das erste Mal in einem Zug auf deiner Seite des Spielbretts eine Einheit <keyword=spawn>generierst</keyword>, <keyword=spawn>generiere</keyword> eine Kopie davon in dieser Reihe mit Stärke {power} und gib ihr dann <keyword=doomed>Verdammt</keyword>.
 202781_fluff;Der eiserne Geschmack von Blut machte sich in Geralts Mund bemerkbar. Er schrie einen Zauber, streckte die Handfläche vor und formte das Quen-Zeichen mit den Fingern.
 202781_name;Geralt: Quen
-202781_tooltip;<keyword=shield>Schild</keyword>. \n<keyword=deploy>Einsatz</keyword>: Spiele eine Hexerkarte aus deinem Deck aus.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Gib ihr einen <keyword=shield>Schild</keyword>.
+202781_tooltip;<keyword=shield>Schild</keyword>. \n<keyword=deploy>Einsatz</keyword>: Spiele eine Hexerkarte aus deinem Deck aus.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Gib ihr einen <keyword=shield>Schild</keyword>.
 202782_fluff;Wir können zerstören, was wir geschaffen haben. Aber wir können nicht die Erschaffung selbst rückgängig machen.
 202782_name;Selektive Mutation
 202782_tooltip;Ziehe eine Karte deiner Wahl mit <keyword=adrenaline>Adrenalin</keyword> und mische dann eine Karte von deiner Hand in dein Deck. <keyword=spawn>Generiere</keyword> einen Hexer-Schüler in jeder verbündeten Reihe.
@@ -3256,7 +3256,7 @@
 202790_tooltip;Verbessere eine verbündete Einheit um {Boost} und gib ihr <keyword=veil>Schleier</keyword>.
 202791_fluff;Hinter jeder Narbe steckt eine schreckliche Geschichte ... und du wärst überrascht, wie viele von ihnen wahr sind.
 202791_name;Ivar Bösaug
-202791_tooltip;<keyword=deploy>Einsatz</keyword>: Tausche die Stärke dieser Karte mit der einer gegnerischen Einheit.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Füge einer gegnerischen Einheit stattdessen {Damage} Schaden zu.
+202791_tooltip;<keyword=deploy>Einsatz</keyword>: Tausche die Stärke dieser Karte mit der einer gegnerischen Einheit.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Füge einer gegnerischen Einheit stattdessen {Damage} Schaden zu.
 202792_fluff;„Grausam und gerissen. Sie können sich mehrere Stunden gedulden, bevor sie ihre Beute angreifen. Sobald sie einmal zuschlagen, gibt es kein Entkommen. Dann ist der Tod unvermeidlich.“ – Ivar Bösaug
 202792_name;Vipper
 202792_tooltip;Lege diese Karte am Ende der Runde in den gegnerischen Friedhof. \nWenn am Ende deines Zugs diese Karte im Friedhof liegt, <keyword=banish>verbanne</keyword> daraus die Karte mit den niedrigsten Kosten.\nWenn Vipper die einzige Karte im Friedhof ist, gib ihr <keyword=doomed>Verdammt</keyword> und <keyword=summon>rufe</keyword> sie dann in einer zufälligen gegnerischen Reihe herbei.
@@ -3265,16 +3265,16 @@
 202793_tooltip;<keyword=resilient>Zähigkeit</keyword>.\n<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> einen Vipern-Hexer-Adepten, Vipern-Hexer, Vipern-Hexer-Mentor oder Vipern-Hexer-Alchemisten und spiele ihn aus.\n<keyword=order>Befehl</keyword>: Verschiebe eine Karte vom gegnerischen Friedhof oben auf sein Deck.
 202794_fluff;Denn immer wenn ihm das Glück gewogen zu sein schien, überkam ihn kurz darauf schreckliches Unglück.
 202794_name;Kolgrim
-202794_tooltip;<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Verbessere diese Einheit am Ende deines Zugs um die Differenz der Kartenanzahl in den Spielerdecks.
+202794_tooltip;<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Verbessere diese Einheit am Ende deines Zugs um die Differenz der Kartenanzahl in den Spielerdecks.
 202795_fluff;Mit einer leichten Veränderung am Supirre-Zeichen erhielt Warritt die Fähigkeit, alles zu sehen ...
 202795_name;Warritt der Allsehende
 202795_tooltip;<keyword=deploy>Einsatz</keyword> (<keyword=melee>Nahkampf</keyword>): Lege die Karte mit den höchsten Kosten im Deck deines Gegners nach oben.\n<keyword=deploy>Einsatz</keyword> (<keyword=ranged>Fernkampf</keyword>): Lege die Karte mit den niedrigsten Kosten im Deck deines Gegners nach oben.
 202796_fluff;Vipern-Hexer werden im Kampf mit Zwillingsklingen trainiert, die oftmals "Fangzähne" genannt werden. Bei diesem Kampfstil wird vor allem Wert auf schnelle, mächtige Angriffe gelegt, die das Ziel – egal, ob Monster oder Mensch – überwältigen sollen.
 202796_name;Vipern-Hexer
-202796_tooltip;<keyword=deploy>Einsatz</keyword>: Bewirke bei einer gegnerischen Einheit <keyword=bleeding>Bluten</keyword> ({Bleed}).\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: <keyword=spawn>Generiere</keyword> oben auf dem gegnerischen Deck eine Basiskopie derselben Einheit.
+202796_tooltip;<keyword=deploy>Einsatz</keyword>: Bewirke bei einer gegnerischen Einheit <keyword=bleeding>Bluten</keyword> ({Bleed}).\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: <keyword=spawn>Generiere</keyword> oben auf dem gegnerischen Deck eine Basiskopie derselben Einheit.
 202797_fluff;Mentoren der Vipernschule sind besonders kaltherzig und gnadenlos, um ihre Schüler auf das harte Leben vorzubereiten, dass ihnen bevorsteht.
 202797_name;Vipern-Hexer-Mentor
-202797_tooltip;<keyword=deploy>Einsatz</keyword>: Setze die Stärke dieser Karte entsprechend der Rekrutierungskosten der obersten Karte im Deck deines Gegners fest.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Setze die Stärke dieser Karte entsprechend der Rekrutierungskosten der Karte mit den höchsten Kosten im Deck deines Gegners fest.
+202797_tooltip;<keyword=deploy>Einsatz</keyword>: Setze die Stärke dieser Karte entsprechend der Rekrutierungskosten der obersten Karte im Deck deines Gegners fest.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Setze die Stärke dieser Karte entsprechend der Rekrutierungskosten der Karte mit den höchsten Kosten im Deck deines Gegners fest.
 202798_fluff;Was dich nicht umbringt, macht dich stärker. Oder schwächer. Kommt drauf an.
 202798_name;Vipern-Hexer-Alchemist
 202798_tooltip;<keyword=deploy>Einsatz</keyword>: Sieh dir die obersten {MaxTargets} Karten deines Decks an. Lege eine davon oben auf dein Deck und tausche dann die oberste Karte des gegnerischen Decks mit deiner obersten Karte.
@@ -3286,7 +3286,7 @@
 202800_tooltip;Füge einer gegnerischen Einheit {damage} Schaden zu.\n<keyword=deathblow>Todesstoß</keyword>: <keyword=banish>Verbanne</keyword> sie und <keyword=spawn>generiere</keyword> eine Basiskopie davon oben auf dem gegnerischen Deck.
 202801_fluff;"Ich nehme viel lieber einen Auftrag von den Aen Seidhe an als von einem Dh'oine. Wenigstens bekomme ich dann eine Bezahlung statt eines Messers zwischen den Rippen." – Gezras
 202801_name;Gezras von Leyda
-202801_tooltip;<keyword=melee>Nahkampf</keyword>: Verschiebe diese Karte am Ende deines Zug in die <keyword=ranged>Fernkampf</keyword>-Reihe und verbessere eine zufällige verbündete Einheit in dieser Reihe um {Boost}.\n<keyword=ranged>Fernkampf</keyword>: Verschiebe diese Karte am Ende deines Zugs in die <keyword=melee>Nahkampf</keyword>-Reihe und füge einer zufälligen gegnerischen Einheit in der gegenüberliegenden Reihe {Damage} Schaden zu.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Statt einer zufälligen Einheit sind alle anderen Einheiten in einer Reihe betroffen.
+202801_tooltip;<keyword=melee>Nahkampf</keyword>: Verschiebe diese Karte am Ende deines Zug in die <keyword=ranged>Fernkampf</keyword>-Reihe und verbessere eine zufällige verbündete Einheit in dieser Reihe um {Boost}.\n<keyword=ranged>Fernkampf</keyword>: Verschiebe diese Karte am Ende deines Zugs in die <keyword=melee>Nahkampf</keyword>-Reihe und füge einer zufälligen gegnerischen Einheit in der gegenüberliegenden Reihe {Damage} Schaden zu.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Statt einer zufälligen Einheit sind alle anderen Einheiten in einer Reihe betroffen.
 202802_fluff;Preisgekrönter Besitz einer königlichen Menagerie, bis ein Kommando der Scoia'tael die Ausstellung angriff und die Bestie auf ihre grausamen Herren losließ. Seitdem hat sie den Geschmack an menschlichem Fleisch gefunden.
 202802_name;Säbelzahntiger
 202802_tooltip;<keyword=zeal>Eifer</keyword>. <keyword=order>Befehl</keyword>: Verwandle diese Karte in einen Säbelzahntiger: Schleichen.
@@ -3295,16 +3295,16 @@
 202803_tooltip;<keyword=resilient>Zähigkeit</keyword>.\n<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> einen Katzen-Hexer-Adepten, Katzen-Hexer, Katzen-Hexer-Mentor oder Katzen-Hexer-Saboteur und spiele ihn aus.\n<keyword=order>Befehl</keyword>: Verschiebe {MaxTargets} verbündete Einheiten in die andere Reihe.
 202804_fluff;Bekannt als der Kater von Iello. Der Name rührt nicht aus seiner Herkunft, sondern dem Abschlachten der dortigen Bauern. War ein ziemliches Massaker.
 202804_name;Brehen
-202804_tooltip;<keyword=deploy>Einsatz</keyword>: Zerstöre die Einheit ganz rechts in einer gegnerischen Reihe, in der sich mindestens {Counter} Einheiten befinden.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Zerstöre stattdessen die Einheit ganz rechts in einer gegnerischen Reihe, in der sich mindestens {Counter2} Einheiten befinden.
+202804_tooltip;<keyword=deploy>Einsatz</keyword>: Zerstöre die Einheit ganz rechts in einer gegnerischen Reihe, in der sich mindestens {Counter} Einheiten befinden.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Zerstöre stattdessen die Einheit ganz rechts in einer gegnerischen Reihe, in der sich mindestens {Counter2} Einheiten befinden.
 202805_fluff;"Mich ermorden, um ein paar Kronen zu sparen? Solche Bastarde soll ich beschützen?" – Gaetan
 202805_name;Gaetan
 202805_tooltip;<keyword=deploy>Einsatz</keyword>: Verschiebe die anderen Karten aus dieser Reihe in die andere Reihe.\nFüge einer zufälligen gegnerischen Einheit pro verschobener Karte {Damage} Schaden zu.
 202806_fluff;Die Mitglieder der Katzenschule haben aufgrund ihres berüchtigten Blutdursts im Eifer des Gefechts keinen guten Ruf. Denn selbst wenn ihre Gegner um Gnade bitten, hören die Katzen nicht auf.
 202806_name;Katzen-Hexer
-202806_tooltip;Verschiebe diese Karte am Ende des Zugs in die andere Reihe und füge einer zufälligen gegnerischen Einheit in der gegenüberliegenden Reihe {Damage} Schaden zu.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Füge der Einheit stattdessen {Damage2} Schaden zu.
+202806_tooltip;Verschiebe diese Karte am Ende des Zugs in die andere Reihe und füge einer zufälligen gegnerischen Einheit in der gegenüberliegenden Reihe {Damage} Schaden zu.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Füge der Einheit stattdessen {Damage2} Schaden zu.
 202807_fluff;Wenn du fällst, ist es aus mit dir und deinen sieben Leben, Junge.
 202807_name;Katzen-Hexer-Mentor
-202807_tooltip;<keyword=deploy>Einsatz</keyword>: Verbessere diese Einheit um die Anzahl der anderen Karten in dieser Reihe.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Wann immer eine Karte in dieser Reihe erscheint, verbessere diese Einheit um {Boost}.
+202807_tooltip;<keyword=deploy>Einsatz</keyword>: Verbessere diese Einheit um die Anzahl der anderen Karten in dieser Reihe.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Wann immer eine Karte in dieser Reihe erscheint, verbessere diese Einheit um {Boost}.
 202808_fluff;"Natürlich hängt der Schatten ihrer düsteren Taten auch heute noch wie eine dunkle Wolke über uns." – Vesemir
 202808_name;Katzen-Hexer-Saboteur
 202808_tooltip;<keyword=deploy>Einsatz</keyword>: Verschiebe eine gegnerische Einheit auf die Position ganz links in ihrer Reihe und füge ihr pro dabei passierter Karte {Damage} Schaden zu.
@@ -3316,28 +3316,28 @@
 202810_tooltip;Verschiebe eine gegnerische Einheit in die andere Reihe und bewirke bei ihr <keyword=bleeding>Bluten</keyword> ({Bleed}). Wenn sie in dieser Reihe die einzige Einheit ist, füge ihr stattdessen {Damage} Schaden zu.
 202811_fluff;"Die Aufgabe eines Hexers ist das Töten von Monstern gegen Entgelt. Nicht mehr und nicht weniger." – Arnaghad
 202811_name;Arnaghad
-202811_tooltip;<keyword=deploy>Einsatz</keyword>: Erhalte pro beschädigter Einheit {Armor} <keyword=armor>Rüstung</keyword>.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Wenn dein Gegner eine Einheit auf seiner Seite des Schlachtfelds ausspielt, füge dieser Einheit Schaden in Höhe von Arnaghads Stärke und Arnaghad Schaden in Höhe der Stärke dieser Einheit zu.
+202811_tooltip;<keyword=deploy>Einsatz</keyword>: Erhalte pro beschädigter Einheit {Armor} <keyword=armor>Rüstung</keyword>.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Wenn dein Gegner eine Einheit auf seiner Seite des Schlachtfelds ausspielt, füge dieser Einheit Schaden in Höhe von Arnaghads Stärke und Arnaghad Schaden in Höhe der Stärke dieser Einheit zu.
 202812_fluff;Nach zahllosen Versuchen, diese wilde Bestie zu erschlagen, könnte man sie nun schon fast als eine mobile Waffenkammer bezeichnen.
 202812_name;Grässlicher Bär
-202812_tooltip;Einheiten in dieser und der gegenüberliegenden Reihe können nicht verbessert werden.
+202812_tooltip;Einheiten in dieser und der gegenüberliegenden Reihe können nicht verbessert werden.\n<keyword=berserk>Berserker</keyword> {berserk}: Betrifft nur die gegenüberliegende Reihe.
 202813_fluff;Eingemeißelt im eisigen Fels der Amell-Berge, versteckt zwischen steilen Klippen und Schneeverwehungen. Der Standort der schon lange verlassenen Bärenschule bleibt weiterhin ein gut gehütetes Geheimnis.
 202813_name;Haern Caduch
 202813_tooltip;<keyword=resilient>Zähigkeit</keyword>.\n<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> einen Bären-Hexer-Adepten, Bären-Hexer, Bären-Hexer-Mentor oder Bären-Hexer-Quartiermeister und spiele ihn aus.\n<keyword=order>Befehl</keyword>: <keyword=heal>Heile</keyword> die benachbarten Einheiten um {Boost}.
 202814_fluff;Er war mit der Jagd nach einem Drachen, einer Sirene und einer Striege beauftragt. Außerdem waren ein rachsüchtiger Ritter sowie diverse Kopfgeldjäger und Banditen hinter ihm her. Trotzdem fand er genug Zeit, um eine Runde Gwent zu spielen.
 202814_name;Gerd
-202814_tooltip;<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> in der gegenüberliegenden Reihe eine Ohrenbetäubende Sirene und füge allen Einheiten in der Reihe {Damage} Schaden zu.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: <keyword=spawn>Generiere</keyword> in der gegenüberliegenden Reihe eine Ohrenbetäubende Sirene und füge ihr stattdessen {Damage} Schaden zu.
+202814_tooltip;<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> in der gegenüberliegenden Reihe eine Ohrenbetäubende Sirene und füge allen Einheiten in der Reihe {Damage} Schaden zu.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: <keyword=spawn>Generiere</keyword> in der gegenüberliegenden Reihe eine Ohrenbetäubende Sirene und füge ihr stattdessen {Damage} Schaden zu.
 202815_fluff;Gerüchten zufolge entstand er aus einer ungewöhnlichen Liaison zwischen einer Riesin und einem SEHR mutigen Zwerg.
 202815_name;Junod von Belhaven
 202815_tooltip;<keyword=deploy>Einsatz</keyword>: Zerstöre eine beschädigte gegnerische Einheit.
 202816_fluff;Das Leben auf der Straße ist einsam und schwer. Denk daran, nur das Nötigste mitzunehmen.
 202816_name;Bären-Hexer
-202816_tooltip;<keyword=deploy>Einsatz</keyword>: Füge dieser Einheit {Damage} Schaden zu.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Füge stattdessen dieser Einheit und einer gegnerischen Einheit {Damage} Schaden zu.
+202816_tooltip;<keyword=deploy>Einsatz</keyword>: Füge dieser Einheit {Damage} Schaden zu.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Füge stattdessen dieser Einheit und einer gegnerischen Einheit {Damage} Schaden zu.
 202817_fluff;Wenn du dir nicht sicher bist, in welche Richtung du gehen musst, sieh dich einfach nach den gefrorenen Leichen anderer Hexer-Anwärter um.
 202817_name;Bären-Hexer-Mentor
-202817_tooltip;<keyword=deploy>Einsatz</keyword>: Verbessere diese Karte um {Boost} pro beschädigter verbündeter Einheit.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Verbessere diese Karte stattdessen um {Boost} pro beschädigter Einheit.
+202817_tooltip;<keyword=deploy>Einsatz</keyword>: Verbessere diese Karte um {Boost} pro beschädigter verbündeter Einheit.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Verbessere diese Karte stattdessen um {Boost} pro beschädigter Einheit.
 202818_fluff;Wenn du ihm genug Mahakam-Met spendierst, erzählt er dir vielleicht die Geschichte, wie ein Bär ihm seinen Schild und seinen Arm entriss!
 202818_name;Bären-Hexer-Quartiermeister
-202818_tooltip;<keyword=order>Befehl</keyword>: Füge einer verbündeten Einheit {Damage} Schaden zu und <keyword=spawn>generiere</keyword> dann einen Hexer-Schüler in dieser Reihe.\n<keyword=charge>Ladungen</keyword>: {Charges}.
+202818_tooltip;<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Füge einer verbündeten Einheit {Damage} Schaden zu und <keyword=spawn>generiere</keyword> dann einen Hexer-Schüler in dieser Reihe.\n<keyword=charge>Ladungen</keyword>: {Charges}.
 202819_fluff;Um Bären-Hexer zu werden, mussten alle Schüler die Prüfung der Berge bestehen. Dazu brachen sie zur Spitze der Gorgo auf, um von dort einen besonderen Runenstein als Beweisstück zurückzubringen. Viele der Jungen erforen während dieser brutalen Prüfung, lange bevor sie je die Spitze erreichten.
 202819_name;Bären-Hexer-Adept
 202819_tooltip;<keyword=deploy>Einsatz</keyword>: Füge dieser Karte {Damage} Schaden zu.\n<keyword=heal>Heile</keyword> diese Karte um {Boost} am Ende deines Zugs. Wenn sie nicht beschädigt ist, erhält sie stattdessen {Armor} <keyword=armor>Rüstung</keyword>.
@@ -3346,7 +3346,7 @@
 202820_tooltip;Füge einer gegnerischen Einheit {Damage} Schaden zu.\n<keyword=spawn>Generiere</keyword> in der gegenüberliegenden Reihe {Count} Hexer-Schüler, füge ihnen {Damage2} Schaden zu und gib ihnen dann {Armor} <keyword=armor>Rüstung</keyword>.
 202821_fluff;Erland hat die Greifenschule gegründet und sich erhofft, dass seine Betonung ritterlicher Werte das Ansehen von Hexern unter dem gemeinen Volk verbessern könnte. Leider waren seine Bemühungen vergeblich.
 202821_name;Erland von Larvik
-202821_tooltip;<keyword=deploy>Einsatz</keyword>: Verbessere alle Einheiten in deinem Deck um {boost}.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Erhalte zudem <keyword=immune>Immunität</keyword>.\n<keyword=order>Befehl</keyword>: Entferne die Verbesserungen von allen Einheiten in deinem Deck und verbessere diese Karte dann um diesen Wert.
+202821_tooltip;<keyword=deploy>Einsatz</keyword>: Verbessere alle Einheiten in deinem Deck um {boost}.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Erhalte zudem <keyword=immune>Immunität</keyword>.\n<keyword=order>Befehl</keyword>: Entferne die Verbesserungen von allen Einheiten in deinem Deck und verbessere diese Karte dann um diesen Wert.
 202822_fluff;Die Verkörperung von Mut, Loyalität und Kampfgeist – die Eigenschaften, für die Greifen-Hexer bekannt sind. Allerdings wurde die Greifenschule nach einem Ritter benannt, der "Greif" genannt wurde und diese Werte vor langer Zeit dem Gründer der Schule lehrte.
 202822_name;Erzgreif
 202822_tooltip;Mische diese Karte am Ende der Runde in dein Deck. Sie behält ihre Verbesserungen.
@@ -3358,13 +3358,13 @@
 202824_tooltip;<keyword=zeal>Eifer</keyword>. <keyword=order>Befehl</keyword>: Verbessere alle anderen Einheiten, deren Stärkewert dem von Coën entspricht, um die Menge, die Coën verbessert wurde.
 202825_fluff;"Ihr törichten, hirnlosen Zweibeiner! Was soll denn bitte 'Ich weiß nicht' heißen?! Ihr würdet wahrscheinlich mit einem Majoran-Abbild bewaffnet und in Knoblauch eingerieben auf die Jagd nach Vampiren gehen!" – Keldar
 202825_name;Keldar
-202825_tooltip;<keyword=resupply>Nachschub</keyword>: <keyword=spawn>Generiere</keyword> einen Hexer-Schüler in dieser Reihe.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: <keyword=spawn>Generiere</keyword> am Ende deines Zugs einen Hexer-Schüler in dieser Reihe.
+202825_tooltip;<keyword=resupply>Nachschub</keyword>: <keyword=spawn>Generiere</keyword> einen Hexer-Schüler in dieser Reihe.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: <keyword=spawn>Generiere</keyword> am Ende deines Zugs einen Hexer-Schüler in dieser Reihe.
 202826_fluff;Silberschwerter sind ja schon eine tolle Sache, aber hast du es schon mal mit silbern überzogenen Pfeilspitzen versucht?
 202826_name;Greifen-Hexer
-202826_tooltip;<keyword=order>Befehl</keyword> (<keyword=melee>Nahkampf</keyword>): Füge einer gegnerischen Einheit {damage} Schaden zu.\n<keyword=cooldown>Abklingzeit</keyword>: {Cooldown}.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Füge am Ende deines Zugs einer zufälligen gegnerischen Einheit {damage2} Schaden zu und <keyword=lock>blockiere</keyword> diese Einheit.
+202826_tooltip;<keyword=order>Befehl</keyword> (<keyword=melee>Nahkampf</keyword>): Füge einer gegnerischen Einheit {damage} Schaden zu.\n<keyword=cooldown>Abklingzeit</keyword>: {Cooldown}.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Füge am Ende deines Zugs einer zufälligen gegnerischen Einheit {damage2} Schaden zu und <keyword=lock>blockiere</keyword> diese Einheit.
 202827_fluff;Mit Wissen bleibst du wesentlich länger am Leben als mit Stärke, mein Junge.
 202827_name;Greifen-Hexer-Mentor
-202827_tooltip;<keyword=deploy>Einsatz</keyword>: Ziehe die oberste Einheit aus deinem Deck und mische dann eine Karte hinein.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Verbessere die gezogene Einheit um {boost}.
+202827_tooltip;<keyword=deploy>Einsatz</keyword>: Ziehe die oberste Einheit aus deinem Deck und mische dann eine Karte hinein.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Verbessere die gezogene Einheit um {boost}.
 202828_fluff;Greifen-Hexer-Waldläufer sind die unangefochtenen Meister im Fährtenlesen und der Jagd, selbst in den unsäglichsten Umgebungen. Ganz egal, wie schwach die Spur ist – sie geben nicht auf, bis sie ihre Beute gefangen oder getötet haben.
 202828_name;Greifen-Hexer-Waldläufer
 202828_tooltip;<keyword=formation>Formation</keyword>.\n<keyword=deploy>Einsatz</keyword>: Verbessere diese Karte um {boost} für jede Einheit in der gegnerischen Reihe.\n<keyword=order>Befehl</keyword>: Übertrage alle Verbesserungen von dieser Karte auf eine verbündete Einheit.
@@ -3379,31 +3379,31 @@
 202831_tooltip;<keyword=deathwish>Todeswunsch</keyword>: Mische Wij in dein Deck und erhöhe dann seine Basisstärke um {boost}.
 202832_fluff;Wenn ich dir sage, dass der Koschtschei tot ist, dann gehst du trotzdem zum Bach, oder?
 202832_name;Koschtschei
-202832_tooltip;<keyword=thrive>Gedeihen</keyword>.\nWann immer die <keyword=thrive>Gedeihen</keyword>-Fähigkeit dieser Karte ausgelöst wird, <keyword=spawn>generiere</keyword> eine Drohne in dieser Reihe.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Wann immer die <keyword=thrive>Gedeihen</keyword>-Fähigkeit dieser Karte ausgelöst wird, <keyword=spawn>generiere</keyword> stattdessen eine Endriaga-Larve in dieser Reihe.
+202832_tooltip;<keyword=thrive>Gedeihen</keyword>.\nWann immer die <keyword=thrive>Gedeihen</keyword>-Fähigkeit dieser Karte ausgelöst wird, <keyword=spawn>generiere</keyword> eine Drohne in dieser Reihe.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Wann immer die <keyword=thrive>Gedeihen</keyword>-Fähigkeit dieser Karte ausgelöst wird, <keyword=spawn>generiere</keyword> stattdessen eine Endriaga-Larve in dieser Reihe.
 202833_fluff;Eine Monsternest wie kein anderes. Unzählige Schreckenswesen und Monstrositäten sind hier beheimatet. Selbst ein Hexer würde es sich zweimal überlegen, bevor er sich in diesen Höllenschlund wagt.
 202833_name;Dol Dhu Lokke
 202833_tooltip;<keyword=resilient>Zähigkeit</keyword>.\n<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> einen Sukkubus, einen Púka, eine Chimäre oder einen Hybriden und spiele sie/ihn aus.\n<keyword=order>Befehl</keyword>: Verschiebe die Einheit mit dem höchsten Stärkewert oben auf dein Deck und <keyword=spawn>generiere</keyword> je eine Drohne auf beiden Seiten dieser Karte.
 202834_fluff;"Wer ist ein braver Junge?" – Idarran
 202834_name;Idr
-202834_tooltip;<keyword=order>Befehl</keyword> (<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}): <keyword=consume>Verzehre</keyword> alle Marken in dieser Reihe und erhalte <keyword=immune>Immunität</keyword>.\nWann immer du eine oder mehrere Einheiten <keyword=consume>verzehrst</keyword>, <keyword=spawn>generiere</keyword> eine Drohne in dieser Reihe.
+202834_tooltip;<keyword=order>Befehl</keyword> (<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}): <keyword=consume>Verzehre</keyword> alle Marken in dieser Reihe und erhalte <keyword=immune>Immunität</keyword>.\nWann immer du eine oder mehrere Einheiten <keyword=consume>verzehrst</keyword>, <keyword=spawn>generiere</keyword> eine Drohne in dieser Reihe.
 202835_fluff;Als Kind lebte Idarran in den Kanälen von Wyzima. Er war von Geburt an ein Genie und begann bereits im Alter von fünf Jahren damit, an Kanalratten zu experimentieren.
 202835_name;Werratte
 202835_tooltip;<keyword=order>Befehl</keyword>: Setze die Stärke dieser Einheit zurück und <keyword=spawn>generiere</keyword> in dieser Reihe eine Anzahl Ratten entsprechend der verlorenen Verbesserung.\n<keyword=cooldown>Abklingzeit</keyword>: {Cooldown}.\n<keyword=consume>Verzehre</keyword> am Ende deines Zugs eine Einheit zur Rechten.
 202836_fluff;Es ist wichtig, stets genug zu trinken.
 202836_name;Sukkubus
-202836_tooltip;<keyword=deathwish>Todeswunsch</keyword>: Falls sich auf deinem Friedhof ein weiterer Sukkubus befindet, <keyword=summon>rufe</keyword> am Ende deines Zugs diese Einheit aus deinem Friedhof in eine zufällige Reihe herbei und erhalte <keyword=doomed>Verdammt</keyword>.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Erhalte nicht <keyword=doomed>Verdammt</keyword>.
+202836_tooltip;<keyword=deathwish>Todeswunsch</keyword>: Falls sich auf deinem Friedhof ein weiterer Sukkubus befindet, <keyword=summon>rufe</keyword> am Ende deines Zugs diese Einheit aus deinem Friedhof in eine zufällige Reihe herbei und erhalte <keyword=doomed>Verdammt</keyword>.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Erhalte nicht <keyword=doomed>Verdammt</keyword>.
 202837_fluff;Die größeren, stärkeren Exemplare sind besonders gefährlich. Es handelt sich bei ihnen um eine seltene Art der Nekker, die Púkas genannt werden. Wenn du einen siehst, nimm die Beine in die Hand.
 202837_name;Púka
 202837_tooltip;<keyword=thrive>Gedeihen</keyword> {boost}.
 202838_fluff;Zunächst kombinierte Cosimo die Gene eines Bies mit denen eines Greifen. Dann fügte er einen Hauch von Insektoid und Wyvern hinzu, wodurch eine Kreatur entstand, die noch schrecklicher als ihre Bestandteile ist.
 202838_name;Chimäre
-202838_tooltip;<keyword=deploy>Einsatz</keyword>: <keyword=consume>Verzehre</keyword> eine verbündete Einheit.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Verbessere alle Kopien der <keyword=consume>verzehrten</keyword> Einheit in der Reihe der verzehrten Einheit um {Boost1}.
+202838_tooltip;<keyword=deploy>Einsatz</keyword>: <keyword=consume>Verzehre</keyword> eine verbündete Einheit.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Verbessere alle Kopien der <keyword=consume>verzehrten</keyword> Einheit in der Reihe der verzehrten Einheit um {Boost1}.
 202839_fluff;Professor Malaspina fügte der Mischung versehentlich eine weitere Zutat hinzu: Präparat X.
 202839_name;Plötzliche Evolution
 202839_tooltip;Verbessere eine verbündete Einheit um {Boost} und erhalte einen zusätzlichen Effekt, der auf ihrer Kategorie basiert.\n\nInsektoid – <keyword=spawn>Generiere</keyword> {MaxTargets} Drohnen in der Reihe der verbesserten Einheit.\nBestie – Verbessere die Einheit stattdessen um {Boost2}.\nOgroid – Gib allen Ogroiden auf deiner Hand {Armor} <keyword=armor>Rüstung</keyword>.
 202841_fluff;Getötet von den Pfeilen jener, die sie gejagt hat. Zumindest glaubten das viele, doch Salamandra hatte andere Pläne mit ihr.
 202841_name;Gefallene Rayla
-202841_tooltip;<keyword=profit>Profit</keyword> {Income}.\n<keyword=tribute>Tribut</keyword> {Tribute-B.P.BB_Tribute}: Erhalte <keyword=veil>Schleier</keyword>.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Wann immer du eine <keyword=tribute>Tribut</keyword>-Fähigkeit bezahlst, verbessere diese Karte um die Kosten des <keyword=tribute>Tributs</keyword>.
+202841_tooltip;<keyword=profit>Profit</keyword> {Income}.\n<keyword=tribute>Tribut</keyword> {Tribute-B.P.BB_Tribute}: Erhalte <keyword=veil>Schleier</keyword>.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Wann immer du eine <keyword=tribute>Tribut</keyword>-Fähigkeit bezahlst, verbessere diese Karte um die Kosten des <keyword=tribute>Tributs</keyword>.
 202842_fluff;Trotz ihrer süßen, kleinen Gesichter sollte man sie lieber nicht streicheln. Wenn sich der Salamander bedroht fühlt, versprüht er ein tödliches Gift, das bei Kontakt die Haut zum Schmelzen bringt.
 202842_name;Salamander
 202842_tooltip;<keyword=profit>Profit</keyword> {Income}.\n<keyword=deploy>Einsatz</keyword>: <keyword=poison>Vergifte</keyword> eine Einheit. \n<keyword=tribute>Tribut</keyword> {Tribute-B.P.BB_Tribute}: <keyword=poison>Vergifte</keyword> stattdessen alle Einheiten auf dem Schlachtfeld.\nErhöhe den <keyword=profit>Profit</keyword> um 1 für jede verbündete Salamandra-Einheit.
@@ -3412,19 +3412,19 @@
 202843_tooltip;<keyword=resilient>Zähigkeit</keyword>.\n<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> ein Fehlgeschlagenes Experiment, ein Salamandra-Monstrum, einen Salamandramagier oder eine Salamandralakaiin und spiele es/sie/ihn aus.\n<keyword=order>Befehl</keyword>: Verschiebe einen <keyword=poison>Gift</keyword>-Effekt von einer verbündeten Einheit auf eine andere Einheit.
 202844_fluff;"Ich frage mich, wie es meinem Bruder in der Kanalisation geht." – Roland
 202844_name;Roland Bleinheim
-202844_tooltip;Wann immer eine Einheit <keyword=poison>vergiftet</keyword> ist, erhalte {Coins} <keyword=coin>Münzen</keyword>.
+202844_tooltip;Wann immer eine Einheit <keyword=poison>vergiftet</keyword> wird, erhalte {Coins} <keyword=coin>Münzen</keyword>.
 202845_fluff;"Ich frage mich, wie es meinem Bruder im Wald geht." – Gellert
 202845_name;Gellert Bleinheim
-202845_tooltip;<keyword=profit>Profit</keyword> {Profit}.\n<keyword=fee>Gebühr</keyword> {Cost}: <keyword=poison>Vergifte</keyword> eine verbündete Einheit und verbessere sie um {Boost}.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: <keyword=cooldown>Abklingzeit</keyword>: {Cooldown}.
+202845_tooltip;<keyword=profit>Profit</keyword> {Profit}.\n<keyword=fee>Gebühr</keyword> {Cost}: <keyword=poison>Vergifte</keyword> eine verbündete Einheit und verbessere sie um {Boost}.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: <keyword=cooldown>Abklingzeit</keyword>: {Cooldown}.
 202846_fluff;Von Lakaien wird erwartet, dass sie ihre ersten fünf Jobs ohne Bezahlung erledigen, um so ihre Leidenschaft zu beweisen.
 202846_name;Salamandralakaiin
 202846_tooltip;Wenn du das erste Mal in einem Zug eine <keyword=coin>Münze</keyword> erhältst, verbessere diese Einheit um {Boost}.
 202847_fluff;Die Salamandra-Wissenschaftler waren so beschäftigt damit, herauszufinden, ob sie dieses Monstrum erschaffen konnten, dass sie gar nicht darüber nachgedacht haben, ob sie das auch wirklich tun sollten.
 202847_name;Salamandra-Monstrum
-202847_tooltip;<keyword=tribute>Tribut</keyword> {Tribute-B.P.BB_Tribute}: <keyword=poison>Vergifte</keyword> diese Einheit.\nWann immer diese Einheit <keyword=poison>vergiftet</keyword> wird, verbessere sie um {Boost}.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: <keyword=purify>Läutere</keyword> diese Einheit am Ende deines Zuges.
+202847_tooltip;<keyword=tribute>Tribut</keyword> {Tribute-B.P.BB_Tribute}: <keyword=poison>Vergifte</keyword> diese Einheit.\nWann immer diese Einheit <keyword=poison>vergiftet</keyword> wird, verbessere sie um {Boost}.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: <keyword=purify>Läutere</keyword> diese Einheit am Ende deines Zuges.
 202848_fluff;Ein Feuer anzuzünden wärmt einen Menschen einen Tag lang. Doch wenn du den Menschen anzündest ...
 202848_name;Salamandramagier
-202848_tooltip;<keyword=tribute>Tribut</keyword> {Tribute-B.P.BB_Tribute}: Füge 3 benachbarten gegnerischen Einheit {Damage} Schaden zu.\nWann immer du eine <keyword=tribute>Tribut</keyword>-Fähigkeit bezahlst, erhalte {Coins} <keyword=coin>Münzen<keyword=coin>.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline}: Erhalte stattdessen {Coins2} </keyword>Münzen</keyword>.
+202848_tooltip;<keyword=tribute>Tribut</keyword> {Tribute-B.P.BB_Tribute}: Füge 3 benachbarten gegnerischen Einheit {Damage} Schaden zu.\nWann immer du eine <keyword=tribute>Tribut</keyword>-Fähigkeit bezahlst, erhalte {Coins} <keyword=coin>Münzen<keyword=coin>.\n<keyword=adrenaline>Adrenalin</keyword> {Adrenaline-1}: Erhalte stattdessen {Coins2} </keyword>Münzen</keyword>.
 202849_fluff;Selbst fehlgeschlagene Experimente können einen Zweck erfüllen. Wie soll man sonst über die Grenzen des bekannten Wissens hinausgehen?
 202849_name;Fehlgeschlagenes Experiment
 202849_tooltip;Verliere am Ende deines Zugs {Cost} <keyword=coin>Münze</keyword>. Wenn du keine <keyword=coin>Münzen</keyword> hast, füge dieser Karte stattdessen {Damage} Schaden zu.\nWenn sie <keyword=poison>vergiftet</keyword> ist, deaktiviere diese Fähigkeit.
@@ -3445,10 +3445,10 @@
 202880_tooltip;<keyword=deploy>Einsatz</keyword>: Ersetze deine Anführerfähigkeit durch eine Basiskopie der Anführerfähigkeit deines Gegners.
 202881_fluff;Man nennt mich nicht den Geduldigen. Aber dich bald den Kopflosen.
 202881_name;Emhyr var Emreis
-202881_tooltip;<keyword=deploy>Einsatz</keyword>: Ziehe eine Karte, dann lege eine Karte von deiner Hand ganz unten in dein Deck.\nWann immer dein Gegner eine Einheit ausspielt, gib ihr <keyword=spying>Spionage</keyword>.\n<keyword=devotion>Hingabe</keyword>: <keyword=seize>Ergreife</keyword> am Ende deines Zuges eine zufällige <keyword=spying>Spionage</keyword>-Einheit mit einer Stärke von {power}.
+202881_tooltip;<keyword=zeal>Eifer</keyword>.\n<keyword=deploy>Einsatz</keyword>: Ziehe eine Karte, dann lege eine Karte von deiner Hand ganz unten in dein Deck.\nWann immer dein Gegner eine Einheit ausspielt, gib ihr <keyword=spying>Spionage</keyword>.\n<keyword=order>Befehl</keyword>: <keyword=seize>Ergreife</keyword> eine gegnerische <keyword=spying>Spionage</keyword>-Einheit mit einer Stärke von {power}.\n<keyword=devotion>Hingabe</keyword>: Erneuere den <keyword=order>Befehl</keyword> dieser Karte am Ende deines Zuges.
 202882_fluff;Die Nilfgaarder nennen ihn Tirth ys Muire, das Wildschwein der See. Sie erschrecken ihre Kinder mit ihm!
 202882_name;Crach an Craite
-202882_tooltip;<keyword=deploy>Einsatz</keyword>: Gib {MaxTargets} Piraten oder Schiffen auf deiner Hand {Armor} <keyword=armor>Rüstung</keyword>.\nWann immer du einen Piraten oder ein Schiff neben Crach ausspielst, füge dieser Einheit sowie der gegnerischen Einheit mit der niedrigsten Stärke Schaden in Höhe der Stärke der jeweils anderen Karte zu.
+202882_tooltip;<keyword=deploy>Einsatz</keyword>: Gib {MaxTargets} Piraten oder Schiffen auf deiner Hand {Armor} <keyword=armor>Rüstung</keyword>.\n<keyword=order>Befehl</keyword>: Füge einer Einheit {damage3} Schaden zu.\n<keyword=cooldown>Abklingzeit</keyword>: {cooldown}\nWann immer du einen Piraten oder ein Schiff neben Crach ausspielst, füge dieser Einheit sowie der gegnerischen Einheit mit der niedrigsten Stärke Schaden in Höhe der Stärke der jeweils anderen Karte zu.
 202883_fluff;Eist kam nach Cintra, um Crach an Craite dabei zu helfen, die Hand von Prinzessin Pavetta zu gewinnen, doch am Ende gewann er das Herz ihrer Mutter für sich selbst.
 202883_name;Eist Tuirseach
 202883_tooltip;<keyword=veteran>Veteran</keyword>.\n<keyword=deploy>Einsatz</keyword>, <keyword=bloodthirst>Blutdurst</keyword> {Bloodthirst}: Ziehe eine Karte und <keyword=discard>verwirf</keyword> dann eine Karte.\nWann immer du eine Skellige-Einheit in deinem Zug <keyword=discard>verwirfst</keyword>, <keyword=summon>rufe</keyword> sie aus deinem Friedhof in diese Reihe herbei.\nZähler: {Counter}.\n<keyword=devotion>Hingabe</keyword>: Dies funktioniert auch, wenn eine Skellige-Einheit während deines Zuges auf deinen Friedhof kommt.
@@ -3460,13 +3460,13 @@
 202885_tooltip;<keyword=deploy>Einsatz</keyword>: Verwandle all deine enthüllten Fallen in Elfen-Eliteschützen.\n<keyword=devotion>Hingabe</keyword>: Verwandle außerdem deine anderen Artefakte.
 202886_fluff;Räte und ihre Ränke. Ich baue auf die Schwerter meiner Soldaten.
 202886_name;König Foltest
-202886_tooltip;Das erste Mal pro Runde, wenn eine Bronzeeinheit auf deiner Seite des Schlachtfelds verbessert wird, <keyword=spawn>generiere</keyword> eine Basiskopie von ihr ganz unten in deinem Deck.\n<keyword=devotion>Hingabe</keyword>: Verbessere außerdem die <keyword=spawn>generierte</keyword> Kopie um {boost}.
+202886_tooltip;Wenn du das erste Mal in einer Runde eine Bronzeeinheit auf deiner Seite des Schlachtfelds verbesserst, <keyword=spawn>generiere</keyword> eine einfache Kopie von ihr ganz unten in deinem Deck.\n<keyword=devotion>Hingabe</keyword>: Verbessere außerdem die <keyword=spawn>generierte</keyword> Kopie um {boost}.\nVerbessere am Ende deines Zuges eine Einheit rechts von dieser um {boost2}.
 202887_fluff;Wir sind im Krieg, da bemühen und entscheiden die Regenten nicht, sondern packen Schwert und Schild, um ihre Untertanen zu verteidigen.
 202887_name;Königin Meve
-202887_tooltip;<keyword=inspired>Inspiration</keyword>: Verringere am Ende deines Zuges den Zähler um 1.\nZähler : {Counter}\nWenn der Zähler 0 erreicht, verbessere alle verbündeten Einheiten um {Boost}.
+202887_tooltip;<keyword=inspired>Inspiration</keyword>: Verringere am Ende deines Zuges den Zähler um 1.\nZähler: {Counter}\nWenn der Zähler 0 erreicht, verbessere alle verbündeten Einheiten um {Boost} und setze den Zähler zurück.\nWann immer diese Einheit verbessert wird, erhalte {Armor} <keyword=armor>Rüstung</keyword>.
 202888_fluff;Er liebte nicht wie ein Mann, sondern wie ein Tier. Flammend, innig, bedingungslos. Wild.
 202888_name;Dettlaff van der Eretein
-202888_tooltip;<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> <keyword=blood_moon>Blutmond</keyword> in einer gegnerischen Reihe für {Counter} Zug. Erhöhe die Dauer um 1 für jeden benachbarten Vampir.\n<keyword=order>Befehl</keyword>: Füge einer gegnerischen Einheit durch <keyword=bleeding>Bluten</keyword> {Damage} Schaden zu.\n<keyword=deathblow>Todesstoß</keyword>: <keyword=spawn>Generiere</keyword> einen Ekimma in dieser Reihe.\n<keyword=cooldown>Abklingzeit</keyword>: {Cooldown}
+202888_tooltip;<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> <keyword=blood_moon>Blutmond</keyword> in einer gegnerischen Reihe für {Counter} Züge. Erhöhe die Dauer um 1 für jeden benachbarten Vampir.\n<keyword=order>Befehl</keyword>: Füge einer gegnerischen Einheit durch <keyword=bleeding>Bluten</keyword> {Damage} Schaden zu.\n<keyword=deathblow>Todesstoß</keyword>: <keyword=spawn>Generiere</keyword> einen Ekimma in dieser Reihe.\n<keyword=cooldown>Abklingzeit</keyword>: {Cooldown}
 202889_fluff;Niemand, nicht mal die höheren Vampire, weiß genau, wie alt der Unsichtbare ist. Sie wissen nur, dass sie sich niemals, egal unter welchen Umständen, seinem Willen widersetzen dürfen.
 202889_name;Der Unsichtbare
 202889_tooltip;<keyword=deploy>Einsatz</keyword>: Bewirke bei einer gegnerischen Einheit <keyword=bleeding>Bluten</keyword> ({Bleeding}).\nBewirke am Ende deines Zuges <keyword=bleeding>Bluten</keyword> ({Bleeding2}) bei einer zufälligen gegnerischen Einheit ohne <keyword=bleeding>Bluten</keyword>.\n<keyword=devotion>Hingabe</keyword>: Löse am Ende deines Zuges außerdem <keyword=bleeding>Bluten</keyword> bei gegnerischen Einheiten aus.
@@ -3475,10 +3475,16 @@
 202890_tooltip;<keyword=intimidate>Einschüchtern</keyword>.\n<keyword=deploy>Einsatz</keyword>: <keyword=spawn>Generiere</keyword> Erpressung und spiele die Karte aus.\nErhöhe den Wert der Karte in <keyword=intimidate>Einschüchtern</keyword> um {Intimidate} für jeden benachbarten Kronenspalter.\n<keyword=fee>Gebühr</keyword> {Cost}: <keyword=spawn>Generiere</keyword> einen Hackers Schläger in dieser Reihe.
 202891_fluff;Ein Krieg mit Hurensohn würde die Straßen von Novigrad in purpurne Kanäle verwandeln.
 202891_name;Hurensohn Junior
-202891_tooltip;<keyword=deploy>Einsatz</keyword>: Füge einer verbesserten gegnerischen Einheit {Damage} Schaden zu. Erhalte eine <keyword=coin>Münze</keyword> pro zusätzlich zugefügten Schadenspunkt .\n<keyword=devotion>Hingabe</keyword>: Erhalte außerdem <keyword=insanity>Wahnsinn</keyword>.\n<keyword=fee>Gebühr</keyword> {Cost}: Zerstöre eine gegnerische Einheit mit max. {Power} Stärke.
+202891_tooltip;<keyword=insanity>Wahnsinn</keyword>.\n<keyword=deploy>Einsatz</keyword>: Füge einer verbesserten gegnerischen Einheit {Damage} Schaden zu. Erhalte eine <keyword=coin>Münze</keyword> pro zusätzlich zugefügten Schadenspunkt.\n<keyword=devotion>Hingabe</keyword>: Füge stattdessen einer gegnerischen Einheit Schaden zu.\n<keyword=fee>Gebühr</keyword> {Cost}: Zerstöre eine gegnerische Einheit mit max. {Power} Stärke.
 202892_fluff;Vorwärts, ihr Luschen! Vorwärts, sonst sind die Nilfgaarder bald euer geringstes Problem!
 202892_name;Kaedwen-Feldwebel
 202892_tooltip;<keyword=zeal>Eifer</keyword>.\n<keyword=order>Befehl</keyword>: Verbessere eine verbündete Einheit um {Boost}. \n<keyword=charge>Ladungen</keyword>: {Charges}.
+202941_fluff;Bin Kriegsveteran! Eine Krone?
+202941_name;Verdammte linke Flanke
+202941_tooltip;<keyword=doomed>Verdammt</keyword>.
+202942_fluff;Bin Kriegsveteran! Eine Krone?
+202942_name;Verdammte rechte Flanke
+202942_tooltip;<keyword=doomed>Verdammt</keyword>.
 21_name_sa;Ignore.
 22_name_sa;Ignore.
 23_name_sa;Ignore.

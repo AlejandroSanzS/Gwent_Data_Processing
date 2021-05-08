@@ -315,7 +315,6 @@
 132301_name;小霧妖
 132302_fluff;人類心中潛藏著許多原始的恐懼。對迷霧的恐懼更是其來有自……
 132302_name;遠古小霧妖
-132302_tooltip;<keyword=deathwish>求死</keyword>：從墓地<keyword=summon>召喚</keyword>此單位牌至同列，提升此牌 {Boost} 點戰力，並賦予其<keyword=doomed>氣數已盡</keyword>。
 132303_fluff;想像一下長翅膀的蛇和夢魘的混種——翼手龍比這還更可怕。
 132303_name;翼手龍
 132304_fluff;醜陋的外表就是在警告你——滾遠點。
@@ -473,7 +472,6 @@
 142317_name;瑪哈坎守衛
 142401_fluff;許多非人種族在城市裡飽受歧視和排斥，於是決定加入松鼠黨。
 142401_name;松鼠黨新兵
-142401_tooltip;<keyword=deploy>部署</keyword>：<keyword=spawn>生成</keyword>並<keyword=summon>召喚</keyword> 1 張此單位牌的基礎同名牌至我方另一列。
 143201_fluff;你們貪得無厭地榨乾大地，野蠻強橫地攫取它的財富。但在這裡，它百花盛開，結實累累，慷慨大方。因為它愛我們，正如我們愛它。
 143201_name;蛇類陷阱
 143301_fluff;小心……！再往前一步你就要被燒成焦炭了。
@@ -779,7 +777,6 @@
 200081_name;海玫：草藥醫生
 200083_fluff;我們不想透露名字。把我們倆當成是……屋主的朋友吧。
 200083_name;愛麗絲的同伴
-200083_tooltip;<keyword=deploy>部署</keyword>：從我方牌組任意抽取 1 張卡牌，再隨機<keyword=discard>丟棄</keyword> 1 張卡牌。
 200087_fluff;多瑞加雷跟狩魔獵人一樣，對怪物特別著迷，只不過他自有一套怪物的分類系統。他不將怪物分成食屍生物、食人魔等，他只覺得所有怪物都很美好。
 200087_name;沃里的多瑞加雷
 200087_tooltip;<keyword=deploy>部署</keyword>：<keyword=lock>封印</keyword> 1 張單位牌。
@@ -887,7 +884,6 @@
 200233_tooltip;<keyword=deploy>部署</keyword>：只要與 1 張「野獸」相鄰，就對 1 張敵軍造成 {Damage} 點傷害。
 200234_fluff;看在我是老兵的份上！賞個克朗吧？
 200234_name;可憐又該死的步兵
-200234_tooltip;<keyword=deploy>部署</keyword>：提升自身 {Boost} 點戰力。
 200235_fluff;我不用外行人教。
 200235_name;蘭伯特：劍術大師
 200236_fluff;我在三英哩外就聽到你直喘氣。我只是不想放棄這個制高點罷了。

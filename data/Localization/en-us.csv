@@ -66,13 +66,13 @@
 112201_tooltip;<keyword=deploy>Deploy</keyword>: Transform into a base copy of an enemy unit.
 112202_fluff;I'm a simple witcher, Wolf. Don't fight dragons, don't fraternize with kings and don't sleep with sorceresses…
 112202_name;Eskel
-112202_tooltip;<keyword=deploy>Deploy</keyword> (<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}): <keyword=summon>Summon</keyword> Vesemir and Lambert from your deck.
+112202_tooltip;<keyword=deploy>Deploy</keyword> (<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}): <keyword=summon>Summon</keyword> Vesemir and Lambert from your deck.
 112203_fluff;If you're to be hanged, ask for water. Anything can happen before they fetch it.
 112203_name;Vesemir
-112203_tooltip;<keyword=deploy>Deploy</keyword> (<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}): <keyword=summon>Summon</keyword> Eskel and Lambert from your deck.
+112203_tooltip;<keyword=deploy>Deploy</keyword> (<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}): <keyword=summon>Summon</keyword> Eskel and Lambert from your deck.
 112204_fluff;Now that's the kind of negotiating I understand.
 112204_name;Lambert
-112204_tooltip;<keyword=deploy>Deploy</keyword> (<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}): <keyword=summon>Summon</keyword> Eskel and Vesemir from your deck.
+112204_tooltip;<keyword=deploy>Deploy</keyword> (<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}): <keyword=summon>Summon</keyword> Eskel and Vesemir from your deck.
 112205_fluff;Never get between a mother dragon and her young.
 112205_name;Myrgtabrakke
 112205_tooltip;<keyword=deploy>Deploy</keyword>: Damage {MaxTargets} enemy units by {Damage}.
@@ -418,10 +418,10 @@
 132220_tooltip;<keyword=thrive>Thrive</keyword>. \n<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> an Ekimmara and <keyword=summon>Summon</keyword> it to this row.\n<keyword=deathwish>Deathwish</keyword>: Repeat the <keyword=deploy>Deploy</keyword> ability.
 132301_fluff;Fog creeps on little cat feet. Foglets creep over the bodies of their victims.
 132301_name;Foglet
-132301_tooltip;<keyword=deathwish>Deathwish</keyword>: <keyword=summon>Summon</keyword> all copies of this unit from your deck to this row.
+132301_tooltip;<keyword=deathwish>Deathwish</keyword>: <keyword=spawn>Spawn</keyword> <keyword=fog>Fog</keyword> on the opposite row for {counter} turns.
 132302_fluff;Many primal fears lurk in the hearts of men. The fear of the mist is well–founded…
 132302_name;Ancient Foglet
-132302_tooltip;<keyword=deathwish>Deathwish</keyword>: <keyword=summon>Summon</keyword> this unit from the graveyard to the same row, boost it by {Boost}, and give it <keyword=doomed>Doomed</keyword>.
+132302_tooltip;<keyword=veil>Veil</keyword>.\n<keyword=deploy>Deploy</keyword>: Boost self by the total duration of row effects on the opposite side.\nWhenever you apply a row effect, boost self by it's duration.
 132303_fluff;Imagine a cross between a winged snake and a nightmare. Wyverns are worse.
 132303_name;Wyvern
 132303_tooltip;<keyword=thrive>Thrive</keyword>.\n<keyword=deploy>Deploy</keyword> (<keyword=ranged>Ranged</keyword>): Damage an enemy unit by {Damage}.
@@ -612,7 +612,7 @@
 142317_tooltip;<keyword=deploy>Deploy</keyword>: Boost self by the number of allied Dwarf units on this row.
 142401_fluff;Many nonhumans, fed up with the racism and xenophobia they encounter in the cities, decide to join the Scoia'tael.
 142401_name;Scoia'tael Neophyte
-142401_tooltip;<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> and <keyword=summon>Summon</keyword> a base copy of this unit to the other allied row.
+142401_tooltip;<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> a base copy of this unit on the other row.\n<keyword=order>Order</keyword>: Transform an allied Elf into Elven Deadeye.
 143201_fluff;You exact from the earth a blood ransom, ripping out its riches by force. To us it bloomed, bore fruit and gave freely, for it loved us as we loved it.
 143201_name;Serpent Trap
 143201_tooltip;<keyword=ambush>Ambush</keyword>: After your opponent plays a special card, destroy the enemy unit with the highest power.\n<keyword=spring>Spring</keyword>: Destroy the enemy unit with the lowest power.
@@ -638,7 +638,7 @@
 152106_tooltip;<keyword=deploy>Deploy</keyword> (<keyword=melee>Melee</keyword>): Damage an enemy unit by twice the number of damaged enemies.
 152107_fluff;Her true name's Astrid Lyttneyd Ásgeirrfinnbjornsdottir, but that never fit on any forms.
 152107_name;Coral
-152107_tooltip;<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: <keyword=discard>Discard</keyword> a card, then draw a card.\nWhenever you <keyword=discard>Discard</keyword> a special card, damage a random enemy unit by {Damage}.
+152107_tooltip;<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: <keyword=discard>Discard</keyword> a card, then draw a card.\nWhenever you <keyword=discard>Discard</keyword> a card, damage a random enemy unit by {Damage}.
 152109_fluff;Merely mention this name to a Nilfgaardian, and they'll feel a spreading warmth in their knickers…
 152109_name;Wild Boar of the Sea
 152109_tooltip;<keyword=Deploy>Deploy</keyword> (<keyword=melee>Melee</keyword>): Damage all damaged enemy units by {damage}, then damage all enemy units by {damage2}.
@@ -937,10 +937,10 @@
 200036_tooltip;<keyword=deploy>Deploy</keyword>: Damage {MaxTargets} adjacent enemies by {Damage}.\n<keyword=bloodthirst>Bloodthirst</keyword> {Bloodthirst}: Damage all enemies on a row by {Damage} instead.
 200037_fluff;Don't stare at his eye, he hates that…
 200037_name;Cyclops
-200037_tooltip;<keyword=deploy>Deploy</keyword> (<keyword=melee>Melee</keyword>): Destroy an adjacent allied unit and damage an enemy unit by its power.
+200037_tooltip;<keyword=deploy>Deploy</keyword>: Destroy an adjacent ally unit and deal it's power as damage to an enemy.
 200038_fluff;Folklore claims they sprout from soil watered with the blood of the dying. Thus they flourish in grounds consecrated by pogroms, dark rituals or brutal murders.
 200038_name;Archespore
-200038_tooltip;<keyword=deploy>Deploy</keyword>: Damage a random enemy unit by {Damage}. \n<keyword=deathwish>Deathwish</keyword>: Repeat the <keyword=deploy>Deploy</keyword> ability.
+200038_tooltip;<keyword=deathwish>Deathwish</keyword>: <keyword=summon>Summon</keyword> all copies of this unit from your deck to this row.
 200039_fluff;As long as we stand, no human foot shall trample Dol Blathanna's meadows.
 200039_name;Dol Blathanna Sentry
 200039_tooltip;<keyword=melee>Melee</keyword>: Whenever an enemy unit moves, damage it by {Damage}.\n<keyword=ranged>Ranged</keyword>: Whenever an allied unit moves, boost it by {Boost}.
@@ -967,7 +967,7 @@
 200048_tooltip;<keyword=deploy>Deploy</keyword>: Boost an allied Mage by {Boost}.
 200049_fluff;Not gonna open up, eh? Guess we gotta knock harder.
 200049_name;Battering Ram
-200049_tooltip;<keyword=order>Order</keyword> (<keyword=ranged>Ranged</keyword>): Move Battering Ram to the <keyword=melee>Melee</keyword> row, then damage the highest enemy unit by {Damage}.\n<keyword=crew>Crew</keyword>: Gain <keyword=zeal>Zeal</keyword>.
+200049_tooltip;<keyword=deploy>Deploy</keyword>, <keyword=crew>Crew</keyword>: Gain <keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword> (<keyword=ranged>Ranged</keyword>): Move self to the <keyword=melee>Melee</keyword> row, then damage highest enemy unit by {damage}.
 200050_fluff;The Great Sun shall warm the North with its rays, even if it means I must slaughter you all!
 200050_name;Vreemde
 200050_tooltip;<keyword=deploy>Deploy</keyword>: Boost an allied Soldier and all copies of it by {Boost}.
@@ -1009,7 +1009,7 @@
 200081_tooltip;<keyword=Deploy>Deploy</keyword> (<keyword=ranged>Ranged</keyword>): <keyword=heal>Heal</keyword> an allied unit by {Boost} and boost it by {Boost2}.
 200083_fluff;We'd rather keep our names to ourselves. Think of us as… friends of the house.
 200083_name;Iris' Companions
-200083_tooltip;<keyword=deploy>Deploy</keyword>: Draw a card of your choice from your deck, then <keyword=discard>Discard</keyword> a random card.
+200083_tooltip;<keyword=deploy>Deploy</keyword>: Draw a card of your choice, then <keyword=discard>Discard</keyword> a random card.\nIf you have Iris in hand, choose which card to <keyword=discard>Discard</keyword> instead.
 200087_fluff;Like the witchers, Dorregaray is a monster aficionado, though he's developed his own classification system. Instead of dividing them into necrophages, ogroids and the like, he just thinks they're all wonderful.
 200087_name;Dorregaray of Vole
 200087_tooltip;<keyword=deploy>Deploy</keyword>: <keyword=lock>Lock</keyword> a unit.
@@ -1090,13 +1090,13 @@
 200160_tooltip;<keyword=order>Order</keyword>: Damage an enemy unit by {Damage}. <keyword=cooldown>Cooldown</keyword>: {Cooldown}\n\nThis ability adds {Template.Provision} provisions to your deck's provisions limit.
 200161_fluff;No one knows how he got his nickname – no one's dared to ask.
 200161_name;Reckless Flurry
-200161_tooltip;<keyword=order>Order</keyword>: Split {Damage} damage randomly between all enemy units, ignoring their <keyword=armor>Armor</keyword>.\n\nThis ability adds {Template.Provision} provisions to your deck's provisions limit.
+200161_tooltip;<keyword=order>Order</keyword>: Split {Damage} damage randomly between all enemy units, ignoring their <keyword=armor>Armor</keyword>.\n<keyword=charge>Charges</keyword>: {charge}\n\nThis ability adds {Template.Provision} provisions to your deck's provisions limit.
 200162_fluff;They do not call me the Patient. Take care they do not call you the Headless.
 200162_name;Imprisonment
 200162_tooltip;<keyword=order>Order</keyword>: <keyword=lock>Lock</keyword> an enemy unit and damage it by {damage}. <keyword=charge>Charge</keyword>: {Charges}.\n\nThis ability adds {Template.Provision} provisions to your deck's provisions limit.
 200163_fluff;The summer sun reflected in the quiet waters of the Alba – that's Nilfgaard to me.
 200163_name;Imperial Formation
-200163_tooltip;<keyword=order>Order</keyword>: Boost an allied unit by {Boost}. <keyword=charge>Charge</keyword>: {Charges}.\nOnce all <keyword=charge>Charges</keyword> are used up, move a Soldier from your deck to the top.\n\nThis ability adds {Template.Provision} provisions to your deck's provisions limit.
+200163_tooltip;<keyword=order>Order</keyword>: Boost an allied unit by {Boost}. <keyword=charge>Charges</keyword>: {Charges}.\nOnce all <keyword=charge>Charges</keyword> are used up, move a Soldier from your deck to the top.\nWhenever you play a Soldier, give it {armor} <keyword=armor>Armor</keyword> for each adjacent Soldier.\n\nThis ability adds {Template.Provision} provisions to your deck's provisions limit.
 200164_fluff;A sword is but one of many tools at a ruler's disposal.
 200164_name;Tactical Decision
 200164_tooltip;<keyword=order>Order</keyword>: <keyword=spawn>Spawn</keyword> and play Morvran Voorhis.\n\nThis ability adds {Template.Provision} provisions to your deck's provisions limit.
@@ -1153,13 +1153,13 @@
 200226_tooltip;Damage all units with even power by {Damage}, or damage all units with odd power by {Damage}.
 200228_fluff;Simple, cheap and deadly efficient - no wonder it's one of the Scoia'tael's favorite traps.
 200228_name;Pitfall Trap
-200228_tooltip;<keyword=ambush>Ambush</keyword>: After your opponent plays a card, randomly split damage equal to its provision cost between all enemy units.\n<keyword=spring>Spring</keyword>: Randomly split {Damage} damage between all enemy units.
+200228_tooltip;<keyword=ambush>Ambush</keyword>: After your opponent plays a card face-up, split damage equal to its provision cost between all enemy units.\n<keyword=Spring>Spring</keyword>: Randomly split {damage} damage between all enemy units.
 200233_fluff;Always strikes between the vertebrae, under your left kidney or straight into your aorta. That way, it only needs to strike once.
 200233_name;Cockatrice
 200233_tooltip;<keyword=deploy>Deploy</keyword>: Damage an enemy unit by {Damage} for each adjacent Beast.
 200234_fluff;I's a war veteran! Spare me a crown?
 200234_name;Poor Fucking Infantry
-200234_tooltip;<keyword=deploy>Deploy</keyword>: Boost self by {Boost}.
+200234_tooltip;<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> Left Fucking Flank and Right Fucking Flank on both sides of this unit.\n<keyword=bonded>Bonded</keyword>: Boost self by {Boost}.
 200235_fluff;Go teach your grandma to suck eggs.
 200235_name;Lambert: Swordmaster
 200235_tooltip;<keyword=deploy>Deploy</keyword>: Damage an enemy unit and all its copies by {Damage}.
@@ -1168,7 +1168,7 @@
 200236_tooltip;<keyword=melee>Melee</keyword>: Every allied turn, on turn end, boost self by {Boost}.
 200237_fluff;Killing monsters is not something to be taken lightly. Ciri must understand that if she's to become one of us.
 200237_name;Vesemir: Mentor
-200237_tooltip;<keyword=deploy>Deploy</keyword>: Boost all your witchers on the board by {Boost}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: Also boost witchers in your hand and deck.
+200237_tooltip;<keyword=deploy>Deploy</keyword>: Boost all your witchers on the board by {Boost}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: Also boost witchers in your hand and deck.
 200293_fluff;"Mark me words, if ye dinnae get up off yer arses, humans're gonnae come here an' steal our wenches!"
 200293_name;Dwarven Agitator
 200293_tooltip;<keyword=deploy>Deploy</keyword> (<keyword=ranged>Ranged</keyword>): Boost a Dwarf in your hand by {Boost}.
@@ -1273,7 +1273,7 @@
 201587_tooltip;Play a <keyword=deathwish>Deathwish</keyword> unit from your deck.
 201589_fluff;Though we are now few and scattered, our hearts burn brighter than ever.
 201589_name;Invigorate
-201589_tooltip;<keyword=order>Order</keyword>: Boost all units in your hand by {Boost}.\n\nThis ability adds {Template.Provision} provisions to your deck's provisions limit.
+201589_tooltip;<keyword=order>Order</keyword>: Boost {maxtargets} units in your hand by {Boost}.\n<keyword=charge>Charges</keyword>: {charges}.\n\nThis ability adds {Template.Provision} provisions to your deck's provisions limit.
 201595_fluff;Her curse was lifted… but her appetite for raw meat remained.
 201595_name;Shieldwall
 201595_tooltip;<keyword=order>Order</keyword>: Boost an allied unit by {Boost} and give it <keyword=shield>Shield</keyword>.\n<keyword=charge>Charge</keyword>: {Charges}.\n\nThis ability adds {Template.Provision} provisions to your deck's provisions limit.
@@ -1834,7 +1834,7 @@
 202186_tooltip;<keyword=order>Order</keyword>: <keyword=create>Create</keyword> and play a card from your opponent's hand.\n\nThis ability adds {Template.Provision} provisions to your deck's provisions limit.
 202187_fluff;They call her the "Lioness of Cintra." And not without good reason.
 202187_name;Pincer Maneuver
-202187_tooltip;<keyword=order>Order</keyword>: Draw a Northern Realms card of your choice, then shuffle a card from your hand back into the deck. If drawn card was a unit, boost it by {Boost}.\n\nThis ability adds {Template.Provision} provisions to your deck's provisions limit.
+202187_tooltip;<keyword=order>Order</keyword>: Draw a Northern Realms card of your choice, then shuffle a card from your hand back into the deck and <keyword=spawn>Spawn</keyword> a Volunteer in your <keyword=melee>Melee</keyword> row.\n<keyword=charge>Charges</keyword>: {Charges}\n\nThis ability adds {Template.Provision} provisions to your deck's provisions limit.
 202188_fluff;She revealeth herself as the Fairhaired Ladie, in flowers all, and all that liveth followeth her path and clingeth to her, as one, plant or beast.
 202188_name;Call of Harmony
 202188_tooltip;<keyword=order>Order</keyword>: <keyword=spawn>Spawn</keyword> and play Dana Meadbh.\n\nThis ability adds {Template.Provision} provisions to your deck's provisions limit.
@@ -1852,7 +1852,7 @@
 202192_tooltip;<keyword=deploy>Deploy</keyword>: Damage an enemy unit by {Damage}.\n<keyword=deathblow>Deathblow</keyword>: <keyword=spawn>Spawn</keyword> and play a base copy of it.
 202193_fluff;The girls told me if I ever wished to visit alone, I need but crack open "The Land of a Thousand Fables" and utter out loud the incantation "Expecto ludum!"
 202193_name;Land of a Thousand Fables
-202193_tooltip;<keyword=deploy>Deploy</keyword>: Play any special card from your deck.
+202193_tooltip;<keyword=resilient>Resilience</keyword>.\n<keyword=deploy>Deploy</keyword>: Play a special card from your deck.\n<keyword=order>Order</keyword>: Transform a special card in your hand into a random unit of the same provision cost from the same faction.
 202194_fluff;Your Majesty... The princess has been touched by the curse o' the Black Sun. There's no hope, I'm afraid...
 202194_name;Syanna
 202194_tooltip;<keyword=order>Order</keyword>: Repeat the <keyword=deploy>Deploy</keyword> ability of the next unit you play during this turn.
@@ -2098,7 +2098,7 @@
 202277_tooltip;<keyword=deploy>Deploy</keyword>: Damage an allied unit to the right by half of its current power, then damage an enemy unit by that amount.
 202278_fluff;All totems to Svalblod were ordered destroyed, yet on distant, forgotten shores some yet stand tall... And continue to collect new victims.
 202278_name;Svalblod Totem
-202278_tooltip;<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> a Svalblod Fanatic on both sides of this card.\n<keyword=order>Order</keyword>: Damage adjacent units by {Damage}.
+202278_tooltip;<keyword=resilient>Resilience</keyword>.\n<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> a Svalblod Fanatic on both sides of this card.\n<keyword=order>Order</keyword>: Damage adjacent units by {Damage}.
 202279_fluff;Not all Svalblod priests were forced from the isles... Unfortunately.
 202279_name;Artis
 202279_tooltip;<keyword=ranged>Ranged</keyword>: Whenever a unit is played, damage it by half its current power.
@@ -2161,7 +2161,7 @@
 202298_tooltip;<keyword=deploy>Deploy</keyword>: Spend a number of <keyword=coin>Coins</keyword> equal to an enemy unit's power, then <keyword=seize>Seize</keyword> it.
 202299_fluff;You sure he don't look the least bit familar...?
 202299_name;Sigi Reuven
-202299_tooltip;<keyword=intimidate>Intimidate</keyword>.\n<keyword=profit>Profit</keyword> {Income}.\nFor every unique gang category in your starting deck, increase Sigi Reuven's initial <keyword=profit>Profit</keyword> by {Income2}.
+202299_tooltip;<keyword=intimidate>Intimidate</keyword>.\n<keyword=profit>Profit</keyword> {Income+B.P.BB_Gangs}.\nFor every unique gang category in your starting deck, increase Sigi Reuven's initial <keyword=profit>Profit</keyword> by {Income2}.
 202300_fluff;We're sorry to lose your business, but we wish ye well with those dunderhe-- er... With those fine folk over at Cianfanelli Bank.
 202300_name;Vivaldi Bank
 202300_tooltip;<keyword=profit>Profit</keyword> {Income}.\nLook at the top card from your deck plus an additional card for every <keyword=coin>Coin</keyword> you possess. Play the top card for free, or play another card for a <keyword=coin>Coin</keyword> cost equal to its distance from the top. Shuffle the remaining cards back into your deck.
@@ -2185,13 +2185,13 @@
 202306_tooltip;<keyword=deploy>Deploy</keyword> (<keyword=melee>Melee</keyword>): <keyword=heal>Heal</keyword> an allied unit.\n<keyword=deploy>Deploy</keyword> (<keyword=ranged>Ranged</keyword>): Boost an allied unit by {Boost}.\n<keyword=tribute>Tribute</keyword> {Tribute-B.P.BB_Tribute}: Combine both <keyword=deploy>Deploy</keyword> abilities instead.
 202307_fluff;My auction house is, above all, a gathering place for the elite of the elite.
 202307_name;Horst Borsodi
-202307_tooltip;<keyword=deploy>Deploy</keyword>: Gain {Coins} <keyword=coin>Coin</keyword>.\nIf Ewald Borsodi is in your graveyard, gain {Coins2} <keyword=coin>Coin</keyword> instead.
+202307_tooltip;<keyword=deploy>Deploy</keyword>: Gain {Coins} <keyword=coin>Coins</keyword>.\nIf Ewald Borsodi is in your graveyard, gain {coins2} <keyword=coin>Coins</keyword> instead.\n<keyword=fee>Fee</keyword> {cost}: Give an allied unit <keyword=vitality>Vitality</keyword> {vitality}.
 202308_fluff;The sweeter her words, the more bitter your losses.
 202308_name;Sly Seductress
 202308_tooltip;<keyword=fee>Fee</keyword> {Cost}: Gain a <keyword=shield>Shield</keyword>.\nWhenever your opponent plays a unit, boost self by {Boost}.\n<keyword=bonded>Bonded</keyword>: Whenever your opponent plays a card, boost self by {Boost}.
 202309_fluff;I've crafted this plan for over a year, but now the time's come for action. Can I count on your help?
 202309_name;Ewald Borsodi
-202309_tooltip;<keyword=deploy>Deploy</keyword>: Damage an enemy unit by {damage}.\nIf Horst Borsodi is in your graveyard, damage an enemy unit by {damage2} instead.
+202309_tooltip;<keyword=deploy>Deploy</keyword>: Damage an enemy unit by {damage}.\nIf Horst Borsodi is in your graveyard, damage an enemy unit by {damage2} instead.\n<keyword=fee>Fee</keyword> {cost}: Give an enemy unit <keyword=bleeding>Bleeding</keyword> {bleed}.
 202310_fluff;My apologies, miss... Always been a clumsy one, I have.
 202310_name;Pickpocket
 202310_tooltip;<keyword=profit>Profit</keyword> {Income}.
@@ -2206,7 +2206,7 @@
 202313_tooltip;<keyword=profit>Profit</keyword> {Income}.\n<keyword=tribute>Tribute</keyword> {Tribute-B.P.BB_Tribute}: <keyword=spawn>Spawn</keyword> a Sly Seductress and <keyword=summon>Summon</keyword> her to this row.
 202314_fluff;I do this for my family, always for my family!
 202314_name;Back-Alley Chemist
-202314_tooltip;<keyword=deploy>Deploy</keyword>: Give an allied unit <keyword=poison>Poison</keyword> and boost it by {Boost}.
+202314_tooltip;<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: <keyword=poison>Poison</keyword> an allied unit and boost it by {Boost}.
 202315_fluff;Before Kalkstein departed this world, he left us with some rather unflattering words about our gracious king...
 202315_name;Adalbertus Kalkstein
 202315_tooltip;<keyword=profit>Profit</keyword> {Income}.\n<keyword=fee>Fee</keyword> {Cost}: <keyword=purify>Purify</keyword> a unit.
@@ -2215,7 +2215,7 @@
 202316_tooltip;<keyword=profit>Profit</keyword> {Income}.\n<keyword=fee>Fee</keyword> {Cost}: Give an allied unit <keyword=vitality>Vitality</keyword> for {Vitality} turn.
 202317_fluff;I never did much like bees.
 202317_name;Rico Meiersdorf
-202317_tooltip;Whenever opponent plays a unit while Rico is in your hand, set his power equal to that unit's power.
+202317_tooltip;Whenever opponent plays a unit while Rico is in your hand or deck, set his power equal to that unit's power.
 202318_fluff;It'd be a right shame if I cut any of your beautiful hair.
 202318_name;Witch Hunter Executioner
 202318_tooltip;<keyword=profit>Profit</keyword> {Income}.\n<keyword=fee>Fee</keyword> {Cost}: Give an enemy unit <keyword=bleeding>Bleeding</keyword> for {Bleed} turn. If it has a <keyword=bounty>Bounty</keyword>, damage it by {Damage} instead.
@@ -2368,7 +2368,7 @@
 202368_tooltip;<keyword=insanity>Insanity</keyword>.\n<keyword=fee>Fee</keyword> {Cost}: <keyword=summon>Summon</keyword> all copies of this unit from your deck to this row.
 202369_fluff;The flame shall forever burn, for evil shall forever corrupt!
 202369_name;Keeper of the Flame
-202369_tooltip;<keyword=deploy>Deploy</keyword>: Boost adjacent units by {Boost}.\n<keyword=tribute>Tribute</keyword> {Tribute-B.P.BB_Tribute}: Boost all units in this row by {Boost} instead.
+202369_tooltip;<keyword=deploy>Deploy</keyword>: Boost adjacent units by {Boost}.\n<keyword=tribute>Tribute</keyword> {Tribute-B.P.BB_Tribute}: Boost all units in this row by {Boost} instead.\nDecrease this card's <keyword=tribute>Tribute</keyword> cost by {cost} for every allied Cleric.
 202370_fluff;No sooner had she caught Gudrun's attention than sought to exploit it.
 202370_name;Imke
 202370_tooltip;<keyword=ranged>Ranged</keyword>: Every allied turn, on turn end, gain {Coins} <keyword=coin>Coins</keyword>.\n<keyword=fee>Fee</keyword> {Cost}: Gain a <keyword=shield>Shield</keyword>.
@@ -2386,7 +2386,7 @@
 202374_tooltip;<keyword=spawn>Spawn</keyword> {Counter} Firesworn Zealots in an allied row.\nIf a Firesworn unit is in that row, <keyword=spawn>Spawn</keyword> {Counter2} Firesworn Zealots instead.
 202375_fluff;With ears sharp as his, he could've been a musician. Alas, one cannot get rich as quickly from applause.
 202375_name;Halfling Safecracker
-202375_tooltip;<keyword=intimidate>Intimidate</keyword>.\n<keyword=deploy>Deploy</keyword>: Boost self by {Boost} for each Crime in your hand.
+202375_tooltip;<keyword=deploy>Deploy</keyword>: Boost self by {Boost} for each Crime in your hand.
 202376_fluff;Wouldn't disturb him if I were you. Those quills are bloody sharp.
 202376_name;Firesworn Scribe
 202376_tooltip;<keyword=ranged>Ranged</keyword>: Whenever you <keyword=spawn>Spawn</keyword> one or more units to the battlefield, gain {Coins} <keyword=coin>Coin</keyword>.\n<keyword=tribute>Tribute</keyword> {Tribute-B.P.BB_Tribute}: Boost self by {Boost}.
@@ -2431,7 +2431,7 @@
 202389_tooltip;<keyword=deploy>Deploy</keyword> (<keyword=melee>Melee</keyword>): Play a Crime from your deck.
 202390_fluff;Me hogs willnae go hungry th' day thanks to ye.
 202390_name;Pirate's Cove
-202390_tooltip;<keyword=order>Order</keyword>: <keyword=spawn>Spawn</keyword> a Sea Jackal on an allied row, then gain {Coins} <keyword=coin>Coin</keyword>.\n\nThis ability adds {Template.Provision} provisions to your deck's provisions limit.
+202390_tooltip;<keyword=order>Order</keyword>: <keyword=spawn>Spawn</keyword> a Sea Jackal on an allied row.\n<keyword=charge>Charges</keyword>: {charges}.\n\nThis ability adds {Template.Provision} provisions to your deck's provisions limit.
 202392_fluff;In a city that feeds on lies, truth can be a weapon.
 202392_name;Walter Veritas
 202392_tooltip;<keyword=deploy>Deploy</keyword>: Create and play a bronze Syndicate faction card.
@@ -2470,13 +2470,13 @@
 202404_tooltip;This unit's power is always equal to its <keyword=armor>Armor</keyword>.
 202405_fluff;Guisarmes? Maces? Spiked Maces? I have everything you could possibly need.
 202405_name;Armory
-202405_tooltip;Boost a unit by {Boost} and give it {Armor} <keyword=armor>Armor</keyword>.
+202405_tooltip;<keyword=resilient>Resilience</keyword>.\n<keyword=deploy>Deploy</keyword>: Boost an allied unit by {Boost}.\n<keyword=order>Order</keyword>: Give {armor} <keyword=armor>Armor</keyword> to an allied unit.
 202406_fluff;There's no shame in waving the white flag.
 202406_name;Surrender
 202406_tooltip;Remove {Damage} <keyword=armor>Armor</keyword> from all units in a row and damage them by {Damage2}.
 202407_fluff;Dh'oine can turn anything into a weapon. Even a simple wagon…
 202407_name;Wagenburg
-202407_tooltip;<keyword=barricade>Barricade</keyword>: At the end of every allied turn, give {Armor} <keyword=armor>Armor</keyword> to adjacent units.
+202407_tooltip;<keyword=barricade>Barricade</keyword>: At the end of your turn, give {Armor} <keyword=armor>Armor</keyword> to adjacent units.
 202408_fluff;The weapon's short, but its range is long.
 202408_name;Iron Falcon Knife Juggler
 202408_tooltip;<keyword=deploy>Deploy</keyword>: Give {MaxTargets} random enemy units <keyword=bleeding>Bleeding</keyword> for {Bleed} turns.
@@ -2647,7 +2647,7 @@
 202468_tooltip;<keyword=harmony>Harmony</keyword> {Harmony}.
 202469_fluff;Munro dreamed of building steam and water-powered hammerworks. But he ended up as bouncer at the worst bar in Vizima…
 202469_name;Munro Bruys
-202469_tooltip;<keyword=deploy>Deploy</keyword>: Transform {Maxtargets} allied Rowdy Dwarves into Dwarf Berserkers.
+202469_tooltip;<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Transform {Maxtargets} allied Rowdy Dwarf into a Dwarf Berserker.\n<keyword=charge>Charges</keyword>: {charges}.
 202470_fluff;I'm a simple guy. I like drinking, eating, singing lewd songs… And when the party dies down, pissing on the dying bonfire.
 202470_name;Figgis Merluzzo
 202470_tooltip;<keyword=defender>Defender</keyword>.\n<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> Rowdy Dwarf in this row.
@@ -2704,19 +2704,19 @@
 202487_tooltip;<keyword=deploy>Deploy</keyword>: Swap the top card of your opponent's deck with yours.
 202491_fluff;People think a basilisk kills with its eyes, but it's the colorless fumes from its venom that cause death…
 202491_name;Basilisk Venom
-202491_tooltip;<keyword=order>Order</keyword>: <keyword=poison>Poison</keyword> a random enemy unit.
+202491_tooltip;<keyword=order>Order</keyword>: <keyword=poison>Poison</keyword> a unit.
 202493_fluff;Makes for a perfect paperweight.
 202493_name;Crystal Skull
 202493_tooltip;<keyword=order>Order</keyword>: Boost an allied unit by {Boost} and give it <keyword=veil>Veil</keyword>.
 202497_fluff;Lean in, listen closely, and you'll hear a whisper…
 202497_name;Enchanted Armor
-202497_tooltip;<keyword=order>Order</keyword>: Boost a unit in your hand by {Boost}.
+202497_tooltip;<keyword=order>Order</keyword>: Boost a unit in your hand by {Boost} and give it {Armor} <keyword=armor>Armor</keyword>.
 202498_fluff;The seal states clearly: do not open. But of course… curiosity will win out.
 202498_name;Cursed Scroll
-202498_tooltip;<keyword=order>Order</keyword>: Look at the top {Maxtargets} cards from your deck and draw one of them, then put a card from your hand at the bottom of your deck.
+202498_tooltip;<keyword=order>Order</keyword>: Draw a card of your choice, then put a card from your hand at the bottom of your deck.
 202500_fluff;Decorated like a prince's coronet. Sharp like a butcher's knife.
 202500_name;Ceremonial Dagger
-202500_tooltip;<keyword=order>Order</keyword>: Give an enemy unit <keyword=bleeding>Bleeding</keyword> ({Bleeding}).
+202500_tooltip;<keyword=order>Order</keyword>: Damage an enemy unit by {Damage} and give it <keyword=bleeding>Bleeding</keyword> ({Bleeding}).
 202501_fluff;It's a little tarnished. A little rubbing will make it shiny again.
 202501_name;Magic Lamp
 202501_tooltip;<keyword=order>Order</keyword>: Transform into Lamp Djinn.
@@ -2749,7 +2749,7 @@
 202511_tooltip;Damage an enemy unit by {Damage}.\n<keyword=deathblow>Deathblow</keyword>: <keyword=purify>Purify</keyword> adjacent units.
 202512_fluff;Time doesn't flow, it goes in circles. The past becomes the future, grandfathers repeat the mistakes of their grandsons.
 202512_name;Mask of Uroboros
-202512_tooltip;<keyword=order>Order</keyword>: Draw a card, then <keyword=discard>Discard</keyword> a card and <keyword=spawn>Spawn</keyword> a Crow in your <keyword=melee>Melee</keyword> row.
+202512_tooltip;<keyword=order>Order</keyword>: Draw a card, then <keyword=discard>Discard</keyword> a card and <keyword=spawn>Spawn</keyword> {counter} Crows in your <keyword=melee>Melee</keyword> row.
 202513_fluff;Rulers are crowned in its shadow. Traitors are hanged on its branches.
 202513_name;Gedyneith
 202513_tooltip;<keyword=doomed>Doomed</keyword>.\nScenario: Progress whenever you play a Druid.\nPrologue: <keyword=spawn>Spawn</keyword> a Crow Clan Preacher on this row.\nChapter 1: <keyword=spawn>Spawn</keyword> and play Crow's-eye Rhizome.\nChapter 2: <keyword=spawn>Spawn</keyword> and play Mardroeme.
@@ -2776,7 +2776,7 @@
 202521_tooltip;<keyword=deploy>Deploy</keyword>: <keyword=summon>Summon</keyword> all copies of this unit from your graveyard to this row.\nIf you hold an Alchemy card, also <keyword=summon>Summon</keyword> all copies from your deck.
 202522_fluff;Everyone carries some darkness in them. Some have learned to bend it to their will…
 202522_name;Urn of Shadows
-202522_tooltip;<keyword=order>Order</keyword>: Trigger a bronze allied unit's <keyword=deathwish>Deathwish</keyword> ability.
+202522_tooltip;<keyword=order>Order</keyword>: Trigger <keyword=deathwish>Deathwish</keyword> of an allied unit.
 202523_fluff;To bring down humanity, she will awaken her rats and send them to die in the happy city.
 202523_name;Plague Maiden
 202523_tooltip;<keyword=deathwish>Deathwish</keyword>: <keyword=spawn>Spawn</keyword> {Counter} Rats in this row.
@@ -2836,7 +2836,7 @@
 202543_tooltip;<keyword=deploy>Deploy</keyword>: Destroy an enemy unit with status.
 202544_fluff;Ophelie Van Moorlehem loves throwing huge galas. The fact that some attendees then disappear without a trace doesn't seem to bother anyone…
 202544_name;Masquerade Ball
-202544_tooltip;<keyword=doomed>Doomed</keyword>.\nScenario: Progress whenever you play an Aristocrat.\nPrologue: <keyword=spawn>Spawn</keyword> a Thirsty Dame in this row.\nChapter 1: <keyword=spawn>Spawn</keyword> and play Fangs of the Empire.\nChapter 2: <keyword=spawn>Spawn</keyword> and play Fangs of the Empire.
+202544_tooltip;<keyword=doomed>Doomed</keyword>.\nScenario: Progress whenever you play an Aristocrat on your side of the battlefield.\nPrologue: <keyword=spawn>Spawn</keyword> a Thirsty Dame in this row.\nChapter 1: <keyword=spawn>Spawn</keyword> and play Fangs of the Empire.\nChapter 2: <keyword=spawn>Spawn</keyword> and play Fangs of the Empire.
 202545_fluff;It's said that Vincent Van Moorlehem fears only one man. It's not Emhyr var Emreis or Geralt of Rivia - it’s his own son.
 202545_name;Philippe Van Moorlehem
 202545_tooltip;<keyword=order>Order</keyword> (<keyword=ranged>Ranged</keyword>): Damage a unit by {Damage}. <keyword=cooldown>Cooldown</keyword>: {Cooldown}.\nIf target has status, damage it by {Damage2} instead.
@@ -3226,7 +3226,7 @@
 202780_tooltip;The first time you <keyword=spawn>Spawn</keyword> a unit each turn on your side of the board, <keyword=spawn>Spawn</keyword> a {power}-power copy of it on this row, then give it <keyword=doomed>Doomed</keyword>.
 202781_fluff;Geralt, feeling the iron taste of blood in his mouth, shouted a spell, throwing his hand out in front of him with his fingers open in the Quen Sign.
 202781_name;Geralt: Quen
-202781_tooltip;<keyword=shield>Shield</keyword>. \n<keyword=deploy>Deploy</keyword>: Play a Witcher card from your deck.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: Give it <keyword=shield>Shield</keyword>.
+202781_tooltip;<keyword=shield>Shield</keyword>. \n<keyword=deploy>Deploy</keyword>: Play a Witcher card from your deck.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: Give it <keyword=shield>Shield</keyword>.
 202782_fluff;We can destroy what we have created, but we cannot uncreate it.
 202782_name;Selective mutation
 202782_tooltip;Draw a card with <keyword=adrenaline>Adrenaline</keyword> of your choice, then shuffle back a card from your hand to your deck. <keyword=spawn>Spawn</keyword> a Witcher Student on each allied row.
@@ -3256,7 +3256,7 @@
 202790_tooltip;Boost an allied unit by {Boost} and give it <keyword=veil>Veil</keyword>.
 202791_fluff;There’s a terrible tale behind each and every scar⁠—you’d be surprised just how many are true.
 202791_name;Ivar Evil-Eye
-202791_tooltip;<keyword=deploy>Deploy</keyword>: Swap this unit's power with an enemy unit.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: Damage an enemy unit by {Damage} instead.
+202791_tooltip;<keyword=deploy>Deploy</keyword>: Swap this unit's power with an enemy unit.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: Damage an enemy unit by {Damage} instead.
 202792_fluff;"Vicious, cunning. Known to wait patiently for hours before striking their prey. Once it uncoils to strike, there is no escape. Death is inevitable." ⁠— Ivar Evil-Eye
 202792_name;Vypper
 202792_tooltip;At the end of the round, put this card in the opponent's graveyard. \nAt the end of your turn, while in graveyard, <keyword=banish>Banish</keyword> the lowest-cost card from it.\nIf Vypper is the only card in the graveyard, give it <keyword=doomed>Doomed</keyword>, then <keyword=summon>Summon</keyword> it to a random opponent's row.
@@ -3265,16 +3265,16 @@
 202793_tooltip;<keyword=resilient>Resilience</keyword>.\n<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> and play Viper Witcher Adept, Viper Witcher, Viper Witcher Mentor or Viper Witcher Alchemist.\n<keyword=order>Order</keyword>: Move a card from your opponent's graveyard to the top of their deck.
 202794_fluff;Fortune only smiled upon him if it was accompanied by a stroke of very bad luck.
 202794_name;Kolgrim
-202794_tooltip;<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: At the end of your turn, boost self by the difference between the number of cards in players' decks.
+202794_tooltip;<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: At the end of your turn, boost self by the difference between the number of cards in players' decks.
 202795_fluff;By slightly modifying the Supirre sign, Warritt gained the ability to see... everything.
 202795_name;Warritt The All-Seeing
 202795_tooltip;<keyword=deploy>Deploy</keyword> (<keyword=melee>Melee</keyword>): Put the highest cost card in your opponent's deck on the top of it.\n<keyword=deploy>Deploy</keyword> (<keyword=ranged>Ranged</keyword>): Put the lowest cost card in your opponent's deck on the top of it.
 202796_fluff;Viper Witchers are trained to fight with twin blades, often referred to as “fangs”. This style focuses on fast and furious strikes aimed to overwhelm their target, be it monster or man.
 202796_name;Viper Witcher
-202796_tooltip;<keyword=deploy>Deploy</keyword>: Give <keyword=bleeding>Bleeding</keyword> ({Bleed}) to an enemy unit.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: <keyword=spawn>Spawn</keyword> a base copy of that unit on top of the opponent's deck.
+202796_tooltip;<keyword=deploy>Deploy</keyword>: Give <keyword=bleeding>Bleeding</keyword> ({Bleed}) to an enemy unit.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: <keyword=spawn>Spawn</keyword> a base copy of that unit on top of the opponent's deck.
 202797_fluff;Viper mentors are especially cold and ruthless in order to prepare their students for the harsh life that awaits them.
 202797_name;Viper Witcher Mentor
-202797_tooltip;<keyword=deploy>Deploy</keyword>: Set the power of this card to match the provision cost of the top card in your opponent's deck.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: Set the power of this card to match the provision cost of the highest-cost card in your opponent's deck instead.
+202797_tooltip;<keyword=deploy>Deploy</keyword>: Set the power of this card to match the provision cost of the top card in your opponent's deck.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: Set the power of this card to match the provision cost of the highest-cost card in your opponent's deck instead.
 202798_fluff;What doesn’t kill you makes you stronger. Or weaker. It depends, really.
 202798_name;Viper Witcher Alchemist
 202798_tooltip;<keyword=deploy>Deploy</keyword>: Look at the top {MaxTargets} cards of your deck and put one on top, then swap the top card of your opponent's deck with yours.
@@ -3286,7 +3286,7 @@
 202800_tooltip;Damage an enemy unit by {damage}.\n<keyword=deathblow>Deathblow</keyword>: <keyword=banish>Banish</keyword> it and <keyword=spawn>Spawn</keyword> a base copy of it on top of the opponent's deck.
 202801_fluff;“Take a contract from Aen Seidhe over a dh'oine any day, as you’re far less likely to receive a knife between the ribs in place of coin.” ⁠— Gezras
 202801_name;Gezras of Leyda
-202801_tooltip;<keyword=melee>Melee</keyword>: At the end of your turn, move self to the <keyword=ranged>Ranged</keyword> row and boost a random allied unit on this row by {Boost}.\n<keyword=ranged>Ranged</keyword>: At the end of your turn, move self to the <keyword=melee>Melee</keyword> row and damage a random enemy unit on the opposite row by {Damage}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: Instead of a random unit, affect all other units in a row.
+202801_tooltip;<keyword=melee>Melee</keyword>: At the end of your turn, move self to the <keyword=ranged>Ranged</keyword> row and boost a random allied unit on this row by {Boost}.\n<keyword=ranged>Ranged</keyword>: At the end of your turn, move self to the <keyword=melee>Melee</keyword> row and damage a random enemy unit on the opposite row by {Damage}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: Instead of a random unit, affect all other units in a row.
 202802_fluff;The prized possession of a royal menagerie, until a commando of Scoia'tael assaulted the exhibition, released the beast, and set it upon its cruel masters. Since that day, it has acquired a selective taste for human flesh.
 202802_name;Saber-Tooth Tiger
 202802_tooltip;<keyword=zeal>Zeal</keyword>. <keyword=order>Order</keyword>: Transform self into Saber-Tooth Tiger: Stealth.
@@ -3295,16 +3295,16 @@
 202803_tooltip;<keyword=resilient>Resilience</keyword>.\n<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> and play Cat Witcher Adept, Cat Witcher, Cat Witcher Mentor or Cat Witcher Saboteur.\n<keyword=order>Order</keyword>: Move {MaxTargets} allied units to the other row.
 202804_fluff;Known as the Cat of Iello. A moniker earned not from origins, but as a result of slaughtering peasants there. More of a massacre, really.
 202804_name;Brehen
-202804_tooltip;<keyword=deploy>Deploy</keyword>: Destroy the rightmost unit on an enemy row with at least {Counter} units.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: Destroy the rightmost unit on an enemy row with at least {Counter2} units instead.
+202804_tooltip;<keyword=deploy>Deploy</keyword>: Destroy the rightmost unit on an enemy row with at least {Counter} units.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: Destroy the rightmost unit on an enemy row with at least {Counter2} units instead.
 202805_fluff;“Murder me just to save few crowns? I’m supposed to protect whoresons like that?” ⁠— Gaetan
 202805_name;Gaetan
 202805_tooltip;<keyword=deploy>Deploy</keyword>: Move the other cards from this row to the other row.\nDamage a random enemy unit for each card moved by {Damage}.
 202806_fluff;Members of the School of the Cat are ill-famed due to their penchant for frenzy and bloodlust in the heat of battle. Even when their enemies capitulate, beg for mercy... Cats never stop killing.
 202806_name;Cat Witcher
-202806_tooltip;At the end of your turn, move self to the other row and damage a random enemy on the opposite row by {Damage}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: Damage it by {Damage2} instead.
+202806_tooltip;At the end of your turn, move self to the other row and damage a random enemy on the opposite row by {Damage}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: Damage it by {Damage2} instead.
 202807_fluff;If you fall, it’s over. Your nine lives are up, kid.
 202807_name;Cat Witcher Mentor
-202807_tooltip;<keyword=deploy>Deploy</keyword>: Boost self by the number of the other cards on this row. \n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: Whenever a card appears in this row, boost self by {Boost}.
+202807_tooltip;<keyword=deploy>Deploy</keyword>: Boost self by the number of the other cards on this row. \n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: Whenever a card appears in this row, boost self by {Boost}.
 202808_fluff;“Needless to say, the ill fame of their deeds hangs like a dark cloud over our reputation to this day.” ⁠— Vesemir
 202808_name;Cat Witcher Saboteur
 202808_tooltip;<keyword=deploy>Deploy</keyword>: Move an enemy unit to the left-most position on its row. Damage it by {Damage} for every card it passed.
@@ -3316,28 +3316,28 @@
 202810_tooltip;Move an enemy unit to the other row, give it <keyword=bleeding>Bleeding</keyword> ({Bleed}). If it's the only unit on that row, damage it by {Damage} instead.
 202811_fluff;“A witcher’s job is to kill monsters and collect coin. No more, no less.” ⁠— Arnaghad
 202811_name;Arnaghad
-202811_tooltip;<keyword=deploy>Deploy</keyword>: Gain {Armor} <keyword=armor>Armor</keyword> for every damaged unit.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: When your opponent plays a unit on their side of the battlefield, damage that unit by Arnaghad's power and damage Arnaghad by that unit's power.
+202811_tooltip;<keyword=deploy>Deploy</keyword>: Gain {Armor} <keyword=armor>Armor</keyword> for every damaged unit.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: When your opponent plays a unit on their side of the battlefield, damage that unit by Arnaghad's power and damage Arnaghad by that unit's power.
 202812_fluff;After countless attempts to slay the savage beast, one could now easily consider it… a mobile armory.
 202812_name;Dire Bear
-202812_tooltip;Units in this and the opposite row can't be boosted.
+202812_tooltip;Units in this and opposite row can't be boosted.\n<keyword=berserk>Berserk</keyword> {berserk}: Affects only the opposite row.
 202813_fluff;Carved into the icy rock of the Amell Mountains, hidden amid jagged crags and snowdrifts, the location of the long-abandoned School of the Bear remains a well-kept secret.
 202813_name;Haern Caduch
 202813_tooltip;<keyword=resilient>Resilience</keyword>.\n<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> and play Bear Witcher Adept, Bear Witcher, Bear Witcher Mentor or Bear Witcher Quartermaster.\n<keyword=order>Order</keyword>: <keyword=heal>Heal</keyword> adjacent units by {Boost}.
 202814_fluff;He was contracted to slay a dragon, a siren, and a striga. He was also being pursued by a vengeful knight, bounty hunters, and bandits. Despite all this, he still found time for a round of Gwent.
 202814_name;Gerd
-202814_tooltip;<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> a Deafening Siren on the opposite row and damage all units on that row by {Damage}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: <keyword=spawn>Spawn</keyword> a Deafening Siren on the opposite row and damage it by {Damage} instead.
+202814_tooltip;<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> a Deafening Siren on the opposite row and damage all units on that row by {Damage}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: <keyword=spawn>Spawn</keyword> a Deafening Siren on the opposite row and damage it by {Damage} instead.
 202815_fluff;Rumour has it he was born of an unusual love between a lady giant and one VERY brave dwarf.
 202815_name;Junod of Belhaven
 202815_tooltip;<keyword=deploy>Deploy</keyword>: Destroy a damaged enemy unit.
 202816_fluff;Life alone on the road can be tough⁠—be sure to bring all the bare necessities.
 202816_name;Bear Witcher
-202816_tooltip;<keyword=deploy>Deploy</keyword>: Damage self by {Damage}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: Damage self and an enemy unit by {Damage} instead.
+202816_tooltip;<keyword=deploy>Deploy</keyword>: Damage self by {Damage}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: Damage self and an enemy unit by {Damage} instead.
 202817_fluff;If you’re unsure of the way, just keep a lookout for markers⁠—the frozen corpses of would-be witchers.
 202817_name;Bear Witcher Mentor
-202817_tooltip;<keyword=deploy>Deploy</keyword>: Boost self by {Boost} for every damaged allied unit.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: Boost self by {Boost} for every damaged unit instead.
+202817_tooltip;<keyword=deploy>Deploy</keyword>: Boost self by {Boost} for every damaged allied unit.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: Boost self by {Boost} for every damaged unit instead.
 202818_fluff;Supply him with enough Mahakam mead, and he might just tell you a tale of how a bear took his shield and arm too!
 202818_name;Bear Witcher Quartermaster
-202818_tooltip;<keyword=order>Order</keyword>: Damage an allied unit by {Damage}, then <keyword=spawn>Spawn</keyword> a Witcher Student on this row.\n<keyword=charge>Charge</keyword>: {Charges}.
+202818_tooltip;<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Damage an allied unit by {Damage}, then <keyword=spawn>Spawn</keyword> a Witcher Student on this row.\n<keyword=charge>Charges</keyword>: {Charges}.
 202819_fluff;To become a Bear Witcher, all students must pass the Trial of the Mountain. This requires venturing to the peak of Mount Gorgon to retrieve a special runestone as proof of ascent—an especially brutal challenge, as many boys freeze to death long before they find the summit.
 202819_name;Bear Witcher Adept
 202819_tooltip;<keyword=deploy>Deploy</keyword>: Damage self by {Damage}.\nAt the end of your turn, <keyword=heal>Heal</keyword> self by {Boost}. While not damaged, gain {Armor} <keyword=armor>Armor</keyword> instead.
@@ -3346,7 +3346,7 @@
 202820_tooltip;Damage an enemy unit by {Damage}.\n<keyword=spawn>Spawn</keyword> {Count} Witcher Students on the opposite row, damage them by {Damage2}, then give them {Armor} <keyword=armor>Armor</keyword>.
 202821_fluff;Erland founded the School of the Griffin, and hoped his emphasis on knightly values would help elevate the reputation of witchers among the common folk. Alas, his efforts would go in vain.
 202821_name;Erland of Larvik
-202821_tooltip;<keyword=deploy>Deploy</keyword>: Boost all units in your deck by {boost}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: Also gain <keyword=immune>Immunity</keyword>.\n<keyword=order>Order</keyword>: Remove boosts from all units in your deck, then boost this unit by the same amount.
+202821_tooltip;<keyword=deploy>Deploy</keyword>: Boost all units in your deck by {boost}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: Also gain <keyword=immune>Immunity</keyword>.\n<keyword=order>Order</keyword>: Remove boosts from all units in your deck, then boost this unit by the same amount.
 202822_fluff;Considered the embodiment of courage, loyalty and fighting spirit, the very essence of what Griffin Witchers are known for. However, the School of the Griffin was actually named after a knight errant known as "Gryphon", who had long ago instilled these values into its founder.
 202822_name;Archgriffin
 202822_tooltip;At the end of the round, shuffle this card back to your deck, keeping its boosts.
@@ -3358,13 +3358,13 @@
 202824_tooltip;<keyword=zeal>Zeal</keyword>. <keyword=order>Order</keyword>: Boost all other units with power equal to Coën's power by the amount Coën is boosted.
 202825_fluff;“You blunt, brainless humanoids! What do you mean by ‘I don't know?’. You would go hunt the vampires with the Lebioda idol, smeared in garlic!” ⁠— Keldar
 202825_name;Keldar
-202825_tooltip;<keyword=resupply>Resupply</keyword>: <keyword=spawn>Spawn</keyword> a Witcher Student on this row.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: At the end of your turn, <keyword=spawn>Spawn</keyword> a Witcher Student on this row.
+202825_tooltip;<keyword=resupply>Resupply</keyword>: <keyword=spawn>Spawn</keyword> a Witcher Student on this row.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: At the end of your turn, <keyword=spawn>Spawn</keyword> a Witcher Student on this row.
 202826_fluff;Silver swords are great, yeah. But have you ever tried silver-plated arrowheads?
 202826_name;Griffin Witcher
-202826_tooltip;<keyword=order>Order</keyword> (<keyword=melee>Melee</keyword>): Damage an enemy unit by {damage}.\n<keyword=cooldown>Cooldown</keyword>: {Cooldown}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: At the end of your turn, damage a random enemy unit by {damage2} and <keyword=lock>Lock</keyword> self.
+202826_tooltip;<keyword=order>Order</keyword> (<keyword=melee>Melee</keyword>): Damage an enemy unit by {damage}.\n<keyword=cooldown>Cooldown</keyword>: {Cooldown}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: At the end of your turn, damage a random enemy unit by {damage2} and <keyword=lock>Lock</keyword> self.
 202827_fluff;Knowledge will keep you alive far longer than might, dear boy.
 202827_name;Griffin Witcher Mentor
-202827_tooltip;<keyword=deploy>Deploy</keyword>: Draw your top unit, then shuffle a card from your hand back to your deck.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: Boost the unit you've drawn by {boost}.
+202827_tooltip;<keyword=deploy>Deploy</keyword>: Draw your top unit, then shuffle a card from your hand back to your deck.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: Boost the unit you've drawn by {boost}.
 202828_fluff;Griffin Witcher Rangers are unparalleled masters in the art of tracking and hunting, even amid the most inhospitable of environments. No matter the trail, they won’t rest until their prey is captured, or killed.
 202828_name;Griffin Witcher Ranger
 202828_tooltip;<keyword=formation>Formation</keyword>.\n<keyword=deploy>Deploy</keyword>: Boost self by {boost} for every unit on an enemy row.\n<keyword=order>Order</keyword>: Transfer all boosts from self to an allied unit.
@@ -3379,31 +3379,31 @@
 202831_tooltip;<keyword=deathwish>Deathwish</keyword>: Shuffle Viy back to your deck then increase its base power by {boost}.
 202832_fluff;If I tell you koshchey is death, you'll go to the creek anyway, right?
 202832_name;Koshchey
-202832_tooltip;<keyword=thrive>Thrive</keyword>.\nWhenever this unit's <keyword=thrive>Thrive</keyword> is triggered, <keyword=spawn>Spawn</keyword> a Drone in this row.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: Whenever this unit's <keyword=thrive>Thrive</keyword> is triggered, <keyword=spawn>Spawn</keyword> an Endrega Larva in this row instead.
+202832_tooltip;<keyword=thrive>Thrive</keyword>.\nWhenever this unit's <keyword=thrive>Thrive</keyword> is triggered, <keyword=spawn>Spawn</keyword> a Drone in this row.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: Whenever this unit's <keyword=thrive>Thrive</keyword> is triggered, <keyword=spawn>Spawn</keyword> an Endrega Larva in this row instead.
 202833_fluff;A monster lair unlike any other. Home to countless horrors and monstrosities. Even a witcher would think twice about setting foot near this hellhole.
 202833_name;Dol Dhu Lokke
 202833_tooltip;<keyword=resilient>Resilience</keyword>.\n<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> and play Succubus, Phooca, Chimera or Hybrid.\n<keyword=order>Order</keyword>: Move the highest power unit to the top of your deck and <keyword=spawn>Spawn</keyword> a Drone on both sides of this card.
 202834_fluff;"Who's a good boy?" ⁠— Idarran
 202834_name;Idr
-202834_tooltip;<keyword=order>Order</keyword> (<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}): <keyword=consume>Consume</keyword> all Tokens on this row and gain <keyword=immune>Immunity</keyword>.\nWhenever you <keyword=consume>Consume</keyword> one or more units, <keyword=spawn>Spawn</keyword> a Drone in this row.
+202834_tooltip;<keyword=order>Order</keyword> (<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}): <keyword=consume>Consume</keyword> all Tokens on this row and gain <keyword=immune>Immunity</keyword>.\nWhenever you <keyword=consume>Consume</keyword> one or more units, <keyword=spawn>Spawn</keyword> a Drone in this row.
 202835_fluff;As a child, Idarran lived in the canals of Vizima. He was a natural-born genius, and at the age of five, he had already started experimenting on sewer rats. 
 202835_name;Wererat
 202835_tooltip;<keyword=order>Order</keyword>: Reset this unit's power and <keyword=spawn>Spawn</keyword> a number of Rats in this row equal to the amount of boost it lost.\n<keyword=cooldown>Cooldown</keyword>: {Cooldown}.\nAt the end of your turn, <keyword=consume>Consume</keyword> a unit to the right.
 202836_fluff;Hydration is of utmost importance.
 202836_name;Succubus
-202836_tooltip;<keyword=deathwish>Deathwish</keyword>: At the end of your turn, if there is another Succubus in your graveyard, <keyword=summon>Summon</keyword> self from your graveyard to a random row and gain <keyword=doomed>Doomed</keyword>.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: Don't gain <keyword=doomed>Doomed</keyword>.
+202836_tooltip;<keyword=deathwish>Deathwish</keyword>: At the end of your turn, if there is another Succubus in your graveyard, <keyword=summon>Summon</keyword> self from your graveyard to a random row and gain <keyword=doomed>Doomed</keyword>.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: Don't gain <keyword=doomed>Doomed</keyword>.
 202837_fluff;Particularly troublesome are the larger, stronger breed—a rare kind of nekker known as phoocas. If you see one, run.
 202837_name;Phooca
 202837_tooltip;<keyword=thrive>Thrive</keyword> {boost}.
 202838_fluff;At first, Cosimo combined genes of a fiend and a griffin. Then he added some traces of insectoid and wyvern to the pool, resulting in a creature far worse than the sum of its parts.
 202838_name;Chimera
-202838_tooltip;<keyword=deploy>Deploy</keyword>: <keyword=consume>Consume</keyword> an allied unit.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: Boost all copies of <keyword=consume>Consumed</keyword> unit in that unit's row by {Boost1}.
+202838_tooltip;<keyword=deploy>Deploy</keyword>: <keyword=consume>Consume</keyword> an allied unit.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: Boost all copies of <keyword=consume>Consumed</keyword> unit in that unit's row by {Boost1}.
 202839_fluff;Professor Malaspina accidentally added an extra ingredient to the concoction—compound X.
 202839_name;Spontaneous Evolution
 202839_tooltip;Boost an allied unit by {Boost} and gain an additional effect based on the unit's category.\n\nInsectoid - <keyword=spawn>Spawn</keyword> {MaxTargets} Drones on the boosted unit's row.\nBeast -  Boost that unit by {Boost2} instead.\nOgroid - Give all Ogroids in your hand {Armor} <keyword=armor>Armor</keyword>.
 202841_fluff;Slain by the arrows of those she had hunted. Or so many thought. The Salamandra had different plans for her.
 202841_name;Fallen Rayla
-202841_tooltip;<keyword=profit>Profit</keyword> {Income}.\n<keyword=tribute>Tribute</keyword> {Tribute-B.P.BB_Tribute}: Gain <keyword=veil>Veil</keyword>.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: Whenever you pay a <keyword=tribute>Tribute</keyword> ability, boost self by that <keyword=tribute>Tribute's</keyword> cost.
+202841_tooltip;<keyword=profit>Profit</keyword> {Income}.\n<keyword=tribute>Tribute</keyword> {Tribute-B.P.BB_Tribute}: Gain <keyword=veil>Veil</keyword>.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: Whenever you pay a <keyword=tribute>Tribute</keyword> ability, boost self by that <keyword=tribute>Tribute's</keyword> cost.
 202842_fluff;Despite their cute little faces, it's best to avoid petting them, as the salamander, when threatened, secretes a deadly toxin that boils the very skin it comes into contact with.
 202842_name;Salamander
 202842_tooltip;<keyword=profit>Profit</keyword> {Income}.\n<keyword=deploy>Deploy</keyword>: <keyword=poison>Poison</keyword> a unit. \n<keyword=tribute>Tribute</keyword> {Tribute-B.P.BB_Tribute}: <keyword=poison>Poison</keyword> all units on the battlefield instead.\nIncrease the <keyword=profit>Profit</keyword> by 1 for every allied Salamandra unit.
@@ -3412,19 +3412,19 @@
 202843_tooltip;<keyword=resilient>Resilience</keyword>.\n<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> and play Failed Experiment, Salamandra Abomination, Salamandra Mage or Salamandra Lackey.\n<keyword=order>Order</keyword>: Move <keyword=poison>Poison</keyword> from an ally to another unit.
 202844_fluff;“How's my brother doing in the sewers, I wonder...” ⁠— Roland
 202844_name;Roland Bleinheim
-202844_tooltip;Whenever a unit is <keyword=poison>Poisoned</keyword>, gain {Coins} <keyword=coin>Coins</keyword>.
+202844_tooltip;Whenever a unit gains <keyword=poison>Poison</keyword>, gain {Coins} <keyword=coin>Coins</keyword>.
 202845_fluff;“How's my brother doing in the woods, I wonder...” ⁠— Gellert
 202845_name;Gellert Bleinheim
-202845_tooltip;<keyword=profit>Profit</keyword> {Profit}.\n<keyword=fee>Fee</keyword> {Cost}: <keyword=poison>Poison</keyword> an allied unit and boost it by {Boost}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: <keyword=cooldown>Cooldown</keyword>: {Cooldown}.
+202845_tooltip;<keyword=profit>Profit</keyword> {Profit}.\n<keyword=fee>Fee</keyword> {Cost}: <keyword=poison>Poison</keyword> an allied unit and boost it by {Boost}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: <keyword=cooldown>Cooldown</keyword>: {Cooldown}.
 202846_fluff;Lackeys are expected to perform their first five jobs for no pay, demonstrating their passion for the gig.
 202846_name;Salamandra Lackey
 202846_tooltip;The first time you gain a <keyword=coin>Coin</keyword> each turn, boost self by {Boost}.
 202847_fluff;Salamandra’s scientists were so preoccupied with whether they could, they never once considered if they should.
 202847_name;Salamandra Abomination
-202847_tooltip;<keyword=tribute>Tribute</keyword> {Tribute-B.P.BB_Tribute}: <keyword=poison>Poison</keyword> self.\nWhenever this unit is <keyword=poison>Poisoned</keyword>, boost self by {Boost}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: At the end of your turn, <keyword=purify>Purify</keyword> self.
+202847_tooltip;<keyword=tribute>Tribute</keyword> {Tribute-B.P.BB_Tribute}: <keyword=poison>Poison</keyword> self.\nWhenever this unit is <keyword=poison>Poisoned</keyword>, boost self by {Boost}.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: At the end of your turn, <keyword=purify>Purify</keyword> self.
 202848_fluff;Building a fire warms people for a day, but setting them on fire…
 202848_name;Salamandra Mage
-202848_tooltip;<keyword=tribute>Tribute</keyword> {Tribute-B.P.BB_Tribute}: Damage 3 adjacent enemy units by {Damage}.\nWhenever you pay a <keyword=tribute>Tribute</keyword> ability, gain {Coins} <keyword=coin>Coins</keyword>.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline}: Gain {Coins2} <keyword=coin>Coins</keyword> instead.
+202848_tooltip;<keyword=tribute>Tribute</keyword> {Tribute-B.P.BB_Tribute}: Damage 3 adjacent enemy units by {Damage}.\nWhenever you pay a <keyword=tribute>Tribute</keyword> ability, gain {Coins} <keyword=coin>Coins</keyword>.\n<keyword=adrenaline>Adrenaline</keyword> {Adrenaline-1}: Gain {Coins2} <keyword=coin>Coins</keyword> instead.
 202849_fluff;Even failed experiments can serve a purpose. How else would one be expected to push the boundaries of knowledge?
 202849_name;Failed Experiment
 202849_tooltip;At the end of your turn, lose {Cost} <keyword=coin>Coin</keyword>. If you have no <keyword=coin>Coins</keyword>, damage self by {Damage} instead.\nWhile <keyword=poison>Poisoned</keyword>, disable this ability.
@@ -3445,10 +3445,10 @@
 202880_tooltip;<keyword=deploy>Deploy</keyword>: Replace your leader ability with a base copy of your opponent's leader ability.
 202881_fluff;They do not call me the Patient. Take care they do not call you the Headless.
 202881_name;Emhyr var Emreis
-202881_tooltip;<keyword=deploy>Deploy</keyword>: Draw a card, then move a card from your hand to the bottom of your deck.\nWhenever your opponent plays a unit, give it <keyword=spying>Spying</keyword>.\n<keyword=devotion>Devotion</keyword>: At the end of your turn, <keyword=seize>Seize</keyword> a random {power}-power <keyword=spying>Spying</keyword> unit.
+202881_tooltip;<keyword=zeal>Zeal</keyword>.\n<keyword=deploy>Deploy</keyword>: Draw a card, then move a card from your hand to the bottom of your deck.\nWhenever your opponent plays a unit, give it <keyword=spying>Spying</keyword>.\n<keyword=order>Order</keyword>: <keyword=seize>Seize</keyword> a {power}-power enemy unit with <keyword=spying>Spying</keyword>.\n<keyword=devotion>Devotion</keyword>: At the end of your turn, refresh this card's <keyword=order>Order</keyword>.
 202882_fluff;Nilfgaardians call 'im Tirth ys Muire, the Wild Boar o' the Sea. Use 'im to scare their kiddies!
 202882_name;Crach an Craite
-202882_tooltip;<keyword=deploy>Deploy</keyword>: Give {Armor} <keyword=armor>Armor</keyword> to {MaxTargets} Pirates or Ships in your hand.\nWhenever you play a Pirate or Ship next to Crach, damage it and the lowest power enemy unit by each others power.
+202882_tooltip;<keyword=deploy>Deploy</keyword>: Give {Armor} <keyword=armor>Armor</keyword> to {MaxTargets} Pirates or Ships in your hand.\n<keyword=order>Order</keyword>: Damage a unit by {damage3}.\n<keyword=cooldown>Cooldown</keyword>: {cooldown}\nWhenever you play a Pirate or Ship next to Crach, damage it and the lowest power enemy unit by each others power.
 202883_fluff;Eist came to Cintra to help Crach an Craite win the hand of Princess Pavetta, yet wound up winning her mother's heart for himself.
 202883_name;Eist Tuirseach
 202883_tooltip;<keyword=veteran>Veteran</keyword>.\n<keyword=deploy>Deploy</keyword>, <keyword=bloodthirst>Bloodthirst</keyword> {Bloodthirst}: Draw a card, then <keyword=discard>Discard</keyword> a card.\nWhenever you <keyword=discard>Discard</keyword> a Skellige unit during your turn, <keyword=summon>Summon</keyword> it from your graveyard to this row.\nCounter: {Counter}.\n<keyword=devotion>Devotion</keyword>: Also works whenever a Skellige unit enters your graveyard during your turn.
@@ -3460,13 +3460,13 @@
 202885_tooltip;<keyword=deploy>Deploy</keyword>: Transform all your face-up Traps into Elven Deadeyes.\n<keyword=devotion>Devotion</keyword>: Also transform your other artifacts.
 202886_fluff;Don't need advisors and their schemes. I place my trust in my soldiers' blades.
 202886_name;King Foltest
-202886_tooltip;The first time a bronze unit on your side of the battlefield is boosted each turn, <keyword=spawn>Spawn</keyword> a base copy of it at the bottom of your deck.\n<keyword=devotion>Devotion</keyword>: Also boost the <keyword=spawn>Spawned</keyword> copy by {boost}.
+202886_tooltip;The first time a bronze unit on your side of the battlefield is boosted each turn, <keyword=spawn>Spawn</keyword> a base copy of it at the bottom of your deck.\n<keyword=devotion>Devotion</keyword>: Also boost the <keyword=spawn>Spawned</keyword> copy by {boost}.\nAt the end of your turn, boost the unit to the right by {boost2}.
 202887_fluff;We're at war, when rulers don't strive nor choose. When rulers grasp sword and shield and ride out to defend their subjects.
 202887_name;Queen Meve
-202887_tooltip;<keyword=inspired>Inspired</keyword>: At the end of your turn, lower the Counter by 1.\nCounter: {Counter}\nWhen the Counter reaches 0, boost all allied units by {Boost}.
+202887_tooltip;<keyword=inspired>Inspired</keyword>: At the end of your turn, lower the Counter by 1.\nCounter: {Counter}\nWhen the Counter reaches 0, boost all allied units by {Boost} and reset the Counter.\nWhenever this unit receives a boost, gain {Armor} <keyword=armor>Armor</keyword>.
 202888_fluff;He did not love like a man, but like an animal. Madly, deeply, unconditionally. Wildly.
 202888_name;Dettlaff van der Eretein
-202888_tooltip;<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> <keyword=blood_moon>Blood Moon</keyword> on an enemy row for {Counter} turn. Increase the duration by 1 for every adjacent Vampire.\n<keyword=order>Order</keyword>: Damage an enemy unit with <keyword=bleeding>Bleeding</keyword> by {Damage}.\n<keyword=deathblow>Deathblow</keyword>: <keyword=spawn>Spawn</keyword> an Ekimmara on this row.\n<keyword=cooldown>Cooldown</keyword>: {Cooldown}
+202888_tooltip;<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> <keyword=blood_moon>Blood Moon</keyword> on an enemy row for {Counter} turns. Increase the duration by 1 for every adjacent Vampire.\n<keyword=order>Order</keyword>: Damage an enemy unit with <keyword=bleeding>Bleeding</keyword> by {Damage}.\n<keyword=deathblow>Deathblow</keyword>: <keyword=spawn>Spawn</keyword> an Ekimmara on this row.\n<keyword=cooldown>Cooldown</keyword>: {Cooldown}
 202889_fluff;No one, not even among the higher vampires, knows exactly how old the Unseen Elder is. They only know they should never, under any circumstances, defy his will.
 202889_name;Unseen Elder
 202889_tooltip;<keyword=deploy>Deploy</keyword>: Give <keyword=bleeding>Bleeding</keyword> ({Bleeding}) to an enemy unit.\nAt the end of your turn, give <keyword=bleeding>Bleeding</keyword> ({Bleeding2}) to a random enemy unit without <keyword=bleeding>Bleeding</keyword>.\n<keyword=devotion>Devotion</keyword>: <keyword=bleeding>Bleeding</keyword> on enemy units also triggers at the end of your turn.
@@ -3475,10 +3475,16 @@
 202890_tooltip;<keyword=intimidate>Intimidate</keyword>.\n<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> and play Shakedown.\nIncrease this card's <keyword=intimidate>Intimidate</keyword> by {Intimidate} for every adjacent Crownsplitter.\n<keyword=fee>Fee</keyword> {Cost}: <keyword=spawn>Spawn</keyword> a Cleaver's Muscle on this row.
 202891_fluff;A war with Whoreson will see Novigrad's gutters run red with blood.
 202891_name;Whoreson Junior
-202891_tooltip;<keyword=deploy>Deploy</keyword>: Damage a boosted enemy unit by {Damage}. Gain a <keyword=coin>Coin</keyword> for every point of excess damage dealt.\n<keyword=devotion>Devotion</keyword>: Also gain <keyword=insanity>Insanity</keyword>.\n<keyword=fee>Fee</keyword> {Cost}: Destroy an enemy unit with {Power} power or less.
+202891_tooltip;<keyword=insanity>Insanity</keyword>.\n<keyword=deploy>Deploy</keyword>: Damage a boosted enemy unit by {Damage}. Gain a <keyword=coin>Coin</keyword> for every point of excess damage dealt.\n<keyword=devotion>Devotion</keyword>: Damage an enemy unit instead.\n<keyword=fee>Fee</keyword> {Cost}: Destroy an enemy unit with {Power} power or less.
 202892_fluff;Forward, you sorry sods! Forward or you'll see the Nilfgaardians are the least of your worries!
 202892_name;Kaedweni Sergeant
 202892_tooltip;<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Boost an allied unit by {Boost}. \n<keyword=charge>Charge</keyword>: {Charges}.
+202941_fluff;I's a war veteran! Spare me a crown?
+202941_name;Left Fucking Flank
+202941_tooltip;<keyword=doomed>Doomed</keyword>.
+202942_fluff;I's a war veteran! Spare me a crown?
+202942_name;Right Fucking Flank
+202942_tooltip;<keyword=doomed>Doomed</keyword>.
 21_name_sa;Ignore.
 22_name_sa;Ignore.
 23_name_sa;Ignore.
